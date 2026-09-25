@@ -4,6 +4,9 @@ import requests #use requests to grab website
 from bs4 import BeautifulSoup #use BeautifulSoup class to parse html
 import json #use json to export our data gathered
 
+uc_transferable = None
+csu_transferable = None
+
 #functions to parse individual elements from the webpage
 def parse_course_title(course_block):
     #using .find, locate the location of the "courseblocktitle" in each course block and get the text
@@ -57,30 +60,33 @@ def parse_course(course_block):
     course_list_dictionary["requirements"] = requirement
     course_list_dictionary["description"] = description
     return course_list_dictionary
+def parse_subject_page(url):
+    page_course_lists = []
+    #request data from Mt. Sac course catalog
+    response = requests.get(url)
+
+    #200 success; 404 doesn't exist; 403 access forbidden; 500 server error
+    response.raise_for_status()
+
+    #use BeautifulSoup to create an object of the site that is parsed
+    soup = BeautifulSoup(response.text, "html.parser") 
+
+    #search the whole site for tag <div> and class="courseblock"
+    course_blocks = soup.find_all(name = "div", class_ = "courseblock")
+
+    #iterate through each course block and parse information off it
+    for i in course_blocks:
+        page_course_lists.append(parse_course(i))
+
+    return page_course_lists
+def save_courses_json(courses, filepath):
+    with open(filepath, mode="w") as file:
+        json.dump(courses, file, indent=4)
 
 
+page_courses = parse_subject_page("https://catalog.mtsac.edu/programs/coursesaz/csci/")
+save_courses_json(page_courses, "data/csci_courses.json")
 
-uc_transferable = None
-csu_transferable = None
-
-#request data from Mt. Sac course catalog
-response = requests.get("https://catalog.mtsac.edu/programs/coursesaz/csci/")
-print(response.status_code)
-#200 success; 404 doesn't exist; 403 access forbidden; 500 server error
-
-#use BeautifulSoup to create an object of the site that is parsed
-soup = BeautifulSoup(response.text, "html.parser") 
-
-#search the whole site for tag <div> and class="courseblock"
-course_blocks = soup.find_all(name = "div", class_ = "courseblock")
-
-#iterate through each course block and parse information off it
-page_course_lists = []
-for i in course_blocks:
-    page_course_lists.append(parse_course(i))
-
-with open("data/csci_courses.json", mode="w") as file:
-    json.dump(page_course_lists, file, indent=4)
 
 
 
