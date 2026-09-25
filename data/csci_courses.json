@@ -1,0 +1,118 @@
+[
+    {
+        "code": "CSCI 110",
+        "title": "Fundamentals of Computer Science",
+        "units": 3.5,
+        "uc_transferable": true,
+        "csu_transferable": true,
+        "requirements": [
+            {
+                "type": "Advisory",
+                "courses": [
+                    "ENGL C1000",
+                    "AMLA 1A"
+                ],
+                "raw": "Advisory: Eligibility for ( ENGL C1000 or ENGL 1A) or (ENGL C1000H or ENGL 1AH) or AMLA 1A"
+            }
+        ],
+        "description": "Computer hardware and software. General computer organization and information representation. Binary and hexadecimal number systems. Algorithm design and problem-solving techniques. Introduction to programming using a high level language such as C++, Java, or Python."
+    },
+    {
+        "code": "CSCI 140",
+        "title": "C++ Language and Object Development",
+        "units": 4.0,
+        "uc_transferable": true,
+        "csu_transferable": true,
+        "requirements": [
+            {
+                "type": "Prerequisite",
+                "courses": [
+                    "CSCI 110"
+                ],
+                "raw": "Prerequisite: CSCI 110"
+            }
+        ],
+        "description": "For computer science, mathematics, engineering and other science students. C++ programming and object-oriented paradigm. Control structures, functions, arrays, pointers and strings, classes and data abstraction, C++ object programming, operator overloading, inheritance, virtual functions and polymorphism, stream input and output, templates, exception handling, file processing. Data structures in C++, string processing and recursion."
+    },
+    {
+        "code": "CSCI 145",
+        "title": "Java Language and Object Oriented Programming",
+        "units": 4.0,
+        "uc_transferable": true,
+        "csu_transferable": true,
+        "requirements": [
+            {
+                "type": "Prerequisite",
+                "courses": [
+                    "CSCI 110"
+                ],
+                "raw": "Prerequisite: CSCI 110"
+            }
+        ],
+        "description": "Java language and object-oriented programming (OOP) with Java as well as general concepts and techniques of computer programming. Topics include: Java expressions, flow control, methods and program structure, Java classes, overloading, object references, inheritance, Java library packages, exceptions, file input/output (I/O), graphical user interface (GUI), and event handling. A course for computer science, engineering, mathematics, and other science students."
+    },
+    {
+        "code": "CSCI 150",
+        "title": "Assembly Language/Machine Architecture",
+        "units": 3.5,
+        "uc_transferable": true,
+        "csu_transferable": true,
+        "requirements": [
+            {
+                "type": "Prerequisite",
+                "courses": [
+                    "CSCI 110"
+                ],
+                "raw": "Prerequisite: CSCI 110"
+            },
+            {
+                "type": "Advisory",
+                "courses": [
+                    "CSCI 140",
+                    "CSCI 145"
+                ],
+                "raw": "Advisory: CSCI 140 or CSCI 145"
+            }
+        ],
+        "description": "Organization and operation of real computer systems at the assembly language level using the Intel x86, x86-64, or ARM family of processors; mapping statements and constructs in a high-level language onto sequences of machine instructions; internal representations of simple data types and structures; numerical computation, noting various data representation errors and potential procedural errors; investigation of basic principles of operating systems; and programming language translation process."
+    },
+    {
+        "code": "CSCI 190",
+        "title": "Discrete Mathematics Applied to Computer Science",
+        "units": 4.0,
+        "uc_transferable": true,
+        "csu_transferable": true,
+        "requirements": [
+            {
+                "type": "Prerequisite",
+                "courses": [
+                    "CSCI 110",
+                    "MATH 130",
+                    "MATH 150",
+                    "MATH 160",
+                    "MATH 180"
+                ],
+                "raw": "Prerequisite: CSCI 110 and MATH 130 or MATH 150 or MATH 160 or MATH 180"
+            }
+        ],
+        "description": "A study of set theory, propositional and predicate calculus, modular arithmetic, counting techniques, combinatorics, mathematical induction, recursion, binary search trees, graphs, and finite probability. For students in computer science, engineering, mathematics and other sciences."
+    },
+    {
+        "code": "CSCI 240",
+        "title": "Data Structures and Algorithms",
+        "units": 4.0,
+        "uc_transferable": true,
+        "csu_transferable": true,
+        "requirements": [
+            {
+                "type": "Prerequisite",
+                "courses": [
+                    "CSCI 140",
+                    "CSCI 145"
+                ],
+                "raw": "Prerequisite: CSCI 140 or CSCI 145"
+            }
+        ],
+        "description": "Abstract data types and algorithm analysis and design. Linear data structures including stacks, queues, vectors, and lists. Non-linear data structures including trees, binary search trees, heaps, priority queues, and graphs. Searching, sorting, and hash tables. Design patterns including divide-and-conquer, greedy method, and dynamic programming. Memory and disk management techniques."
+    }
+]
