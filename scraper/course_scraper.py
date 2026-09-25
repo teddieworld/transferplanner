@@ -3,6 +3,7 @@
 import requests #use requests to grab website
 from bs4 import BeautifulSoup #use BeautifulSoup class to parse html
 import json #use json to export our data gathered
+from urllib.parse import urljoin
 
 uc_transferable = None
 csu_transferable = None
@@ -16,9 +17,15 @@ def parse_course_title(course_block):
     return course_code, course_title
 def parse_units(course_block):
     unit_text = course_block.find(class_="coursehours")
-    units = unit_text.find(name = "strong").get_text(strip = True).split(maxsplit=2)
-    units = float(units[0])
-    return units
+    units = unit_text.find(name = "strong").get_text(strip = True).split()
+    units = units[0].split("-")
+    if len(units) == 2:
+        min_units = float(units[0])
+        max_units = float(units[1])
+    elif len(units) == 1:
+        min_units = float(units[0])
+        max_units = float(units[0])
+    return min_units, max_units
 def parse_transferability(course_block):
     course_hours_element = course_block.find(class_="coursehours")
     transferability_text = course_hours_element.find(name = "strong").next_sibling.strip()
@@ -47,14 +54,15 @@ def parse_description(course_block):
 def parse_course(course_block):
     course_list_dictionary = {}
     course_code, course_title= parse_course_title(course_block)
-    units = parse_units(course_block)
+    min_units, max_units = parse_units(course_block)
     uc_transferable, csu_transferable = parse_transferability(course_block)
     requirement = parse_requirements(course_block)
     description = parse_description(course_block)
 
     course_list_dictionary["code"] = course_code
     course_list_dictionary["title"] = course_title
-    course_list_dictionary["units"] = units
+    course_list_dictionary["minimum_units"] = min_units
+    course_list_dictionary["maximum_units"] = max_units
     course_list_dictionary["uc_transferable"] = uc_transferable
     course_list_dictionary["csu_transferable"] = csu_transferable
     course_list_dictionary["requirements"] = requirement
@@ -62,8 +70,9 @@ def parse_course(course_block):
     return course_list_dictionary
 def parse_subject_page(url):
     page_course_lists = []
+    print(url)
     #request data from Mt. Sac course catalog
-    response = requests.get(url)
+    response = requests.get(url, timeout = 10)
 
     #200 success; 404 doesn't exist; 403 access forbidden; 500 server error
     response.raise_for_status()
@@ -83,9 +92,30 @@ def save_courses_json(courses, filepath):
     with open(filepath, mode="w") as file:
         json.dump(courses, file, indent=4)
 
+def get_subject_urls():
+    response = requests.get("https://catalog.mtsac.edu/programs/coursesaz/", timeout=10)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
 
-page_courses = parse_subject_page("https://catalog.mtsac.edu/programs/coursesaz/csci/")
-save_courses_json(page_courses, "data/csci_courses.json")
+    links = soup.find_all(name = "a", href = True)
+    subject_urls = []
+    for i in links:
+        if(i["href"].startswith("/programs/coursesaz/")):
+            url = urljoin("https://catalog.mtsac.edu", i["href"])
+            subject_urls.append(url)
+
+    return subject_urls
+
+subject_urls = get_subject_urls()
+master_course = []
+
+for i in subject_urls:
+    if not(i.endswith(".pdf")):
+        courses = parse_subject_page(i)
+        if courses:
+            master_course.extend(courses)
+
+save_courses_json(master_course, "data/mtsac_courses.json")
 
 
 
