@@ -73,7 +73,8 @@ def insert_requirement(cursor, course_id, requirement):
             %s
         )
         ON CONFLICT(course_id, requirement_type, raw_text)
-        DO NOTHING;
+        DO NOTHING
+        RETURNING id;
     """
     values = (
         course_id,
@@ -81,6 +82,47 @@ def insert_requirement(cursor, course_id, requirement):
         requirement["raw"]
     )
     cursor.execute(query, values)
+    result = cursor.fetchone()
+    if result:
+        return result[0]
+    return get_requirement_id(cursor, course_id, requirement)
+def get_requirement_id(cursor, course_id, requirement):
+    query = """
+        SELECT id
+        FROM course_requirements
+        WHERE course_id = %s
+        AND requirement_type = %s
+        AND raw_text=%s;
+    """
+    values = (
+        course_id,
+        requirement["type"],
+        requirement["raw"]
+    )
+    cursor.execute(query, values)
+    result = cursor.fetchone()
+    if result:
+        return result[0]
+    return None
+def insert_requirement_course(cursor, requirement_id, referenced_course_id):
+    query = """
+        INSERT INTO requirement_courses(
+            requirement_id,
+            referenced_course_id
+        )
+        VALUES(
+            %s,
+            %s
+        )
+        ON CONFLICT (requirement_id, referenced_course_id)
+        DO NOTHING
+    """
+    values = (
+        requirement_id,
+        referenced_course_id
+    )
+    cursor.execute(query,values)
+    
 
 connection = connect_to_database()
 #connects to the database
@@ -94,7 +136,15 @@ for course in courses:
     insert_course(cursor, course, 1) #executes the insert command into courses database
     course_id = get_course_id(cursor, 1, course["code"])
     for requirement in course["requirements"]:
-        insert_requirement(cursor, course_id, requirement)
+
+        requirement_id = insert_requirement(cursor, course_id, requirement)
+
+        for course_code in requirement["courses"]:
+
+            referenced_course_id = get_course_id(cursor, 1, course_code)
+
+            if referenced_course_id:
+                insert_requirement_course(cursor, requirement_id, referenced_course_id)
 
 connection.commit()
 #commits changes

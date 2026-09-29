@@ -29,3 +29,23 @@ CREATE TABLE IF NOT EXISTS requirement_courses(
     referenced_course_id INTEGER NOT NULL REFERENCES courses(id),
     PRIMARY KEY(requirement_id, referenced_course_id)
 );
+
+CREATE TABLE IF NOT EXISTS universities(
+    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name TEXT NOT NULL,
+    UNIQUE(name)
+);
+
+CREATE TABLE IF NOT EXISTS majors(
+    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    university_id INTEGER NOT NULL REFERENCES universities(id),
+    name TEXT NOT NULL,
+    UNIQUE(university_id, name)
+);
+
+CREATE TABLE IF NOT EXISTS major_requirements(
+    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    major_id INTEGER NOT NULL REFERENCES majors(id),
+    requirement_text TEXT NOT NULL,
+    UNIQUE(major_id, requirement_text)
+);
