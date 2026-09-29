@@ -1,0 +1,14 @@
+{
+    "university": "University of California, Los Angeles",
+    "major": "Computer Science",
+    "requirements": [
+        {
+            "text": "Calculus I",
+            "courses": ["MATH 180"]
+        },
+        {
+            "text": "Calculus II",
+            "courses": ["MATH 181"]
+        }
+    ]
+}

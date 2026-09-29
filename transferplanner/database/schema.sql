@@ -2,6 +2,7 @@ CREATE TABLE IF NOT EXISTS colleges(
     id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name TEXT NOT NULL UNIQUE
 );
+--Represents different community colleges
 
 CREATE TABLE IF NOT EXISTS courses(
     id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -15,6 +16,7 @@ CREATE TABLE IF NOT EXISTS courses(
     description TEXT,
     UNIQUE (college_id, code)
 );
+--Represents different courses at each CCC with a foreign key to each college_id
 
 CREATE TABLE IF NOT EXISTS course_requirements(
     id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -23,18 +25,22 @@ CREATE TABLE IF NOT EXISTS course_requirements(
     raw_text TEXT NOT NULL,
     UNIQUE(course_id, requirement_type, raw_text)
 );
+--Requirements for taking a course at a CC with a foreign key to that course
+--Connects a course to its requirements
 
 CREATE TABLE IF NOT EXISTS requirement_courses(
     requirement_id INTEGER NOT NULL REFERENCES course_requirements(id),
     referenced_course_id INTEGER NOT NULL REFERENCES courses(id),
     PRIMARY KEY(requirement_id, referenced_course_id)
 );
+--connects a requirement to the invidivual courses inside of it
 
 CREATE TABLE IF NOT EXISTS universities(
     id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name TEXT NOT NULL,
     UNIQUE(name)
 );
+--different transfer destinations for universities
 
 CREATE TABLE IF NOT EXISTS majors(
     id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -42,6 +48,7 @@ CREATE TABLE IF NOT EXISTS majors(
     name TEXT NOT NULL,
     UNIQUE(university_id, name)
 );
+--majors at each respective university
 
 CREATE TABLE IF NOT EXISTS major_requirements(
     id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -49,3 +56,11 @@ CREATE TABLE IF NOT EXISTS major_requirements(
     requirement_text TEXT NOT NULL,
     UNIQUE(major_id, requirement_text)
 );
+--major requirement for a particular university major
+
+CREATE TABLE IF NOT EXISTS major_requirement_courses(
+    major_requirement_id INTEGER NOT NULL REFERENCES major_requirements(id),
+    course_id INTEGER NOT NULL REFERENCES courses(id),
+    PRIMARY KEY (major_requirement_id, course_id)
+);
+--connects a university major requirement to the CC course
