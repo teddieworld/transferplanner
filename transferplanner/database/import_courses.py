@@ -229,6 +229,44 @@ def load_articulations_json(filepath):
     with open(filepath, mode="r") as file:
         articulations = json.load(file)
     return articulations
+def get_major_requirements(cursor, university_name, major_name):
+    #queries SQL to give us the full corresponding courses for a university name and it's major
+    query = """
+        SELECT
+        u.name,
+        m.name,
+        mr.requirement_text,
+        c.code,
+        c.title
+        FROM universities u
+
+        JOIN majors m
+            ON m.university_id = u.id
+
+        JOIN major_requirements mr
+            ON mr.major_id = m.id
+
+        JOIN major_requirement_courses mrc
+            ON mrc.major_requirement_id = mr.id
+
+        JOIN courses c
+            ON mrc.course_id = c.id
+
+        WHERE u.name = %s
+        AND m.name = %s;
+    """
+    #Selects the values that are joined together from the different datatables with corresponding foreign keys
+    #gets the matching id for the parameter u.name and m.name and goes down the chain of foreign keys to find all corresponding data
+    
+    values = (
+        university_name,
+        major_name
+    )
+    cursor.execute(query, values)
+    results = cursor.fetchall()
+    return results
+
+
 
 connection = connect_to_database()
 #connects to the database
@@ -272,6 +310,10 @@ for requirement in articulations["requirements"]:
         if course_id:
             insert_major_requirement_course(cursor, major_requirement_id, course_id)
 
+results = get_major_requirements(cursor, "University of California, Los Angeles", "Computer Science")
+for row in results:
+    print(row)
+#get the different course requirements for the major at the university
 
 connection.commit()
 #commits changes
