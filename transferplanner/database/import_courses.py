@@ -170,14 +170,20 @@ def get_major_id(cursor, university_id, major_name):
     if result:
         return result[0]
     return None
-def insert_major_requirement(cursor, major_id, requirement_text,requirement_category):
+def insert_major_requirement(cursor, major_id, requirement_text,requirement_category, articulation_status, note, group_id):
     query = """
         INSERT into major_requirements(
             major_id,
             requirement_text,
-            requirement_category
+            requirement_category,
+            articulation_status,
+            note,
+            group_id
         )
         VALUES(
+            %s,
+            %s,
+            %s,
             %s,
             %s,
             %s
@@ -188,9 +194,11 @@ def insert_major_requirement(cursor, major_id, requirement_text,requirement_cate
     values = (
         major_id,
         requirement_text,
-        requirement_category
+        requirement_category,
+        articulation_status,
+        note,
+        group_id
     )
-
     cursor.execute(query,values)
 def get_major_requirement_id(cursor, major_id, requirement_text, requirement_category):
     query = """
@@ -215,47 +223,6 @@ def load_articulations_json(filepath):
     with open(filepath, mode="r") as file:
         articulations = json.load(file)
     return articulations
-def get_major_requirements(cursor, university_name, major_name):
-    #queries SQL to give us the full corresponding courses for a university name and it's major
-    query = """
-        SELECT
-        u.name,
-        m.name,
-        mr.requirement_text,
-        mro.option_number,
-        mr.requirement_category,
-        c.code,
-        c.title
-        FROM universities u
-
-        JOIN majors m
-            ON m.university_id = u.id
-
-        JOIN major_requirements mr
-            ON mr.major_id = m.id
-
-        JOIN major_requirement_options mro
-            ON mro.major_requirement_id = mr.id
-
-        JOIN major_requirement_option_courses mroc
-            ON mroc.option_id = mro.id
-
-        JOIN courses c
-            ON mroc.course_id = c.id
-
-        WHERE u.name = %s
-        AND m.name = %s;
-    """
-    #Selects the values that are joined together from the different datatables with corresponding foreign keys
-    #gets the matching id for the parameter u.name and m.name and goes down the chain of foreign keys to find all corresponding data
-    
-    values = (
-        university_name,
-        major_name
-    )
-    cursor.execute(query, values)
-    results = cursor.fetchall()
-    return results
 def insert_major_requirement_option(cursor, major_requirement_id, option_number):
     query = """
         INSERT into major_requirement_options(
@@ -308,7 +275,97 @@ def insert_major_requirement_option_course(cursor, option_id, course_id):
         course_id
     )
     cursor.execute(query,values)
+def insert_major_requirement_group(cursor, major_id, group_name, requirement_category, required_count):
+    query = """
+        INSERT into major_requirement_groups(
+            major_id,
+            group_name,
+            requirement_category,
+            required_count
+        )
+        VALUES(
+            %s,
+            %s,
+            %s,
+            %s
+        )
+        ON CONFLICT(major_id, requirement_category, group_name)
+        DO NOTHING
+    """
+    values = (
+        major_id,
+        group_name,
+        requirement_category,
+        required_count
+    )
+    cursor.execute(query, values)
+def get_major_requirement_group_id(cursor, major_id, requirement_category, group_name):
+    query = """
+        SELECT id
+        FROM major_requirement_groups
+        WHERE major_id = %s
+        AND requirement_category = %s
+        AND group_name = %s
+    """
+    values = (
+        major_id,
+        requirement_category,
+        group_name
+    )
+    cursor.execute(query, values)
+    result = cursor.fetchone()
+    if result:
+        return result[0]
+    return None
 
+def get_major_requirements(cursor, university_name, major_name):
+    #queries SQL to give us the full corresponding courses for a university name and it's major
+    query = """
+        SELECT
+        u.name,
+        m.name,
+        mrg.group_name,
+        mrg.required_count,
+        mr.requirement_text,
+        mro.option_number,
+        mr.requirement_category,
+        mr.articulation_status,
+        mr.note,
+        c.code,
+        c.title
+        FROM universities u
+
+        JOIN majors m
+            ON m.university_id = u.id
+
+        JOIN major_requirements mr
+            ON mr.major_id = m.id
+
+        LEFT JOIN major_requirement_options mro
+            ON mro.major_requirement_id = mr.id
+
+        LEFT JOIN major_requirement_groups mrg
+            ON mr.group_id = mrg.id
+
+        LEFT JOIN major_requirement_option_courses mroc
+            ON mroc.option_id = mro.id
+
+        LEFT JOIN courses c
+            ON mroc.course_id = c.id
+
+        WHERE u.name = %s
+        AND m.name = %s;
+    """
+    #Selects the values that are joined together from the different datatables with corresponding foreign keys
+    #gets the matching id for the parameter u.name and m.name and goes down the chain of foreign keys to find all corresponding data
+    
+    values = (
+        university_name,
+        major_name
+    )
+    cursor.execute(query, values)
+    results = cursor.fetchall()
+    return results
 
 connection = connect_to_database()
 #connects to the database
@@ -317,8 +374,7 @@ cursor = connection.cursor()
 
 courses = load_courses_json("transferplanner/data/mtsac_courses.json")
 #returns a list of dictionaries
-
-articulations = load_articulations_json("transferplanner/data/articulations.json")
+articulations = load_articulations_json("transferplanner/data/berkeley_cs_2026_2027.json")
 
 #catalog Mt.Sac course data
 for course in courses:
@@ -343,9 +399,14 @@ major_name = articulations["major"]
 insert_major(cursor, university_id, major_name)
 major_id = get_major_id(cursor, university_id, major_name)
 
+#catalog major groups
+for group in articulations["groups"]:
+    insert_major_requirement_group(cursor, major_id, group["name"], group["category"], group["required_count"])
+
 #catalog university majors, requirements, and courses
 for requirement in articulations["requirements"]:
-    insert_major_requirement(cursor, major_id, requirement["text"], requirement["category"])
+    group_id = get_major_requirement_group_id(cursor, major_id, requirement["category"], requirement["group"])
+    insert_major_requirement(cursor, major_id, requirement["text"], requirement["category"], requirement["articulation_status"], requirement["note"], group_id)
     major_requirement_id = get_major_requirement_id(cursor, major_id, requirement["text"], requirement["category"])
     for option in requirement["options"]:
         insert_major_requirement_option(cursor, major_requirement_id, option["option_number"])
@@ -356,8 +417,7 @@ for requirement in articulations["requirements"]:
                 insert_major_requirement_option_course(cursor, major_requirement_option_id, course_id)
 
         
-
-results = get_major_requirements(cursor, "University of California, Los Angeles", "Computer Science")
+results = get_major_requirements(cursor, "University of California, Berkeley", "Computer Science, B.A.")
 for row in results:
     print(row)
 #get the different course requirements for the major at the university

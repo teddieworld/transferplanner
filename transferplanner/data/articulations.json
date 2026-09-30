@@ -5,6 +5,8 @@
     {
       "text": "Calculus sequence",
       "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
       "options": [
         {
           "option_number": 1,

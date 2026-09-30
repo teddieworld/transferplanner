@@ -55,6 +55,9 @@ CREATE TABLE IF NOT EXISTS major_requirements(
     major_id INTEGER NOT NULL REFERENCES majors(id),
     requirement_text TEXT NOT NULL,
     requirement_category TEXT NOT NULL,
+    articulation_status TEXT NOT NULL,
+    note TEXT,
+    group_id INTEGER REFERENCES major_requirement_groups(id),
     UNIQUE(major_id, requirement_text, requirement_category)
 );
 --major requirement for a particular university major
@@ -73,3 +76,13 @@ CREATE TABLE IF NOT EXISTS major_requirement_option_courses(
     PRIMARY KEY (option_id, course_id)
 );
 --takes the option groups from major_requirement_options and store the actual courses
+
+CREATE TABLE IF NOT EXISTS major_requirement_groups(
+    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    major_id INTEGER NOT NULL REFERENCES majors(id),
+    group_name TEXT,
+    requirement_category TEXT NOT NULL,
+    required_count INTEGER
+    UNIQUE(major_id, requirement_category, group_name)
+);
+--represents groups in assist; A, B, C, etc.

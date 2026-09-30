@@ -1,0 +1,115 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Computer Science, B.A.",
+  "groups":[
+    {
+      "name" : "A",
+      "category": "required",
+      "required_count": null
+    },
+    {
+      "name" : "B",
+      "category": "required",
+      "required_count": 1
+    },
+    {
+      "name" : "A",
+      "category": "highly_recommended",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "MATH 51",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": ["MATH 180"]
+        }
+      ]
+    },
+    {
+      "text": "MATH 52",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": ["MATH 181"]
+        }
+      ]
+    },
+    {
+      "text": "MATH 54",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": ["ENGR 285"]
+        },
+        {
+          "option_number": 2,
+          "courses": ["MATH 285"]
+        },
+        {
+          "option_number": 3,
+          "courses": ["MATH 260", "MATH 290"]
+        }
+      ]
+    },
+    {
+      "text": "MATH 56",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "COMPSCI 61A",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "COMPSCI 61B",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "partial",
+      "note": "Must complete an additional university course after transfer to satisfy this requirement",
+      "options": [
+        {
+          "option_number": 1,
+          "courses": ["CSCI 240"]
+        }
+      ]
+    },
+    {
+      "text": "COMPSCI 61C",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "COMPSCI 70",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": []
+    }
+  ]
+}
