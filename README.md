@@ -7,6 +7,7 @@ transferability information, prerequisites, and requirements all on one platform
 
 Currently being developed using Python, Next.js, React, TypeScript, PostgreSQL
 
+View Dev Journal: [Development Journal](https://docs.google.com/document/d/1HwaDXg-RLkEVjlHfPUQIKogY-olNWLaf5u8yeVNf5cc/edit?usp=sharing)
 
 ## Features
   - Scrapes Mt. SAC course catalog data
