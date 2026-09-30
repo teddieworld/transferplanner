@@ -341,10 +341,15 @@ major_id = get_major_id(cursor, university_id, major_name)
 for requirement in articulations["requirements"]:
     insert_major_requirement(cursor, major_id, requirement["text"])
     major_requirement_id = get_major_requirement_id(cursor, major_id, requirement["text"])
-    for course_code in requirement["courses"]:
-        course_id = get_course_id(cursor, 1, course_code)
-        if course_id:
-            insert_major_requirement_course(cursor, major_requirement_id, course_id)
+    for option in requirement["options"]:
+        insert_major_requirement_option(cursor, major_requirement_id, option["option_number"])
+        major_requirement_option_id = get_major_requirement_option_id(cursor, major_requirement_id, option["option_number"])
+        for course_code in option["courses"]:
+            course_id = get_course_id(cursor, 1, course_code)
+            if course_id:
+                insert_major_requirement_option_course(cursor, major_requirement_option_id, course_id)
+
+        
 
 results = get_major_requirements(cursor, "University of California, Los Angeles", "Computer Science")
 for row in results:
