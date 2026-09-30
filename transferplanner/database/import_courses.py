@@ -206,25 +206,6 @@ def get_major_requirement_id(cursor, major_id, requirement_text):
     if result:
         return result[0]
     return None
-def insert_major_requirement_course(cursor, major_requirement_id, course_id):
-    query = """
-        INSERT into major_requirement_courses(
-            major_requirement_id,
-            course_id
-        )
-        VALUES(
-            %s,
-            %s
-        )
-        ON CONFLICT(major_requirement_id, course_id)
-        DO NOTHING
-    """
-    values = (
-        major_requirement_id,
-        course_id
-    )
-
-    cursor.execute(query, values)
 def load_articulations_json(filepath):
     with open(filepath, mode="r") as file:
         articulations = json.load(file)
@@ -236,6 +217,7 @@ def get_major_requirements(cursor, university_name, major_name):
         u.name,
         m.name,
         mr.requirement_text,
+        mro.option_number,
         c.code,
         c.title
         FROM universities u
@@ -246,11 +228,14 @@ def get_major_requirements(cursor, university_name, major_name):
         JOIN major_requirements mr
             ON mr.major_id = m.id
 
-        JOIN major_requirement_courses mrc
-            ON mrc.major_requirement_id = mr.id
+        JOIN major_requirement_options mro
+            ON mro.major_requirement_id = mr.id
+
+        JOIN major_requirement_option_courses mroc
+            ON mroc.option_id = mro.id
 
         JOIN courses c
-            ON mrc.course_id = c.id
+            ON mroc.course_id = c.id
 
         WHERE u.name = %s
         AND m.name = %s;
@@ -265,7 +250,58 @@ def get_major_requirements(cursor, university_name, major_name):
     cursor.execute(query, values)
     results = cursor.fetchall()
     return results
-
+def insert_major_requirement_option(cursor, major_requirement_id, option_number):
+    query = """
+        INSERT into major_requirement_options(
+            major_requirement_id,
+            option_number
+        )
+        VALUES(
+            %s,
+            %s
+        )
+        ON CONFLICT(major_requirement_id, option_number)
+        DO NOTHING
+    """
+    values = (
+        major_requirement_id,
+        option_number
+    )
+    cursor.execute(query,values)
+def get_major_requirement_option_id(cursor, major_requirement_id, option_number):
+    query = """
+        SELECT id
+        FROM major_requirement_options
+        WHERE major_requirement_id = %s
+        AND option_number = %s;
+    """
+    values = (
+        major_requirement_id,
+        option_number
+    )
+    cursor.execute(query, values)
+    result = cursor.fetchone()
+    if result:
+        return result[0]
+    return None
+def insert_major_requirement_option_course(cursor, option_id, course_id):
+    query = """
+        INSERT into major_requirement_option_courses(
+            option_id,
+            course_id
+        )
+        VALUES(
+            %s,
+            %s
+        )
+        ON CONFLICT(option_id, course_id)
+        DO NOTHING
+    """
+    values = (
+        option_id,
+        course_id
+    )
+    cursor.execute(query,values)
 
 
 connection = connect_to_database()

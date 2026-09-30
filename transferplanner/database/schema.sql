@@ -58,9 +58,17 @@ CREATE TABLE IF NOT EXISTS major_requirements(
 );
 --major requirement for a particular university major
 
-CREATE TABLE IF NOT EXISTS major_requirement_courses(
+CREATE TABLE IF NOT EXISTS major_requirement_options(
+    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     major_requirement_id INTEGER NOT NULL REFERENCES major_requirements(id),
-    course_id INTEGER NOT NULL REFERENCES courses(id),
-    PRIMARY KEY (major_requirement_id, course_id)
+    option_number INTEGER NOT NULL,
+    UNIQUE(major_requirement_id, option_number)
 );
---connects a university major requirement to the CC course
+--stores different options for satisfying a major requirement
+
+CREATE TABLE IF NOT EXISTS major_requirement_option_courses(
+    option_id INTEGER REFERENCES major_requirement_options(id),
+    course_id INTEGER REFERENCES courses(id),
+    PRIMARY KEY (option_id, course_id)
+);
+--takes the option groups from major_requirement_options and store the actual courses

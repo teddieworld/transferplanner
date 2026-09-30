@@ -1,14 +1,19 @@
 {
-    "university": "University of California, Los Angeles",
-    "major": "Computer Science",
-    "requirements": [
+  "university": "University of California, Los Angeles",
+  "major": "Computer Science",
+  "requirements": [
+    {
+      "text": "Calculus sequence",
+      "options": [
         {
-            "text": "Calculus I",
-            "courses": ["MATH 180"]
+          "option_number": 1,
+          "courses": ["MATH 180", "MATH 181"]
         },
         {
-            "text": "Calculus II",
-            "courses": ["MATH 181"]
+          "option_number": 2,
+          "courses": ["MATH 180H", "MATH 181H"]
         }
-    ]
+      ]
+    }
+  ]
 }
