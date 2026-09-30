@@ -54,7 +54,8 @@ CREATE TABLE IF NOT EXISTS major_requirements(
     id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     major_id INTEGER NOT NULL REFERENCES majors(id),
     requirement_text TEXT NOT NULL,
-    UNIQUE(major_id, requirement_text)
+    requirement_category TEXT NOT NULL,
+    UNIQUE(major_id, requirement_text, requirement_category)
 );
 --major requirement for a particular university major
 

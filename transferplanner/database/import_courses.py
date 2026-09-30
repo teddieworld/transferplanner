@@ -170,35 +170,40 @@ def get_major_id(cursor, university_id, major_name):
     if result:
         return result[0]
     return None
-def insert_major_requirement(cursor, major_id, requirement_text):
+def insert_major_requirement(cursor, major_id, requirement_text,requirement_category):
     query = """
         INSERT into major_requirements(
             major_id,
-            requirement_text
+            requirement_text,
+            requirement_category
         )
         VALUES(
             %s,
+            %s,
             %s
         )
-        ON CONFLICT(major_id, requirement_text)
+        ON CONFLICT(major_id, requirement_text, requirement_category)
         DO NOTHING
     """
     values = (
         major_id,
-        requirement_text
+        requirement_text,
+        requirement_category
     )
 
     cursor.execute(query,values)
-def get_major_requirement_id(cursor, major_id, requirement_text):
+def get_major_requirement_id(cursor, major_id, requirement_text, requirement_category):
     query = """
         SELECT id
         FROM major_requirements
         WHERE major_id = %s
         AND requirement_text = %s
+        AND requirement_category = %s;
     """
     values = (
         major_id,
-        requirement_text
+        requirement_text,
+        requirement_category
     )
 
     cursor.execute(query, values)
@@ -218,6 +223,7 @@ def get_major_requirements(cursor, university_name, major_name):
         m.name,
         mr.requirement_text,
         mro.option_number,
+        mr.requirement_category,
         c.code,
         c.title
         FROM universities u
@@ -339,8 +345,8 @@ major_id = get_major_id(cursor, university_id, major_name)
 
 #catalog university majors, requirements, and courses
 for requirement in articulations["requirements"]:
-    insert_major_requirement(cursor, major_id, requirement["text"])
-    major_requirement_id = get_major_requirement_id(cursor, major_id, requirement["text"])
+    insert_major_requirement(cursor, major_id, requirement["text"], requirement["category"])
+    major_requirement_id = get_major_requirement_id(cursor, major_id, requirement["text"], requirement["category"])
     for option in requirement["options"]:
         insert_major_requirement_option(cursor, major_requirement_id, option["option_number"])
         major_requirement_option_id = get_major_requirement_option_id(cursor, major_requirement_id, option["option_number"])
