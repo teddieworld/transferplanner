@@ -1,5 +1,6 @@
 import psycopg
 import json
+from pprint import pprint
 
 def connect_to_database():
     connection = psycopg.connect("dbname = transferplanner")
@@ -366,6 +367,55 @@ def get_major_requirements(cursor, university_name, major_name):
     cursor.execute(query, values)
     results = cursor.fetchall()
     return results
+def build_major_plan(rows):
+    plan = {
+        "university" : rows[0][0],
+        "major" : rows[0][1],
+        "categories" : {}
+    }
+    for row in rows:
+        category = row[6]
+        if category not in plan["categories"]:
+            plan["categories"][category] = {}
+
+        group_name = row[2]
+        required_count = row[3]
+        if group_name not in plan["categories"][category]:
+            plan["categories"][category][group_name] = {
+                "required_count": required_count,
+                "requirements": {}
+            }
+
+        requirement_text = row[4]
+        articulation_status = row[7]
+        note = row[8]
+        group = plan["categories"][category][group_name]
+        if requirement_text not in group["requirements"]:
+            group["requirements"][requirement_text] = {
+                "articulation_status": articulation_status,
+                "note": note,
+                "options": {}
+            }
+
+        option_number = row[5]
+        requirement = group["requirements"][requirement_text]
+        if option_number is not None:
+            if option_number not in requirement["options"]:
+                requirement["options"][option_number] = {
+                    "courses": []
+                }
+
+        course_code = row[9]
+        course_title = row[10]
+        if course_code is not None and option_number is not None:
+            option = requirement["options"][option_number]
+            option["courses"].append({
+                "code": course_code,
+                "title": course_title
+            })
+
+    return plan
+
 
 connection = connect_to_database()
 #connects to the database
@@ -418,9 +468,12 @@ for requirement in articulations["requirements"]:
 
         
 results = get_major_requirements(cursor, "University of California, Berkeley", "Computer Science, B.A.")
-for row in results:
-    print(row)
 #get the different course requirements for the major at the university
+
+plan = build_major_plan(results)
+
+pprint(plan)
+
 
 connection.commit()
 #commits changes
