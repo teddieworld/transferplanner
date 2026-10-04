@@ -2,6 +2,7 @@ import psycopg
 import json
 from pprint import pprint
 
+#parse functions SQL
 def connect_to_database():
     connection = psycopg.connect("dbname = transferplanner")
     return connection
@@ -318,6 +319,7 @@ def get_major_requirement_group_id(cursor, major_id, requirement_category, group
     if result:
         return result[0]
     return None
+#SQL to python
 
 def get_major_requirements(cursor, university_name, major_name):
     #queries SQL to give us the full corresponding courses for a university name and it's major
@@ -367,6 +369,7 @@ def get_major_requirements(cursor, university_name, major_name):
     cursor.execute(query, values)
     results = cursor.fetchall()
     return results
+#Organize SQL data about major requirements into nested structure
 def build_major_plan(rows):
     plan = {
         "university" : rows[0][0],
@@ -415,6 +418,104 @@ def build_major_plan(rows):
             })
 
     return plan
+
+#checkeach course in an option and if the user has it, then it satisfies
+def is_option_satisfied(option, completed_courses):
+    for course in option["courses"]:
+        code = course["code"]
+        if code not in completed_courses:
+            return False
+    return True
+#checks each option in a requirement, if the user has it, then it will satisfy
+def is_requirement_satisfied(requirement, completed_courses):
+    for option in requirement["options"].values():
+        if is_option_satisfied(option, completed_courses):
+            return "satisfied"
+    return False
+#check each requirement within a group
+def is_group_satisfied(group, completed_courses):
+    satisfied_count = 0
+    required_count = group["required_count"]
+    for requirement in group["requirements"].values():
+        status = get_requirement_status(requirement, completed_courses)
+        if status == "satisfied":
+            satisfied_count += 1
+        elif status == "partial":
+            print("partial credit")
+    if required_count is None:
+        if satisfied_count == len(group["requirements"]):
+            return True
+    elif required_count <= satisfied_count:
+        return True
+  
+    return False
+#check each group within a category and return if its satisfied
+def is_category_satisfied(category, completed_courses):
+    for group in category.values():
+        if is_group_satisfied(group, completed_courses) is False:
+            return False
+    return True
+#check the articulation status for a requirement
+def get_requirement_status(requirement, completed_courses):
+    articulation_status = requirement["articulation_status"]
+    if articulation_status == "articulated":
+        if is_requirement_satisfied(requirement, completed_courses):
+            return "satisfied"
+        else:
+            return "not_satisfied" 
+    elif articulation_status == "partial":
+        if is_requirement_satisfied(requirement, completed_courses):
+            return "partial"
+        else:
+            return "not_satisfied" 
+    elif articulation_status == "no_course_articulated":
+        return "no_course_articulated"
+    elif articulation_status == "university_only":
+        return "university_only"
+    
+    return "error"
+
+#check if a catgegory 'A' 'B' in a category is satisfied
+def get_category_status(category, completed_courses):
+    group_statuses = {}
+    for group_name, group in category.items():
+        group_statuses[group_name] = get_group_status(group, completed_courses)
+    category_satisfied = is_category_satisfied(category, completed_courses)
+    return {
+        "satisfied":category_satisfied,
+        "groups": group_statuses
+    }
+#check the categories within a major and if they are satsified
+def get_major_status(plan, completed_courses):
+    categories = {}
+    for category_name, category in plan["categories"].items():
+        categories[category_name] = get_category_status(category, completed_courses)
+
+    major_satisfied = categories["required"]["satisfied"]
+
+    return {
+        "satisfied" : major_satisfied,
+        "categories" : categories
+    }
+
+#return a dictionary of whether each requirement within a group is satisfied and the courses within it
+def get_group_status(group, completed_courses):
+    requirement_statuses = {}
+    for requirement_name, requirement in group["requirements"].items():
+        requirement_statuses[requirement_name] = get_requirement_status(requirement, completed_courses)
+    group_satisfied = is_group_satisfied(group, completed_courses)
+    return {
+        "satisfied" : group_satisfied,
+        "requirements" : requirement_statuses
+    }
+
+"""hierarchy of course organization:
+categories: "required", "highly_recommended"
+    groups: "A", "B" within each category
+        requirements: "MATH 54" or "CS 5"
+            options: "Option 1" or "Option 2"
+                courses: "MATH 180" or [....]
+"""
 
 
 connection = connect_to_database()
@@ -472,7 +573,13 @@ results = get_major_requirements(cursor, "University of California, Berkeley", "
 
 plan = build_major_plan(results)
 
-pprint(plan)
+completed_courses1 = ["MATH 180", "MATH 181", "MATH 280", "MATH 285"]
+major_status1 = get_major_status(plan, completed_courses1)
+
+completed_courses2 = ["MATH 180", "MATH 280", "MATH 285"]
+major_status2 = get_major_status(plan, completed_courses2)
+pprint(major_status1)
+pprint(major_status2)
 
 
 connection.commit()
