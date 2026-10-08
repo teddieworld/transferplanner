@@ -1,6 +1,4 @@
 "use client";
-//cd frontend
-//npm run dev
 
 type UniversitySelectorProps = {
     selectedUniversity: string;
@@ -19,13 +17,16 @@ export default function UniversitySelector({
     //onChange sends the value back to the react state so it is changed in the code
     return(
         <div>
-            <h2>Select a University</h2>
+            <label htmlFor="university">
+                Select a university
+            </label>
             <select 
             value = {selectedUniversity}
             onChange={(event) => onUniversityChange(event.target.value)}
+            id="university"
             >
                 <option value="">
-                    Select a university
+                    Select a University
                 </option>
                 <option value = "University of California, Berkeley">
                     UC Berkeley
