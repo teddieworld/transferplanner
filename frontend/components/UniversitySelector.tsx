@@ -1,5 +1,7 @@
 "use client";
 
+import { universities } from "@/app/agreements";
+
 type UniversitySelectorProps = {
     selectedUniversity: string;
     onUniversityChange: (value: string) => void;
@@ -28,12 +30,11 @@ export default function UniversitySelector({
                 <option value="">
                     Select a University
                 </option>
-                <option value = "University of California, Berkeley">
-                    UC Berkeley
-                </option>
-                <option value = "University of California, Los Angeles">
-                    UCLA
-                </option>
+            {universities.map(university => (
+            <option key={university} value={university}>
+                {university}
+            </option>
+            ))}
             </select>
         </div>
     );

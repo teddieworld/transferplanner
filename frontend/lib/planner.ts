@@ -29,6 +29,7 @@ export type Requirement = {
         | "partial"
         | "no_course_articulated"
         | "university_only"
+    note?: string;
 }
 
 //contains the different requirement statuses

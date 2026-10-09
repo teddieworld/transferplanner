@@ -1,17 +1,13 @@
 "use client";
 
+import { agreements } from "@/app/agreements";
+
 type MajorSelectorProps = {
     selectedUniversity: string;
     selectedMajor: string;
     onMajorChange: (value: string) => void;
 };
 //tells what inputs are expected and their type
-
-//Declare a constant variable majorsByUniversity that contains an object
-const majorsByUniversity:Record<string, string[]> = {
-    "University of California, Berkeley" : ["Computer Science, B.A."]
-};
-
 
 //declares the actual component
 export default function MajorSelector({
@@ -21,7 +17,13 @@ export default function MajorSelector({
 }: MajorSelectorProps)
 //receives the props object, destructures its properties and checks their types using majorselectorprops
 {
-    const availableMajors = majorsByUniversity[selectedUniversity] ?? [];
+    const availableMajors = [
+        ...new Set(
+            agreements
+                .filter(agreement => agreement.university === selectedUniversity)
+                .map(agreement => agreement.major)
+        )
+    ];
 
     //value = ___ sets the value that is actually shown in React/UI
     //onChange sends the value back to the react state so it is changed in the code

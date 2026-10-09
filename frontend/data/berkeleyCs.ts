@@ -13,7 +13,8 @@ const math54Requirement: Requirement = {
 const compsci61BRequirement: Requirement = {
   name: "COMPSCI 61B",
   articulationStatus: "partial",
-  options: [["CSCI 240"]]
+  options: [["CSCI 240"]],
+  note: "CSCI 240 provides partial coverage of COMPSCI 61B; completing it does not fully satisfy this requirement."
 };
 
 const math51Requirement: Requirement = {
@@ -37,7 +38,7 @@ const math56Requirement: Requirement = {
 const compsci61ARequirement: Requirement = {
   name: "COMPSCI 61A",
   articulationStatus: "no_course_articulated",
-  options: []
+  options: [],
 };
 
 const compsci61CRequirement: Requirement = {

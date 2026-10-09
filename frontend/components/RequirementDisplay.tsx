@@ -34,6 +34,11 @@ export default function RequirementDisplay({
             }
         </p>
         ))}
+        {requirement.note && (
+            <p>
+            {requirement.note}
+            </p>
+        )}
     </div>
   );
 }

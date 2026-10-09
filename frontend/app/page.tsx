@@ -8,22 +8,35 @@
 import {useState} from "react";
 import UniversitySelector from "@/components/UniversitySelector";
 import MajorSelector from "@/components/MajorSelector";
+import AcademicYearSelector from "@/components/AcademicYearSelector";
 import CourseSelector from "@/components/CourseSelector";
 import MajorPlan from "@/components/MajorPlan"
-import {berkeleyCsAgreement} from "@/data/berkeleyCs";
+import { agreements } from "./agreements";
 //imports the different components as children
-
 
 
 export default function Home() {
   const [selectedUniversity, setSelectedUniversity] = useState("");
   const [selectedMajor, setSelectedMajor] = useState("");
+  const [selectedAcademicYear, setSelectedAcademicYear] = useState("");
   const [completedCourses, setCompletedCourses] = useState<string[]>([]); //starting value is an empty array of strings
   //creates useStates for the selected values
+
+  const selectedAgreement = agreements.find(agreement =>
+    agreement.university === selectedUniversity &&
+    agreement.major === selectedMajor &&
+    agreement.academicYear === selectedAcademicYear
+  );
 
   function handleUniversityChange(value :string){
     setSelectedUniversity(value);
     setSelectedMajor("");
+    setSelectedAcademicYear("");
+  }
+
+  function handleMajorChange(value: string) {
+    setSelectedMajor(value);
+    setSelectedAcademicYear("");
   }
   
   function handleCourseChange(courseCode :string, isChecked :boolean){
@@ -47,17 +60,23 @@ export default function Home() {
       <MajorSelector
         selectedUniversity = {selectedUniversity}
         selectedMajor = {selectedMajor}
-        onMajorChange = {setSelectedMajor}
+        onMajorChange = {handleMajorChange}
+      />
+      <AcademicYearSelector
+        selectedUniversity={selectedUniversity}
+        selectedMajor={selectedMajor}
+        selectedAcademicYear={selectedAcademicYear}
+        onAcademicYearChange={setSelectedAcademicYear}
       />
       <CourseSelector
         completedCourses={completedCourses}
         onCourseChange={handleCourseChange}
+        onClearCourses = {() => setCompletedCourses([])}
       />
-      {selectedUniversity === "University of California, Berkeley" &&
-        selectedMajor === "Computer Science, B.A." && (
+      {selectedAgreement && (
           <MajorPlan
           completedCourses={completedCourses}
-          agreement={berkeleyCsAgreement}
+          agreement={selectedAgreement}
           />
       )}
     </main>

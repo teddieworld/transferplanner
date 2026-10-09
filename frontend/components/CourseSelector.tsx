@@ -3,6 +3,7 @@
 type CourseSelectorProps = {
     completedCourses : string[];
     onCourseChange : (courseCode:string, isChecked:boolean) => void;
+    onClearCourses: () => void;
 };
 
 const courses = [
@@ -38,7 +39,8 @@ const courses = [
 
 export default function CourseSelector({
     completedCourses,
-    onCourseChange
+    onCourseChange,
+    onClearCourses
 }:CourseSelectorProps)
 {
     return(
@@ -58,6 +60,13 @@ export default function CourseSelector({
         <p>{completedCourses.length === 0 ? "No completed courses selected": 
           completedCourses.join(", ")
         }</p>
+        <button
+          type="button"
+          onClick={onClearCourses}
+          disabled={completedCourses.length === 0}
+        >
+          Clear completed courses
+        </button>
         </div>
     )
 }
