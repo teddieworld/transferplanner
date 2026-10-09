@@ -1,33 +1,40 @@
 "use client";
 
-import {isGroupSatisfied, RequirementGroup} from "@/lib/planner";
+import {isGroupSatisfied, MajorAgreement} from "@/lib/planner";
 import { isCategorySatisfied } from "@/lib/planner";
 import RequirementDisplay from "./RequirementDisplay";
 
 type MajorPlanProps = {
     completedCourses: string[];
-    requiredGroups: RequirementGroup[];
-    highlyRecommendedGroups: RequirementGroup[]
+    agreement: MajorAgreement;
 };
 
 
 export default function MajorPlan({
     completedCourses,
-    requiredGroups,
-    highlyRecommendedGroups
+    agreement
 }: MajorPlanProps)
 {
     //check for course completions
-    const isRequiredCategorySatisfied = isCategorySatisfied(requiredGroups, completedCourses);
+    const isRequiredCategorySatisfied = isCategorySatisfied(agreement.requiredGroups, completedCourses);
 
     return(
         <div>
-            <h2>
+          <h2>
+            {agreement.major}
+          </h2>
+          <p>
+            {agreement.university}
+          </p>
+          <p>
+            Academic year: {agreement.academicYear}
+          </p>
+            <h3>
               Required
-            </h2>
-            {requiredGroups.map(group => (
+            </h3>
+            {agreement.requiredGroups.map(group => (
               <div key={group.name}>
-                <h3>Group {group.name}</h3>
+                <h4>Group {group.name}</h4>
                 <p>
                   {group.requiredCount === null
                     ? "Complete all requirements in this group."
@@ -52,12 +59,12 @@ export default function MajorPlan({
             <p>
               Required preparation: {isRequiredCategorySatisfied ? "Satisfied" : "Not satisfied"}
             </p>
-            <h2>
+            <h3>
               Highly recommended
-            </h2>
-            {highlyRecommendedGroups.map(group => (
+            </h3>
+            {agreement.highlyRecommendedGroups.map(group => (
               <div key={group.name}>
-                <h3>Group {group.name}</h3>
+                <h4>Group {group.name}</h4>
                 {group.requirements.map(requirement => (
                   <RequirementDisplay
                     key={requirement.name}

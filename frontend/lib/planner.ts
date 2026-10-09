@@ -91,3 +91,11 @@ export function isCategorySatisfied(
     isGroupSatisfied(group, completedCourses)
   );
 }
+
+export type MajorAgreement = {
+  university: string;
+  major: string;
+  academicYear: string;
+  requiredGroups: RequirementGroup[];
+  highlyRecommendedGroups: RequirementGroup[];
+};

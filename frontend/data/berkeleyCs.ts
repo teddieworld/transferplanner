@@ -1,4 +1,4 @@
-import type { Requirement, RequirementGroup } from "@/lib/planner";
+import type { Requirement, RequirementGroup, MajorAgreement} from "@/lib/planner";
 
 const math54Requirement: Requirement = {
   name: "MATH 54",
@@ -51,20 +51,20 @@ const compsci70Requirement: Requirement = {
   articulationStatus: "university_only",
   options: []
 };
-
+//group A of required
 const requiredGroupA: RequirementGroup = {
   name: "A",
   requirements: [math51Requirement, math52Requirement],
   requiredCount: null
 }
-
+//group B of required
 const requiredGroupB: RequirementGroup = {
   name: "B",
   requirements: [math54Requirement, math56Requirement],
   requiredCount: 1
 };
-
-export const highlyRecommendedGroupA: RequirementGroup = {
+//group A of highly recommended
+const highlyRecommendedGroupA: RequirementGroup = {
   name: "A",
   requirements: [
     compsci61ARequirement,
@@ -79,9 +79,18 @@ export const highlyRecommendedGroupA: RequirementGroup = {
 export const requiredGroups: RequirementGroup[] = [
   requiredGroupA, requiredGroupB
 ];
-
+//objects representing each section: required and highl recommended
 export const highlyRecommendedGroups: RequirementGroup[] = [
     highlyRecommendedGroupA
 ];
+
+//object representing the entire major agreement
+export const berkeleyCsAgreement: MajorAgreement = {
+  university: "University of California, Berkeley",
+  major: "Computer Science, B.A.",
+  academicYear: "2026–2027",
+  requiredGroups,
+  highlyRecommendedGroups
+};
 
 

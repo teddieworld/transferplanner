@@ -25,7 +25,6 @@ export default function RequirementDisplay({
             ]
         }
         </p>
-
         {requirement.options.map((option, index) => (
         <p key={index}>
             Option {index + 1}: {option.join(" AND ")} — {
