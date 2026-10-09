@@ -67,6 +67,7 @@ export const requirementStatusLabels: Record<RequirementStatus, string> = {
 
 //a type for each requirement group
 export type RequirementGroup = {
+  name: string;
   requirements: Requirement[];
   requiredCount: number | null;
 };
@@ -90,4 +91,3 @@ export function isCategorySatisfied(
     isGroupSatisfied(group, completedCourses)
   );
 }
-

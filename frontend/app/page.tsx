@@ -10,6 +10,10 @@ import UniversitySelector from "@/components/UniversitySelector";
 import MajorSelector from "@/components/MajorSelector";
 import CourseSelector from "@/components/CourseSelector";
 import MajorPlan from "@/components/MajorPlan"
+import {
+  requiredGroups,
+  highlyRecommendedGroups
+} from "@/data/berkeleyCs";
 //imports the different components as children
 
 
@@ -56,6 +60,8 @@ export default function Home() {
         selectedMajor === "Computer Science, B.A." && (
           <MajorPlan
           completedCourses={completedCourses}
+          requiredGroups = {requiredGroups}
+          highlyRecommendedGroups={highlyRecommendedGroups}
           />
       )}
     </main>
