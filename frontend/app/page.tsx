@@ -8,18 +8,11 @@
 import {useState} from "react";
 import UniversitySelector from "@/components/UniversitySelector";
 import MajorSelector from "@/components/MajorSelector";
+import CourseSelector from "@/components/CourseSelector";
+import MajorPlan from "@/components/MajorPlan"
 //imports the different components as children
 
-const courses = [
-  { 
-    code: "MATH 180", 
-    title: "Calculus and Analytic Geometry I"
-  },
-  {
-    code: "MATH 181",
-    title: "Calculus and Analytic Geometry II"
-  }
-];
+
 
 export default function Home() {
   const [selectedUniversity, setSelectedUniversity] = useState("");
@@ -34,10 +27,10 @@ export default function Home() {
   
   function handleCourseChange(courseCode :string, isChecked :boolean){
     if(isChecked){
-      setCompletedCourses(completedCourses.concat(courseCode));
+      setCompletedCourses(previousCourses => previousCourses.concat(courseCode));
     }
     else{
-      setCompletedCourses(completedCourses.filter(course => course !== courseCode));
+      setCompletedCourses(previousCourses => previousCourses.filter(course => course !== courseCode));
     }
   }
 //returns what is actually shown to the page in HTML
@@ -55,23 +48,16 @@ export default function Home() {
         selectedMajor = {selectedMajor}
         onMajorChange = {setSelectedMajor}
       />
-      {
-        courses.map(course => 
-        <label key={course.code}
-        className="block">
-          <input type="checkbox" 
-          checked={completedCourses.includes(course.code)}
-          onChange={event => handleCourseChange(course.code, event.target.checked)}
+      <CourseSelector
+        completedCourses={completedCourses}
+        onCourseChange={handleCourseChange}
+      />
+      {selectedUniversity === "University of California, Berkeley" &&
+        selectedMajor === "Computer Science, B.A." && (
+          <MajorPlan
+          completedCourses={completedCourses}
           />
-          {course.code} - {course.title}
-      </label>
-        )
-      }
-      
-      <p>{completedCourses.length === 0 ? "No completed courses selected": 
-          completedCourses.join(", ")
-      }</p>
-
+      )}
     </main>
   );
 }
