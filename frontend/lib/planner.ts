@@ -3,7 +3,7 @@ export function isOptionSatisfied(
   optionCourses: string[],
   completedCourses: string[]
 ): boolean {//returns a boolean
-  return optionCourses.every(course =>
+  return optionCourses.length > 0 && optionCourses.every(course =>
     completedCourses.includes(course)
   );
 }

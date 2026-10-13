@@ -1,6 +1,7 @@
 "use client";
 
-import { agreements } from "@/app/agreements";
+import { useRemoteData } from "@/lib/use-remote-data";
+import type { Major } from "@/lib/catalog-types";
 
 type MajorSelectorProps = {
     selectedUniversity: string;
@@ -17,13 +18,11 @@ export default function MajorSelector({
 }: MajorSelectorProps)
 //receives the props object, destructures its properties and checks their types using majorselectorprops
 {
-    const availableMajors = [
-        ...new Set(
-            agreements
-                .filter(agreement => agreement.university === selectedUniversity)
-                .map(agreement => agreement.major)
-        )
-    ];
+    const url = selectedUniversity
+        ? `/api/majors?${new URLSearchParams({ university: selectedUniversity })}`
+        : null;
+    const { data, isLoading, error } = useRemoteData<Major[]>(url);
+    const availableMajors = data ?? [];
 
     //value = ___ sets the value that is actually shown in React/UI
     //onChange sends the value back to the react state so it is changed in the code
@@ -35,27 +34,28 @@ export default function MajorSelector({
             <select 
             value = {selectedMajor}
             onChange={(event) => onMajorChange(event.target.value)}
-            disabled={availableMajors.length===0}
+            disabled={isLoading || error !== null || availableMajors.length === 0}
             id="major"
             >
                 <option value="">
-                    Select a major
+                    {isLoading ? "Loading majors..." : "Select a major"}
                 </option>
                 { availableMajors.map(major => (
                 <option 
-                key={major} 
-                value={major}
+                key={major.id}
+                value={major.name}
                 >
-                    {major}
+                    {major.name}
                 </option>
                 ))}
             </select>
             {
-                selectedUniversity !== "" && availableMajors.length === 0 && 
+                selectedUniversity !== "" && !isLoading && !error && availableMajors.length === 0 &&
                 <p>
                     No majors have been added for this university yet.
                 </p>
             }
+            {error && <p role="alert">{error}</p>}
         </div>
     );
 }

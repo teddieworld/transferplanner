@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "incremental": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": ".test-build"
+  },
+  "include": ["tests/**/*.ts", "lib/planner.ts", "lib/agreement-builder.ts"],
+  "exclude": ["node_modules", ".next", ".test-build"]
+}

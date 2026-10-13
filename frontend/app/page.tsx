@@ -11,7 +11,9 @@ import MajorSelector from "@/components/MajorSelector";
 import AcademicYearSelector from "@/components/AcademicYearSelector";
 import CourseSelector from "@/components/CourseSelector";
 import MajorPlan from "@/components/MajorPlan"
-import { agreements } from "./agreements";
+import { useRemoteData } from "@/lib/use-remote-data";
+import { STARTING_COLLEGE } from "@/lib/catalog-types";
+import type { MajorAgreement } from "@/lib/planner";
 //imports the different components as children
 
 
@@ -22,11 +24,15 @@ export default function Home() {
   const [completedCourses, setCompletedCourses] = useState<string[]>([]); //starting value is an empty array of strings
   //creates useStates for the selected values
 
-  const selectedAgreement = agreements.find(agreement =>
-    agreement.university === selectedUniversity &&
-    agreement.major === selectedMajor &&
-    agreement.academicYear === selectedAcademicYear
-  );
+  const agreementUrl = selectedUniversity && selectedMajor && selectedAcademicYear
+    ? `/api/agreement?${new URLSearchParams({
+        university: selectedUniversity,
+        major: selectedMajor,
+        year: selectedAcademicYear
+      })}`
+    : null;
+  const { data: selectedAgreement, isLoading: isPlanLoading, error: planError } =
+    useRemoteData<MajorAgreement>(agreementUrl);
 
   function handleUniversityChange(value :string){
     setSelectedUniversity(value);
@@ -41,7 +47,9 @@ export default function Home() {
   
   function handleCourseChange(courseCode :string, isChecked :boolean){
     if(isChecked){
-      setCompletedCourses(previousCourses => previousCourses.concat(courseCode));
+      setCompletedCourses(previousCourses =>
+        previousCourses.includes(courseCode) ? previousCourses : previousCourses.concat(courseCode)
+      );
     }
     else{
       setCompletedCourses(previousCourses => previousCourses.filter(course => course !== courseCode));
@@ -52,6 +60,7 @@ export default function Home() {
     <main>
       <h1>Transfer Planner</h1>
       <p>Plan your community college courses for transfer.</p>
+      <p>Starting college: {STARTING_COLLEGE}</p>
 
       <UniversitySelector 
         selectedUniversity = {selectedUniversity}
@@ -73,6 +82,8 @@ export default function Home() {
         onCourseChange={handleCourseChange}
         onClearCourses = {() => setCompletedCourses([])}
       />
+      {isPlanLoading && <p role="status">Loading agreement...</p>}
+      {planError && <p role="alert">{planError}</p>}
       {selectedAgreement && (
           <MajorPlan
           completedCourses={completedCourses}
@@ -83,3 +94,4 @@ export default function Home() {
   );
 }
 //<UniversitySelector and <MajorSelector actually passes in the props and gathers them into one object which is passed to the individual components
+  

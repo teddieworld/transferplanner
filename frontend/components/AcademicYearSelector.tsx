@@ -1,6 +1,6 @@
 "use client";
 
-import { agreements } from "@/app/agreements";
+import { useRemoteData } from "@/lib/use-remote-data";
 
 type AcademicYearSelectorProps = {
   selectedUniversity: string;
@@ -15,16 +15,13 @@ export default function AcademicYearSelector({
   selectedAcademicYear,
   onAcademicYearChange
 }: AcademicYearSelectorProps) {
-  const availableYears = [
-    ...new Set(
-      agreements
-        .filter(agreement =>
-          agreement.university === selectedUniversity &&
-          agreement.major === selectedMajor
-        )
-        .map(agreement => agreement.academicYear)
-    )
-  ].sort((a, b) => b.localeCompare(a));
+  const url = selectedUniversity && selectedMajor
+    ? `/api/academic-years?${new URLSearchParams({
+        university: selectedUniversity, major: selectedMajor
+      })}`
+    : null;
+  const { data, isLoading, error } = useRemoteData<string[]>(url);
+  const availableYears = data ?? [];
 
   return (
     <div>
@@ -33,16 +30,17 @@ export default function AcademicYearSelector({
         id="academic-year"
         value={selectedAcademicYear}
         onChange={event => onAcademicYearChange(event.target.value)}
-        disabled={availableYears.length === 0}
+        disabled={isLoading || error !== null || availableYears.length === 0}
       >
-        <option value="">Select an academic year</option>
+        <option value="">{isLoading ? "Loading academic years..." : "Select an academic year"}</option>
         {availableYears.map(year => (
           <option key={year} value={year}>{year}</option>
         ))}
       </select>
-      {selectedUniversity !== "" && selectedMajor !== "" && availableYears.length === 0 && (
+      {selectedUniversity !== "" && selectedMajor !== "" && !isLoading && !error && availableYears.length === 0 && (
         <p>No academic years have been added for this major yet.</p>
       )}
+      {error && <p role="alert">{error}</p>}
     </div>
   );
 }

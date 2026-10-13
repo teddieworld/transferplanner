@@ -190,7 +190,7 @@ def insert_major_requirement(cursor, major_id, requirement_text,requirement_cate
             %s,
             %s
         )
-        ON CONFLICT(major_id, requirement_text, requirement_category)
+        ON CONFLICT(group_id, requirement_text)
         DO NOTHING
     """
     values = (
@@ -202,18 +202,16 @@ def insert_major_requirement(cursor, major_id, requirement_text,requirement_cate
         group_id
     )
     cursor.execute(query,values)
-def get_major_requirement_id(cursor, major_id, requirement_text, requirement_category):
+def get_major_requirement_id(cursor, group_id, requirement_text):
     query = """
         SELECT id
         FROM major_requirements
-        WHERE major_id = %s
-        AND requirement_text = %s
-        AND requirement_category = %s;
+        WHERE group_id = %s
+        AND requirement_text = %s;
     """
     values = (
-        major_id,
-        requirement_text,
-        requirement_category
+        group_id,
+        requirement_text
     )
 
     cursor.execute(query, values)
@@ -277,10 +275,21 @@ def insert_major_requirement_option_course(cursor, option_id, course_id):
         course_id
     )
     cursor.execute(query,values)
-def insert_major_requirement_group(cursor, major_id, group_name, requirement_category, required_count):
+def insert_articulation_agreement(cursor, major_id, college_id, academic_year):
+    cursor.execute("""
+        INSERT INTO articulation_agreements (major_id, college_id, academic_year)
+        VALUES (%s, %s, %s)
+        ON CONFLICT (major_id, college_id, academic_year)
+        DO UPDATE SET academic_year = EXCLUDED.academic_year
+        RETURNING id
+    """, (major_id, college_id, academic_year))
+    return cursor.fetchone()[0]
+
+def insert_major_requirement_group(cursor, major_id, agreement_id, group_name, requirement_category, required_count):
     query = """
         INSERT into major_requirement_groups(
             major_id,
+            agreement_id,
             group_name,
             requirement_category,
             required_count
@@ -289,28 +298,30 @@ def insert_major_requirement_group(cursor, major_id, group_name, requirement_cat
             %s,
             %s,
             %s,
+            %s,
             %s
         )
-        ON CONFLICT(major_id, requirement_category, group_name)
+        ON CONFLICT(agreement_id, requirement_category, group_name)
         DO NOTHING
     """
     values = (
         major_id,
+        agreement_id,
         group_name,
         requirement_category,
         required_count
     )
     cursor.execute(query, values)
-def get_major_requirement_group_id(cursor, major_id, requirement_category, group_name):
+def get_major_requirement_group_id(cursor, agreement_id, requirement_category, group_name):
     query = """
         SELECT id
         FROM major_requirement_groups
-        WHERE major_id = %s
+        WHERE agreement_id = %s
         AND requirement_category = %s
         AND group_name = %s
     """
     values = (
-        major_id,
+        agreement_id,
         requirement_category,
         group_name
     )
@@ -321,7 +332,7 @@ def get_major_requirement_group_id(cursor, major_id, requirement_category, group
     return None
 #SQL to python
 
-def get_major_requirements(cursor, university_name, major_name):
+def get_major_requirements(cursor, university_name, major_name, academic_year, college_name):
     #queries SQL to give us the full corresponding courses for a university name and it's major
     query = """
         SELECT
@@ -350,6 +361,12 @@ def get_major_requirements(cursor, university_name, major_name):
         LEFT JOIN major_requirement_groups mrg
             ON mr.group_id = mrg.id
 
+        JOIN articulation_agreements agreement
+            ON agreement.id = mrg.agreement_id
+
+        JOIN colleges college
+            ON college.id = agreement.college_id
+
         LEFT JOIN major_requirement_option_courses mroc
             ON mroc.option_id = mro.id
 
@@ -357,14 +374,19 @@ def get_major_requirements(cursor, university_name, major_name):
             ON mroc.course_id = c.id
 
         WHERE u.name = %s
-        AND m.name = %s;
+        AND m.name = %s
+        AND agreement.academic_year = %s
+        AND college.name = %s
+        ORDER BY mr.requirement_category, mrg.group_name, mr.id, mro.option_number, c.code;
     """
     #Selects the values that are joined together from the different datatables with corresponding foreign keys
     #gets the matching id for the parameter u.name and m.name and goes down the chain of foreign keys to find all corresponding data
     
     values = (
         university_name,
-        major_name
+        major_name,
+        academic_year,
+        college_name
     )
     cursor.execute(query, values)
     results = cursor.fetchall()
@@ -527,17 +549,20 @@ courses = load_courses_json("transferplanner/data/mtsac_courses.json")
 #returns a list of dictionaries
 articulations = load_articulations_json("transferplanner/data/berkeley_cs_2026_2027.json")
 
+cursor.execute("SELECT id FROM colleges WHERE name = %s", (articulations["college"],))
+college_id = cursor.fetchone()[0]
+
 #catalog Mt.Sac course data
 for course in courses:
-    insert_course(cursor, course, 1) #executes the insert command into courses database
-    course_id = get_course_id(cursor, 1, course["code"])
+    insert_course(cursor, course, college_id) #executes the insert command into courses database
+    course_id = get_course_id(cursor, college_id, course["code"])
     for requirement in course["requirements"]:
 
         requirement_id = insert_requirement(cursor, course_id, requirement)
 
         for course_code in requirement["courses"]:
 
-            referenced_course_id = get_course_id(cursor, 1, course_code)
+            referenced_course_id = get_course_id(cursor, college_id, course_code)
 
             if referenced_course_id:
                 insert_requirement_course(cursor, requirement_id, referenced_course_id)
@@ -549,26 +574,27 @@ major_name = articulations["major"]
 
 insert_major(cursor, university_id, major_name)
 major_id = get_major_id(cursor, university_id, major_name)
+agreement_id = insert_articulation_agreement(cursor, major_id, college_id, articulations["academic_year"])
 
 #catalog major groups
 for group in articulations["groups"]:
-    insert_major_requirement_group(cursor, major_id, group["name"], group["category"], group["required_count"])
+    insert_major_requirement_group(cursor, major_id, agreement_id, group["name"], group["category"], group["required_count"])
 
 #catalog university majors, requirements, and courses
 for requirement in articulations["requirements"]:
-    group_id = get_major_requirement_group_id(cursor, major_id, requirement["category"], requirement["group"])
+    group_id = get_major_requirement_group_id(cursor, agreement_id, requirement["category"], requirement["group"])
     insert_major_requirement(cursor, major_id, requirement["text"], requirement["category"], requirement["articulation_status"], requirement["note"], group_id)
-    major_requirement_id = get_major_requirement_id(cursor, major_id, requirement["text"], requirement["category"])
+    major_requirement_id = get_major_requirement_id(cursor, group_id, requirement["text"])
     for option in requirement["options"]:
         insert_major_requirement_option(cursor, major_requirement_id, option["option_number"])
         major_requirement_option_id = get_major_requirement_option_id(cursor, major_requirement_id, option["option_number"])
         for course_code in option["courses"]:
-            course_id = get_course_id(cursor, 1, course_code)
+            course_id = get_course_id(cursor, college_id, course_code)
             if course_id:
                 insert_major_requirement_option_course(cursor, major_requirement_option_id, course_id)
 
         
-results = get_major_requirements(cursor, "University of California, Berkeley", "Computer Science, B.A.")
+results = get_major_requirements(cursor, university_name, major_name, articulations["academic_year"], articulations["college"])
 #get the different course requirements for the major at the university
 
 plan = build_major_plan(results)

@@ -50,6 +50,26 @@ CREATE TABLE IF NOT EXISTS majors(
 );
 --majors at each respective university
 
+CREATE TABLE IF NOT EXISTS articulation_agreements(
+    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    major_id INTEGER NOT NULL REFERENCES majors(id),
+    college_id INTEGER NOT NULL REFERENCES colleges(id),
+    academic_year TEXT NOT NULL,
+    UNIQUE(major_id, college_id, academic_year)
+);
+--One articulation agreement for a major, starting college, and academic year.
+
+CREATE TABLE IF NOT EXISTS major_requirement_groups(
+    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    major_id INTEGER NOT NULL REFERENCES majors(id),
+    agreement_id INTEGER NOT NULL REFERENCES articulation_agreements(id),
+    group_name TEXT NOT NULL,
+    requirement_category TEXT NOT NULL,
+    required_count INTEGER,
+    UNIQUE(agreement_id, requirement_category, group_name)
+);
+--Groups must exist before major_requirements can reference them.
+
 CREATE TABLE IF NOT EXISTS major_requirements(
     id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     major_id INTEGER NOT NULL REFERENCES majors(id),
@@ -57,8 +77,8 @@ CREATE TABLE IF NOT EXISTS major_requirements(
     requirement_category TEXT NOT NULL,
     articulation_status TEXT NOT NULL,
     note TEXT,
-    group_id INTEGER REFERENCES major_requirement_groups(id),
-    UNIQUE(major_id, requirement_text, requirement_category)
+    group_id INTEGER NOT NULL REFERENCES major_requirement_groups(id),
+    UNIQUE(group_id, requirement_text)
 );
 --major requirement for a particular university major
 
@@ -76,13 +96,3 @@ CREATE TABLE IF NOT EXISTS major_requirement_option_courses(
     PRIMARY KEY (option_id, course_id)
 );
 --takes the option groups from major_requirement_options and store the actual courses
-
-CREATE TABLE IF NOT EXISTS major_requirement_groups(
-    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    major_id INTEGER NOT NULL REFERENCES majors(id),
-    group_name TEXT,
-    requirement_category TEXT NOT NULL,
-    required_count INTEGER
-    UNIQUE(major_id, requirement_category, group_name)
-);
---represents groups in assist; A, B, C, etc.
