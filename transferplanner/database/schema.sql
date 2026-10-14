@@ -77,6 +77,7 @@ CREATE TABLE IF NOT EXISTS major_requirements(
     requirement_category TEXT NOT NULL,
     articulation_status TEXT NOT NULL,
     note TEXT,
+    preparation_note TEXT,
     group_id INTEGER NOT NULL REFERENCES major_requirement_groups(id),
     UNIQUE(group_id, requirement_text)
 );
@@ -85,8 +86,9 @@ CREATE TABLE IF NOT EXISTS major_requirements(
 CREATE TABLE IF NOT EXISTS major_requirement_options(
     id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     major_requirement_id INTEGER NOT NULL REFERENCES major_requirements(id),
+    option_kind TEXT NOT NULL DEFAULT 'equivalence' CHECK (option_kind IN ('equivalence', 'preparation')),
     option_number INTEGER NOT NULL,
-    UNIQUE(major_requirement_id, option_number)
+    UNIQUE(major_requirement_id, option_kind, option_number)
 );
 --stores different options for satisfying a major requirement
 

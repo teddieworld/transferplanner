@@ -77,7 +77,9 @@ export async function getAgreement(
       g.requirement_category AS category, g.required_count AS "requiredCount",
       r.id AS "requirementId", r.requirement_text AS "requirementName",
       r.articulation_status AS "articulationStatus", r.note,
-      o.id AS "optionId", o.option_number AS "optionNumber", c.code AS "courseCode"
+      r.preparation_note AS "preparationNote",
+      o.id AS "optionId", o.option_kind AS "optionKind",
+      o.option_number AS "optionNumber", c.code AS "courseCode"
     FROM major_requirement_groups g
     JOIN articulation_agreements a ON a.id = g.agreement_id
     LEFT JOIN major_requirements r ON r.group_id = g.id
@@ -85,7 +87,7 @@ export async function getAgreement(
     LEFT JOIN major_requirement_option_courses oc ON oc.option_id = o.id
     LEFT JOIN courses c ON c.id = oc.course_id AND c.college_id = a.college_id
     WHERE g.agreement_id = $1
-    ORDER BY g.requirement_category, g.group_name, g.id, r.id, o.option_number, c.code
+    ORDER BY g.requirement_category, g.group_name, g.id, r.id, o.option_kind, o.option_number, c.code
   `, [agreement.id]);
   return buildAgreement({
     university: agreement.university, major: agreement.major, academicYear: agreement.academicYear

@@ -1,13 +1,16 @@
 """Convert an exported ASSIST response into the project's agreement JSON.
 
-This first converter supports the course/group structure in the Berkeley CS
-sample. Unrecognized rules raise errors instead of being silently simplified.
+This converter supports the course/group structures in the Berkeley CS and
+Mathematics samples. Unrecognized rules raise errors instead of being simplified.
 General instructions are preserved for review; this script never writes to SQL.
 """
 import json
+import html
+import re
 
 RAW_PATH = "transferplanner/data/raw/berkeley_cs_2026_2027.json"
 OUTPUT_PATH = "transferplanner/data/berkeley_cs_2026_2027_generated.json"
+REVIEWED_RULES_PATH = "transferplanner/data/reviewed_preparation_rules.json"
 PARTIAL_NOTE = (
     "Must complete an additional university course "
     "after transfer to satisfy this requirement"
@@ -120,7 +123,71 @@ def get_required_count(section):
     return int(amount)
 
 
-def build_agreement(agreement):
+def get_requirement_sections(group):
+    """Return (rows, required_count) pairs supported by our flat group model."""
+    sections = sorted_by_position(group["sections"])
+    if (not sections or group.get("advisements") or group.get("attributes") or
+            any(section.get("attributes") for section in sections)):
+        raise ValueError("Empty sections or group/section instructions need review")
+    instruction = group.get("instruction")
+    if instruction is None:
+        if len(sections) != 1 or group.get("showConjunctionBetweenSections"):
+            raise ValueError("Multiple sections need an explicit relationship")
+    else:
+        if instruction.get("selectionType") != "Complete":
+            raise ValueError("Unsupported section selection rule")
+        instruction_type = instruction.get("type")
+        if instruction_type == "Conjunction":
+            conjunction = instruction.get("conjunction")
+            if conjunction == "Or":
+                # OR between single-course sections is equivalent to completing
+                # one requirement. OR between compound sections needs nesting.
+                if any(len(section["rows"]) != 1 or section.get("advisements")
+                       for section in sections):
+                    raise ValueError("OR between compound sections needs a nested model")
+                return [([section["rows"][0] for section in sections], 1)]
+            if conjunction != "And":
+                raise ValueError("Unsupported relationship between sections")
+        elif instruction_type == "Following":
+            if group.get("showConjunctionBetweenSections"):
+                raise ValueError("Following sections have an unexpected conjunction")
+        else:
+            raise ValueError("Unsupported relationship between sections")
+    return [(sorted_by_position(section["rows"]), get_required_count(section))
+            for section in sections]
+
+
+def apply_reviewed_preparation_rules(agreement, rules):
+    for rule in rules:
+        if any(agreement[key] != rule[key] for key in ("university", "major", "college", "academic_year")):
+            continue
+        if agreement["source"]["publish_date"] != rule["source_publish_date"]:
+            raise ValueError("Reviewed preparation rule needs checking against the new publication")
+        instructions = [
+            " ".join(html.unescape(re.sub(r"<[^>]+>", " ",asset["content"])).split())
+            for asset in agreement["source"]["general_information"]
+            if asset["type"] == "GeneralText"
+        ]
+        if not any(rule["source_instruction"] in text for text in instructions):
+            raise ValueError("Reviewed preparation instruction is absent from the source")
+        matches = [requirement for requirement in agreement["requirements"]
+                   if requirement["text"] == rule["requirement_text"] and requirement["category"] == rule["category"]]
+        if len(matches) != 1:
+            raise ValueError("Reviewed preparation rule does not identify one requirement")
+        requirement = matches[0]
+        if [option["courses"] for option in requirement["options"]] != rule["expected_equivalence_options"]:
+            raise ValueError("Course equivalence changed; review the preparation exception again")
+        preparation_options = rule["preparation_options"]
+        if not preparation_options or any(
+            not option or any(not isinstance(code, str) or not code.strip() for code in option)
+            for option in preparation_options
+        ):
+            raise ValueError("Reviewed preparation options must contain course codes")
+        requirement["preparation_options"] = preparation_options
+        requirement["preparation_note"] = rule["source_instruction"]
+
+
+def build_agreement(agreement, reviewed_rules=None):
     assets = json.loads(agreement["templateAssets"])
     articulations = json.loads(agreement["articulations"])
     by_cell = {}
@@ -147,6 +214,7 @@ def build_agreement(agreement):
     category = None
     section_numbers = {"required": 0, "highly_recommended": 0}
     used_cells = set()
+    receiving_course_attributes = []
     for asset in sorted_by_position(assets):
         if asset["area"] != "Requirements":
             continue
@@ -159,22 +227,16 @@ def build_agreement(agreement):
             continue
         if asset["type"] != "RequirementGroup" or category is None:
             raise ValueError("Unsupported requirement asset or missing heading")
-        instruction = asset.get("instruction", {})
-        if (instruction.get("type") != "Conjunction" or
-                instruction.get("conjunction") != "And" or
-                instruction.get("selectionType") != "Complete" or
-                asset.get("showConjunctionBetweenSections") or asset.get("advisements")):
-            raise ValueError("Unsupported relationship between sections")
-        for section in sorted_by_position(asset["sections"]):
+        for rows, required_count in get_requirement_sections(asset):
             number = section_numbers[category]
             if number >= 26:
                 raise ValueError("More than 26 sections need a different group naming scheme")
             group_name = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[number]
             section_numbers[category] += 1
-            group = {"name": group_name, "category": category, "required_count": get_required_count(section)}
+            group = {"name": group_name, "category": category, "required_count": required_count}
             result["groups"].append(group)
             requirement_count = 0
-            for row in sorted_by_position(section["rows"]):
+            for row in rows:
                 if len(row["cells"]) != 1 or row.get("attributes"):
                     raise ValueError("Multi-cell rows or row instructions need review")
                 cell = row["cells"][0]
@@ -183,6 +245,13 @@ def build_agreement(agreement):
                 if cell["id"] in used_cells:
                     raise ValueError("Duplicate template cell")
                 used_cells.add(cell["id"])
+                if cell.get("attributes") or cell.get("courseAttributes"):
+                    receiving_course_attributes.append({
+                        "template_cell_id": cell["id"],
+                        "course": get_course_code(cell["course"]),
+                        "attributes": cell.get("attributes", []),
+                        "course_attributes": cell.get("courseAttributes", [])
+                    })
                 articulation = by_cell.get(cell["id"])
                 options = build_options(articulation)
                 notes = get_articulation_notes(articulation)
@@ -213,15 +282,24 @@ def build_agreement(agreement):
         "academic_year_id": year["id"],
         "general_information": general_information
     }
-    result["review_required"] = bool(general_information)
+    if receiving_course_attributes:
+        result["source"]["receiving_course_attributes"] = receiving_course_attributes
+    result["review_required"] = bool(general_information or receiving_course_attributes)
     result["review_notes"] = [
         "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
     ] if general_information else []
+    if receiving_course_attributes:
+        result["review_notes"].append(
+            "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+        )
+    apply_reviewed_preparation_rules(result, reviewed_rules or [])
     return result
 
 
 def main():
-    agreement = build_agreement(load_assist_response(RAW_PATH))
+    with open(REVIEWED_RULES_PATH, encoding="utf-8") as file:
+        reviewed_rules = json.load(file)
+    agreement = build_agreement(load_assist_response(RAW_PATH), reviewed_rules)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as file:
         json.dump(agreement, file, indent=2, ensure_ascii=False)
         file.write("\n")

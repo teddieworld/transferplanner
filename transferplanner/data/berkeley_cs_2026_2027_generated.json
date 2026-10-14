@@ -77,7 +77,19 @@
             "MATH 290"
           ]
         }
-      ]
+      ],
+      "preparation_options": [
+        [
+          "ENGR 285"
+        ],
+        [
+          "MATH 285"
+        ],
+        [
+          "MATH 260"
+        ]
+      ],
+      "preparation_note": "Computer Science does not require full equivalence to Math 54 and will accept just the Linear Algebra course of an articulated Math 54-equivalent series."
     },
     {
       "text": "MATH 56",
@@ -190,10 +202,24 @@
         "position": 7,
         "area": "General"
       }
+    ],
+    "receiving_course_attributes": [
+      {
+        "template_cell_id": "a405caf9-1672-46b0-65b8-08dec89fcd17",
+        "course": "COMPSCI 70",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "Course(s) must be taken at university"
+          }
+        ]
+      }
     ]
   },
   "review_required": true,
   "review_notes": [
-    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved receiving-course attributes; they are not interpreted as completion rules."
   ]
 }

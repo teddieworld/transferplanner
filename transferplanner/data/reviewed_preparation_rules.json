@@ -1,0 +1,14 @@
+[
+  {
+    "university": "University of California, Berkeley",
+    "major": "Computer Science, B.A.",
+    "college": "Mt. San Antonio College",
+    "academic_year": "2026–2027",
+    "requirement_text": "MATH 54",
+    "category": "required",
+    "source_publish_date": "2026-10-08T22:41:14.6764595",
+    "source_instruction": "Computer Science does not require full equivalence to Math 54 and will accept just the Linear Algebra course of an articulated Math 54-equivalent series.",
+    "expected_equivalence_options": [["ENGR 285"], ["MATH 285"], ["MATH 260", "MATH 290"]],
+    "preparation_options": [["ENGR 285"], ["MATH 285"], ["MATH 260"]]
+  }
+]

@@ -2,13 +2,54 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import { buildAgreement } from "../lib/agreement-builder";
 import type { AgreementRow } from "../lib/agreement-builder";
-import { getRequirementStatus, isCategorySatisfied, isGroupSatisfied, isOptionSatisfied } from "../lib/planner";
+import { getRequirementStatus, getPreparationStatus, isCategorySatisfied, isGroupSatisfied, isOptionSatisfied } from "../lib/planner";
 import type { Requirement } from "../lib/planner";
 
 const math54: Requirement = {
   name: "MATH 54", articulationStatus: "articulated",
   options: [["ENGR 285"], ["MATH 285"], ["MATH 260", "MATH 290"]]
 };
+
+test("reviewed CS preparation accepts linear algebra without changing equivalence", () => {
+  const requirement: Requirement = {
+    ...math54,
+    preparationOptions: [["ENGR 285"], ["MATH 285"], ["MATH 260"]]
+  };
+  assert.equal(getRequirementStatus(requirement, ["MATH 260"]), "not_satisfied");
+  assert.equal(getPreparationStatus(requirement, ["MATH 260"]), "satisfied");
+  assert.equal(getPreparationStatus(math54, ["MATH 260"]), "not_satisfied");
+  assert.equal(getPreparationStatus(requirement, ["MATH 290"]), "not_satisfied");
+  assert.equal(getRequirementStatus(requirement, ["MATH 260", "MATH 290"]), "satisfied");
+  assert.equal(getPreparationStatus(requirement, ["MATH 260", "MATH 290"]), "satisfied");
+  const groups = [
+    { name: "A", requiredCount: null, requirements: [
+      { name: "MATH 51", articulationStatus: "articulated" as const, options: [["MATH 180"]] },
+      { name: "MATH 52", articulationStatus: "articulated" as const, options: [["MATH 181"]] }
+    ] },
+    { name: "B", requiredCount: 1, requirements: [requirement] }
+  ];
+  assert.equal(isCategorySatisfied(groups, ["MATH 180", "MATH 181", "MATH 260"]), true);
+  assert.equal(isCategorySatisfied(groups, ["MATH 180", "MATH 181", "MATH 290"]), false);
+});
+
+test("SQL builder keeps preparation and equivalence option numbers separate", () => {
+  const row: AgreementRow = {
+    groupId: 1, groupName: "B", category: "required", requiredCount: 1,
+    requirementId: 1, requirementName: "MATH 54", articulationStatus: "articulated",
+    note: null, preparationNote: "Reviewed CS exception", optionKind: "equivalence",
+    optionId: 1, optionNumber: 1, courseCode: "MATH 260"
+  };
+  const plan = buildAgreement({ university: "Berkeley", major: "CS", academicYear: "2026–2027" }, [
+    row, { ...row, courseCode: "MATH 290" },
+    { ...row, optionId: 2, optionKind: "preparation", courseCode: "MATH 260" }
+  ]);
+  const requirement = plan.requiredGroups[0].requirements[0];
+  assert.deepEqual(requirement.options, [["MATH 260", "MATH 290"]]);
+  assert.deepEqual(requirement.preparationOptions, [["MATH 260"]]);
+  assert.equal(requirement.preparationNote, "Reviewed CS exception");
+  assert.equal(getRequirementStatus(requirement, ["MATH 260"]), "not_satisfied");
+  assert.equal(isGroupSatisfied(plan.requiredGroups[0], ["MATH 260"]), true);
+});
 
 test("MATH 54 preserves OR between alternatives and AND within the pair", () => {
   for (const courses of [["ENGR 285"], ["MATH 285"], ["MATH 260", "MATH 290"]]) {

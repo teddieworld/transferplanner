@@ -27,5 +27,18 @@ BEGIN
     END IF;
 END $$;
 
+-- Equivalence and preparation can each have an option numbered 1.
+INSERT INTO major_requirement_options (major_requirement_id, option_number, option_kind)
+SELECT id, 1, 'equivalence' FROM major_requirements;
+INSERT INTO major_requirement_options (major_requirement_id, option_number, option_kind)
+SELECT id, 1, 'preparation' FROM major_requirements;
+
+DO $$
+BEGIN
+    IF (SELECT count(*) FROM major_requirement_options) <> 4 THEN
+        RAISE EXCEPTION 'Option kinds must retain independent numbering';
+    END IF;
+END $$;
+
 -- The entire check is rolled back, including the temporary schema.
 ROLLBACK;

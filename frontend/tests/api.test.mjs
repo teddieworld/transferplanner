@@ -33,15 +33,47 @@ test("live database supplies universities, majors, years, and the complete Berke
   assert.deepEqual(agreement.body.requiredGroups.map(group => group.requiredCount), [null, 1]);
   const requirements = agreement.body.requiredGroups.flatMap(group => group.requirements);
   assert.equal(requirements.length, 4);
-  assert.deepEqual(requirements.find(item => item.name === "MATH 54").options, [
+  const math54 = requirements.find(item => item.name === "MATH 54");
+  assert.deepEqual(math54.options, [
     ["ENGR 285"], ["MATH 285"], ["MATH 260", "MATH 290"]
   ]);
+  assert.deepEqual(math54.preparationOptions, [["ENGR 285"], ["MATH 285"], ["MATH 260"]]);
+  assert.match(math54.preparationNote, /Linear Algebra/);
   assert.equal(requirements.find(item => item.name === "MATH 56").articulationStatus, "no_course_articulated");
   const recommendations = agreement.body.highlyRecommendedGroups.flatMap(group => group.requirements);
   assert.equal(recommendations.length, 4);
   assert.equal(recommendations.find(item => item.name === "COMPSCI 61B").articulationStatus, "partial");
   assert.ok(recommendations.find(item => item.name === "COMPSCI 61B").note);
   assert.equal(recommendations.find(item => item.name === "COMPSCI 70").articulationStatus, "university_only");
+});
+
+test("Mathematics is selectable with its own year, alternatives and recommendation", async () => {
+  const mathMajor = "Mathematics/Applied Mathematics, B.A.";
+  const majors = await request("/api/majors", { university });
+  assert.equal(majors.status, 200);
+  assert.ok(majors.body.some(item => item.name === mathMajor));
+  const years = await request("/api/academic-years", { university, major: mathMajor });
+  assert.equal(years.status, 200);
+  assert.ok(years.body.includes("2026–2027"));
+  const agreement = await request("/api/agreement", { university, major: mathMajor, year: "2026–2027" });
+  assert.equal(agreement.status, 200);
+  assert.equal(agreement.body.major, mathMajor);
+  assert.deepEqual(agreement.body.requiredGroups.map(group => group.requiredCount), [null, 1]);
+  const requirements = agreement.body.requiredGroups.flatMap(group => group.requirements);
+  assert.deepEqual(requirements.map(item => item.name), ["MATH 51", "MATH 52", "MATH 53", "MATH 54", "MATH 56"]);
+  assert.deepEqual(requirements.slice(0, 3).map(item => item.options), [
+    [["MATH 180"]], [["MATH 181"]], [["MATH 280"]]
+  ]);
+  const math54 = requirements.find(item => item.name === "MATH 54");
+  assert.deepEqual(math54.options, [["ENGR 285"], ["MATH 285"], ["MATH 260", "MATH 290"]]);
+  assert.equal(math54.preparationOptions, undefined);
+  assert.equal(math54.preparationNote, undefined);
+  const math56 = requirements.find(item => item.name === "MATH 56");
+  assert.equal(math56.articulationStatus, "no_course_articulated");
+  assert.deepEqual(math56.options, []);
+  const recommended = agreement.body.highlyRecommendedGroups.flatMap(group => group.requirements);
+  assert.deepEqual(recommended.map(item => item.name), ["MATH 55"]);
+  assert.deepEqual(recommended[0].options, [["CSCI 190"]]);
 });
 
 test("catalog exposes real units, descriptions, transferability and prerequisite links", async () => {

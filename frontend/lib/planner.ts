@@ -24,6 +24,8 @@ export function isRequirementSatisfied(
 export type Requirement = {
     name: string;
     options: string[][];
+    preparationOptions?: string[][];
+    preparationNote?: string;
     articulationStatus:
         | "articulated"
         | "partial"
@@ -57,6 +59,19 @@ export function getRequirementStatus(
     return requirement.articulationStatus === "partial" ? "partial" : "satisfied";
 }
 
+// A reviewed major-preparation exception does not change course equivalence.
+export function getPreparationStatus(
+  requirement: Requirement,
+  completedCourses: string[]
+): RequirementStatus {
+  if (requirement.preparationOptions === undefined) {
+    return getRequirementStatus(requirement, completedCourses);
+  }
+  return isRequirementSatisfied(requirement.preparationOptions, completedCourses)
+    ? "satisfied"
+    : "not_satisfied";
+}
+
 //returns the labels printed into html
 export const requirementStatusLabels: Record<RequirementStatus, string> = {
   satisfied: "Satisfied",
@@ -77,7 +92,7 @@ export function isGroupSatisfied(
     group:RequirementGroup,
     completedCourses: string[]
 ): boolean{
-    const satisfiedCount = group.requirements.filter(requirement => getRequirementStatus(requirement, completedCourses) === "satisfied").length;
+    const satisfiedCount = group.requirements.filter(requirement => getPreparationStatus(requirement, completedCourses) === "satisfied").length;
 
     const requiredCount = group.requiredCount ?? group.requirements.length;
     //if left side is null, then use right side

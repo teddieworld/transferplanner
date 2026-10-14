@@ -33,6 +33,48 @@ for any other unassigned groups. New databases use `schema.sql`, followed by
 `academic_year`; groups and requirements are scoped to their agreement so years
 can have different mappings.
 
+Apply the reviewed Berkeley CS preparation exception after migration 001 (or
+after creating and importing a new database):
+
+```sh
+psql -d transferplanner -v ON_ERROR_STOP=1 -f transferplanner/database/migrations/002_preparation_options.sql
+```
+
+The second migration adds preparation options separately from full-equivalence
+options and verifies that the existing MATH 54 mappings match the reviewed
+source. For this major/year, MATH 260 alone completes the preparation option;
+MATH 260 and MATH 290 are still needed for that full-equivalence option. Other
+majors and years retain their own rules. Partial articulation still does not
+count as complete preparation unless a separate reviewed exception exists.
+
+`getRequirementStatus` checks full equivalence. `getPreparationStatus` uses
+reviewed preparation options when present, otherwise the ordinary requirement
+status. Required-group/category checks use preparation status. The UI displays
+both results when an exception exists. SQL stores option kinds (`equivalence` or
+`preparation`) and a preparation note; the importer supports `preparation_options`
+without overwriting an existing reviewed exception when importing older JSON.
+
+Import another reviewed agreement from the repository root using the existing
+Mt. SAC catalog:
+
+```sh
+.venv/bin/python transferplanner/database/import_courses.py transferplanner/data/berkeley_math_2026_2027_generated.json
+```
+
+The importer accepts the normalized file path as an argument. It imports one
+agreement in a transaction and rejects missing course references before inserting
+agreement rows. The catalog is imported only when explicitly supplied with
+`--courses transferplanner/data/mtsac_courses.json`. CS and Mathematics/Applied
+Mathematics each have a Berkeley/Mt. SAC agreement for 2026–2027. Mathematics
+keeps the full MATH 54 series; it does not receive the CS preparation exception.
+Preserved general-education and exam-credit notes are not evaluated by the planner.
+
+The importer integration tests use an isolated schema and roll back all test data:
+
+```sh
+TRANSFERPLANNER_TEST_DATABASE=transferplanner .venv/bin/python -m unittest discover -s transferplanner/database/tests -p 'test_*.py' -v
+```
+
 The schema can be checked in a temporary, rolled-back schema using
 `psql -d transferplanner -f transferplanner/database/tests/schema.sql` from the
 repository root. This verifies that separate years can contain the same
@@ -57,7 +99,8 @@ return JSON errors on failures. Course search reads the full catalog and shows
 
 With the migrated database and development server running, `npm run test:api`
 checks the real catalog, agreement endpoints, missing inputs, and unsupported
-years. It makes read-only requests against the Berkeley/Mt. SAC fixture. Set
+years. It makes read-only requests against the Berkeley/Mt. SAC CS and Mathematics
+fixtures. Import both agreements before running it. Set
 `TRANSFERPLANNER_TEST_URL` if your server uses a different local port.
 
 ## Getting Started

@@ -48,7 +48,7 @@ export default function MajorPlan({
                   />
                 ))}
                 <p>
-                  Group status: {
+                  Group preparation status: {
                     isGroupSatisfied(group, completedCourses)
                       ? "Satisfied"
                       : "Not satisfied"

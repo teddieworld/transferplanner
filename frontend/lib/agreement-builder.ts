@@ -10,6 +10,8 @@ export type AgreementRow = {
   requirementName: string | null;
   articulationStatus: string | null;
   note: string | null;
+  preparationNote?: string | null;
+  optionKind?: string | null;
   optionId: number | null;
   optionNumber: number | null;
   courseCode: string | null;
@@ -47,7 +49,8 @@ export function buildAgreement(metadata: AgreementMetadata, rows: AgreementRow[]
         name: row.requirementName,
         articulationStatus: status,
         options: [],
-        ...(row.note ? { note: row.note } : {})
+        ...(row.note ? { note: row.note } : {}),
+        ...(row.preparationNote ? { preparationNote: row.preparationNote } : {})
       };
       requirements.set(row.requirementId, requirement);
       group.requirements.push(requirement);
@@ -58,7 +61,15 @@ export function buildAgreement(metadata: AgreementMetadata, rows: AgreementRow[]
     if (!option) {
       option = [];
       options.set(row.optionId, option);
-      requirement.options.push(option);
+      const kind = row.optionKind ?? "equivalence";
+      if (kind === "equivalence") {
+        requirement.options.push(option);
+      } else if (kind === "preparation") {
+        requirement.preparationOptions ??= [];
+        requirement.preparationOptions.push(option);
+      } else {
+        throw new Error(`Unsupported option kind: ${kind}`);
+      }
     }
     if (row.courseCode && !option.includes(row.courseCode)) option.push(row.courseCode);
   }
