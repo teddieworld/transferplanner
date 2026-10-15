@@ -6,10 +6,12 @@ import UniversitySelector from "@/components/UniversitySelector";
 import MajorSelector from "@/components/MajorSelector";
 import AcademicYearSelector from "@/components/AcademicYearSelector";
 import CourseSelector from "@/components/CourseSelector";
+import TransferUnitSummary from "@/components/TransferUnitSummary";
 import MajorPlan from "@/components/MajorPlan";
 import Icon from "@/components/Icon";
 import { useRemoteData } from "@/lib/use-remote-data";
 import { STARTING_COLLEGE } from "@/lib/catalog-types";
+import type { CourseCatalogEntry } from "@/lib/catalog-types";
 import { isGroupSatisfied } from "@/lib/planner";
 import type { MajorAgreement } from "@/lib/planner";
 
@@ -26,7 +28,9 @@ export default function Home() {
   const [selectedMajor, setSelectedMajor] = useState("");
   const [selectedAcademicYear, setSelectedAcademicYear] = useState("");
   const [completedCourses, setCompletedCourses] = useState<string[]>([]);
+  const [earnedUnits, setEarnedUnits] = useState<Record<string, string>>({});
   const workspace = useRef<HTMLElement>(null);
+  const { data: courses, isLoading: isCatalogLoading, error: catalogError } = useRemoteData<CourseCatalogEntry[]>("/api/courses");
 
   const agreementUrl = selectedUniversity && selectedMajor && selectedAcademicYear
     ? `/api/agreement?${new URLSearchParams({ university: selectedUniversity, major: selectedMajor, year: selectedAcademicYear })}`
@@ -56,6 +60,11 @@ export default function Home() {
     setCompletedCourses(previous => isChecked
       ? previous.includes(courseCode) ? previous : previous.concat(courseCode)
       : previous.filter(course => course !== courseCode));
+  }
+
+  function handleClearCourses() {
+    setCompletedCourses([]);
+    setEarnedUnits({});
   }
 
   const groups = selectedAgreement ? [...selectedAgreement.requiredGroups, ...(selectedAgreement.majorRequiredGroups ?? [])] : [];
@@ -109,7 +118,7 @@ export default function Home() {
 
               <section hidden={activeStep !== 2} aria-labelledby="courses-heading" className="wizard-card coursework-card">
                 <div className="wizard-card-heading"><h2 id="courses-heading">Completed courses</h2><p>Search the Mt. SAC catalog and select the courses you&apos;ve completed.</p></div>
-                <CourseSelector completedCourses={completedCourses} onCourseChange={handleCourseChange} onClearCourses={() => setCompletedCourses([])} showHeading={false} />
+                <CourseSelector courses={courses ?? []} isLoading={isCatalogLoading} error={catalogError} completedCourses={completedCourses} onCourseChange={handleCourseChange} onClearCourses={handleClearCourses} showHeading={false} />
                 <div className="wizard-actions"><button type="button" className="button button-back" onClick={() => goToStep(1)}><span aria-hidden="true">←</span> University & major</button><button type="button" className="button button-primary" disabled={!planReady} onClick={() => goToStep(3)}>Review requirements <Icon name="arrow" size={17} /></button></div>
                 {!planReady && <p className="form-feedback">Choose a university, major, and year in step 1 to review requirements.</p>}
               </section>
@@ -125,6 +134,7 @@ export default function Home() {
 
             {activeStep !== 1 && <div className="plan-context" aria-label="Plan summary">
               {planReady && <div className="context-route"><div><span className="context-colleges">Mt. SAC <span aria-hidden="true">→</span> {campusName}</span><strong>{selectedMajor}</strong></div><span className="context-year">{selectedAcademicYear}</span><span className="context-course-count">{completedCourses.length} {completedCourses.length === 1 ? "course" : "courses"} selected</span></div>}
+              <TransferUnitSummary courses={courses} isLoading={isCatalogLoading} error={catalogError} completedCourses={completedCourses} earnedUnits={earnedUnits} onEarnedUnitsChange={(code, value) => setEarnedUnits(previous => ({ ...previous, [code]: value }))} />
               {activeStep === 3 && selectedAgreement && <div className="progress-card"><h3>{progressTitle}</h3>{checkableGroups.length > 0 && <div className="progress-track" role="progressbar" aria-label="Checkable preparation groups completed" aria-valuenow={completedGroups} aria-valuemin={0} aria-valuemax={checkableGroups.length}><span style={{ width: `${completedGroups / checkableGroups.length * 100}%` }} /></div>}<p>{selectedAgreement.kind === "informational" ? "This agreement contains program guidance." : "Based on groups with calculable completion rules."}</p></div>}
             </div>}
           </div>

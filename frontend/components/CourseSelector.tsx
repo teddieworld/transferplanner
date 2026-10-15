@@ -1,20 +1,20 @@
 "use client";
 
 import { useState } from "react";
-import { useRemoteData } from "@/lib/use-remote-data";
 import type { CourseCatalogEntry } from "@/lib/catalog-types";
 import Icon from "./Icon";
 
 type CourseSelectorProps = {
+  courses: CourseCatalogEntry[];
+  isLoading: boolean;
+  error: string | null;
   completedCourses: string[];
   onCourseChange: (courseCode: string, isChecked: boolean) => void;
   onClearCourses: () => void;
   showHeading?: boolean;
 };
 
-export default function CourseSelector({ completedCourses, onCourseChange, onClearCourses, showHeading = true }: CourseSelectorProps) {
-  const { data, isLoading, error } = useRemoteData<CourseCatalogEntry[]>("/api/courses");
-  const courses = data ?? [];
+export default function CourseSelector({ courses, isLoading, error, completedCourses, onCourseChange, onClearCourses, showHeading = true }: CourseSelectorProps) {
   const [search, setSearch] = useState("");
   const [visibleCount, setVisibleCount] = useState(30);
   const [selectedOnly, setSelectedOnly] = useState(false);

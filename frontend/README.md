@@ -125,6 +125,17 @@ The browser cancels obsolete requests when selections change. Changing a
 university clears the major and year; changing the major clears the year.
 Completed Mt. SAC courses stay selected when switching destination agreements.
 
+The Courses and Requirements steps show estimated UC-transferable semester
+units toward a 60-unit target, independently of the selected major's matches.
+Only selected courses marked UC transferable contribute. Fixed-unit courses use
+their catalog units; variable-unit courses require an earned-unit entry within
+the catalog range and are excluded until a valid value is supplied. Removing a
+course removes its units; Clear all also resets the earned-unit entries.
+These entries last only while the page is open. Grades, repeats, equivalent or
+honors course credit limits, and other UC restrictions are not evaluated; exam
+credit and other colleges' coursework are not included. This is a planning
+estimate, not a determination of admission eligibility.
+
 Run `npm test` for planner and SQL-row conversion checks, `npm run lint`, and
 `npx tsc --noEmit` for static checks. All endpoints use parameterized SQL and
 return JSON errors on failures. Course search reads the full catalog and shows

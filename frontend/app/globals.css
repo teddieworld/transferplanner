@@ -104,6 +104,29 @@ summary::-webkit-details-marker { display: none; }
 .progress-track { min-width: 100px; max-width: 180px; flex: 1; height: 5px; background: #cfdcbc; overflow: hidden; }
 .progress-track > span { display: block; height: 100%; background: #66824d; transition: width .2s; }
 
+/* Course units are independent of major preparation matches. */
+.unit-summary { margin-top: 20px; padding: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 4px; }
+.unit-summary-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px 20px; }
+.unit-summary-heading h3 { font-size: 14px; font-weight: 550; }
+.unit-summary-heading h3 span { font-size: 11px; font-weight: 400; color: var(--muted); margin-left: 8px; }
+.unit-summary-heading a { font-size: 12px; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.unit-summary-progress { display: flex; flex-wrap: wrap; gap: 4px 20px; align-items: baseline; margin: 12px 0; }
+.unit-total { font-size: 13px; color: var(--muted); }
+.unit-total strong { font-size: 25px; line-height: 1.2; font-weight: 550; color: var(--foreground); }
+.unit-remaining { font-size: 13px; color: var(--accent); }
+.unit-summary-progress > p:last-child:not(.unit-remaining) { font-size: 12px; color: var(--muted); }
+.unit-progress-track { height: 6px; background: var(--pistachio); border-radius: 3px; overflow: hidden; }
+.unit-progress-track > span { display: block; height: 100%; background: #66824d; }
+.unit-summary-note, .unit-exclusion { margin-top: 12px; font-size: 12px; color: var(--muted); }
+.earned-unit-fields { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 12px; }
+.earned-unit-fields > p { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+.earned-unit-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; padding: 8px 0; }
+.earned-unit-row label { flex: 1 1 220px; min-width: 0; font-size: 13px; overflow-wrap: anywhere; }
+.earned-unit-row label span { display: block; font-size: 12px; color: var(--muted); }
+.earned-unit-row input { width: 100px; max-width: 100%; border: 1px solid #ccd5c5; border-radius: 4px; padding: 7px 9px; background: white; }
+.earned-unit-row input[aria-invalid="true"] { border-color: #a34136; }
+.unit-input-error { font-size: 12px; color: #a34136; }
+
 /* Searchable course catalog. */
 .course-toolbar { padding: 0 32px 20px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px; align-items: center; }
 .search-field { display: flex; align-items: center; gap: 9px; padding: 0 12px; height: 44px; background: white; border: 1px solid #ccd5c5; border-radius: 4px; color: #7a866e; }

@@ -4,6 +4,64 @@ import { buildAgreement } from "../lib/agreement-builder";
 import type { AgreementRow } from "../lib/agreement-builder";
 import { getRequirementStatus, getPreparationStatus, isCategorySatisfied, isGroupSatisfied, isOptionSatisfied } from "../lib/planner";
 import type { Requirement } from "../lib/planner";
+import type { CourseCatalogEntry } from "../lib/catalog-types";
+import { getTransferUnitProgress } from "../lib/transfer-units";
+
+function unitCourse(code: string, minUnits: number, maxUnits = minUnits, ucTransferable = true): CourseCatalogEntry {
+  return { id: 1, code, title: code, minUnits, maxUnits, ucTransferable,
+    csuTransferable: true, description: null, requirements: [] };
+}
+
+test("UC unit totals include transferable electives and count each selected code once", () => {
+  const catalog = [unitCourse("MATH 180", 4), unitCourse("ARTD 20", 3), unitCourse("NON UC", 5, 5, false)];
+  const result = getTransferUnitProgress(catalog, ["MATH 180", "MATH 180", "ARTD 20", "NON UC", "UNKNOWN"]);
+  assert.equal(result.totalUnits, 7);
+  assert.equal(result.remainingUnits, 53);
+  assert.equal(result.targetReached, false);
+  assert.equal(result.nonUCCount, 1);
+  assert.equal(result.unknownCount, 1);
+});
+
+test("variable-unit credit requires an earned value within the catalog range", () => {
+  const catalog = [unitCourse("DNCE 1", 0.5, 2), unitCourse("MATH 180", 4)];
+  for (const input of [undefined, "", " ", "0", "2.5", "-1", "Infinity", "oops"]) {
+    const result = getTransferUnitProgress(catalog, ["DNCE 1", "MATH 180"], input === undefined ? {} : { "DNCE 1": input });
+    assert.equal(result.totalUnits, 4, String(input));
+    assert.equal(result.pendingCount, 1, String(input));
+  }
+  for (const value of ["0.5", "1.5", "2"]) {
+    const result = getTransferUnitProgress(catalog, ["DNCE 1", "MATH 180"], { "DNCE 1": value });
+    assert.equal(result.totalUnits, 4 + Number(value));
+    assert.equal(result.pendingCount, 0);
+  }
+  // Fixed-unit catalog values cannot be overridden by stale or arbitrary inputs.
+  assert.equal(getTransferUnitProgress(catalog, ["MATH 180"], { "MATH 180": "60" }).totalUnits, 4);
+});
+
+test("the 60-unit target handles fractional units and keeps totals above the target", () => {
+  const catalog = [unitCourse("BASE", 59.5), unitCourse("EXTRA", 0.5), unitCourse("ELECTIVE", 3)];
+  const below = getTransferUnitProgress(catalog, ["BASE"]);
+  assert.equal(below.remainingUnits, 0.5);
+  assert.equal(below.targetReached, false);
+  assert.equal(getTransferUnitProgress(catalog, ["BASE", "EXTRA"]).targetReached, true);
+  const above = getTransferUnitProgress(catalog, ["BASE", "EXTRA", "ELECTIVE"]);
+  assert.equal(above.totalUnits, 63);
+  assert.equal(above.remainingUnits, 0);
+  assert.equal(above.targetReached, true);
+});
+
+test("removed and cleared courses stop contributing even when earned-unit inputs remain", () => {
+  const catalog = [unitCourse("DNCE 1", 0.5, 2), unitCourse("MATH 180", 4)];
+  const inputs = { "DNCE 1": "1.5" };
+  assert.equal(getTransferUnitProgress(catalog, ["DNCE 1", "MATH 180"], inputs).totalUnits, 5.5);
+  const removed = getTransferUnitProgress(catalog, ["MATH 180"], inputs);
+  assert.equal(removed.totalUnits, 4);
+  assert.deepEqual(removed.variableCourses, []);
+  const cleared = getTransferUnitProgress(catalog, [], inputs);
+  assert.equal(cleared.totalUnits, 0);
+  assert.equal(cleared.remainingUnits, 60);
+  assert.equal(cleared.pendingCount, 0);
+});
 
 test("unresolved mappings retain adviser review even when every option is checked", () => {
   const row: AgreementRow = {
