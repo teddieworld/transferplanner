@@ -1,0 +1,1548 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Global Studies, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "GLOBAL 45: Accepted courses depend on the agreement variant. Confirm which variant applies."
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": 1
+    }
+  ],
+  "requirements": [
+    {
+      "text": "GLOBAL 10A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Global Studies"
+    },
+    {
+      "text": "GLOBAL 10B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Global Studies"
+    },
+    {
+      "text": "GLOBAL 45",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "review_required",
+      "note": "Articulation for Global Studies majors only\nRegular and honors courses may be combined to complete this series\nAdviser review needed: Accepted courses depend on the agreement variant. Confirm which variant applies.",
+      "options": [],
+      "department": "Global Studies"
+    },
+    {
+      "text": "ECON 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": "Regular and honors courses may be combined to complete this series",
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ECON C2002",
+            "ECON C2001"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ECON C2002H",
+            "ECON C2001H"
+          ]
+        }
+      ],
+      "department": "Economics"
+    },
+    {
+      "text": "ECON 2",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "Economics"
+    },
+    {
+      "text": "STAT 2",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "STAT C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "STAT C1000H"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "PSYC 10"
+          ]
+        }
+      ],
+      "department": "Statistics"
+    },
+    {
+      "text": "STAT C8",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Statistics"
+    },
+    {
+      "text": "STAT 20",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "Statistics"
+    },
+    {
+      "text": "STAT 21",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "Statistics"
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T23:02:52.220412",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "COLLEGE OF LETTERS AND SCIENCE",
+        "groupId": "ffd66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program",
+        "groupId": "01d76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>For&nbsp;more&nbsp;information:</strong></p><p><a href=\"https://globalstudies.berkeley.edu/undergraduate/major-global-studies\" rel=\"noopener noreferrer\" target=\"_blank\">https://globalstudies.berkeley.edu/undergraduate/major-global-studies</a></p>",
+        "groupId": "0dd76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Foreign language requirement",
+        "groupId": "04d76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Global Studies majors must demonstrate proficiency in a modern language other than English by the last semester of their senior year. This language must be connected, in either the past or the present, to the student’s geographic region of specialization. Proficiency is equivalent to the ability achieved in four college-level semesters (or two years). Language courses taken in high school do not satisfy this requirement. See below for details on how to fulfill the foreign language requirement.</p><p><br></p><p>Note: languages accepted by the College of Letters &amp; Science are not automatically accepted by the Global Studies major. Please check with an adviser for eligible languages.</p><p><br></p><p><strong>How to fulfill the foreign language requirement:</strong></p><p><br></p><p>There are a variety of ways to fulfill the four-semester language requirement for Global Studies, depending on the individual and his or her background and ability.</p><p><br></p><p><strong>Advanced Placement (AP) or International Baccalaureate (IB) test:</strong> An AP score of 5 or an International Baccalaureate (IB) score of 7 will complete this requirement. An AP score of 4 should generally place a student into the fourth-semester college level course. A score of 3 will place a student into the third-semester college level course. Documentation of AP scores must be provided.</p><p><br></p><p><strong>Coursework:</strong> Any combination of college courses, summer programs, or college-level study abroad programs can satisfy the language requirement. At a minimum, students must complete the fourth semester (i.e., the second semester of intermediate level) of a language with a grade of C- or better in order to fulfill the requirement. The first, second, and third semester courses may be taken on a Pass/No Pass basis.</p><p><br></p><p>Language courses need not be taken at UCB. Courses taken at a community college or any accredited school or university may be acceptable. Transcripts must be submitted and evaluated by an adviser. A one-semester upper division course taken abroad in the target language may satisfy the foreign language requirement, depending on the school and program followed.&nbsp;For more information, see an adviser concerning language study abroad.</p><p><br></p><p><strong>High school completion in a non-English language and Proficiency Tests:</strong> Students with native, advanced background or those who were educated in a non-English language through the completion of high school or the equivalent may wish to satisfy this requirement with that experience. This requires a language proficiency exam. Moreover, it limits the geographic focus within global studies, because it must be connected to language. This is not especially recommended, as it limits what students within the major can study.</p><p><br></p><p>Chinese, Japanese, and Korean proficiency exams are administered by East Asian Languages and Cultures (EALC) on the Tuesday before instruction starts every semester. Check the EALC website at <a href=\"http://ealc.berkeley.edu/programs/undergraduate/proficiency-exams\" rel=\"noopener noreferrer\" target=\"_blank\">http://ealc.berkeley.edu/programs/undergraduate/proficiency-exams</a>. Results of the exam will indicate the level of the foreign language that students are eligible to register for. In order to waive the language requirement, test results must show that the student has completed the equivalent of four semesters of language studies (end of intermediate level) or higher.</p><p><br></p><p>Note: EALC waitlists all students that register for language courses regardless of when registration takes place, and the department scheduler adjusts student enrollment based on the results of the placement exam during the first week of instruction.</p><p><br></p><p>Students planning to take a proficiency exam in a non-Asian language in order to waive the language requirement should consult with an IAS adviser. Proficiency tests may be taken once per semester.</p>",
+        "groupId": "03d76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementTitle",
+        "content": "ECONOMICS",
+        "groupId": "0a9a7645-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296984,
+                      "courseTitle": "Survey of World History",
+                      "courseNumber": "45",
+                      "prefix": "GLOBAL",
+                      "prefixParentId": 16246,
+                      "prefixDescription": "Global Studies",
+                      "departmentParentId": 13446,
+                      "department": "Global Studies",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "89f31b04-9068-4d1d-5aac-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365886,
+                      "courseTitle": "Introduction to Global Studies ",
+                      "courseNumber": "10A",
+                      "prefix": "GLOBAL",
+                      "prefixParentId": 16246,
+                      "prefixDescription": "Global Studies",
+                      "departmentParentId": 13446,
+                      "department": "Global Studies",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "54f7a81e-f286-43d4-5aad-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365887,
+                      "courseTitle": "Critical Issues in Global Studies",
+                      "courseNumber": "10B",
+                      "prefix": "GLOBAL",
+                      "prefixParentId": 16246,
+                      "prefixDescription": "Global Studies",
+                      "departmentParentId": 13446,
+                      "department": "Global Studies",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c6543ba0-ce2d-4359-5aae-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "06d76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296884,
+                      "courseTitle": "Introduction to Economics, Lecture Format",
+                      "courseNumber": "2",
+                      "prefix": "ECON",
+                      "prefixParentId": 1253,
+                      "prefixDescription": "Economics",
+                      "departmentParentId": 4280,
+                      "department": "Economics",
+                      "begin": "F2007",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ac638206-8cc5-40d4-5aaf-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245416,
+                      "courseTitle": "Introduction to Economics",
+                      "courseNumber": "1",
+                      "prefix": "ECON",
+                      "prefixParentId": 1253,
+                      "prefixDescription": "Economics",
+                      "departmentParentId": 4280,
+                      "department": "Economics",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 4,
+                          "pathwayName": "Business Administration",
+                          "pathwayCode": "Business-Administration",
+                          "expectationId": 13,
+                          "expectationName": "C2-Macroeconomics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 9,
+                          "pathwayName": "Economics",
+                          "pathwayCode": "Economics",
+                          "expectationId": 44,
+                          "expectationName": "C2-Macroeconomics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 4,
+                          "pathwayName": "Business Administration",
+                          "pathwayCode": "Business-Administration",
+                          "expectationId": 12,
+                          "expectationName": "C1-Microeconomics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 9,
+                          "pathwayName": "Economics",
+                          "pathwayCode": "Economics",
+                          "expectationId": 43,
+                          "expectationName": "C1-Microeconomics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6608eb7b-a988-4c03-5ab0-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "08d76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300361,
+                      "courseTitle": "Foundations of Data Science",
+                      "courseNumber": "C8",
+                      "prefix": "STAT",
+                      "prefixParentId": 3366,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12545,
+                      "department": "Statistics",
+                      "begin": "F2020",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 367471,
+                          "courseTitle": "Foundations of Data Science",
+                          "courseNumber": "C8",
+                          "prefix": "COMPSCI",
+                          "prefixParentId": 520,
+                          "prefixDescription": "Computer Science",
+                          "departmentParentId": 3212,
+                          "department": "Computer Science",
+                          "begin": "F2017",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      },
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 378343,
+                          "courseTitle": "Foundations of Data Science",
+                          "courseNumber": "C8",
+                          "prefix": "DATA",
+                          "prefixParentId": 16874,
+                          "prefixDescription": "Data Science, Undergraduate",
+                          "departmentParentId": 13979,
+                          "department": "Data Science Undergraduate Studies ",
+                          "begin": "F2020",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      },
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 367470,
+                          "courseTitle": "Foundations of Data Science",
+                          "courseNumber": "C8",
+                          "prefix": "INFO",
+                          "prefixParentId": 16301,
+                          "prefixDescription": "Information",
+                          "departmentParentId": 13486,
+                          "department": "Information",
+                          "begin": "F2017",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a88dc4a6-d203-43d2-5ab1-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245413,
+                      "courseTitle": "Introduction to Statistics",
+                      "courseNumber": "2",
+                      "prefix": "STAT",
+                      "prefixParentId": 3366,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12545,
+                      "department": "Statistics",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 4,
+                          "pathwayName": "Business Administration",
+                          "pathwayCode": "Business-Administration",
+                          "expectationId": 15,
+                          "expectationName": "C4-Statistics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 21,
+                          "pathwayName": "Sociology",
+                          "pathwayCode": "Sociology",
+                          "expectationId": 108,
+                          "expectationName": "C3-Stats",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 20,
+                          "pathwayName": "Psychology",
+                          "pathwayCode": "Psychology",
+                          "expectationId": 101,
+                          "expectationName": "C2-Statistics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6a98127b-f3e7-4f38-5ab2-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 275224,
+                      "courseTitle": "Introductory Probability and Statistics for Business",
+                      "courseNumber": "21",
+                      "prefix": "STAT",
+                      "prefixParentId": 3366,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12545,
+                      "department": "Statistics",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 20,
+                          "pathwayName": "Psychology",
+                          "pathwayCode": "Psychology",
+                          "expectationId": 101,
+                          "expectationName": "C2-Statistics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8141631e-2a1e-4b7c-5ab3-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 351691,
+                      "courseTitle": "Introduction to Probability and Statistics",
+                      "courseNumber": "20",
+                      "prefix": "STAT",
+                      "prefixParentId": 3366,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12545,
+                      "department": "Statistics",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 20,
+                          "pathwayName": "Psychology",
+                          "pathwayCode": "Psychology",
+                          "expectationId": 101,
+                          "expectationName": "C2-Statistics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f7f9d60e-2a4e-4223-5ab4-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "0ad76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION REQUIREMENTS",
+        "groupId": "e0147945-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "STATISTICS",
+        "groupId": "c23f7945-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "89f31b04-9068-4d1d-5aac-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 296984,
+            "courseTitle": "Survey of World History",
+            "courseNumber": "45",
+            "prefix": "GLOBAL",
+            "prefixParentId": 16246,
+            "prefixDescription": "Global Studies",
+            "departmentParentId": 13446,
+            "department": "Global Studies",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 344198,
+                    "courseTitle": "World History: Prehistoric to Early Modern - Honors",
+                    "courseNumber": "3H",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "Su2011",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 242,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 239442,
+                    "courseTitle": "World History: Early Modern to the Present - Honors",
+                    "courseNumber": "4H",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "Su2011",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 242,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [
+                  {
+                    "position": 0,
+                    "content": "Regular and honors courses may be combined to complete this series"
+                  }
+                ],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 213291,
+                    "courseTitle": "World History: Prehistoric to Early Modern",
+                    "courseNumber": "3",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "Su2011",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 242,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 215159,
+                    "courseTitle": "World History: Early Modern to the Present",
+                    "courseNumber": "4",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "Su2011",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 242,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [
+                  {
+                    "position": 0,
+                    "content": "Regular and honors courses may be combined to complete this series"
+                  }
+                ],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "ce32d5dc-ed7d-498b-6041-08dec8a01552",
+                "sendingArticulationId": "6f427c79-c409-4b71-f5a2-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": [
+              {
+                "position": 0,
+                "content": "Articulation for Global Studies majors only"
+              }
+            ]
+          },
+          "templateOverrides": [
+            {
+              "id": "040269f0-65bd-4543-517a-08decca6a783",
+              "variantIds": [
+                "511ac1ec-8123-4b17-cbbd-08dec89fcc4a"
+              ],
+              "sendingArticulation": {
+                "noArticulationReason": "This course must be taken at the university after transfer",
+                "deniedCourses": [],
+                "items": [],
+                "courseGroupConjunctions": [],
+                "type": "TemplateOverride",
+                "attributes": []
+              }
+            }
+          ],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "ac638206-8cc5-40d4-5aaf-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 296884,
+            "courseTitle": "Introduction to Economics, Lecture Format",
+            "courseNumber": "2",
+            "prefix": "ECON",
+            "prefixParentId": 1253,
+            "prefixDescription": "Economics",
+            "departmentParentId": 4280,
+            "department": "Economics",
+            "begin": "F2007",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "6608eb7b-a988-4c03-5ab0-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 245416,
+            "courseTitle": "Introduction to Economics",
+            "courseNumber": "1",
+            "prefix": "ECON",
+            "prefixParentId": 1253,
+            "prefixDescription": "Economics",
+            "departmentParentId": 4280,
+            "department": "Economics",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 4,
+                "pathwayName": "Business Administration",
+                "pathwayCode": "Business-Administration",
+                "expectationId": 13,
+                "expectationName": "C2-Macroeconomics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 9,
+                "pathwayName": "Economics",
+                "pathwayCode": "Economics",
+                "expectationId": 44,
+                "expectationName": "C2-Macroeconomics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 4,
+                "pathwayName": "Business Administration",
+                "pathwayCode": "Business-Administration",
+                "expectationId": 12,
+                "expectationName": "C1-Microeconomics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 9,
+                "pathwayName": "Economics",
+                "pathwayCode": "Economics",
+                "expectationId": 43,
+                "expectationName": "C1-Microeconomics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Regular and honors courses may be combined to complete this series"
+                      }
+                    ],
+                    "courseIdentifierParentId": 202599,
+                    "courseTitle": "Principles of Microeconomics",
+                    "courseNumber": "C2001",
+                    "prefix": "ECON",
+                    "prefixParentId": 3944,
+                    "prefixDescription": "Economics",
+                    "departmentParentId": 15746,
+                    "department": "Economics",
+                    "begin": "F2026",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 205156,
+                    "courseTitle": "Principles of Macroeconomics",
+                    "courseNumber": "C2002",
+                    "prefix": "ECON",
+                    "prefixParentId": 3944,
+                    "prefixDescription": "Economics",
+                    "departmentParentId": 15746,
+                    "department": "Economics",
+                    "begin": "F2026",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 184039,
+                    "courseTitle": "Principles of Macroeconomics - Honors",
+                    "courseNumber": "C2002H",
+                    "prefix": "ECON",
+                    "prefixParentId": 3944,
+                    "prefixDescription": "Economics",
+                    "departmentParentId": 15746,
+                    "department": "Economics",
+                    "begin": "F2026",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [
+                      {
+                        "position": 0,
+                        "content": "Regular and honors courses may be combined to complete this series"
+                      }
+                    ],
+                    "courseIdentifierParentId": 226260,
+                    "courseTitle": "Principles of Microeconomics - Honors",
+                    "courseNumber": "C2001H",
+                    "prefix": "ECON",
+                    "prefixParentId": 3944,
+                    "prefixDescription": "Economics",
+                    "departmentParentId": 15746,
+                    "department": "Economics",
+                    "begin": "F2026",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "817a8c35-3608-4cb6-6029-08dec8a01552",
+                "sendingArticulationId": "8b7e615e-cdb9-45b4-f540-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "6a98127b-f3e7-4f38-5ab2-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 245413,
+            "courseTitle": "Introduction to Statistics",
+            "courseNumber": "2",
+            "prefix": "STAT",
+            "prefixParentId": 3366,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12545,
+            "department": "Statistics",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 4,
+                "pathwayName": "Business Administration",
+                "pathwayCode": "Business-Administration",
+                "expectationId": 15,
+                "expectationName": "C4-Statistics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 21,
+                "pathwayName": "Sociology",
+                "pathwayCode": "Sociology",
+                "expectationId": 108,
+                "expectationName": "C3-Stats",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 20,
+                "pathwayName": "Psychology",
+                "pathwayCode": "Psychology",
+                "expectationId": 101,
+                "expectationName": "C2-Statistics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 203272,
+                    "courseTitle": "Introduction to Statistics",
+                    "courseNumber": "C1000",
+                    "prefix": "STAT",
+                    "prefixParentId": 18917,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 9082,
+                    "department": "Mathematics (MATH)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 219675,
+                    "courseTitle": "Introduction to Statistics -  Honors",
+                    "courseNumber": "C1000H",
+                    "prefix": "STAT",
+                    "prefixParentId": 18917,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 9082,
+                    "department": "Mathematics (MATH)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 265818,
+                    "courseTitle": "Statistics for the Behavioral Sciences",
+                    "courseNumber": "10",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4651,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11326,
+                    "department": "Psychology (PSYC)",
+                    "begin": "F2003",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "1894c3d4-5de0-46a7-6031-08dec8a01552",
+                "sendingArticulationId": "b1ad8352-4379-4c9f-f563-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "a0b1acd7-a5d9-4757-6032-08dec8a01552",
+                "sendingArticulationId": "b1ad8352-4379-4c9f-f563-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "8141631e-2a1e-4b7c-5ab3-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 275224,
+            "courseTitle": "Introductory Probability and Statistics for Business",
+            "courseNumber": "21",
+            "prefix": "STAT",
+            "prefixParentId": 3366,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12545,
+            "department": "Statistics",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 20,
+                "pathwayName": "Psychology",
+                "pathwayCode": "Psychology",
+                "expectationId": 101,
+                "expectationName": "C2-Statistics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [
+            {
+              "position": 0,
+              "content": "This course has a prerequisite of one semester of calculus"
+            }
+          ],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [
+            {
+              "position": 0,
+              "content": "This course has a prerequisite of one semester of calculus"
+            }
+          ],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "f7f9d60e-2a4e-4223-5ab4-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 351691,
+            "courseTitle": "Introduction to Probability and Statistics",
+            "courseNumber": "20",
+            "prefix": "STAT",
+            "prefixParentId": 3366,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12545,
+            "department": "Statistics",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 20,
+                "pathwayName": "Psychology",
+                "pathwayCode": "Psychology",
+                "expectationId": 101,
+                "expectationName": "C2-Statistics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [
+            {
+              "position": 0,
+              "content": "This course has a prerequisite of one semester of calculus"
+            }
+          ],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [
+            {
+              "position": 0,
+              "content": "This course has a prerequisite of one semester of calculus"
+            }
+          ],
+          "attributes": []
+        }
+      }
+    ],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "a88dc4a6-d203-43d2-5ab1-08dec89fcd17",
+        "requirement": "STAT C8",
+        "aliases": [
+          "COMPSCI C8",
+          "DATA C8",
+          "INFO C8"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "Accepted courses depend on the agreement variant. Confirm which variant applies."
+  ],
+  "calculation_review_required": true,
+  "receiving_course_titles": {
+    "GLOBAL 10A": "Introduction to Global Studies",
+    "GLOBAL 10B": "Critical Issues in Global Studies",
+    "GLOBAL 45": "Survey of World History",
+    "ECON 1": "Introduction to Economics",
+    "ECON 2": "Introduction to Economics, Lecture Format",
+    "STAT 2": "Introduction to Statistics",
+    "STAT C8": "Foundations of Data Science",
+    "STAT 20": "Introduction to Probability and Statistics",
+    "STAT 21": "Introductory Probability and Statistics for Business"
+  }
+}

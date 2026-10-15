@@ -1,0 +1,288 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Data Science, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "required",
+      "required_count": null,
+      "note": "Must be taken for a letter  grade"
+    },
+    {
+      "name": "B",
+      "category": "required",
+      "required_count": 1,
+      "note": "Must be taken for a letter  grade"
+    },
+    {
+      "name": "A",
+      "category": "highly_recommended",
+      "required_count": null,
+      "note": "Must be taken for a letter  grade"
+    },
+    {
+      "name": "B",
+      "category": "highly_recommended",
+      "required_count": 1,
+      "note": "Must be taken for a letter  grade"
+    },
+    {
+      "name": "C",
+      "category": "highly_recommended",
+      "required_count": null,
+      "note": "Must be taken for a letter  grade"
+    }
+  ],
+  "requirements": [
+    {
+      "text": "MATH 51",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 180"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 52",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 181"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 56",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "MATH 54",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 285"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "MATH 285"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "MATH 260",
+            "MATH 290"
+          ]
+        }
+      ],
+      "preparation_options": [
+        [
+          "ENGR 285"
+        ],
+        [
+          "MATH 285"
+        ],
+        [
+          "MATH 260"
+        ]
+      ],
+      "preparation_note": "Data Science does not require full equivalence to Math 54 and will accept just the Linear Algebra course of an articulated Math 54-equivalent series."
+    },
+    {
+      "text": "DATA C8",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "COMPSCI 61A",
+      "group": "B",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "DATA C88C",
+      "group": "B",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": []
+    },
+    {
+      "text": "COMPSCI 61B",
+      "group": "C",
+      "category": "highly_recommended",
+      "articulation_status": "partial",
+      "note": "Must complete an additional university course after transfer to satisfy this requirement",
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "CSCI 240"
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T23:59:11.9816341",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "COLLEGE OF COMPUTING, DATA SCIENCE, AND SOCIETY",
+        "groupId": "fce66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE ADMISSION REQUIREMENTS FOR TRANSFER STUDENTS&nbsp;</strong></p><p><br></p><p><strong>THIS MAJOR IS OFFERED BY THE COLLEGE OF COMPUTING, DATA SCIENCE, AND SOCIETY (CDSS)&nbsp;</strong></p><p><br></p><p>Completion of Essential Skills requirements (Computational Reasoning, Human and Social Dynamics of Data</p><p>and Technology, Statistical Reasoning, and Reading and Composition) and&nbsp;Cal-GETC/IGETC are not a</p><p>requirement for admission; however, completion of both is&nbsp;<strong><em>strongly recommended&nbsp;</em></strong>prior to enrollment at</p><p>UC Berkeley to ensure timely degree progress. If course equivalencies are not available at your community college,</p><p>you must plan to take these courses at UC Berkeley.</p><p><br></p><p>To understand the&nbsp;CDSS&nbsp;College Requirements, including essential skills, visit:</p><p><a href=\"https://cdss.berkeley.edu/academics/college-degree-requirements-and-policies#section-el-degree-requirements-1\" rel=\"noopener noreferrer\" target=\"_blank\">https://cdss.berkeley.edu/academics/college-degree-requirements-and-policies#section-el-degree-requirements-1</a></p><p><br></p><p><strong>By the end of the spring term preceding fall enrollment at Berkeley, you must complete</strong>:&nbsp;</p><p><br></p><ol><li><a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">The 7-course pattern</a> (as found in the UC Transfer Admission Eligibility Courses Menu in ASSIST):</li><li>Two transferable courses in English composition;</li><li>One transferable course in mathematical concepts and quantitative reasoning;</li><li>Four transferable college courses chosen from at least two of the following subject areas:</li><li class=\"ql-indent-1\">arts and humanities</li><li class=\"ql-indent-1\">social and behavioral sciences</li><li class=\"ql-indent-1\">physical and biological sciences</li></ol><p><br></p><p>AND&nbsp;</p><p><br></p><p><strong>All required courses as noted by your intended major below.&nbsp;</strong></p><p><strong>Only applicants who have completed 100% of all items above will be considered for admission.</strong></p><p><strong>Additional completion of highly recommended courses will serve to strengthen the application.&nbsp;</strong></p><p><br></p><p><strong>For more information on admission to UC Berkeley</strong>:&nbsp;</p><p><a href=\"https://admissions.berkeley.edu&nbsp;\" rel=\"noopener noreferrer\" target=\"_blank\">https://admissions.berkeley.edu&nbsp;</a></p><p><br></p><p><strong>For specific information on transfer admission to UC Berkeley:</strong></p><p><a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/transfer-requirements/\" rel=\"noopener noreferrer\" target=\"_blank\">https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/transfer-requirements/</a>&nbsp;</p><p><br></p><p><strong>For more information on majors at UC Berkeley</strong>:&nbsp;</p><p><a href=\"https://undergraduate.catalog.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://undergraduate.catalog.berkeley.edu/</a></p><p><br></p>",
+        "groupId": "69db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program",
+        "groupId": "02e76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong style=\"font-size: 14px;\">DATA SCIENCE</strong><span style=\"font-size: 14px;\"> is a new field of study that combines computational and inferential reasoning to draw conclusions based</span></p><p><span style=\"font-size: 14px;\">on data about some aspect of the real world. Data scientists come from all walks of life, all areas of study, and all</span></p><p><span style=\"font-size: 14px;\"> backgrounds. They share an appreciation for the practical use of mathematical and scientific thinking and the power of</span></p><p><span style=\"font-size: 14px;\">computing to understand and solve problems for business, research, and societal impact.&nbsp;</span></p><p><br></p><p><span style=\"font-size: 14px;\">The Data Science Major will equip students to draw sound conclusions from data in context, using knowledge of </span></p><p><span style=\"font-size: 14px;\">statistical inference, computational processes, data management strategies, domain knowledge, and theory. Students </span></p><p><span style=\"font-size: 14px;\">will learn to carry out analyses of data through the full cycle of the investigative process in scientific and practical </span></p><p><span style=\"font-size: 14px;\">contexts. Students will gain understanding of the human and ethical implications of data analysis and integrate that </span></p><p><span style=\"font-size: 14px;\">knowledge in designing and carrying out their work.&nbsp;</span></p><p><br></p><p><span style=\"font-size: 14px;\">We strongly encourage you to visit our website for prospective transfer students (link listed below) to learn more about </span></p><p><span style=\"font-size: 14px;\">preparing for a major in Data Science at UC Berkeley. Also, please reach out to us via the email address below if you have</span></p><p><span style=\"font-size: 14px;\"><span class=\"ql-cursor\">﻿</span>specific questions about your academic path into data science.&nbsp;</span></p><p><br></p><p><strong style=\"font-size: 14px;\">﻿For more information on this major:</strong><span style=\"font-size: 14px;\">&nbsp;</span></p><p><a href=\"mailto:ds-advising@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 0, 238); font-size: 14px;\">ds-advising@berkeley.edu</a><span style=\"color: rgb(0, 0, 238); font-size: 14px;\">&nbsp;</span></p><p><a href=\"https://data.berkeley.edu/information-prospective-transfer-students\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 0, 238); font-size: 14px;\">https://data.berkeley.edu/information-prospective-transfer-students</a></p>",
+        "groupId": "00e76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "ffe66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong style=\"font-size: 14px;\"><em>All&nbsp;coursework&nbsp;towards&nbsp;the&nbsp;major&nbsp;must&nbsp;be&nbsp;taken&nbsp;for&nbsp;a&nbsp;grade.</em></strong></p><p></p><p><strong style=\"font-size: 14px;\">Required&nbsp;for&nbsp;the&nbsp;Major&nbsp;and&nbsp;for&nbsp;Admission&nbsp;to&nbsp;the&nbsp;Major</strong></p><ul><li><span style=\"font-size: 14px;\">MATH&nbsp;51&nbsp;&amp;&nbsp;52&nbsp;-&nbsp;Calculus&nbsp;I&nbsp;&amp;&nbsp;II&nbsp;</span></li><li><span style=\"font-size: 14px;\">MATH&nbsp;56&nbsp;-&nbsp;Linear&nbsp;Algebra&nbsp;-or-&nbsp;MATH&nbsp;54&nbsp;-&nbsp;Linear&nbsp;Algebra&nbsp;and&nbsp;Differential&nbsp;Equations&nbsp;</span></li></ul><p><span style=\"font-size: 14px;\">Data&nbsp;Science&nbsp;does&nbsp;not&nbsp;require&nbsp;full&nbsp;equivalence&nbsp;to&nbsp;Math&nbsp;54&nbsp;and&nbsp;will&nbsp;accept&nbsp;just&nbsp;the&nbsp;Linear&nbsp;Algebra</span></p><p><span style=\"font-size: 14px;\">course&nbsp;of&nbsp;an&nbsp;articulated&nbsp;Math&nbsp;54-equivalent&nbsp;series.&nbsp;</span></p><p></p><p><strong style=\"font-size: 14px;\">Required&nbsp;for&nbsp;the&nbsp;Major&nbsp;and&nbsp;Highly&nbsp;Recommended&nbsp;to&nbsp;be&nbsp;completed&nbsp;prior&nbsp;to&nbsp;Admission</strong></p><ul><li><span style=\"font-size: 14px;\">&nbsp;DATA/COMPSCI/INFO/STAT/C8&nbsp;-&nbsp;Foundations&nbsp;of&nbsp;Data&nbsp;Science&nbsp;</span></li><li><span style=\"font-size: 14px;\">COMPSCI&nbsp;61A&nbsp;-&nbsp;The&nbsp;Structure&nbsp;and&nbsp;Interpretation&nbsp;of&nbsp;Computer&nbsp;Programs&nbsp;(preferred)&nbsp;-or-&nbsp;COMPSCI/DATA&nbsp;C88C&nbsp;-&nbsp;Computational&nbsp;Structures&nbsp;in&nbsp;Data&nbsp;Science</span></li><li><span style=\"font-size: 14px;\">COMPSCI&nbsp;61B&nbsp;-&nbsp;Data&nbsp;Structures&nbsp;</span></li></ul><p><span style=\"font-size: 14px;\">If&nbsp;you&nbsp;see&nbsp;\"Must&nbsp;complete&nbsp;an&nbsp;additional&nbsp;university&nbsp;course&nbsp;after&nbsp;transfer&nbsp;to&nbsp;satisfy&nbsp;this&nbsp;requirement\"&nbsp;with&nbsp;the&nbsp;community&nbsp;college&nbsp;course(s),&nbsp;then&nbsp;in&nbsp;addition&nbsp;to&nbsp;completing&nbsp;the&nbsp;community&nbsp;college&nbsp;course(s),</span></p><p><span style=\"font-size: 14px;\">you&nbsp;must&nbsp;complete&nbsp;a&nbsp;COMPSCI&nbsp;47&nbsp;course&nbsp;after&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley.&nbsp;</span></p><p></p><p><span style=\"font-size: 14px;\">Data&nbsp;C8&nbsp;equivalent&nbsp;courses&nbsp;are&nbsp;found&nbsp;at&nbsp;community&nbsp;colleges&nbsp;across&nbsp;California&nbsp;-&nbsp;&nbsp;</span><a href=\"https://docs.google.com/spreadsheets/d/1tUHOciFAqvKHfK3RNepCzEJZwVrdQuC0BIq_-_Wh0E8/edit?gid=0#gid=0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">CLICK&nbsp;HERE</a><span style=\"font-size: 14px;\">&nbsp;for&nbsp;your&nbsp;options.&nbsp;&nbsp;</span></p><p><span style=\"font-size: 14px;\">Data&nbsp;C88C&nbsp;equivalent&nbsp;courses&nbsp;are&nbsp;currently&nbsp;only&nbsp;offered&nbsp;at&nbsp;a&nbsp;limited&nbsp;(but&nbsp;growing)&nbsp;number&nbsp;of&nbsp;California&nbsp;community&nbsp;colleges&nbsp;-&nbsp;</span><a href=\"https://docs.google.com/spreadsheets/d/1VuCx9nb6L127jarMD0rjpKC1MiCF75IHjQhjSEoVRDA/edit?gid=0#gid=0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">CLICK&nbsp;HERE</a><span style=\"font-size: 14px;\">&nbsp;for&nbsp;your&nbsp;options.&nbsp;&nbsp;</span></p><p><span style=\"font-size: 14px;\">CompSci&nbsp;61A&nbsp;equivalent&nbsp;courses&nbsp;are&nbsp;found&nbsp;at&nbsp;only&nbsp;a&nbsp;few&nbsp;California&nbsp;community&nbsp;colleges&nbsp;-&nbsp;</span><a href=\"https://docs.google.com/spreadsheets/d/1ad74YQ472Iu275lmH95jHpldZiLNWyKsuL9Tt7uGzWU/edit?gid=0#gid=0\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">CLICK&nbsp;HERE</a><span style=\"font-size: 14px;\">&nbsp;for&nbsp;your&nbsp;options.</span></p><p></p><p><span style=\"font-size: 14px;\">Data&nbsp;Science&nbsp;transfer&nbsp;students&nbsp;are&nbsp;expected&nbsp;to&nbsp;enroll&nbsp;in&nbsp;these&nbsp;classes&nbsp;during&nbsp;their&nbsp;first&nbsp;semester&nbsp;at&nbsp;Berkeley&nbsp;if&nbsp;not&nbsp;completed&nbsp;prior&nbsp;to&nbsp;transfer.</span></p><p></p><p><strong style=\"font-size: 14px;\">Not&nbsp;Required&nbsp;for&nbsp;the&nbsp;Major&nbsp;but&nbsp;Highly&nbsp;Recommended</strong></p><ul><li>MATH&nbsp;53&nbsp;-&nbsp;Calculus&nbsp;III</li><li>If&nbsp;you&nbsp;can’t&nbsp;complete&nbsp;all&nbsp;of&nbsp;the&nbsp;courses&nbsp;listed&nbsp;above,&nbsp;completion&nbsp;of&nbsp;additional&nbsp;courses&nbsp;in&nbsp;computer&nbsp;science/programming&nbsp;(especially&nbsp;Python),&nbsp;statistics&nbsp;and&nbsp;mathematics&nbsp;can&nbsp;strengthen&nbsp;your&nbsp;application.</li></ul>",
+        "groupId": "01e76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "exam credit",
+        "groupId": "fae66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 6,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Acceptable exam credit:</p><p><br></p><ul><li>AP/IB exam scores are only accepted for lower division math requirements for the Data Science major in accordance with<a href=\"https://math.berkeley.edu/courses/choosing/high-school-exam-credits\" rel=\"noopener noreferrer\" target=\"_blank\"> </a><a href=\"https://math.berkeley.edu/courses/overview/high-school-exam-credits\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 0, 238);\">Math Department guidelines</a><a href=\"https://math.berkeley.edu/courses/choosing/high-school-exam-credits\" rel=\"noopener noreferrer\" target=\"_blank\">.</a>&nbsp;</li></ul><p><strong>﻿</strong></p><ul><li>Data Science does not accept exam credit to meet any other lower division requirements (ie lower division Domain Emphasis)</li></ul>",
+        "groupId": "fde66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 7,
+        "area": "General"
+      }
+    ],
+    "section_headers": [
+      {
+        "category": "required",
+        "requirement_group_position": 1,
+        "header": {
+          "type": "SectionHeader",
+          "content": "REQUIRED COURSES FOR ADMISSION",
+          "position": 0,
+          "attributes": [
+            {
+              "position": 0,
+              "content": "Must be taken for a letter  grade"
+            }
+          ]
+        }
+      },
+      {
+        "category": "highly_recommended",
+        "requirement_group_position": 3,
+        "header": {
+          "type": "SectionHeader",
+          "content": "RECOMMENDED TO COMPLETE PRIOR TO TRANSFER",
+          "position": 0,
+          "attributes": [
+            {
+              "position": 0,
+              "content": "Must be taken for a letter  grade"
+            }
+          ]
+        }
+      }
+    ],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "8d0d4a02-9800-4ace-8c13-08dec89fcd17",
+        "requirement": "DATA C8",
+        "aliases": [
+          "INFO C8",
+          "COMPSCI C8",
+          "STAT C8"
+        ]
+      },
+      {
+        "template_cell_id": "d5b1fed9-168d-4819-c142-08df07ed5caf",
+        "requirement": "DATA C88C",
+        "aliases": [
+          "COMPSCI C88C"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved section headers; they are labels, not interpreted completion rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+  ],
+  "receiving_course_titles": {
+    "MATH 51": "Calculus I",
+    "MATH 52": "Calculus II",
+    "MATH 56": "Linear Algebra",
+    "MATH 54": "Linear Algebra and Differential Equations",
+    "DATA C8": "Foundations of Data Science",
+    "COMPSCI 61A": "The Structure and Interpretation of Computer Programs",
+    "DATA C88C": "Computational Structures in Data Science",
+    "COMPSCI 61B": "Data Structures"
+  }
+}

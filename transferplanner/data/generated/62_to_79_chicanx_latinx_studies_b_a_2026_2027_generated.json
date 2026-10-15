@@ -1,0 +1,127 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Chicanx Latinx Studies, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 2
+    }
+  ],
+  "requirements": [
+    {
+      "text": "ETH STD 11AC",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Ethnic Studies"
+    },
+    {
+      "text": "CHICANO 20",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Chicanx Latinx Studies"
+    },
+    {
+      "text": "CHICANO 40",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 25"
+          ]
+        }
+      ],
+      "department": "Chicanx Latinx Studies"
+    },
+    {
+      "text": "CHICANO 50",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 40"
+          ]
+        }
+      ],
+      "department": "Chicanx Latinx Studies"
+    },
+    {
+      "text": "CHICANO 70",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Chicanx Latinx Studies"
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T22:43:33.3372155",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "61db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program",
+        "groupId": "65db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The <strong>Chicano Studies</strong> major offers an interdisciplinary curriculum of academic study that critically examines the historical and contemporary experiences of people of Mexican descent in the context of American society and institutions; and studies particular aspects of Mexican history, culture and politics as they bear upon the Chicano community, past and present. Emphasis is given to the student developing a broad knowledge of the Chicano experience. thus, the major stresses the analysis of the interrelationships in the historical background, cultural patterns and artistic expression of the Chicano community in order to acquire a well-rounded, in-depth understanding of the contemporary interface between Chicanos and American society. In this connection, the major strives to incorporate various disciplines in its approach, such as political science, sociology, anthropology, history, literary criticism and art. Through the interdisciplinary nature of our curriculum, the major is aimed at preparing students for incorporation into the world of work and for a wide range of advanced graduate work and/or professional training in various fields.</p><p><br></p><p>Please consult with the Chicano Studies adviser regarding the use of courses taken at your community college for credit toward the major. Generally, some UC-transferable courses taken at your community college can in fact be used to meet certain components of the major requirements.</p><p><br></p><p><strong>For more information contact Major Advisors: </strong></p><p><br></p><p>Dewey St. Germaine</p><p>(510) 643-6420</p><p><a href=\"mailto:deweystg@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">deweystg@berkeley.edu</a></p><p><br></p><p>Laura Jimenez-Olvera</p><p>(510) 642-0243</p><p><a href=\"mailto:lauraj@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">lauraj@berkeley.edu</a></p><p><br></p><p><a href=\"https://ethnicstudies.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://ethnicstudies.berkeley.edu/</a></p>",
+        "groupId": "63db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ],
+  "receiving_course_titles": {
+    "ETH STD 11AC": "Introduction to Ethnic Studies",
+    "CHICANO 20": "Introduction to Chicano Culture",
+    "CHICANO 40": "Introduction to Chicano Literature in English",
+    "CHICANO 50": "Introduction to Chicano History",
+    "CHICANO 70": "Latino Politics"
+  }
+}

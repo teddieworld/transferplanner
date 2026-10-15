@@ -15,13 +15,17 @@ export type AgreementRow = {
   optionId: number | null;
   optionNumber: number | null;
   courseCode: string | null;
+  courseTitle?: string | null;
   department?: string | null;
   rules?: { max_per_department?: number; note?: string; review_required?: boolean };
 };
 
-type AgreementMetadata = Pick<MajorAgreement, "university" | "major" | "academicYear" | "kind" | "notes" | "reviewNotes">;
+export type AgreementMetadata = Pick<MajorAgreement, "university" | "major" | "academicYear" | "kind" | "notes" | "reviewNotes"> & {
+  receivingCourseTitles?: Record<string, string>;
+};
 
 export function buildAgreement(metadata: AgreementMetadata, rows: AgreementRow[]): MajorAgreement {
+  const { receivingCourseTitles = {}, ...agreementMetadata } = metadata;
   const requiredGroups: RequirementGroup[] = [];
   const highlyRecommendedGroups: RequirementGroup[] = [];
   const majorRequiredGroups: RequirementGroup[] = [];
@@ -51,7 +55,7 @@ export function buildAgreement(metadata: AgreementMetadata, rows: AgreementRow[]
     if (!requirement) {
       const status = row.articulationStatus;
       if (status !== "articulated" && status !== "partial" &&
-          status !== "no_course_articulated" && status !== "university_only") {
+          status !== "no_course_articulated" && status !== "university_only" && status !== "review_required") {
         throw new Error(`Invalid articulation status for ${row.requirementName}`);
       }
       if (!row.requirementName) throw new Error("Requirement has no name");
@@ -63,6 +67,11 @@ export function buildAgreement(metadata: AgreementMetadata, rows: AgreementRow[]
         ...(row.note ? { note: row.note } : {}),
         ...(row.preparationNote ? { preparationNote: row.preparationNote } : {})
       };
+      // Codes remain the matching keys; titles only enrich the displayed label.
+      const receivingCourses = row.requirementName.split(" AND ").map(code => ({
+        code, ...(receivingCourseTitles[code] ? { title: receivingCourseTitles[code] } : {})
+      }));
+      if (receivingCourses.some(course => course.title)) requirement.receivingCourses = receivingCourses;
       requirements.set(row.requirementId, requirement);
       group.requirements.push(requirement);
     }
@@ -83,6 +92,10 @@ export function buildAgreement(metadata: AgreementMetadata, rows: AgreementRow[]
       }
     }
     if (row.courseCode && !option.includes(row.courseCode)) option.push(row.courseCode);
+    if (row.courseCode && row.courseTitle) {
+      requirement.optionCourseTitles ??= {};
+      requirement.optionCourseTitles[row.courseCode] = row.courseTitle;
+    }
   }
 
   // An incomplete mapping must not silently satisfy an empty AND option.
@@ -92,5 +105,5 @@ export function buildAgreement(metadata: AgreementMetadata, rows: AgreementRow[]
   const hasGroups = requiredGroups.length + majorRequiredGroups.length + highlyRecommendedGroups.length > 0;
   if (metadata.kind === "informational" && hasGroups) throw new Error("Informational agreement has course groups");
   if (!hasGroups && metadata.kind !== "informational") throw new Error("Agreement has no course groups");
-  return { ...metadata, requiredGroups, majorRequiredGroups, highlyRecommendedGroups };
+  return { ...agreementMetadata, requiredGroups, majorRequiredGroups, highlyRecommendedGroups };
 }

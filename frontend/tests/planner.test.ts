@@ -5,6 +5,20 @@ import type { AgreementRow } from "../lib/agreement-builder";
 import { getRequirementStatus, getPreparationStatus, isCategorySatisfied, isGroupSatisfied, isOptionSatisfied } from "../lib/planner";
 import type { Requirement } from "../lib/planner";
 
+test("unresolved mappings retain adviser review even when every option is checked", () => {
+  const row: AgreementRow = {
+    groupId: 1, groupName: "A", category: "required", requiredCount: 1,
+    rules: { review_required: true, note: "Choose the correct agreement variant." },
+    requirementId: 1, requirementName: "A variant-dependent course", articulationStatus: "review_required",
+    note: "Adviser review needed", optionId: 1, optionNumber: 1, courseCode: "MATH 180"
+  };
+  const plan = buildAgreement({ university: "Berkeley", major: "Review example", academicYear: "2026–2027" }, [row]);
+  const requirement = plan.requiredGroups[0].requirements[0];
+  assert.equal(getRequirementStatus(requirement, ["MATH 180"]), "review_required");
+  assert.equal(getPreparationStatus({ ...requirement, preparationOptions: [["MATH 180"]] }, ["MATH 180"]), "review_required");
+  assert.equal(isCategorySatisfied(plan.requiredGroups, ["MATH 180"]), false);
+});
+
 test("informational agreements and empty admission categories never report satisfied", () => {
   const plan = buildAgreement({ university: "Berkeley", major: "Ancient Civilizations", academicYear: "2026–2027",
     kind: "informational", notes: ["Department review is needed."] }, []);
@@ -43,6 +57,35 @@ const math54: Requirement = {
   name: "MATH 54", articulationStatus: "articulated",
   options: [["ENGR 285"], ["MATH 285"], ["MATH 260", "MATH 290"]]
 };
+
+test("course titles enrich single courses, series and preparation without changing matching codes", () => {
+  const row: AgreementRow = {
+    groupId: 1, groupName: "A", category: "required", requiredCount: null,
+    requirementId: 1, requirementName: "MATH 51 AND MATH 52", articulationStatus: "articulated",
+    note: null, optionId: 1, optionNumber: 1, courseCode: "MATH 180", courseTitle: "Calculus and Analytic Geometry I"
+  };
+  const metadata = { university: "Berkeley", major: "Example", academicYear: "2026–2027",
+    receivingCourseTitles: { "MATH 51": "Calculus I", "MATH 52": "Calculus II" } };
+  const plan = buildAgreement(metadata, [row,
+    { ...row, courseCode: "MATH 181", courseTitle: "Calculus and Analytic Geometry II" },
+    { ...row, optionKind: "preparation", optionId: 2 },
+    { ...row, requirementId: 2, requirementName: "MATH 51", optionId: 3 },
+    { ...row, requirementId: 3, requirementName: "Other program requirement", optionId: null, courseCode: null, courseTitle: null }
+  ]);
+  const [series, single, other] = plan.requiredGroups[0].requirements;
+  assert.equal(series.name, "MATH 51 AND MATH 52");
+  assert.deepEqual(series.receivingCourses, [{ code: "MATH 51", title: "Calculus I" }, { code: "MATH 52", title: "Calculus II" }]);
+  assert.equal(series.optionCourseTitles?.["MATH 180"], "Calculus and Analytic Geometry I");
+  assert.deepEqual(series.options, [["MATH 180", "MATH 181"]]);
+  assert.deepEqual(series.preparationOptions, [["MATH 180"]]);
+  assert.deepEqual(single.receivingCourses, [{ code: "MATH 51", title: "Calculus I" }]);
+  assert.equal(other.receivingCourses, undefined);
+  assert.equal(other.optionCourseTitles, undefined);
+  assert.equal(getRequirementStatus(series, ["MATH 180", "MATH 181"]), "satisfied");
+  const withoutTitles = buildAgreement({ ...metadata, receivingCourseTitles: undefined }, [{ ...row, courseTitle: null }]);
+  assert.equal(withoutTitles.requiredGroups[0].requirements[0].receivingCourses, undefined);
+  assert.equal(withoutTitles.requiredGroups[0].requirements[0].optionCourseTitles, undefined);
+});
 
 test("reviewed CS preparation accepts linear algebra without changing equivalence", () => {
   const requirement: Requirement = {

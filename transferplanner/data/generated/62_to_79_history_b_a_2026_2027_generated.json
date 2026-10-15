@@ -1,0 +1,2278 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "History, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: LOWER DIVISION REQUIREMENTS\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Complete 4 Course; Complete 1 Course\nHistory requires courses from distinct geographic areas and an optional fourth elective; the flat group model cannot enforce area coverage.\nAdditional group or section instructions apply. Review the source notes before choosing courses.\nPlease refer to additional important General Information section above"
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1,
+      "review_required": true,
+      "note": "Source heading: LOWER DIVISION REQUIREMENTS\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Complete 4 Course; Select 1 Course\nHistory requires courses from distinct geographic areas and an optional fourth elective; the flat group model cannot enforce area coverage.\nAdditional group or section instructions apply. Review the source notes before choosing courses.\nPlease refer to additional important General Information section above\nDuplicate credit is not permitted"
+    }
+  ],
+  "requirements": [
+    {
+      "text": "HISTORY 10",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 35"
+          ]
+        }
+      ],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 6A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 10"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST 10H"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "HIST 11"
+          ]
+        },
+        {
+          "option_number": 4,
+          "courses": [
+            "HIST 11H"
+          ]
+        }
+      ],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 6B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 11",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 11A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 13",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 14",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 10"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST 10H"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "HIST 11"
+          ]
+        },
+        {
+          "option_number": 4,
+          "courses": [
+            "HIST 11H"
+          ]
+        }
+      ],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 4A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 3"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST 3H"
+          ]
+        }
+      ],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 4B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 3"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST 3H"
+          ]
+        }
+      ],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 5",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 4"
+          ]
+        }
+      ],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 8A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 8B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 3",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 12",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 7A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST C1001"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST C1001H"
+          ]
+        }
+      ],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 7B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST C1002"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST C1002H"
+          ]
+        }
+      ],
+      "department": "History"
+    },
+    {
+      "text": "Other courses that satisfy the Area I requirement for the History major",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "Other courses that satisfy the Area II requirement for the History major",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "Other courses that satisfy the Area III requirement for the History major",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "HISTORY 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 2",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HISTORY 30",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "Courses that satisfy the Area IV requirement for the History major",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T23:47:52.0663564",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "7ee36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program",
+        "groupId": "74e36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>For more information: </strong></p><p>Undergraduate Advisor </p><p><a href=\"mailto:history-undergradadvisor@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">history-undergradadvisor@berkeley.edu</a> </p><p>(510) 642-0356 </p><p><a href=\"http://history.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://history.berkeley.edu</a></p>",
+        "groupId": "76e36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "important major information",
+        "groupId": "72e36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong style=\"font-size: 14px;\">Fall&nbsp;2027&nbsp;Admission&nbsp;For&nbsp;this&nbsp;Major:</strong></p><p>Transfer&nbsp;students&nbsp;who&nbsp;select&nbsp;this&nbsp;major&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application&nbsp;and&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;this&nbsp;major.&nbsp;If&nbsp;you&nbsp;are&nbsp;interested&nbsp;in&nbsp;this&nbsp;major,&nbsp;it&nbsp;is&nbsp;very&nbsp;important&nbsp;to&nbsp;select&nbsp;this&nbsp;major&nbsp;on&nbsp;your&nbsp;application,&nbsp;and&nbsp;complete&nbsp;as&nbsp;many&nbsp;lower-division&nbsp;major&nbsp;requirements&nbsp;as&nbsp;possible&nbsp;prior&nbsp;to&nbsp;transfer.&nbsp;See&nbsp;details&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p>To&nbsp;prepare&nbsp;for&nbsp;the&nbsp;History&nbsp;major,&nbsp;students&nbsp;<strong>must&nbsp;take&nbsp;the&nbsp;equivalent&nbsp;of&nbsp;at&nbsp;least&nbsp;three&nbsp;courses</strong>&nbsp;(up&nbsp;to&nbsp;a&nbsp;total&nbsp;of&nbsp;four&nbsp;courses)&nbsp;from&nbsp;three&nbsp;different&nbsp;areas/regions&nbsp;using&nbsp;the&nbsp;following&nbsp;list.&nbsp;</p><p></p><ul><li><strong style=\"font-size: 14px;\"><u>Required</u>:</strong><span style=\"font-size: 14px;\">&nbsp;</span>The&nbsp;equivalent&nbsp;of&nbsp;3&nbsp;lower&nbsp;division&nbsp;courses&nbsp;from&nbsp;3&nbsp;different&nbsp;areas/regions&nbsp;<ul><li>Africa:&nbsp;10&nbsp;</li><li>Asia:&nbsp;6A,&nbsp;6B,&nbsp;11,&nbsp;11A,&nbsp;13,&nbsp;14&nbsp;</li><li>Europe:&nbsp;4A,&nbsp;4B,&nbsp;5&nbsp;</li><li>Latin&nbsp;America&nbsp;&amp;&nbsp;The&nbsp;Caribbean:&nbsp;8A,&nbsp;8B&nbsp;</li><li>Near&nbsp;&amp;&nbsp;Middle&nbsp;East:&nbsp;3,&nbsp;12&nbsp;</li><li>North&nbsp;America:&nbsp;7A,&nbsp;7B&nbsp;</li></ul></li></ul><p></p><ul><li><strong style=\"font-size: 14px;\"><u>Highly&nbsp;Recommended</u>:</strong>&nbsp;Additional&nbsp;Elective&nbsp;Requirement.&nbsp;This&nbsp;course&nbsp;can&nbsp;be&nbsp;taken&nbsp;at&nbsp;the&nbsp;community&nbsp;college,&nbsp;but&nbsp;the&nbsp;course&nbsp;can&nbsp;also&nbsp;be&nbsp;completed&nbsp;upon&nbsp;admission&nbsp;to&nbsp;UC&nbsp;Berkeley.&nbsp;<ul><li>Any&nbsp;of&nbsp;the&nbsp;above&nbsp;area/region&nbsp;courses,&nbsp;or&nbsp;one&nbsp;elective&nbsp;such&nbsp;as&nbsp;History&nbsp;1,&nbsp;2,&nbsp;30</li></ul></li></ul><p></p><p><strong>Each&nbsp;community&nbsp;college&nbsp;course&nbsp;counts&nbsp;as&nbsp;one&nbsp;course.</strong></p>",
+        "groupId": "7de36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "exam credit",
+        "groupId": "77e36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 6,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>AP scores cannot be used to satisfy major requirements. </p>",
+        "groupId": "79e36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 7,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "SectionHeader",
+            "content": "REQUIRED COURSES",
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "SUGGESTED LOWER DIVISION MAJOR ELECTIVE COURSES",
+            "position": 2,
+            "attributes": [
+              {
+                "position": 0,
+                "content": "Please refer to additional important General Information section above"
+              },
+              {
+                "position": 1,
+                "content": "Duplicate credit is not permitted"
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387644,
+                      "courseTitle": "Global History",
+                      "courseNumber": "1",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "Su2023",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b2727fbe-ea3b-4e92-7be7-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387648,
+                      "courseTitle": "Science and Society",
+                      "courseNumber": "30",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "Su2023",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a2342e49-2b83-4db8-7be8-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "Courses that satisfy the Area IV requirement for the History major"
+                    },
+                    "requirementAttributes": [],
+                    "id": "cafc5e42-61ce-4b2b-7be9-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387645,
+                      "courseTitle": "Comparative World History",
+                      "courseNumber": "2",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "Su2023",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "22e6050c-7203-49e6-7bea-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFromUnits",
+                "amount": 1.0,
+                "amountQuantifier": "None",
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 3,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245406,
+                      "courseTitle": "African History",
+                      "courseNumber": "10",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2644dfdb-5c9d-4ae1-7beb-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 351653,
+                      "courseTitle": "History of China: Origins to the Mongol Conquest",
+                      "courseNumber": "6A",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "650d87da-1e34-457f-7bec-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296543,
+                      "courseTitle": "Introduction to Chinese History from the Mongols to Mao",
+                      "courseNumber": "6B",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "15bddbb4-86ce-4052-7bed-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 268831,
+                      "courseTitle": "India",
+                      "courseNumber": "11",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "F2003",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ade551fe-19b3-4f6d-7bee-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 281236,
+                      "courseTitle": "Introduction to the History of Japan",
+                      "courseNumber": "14",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d7b7b12f-54ba-4abd-7bef-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 275207,
+                      "courseTitle": "The Ancient Mediterranean World",
+                      "courseNumber": "4A",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 130,
+                          "expectationName": "A-World History Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6cf1e156-148e-4861-7bf0-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 351693,
+                      "courseTitle": "European Civilization From the Renaissance to the Present",
+                      "courseNumber": "5",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 130,
+                          "expectationName": "A-World History Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "70d9d7a5-3e97-4246-7bf1-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245407,
+                      "courseTitle": "Becoming Latin America, 1492 to 1824",
+                      "courseNumber": "8A",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8dc6d5e6-5d8b-42a0-7bf2-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 11,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 275214,
+                      "courseTitle": "Modern Latin America",
+                      "courseNumber": "8B",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "S2012",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e353f742-8f1e-4f23-7bf3-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 12,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 298891,
+                      "courseTitle": "After the Roman Empire: The East",
+                      "courseNumber": "3",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ca631613-9fd2-4188-7bf4-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 13,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 268832,
+                      "courseTitle": "The Middle East",
+                      "courseNumber": "12",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "F2003",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "27bccf92-0faf-40de-7bf5-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 14,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 351688,
+                      "courseTitle": "The United States from Settlement to Civil War",
+                      "courseNumber": "7A",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 64,
+                          "expectationName": "C2-US History",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3e80a8ad-75b7-44e6-7bf6-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 17,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "Other courses that satisfy the Area II requirement for the History major"
+                    },
+                    "requirementAttributes": [],
+                    "id": "d0f92547-915e-42f8-7bf7-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 18,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "Other courses that satisfy the Area III requirement for the History major"
+                    },
+                    "requirementAttributes": [],
+                    "id": "49eb5133-a2fe-4e40-7bf8-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387646,
+                      "courseTitle": "The Wonder That Was India: Politics, Culture, and Philosophy in Premodern South Asia",
+                      "courseNumber": "11A",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "Su2023",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bba3c044-ca9f-4264-7bf9-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387647,
+                      "courseTitle": "Southeast Asia: From Prehistory to the Cold War",
+                      "courseNumber": "13",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "Su2023",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8a172e2f-5393-4623-7bfa-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 281308,
+                      "courseTitle": "Medieval Europe",
+                      "courseNumber": "4B",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 130,
+                          "expectationName": "A-World History Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4dfc4978-7010-4273-7bfb-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 15,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 245400,
+                      "courseTitle": "The United States from Civil War to Present",
+                      "courseNumber": "7B",
+                      "prefix": "HISTORY",
+                      "prefixParentId": 2977,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7046,
+                      "department": "History",
+                      "begin": "F2013",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 64,
+                          "expectationName": "C2-US History",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "83fdea0c-368d-4461-7bfc-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 16,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "Other courses that satisfy the Area I requirement for the History major"
+                    },
+                    "requirementAttributes": [],
+                    "id": "17293bd1-fcf5-4fb7-7bfd-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NInNDifferentAreas",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "areaAmount": 3.0,
+                "areaType": "Areas",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [
+          {
+            "position": 0,
+            "content": "Please refer to additional important General Information section above"
+          }
+        ],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromArea",
+          "amount": 4.0,
+          "amountQuantifier": "UpTo",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 3.0,
+          "areaType": "Areas",
+          "id": "d544a5b3-bbcc-405b-6f57-08dec89fcd0b",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "7be36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION REQUIREMENTS",
+        "groupId": "f3147945-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "2644dfdb-5c9d-4ae1-7beb-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 245406,
+            "courseTitle": "African History",
+            "courseNumber": "10",
+            "prefix": "HISTORY",
+            "prefixParentId": 2977,
+            "prefixDescription": "History",
+            "departmentParentId": 7046,
+            "department": "History",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 163442,
+                    "courseTitle": "History of Africa",
+                    "courseNumber": "35",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "650d87da-1e34-457f-7bec-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 351653,
+            "courseTitle": "History of China: Origins to the Mongol Conquest",
+            "courseNumber": "6A",
+            "prefix": "HISTORY",
+            "prefixParentId": 2977,
+            "prefixDescription": "History",
+            "departmentParentId": 7046,
+            "department": "History",
+            "begin": "F2006",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 337584,
+                    "courseTitle": "History of Asia from Pre-History to Early Modern",
+                    "courseNumber": "10",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 377463,
+                    "courseTitle": "History of Early Modern to Modern Asia - Honors",
+                    "courseNumber": "11H",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 204055,
+                    "courseTitle": "History of Early Modern to Modern Asia",
+                    "courseNumber": "11",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 377462,
+                    "courseTitle": "History of Asia from Pre-History to Early Modern - Honors",
+                    "courseNumber": "10H",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "83fb670b-0df1-4334-6036-08dec8a01552",
+                "sendingArticulationId": "965b6fb7-749b-4da7-f56c-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "f947b32a-2751-4b83-6037-08dec8a01552",
+                "sendingArticulationId": "965b6fb7-749b-4da7-f56c-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              },
+              {
+                "id": "2b3abd3b-ee97-4052-6038-08dec8a01552",
+                "sendingArticulationId": "965b6fb7-749b-4da7-f56c-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 2,
+                "sendingCourseGroupEndPosition": 3
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "d7b7b12f-54ba-4abd-7bef-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 281236,
+            "courseTitle": "Introduction to the History of Japan",
+            "courseNumber": "14",
+            "prefix": "HISTORY",
+            "prefixParentId": 2977,
+            "prefixDescription": "History",
+            "departmentParentId": 7046,
+            "department": "History",
+            "begin": "F2002",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 337584,
+                    "courseTitle": "History of Asia from Pre-History to Early Modern",
+                    "courseNumber": "10",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 377463,
+                    "courseTitle": "History of Early Modern to Modern Asia - Honors",
+                    "courseNumber": "11H",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 3,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 377462,
+                    "courseTitle": "History of Asia from Pre-History to Early Modern - Honors",
+                    "courseNumber": "10H",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 204055,
+                    "courseTitle": "History of Early Modern to Modern Asia",
+                    "courseNumber": "11",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "babce3d0-cd7a-4b31-603b-08dec8a01552",
+                "sendingArticulationId": "efae7ac6-0934-4e0e-f585-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "605fa274-8fb1-4b16-603c-08dec8a01552",
+                "sendingArticulationId": "efae7ac6-0934-4e0e-f585-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              },
+              {
+                "id": "7858796b-b044-4528-603d-08dec8a01552",
+                "sendingArticulationId": "efae7ac6-0934-4e0e-f585-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 2,
+                "sendingCourseGroupEndPosition": 3
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "6cf1e156-148e-4861-7bf0-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 275207,
+            "courseTitle": "The Ancient Mediterranean World",
+            "courseNumber": "4A",
+            "prefix": "HISTORY",
+            "prefixParentId": 2977,
+            "prefixDescription": "History",
+            "departmentParentId": 7046,
+            "department": "History",
+            "begin": "F2006",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 130,
+                "expectationName": "A-World History Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 344198,
+                    "courseTitle": "World History: Prehistoric to Early Modern - Honors",
+                    "courseNumber": "3H",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "Su2011",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 213291,
+                    "courseTitle": "World History: Prehistoric to Early Modern",
+                    "courseNumber": "3",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "Su2011",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "392fcc7b-4a76-4062-6058-08dec8a01552",
+                "sendingArticulationId": "c189437b-3012-4b18-f783-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "70d9d7a5-3e97-4246-7bf1-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 351693,
+            "courseTitle": "European Civilization From the Renaissance to the Present",
+            "courseNumber": "5",
+            "prefix": "HISTORY",
+            "prefixParentId": 2977,
+            "prefixDescription": "History",
+            "departmentParentId": 7046,
+            "department": "History",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 130,
+                "expectationName": "A-World History Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 215159,
+                    "courseTitle": "World History: Early Modern to the Present",
+                    "courseNumber": "4",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "Su2011",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "3e80a8ad-75b7-44e6-7bf6-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 351688,
+            "courseTitle": "The United States from Settlement to Civil War",
+            "courseNumber": "7A",
+            "prefix": "HISTORY",
+            "prefixParentId": 2977,
+            "prefixDescription": "History",
+            "departmentParentId": 7046,
+            "department": "History",
+            "begin": "F2006",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 64,
+                "expectationName": "C2-US History",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 199022,
+                    "courseTitle": "United States History to 1877 - Honors",
+                    "courseNumber": "C1001H",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2026",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 216501,
+                    "courseTitle": "United States History to 1877",
+                    "courseNumber": "C1001",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2026",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "ef1a69d3-21e3-4bf3-6024-08dec8a01552",
+                "sendingArticulationId": "30278483-c660-4f27-f504-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "4dfc4978-7010-4273-7bfb-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 281308,
+            "courseTitle": "Medieval Europe",
+            "courseNumber": "4B",
+            "prefix": "HISTORY",
+            "prefixParentId": 2977,
+            "prefixDescription": "History",
+            "departmentParentId": 7046,
+            "department": "History",
+            "begin": "F2006",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 130,
+                "expectationName": "A-World History Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 213291,
+                    "courseTitle": "World History: Prehistoric to Early Modern",
+                    "courseNumber": "3",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "Su2011",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 344198,
+                    "courseTitle": "World History: Prehistoric to Early Modern - Honors",
+                    "courseNumber": "3H",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "Su2011",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "ff66842f-2f34-42d1-602f-08dec8a01552",
+                "sendingArticulationId": "5be91c63-22fd-41d4-f558-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "83fdea0c-368d-4461-7bfc-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 245400,
+            "courseTitle": "The United States from Civil War to Present",
+            "courseNumber": "7B",
+            "prefix": "HISTORY",
+            "prefixParentId": 2977,
+            "prefixDescription": "History",
+            "departmentParentId": 7046,
+            "department": "History",
+            "begin": "F2013",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 64,
+                "expectationName": "C2-US History",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 344200,
+                    "courseTitle": "United States History since 1865 - Honors",
+                    "courseNumber": "C1002H",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2026",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 204035,
+                    "courseTitle": "United States History since 1865",
+                    "courseNumber": "C1002",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2026",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "9ea0546d-903c-4a11-603e-08dec8a01552",
+                "sendingArticulationId": "7a680db8-5f09-4482-f58f-08dec8a01420",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "section_headers": [
+      {
+        "category": "major_required",
+        "requirement_group_position": 1,
+        "header": {
+          "type": "SectionHeader",
+          "content": "REQUIRED COURSES",
+          "position": 0,
+          "attributes": []
+        }
+      },
+      {
+        "category": "major_required",
+        "requirement_group_position": 1,
+        "header": {
+          "type": "SectionHeader",
+          "content": "SUGGESTED LOWER DIVISION MAJOR ELECTIVE COURSES",
+          "position": 2,
+          "attributes": [
+            {
+              "position": 0,
+              "content": "Please refer to additional important General Information section above"
+            },
+            {
+              "position": 1,
+              "content": "Duplicate credit is not permitted"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved section headers; they are labels, not interpreted completion rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "History requires courses from distinct geographic areas and an optional fourth elective; the flat group model cannot enforce area coverage.",
+    "Additional group or section instructions apply. Review the source notes before choosing courses."
+  ],
+  "calculation_review_required": true,
+  "receiving_course_titles": {
+    "HISTORY 10": "African History",
+    "HISTORY 6A": "History of China: Origins to the Mongol Conquest",
+    "HISTORY 6B": "Introduction to Chinese History from the Mongols to Mao",
+    "HISTORY 11": "India",
+    "HISTORY 11A": "The Wonder That Was India: Politics, Culture, and Philosophy in Premodern South Asia",
+    "HISTORY 13": "Southeast Asia: From Prehistory to the Cold War",
+    "HISTORY 14": "Introduction to the History of Japan",
+    "HISTORY 4A": "The Ancient Mediterranean World",
+    "HISTORY 4B": "Medieval Europe",
+    "HISTORY 5": "European Civilization From the Renaissance to the Present",
+    "HISTORY 8A": "Becoming Latin America, 1492 to 1824",
+    "HISTORY 8B": "Modern Latin America",
+    "HISTORY 3": "After the Roman Empire: The East",
+    "HISTORY 12": "The Middle East",
+    "HISTORY 7A": "The United States from Settlement to Civil War",
+    "HISTORY 7B": "The United States from Civil War to Present",
+    "HISTORY 1": "Global History",
+    "HISTORY 2": "Comparative World History",
+    "HISTORY 30": "Science and Society"
+  }
+}

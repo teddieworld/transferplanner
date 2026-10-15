@@ -102,5 +102,11 @@
   "review_required": true,
   "review_notes": [
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
-  ]
+  ],
+  "receiving_course_titles": {
+    "LATIN 1": "Elementary Latin",
+    "LATIN 2": "Elementary Latin",
+    "AGRS 10A": "Introduction to Ancient Greece",
+    "AGRS 10B": "Introduction to Ancient Rome"
+  }
 }

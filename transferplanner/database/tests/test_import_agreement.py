@@ -13,7 +13,8 @@ from pathlib import Path
 from unittest.mock import patch
 
 from transferplanner.database.import_courses import (
-    build_major_plan, get_major_requirements, import_agreement, import_agreements, is_category_satisfied
+    build_major_plan, get_major_requirements, import_agreement, import_agreements, is_category_satisfied,
+    is_group_satisfied
 )
 
 DATA = Path(__file__).resolve().parents[2] / "data"
@@ -82,6 +83,13 @@ class AgreementImportTests(unittest.TestCase):
     def get_rows(self, agreement):
         return get_major_requirements(self.cursor, agreement["university"], agreement["major"],
                                       agreement["academic_year"], agreement["college"])
+
+    def test_receiving_titles_are_preserved_in_agreement_metadata(self):
+        agreement = copy.deepcopy(self.cs)
+        agreement["receiving_course_titles"] = {"MATH 51": "Calculus I"}
+        agreement_id = import_agreement(self.cursor, agreement)
+        self.cursor.execute("SELECT planner_metadata FROM articulation_agreements WHERE id = %s", (agreement_id,))
+        self.assertEqual(self.cursor.fetchone()[0]["receivingCourseTitles"], agreement["receiving_course_titles"])
 
     def counts(self):
         result = {}
@@ -190,6 +198,45 @@ class AgreementImportTests(unittest.TestCase):
                 self.assertTrue(groups["A"]["review_required"])
                 self.assertEqual(groups["B"]["max_per_department"], 2)
                 self.assertTrue(all(r.get("department") for r in groups["B"]["requirements"].values()))
+
+    def test_all_95_generated_agreements_round_trip_without_completing_review_groups(self):
+        report = json.loads((DATA / "generated/batch_report.json").read_text())
+        self.assertEqual((report["converted"], report["failed"]), (95, 0))
+        agreements = [json.loads((DATA / "generated" / Path(entry["output"]).name).read_text())
+                      for entry in report["files"]]
+        codes = {code for a in agreements for r in a["requirements"]
+                 for courses in [*[o["courses"] for o in r["options"]], *r.get("preparation_options", [])]
+                 for code in courses}
+        catalog = {c["code"] for c in json.loads((DATA / "mtsac_courses.json").read_text())}
+        self.assertFalse(codes - catalog)
+        self.cursor.execute("SELECT id FROM colleges WHERE name = %s", (self.math["college"],))
+        college_id = self.cursor.fetchone()[0]
+        for code in sorted(codes):
+            self.cursor.execute("""INSERT INTO courses
+                (college_id, code, title, min_units, max_units, uc_transferable, csu_transferable)
+                VALUES (%s, %s, %s, 3, 3, true, true) ON CONFLICT (college_id, code) DO NOTHING""",
+                (college_id, code, code))
+        review_agreements = 0
+        for agreement in agreements:
+            with self.subTest(major=agreement["major"]):
+                agreement_id = import_agreement(self.cursor, agreement)
+                rows = self.get_rows(agreement)
+                self.assertEqual(len({(row[6], row[2], row[4]) for row in rows}), len(agreement["requirements"]))
+                if rows:
+                    plan = build_major_plan(rows)
+                    flagged = [group for category in plan["categories"].values()
+                               for group in category.values() if group.get("review_required")]
+                else:
+                    self.assertEqual(agreement.get("kind"), "informational")
+                    flagged = []
+                if flagged:
+                    review_agreements += 1
+                    for group in flagged:
+                        self.assertFalse(is_group_satisfied(group, list(codes)))
+                self.cursor.execute("SELECT planner_metadata FROM articulation_agreements WHERE id = %s", (agreement_id,))
+                self.assertTrue(self.cursor.fetchone()[0]["notes"])
+        self.assertEqual(review_agreements, 31)
+        self.assertEqual(self.counts()["articulation_agreements"], 95)
 
 
 if __name__ == "__main__":

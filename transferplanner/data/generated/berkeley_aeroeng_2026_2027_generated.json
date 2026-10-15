@@ -481,5 +481,35 @@
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
     "Review preserved section headers; they are labels, not interpreted completion rules.",
     "Receiving cross-listed courses are preserved as aliases, not additional requirements."
-  ]
+  ],
+  "receiving_course_titles": {
+    "MATH 51": "Calculus I",
+    "MATH 52": "Calculus II",
+    "MATH 53": "Multivariable Calculus",
+    "MATH 54": "Linear Algebra and Differential Equations",
+    "PHYSICS 7A": "Physics for Scientists and Engineers",
+    "PHYSICS 7B": "Physics for Scientists and Engineers",
+    "ASTRON 7A": "Introduction to Astrophysics",
+    "ASTRON 10": "Introduction to General Astronomy",
+    "BIOLOGY 1A": "General Biology Lecture (Cells, Genetics, Animal Form & Function)",
+    "BIOLOGY 1AL": "General Biology Laboratory",
+    "BIOLOGY 1B": "General Biology (Plant Form & Function, Ecology, Evolution)",
+    "CHEM 1A": "General Chemistry",
+    "CHEM 1AL": "General Chemistry Laboratory",
+    "CHEM 1B": "General Chemistry",
+    "CHEM 3A": "Chemical Structure and Reactivity",
+    "CHEM 3AL": "Organic Chemistry Laboratory",
+    "CHEM 3B": "Chemical Structure and Reactivity",
+    "CHEM 3BL": "Organic Chemistry Laboratory",
+    "MCELLBI 32": "Introduction to Human Physiology",
+    "MCELLBI 32L": "Introduction to Human Physiology Laboratory",
+    "PHYSICS 7C": "Physics for Scientists and Engineers",
+    "ENGIN 7": "Introduction to Computer Programming and Numerical Methods",
+    "COMPSCI 61A": "The Structure and Interpretation of Computer Programs",
+    "MAT SCI 45": "Properties of Materials",
+    "MAT SCI 45L": "Properties of Materials Laboratory",
+    "MEC ENG C85": "Introduction to Solid Mechanics",
+    "MEC ENG 40": "Thermodynamics",
+    "ENGIN 40": "Engineering Thermodynamics"
+  }
 }

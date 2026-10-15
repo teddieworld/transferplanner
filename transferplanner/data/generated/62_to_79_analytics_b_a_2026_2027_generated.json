@@ -1,0 +1,307 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Analytics, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "note": "Recommended to be completed prior to transfer\nPlease refer to additional important General Information section above"
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1,
+      "note": "Recommended to be completed prior to transfer\nPlease refer to additional important General Information section above"
+    },
+    {
+      "name": "A",
+      "category": "highly_recommended",
+      "required_count": null,
+      "note": "Please refer to additional important General Information section above"
+    }
+  ],
+  "requirements": [
+    {
+      "text": "MATH 51",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 180"
+          ]
+        }
+      ],
+      "department": "Mathematics"
+    },
+    {
+      "text": "MATH 52",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 181"
+          ]
+        }
+      ],
+      "department": "Mathematics"
+    },
+    {
+      "text": "MATH 53",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 280"
+          ]
+        }
+      ],
+      "department": "Mathematics"
+    },
+    {
+      "text": "MATH 54",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 285"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "MATH 285"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "MATH 260",
+            "MATH 290"
+          ]
+        }
+      ],
+      "department": "Mathematics"
+    },
+    {
+      "text": "ECON 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": "Regular and honors courses may be combined to complete this series",
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ECON C2002",
+            "ECON C2001"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ECON C2002H",
+            "ECON C2001H"
+          ]
+        }
+      ],
+      "department": "Economics"
+    },
+    {
+      "text": "ECON C3",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Economics"
+    },
+    {
+      "text": "ENGIN 7",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 7"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "COMPSCI 61A",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "DATA C8",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "DATA C88C",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": []
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T23:49:21.4036462",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "1de36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program",
+        "groupId": "1ee36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>In&nbsp;the&nbsp;<strong>Analytics&nbsp;</strong>major,&nbsp;students&nbsp;will&nbsp;develop&nbsp;solid&nbsp;quantitative&nbsp;and&nbsp;data-driven&nbsp;problem&nbsp;solving&nbsp;skills&nbsp;through&nbsp;core&nbsp;courses&nbsp;in&nbsp;computing,&nbsp;probability/statistics,&nbsp;optimization,&nbsp;and&nbsp;data&nbsp;analytics,&nbsp;and&nbsp;will&nbsp;learn&nbsp;how&nbsp;to&nbsp;apply&nbsp;these&nbsp;skills&nbsp;in&nbsp;solving&nbsp;problems&nbsp;in&nbsp;an&nbsp;area&nbsp;of&nbsp;their&nbsp;choice.&nbsp;We&nbsp;outline&nbsp;four&nbsp;possible&nbsp;concentrations&nbsp;below,&nbsp;but&nbsp;many&nbsp;other&nbsp;areas&nbsp;can&nbsp;also&nbsp;benefit&nbsp;from&nbsp;deploying&nbsp;analytical&nbsp;methods.&nbsp;Students&nbsp;may&nbsp;design&nbsp;their&nbsp;own&nbsp;concentrations&nbsp;according&nbsp;to&nbsp;their&nbsp;interests,&nbsp;with&nbsp;guidance&nbsp;and&nbsp;approval&nbsp;from&nbsp;the&nbsp;Analytics&nbsp;faculty&nbsp;advisor&nbsp;in&nbsp;the&nbsp;Industrial&nbsp;Engineering&nbsp;and&nbsp;Operations&nbsp;Research&nbsp;(IEOR)&nbsp;Department.</p><p></p><p>Transfer&nbsp;students&nbsp;must&nbsp;declare&nbsp;the&nbsp;Analytics&nbsp;major&nbsp;by&nbsp;the&nbsp;end&nbsp;of&nbsp;their&nbsp;first&nbsp;semester&nbsp;at&nbsp;UC&nbsp;Berkeley.&nbsp;</p><p>Major&nbsp;information&nbsp;can&nbsp;be&nbsp;found&nbsp;at&nbsp;<a href=\"https://ieor.berkeley.edu/academics/ba-analytics/\" rel=\"noopener noreferrer\" target=\"_blank\">https://ieor.berkeley.edu/academics/ba-analytics</a>.</p><p></p><p>We&nbsp;do&nbsp;not&nbsp;accept&nbsp;applications&nbsp;from&nbsp;graduating&nbsp;seniors&nbsp;or&nbsp;students&nbsp;in&nbsp;their&nbsp;fourth&nbsp;(or&nbsp;later)&nbsp;year&nbsp;of&nbsp;studies,&nbsp;even&nbsp;if&nbsp;it&nbsp;is&nbsp;not&nbsp;the&nbsp;student's&nbsp;first&nbsp;major.</p><p></p><p><strong>Prerequisite&nbsp;Coursework:</strong></p><p>Prior&nbsp;to&nbsp;transferring&nbsp;to&nbsp;UC&nbsp;Berkeley,&nbsp;students&nbsp;are&nbsp;required&nbsp;to&nbsp;complete&nbsp;the&nbsp;following&nbsp;courses:</p><p></p><ul><li>course&nbsp;equivalents&nbsp;of&nbsp;Math&nbsp;51,&nbsp;Math&nbsp;52,&nbsp;Math&nbsp;53</li></ul><p></p><p>The&nbsp;department&nbsp;strongly&nbsp;recommends&nbsp;that&nbsp;the&nbsp;following&nbsp;courses&nbsp;are&nbsp;also&nbsp;completed&nbsp;prior&nbsp;to&nbsp;transferring&nbsp;to&nbsp;UC&nbsp;Berkeley.&nbsp;Any&nbsp;courses&nbsp;that&nbsp;are&nbsp;not&nbsp;completed&nbsp;prior&nbsp;to&nbsp;transfer&nbsp;must&nbsp;be&nbsp;completed&nbsp;by&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;student's&nbsp;first&nbsp;term&nbsp;at&nbsp;UC&nbsp;Berkeley.</p><p></p><ul><li>Math&nbsp;54,&nbsp;Econ&nbsp;1&nbsp;or&nbsp;2&nbsp;or&nbsp;C3,&nbsp;Engin&nbsp;7&nbsp;or&nbsp;CompSci&nbsp;61A&nbsp;or&nbsp;Data&nbsp;C8&nbsp;(Data&nbsp;C8&nbsp;must&nbsp;be&nbsp;combined&nbsp;with&nbsp;Data&nbsp;C88C&nbsp;to&nbsp;meet&nbsp;the&nbsp;requirement;&nbsp;Data&nbsp;C88C&nbsp;must&nbsp;be&nbsp;taken&nbsp;in&nbsp;the&nbsp;first&nbsp;semester&nbsp;at&nbsp;UC&nbsp;Berkeley)</li></ul><p></p><p>All&nbsp;prerequisite&nbsp;courses&nbsp;must&nbsp;be&nbsp;taken&nbsp;for&nbsp;a&nbsp;letter&nbsp;grade.&nbsp;Transfer&nbsp;students&nbsp;must&nbsp;complete&nbsp;their&nbsp;prerequisite&nbsp;courses&nbsp;and&nbsp;apply&nbsp;to&nbsp;the&nbsp;major&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;first&nbsp;semester&nbsp;in&nbsp;which&nbsp;they&nbsp;are&nbsp;enrolled&nbsp;at&nbsp;UC&nbsp;Berkeley.&nbsp;</p><p>UC&nbsp;Summer&nbsp;session&nbsp;prior&nbsp;to&nbsp;the&nbsp;academic&nbsp;year&nbsp;does&nbsp;not&nbsp;count&nbsp;as&nbsp;the&nbsp;first&nbsp;semester.</p><p></p><p><strong>For&nbsp;more&nbsp;information:</strong></p><p>Student&nbsp;Affairs&nbsp;Officer</p><p>Department&nbsp;of&nbsp;Operations&nbsp;Research&nbsp;and&nbsp;Industrial&nbsp;Engineering</p><p>(510)&nbsp;642-5485</p><p><a href=\"mailto:ieor-student-services@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">ieor-student-services@berkeley.edu</a></p><p><a href=\"https://ieor.berkeley.edu/academics/ba-analytics/\" rel=\"noopener noreferrer\" target=\"_blank\">Analytics&nbsp;-&nbsp;UC&nbsp;Berkeley&nbsp;IEOR&nbsp;Department&nbsp;-&nbsp;Industrial&nbsp;Engineering&nbsp;&amp;&nbsp;Operations&nbsp;Research</a></p>",
+        "groupId": "20e36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "important major information",
+        "groupId": "18e36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<ul><li>Analytics&nbsp;is&nbsp;a&nbsp;high&nbsp;demand&nbsp;major.</li><li>Required&nbsp;lower-division&nbsp;courses:<ul><li>Math&nbsp;53</li><li>Math&nbsp;54</li><li>Econ&nbsp;1,&nbsp;2&nbsp;or&nbsp;3C</li><li>Either&nbsp;Engin&nbsp;7&nbsp;or&nbsp;Comp&nbsp;Sci&nbsp;61A,&nbsp;or&nbsp;Data&nbsp;C8&nbsp;+&nbsp;Data&nbsp;C88&nbsp;(Data&nbsp;C88&nbsp;must&nbsp;be&nbsp;taken&nbsp;at&nbsp;Berkeley)&nbsp;-&nbsp;Required&nbsp;to&nbsp;declare,&nbsp;highly&nbsp;recommended&nbsp;before&nbsp;transfer.</li></ul></li><li>All&nbsp;prerequisites&nbsp;must&nbsp;be&nbsp;taken&nbsp;for&nbsp;a&nbsp;letter&nbsp;grade.</li></ul>",
+        "groupId": "19e36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "exam credit",
+        "groupId": "1ae36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 6,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<ul><li>AP&nbsp;Math:&nbsp;Calculus&nbsp;AB&nbsp;with&nbsp;a&nbsp;score&nbsp;of&nbsp;3&nbsp;or&nbsp;higher&nbsp;(or&nbsp;AP&nbsp;Math:&nbsp;Calculus&nbsp;BC&nbsp;score&nbsp;of&nbsp;3)&nbsp;will&nbsp;be&nbsp;accepted&nbsp;by&nbsp;the&nbsp;department&nbsp;for&nbsp;the&nbsp;Math&nbsp;51&nbsp;requirement&nbsp;at&nbsp;Berkeley.&nbsp;</li><li>AP&nbsp;Math:&nbsp;Calculus&nbsp;BC&nbsp;score&nbsp;of&nbsp;4&nbsp;or&nbsp;5&nbsp;will&nbsp;be&nbsp;accepted&nbsp;by&nbsp;the&nbsp;major&nbsp;for&nbsp;the&nbsp;Math&nbsp;52&nbsp;requirement&nbsp;at&nbsp;Berkeley.</li><li>AP&nbsp;Micro/Macroeconomics:&nbsp;AP&nbsp;scores&nbsp;of&nbsp;4&nbsp;or&nbsp;5&nbsp;in&nbsp;BOTH&nbsp;exams&nbsp;is&nbsp;accepted&nbsp;by&nbsp;the&nbsp;major&nbsp;for&nbsp;the&nbsp;Economics&nbsp;requirement.</li></ul>",
+        "groupId": "1be36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 7,
+        "area": "General"
+      }
+    ],
+    "section_headers": [
+      {
+        "category": "major_required",
+        "requirement_group_position": 1,
+        "header": {
+          "type": "SectionHeader",
+          "content": "REQUIRED LOWER DIVISION COURSES",
+          "position": 0,
+          "attributes": []
+        }
+      },
+      {
+        "category": "highly_recommended",
+        "requirement_group_position": 2,
+        "header": {
+          "type": "SectionHeader",
+          "content": "HIGHLY RECOMMENDED",
+          "position": 0,
+          "attributes": []
+        }
+      }
+    ],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "d3c8f7d8-f171-4379-7953-08dec89fcd17",
+        "requirement": "ECON C3",
+        "aliases": [
+          "ENVECON C1"
+        ]
+      },
+      {
+        "template_cell_id": "492adc05-f648-40eb-7950-08dec89fcd17",
+        "requirement": "DATA C8",
+        "aliases": [
+          "STAT C8",
+          "INFO C8",
+          "COMPSCI C8"
+        ]
+      },
+      {
+        "template_cell_id": "58320ff9-3e85-47bd-7951-08dec89fcd17",
+        "requirement": "DATA C88C",
+        "aliases": [
+          "COMPSCI C88C"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved section headers; they are labels, not interpreted completion rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+  ],
+  "receiving_course_titles": {
+    "MATH 51": "Calculus I",
+    "MATH 52": "Calculus II",
+    "MATH 53": "Multivariable Calculus",
+    "MATH 54": "Linear Algebra and Differential Equations",
+    "ECON 1": "Introduction to Economics",
+    "ECON C3": "Introduction to Environmental Economics and Policy",
+    "ENGIN 7": "Introduction to Computer Programming and Numerical Methods",
+    "COMPSCI 61A": "The Structure and Interpretation of Computer Programs",
+    "DATA C8": "Foundations of Data Science",
+    "DATA C88C": "Computational Structures in Data Science"
+  }
+}

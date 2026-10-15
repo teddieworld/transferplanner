@@ -4,11 +4,78 @@ import unittest
 from pathlib import Path
 
 from transferplanner.scraper.articulation_parser import (
-    build_agreement, get_requirement_sections, load_assist_response
+    build_agreement, get_requirement_sections, load_assist_response,
+    get_articulation_status, get_required_count, plain_text
 )
 
 
 DATA = Path(__file__).resolve().parents[2] / "data"
+
+
+class CognitiveScienceParserTests(unittest.TestCase):
+    def setUp(self):
+        self.raw = load_assist_response(DATA / "raw/62_to_79_cognitive_science_b_a_2026_2027.json")
+
+    def test_required_choices_and_recommendations_keep_separate_counts(self):
+        actual = build_agreement(self.raw)
+        required = [g for g in actual["groups"] if g["category"] == "required"]
+        self.assertEqual([g["required_count"] for g in required], [1, 1, 1])
+        by_group = {(g["category"], g["name"]): [] for g in actual["groups"]}
+        for requirement in actual["requirements"]:
+            by_group[(requirement["category"], requirement["group"])].append(requirement["text"])
+        self.assertEqual([by_group[("required", g["name"])] for g in required], [
+            ["MATH 51", "MATH 16A"], ["DATA C8", "STAT 2", "STAT 20"], ["PSYCH C61", "PSYCH C64"]
+        ])
+        recommended = [g for g in actual["groups"] if g["category"] == "highly_recommended"]
+        self.assertEqual([g["required_count"] for g in recommended], [None, 1, 1, 1])
+        self.assertEqual(by_group[("highly_recommended", "A")], ["MATH 55"])
+        self.assertTrue(all("General Information" in g["note"] for g in recommended))
+        stat20 = next(r for r in actual["requirements"] if r["text"] == "STAT 20")
+        self.assertEqual(stat20["options"], [])
+        self.assertEqual(stat20["articulation_status"], "no_course_articulated")
+        self.assertIn("No Course Articulated", stat20["note"])
+        self.assertTrue(actual["review_required"])
+
+    def test_reviewed_heading_requires_same_scope_publication_and_instruction(self):
+        for key, value in [("name", "Another major"), ("publishDate", "2099-01-01")]:
+            altered = copy.deepcopy(self.raw)
+            altered[key] = value
+            with self.subTest(key=key), self.assertRaises(ValueError):
+                build_agreement(altered)
+        for field in ("academicYear", "sendingInstitution", "receivingInstitution"):
+            altered = copy.deepcopy(self.raw)
+            identity = json.loads(altered[field])
+            identity["id"] = 999
+            altered[field] = json.dumps(identity)
+            with self.subTest(field=field), self.assertRaises(ValueError):
+                build_agreement(altered)
+        altered = copy.deepcopy(self.raw)
+        assets = json.loads(altered["templateAssets"])
+        for asset in assets:
+            if asset["type"] == "GeneralText":
+                asset["content"] = plain_text(asset["content"]).replace(
+                    "must be completed before transfer", "may be completed after transfer")
+        altered["templateAssets"] = json.dumps(assets)
+        with self.assertRaisesRegex(ValueError, "instruction is absent"):
+            build_agreement(altered)
+
+    def test_complete_following_means_all_rows_and_rejects_extra_rules(self):
+        section = {"rows": [{"position": 1}, {"position": 0}], "advisements": [
+            {"type": "CompleteFollowing", "selectionType": "Complete", "position": 0}
+        ]}
+        self.assertEqual(get_requirement_sections({"sections": [dict(section, type="Section", position=0)]}),
+                         [([{"position": 0}, {"position": 1}], None)])
+        section["advisements"][0]["amountUnitType"] = "Unit"
+        with self.assertRaises(ValueError):
+            get_required_count(section)
+
+    def test_unknown_group_notes_and_contradictory_no_articulation_are_rejected(self):
+        with self.assertRaises(ValueError):
+            get_requirement_sections({"attributes": [{"content": "Complete six units"}], "sections": []})
+        with self.assertRaisesRegex(ValueError, "conflicts"):
+            get_articulation_status({"sendingArticulation": {
+                "noArticulationReason": "No Course Articulated", "items": [{"type": "CourseGroup"}]
+            }})
 
 
 class ArticulationParserTests(unittest.TestCase):
@@ -20,6 +87,20 @@ class ArticulationParserTests(unittest.TestCase):
         expected = json.loads((DATA / "berkeley_cs_2026_2027.json").read_text())
         for key, value in expected.items():
             self.assertEqual(actual[key], value, key)
+
+    def test_receiving_titles_come_from_assist_without_changing_requirement_codes(self):
+        actual = build_agreement(self.raw)
+        self.assertEqual(actual["receiving_course_titles"]["MATH 51"], "Calculus I")
+        self.assertEqual(actual["receiving_course_titles"]["MATH 54"], "Linear Algebra and Differential Equations")
+        self.assertEqual(actual["requirements"][0]["text"], "MATH 51")
+        self.assertEqual(actual["requirements"][0]["options"][0]["courses"], ["MATH 180"])
+
+        series = build_agreement(load_assist_response(DATA / "raw/62_to_79_chemical_engineering_b_s_2026_2027.json"))
+        labels = [r["text"] for r in series["requirements"] if " AND " in r["text"]]
+        self.assertTrue(labels)
+        for label in labels:
+            for code in label.split(" AND "):
+                self.assertTrue(series["receiving_course_titles"][code], code)
 
     def test_positions_determine_display_order_instead_of_array_order(self):
         altered = copy.deepcopy(self.raw)

@@ -1,0 +1,132 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Greek and Latin, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "GREEK 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Ancient Greek & Roman Studies"
+    },
+    {
+      "text": "GREEK 2",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Ancient Greek & Roman Studies"
+    },
+    {
+      "text": "LATIN 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LATN 1"
+          ]
+        }
+      ],
+      "department": "Ancient Greek & Roman Studies"
+    },
+    {
+      "text": "LATIN 2",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LATN 2"
+          ]
+        }
+      ],
+      "department": "Ancient Greek & Roman Studies"
+    },
+    {
+      "text": "AGRS 10A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Ancient Greek & Roman Studies"
+    },
+    {
+      "text": "AGRS 10B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Ancient Greek & Roman Studies"
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T23:20:54.1585454",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "a9de6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "PROGRAM",
+        "groupId": "abde6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<h2>About&nbsp;the&nbsp;Major&nbsp;in&nbsp;Greek&nbsp;&amp;&nbsp;Latin</h2><p>You&nbsp;don’t&nbsp;need&nbsp;a&nbsp;background&nbsp;in&nbsp;ancient&nbsp;languages&nbsp;to&nbsp;begin&nbsp;exploring&nbsp;the&nbsp;deeply&nbsp;interconnected&nbsp;world&nbsp;of&nbsp;Mediterranean&nbsp;antiquity.&nbsp;The&nbsp;Department&nbsp;of&nbsp;Ancient&nbsp;Greek&nbsp;&amp;&nbsp;Roman&nbsp;Studies&nbsp;(DAGRS)&nbsp;welcomes&nbsp;transfer&nbsp;students&nbsp;into&nbsp;the&nbsp;Greek&nbsp;&amp;&nbsp;Latin&nbsp;major&nbsp;with&nbsp;rigorous,&nbsp;ground-up&nbsp;instruction&nbsp;in&nbsp;both&nbsp;languages.&nbsp;Our&nbsp;community&nbsp;is&nbsp;accessible&nbsp;to&nbsp;everyone,&nbsp;regardless&nbsp;of&nbsp;whether&nbsp;your&nbsp;current&nbsp;college&nbsp;offers&nbsp;ancient&nbsp;language&nbsp;coursework.</p><p></p><p>Students&nbsp;in&nbsp;this&nbsp;major&nbsp;join&nbsp;a&nbsp;dedicated,&nbsp;supportive&nbsp;cohort.&nbsp;The&nbsp;thorough&nbsp;training&nbsp;you&nbsp;receive&nbsp;provides&nbsp;a&nbsp;solid&nbsp;foundation&nbsp;for&nbsp;diverse&nbsp;professional&nbsp;paths,&nbsp;including&nbsp;law,&nbsp;medicine,&nbsp;education,&nbsp;and&nbsp;business.&nbsp;This&nbsp;coursework&nbsp;also&nbsp;prepares&nbsp;you&nbsp;for&nbsp;graduate&nbsp;school&nbsp;and&nbsp;advanced&nbsp;degrees&nbsp;in&nbsp;the&nbsp;humanities&nbsp;and&nbsp;social&nbsp;sciences.</p><p>Because&nbsp;this&nbsp;major&nbsp;involves&nbsp;building&nbsp;proficiency&nbsp;in&nbsp;both&nbsp;Greek&nbsp;and&nbsp;Latin,&nbsp;the&nbsp;curriculum&nbsp;features&nbsp;a&nbsp;highly&nbsp;structured,&nbsp;sequential&nbsp;pathway&nbsp;from&nbsp;your&nbsp;first&nbsp;semester.&nbsp;This&nbsp;program&nbsp;is&nbsp;intended&nbsp;for&nbsp;students&nbsp;whose&nbsp;primary&nbsp;scholarly&nbsp;passions&nbsp;align&nbsp;with&nbsp;classical&nbsp;languages&nbsp;and&nbsp;who&nbsp;are&nbsp;fully&nbsp;committed&nbsp;to&nbsp;completing&nbsp;their&nbsp;undergraduate&nbsp;degree&nbsp;within&nbsp;this&nbsp;specific&nbsp;major&nbsp;and&nbsp;scholarly&nbsp;community.</p><p></p><h2>Direct&nbsp;Admission&nbsp;to&nbsp;the&nbsp;Major</h2><p>When&nbsp;you&nbsp;are&nbsp;admitted&nbsp;to&nbsp;UC&nbsp;Berkeley&nbsp;for&nbsp;Greek&nbsp;&amp;&nbsp;Latin,&nbsp;you&nbsp;enter&nbsp;directly&nbsp;into&nbsp;the&nbsp;major.&nbsp;There&nbsp;is&nbsp;no&nbsp;secondary&nbsp;application&nbsp;or&nbsp;declaration&nbsp;process&nbsp;after&nbsp;you&nbsp;arrive&nbsp;on&nbsp;campus.&nbsp;</p><p>You&nbsp;are&nbsp;a&nbsp;full&nbsp;member&nbsp;of&nbsp;our&nbsp;department&nbsp;from&nbsp;day&nbsp;one.</p><p></p><p>While&nbsp;it&nbsp;is&nbsp;possible&nbsp;to&nbsp;change&nbsp;your&nbsp;major&nbsp;after&nbsp;you&nbsp;matriculate&nbsp;to&nbsp;Berkeley,&nbsp;switching&nbsp;into&nbsp;a&nbsp;high-demand&nbsp;field&nbsp;like&nbsp;Computer&nbsp;Science,&nbsp;Economics,&nbsp;or&nbsp;Psychology&nbsp;requires&nbsp;passing&nbsp;through&nbsp;a&nbsp;highly&nbsp;competitive&nbsp;comprehensive&nbsp;review&nbsp;process.&nbsp;Additionally,&nbsp;spending&nbsp;your&nbsp;time&nbsp;preparing&nbsp;for&nbsp;a&nbsp;different&nbsp;program&nbsp;once&nbsp;you&nbsp;arrive&nbsp;on&nbsp;campus&nbsp;will&nbsp;cause&nbsp;a&nbsp;lack&nbsp;of&nbsp;progress&nbsp;in&nbsp;your&nbsp;currently&nbsp;declared&nbsp;major,&nbsp;which&nbsp;can&nbsp;delay&nbsp;your&nbsp;graduation.&nbsp;We&nbsp;want&nbsp;to&nbsp;ensure&nbsp;you&nbsp;choose&nbsp;the&nbsp;path&nbsp;that&nbsp;best&nbsp;supports&nbsp;your&nbsp;long-term&nbsp;goals&nbsp;and&nbsp;allows&nbsp;you&nbsp;to&nbsp;graduate&nbsp;on&nbsp;time.</p><p></p><p><strong style=\"font-size: 14px;\">Personal&nbsp;Advising&nbsp;&amp;&nbsp;Your&nbsp;Transition</strong></p><p>To&nbsp;support&nbsp;a&nbsp;smooth&nbsp;transition,&nbsp;all&nbsp;admitted&nbsp;transfer&nbsp;students&nbsp;are&nbsp;required&nbsp;to&nbsp;meet&nbsp;with&nbsp;our&nbsp;undergraduate&nbsp;advisor&nbsp;before&nbsp;enrolling&nbsp;in&nbsp;their&nbsp;first&nbsp;semester&nbsp;of&nbsp;classes.&nbsp;This&nbsp;is&nbsp;our&nbsp;way&nbsp;of&nbsp;welcoming&nbsp;you&nbsp;and&nbsp;ensuring&nbsp;your&nbsp;academic&nbsp;plan&nbsp;matches&nbsp;your&nbsp;interests&nbsp;and&nbsp;graduation&nbsp;goals.</p><p>You&nbsp;will&nbsp;receive&nbsp;detailed&nbsp;instructions&nbsp;on&nbsp;how&nbsp;to&nbsp;schedule&nbsp;this&nbsp;meeting&nbsp;well&nbsp;before&nbsp;your&nbsp;first&nbsp;semester&nbsp;begins,&nbsp;either&nbsp;through&nbsp;the&nbsp;summer&nbsp;Golden&nbsp;Bear&nbsp;Advising&nbsp;program&nbsp;or&nbsp;via&nbsp;a&nbsp;direct&nbsp;email&nbsp;from&nbsp;our&nbsp;department.&nbsp;We&nbsp;look&nbsp;forward&nbsp;to&nbsp;meeting&nbsp;you&nbsp;and&nbsp;helping&nbsp;you&nbsp;plan&nbsp;your&nbsp;time&nbsp;at&nbsp;Berkeley.</p><p></p><h2>Preparing&nbsp;for&nbsp;the&nbsp;Greek&nbsp;&amp;&nbsp;Latin&nbsp;Major</h2><p>Because&nbsp;courses&nbsp;in&nbsp;ancient&nbsp;languages&nbsp;can&nbsp;be&nbsp;rare&nbsp;at&nbsp;many&nbsp;colleges,&nbsp;your&nbsp;best&nbsp;initial&nbsp;preparation&nbsp;is&nbsp;to&nbsp;focus&nbsp;on&nbsp;completing&nbsp;your&nbsp;General&nbsp;Education&nbsp;(GE)&nbsp;requirements&nbsp;at&nbsp;your&nbsp;current&nbsp;institution.&nbsp;Getting&nbsp;these&nbsp;broad&nbsp;university&nbsp;requirements&nbsp;out&nbsp;of&nbsp;the&nbsp;way&nbsp;clears&nbsp;your&nbsp;schedule,&nbsp;giving&nbsp;you&nbsp;the&nbsp;flexibility&nbsp;you&nbsp;need&nbsp;to&nbsp;dive&nbsp;into&nbsp;our&nbsp;intensive&nbsp;language&nbsp;sequences&nbsp;once&nbsp;you&nbsp;arrive&nbsp;at&nbsp;Berkeley.</p><p></p><p>If&nbsp;your&nbsp;college&nbsp;does&nbsp;offer&nbsp;introductory&nbsp;courses&nbsp;in&nbsp;Ancient&nbsp;Greek&nbsp;or&nbsp;Latin,&nbsp;we&nbsp;highly&nbsp;recommend&nbsp;taking&nbsp;them.&nbsp;Beginning&nbsp;your&nbsp;language&nbsp;training&nbsp;early&nbsp;is&nbsp;excellent&nbsp;preparation&nbsp;for&nbsp;the&nbsp;major,&nbsp;though&nbsp;these&nbsp;courses&nbsp;are&nbsp;not&nbsp;required&nbsp;for&nbsp;admission.</p><p></p><p>Please&nbsp;note&nbsp;that&nbsp;all&nbsp;courses&nbsp;used&nbsp;to&nbsp;satisfy&nbsp;major&nbsp;requirements&nbsp;must&nbsp;be&nbsp;taken&nbsp;for&nbsp;a&nbsp;letter&nbsp;grade.</p><p></p><p><strong style=\"font-size: 16px;\">Prior&nbsp;Language&nbsp;Experience</strong></p><p>If&nbsp;you&nbsp;already&nbsp;have&nbsp;experience&nbsp;with&nbsp;ancient&nbsp;languages&nbsp;or&nbsp;classical&nbsp;studies,&nbsp;you&nbsp;can&nbsp;use&nbsp;the&nbsp;following&nbsp;pathways&nbsp;to&nbsp;adjust&nbsp;your&nbsp;course&nbsp;tracking&nbsp;at&nbsp;Berkeley:</p><ul><li><strong>Latin&nbsp;Placement:</strong>&nbsp;After&nbsp;you&nbsp;arrive&nbsp;on&nbsp;campus,&nbsp;you&nbsp;can&nbsp;take&nbsp;a&nbsp;placement&nbsp;diagnostic&nbsp;to&nbsp;determine&nbsp;the&nbsp;appropriate&nbsp;course&nbsp;level&nbsp;to&nbsp;begin&nbsp;your&nbsp;Latin&nbsp;studies.</li><li><strong>Greek&nbsp;Placement:</strong>&nbsp;There&nbsp;is&nbsp;no&nbsp;formal&nbsp;diagnostic&nbsp;exam&nbsp;for&nbsp;Greek.&nbsp;Instead,&nbsp;you&nbsp;can&nbsp;consult&nbsp;directly&nbsp;with&nbsp;the&nbsp;instructor&nbsp;of&nbsp;the&nbsp;Greek&nbsp;course&nbsp;that&nbsp;you&nbsp;feel&nbsp;best&nbsp;matches&nbsp;your&nbsp;current&nbsp;experience.</li><li><strong>AP&nbsp;Credit:</strong>&nbsp;Scoring&nbsp;a&nbsp;5&nbsp;on&nbsp;the&nbsp;AP&nbsp;Latin&nbsp;exam&nbsp;can&nbsp;wave&nbsp;your&nbsp;Elementary&nbsp;Latin&nbsp;requirement&nbsp;and&nbsp;place&nbsp;you&nbsp;directly&nbsp;into&nbsp;advanced&nbsp;coursework.</li><li><strong>Summer&nbsp;Workshops:</strong>&nbsp;You&nbsp;can&nbsp;complete&nbsp;a&nbsp;full&nbsp;year&nbsp;of&nbsp;language&nbsp;training&nbsp;in&nbsp;a&nbsp;single&nbsp;summer.&nbsp;Enrolling&nbsp;in&nbsp;Berkeley's&nbsp;intensive&nbsp;summer&nbsp;workshops&nbsp;(Greek&nbsp;15&nbsp;or&nbsp;Latin&nbsp;15)&nbsp;satisfies&nbsp;the&nbsp;lower-division&nbsp;requirements&nbsp;for&nbsp;Greek&nbsp;1&nbsp;and&nbsp;2,&nbsp;or&nbsp;Latin&nbsp;1&nbsp;and&nbsp;2.</li><li><strong>Course&nbsp;Substitution:</strong>&nbsp;Once&nbsp;you&nbsp;enroll&nbsp;at&nbsp;UC&nbsp;Berkeley,&nbsp;you&nbsp;may&nbsp;substitute&nbsp;the&nbsp;course&nbsp;AGRS&nbsp;R44&nbsp;(Classics&nbsp;of&nbsp;the&nbsp;Ancient&nbsp;Mediterranean&nbsp;World)&nbsp;for&nbsp;either&nbsp;AGRS&nbsp;10A&nbsp;or&nbsp;AGRS&nbsp;10B.</li></ul><p></p><p><strong style=\"font-size: 14px;\">Important&nbsp;Course&nbsp;Substitutions&nbsp;&amp;&nbsp;Options</strong></p><ul><li>Intensive&nbsp;Language&nbsp;Sequences:&nbsp;You&nbsp;can&nbsp;fulfill&nbsp;the&nbsp;lower&nbsp;division&nbsp;language&nbsp;requirements&nbsp;quickly&nbsp;by&nbsp;taking&nbsp;a&nbsp;summer&nbsp;workshop.&nbsp;Completing&nbsp;GREEK&nbsp;15&nbsp;satisfies&nbsp;both&nbsp;Greek&nbsp;1&nbsp;and&nbsp;Greek&nbsp;2,&nbsp;while&nbsp;completing&nbsp;LATIN&nbsp;15&nbsp;satisfies&nbsp;both&nbsp;Latin&nbsp;1&nbsp;and&nbsp;Latin&nbsp;2.</li><li>Writing&nbsp;and&nbsp;Acclimation&nbsp;Option:&nbsp;You&nbsp;may&nbsp;substitute&nbsp;the&nbsp;course&nbsp;AGRS&nbsp;R44&nbsp;for&nbsp;either&nbsp;AGRS&nbsp;10A&nbsp;or&nbsp;AGRS&nbsp;10B.&nbsp;Taking&nbsp;AGRS&nbsp;R44&nbsp;is&nbsp;highly&nbsp;recommended&nbsp;for&nbsp;incoming&nbsp;transfer&nbsp;students&nbsp;because&nbsp;it&nbsp;provides&nbsp;excellent&nbsp;preparation&nbsp;for&nbsp;Berkeley-level&nbsp;academic&nbsp;writing.</li><li>Survey&nbsp;Course&nbsp;Approvals:&nbsp;While&nbsp;no&nbsp;formal&nbsp;articulation&nbsp;agreements&nbsp;exist&nbsp;for&nbsp;AGRS&nbsp;10A&nbsp;or&nbsp;10B,&nbsp;some&nbsp;broad&nbsp;Western&nbsp;Civilization&nbsp;or&nbsp;specialized&nbsp;Greek&nbsp;and&nbsp;Roman&nbsp;survey&nbsp;courses&nbsp;from&nbsp;your&nbsp;current&nbsp;college&nbsp;may&nbsp;be&nbsp;approved&nbsp;to&nbsp;satisfy&nbsp;these&nbsp;requirements.&nbsp;Please&nbsp;consult&nbsp;with&nbsp;the&nbsp;undergraduate&nbsp;advisor&nbsp;to&nbsp;submit&nbsp;your&nbsp;previous&nbsp;coursework&nbsp;for&nbsp;review.</li></ul><p></p><p><strong>More&nbsp;Information&nbsp;</strong></p><p>The&nbsp;<u><a href=\"https://undergraduate.catalog.berkeley.edu/programs/25625U/overview-aoYks\" rel=\"noopener noreferrer\" target=\"_blank\">Berkeley&nbsp;Catalog</a></u>&nbsp;and&nbsp;the&nbsp;<u><a href=\"https://dagrs.berkeley.edu/undergraduate/majors-and-minors/the-language-majors/greek-and-latin\" rel=\"noopener noreferrer\" target=\"_blank\">department&nbsp;website</a></u>&nbsp;provide&nbsp;more&nbsp;information&nbsp;about&nbsp;major&nbsp;requirements&nbsp;and&nbsp;course&nbsp;information.&nbsp;</p><p></p><p><strong>Advising:</strong></p><p>Students&nbsp;with&nbsp;questions&nbsp;about&nbsp;transferring&nbsp;into&nbsp;the&nbsp;major&nbsp;in&nbsp;Greek&nbsp;&amp;&nbsp;Latin&nbsp;are&nbsp;encouraged&nbsp;to&nbsp;contact&nbsp;our&nbsp;undergraduate&nbsp;major&nbsp;advisor(UMA):</p><p>Cassandra&nbsp;Dunn</p><p>Department&nbsp;Website:&nbsp;https://dagrs.berkeley.edu/</p><p>Email:&nbsp;<a href=\"mailto:cassandrajj@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">cassandrajj@berkeley.edu</a></p><p>Appointments:&nbsp;<a href=\"https://calendly.com/cassandra-dunn-ug-advisor\" rel=\"noopener noreferrer\" target=\"_blank\">Schedule&nbsp;an&nbsp;appointment&nbsp;(in-person&nbsp;or&nbsp;remotely)</a></p>",
+        "groupId": "a7de6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ],
+  "receiving_course_titles": {
+    "GREEK 1": "Elementary Greek",
+    "GREEK 2": "Elementary Greek",
+    "LATIN 1": "Elementary Latin",
+    "LATIN 2": "Elementary Latin",
+    "AGRS 10A": "Introduction to Ancient Greece",
+    "AGRS 10B": "Introduction to Ancient Rome"
+  }
+}

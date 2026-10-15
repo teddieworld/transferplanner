@@ -1,0 +1,883 @@
+[
+  {
+    "major": "Architecture, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:03:20.9088476",
+    "template_sha256": "c31f6000c1f899b50ee5cdf19b63a0cc7012248dd8c15e57de6330d2b467c74d",
+    "articulations_sha256": "925be36d4575e5a650d588d34fdfef90a2a096404a7bb41f3b4fdbece5162d8a",
+    "headings": {
+      "READING AND COMPOSITION REQUIREMENT": "required",
+      "BREADTH REQUIREMENTS": "required",
+      "MAJOR REQUIREMENTS": "required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Art Practice, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:14:44.1320902",
+    "template_sha256": "bf563eee5ea1e723fe1155587fdb9cc4c5721ef42d9d8bb8071f458af9d2c6fa",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {
+      "LOWER DIVISION COURSES": "major_required"
+    }
+  },
+  {
+    "major": "Business Administration, B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T22:55:32.6348209",
+    "template_sha256": "c157d013fae990ed8ca1f3a9399f912ab98a9a1a81c91a4840ad7fc55277f5fb",
+    "articulations_sha256": "9ba3e7a9fc907e98cd1e178ac86c4225930d38e33b1f77cc1798870aeff2ff46",
+    "headings": {
+      "CALCULUS": "required",
+      "READING AND COMPOSITION REQUIREMENT": "required",
+      "PRINCIPLES OF BUSINESS, ECONOMICS & STATISTICS": "required"
+    },
+    "or_group_rules": [
+      3
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chemical Biology, B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:37:03.1238393",
+    "template_sha256": "08a6714c6802d7c10cb37cf676c4be38885d65208b2a39ca4b7769251f38fbee",
+    "articulations_sha256": "f463dac3e454b4e601ca969e3145abe117977a24d897427afc0ba881e61cbf31",
+    "headings": {
+      "LOWER DIVISION REQUIREMENTS": "major_required"
+    },
+    "blocking_issues": [
+      "The shared lower-division template mixes admission and graduation requirements; classify the listed courses separately using the program prose."
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chemical Engineering, B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:38:03.5024642",
+    "template_sha256": "9a7e108016896b626d4ca21812ea3d4592763c3d382294008ae7c6e5cde0e41a",
+    "articulations_sha256": "132ac89bc2ed1f4e3aedfac5a9e9c7f188694caac17d5ca5c086797e882afdce",
+    "headings": {},
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The untitled template mixes admission requirements with organic chemistry, biology, programming, and other degree preparation."
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chemistry, B.A. and B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T22:40:42.2758476",
+    "template_sha256": "cae9fbde6ca105da563a66e4deb91e76aec39abfdf73c4f8dddf7508aec39d7d",
+    "articulations_sha256": "74915d4f712af4a24588b8c23f35ce251b6910e95d792bdd49488f91d2384d4b",
+    "headings": {
+      "LOWER DIVISION REQUIREMENTS": "major_required"
+    },
+    "blocking_issues": [
+      "One agreement covers two degrees with different requirements and mixes admission with graduation preparation."
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chinese (East Asian Languages), B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:09:39.9987233",
+    "template_sha256": "2661c69ccb24eb5cbe8d3964f86c69a09e1f0b95b92a13e58daecdbdecd1ebdd",
+    "articulations_sha256": "4c2f10b4635d9d616d0db777208d0d1aa629e331a8d134c28d9c911b8cc0a98e",
+    "headings": {
+      "LOWER DIVISION REQUIRED COURSES": "major_required"
+    }
+  },
+  {
+    "major": "Conservation and Resource Studies, B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:18:17.4648297",
+    "template_sha256": "41d491e789e3947a9e1a970ce9743129448192e20353aba096aae119b24c79d2",
+    "articulations_sha256": "fe86fa377f16183565b1c37217d4d953fad427c2c0bddfb979d0da7e3856db61",
+    "headings": {
+      "INTRODUCTION TO CONSERVATION AND RESOURCE STUDIES MAJOR": "major_required"
+    },
+    "initial_category": "required"
+  },
+  {
+    "major": "Data Science, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:59:11.9816341",
+    "template_sha256": "9ec5a93586de740919b44f0a187e9416f09a4853a626a428d2749d8e3d641717",
+    "articulations_sha256": "45d5e357783dd683ca721185d31eb7cfd0d905c369755d34590a1f2e4b4e1b38",
+    "headings": {
+      "MAJOR REQUIREMENTS": "major_required"
+    }
+  },
+  {
+    "major": "East Asian Humanities, B.A. ",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:38:53.839662",
+    "template_sha256": "562e41de4b1aa12bb252073390409e10f53d7316effe649e7b1919720bd69463",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {
+      "LOWER DIVISION REQUIRED COURSES": "major_required"
+    },
+    "blocking_issues": [
+      "Two courses from two areas requires an explicit area-membership model."
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "East Asian Religion, Thought, and Culture, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:35:48.3342665",
+    "template_sha256": "2baf1d9d6eccabfd7f8711536417dc2e229860661d6097f818dbdb11511f3022",
+    "articulations_sha256": "9f1b3132f36e73a6882cca2dd723a8f3f11ab8694c81e2e2b5094292be3fd9ca",
+    "headings": {
+      "LANGUAGE SEQUENCES": "major_required",
+      "ADDITIONAL MAJOR REQUIREMENTS": "major_required"
+    },
+    "blocking_issues": [
+      "Choose a complete language sequence; placement and language selection cannot be inferred from a count of individual courses."
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Environmental Sciences, B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:57:51.5821893",
+    "template_sha256": "925c4efae69e240b45ab82fe297be1533cef478d55c91ad7217192c566c80f04",
+    "articulations_sha256": "90d9b0b51306a2c896acd08b264a90772c8bd34f1c51dbdddbc3d6831bb5be6d",
+    "headings": {
+      "BREADTH REQUIREMENTS": "major_required"
+    },
+    "independent_sections": [
+      3,
+      4
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Ethnic Studies, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:15:02.8658853",
+    "template_sha256": "0e9b24aedd1f28a839e55889523a6fec45a84db55c9d172859a929211f234c29",
+    "articulations_sha256": "714994d8bf75756b093138bbd31a9b7b8499602f50d3bd5f99ea7907ef4a3de3",
+    "headings": {
+      "ELECTIVES (LOWER DIVISION)": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "French, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:29:59.4329358",
+    "template_sha256": "557e91dd9c17da97fee62254b7e0e300b604efb5b92d6222dee35dca9cd8615b",
+    "articulations_sha256": "d8be411c7f33956dd0d09cd55db59359ef68340b4483d5ee0b8860db38df7aec",
+    "headings": {},
+    "initial_category": "major_required"
+  },
+  {
+    "major": "Global Studies, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:02:52.220412",
+    "template_sha256": "91061b321e3c92e0e528ceed5d07c99157c4f54915ca576ff03ddd2fa71e0682",
+    "articulations_sha256": "040e63ca73388b1453ee4931ab2e6b701a332efd9897db9f01df4911b3a61807",
+    "headings": {
+      "ECONOMICS": "major_required",
+      "LOWER DIVISION REQUIREMENTS": "major_required",
+      "STATISTICS": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Greek and Latin, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:20:54.1585454",
+    "template_sha256": "5bb3a1070b7763a8cf3de3529d923bffb5cc78972ce8d94f7e80d4171f5aaa90",
+    "articulations_sha256": "126d49f2cab52a6d7d52f605a21da7c765ba96ae3a90bf3ff580aa671df3fd14",
+    "headings": {
+      "LOWER DIVISION REQUIREMENTS": "major_required"
+    }
+  },
+  {
+    "major": "History, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:47:52.0663564",
+    "template_sha256": "35ec57f61f3762f2e0db4e4e6b9b3f2ab37fa3b6c86f63db24f1722f60f07fa7",
+    "articulations_sha256": "41b7bcfecbdc168403125989d78d654e6dee99211d0b205e40750b848dd180f9",
+    "headings": {
+      "LOWER DIVISION REQUIREMENTS": "major_required"
+    },
+    "blocking_issues": [
+      "History requires courses from distinct geographic areas and an optional fourth elective; the flat group model cannot enforce area coverage."
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Interdisciplinary Studies Field Major, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:16:13.4328565",
+    "template_sha256": "6fbc7ba055e6c6e0641b955ac78abe6976ad27cf783dda7fa47a4cc0594efcdb",
+    "articulations_sha256": "87831e6a71fd399e569ec6a039f2747eeb44c7187d0fe6be95736bb6f86d6ed3",
+    "headings": {
+      "DISCIPLINES": "major_required",
+      "COMPARATIVE HORIZONS": "major_required"
+    },
+    "blocking_issues": [
+      "Choose two of three categories: Disciplines, Comparative Horizons, or Cross-Disciplines. The template only lists two; Cross-Disciplines is Berkeley-only and must remain an explicit alternative."
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Italian Studies, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:03:42.951986",
+    "template_sha256": "9ca1d0772a93814f7774a955233eadb1cc5c677545f2ea0d1eb19122d63fae63",
+    "articulations_sha256": "260088a299df3cfd0010ae99cbefbcd34d48553f2779a92dcb7772da7b10b800",
+    "headings": {
+      "LOWER DIVISION REQUIRED COURSES": "major_required"
+    }
+  },
+  {
+    "major": "Korean Language and Culture (East Asian Languages), B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:06:19.1783048",
+    "template_sha256": "0b25749ec87b5562cde02eca44ef6fc35006cd4de9a868b268490aec188ab43e",
+    "articulations_sha256": "4cadab71fb06f944efd79e9ad79392c65e11d01f3aacbe41c0f7ca8498a9a83b",
+    "headings": {
+      "LOWER DIVISION REQUIRED COURSES": "major_required"
+    }
+  },
+  {
+    "major": "Landscape Architecture, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:29:34.5869636",
+    "template_sha256": "ccb9b2dfb1e8609132b055eed2eaba49e10a702bafe1d23cad0d6c7eaa0179ad",
+    "articulations_sha256": "3e2dc9b0017a43d0d5fcdbca382e63526a104059b1c3e718088a1865f050c5d2",
+    "headings": {
+      "BREADTH REQUIREMENTS": "required",
+      "READING AND COMPOSITION REQUIREMENT": "required",
+      "MAJOR REQUIREMENTS": "required"
+    },
+    "or_group_rules": [
+      2
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Legal Studies, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:51:12.639509",
+    "template_sha256": "7df010f2727f074b602fc2b250fe5fdee546d76e36b127ae9fcc0b294795a280",
+    "articulations_sha256": "6ce2fa62fc339bdc53dcfcc86b93c474731441ed3cfd0f19ddba790942eeedfd",
+    "headings": {
+      "PHILOSOPHY": "major_required",
+      "HISTORY": "major_required",
+      "SOCIAL/BEHAVIORAL SCIENCES": "major_required",
+      "STATISTICS": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Molecular Environmental Biology, B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:01:19.2451222",
+    "template_sha256": "378081ba12ec6a5b2e7a6b9a18dd2fe289abcd26796a22d50443b288517c218e",
+    "articulations_sha256": "b60ac65c17008ed37bc6c3ed04c4d9fe1add2e4f5c5eb9be2edfc96212bb68e8",
+    "headings": {
+      "BREADTH REQUIREMENTS": "major_required"
+    },
+    "initial_category": "required",
+    "sequence_rules": [
+      {
+        "group_position": 1,
+        "section_position": 1,
+        "expected_rows": [
+          "MATH 16A",
+          "MATH 16B",
+          "MATH 51",
+          "MATH 52",
+          "MATH 10A",
+          "MATH 10B"
+        ],
+        "alternatives": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "group_position": 3,
+        "section_position": 5,
+        "expected_rows": [
+          "PHYSICS 8A",
+          "PHYSICS 8B",
+          "PHYSICS 7A",
+          "PHYSICS 7B"
+        ],
+        "alternatives": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Political Science, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:01:17.6632395",
+    "template_sha256": "00a88ed1b20c45cca12670eb03a1b8ae572dee082fd24a119ff20c3f72f33fe5",
+    "articulations_sha256": "64c54d19c6c59617d1cf6cadda2a25b665dca549babf751f527cab677e1912c0",
+    "headings": {
+      "REQUIRED LOWER DIVISION COURSES": "required",
+      "ADDITIONAL POLITICAL SCIENCE REQUIREMENT": "major_required"
+    },
+    "or_group_rules": [
+      5
+    ]
+  },
+  {
+    "major": "Psychology, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:26:24.1994093",
+    "template_sha256": "58ac22c184442f54290fe41bdf41aa46c773bed83da27f65da877154be41bfbb",
+    "articulations_sha256": "1c977a413a2b00bc40b5f9f263fd13e42f71ea79553a6d22e1a9e407c0259de5",
+    "headings": {
+      "GENERAL PSYCHOLOGY": "major_required",
+      "SOCIAL SCIENCE": "major_required",
+      "BIOLOGICAL SCIENCES": "major_required",
+      "QUANTITATIVE": "major_required"
+    }
+  },
+  {
+    "major": "Public Health, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T22:45:29.242475",
+    "template_sha256": "8d4fb7ae457d5e254eb0bd2bd5b76c84036ebd00ca5c3c524d197d5739bfc4fd",
+    "articulations_sha256": "61a6cb1be5e6f38673b8726654b33549114cd8a29b6e35fc9abde5f1177465d5",
+    "headings": {
+      "REQUIRED LOWER DIVISION COURSES": "major_required"
+    },
+    "blocking_issues": [
+      "Social-science courses must span distinct areas, and biology has unit and lab-credit conditions."
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Scandinavian, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T22:43:53.3584225",
+    "template_sha256": "d55a55e38aeed58562ada91ea744a57c598cbc9dfaa61f68ae348b7728dd2895",
+    "articulations_sha256": "0fd5f1bd94bc58b87426af74c7712125123fba8a695636af28991855ad5d22a3",
+    "headings": {
+      "LANGUAGE SEQUENCES": "major_required"
+    },
+    "blocking_issues": [
+      "Select a language concentration and complete its sequence; one course selected from every language is not a complete sequence."
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Slavic Languages and Literatures, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:27:32.7572398",
+    "template_sha256": "00dc815cd1586e99959c732febc74c8a510640ebfa982f46d85fbf935b775662",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {
+      "GROUP II: LANGUAGE SKILLS FOR EAST EUROPEAN CULTURES EMPHASIS": "major_required",
+      "LANGUAGE PREREQUISITES": "major_required",
+      "LITERATURE PREREQUISITES": "major_required",
+      "GROUP III: LANGUAGE SKILLS FOR EURASIAN STUDIES EMPHASIS": "major_required",
+      "GROUP I: LANGUAGE SKILLS FOR RUSSIAN EMPHASIS": "major_required",
+      "GROUP IV: CULTURAL STUDIES SURVEY (ALL TRACKS)": "major_required"
+    },
+    "blocking_issues": [
+      "Russian, East European, and Eurasian emphasis groups are alternative tracks, not simultaneous requirements."
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Sociology, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:42:25.4184584",
+    "template_sha256": "a6cabc3957f2d55945b5dccb52cbae06addfd16c1e4cbe0e1a540f422714e4d6",
+    "articulations_sha256": "5ddf5e5b0dc35e9c4be41c1efffad901870af3b440ce99183920c1f1cfbad2c2",
+    "headings": {
+      "LOWER DIVISION MAJOR PREPARATION COURSES": "major_required"
+    }
+  },
+  {
+    "major": "Spanish and Portuguese, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:23:47.3403853",
+    "template_sha256": "f11333ba9f5430d5729e0011162b36cc702b1cefda6a6097e6c9a70062596b01",
+    "articulations_sha256": "f8c475f66d1cc5791374cb2b763956035c722dbe7609ab4647482f18f05493a9",
+    "headings": {
+      "CONCENTRATION B: THE LANGUAGES, LITERATURES, AND CULTURES OF THE PORTUGUESE-SPEAKING WORLD": "major_required",
+      "CONCENTRATION D: HISPANIC LANGUAGES, LINGUISTICS, AND BILINGUALISM": "major_required",
+      "CONCENTRATION A: THE LANGUAGES, LITERATURES, AND CULTURES OF THE SPANISH-SPEAKING WORLD": "major_required",
+      "CONCENTRATION C: LATIN AMERICAN LANGUAGES, LITERATURES, AND CULTURES": "major_required"
+    },
+    "blocking_issues": [
+      "The four concentrations are alternatives; completing all four is not required."
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Sustainable Environmental Design, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:40:07.2958816",
+    "template_sha256": "461bfd09f647845001edd6444dff640c70445ca39fb370741f51ad5dc0c03d6c",
+    "articulations_sha256": "01ffb40bf9647d8bc802917c57fd3911899f7f1fd48ea707b023880c2820a194",
+    "headings": {
+      "MAJOR REQUIREMENTS": "required",
+      "BREADTH REQUIREMENTS": "required",
+      "READING AND COMPOSITION REQUIREMENT": "required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Theater and Performance Studies, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:08:27.2727047",
+    "template_sha256": "a464c927d4c4c5c77a504cf6465de333a69b61254c6ae8d7fd0a2328e7053d8e",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {
+      "MAJOR REQUIREMENTS": "major_required"
+    },
+    "blocking_issues": [
+      "Program text permits THEATER 52AC or 25AC, but the template lists only 52AC. Preserve this alternative for adviser review."
+    ],
+    "allow_review_groups": true
+  },
+  {
+    "major": "Urban Studies, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:20:16.2388106",
+    "template_sha256": "2251c5677964c441f3cb570c135f6f8ce9875624058bc6f987e894a5588b01e0",
+    "articulations_sha256": "3a90b3bff906e0bd8a04dbcd5756ec5c6b9e7c9a73e372469ea5606a8aa28695",
+    "headings": {
+      "LOWER DIVISION ELECTIVES": "required",
+      "BREADTH REQUIREMENTS": "required",
+      "READING AND COMPOSITION REQUIREMENT": "required",
+      "MAJOR REQUIREMENTS": "required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Economics, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T22:47:50.386281",
+    "template_sha256": "1fe4807226da0d26a2903e809fcffc92e72ebd26897ff530576e01b0cdeb7b07",
+    "articulations_sha256": "60d7987126037cce4bbfc79723f86f9328ae3b17e791aef8b09718506c3e8c1e",
+    "headings": {},
+    "sequence_rules": [
+      {
+        "group_position": 1,
+        "section_position": 1,
+        "expected_rows": [
+          "MATH 51",
+          "MATH 52",
+          "MATH 16A",
+          "MATH 16B"
+        ],
+        "alternatives": [
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "major": "Ecosystem Management & Forestry, B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:18:05.4139154",
+    "template_sha256": "f5e48c3825e7677f2d1d3d9d95ae7e116fe8c1fa75bcd91085c95938796d9500",
+    "articulations_sha256": "156e3b05fbd348cdeb88c13f37be2ce30c1294f39a8d4bfa512e221a75d9d7b4",
+    "headings": {},
+    "sequence_rules": [
+      {
+        "group_position": 0,
+        "section_position": 7,
+        "expected_rows": [
+          "MATH 16A",
+          "MATH 16B",
+          "MATH 51",
+          "MATH 52"
+        ],
+        "alternatives": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ],
+    "initial_category": "required"
+  },
+  {
+    "major": "Environmental Economics and Policy, B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:31:40.2215364",
+    "template_sha256": "4addf2aab3b453aa317eaf883986d4bbe1a64b0f2d581170e3768a60b83a0217",
+    "articulations_sha256": "f751241dc32333dca49fec936d32fdc7a84c9535cfcb96643bbb9752c72c5aa2",
+    "headings": {},
+    "sequence_rules": [
+      {
+        "group_position": 0,
+        "section_position": 5,
+        "expected_rows": [
+          "MATH 16A",
+          "MATH 16B",
+          "MATH 51",
+          "MATH 52"
+        ],
+        "alternatives": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ],
+    "initial_category": "required",
+    "allow_review_groups": true
+  },
+  {
+    "major": "Genetics and Plant Biology, B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:41:57.2982244",
+    "template_sha256": "8176c96b88ee1a865276259218d9ca69f1b3209051ef99345509531eb0b13c20",
+    "articulations_sha256": "2a0081f68dc4352a5d746721d5c9acf20f4acc6ef99c8ef44447358738697b0f",
+    "headings": {},
+    "sequence_rules": [
+      {
+        "group_position": 0,
+        "section_position": 7,
+        "expected_rows": [
+          "MATH 16A",
+          "MATH 16B",
+          "MATH 51",
+          "MATH 52",
+          "MATH 10A",
+          "MATH 10B"
+        ],
+        "alternatives": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "group_position": 2,
+        "section_position": 2,
+        "expected_rows": [
+          "PHYSICS 8A",
+          "PHYSICS 8B",
+          "PHYSICS 7A",
+          "PHYSICS 7B"
+        ],
+        "alternatives": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ],
+    "independent_sections": [
+      2,
+      3
+    ],
+    "initial_category": "required",
+    "allow_review_groups": true
+  },
+  {
+    "major": "Integrative Biology, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T22:49:42.7404773",
+    "template_sha256": "491bfca92bdd7d03fca5b6b0c524ab64a930b34bd9997da840de2e9320acc158",
+    "articulations_sha256": "7a9115715ee6978adcf8792bcacc41d9a255ac392f9f03882b8ab9017df8a110",
+    "headings": {},
+    "independent_sections": [
+      4
+    ]
+  },
+  {
+    "major": "Microbial Biology, B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:18:06.3014516",
+    "template_sha256": "d5c345a67bc7cbda42c523a77a1c089dce8ee6cb2c55851a72efdcf9d81da1bd",
+    "articulations_sha256": "e8f194aa899a4e88e24929b21d477121111d0157f524ea566f13dbd96163d939",
+    "headings": {},
+    "sequence_rules": [
+      {
+        "group_position": 0,
+        "section_position": 7,
+        "expected_rows": [
+          "MATH 16A",
+          "MATH 16B",
+          "MATH 51",
+          "MATH 52",
+          "MATH 10A",
+          "MATH 10B"
+        ],
+        "alternatives": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      }
+    ],
+    "independent_sections": [
+      3
+    ],
+    "initial_category": "required",
+    "allow_review_groups": true
+  },
+  {
+    "major": "Neuroscience, B.A. ",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:56:46.2904393",
+    "template_sha256": "dce927f3460cd9648a9f0ce90474a89b1add2e05f7731ac70b2c2f908ed3ee65",
+    "articulations_sha256": "31a51194191904a187a32cfed755e6127234ec38e30689ca0f4cf4a28d8933b7",
+    "headings": {},
+    "independent_sections": [
+      1
+    ],
+    "sequence_rules": [
+      {
+        "group_position": 1,
+        "section_position": 7,
+        "expected_rows": [
+          "PHYSICS 8A",
+          "PHYSICS 8B",
+          "PHYSICS 7A",
+          "PHYSICS 7B"
+        ],
+        "alternatives": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "major": "Nutrition & Metabolic Biology, B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:53:52.2764257",
+    "template_sha256": "5a7d36d075031b139d142646ffd77764cf7f6072d62d70b492a8f4480b7f5165",
+    "articulations_sha256": "6978685418a0efc6982addd177f41039f3d47bbba63d1d8b10b9a4db366c93d6",
+    "headings": {},
+    "sequence_rules": [
+      {
+        "group_position": 0,
+        "section_position": 9,
+        "expected_rows": [
+          "MATH 16A",
+          "MATH 16B",
+          "MATH 51",
+          "MATH 52"
+        ],
+        "alternatives": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ],
+    "independent_sections": [
+      2
+    ],
+    "initial_category": "required",
+    "allow_review_groups": true
+  },
+  {
+    "major": "Society and Environment, B.S",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:34:17.392137",
+    "template_sha256": "fa87c3290bf4b98cf905a85630251fbbebe6e77b66acf1536af2b73e24698624",
+    "articulations_sha256": "9e47174b71dec7121146c9fa1abce814c7fa3ec29862afb5c6972b83e166163e",
+    "headings": {},
+    "initial_category": "required",
+    "allow_review_groups": true
+  },
+  {
+    "major": "Engineering Mathematics and Statistics, B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:44:49.2214403",
+    "template_sha256": "c5f6af8e952f4bee79c059d25d86eddfe5ad63321269c07e5ab0fe39f4fa314e",
+    "articulations_sha256": "b208288c3d3da29efb447035cffa8b78cc177471c3443b4d57970d47928377f3",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Geography, B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-09T00:06:53.9948125",
+    "template_sha256": "fb07525701477d8cc33d6dc00dda75cafde9ac636c0d6f1e06394214a9d372e5",
+    "articulations_sha256": "cc4a8e4c8de48493c8d72bcfd20b2f365cc9d2a570534cd2293124a2e0c4bc9d",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Industrial Engineering & Operations Research, B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-10-08T23:49:05.6652564",
+    "template_sha256": "ca524a67e2adf75daa5267dbdf6046241740e7a05152a903d44b407e5d233711",
+    "articulations_sha256": "0cdcfb769ac7ee0b05deba2e666966995b54d6e272feff274590ef9e5085916c",
+    "headings": {},
+    "allow_review_groups": true
+  }
+]

@@ -2,7 +2,7 @@ import "server-only";
 
 import { pool } from "./db";
 import { buildAgreement } from "./agreement-builder";
-import type { AgreementRow } from "./agreement-builder";
+import type { AgreementMetadata, AgreementRow } from "./agreement-builder";
 import type { CourseCatalogEntry, Major, University } from "./catalog-types";
 import type { MajorAgreement } from "./planner";
 
@@ -62,7 +62,7 @@ export async function getAgreement(
   university: string, major: string, academicYear: string, college: string
 ): Promise<MajorAgreement | null> {
   const result = await pool.query<{ id: number; university: string; major: string; academicYear: string;
-    metadata: {kind?: "structured" | "informational"; notes?: string[]; reviewNotes?: string[]} }>(`
+    metadata: Omit<AgreementMetadata, "university" | "major" | "academicYear"> }>(`
     SELECT a.id, u.name AS university, m.name AS major, a.academic_year AS "academicYear", a.planner_metadata AS metadata
     FROM articulation_agreements a
     JOIN majors m ON m.id = a.major_id
@@ -81,7 +81,7 @@ export async function getAgreement(
       r.preparation_note AS "preparationNote",
       r.department, g.rules,
       o.id AS "optionId", o.option_kind AS "optionKind",
-      o.option_number AS "optionNumber", c.code AS "courseCode"
+      o.option_number AS "optionNumber", c.code AS "courseCode", c.title AS "courseTitle"
     FROM major_requirement_groups g
     JOIN articulation_agreements a ON a.id = g.agreement_id
     LEFT JOIN major_requirements r ON r.group_id = g.id

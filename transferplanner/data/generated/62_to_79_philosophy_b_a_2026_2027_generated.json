@@ -79,5 +79,10 @@
   "review_required": true,
   "review_notes": [
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
-  ]
+  ],
+  "receiving_course_titles": {
+    "PHILOS 12A": "Introduction to Logic",
+    "PHILOS 25A": "Ancient Philosophy",
+    "PHILOS 25B": "Modern Philosophy"
+  }
 }

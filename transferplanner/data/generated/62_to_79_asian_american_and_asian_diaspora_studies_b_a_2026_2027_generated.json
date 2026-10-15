@@ -102,5 +102,12 @@
   "review_required": true,
   "review_notes": [
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
-  ]
+  ],
+  "receiving_course_titles": {
+    "ETH STD 11AC": "Introduction to Ethnic Studies",
+    "ASAMST 20A": "Introduction to the History of Asians in the United States",
+    "ASAMST 20AC": "Asian American Communities and Race Relations",
+    "ASAMST 20B": "Contemporary Issues in Asian American Communities",
+    "ASAMST 20C": "Cultural Politics and Practices in Asian American Communities"
+  }
 }

@@ -526,10 +526,14 @@ def get_requirement_status(requirement, completed_courses):
         return "no_course_articulated"
     elif articulation_status == "university_only":
         return "university_only"
+    elif articulation_status == "review_required":
+        return "review_required"
     
     return "error"
 
 def get_preparation_status(requirement, completed_courses):
+    if requirement["articulation_status"] == "review_required":
+        return "review_required"
     if "preparation_options" not in requirement:
         return get_requirement_status(requirement, completed_courses)
     for option in requirement["preparation_options"].values():
@@ -607,6 +611,8 @@ def get_college_id(cursor, college_name):
 
 def import_agreement(cursor, agreement):
     """Import one normalized agreement using the existing catalog; do not commit."""
+    if agreement.get("kind") == "review_required" or agreement.get("import_blockers"):
+        raise ValueError("Agreement is blocked for review and cannot be imported")
     college_id = get_college_id(cursor, agreement["college"])
     university_id = get_university_id(cursor, agreement["university"])
     if university_id is None:
@@ -645,6 +651,8 @@ def import_agreement(cursor, agreement):
                       for a in agreement.get("source", {}).get("general_information", [])],
             "reviewNotes": agreement.get("review_notes", [])
         }
+    if agreement.get("receiving_course_titles"):
+        metadata["receivingCourseTitles"] = agreement["receiving_course_titles"]
     insert_major(cursor, university_id, agreement["major"])
     major_id = get_major_id(cursor, university_id, agreement["major"])
     agreement_id = insert_articulation_agreement(cursor, major_id, college_id, agreement["academic_year"], metadata)

@@ -1,0 +1,737 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Scandinavian, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": 1,
+      "review_required": true,
+      "note": "Source heading: LANGUAGE SEQUENCES\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Select 1 Course\nSelect a language concentration and complete its sequence; one course selected from every language is not a complete sequence."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "DANISH 1A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Danish"
+    },
+    {
+      "text": "DANISH 1B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Danish"
+    },
+    {
+      "text": "FINNISH 1A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Finnish"
+    },
+    {
+      "text": "FINNISH 1B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Finnish"
+    },
+    {
+      "text": "ICELAND 1A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Icelandic"
+    },
+    {
+      "text": "ICELAND 1B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Icelandic"
+    },
+    {
+      "text": "LATIN 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LATN 1"
+          ]
+        }
+      ],
+      "department": "Ancient Greek & Roman Studies"
+    },
+    {
+      "text": "LATIN 2",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LATN 2"
+          ]
+        }
+      ],
+      "department": "Ancient Greek & Roman Studies"
+    },
+    {
+      "text": "NORWEGN 1A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Norwegian"
+    },
+    {
+      "text": "NORWEGN 1B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Norwegian"
+    },
+    {
+      "text": "SWEDISH 1A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Swedish"
+    },
+    {
+      "text": "SWEDISH 1B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Swedish"
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T22:43:53.3584225",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "12db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Requirements",
+        "groupId": "11db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>PREPARATION FOR TRANSFER AT THE JUNIOR LEVEL </strong></p><p><br></p><p>Prerequisites for this major are not offered at California community colleges; however, students will be admitted to the Scandinavian major without the 2-course elementary language prerequisites and the cultural studies prerequisites Scandinavian 60 and 75 as it is possible to complete all requirements for this major upon admission to UC Berkeley. A choice of one of five concentrations is available: Old Norse Studies, Danish, Finnish, Norwegian, or Swedish language and culture.</p><p><br></p><p>The relevant lower-division language prerequisites are applied to one of the five Scandinavian major concentrations upon transfer.</p><p><br></p><p><strong>The two cultural studies prerequisites are taken upon entry:</strong></p><p><strong>Scandinavian 75 (Nordic Culture and Values) in the Fall Semester and</strong></p><p><strong>Scandinavian 60 (Heroic Legends of the North) in the Spring Semester.</strong></p><p><br></p><p>The elementary first-year language sequences, noted below, are started during the student's first Fall semester at Berkeley. The required 4-semester language sequence is completed in the two years following admission.</p><p><br></p><p>Once admitted, students who have a prior background in their proposed target language (Finnish, Danish, Icelandic, Norwegian, or Swedish) will be required to take a language proficiency test and consult with the department language program coordinator for placement in the correct language course level. The use of Latin 1 and 2 for the Old Norse concentration is also assessed upon admission.</p><p><br></p><p><strong>For more information: </strong></p><p>Scandinavian Undergraduate Student Services Advisor</p><p>(510) 642-4661</p><p><a href=\"issaug@berkeley.edu \" rel=\"noopener noreferrer\" target=\"_blank\">issaug@berkeley.edu </a></p><p><a href=\"https://scandinavian.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://scandinavian.berkeley.edu/</a></p>",
+        "groupId": "0fdb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementTitle",
+        "content": "LANGUAGE SEQUENCES",
+        "groupId": "56ef7645-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301156,
+                      "courseTitle": "Beginning Norwegian",
+                      "courseNumber": "1A",
+                      "prefix": "NORWEGN",
+                      "prefixParentId": 15756,
+                      "prefixDescription": "Norwegian",
+                      "departmentParentId": 9649,
+                      "department": "Norwegian",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8c070533-a59c-4420-65a4-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 299865,
+                      "courseTitle": "Beginning Icelandic II",
+                      "courseNumber": "1B",
+                      "prefix": "ICELAND",
+                      "prefixParentId": 15757,
+                      "prefixDescription": "Icelandic",
+                      "departmentParentId": 7420,
+                      "department": "Icelandic",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ecebdf4b-393c-4948-65a5-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301160,
+                      "courseTitle": "Beginning Norwegian",
+                      "courseNumber": "1B",
+                      "prefix": "NORWEGN",
+                      "prefixParentId": 15756,
+                      "prefixDescription": "Norwegian",
+                      "departmentParentId": 9649,
+                      "department": "Norwegian",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0cd9528f-d9da-4e6a-65a6-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 275229,
+                      "courseTitle": "Elementary Latin",
+                      "courseNumber": "2",
+                      "prefix": "LATIN",
+                      "prefixParentId": 7405,
+                      "prefixDescription": "Latin",
+                      "departmentParentId": 14116,
+                      "department": "Ancient Greek & Roman Studies",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4135ec1e-0c0d-4aee-65a7-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356734,
+                      "courseTitle": "Beginning Finnish",
+                      "courseNumber": "1B",
+                      "prefix": "FINNISH",
+                      "prefixParentId": 15755,
+                      "prefixDescription": "Finnish",
+                      "departmentParentId": 5687,
+                      "department": "Finnish",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f91573f2-fab3-4317-65a8-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304925,
+                      "courseTitle": "Beginning Icelandic I",
+                      "courseNumber": "1A",
+                      "prefix": "ICELAND",
+                      "prefixParentId": 15757,
+                      "prefixDescription": "Icelandic",
+                      "departmentParentId": 7420,
+                      "department": "Icelandic",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "683ad4ee-b3f5-4eb7-65a9-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 11,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 299732,
+                      "courseTitle": "Beginning Swedish",
+                      "courseNumber": "1B",
+                      "prefix": "SWEDISH",
+                      "prefixParentId": 15758,
+                      "prefixDescription": "Swedish",
+                      "departmentParentId": 12656,
+                      "department": "Swedish",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "37592234-a133-4c25-65aa-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296379,
+                      "courseTitle": "Beginning Finnish",
+                      "courseNumber": "1A",
+                      "prefix": "FINNISH",
+                      "prefixParentId": 15755,
+                      "prefixDescription": "Finnish",
+                      "departmentParentId": 5687,
+                      "department": "Finnish",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4055c860-50f9-4f6c-65ab-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 261543,
+                      "courseTitle": "Beginning Swedish",
+                      "courseNumber": "1A",
+                      "prefix": "SWEDISH",
+                      "prefixParentId": 15758,
+                      "prefixDescription": "Swedish",
+                      "departmentParentId": 12656,
+                      "department": "Swedish",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ae0f15f5-d568-4e5d-65ac-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 351694,
+                      "courseTitle": "Elementary Latin",
+                      "courseNumber": "1",
+                      "prefix": "LATIN",
+                      "prefixParentId": 7405,
+                      "prefixDescription": "Latin",
+                      "departmentParentId": 14116,
+                      "department": "Ancient Greek & Roman Studies",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1b53b10d-8924-4a94-65ad-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 261539,
+                      "courseTitle": "Beginning Danish",
+                      "courseNumber": "1B",
+                      "prefix": "DANISH",
+                      "prefixParentId": 15754,
+                      "prefixDescription": "Danish",
+                      "departmentParentId": 3805,
+                      "department": "Danish",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3786a37a-dd0f-4425-65ae-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 261546,
+                      "courseTitle": "Beginning Danish",
+                      "courseNumber": "1A",
+                      "prefix": "DANISH",
+                      "prefixParentId": 15754,
+                      "prefixDescription": "Danish",
+                      "departmentParentId": 3805,
+                      "department": "Danish",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4834167a-4009-47a1-65af-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "10db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "4135ec1e-0c0d-4aee-65a7-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 275229,
+            "courseTitle": "Elementary Latin",
+            "courseNumber": "2",
+            "prefix": "LATIN",
+            "prefixParentId": 7405,
+            "prefixDescription": "Latin",
+            "departmentParentId": 14116,
+            "department": "Ancient Greek & Roman Studies",
+            "begin": "F2021",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 356895,
+                    "courseTitle": "Continuing Elementary Latin",
+                    "courseNumber": "2",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "1b53b10d-8924-4a94-65ad-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 351694,
+            "courseTitle": "Elementary Latin",
+            "courseNumber": "1",
+            "prefix": "LATIN",
+            "prefixParentId": 7405,
+            "prefixDescription": "Latin",
+            "departmentParentId": 14116,
+            "department": "Ancient Greek & Roman Studies",
+            "begin": "F2021",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 270272,
+                    "courseTitle": "Elementary Latin",
+                    "courseNumber": "1",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "Select a language concentration and complete its sequence; one course selected from every language is not a complete sequence."
+  ],
+  "calculation_review_required": true,
+  "receiving_course_titles": {
+    "DANISH 1A": "Beginning Danish",
+    "DANISH 1B": "Beginning Danish",
+    "FINNISH 1A": "Beginning Finnish",
+    "FINNISH 1B": "Beginning Finnish",
+    "ICELAND 1A": "Beginning Icelandic I",
+    "ICELAND 1B": "Beginning Icelandic II",
+    "LATIN 1": "Elementary Latin",
+    "LATIN 2": "Elementary Latin",
+    "NORWEGN 1A": "Beginning Norwegian",
+    "NORWEGN 1B": "Beginning Norwegian",
+    "SWEDISH 1A": "Beginning Swedish",
+    "SWEDISH 1B": "Beginning Swedish"
+  }
+}

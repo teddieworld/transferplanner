@@ -1,0 +1,1012 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "East Asian Religion, Thought, and Culture, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: LANGUAGE SEQUENCES\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Select 1 Sequence\nChoose a complete language sequence; placement and language selection cannot be inferred from a count of individual courses.\nAdditional group or section instructions apply. Review the source notes before choosing courses.\nConsult with the campus department for specific information\nPlacement exam required"
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: ADDITIONAL MAJOR REQUIREMENTS\nAdviser review needed. This group cannot be marked complete automatically.\nChoose a complete language sequence; placement and language selection cannot be inferred from a count of individual courses."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "CHINESE 1A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "CHINESE 1B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "CHINESE 10A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "CHINESE 10B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "JAPAN 1A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "JAPAN 1B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "JAPAN 10A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "JAPAN 10B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "TIBETAN 1A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "TIBETAN 1B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "TIBETAN 10A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "TIBETAN 10B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "EA LANG C50",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T23:35:48.3342665",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "49e56f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program",
+        "groupId": "45e56f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<h2>About&nbsp;the&nbsp;Major&nbsp;in&nbsp;East&nbsp;Asian&nbsp;Religion,&nbsp;Thought,&nbsp;and&nbsp;Culture</h2><p>For&nbsp;nearly&nbsp;150&nbsp;years,&nbsp;the&nbsp;Department&nbsp;of&nbsp;East&nbsp;Asian&nbsp;Languages&nbsp;and&nbsp;Cultures&nbsp;(EALC)&nbsp;has&nbsp;been&nbsp;the&nbsp;academic&nbsp;center&nbsp;for&nbsp;East&nbsp;Asian&nbsp;Humanities&nbsp;at&nbsp;UC&nbsp;Berkeley.&nbsp;</p><p>The&nbsp;major&nbsp;in&nbsp;East&nbsp;Asian&nbsp;Religion,&nbsp;Thought,&nbsp;and&nbsp;Culture&nbsp;invites&nbsp;you&nbsp;to&nbsp;explore&nbsp;the&nbsp;diverse&nbsp;philosophical&nbsp;and&nbsp;religious&nbsp;traditions&nbsp;of&nbsp;East&nbsp;Asia.&nbsp;This&nbsp;interdisciplinary&nbsp;program&nbsp;trains&nbsp;you&nbsp;to&nbsp;understand&nbsp;these&nbsp;traditions&nbsp;through&nbsp;a&nbsp;deep&nbsp;familiarity&nbsp;with&nbsp;the&nbsp;texts,&nbsp;languages,&nbsp;and&nbsp;cultures&nbsp;that&nbsp;shaped&nbsp;them.</p><p></p><p>Your&nbsp;coursework&nbsp;will&nbsp;combine&nbsp;language&nbsp;acquisition&nbsp;in&nbsp;introductory&nbsp;and&nbsp;intermediate&nbsp;Chinese,&nbsp;Japanese,&nbsp;or&nbsp;Tibetan&nbsp;with&nbsp;a&nbsp;comparative&nbsp;study&nbsp;of&nbsp;East&nbsp;Asian&nbsp;societies.&nbsp;Learning&nbsp;one&nbsp;of&nbsp;these&nbsp;languages&nbsp;allows&nbsp;you&nbsp;to&nbsp;access&nbsp;foundational&nbsp;texts&nbsp;directly,&nbsp;without&nbsp;relying&nbsp;on&nbsp;translation.&nbsp;You&nbsp;will&nbsp;broaden&nbsp;your&nbsp;perspective&nbsp;by&nbsp;taking&nbsp;core&nbsp;subjects&nbsp;in&nbsp;Buddhist,&nbsp;Chinese,&nbsp;Japanese,&nbsp;or&nbsp;Tibetan&nbsp;traditions,&nbsp;alongside&nbsp;disciplinary&nbsp;breadth&nbsp;courses&nbsp;in&nbsp;areas&nbsp;like&nbsp;Art&nbsp;History,&nbsp;Film,&nbsp;History,&nbsp;Music,&nbsp;Philosophy,&nbsp;and&nbsp;Religious&nbsp;Studies.&nbsp;Additionally,&nbsp;a&nbsp;dedicated&nbsp;tools&nbsp;and&nbsp;methods&nbsp;course&nbsp;ensures&nbsp;you&nbsp;cultivate&nbsp;strong&nbsp;research&nbsp;and&nbsp;analytical&nbsp;abilities.</p><p></p><p>Students&nbsp;in&nbsp;this&nbsp;major&nbsp;join&nbsp;a&nbsp;vibrant&nbsp;and&nbsp;inclusive&nbsp;academic&nbsp;community,&nbsp;with&nbsp;opportunities&nbsp;to&nbsp;connect&nbsp;and&nbsp;share&nbsp;research&nbsp;through&nbsp;departmental&nbsp;events&nbsp;like&nbsp;our&nbsp;EALC&nbsp;Talks!&nbsp;series.&nbsp;The&nbsp;rigorous&nbsp;interdisciplinary&nbsp;training,&nbsp;effective&nbsp;writing,&nbsp;and&nbsp;critical&nbsp;thinking&nbsp;skills&nbsp;you&nbsp;develop&nbsp;here&nbsp;provide&nbsp;a&nbsp;powerful&nbsp;foundation&nbsp;for&nbsp;advanced&nbsp;studies&nbsp;and&nbsp;diverse&nbsp;professional&nbsp;paths,&nbsp;including&nbsp;law,&nbsp;business,&nbsp;education,&nbsp;and&nbsp;Asian&nbsp;Studies.</p><p></p><h2>Direct&nbsp;Admission&nbsp;to&nbsp;the&nbsp;Major</h2><p>When&nbsp;you&nbsp;are&nbsp;admitted&nbsp;to&nbsp;UC&nbsp;Berkeley&nbsp;for&nbsp;the&nbsp;Major&nbsp;in&nbsp;East&nbsp;Asian&nbsp;Religion&nbsp;Thought&nbsp;&amp;&nbsp;Culture,&nbsp;you&nbsp;enter&nbsp;directly&nbsp;into&nbsp;the&nbsp;major.&nbsp;There&nbsp;is&nbsp;no&nbsp;secondary&nbsp;application&nbsp;or&nbsp;declaration&nbsp;process&nbsp;after&nbsp;you&nbsp;arrive&nbsp;on&nbsp;campus.&nbsp;</p><p>You&nbsp;are&nbsp;a&nbsp;full&nbsp;member&nbsp;of&nbsp;our&nbsp;department&nbsp;from&nbsp;day&nbsp;one.</p><p></p><p>While&nbsp;it&nbsp;is&nbsp;possible&nbsp;to&nbsp;change&nbsp;your&nbsp;major&nbsp;after&nbsp;you&nbsp;matriculate&nbsp;to&nbsp;Berkeley,&nbsp;switching&nbsp;into&nbsp;a&nbsp;high-demand&nbsp;field&nbsp;like&nbsp;Business,&nbsp;Computer&nbsp;Science,&nbsp;Economics,&nbsp;or&nbsp;Psychology&nbsp;may&nbsp;require&nbsp;you&nbsp;to&nbsp;pass&nbsp;a&nbsp;competitive&nbsp;comprehensive&nbsp;review&nbsp;process.&nbsp;Additionally,&nbsp;spending&nbsp;your&nbsp;time&nbsp;preparing&nbsp;for&nbsp;a&nbsp;different&nbsp;program&nbsp;once&nbsp;you&nbsp;arrive&nbsp;on&nbsp;campus&nbsp;will&nbsp;cause&nbsp;a&nbsp;lack&nbsp;of&nbsp;progress&nbsp;in&nbsp;your&nbsp;currently&nbsp;declared&nbsp;major,&nbsp;which&nbsp;can&nbsp;delay&nbsp;your&nbsp;graduation.&nbsp;</p><p>We&nbsp;want&nbsp;to&nbsp;ensure&nbsp;you&nbsp;choose&nbsp;the&nbsp;path&nbsp;that&nbsp;best&nbsp;supports&nbsp;your&nbsp;long-term&nbsp;goals&nbsp;and&nbsp;allows&nbsp;you&nbsp;to&nbsp;graduate&nbsp;on&nbsp;time.</p><p></p><p><strong style=\"font-size: 14px;\">Personal&nbsp;Advising&nbsp;&amp;&nbsp;Your&nbsp;Transition</strong></p><p>To&nbsp;support&nbsp;a&nbsp;smooth&nbsp;transition,&nbsp;all&nbsp;admitted&nbsp;transfer&nbsp;students&nbsp;are&nbsp;required&nbsp;to&nbsp;meet&nbsp;with&nbsp;our&nbsp;undergraduate&nbsp;advisor&nbsp;before&nbsp;enrolling&nbsp;in&nbsp;their&nbsp;first&nbsp;semester&nbsp;of&nbsp;classes.&nbsp;</p><p>This&nbsp;is&nbsp;our&nbsp;way&nbsp;of&nbsp;welcoming&nbsp;you&nbsp;and&nbsp;ensuring&nbsp;your&nbsp;academic&nbsp;plan&nbsp;matches&nbsp;your&nbsp;interests&nbsp;and&nbsp;graduation&nbsp;goals.</p><p>You&nbsp;will&nbsp;receive&nbsp;detailed&nbsp;instructions&nbsp;on&nbsp;how&nbsp;to&nbsp;schedule&nbsp;this&nbsp;meeting&nbsp;well&nbsp;before&nbsp;your&nbsp;first&nbsp;semester&nbsp;begins,&nbsp;either&nbsp;through&nbsp;the&nbsp;summer&nbsp;Golden&nbsp;Bear&nbsp;Advising&nbsp;program&nbsp;or&nbsp;via&nbsp;a&nbsp;direct&nbsp;email&nbsp;from&nbsp;our&nbsp;department.&nbsp;</p><p>We&nbsp;look&nbsp;forward&nbsp;to&nbsp;meeting&nbsp;you&nbsp;and&nbsp;helping&nbsp;you&nbsp;plan&nbsp;your&nbsp;time&nbsp;at&nbsp;Berkeley.</p><p></p><p><strong style=\"font-size: 16px;\">PREPARATION&nbsp;FOR&nbsp;THE&nbsp;MAJOR&nbsp;IN&nbsp;EAST&nbsp;ASIAN&nbsp;RELIGION&nbsp;THOUGHT&nbsp;&amp;&nbsp;CULTURE</strong></p><p></p><p>Courses&nbsp;related&nbsp;to&nbsp;East&nbsp;Asian&nbsp;philosophy,&nbsp;religion,&nbsp;and&nbsp;culture&nbsp;are&nbsp;recommended&nbsp;and&nbsp;may&nbsp;be&nbsp;transferable&nbsp;for&nbsp;credit&nbsp;toward&nbsp;major&nbsp;requirements&nbsp;upon&nbsp;consultation&nbsp;with&nbsp;the&nbsp;undergraduate&nbsp;major&nbsp;advisor&nbsp;(UMA).</p><p></p><p>We&nbsp;encourage&nbsp;Students&nbsp;to&nbsp;take&nbsp;Chinese,&nbsp;Japanese,&nbsp;or&nbsp;Tibetan&nbsp;language&nbsp;courses&nbsp;if&nbsp;they&nbsp;are&nbsp;offered&nbsp;at&nbsp;their&nbsp;college.&nbsp;Students&nbsp;will&nbsp;receive&nbsp;transfer&nbsp;credit&nbsp;for&nbsp;language&nbsp;courses&nbsp;taken&nbsp;at&nbsp;their&nbsp;community&nbsp;college.&nbsp;However,&nbsp;all&nbsp;UC&nbsp;Berkeley&nbsp;students&nbsp;must&nbsp;take&nbsp;a<a href=\"https://ealc.berkeley.edu/programs/undergraduate/placement-exams\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;placement&nbsp;exam&nbsp;for&nbsp;Chinese&nbsp;or&nbsp;Japanese</a>&nbsp;(there&nbsp;are&nbsp;no&nbsp;placement&nbsp;exams&nbsp;for&nbsp;Tibetan)&nbsp;to&nbsp;ensure&nbsp;enrollment&nbsp;in&nbsp;a&nbsp;course&nbsp;at&nbsp;the&nbsp;correct&nbsp;level&nbsp;for&nbsp;their&nbsp;language&nbsp;skills.&nbsp;Because&nbsp;language&nbsp;courses&nbsp;vary&nbsp;across&nbsp;colleges,&nbsp;a&nbsp;student&nbsp;may&nbsp;need&nbsp;to&nbsp;repeat&nbsp;an&nbsp;introductory&nbsp;or&nbsp;intermediate-level&nbsp;course.&nbsp;The&nbsp;department&nbsp;undergraduate&nbsp;advisor&nbsp;will&nbsp;work&nbsp;with&nbsp;students&nbsp;to&nbsp;create&nbsp;a&nbsp;program&nbsp;plan&nbsp;to&nbsp;complete&nbsp;their&nbsp;major&nbsp;requirements&nbsp;by&nbsp;their&nbsp;expected&nbsp;graduation&nbsp;date,&nbsp;regardless&nbsp;of&nbsp;which&nbsp;language&nbsp;course&nbsp;is&nbsp;their&nbsp;first.&nbsp;</p><p></p><p>Please&nbsp;note:&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;exams&nbsp;will&nbsp;not&nbsp;satisfy&nbsp;the&nbsp;requirements&nbsp;for&nbsp;this&nbsp;major.</p><p></p><p><strong>More&nbsp;Information</strong></p><p>The&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Berkeley&nbsp;Catalog</a>&nbsp;and&nbsp;the&nbsp;<a href=\"https://ealc.berkeley.edu/programs/undergraduate/undergraduate-requirements/east-asian-religion-major-requirements\" rel=\"noopener noreferrer\" target=\"_blank\">department&nbsp;website</a>&nbsp;provide&nbsp;more&nbsp;information&nbsp;about&nbsp;major&nbsp;requirements&nbsp;and&nbsp;course&nbsp;information.</p><p></p><p><strong>Advising:</strong></p><p>Students&nbsp;with&nbsp;questions&nbsp;about&nbsp;transferring&nbsp;into&nbsp;the&nbsp;major&nbsp;in&nbsp;East&nbsp;Asian&nbsp;Languages&nbsp;and&nbsp;Cultures&nbsp;are&nbsp;encouraged&nbsp;to&nbsp;contact&nbsp;our&nbsp;undergraduate&nbsp;major&nbsp;advisor:</p><p>Cassandra&nbsp;Dunn</p><p>Department&nbsp;Website:&nbsp;<a href=\"http://ealc.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://ealc.berkeley.edu/</a></p><p>Email:&nbsp;<a href=\"mailto:cassandrajj@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">cassandrajj@berkeley.edu</a></p><p>Appointments:&nbsp;<a href=\"https://calendly.com/cassandra-dunn-ug-advisor\" rel=\"noopener noreferrer\" target=\"_blank\">Schedule&nbsp;an&nbsp;appointment&nbsp;(in-person&nbsp;or&nbsp;remotely).</a></p>",
+        "groupId": "47e56f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementTitle",
+        "content": "LANGUAGE SEQUENCES",
+        "groupId": "5def7645-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 273680,
+                      "courseTitle": "Introduction to the Study of Buddhism",
+                      "courseNumber": "C50",
+                      "prefix": "EA LANG",
+                      "prefixParentId": 15751,
+                      "prefixDescription": "East Asian Languages and Cultures",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 411188,
+                          "courseTitle": "Introduction to the Study of Buddhism",
+                          "courseNumber": "C50",
+                          "prefix": "BUDDSTD",
+                          "prefixParentId": 18553,
+                          "prefixDescription": "Buddhist Studies",
+                          "departmentParentId": 4183,
+                          "department": "East Asian Languages and Cultures",
+                          "begin": "F2024",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "eb9a00b7-b1e3-4bf2-8406-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "46e56f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 306923,
+                      "courseTitle": "Intermediate Japanese",
+                      "courseNumber": "10A",
+                      "prefix": "JAPAN",
+                      "prefixParentId": 9570,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b409fea7-2ec3-40cd-8407-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 11,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 264100,
+                      "courseTitle": "Intermediate Tibetan",
+                      "courseNumber": "10B",
+                      "prefix": "TIBETAN",
+                      "prefixParentId": 15752,
+                      "prefixDescription": "Tibetan",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4959b24a-c14a-477a-8408-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 276874,
+                      "courseTitle": "Elementary Japanese",
+                      "courseNumber": "1A",
+                      "prefix": "JAPAN",
+                      "prefixParentId": 9570,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2d550d20-2531-4a37-8409-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301182,
+                      "courseTitle": "Elementary Chinese",
+                      "courseNumber": "1A",
+                      "prefix": "CHINESE",
+                      "prefixParentId": 8904,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "fb323268-ab35-4024-840a-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301183,
+                      "courseTitle": "Elementary Japanese",
+                      "courseNumber": "1B",
+                      "prefix": "JAPAN",
+                      "prefixParentId": 9570,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "159b13b6-f63c-41d3-840b-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301181,
+                      "courseTitle": "Intermediate Chinese",
+                      "courseNumber": "10A",
+                      "prefix": "CHINESE",
+                      "prefixParentId": 8904,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6b102081-db46-4c25-840c-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 276876,
+                      "courseTitle": "Elementary Chinese",
+                      "courseNumber": "1B",
+                      "prefix": "CHINESE",
+                      "prefixParentId": 8904,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "db78bc5d-c848-44ed-840d-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301180,
+                      "courseTitle": "Intermediate Chinese",
+                      "courseNumber": "10B",
+                      "prefix": "CHINESE",
+                      "prefixParentId": 8904,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "90f367f3-ff76-46a3-840e-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 358306,
+                      "courseTitle": "Intermediate Japanese",
+                      "courseNumber": "10B",
+                      "prefix": "JAPAN",
+                      "prefixParentId": 9570,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8ad087e8-2e36-4aab-840f-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 350033,
+                      "courseTitle": "Intermediate Tibetan",
+                      "courseNumber": "10A",
+                      "prefix": "TIBETAN",
+                      "prefixParentId": 15752,
+                      "prefixDescription": "Tibetan",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7cf6a381-15e4-4c1b-8410-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360082,
+                      "courseTitle": "Elementary Tibetan",
+                      "courseNumber": "1A",
+                      "prefix": "TIBETAN",
+                      "prefixParentId": 15752,
+                      "prefixDescription": "Tibetan",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "20a0633d-7b89-4974-8411-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360083,
+                      "courseTitle": "Elementary Tibetan",
+                      "courseNumber": "1B",
+                      "prefix": "TIBETAN",
+                      "prefixParentId": 15752,
+                      "prefixDescription": "Tibetan",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6eb40d13-8e33-4ac6-8412-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Sequence",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": [
+              {
+                "position": 0,
+                "content": "Consult with the campus department for specific information"
+              },
+              {
+                "position": 1,
+                "content": "Placement exam required"
+              }
+            ]
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "48e56f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "ADDITIONAL MAJOR REQUIREMENTS",
+        "groupId": "79607445-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "b409fea7-2ec3-40cd-8407-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 306923,
+            "courseTitle": "Intermediate Japanese",
+            "courseNumber": "10A",
+            "prefix": "JAPAN",
+            "prefixParentId": 9570,
+            "prefixDescription": "East Asian Languages",
+            "departmentParentId": 4183,
+            "department": "East Asian Languages and Cultures",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "2d550d20-2531-4a37-8409-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 276874,
+            "courseTitle": "Elementary Japanese",
+            "courseNumber": "1A",
+            "prefix": "JAPAN",
+            "prefixParentId": 9570,
+            "prefixDescription": "East Asian Languages",
+            "departmentParentId": 4183,
+            "department": "East Asian Languages and Cultures",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "fb323268-ab35-4024-840a-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 301182,
+            "courseTitle": "Elementary Chinese",
+            "courseNumber": "1A",
+            "prefix": "CHINESE",
+            "prefixParentId": 8904,
+            "prefixDescription": "East Asian Languages",
+            "departmentParentId": 4183,
+            "department": "East Asian Languages and Cultures",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "159b13b6-f63c-41d3-840b-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 301183,
+            "courseTitle": "Elementary Japanese",
+            "courseNumber": "1B",
+            "prefix": "JAPAN",
+            "prefixParentId": 9570,
+            "prefixDescription": "East Asian Languages",
+            "departmentParentId": 4183,
+            "department": "East Asian Languages and Cultures",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "6b102081-db46-4c25-840c-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 301181,
+            "courseTitle": "Intermediate Chinese",
+            "courseNumber": "10A",
+            "prefix": "CHINESE",
+            "prefixParentId": 8904,
+            "prefixDescription": "East Asian Languages",
+            "departmentParentId": 4183,
+            "department": "East Asian Languages and Cultures",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "db78bc5d-c848-44ed-840d-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 276876,
+            "courseTitle": "Elementary Chinese",
+            "courseNumber": "1B",
+            "prefix": "CHINESE",
+            "prefixParentId": 8904,
+            "prefixDescription": "East Asian Languages",
+            "departmentParentId": 4183,
+            "department": "East Asian Languages and Cultures",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "90f367f3-ff76-46a3-840e-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 301180,
+            "courseTitle": "Intermediate Chinese",
+            "courseNumber": "10B",
+            "prefix": "CHINESE",
+            "prefixParentId": 8904,
+            "prefixDescription": "East Asian Languages",
+            "departmentParentId": 4183,
+            "department": "East Asian Languages and Cultures",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "8ad087e8-2e36-4aab-840f-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 358306,
+            "courseTitle": "Intermediate Japanese",
+            "courseNumber": "10B",
+            "prefix": "JAPAN",
+            "prefixParentId": 9570,
+            "prefixDescription": "East Asian Languages",
+            "departmentParentId": 4183,
+            "department": "East Asian Languages and Cultures",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "eb9a00b7-b1e3-4bf2-8406-08dec89fcd17",
+        "requirement": "EA LANG C50",
+        "aliases": [
+          "BUDDSTD C50"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "Choose a complete language sequence; placement and language selection cannot be inferred from a count of individual courses.",
+    "Additional group or section instructions apply. Review the source notes before choosing courses."
+  ],
+  "calculation_review_required": true,
+  "receiving_course_titles": {
+    "CHINESE 1A": "Elementary Chinese",
+    "CHINESE 1B": "Elementary Chinese",
+    "CHINESE 10A": "Intermediate Chinese",
+    "CHINESE 10B": "Intermediate Chinese",
+    "JAPAN 1A": "Elementary Japanese",
+    "JAPAN 1B": "Elementary Japanese",
+    "JAPAN 10A": "Intermediate Japanese",
+    "JAPAN 10B": "Intermediate Japanese",
+    "TIBETAN 1A": "Elementary Tibetan",
+    "TIBETAN 1B": "Elementary Tibetan",
+    "TIBETAN 10A": "Intermediate Tibetan",
+    "TIBETAN 10B": "Intermediate Tibetan",
+    "EA LANG C50": "Introduction to the Study of Buddhism"
+  }
+}

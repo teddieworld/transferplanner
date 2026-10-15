@@ -1,0 +1,415 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "East Asian Humanities, B.A. ",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: LOWER DIVISION REQUIRED COURSES\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Complete 2 Course\nTwo courses from two areas requires an explicit area-membership model.\nThe source uses area or quantity conditions across sections. Confirm which areas and courses to choose."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "BUDDSTD C50",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "CHINESE 7A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "CHINESE 7B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "JAPAN 7A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "JAPAN 7B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "KOREAN 7A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    },
+    {
+      "text": "KOREAN 7B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "East Asian Languages and Cultures"
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-09T00:38:53.839662",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "COLLEGE OF LETTERS AND SCIENCE",
+        "groupId": "3edd7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program",
+        "groupId": "40dd7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<h2 class=\"ql-align-center\"><strong>East&nbsp;Asian&nbsp;Humanities&nbsp;Major&nbsp;Articulation&nbsp;Information</strong></h2><p class=\"ql-align-center\"></p><p>The&nbsp;<strong>East&nbsp;Asian&nbsp;Humanities</strong>&nbsp;major&nbsp;is&nbsp;a&nbsp;comparative&nbsp;study&nbsp;of&nbsp;East&nbsp;Asian&nbsp;cultures.&nbsp;</p><p>The&nbsp;curriculum&nbsp;seeks&nbsp;to&nbsp;prepare&nbsp;students&nbsp;for&nbsp;cross-regional&nbsp;comparative&nbsp;work,&nbsp;emphasizing&nbsp;cultural&nbsp;and&nbsp;literary&nbsp;analysis,&nbsp;media&nbsp;studies,&nbsp;and&nbsp;interdisciplinary&nbsp;humanities.</p><p></p><p>The&nbsp;major&nbsp;offers&nbsp;a&nbsp;high&nbsp;degree&nbsp;of&nbsp;flexibility,&nbsp;allowing&nbsp;students&nbsp;to&nbsp;draw&nbsp;coursework&nbsp;from&nbsp;two&nbsp;or&nbsp;more&nbsp;national&nbsp;traditions&nbsp;in&nbsp;East&nbsp;Asia&nbsp;(China,&nbsp;Japan,&nbsp;and&nbsp;South&nbsp;Korea,&nbsp;among&nbsp;others)&nbsp;and&nbsp;covering&nbsp;both&nbsp;the&nbsp;modern&nbsp;and&nbsp;classical&nbsp;periods.&nbsp;Students&nbsp;must&nbsp;complete&nbsp;8&nbsp;courses&nbsp;(or&nbsp;40&nbsp;units),&nbsp;and&nbsp;while&nbsp;we&nbsp;recommend&nbsp;acquiring&nbsp;a&nbsp;reading&nbsp;knowledge&nbsp;of&nbsp;at&nbsp;least&nbsp;one&nbsp;foreign&nbsp;language,&nbsp;the&nbsp;major&nbsp;can&nbsp;be&nbsp;entirely&nbsp;completed&nbsp;through&nbsp;English-taught&nbsp;courses.</p><p></p><h2>Direct&nbsp;Admission&nbsp;to&nbsp;the&nbsp;Major</h2><p>When&nbsp;you&nbsp;are&nbsp;admitted&nbsp;to&nbsp;UC&nbsp;Berkeley&nbsp;for&nbsp;the&nbsp;Major&nbsp;in&nbsp;East&nbsp;Asian&nbsp;Humanities,&nbsp;you&nbsp;enter&nbsp;directly&nbsp;into&nbsp;the&nbsp;major.&nbsp;There&nbsp;is&nbsp;no&nbsp;secondary&nbsp;application&nbsp;or&nbsp;declaration&nbsp;process&nbsp;after&nbsp;you&nbsp;arrive&nbsp;on&nbsp;campus.&nbsp;</p><p>You&nbsp;are&nbsp;a&nbsp;full&nbsp;member&nbsp;of&nbsp;our&nbsp;department&nbsp;from&nbsp;day&nbsp;one.</p><p></p><p>While&nbsp;it&nbsp;is&nbsp;possible&nbsp;to&nbsp;change&nbsp;your&nbsp;major&nbsp;after&nbsp;you&nbsp;matriculate&nbsp;to&nbsp;Berkeley,&nbsp;switching&nbsp;into&nbsp;a&nbsp;high-demand&nbsp;field&nbsp;like&nbsp;Business,&nbsp;Computer&nbsp;Science,&nbsp;Economics,&nbsp;or&nbsp;Psychology&nbsp;may&nbsp;require&nbsp;you&nbsp;to&nbsp;pass&nbsp;a&nbsp;competitive&nbsp;comprehensive&nbsp;review&nbsp;process.&nbsp;Additionally,&nbsp;spending&nbsp;your&nbsp;time&nbsp;preparing&nbsp;for&nbsp;a&nbsp;different&nbsp;program&nbsp;once&nbsp;you&nbsp;arrive&nbsp;on&nbsp;campus&nbsp;will&nbsp;cause&nbsp;a&nbsp;lack&nbsp;of&nbsp;progress&nbsp;in&nbsp;your&nbsp;currently&nbsp;declared&nbsp;major,&nbsp;which&nbsp;can&nbsp;delay&nbsp;your&nbsp;graduation.&nbsp;</p><p>We&nbsp;want&nbsp;to&nbsp;ensure&nbsp;you&nbsp;choose&nbsp;the&nbsp;path&nbsp;that&nbsp;best&nbsp;supports&nbsp;your&nbsp;long-term&nbsp;goals&nbsp;and&nbsp;allows&nbsp;you&nbsp;to&nbsp;graduate&nbsp;on&nbsp;time.</p><p></p><p><strong style=\"font-size: 14px;\">Personal&nbsp;Advising&nbsp;&amp;&nbsp;Your&nbsp;Transition</strong></p><p>To&nbsp;support&nbsp;a&nbsp;smooth&nbsp;transition,&nbsp;all&nbsp;admitted&nbsp;transfer&nbsp;students&nbsp;are&nbsp;required&nbsp;to&nbsp;meet&nbsp;with&nbsp;our&nbsp;undergraduate&nbsp;advisor&nbsp;before&nbsp;enrolling&nbsp;in&nbsp;their&nbsp;first&nbsp;semester&nbsp;of&nbsp;classes.&nbsp;</p><p>This&nbsp;is&nbsp;our&nbsp;way&nbsp;of&nbsp;welcoming&nbsp;you&nbsp;and&nbsp;ensuring&nbsp;your&nbsp;academic&nbsp;plan&nbsp;matches&nbsp;your&nbsp;interests&nbsp;and&nbsp;graduation&nbsp;goals.</p><p></p><p>You&nbsp;will&nbsp;receive&nbsp;detailed&nbsp;instructions&nbsp;on&nbsp;how&nbsp;to&nbsp;schedule&nbsp;this&nbsp;meeting&nbsp;well&nbsp;before&nbsp;your&nbsp;first&nbsp;semester&nbsp;begins,&nbsp;either&nbsp;through&nbsp;the&nbsp;summer&nbsp;Golden&nbsp;Bear&nbsp;Advising&nbsp;program&nbsp;or&nbsp;via&nbsp;a&nbsp;direct&nbsp;email&nbsp;from&nbsp;our&nbsp;department.&nbsp;</p><p>We&nbsp;look&nbsp;forward&nbsp;to&nbsp;meeting&nbsp;you&nbsp;and&nbsp;helping&nbsp;you&nbsp;plan&nbsp;your&nbsp;time&nbsp;at&nbsp;Berkeley.</p><p></p><p><strong style=\"font-size: 14px;\">Advising:</strong></p><p>Students&nbsp;with&nbsp;questions&nbsp;about&nbsp;transferring&nbsp;into&nbsp;the&nbsp;major&nbsp;in&nbsp;East&nbsp;Asian&nbsp;Humanities&nbsp;are&nbsp;encouraged&nbsp;to&nbsp;contact&nbsp;our&nbsp;undergraduate&nbsp;major&nbsp;advisor(UMA):</p><p>Cassandra&nbsp;Dunn</p><p>Department&nbsp;Website:&nbsp;<a href=\"http://ealc.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://ealc.berkeley.edu/</a></p><p>Email:&nbsp;<a href=\"mailto:cassandrajj@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">cassandrajj@berkeley.edu</a></p><p>Appointments:&nbsp;<a href=\"https://calendly.com/cassandra-dunn-ug-advisor\" rel=\"noopener noreferrer\" target=\"_blank\">Schedule&nbsp;an&nbsp;appointment&nbsp;(in-person&nbsp;or&nbsp;remotely</a>).</p><p></p><h2><strong>LOWER&nbsp;DIVISION&nbsp;MAJOR&nbsp;REQUIREMENTS&nbsp;</strong></h2><p>Coursework&nbsp;for&nbsp;requirements&nbsp;can&nbsp;be&nbsp;completed&nbsp;upon&nbsp;transfer&nbsp;to&nbsp;UC&nbsp;Berkeley.&nbsp;</p><p>Students&nbsp;intending&nbsp;the&nbsp;major&nbsp;should&nbsp;enroll&nbsp;in&nbsp;at&nbsp;least&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;classes&nbsp;in&nbsp;their&nbsp;first&nbsp;semester,&nbsp;along&nbsp;with&nbsp;upper-division&nbsp;courses&nbsp;from&nbsp;the&nbsp;list&nbsp;provided&nbsp;on&nbsp;<a href=\"https://ealc.berkeley.edu/content/east-asian-humanities-major-requirements\" rel=\"noopener noreferrer\" target=\"_blank\">our&nbsp;website</a>&nbsp;or&nbsp;the&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Berkeley&nbsp;Catalog</a>.</p><p></p><ul><li>BUDDSTD/EALANG&nbsp;C&nbsp;50&nbsp;Introduction&nbsp;to&nbsp;Buddhism</li><li>Chinese&nbsp;7A&nbsp;Introduction&nbsp;to&nbsp;Modern&nbsp;Chinese&nbsp;Literature&nbsp;and&nbsp;Culture</li><li>Chinese&nbsp;7B&nbsp;Introduction&nbsp;to&nbsp;Pre-modern&nbsp;Chinese&nbsp;Literature&nbsp;and&nbsp;Culture</li><li>Japanese&nbsp;7A&nbsp;Introduction&nbsp;to&nbsp;Modern&nbsp;Japanese&nbsp;Literature&nbsp;and&nbsp;Culture</li><li>Japanese&nbsp;7B&nbsp;Introduction&nbsp;to&nbsp;Modern&nbsp;Pre-modern&nbsp;Literature&nbsp;and&nbsp;Culture</li><li>Korean&nbsp;7A&nbsp;Introduction&nbsp;to&nbsp;Modern&nbsp;Korean&nbsp;Literature&nbsp;and&nbsp;Culture</li><li>Korean&nbsp;7B&nbsp;Introduction&nbsp;to&nbsp;Pre-modern&nbsp;Chinese&nbsp;Literature&nbsp;and&nbsp;Culture</li></ul>",
+        "groupId": "41dd7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357467,
+                      "courseTitle": "Introduction to Pre-Modern Korean Literature and Culture",
+                      "courseNumber": "7A",
+                      "prefix": "KOREAN",
+                      "prefixParentId": 8604,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F2012",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ee6c4278-46ab-44ce-959c-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 299014,
+                      "courseTitle": "Introduction to Modern Korean Literature and Culture",
+                      "courseNumber": "7B",
+                      "prefix": "KOREAN",
+                      "prefixParentId": 8604,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F2012",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "de186cca-a424-4bc5-959d-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410970,
+                      "courseTitle": "Introduction to Premodern Chinese Literature and Culture",
+                      "courseNumber": "7A",
+                      "prefix": "CHINESE",
+                      "prefixParentId": 8904,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5de36f02-7300-40ad-959e-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410971,
+                      "courseTitle": "Introduction to Modern Chinese Literature and Culture",
+                      "courseNumber": "7B",
+                      "prefix": "CHINESE",
+                      "prefixParentId": 8904,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d6805911-922c-40b0-959f-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410972,
+                      "courseTitle": "Introduction to Premodern Japanese Literature and Culture",
+                      "courseNumber": "7A",
+                      "prefix": "JAPAN",
+                      "prefixParentId": 9570,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "30cfe968-d8fe-440d-95a0-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410973,
+                      "courseTitle": "Introduction to Modern Japanese Literature and Culture",
+                      "courseNumber": "7B",
+                      "prefix": "JAPAN",
+                      "prefixParentId": 9570,
+                      "prefixDescription": "East Asian Languages",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6cbb66e8-642a-409c-95a1-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 411188,
+                      "courseTitle": "Introduction to the Study of Buddhism",
+                      "courseNumber": "C50",
+                      "prefix": "BUDDSTD",
+                      "prefixParentId": 18553,
+                      "prefixDescription": "Buddhist Studies",
+                      "departmentParentId": 4183,
+                      "department": "East Asian Languages and Cultures",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 273680,
+                          "courseTitle": "Introduction to the Study of Buddhism",
+                          "courseNumber": "C50",
+                          "prefix": "EA LANG",
+                          "prefixParentId": 15751,
+                          "prefixDescription": "East Asian Languages and Cultures",
+                          "departmentParentId": 4183,
+                          "department": "East Asian Languages and Cultures",
+                          "begin": "F2024",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "cdaba50d-f65c-403a-95a2-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromArea",
+          "amount": 2.0,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "Any",
+          "toAmount": 2.0,
+          "areaType": "Areas",
+          "id": "de68a472-dd1f-42b4-7148-08dec89fcd0b",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "44dd7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION REQUIRED COURSES",
+        "groupId": "c878d2a8-9025-4c9f-8335-01a063ed39be",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "cdaba50d-f65c-403a-95a2-08dec89fcd17",
+        "requirement": "BUDDSTD C50",
+        "aliases": [
+          "EA LANG C50"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "Two courses from two areas requires an explicit area-membership model.",
+    "The source uses area or quantity conditions across sections. Confirm which areas and courses to choose."
+  ],
+  "calculation_review_required": true,
+  "receiving_course_titles": {
+    "BUDDSTD C50": "Introduction to the Study of Buddhism",
+    "CHINESE 7A": "Introduction to Premodern Chinese Literature and Culture",
+    "CHINESE 7B": "Introduction to Modern Chinese Literature and Culture",
+    "JAPAN 7A": "Introduction to Premodern Japanese Literature and Culture",
+    "JAPAN 7B": "Introduction to Modern Japanese Literature and Culture",
+    "KOREAN 7A": "Introduction to Pre-Modern Korean Literature and Culture",
+    "KOREAN 7B": "Introduction to Modern Korean Literature and Culture"
+  }
+}

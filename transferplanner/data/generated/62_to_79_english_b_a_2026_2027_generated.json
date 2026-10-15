@@ -134,5 +134,12 @@
   "review_required": true,
   "review_notes": [
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
-  ]
+  ],
+  "receiving_course_titles": {
+    "ENGLISH 17": "Shakespeare",
+    "ENGLISH 45A": "Literature in English (Through Milton)",
+    "ENGLISH 45B": "Literature in English (Late 17th through the mid-19th Century)",
+    "ENGLISH 45C": "Literature in English (Mid-19th through the 20th Century)",
+    "ENGLISH 90": "Practices of Literary Study"
+  }
 }

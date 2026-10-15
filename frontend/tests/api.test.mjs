@@ -34,6 +34,11 @@ test("live database supplies universities, majors, years, and the complete Berke
   const requirements = agreement.body.requiredGroups.flatMap(group => group.requirements);
   assert.equal(requirements.length, 4);
   const math54 = requirements.find(item => item.name === "MATH 54");
+  assert.deepEqual(requirements.find(item => item.name === "MATH 51").receivingCourses,
+    [{ code: "MATH 51", title: "Calculus I" }]);
+  assert.ok(requirements.find(item => item.name === "MATH 51").optionCourseTitles["MATH 180"]);
+  assert.deepEqual(math54.receivingCourses,
+    [{ code: "MATH 54", title: "Linear Algebra and Differential Equations" }]);
   assert.deepEqual(math54.options, [
     ["ENGR 285"], ["MATH 285"], ["MATH 260", "MATH 290"]
   ]);

@@ -1,0 +1,236 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Media Studies, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "required",
+      "required_count": 1
+    },
+    {
+      "name": "C",
+      "category": "required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "HISTORY 7B",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST C1002"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST C1002H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "POL SCI 1",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "POLS C1000H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ANTHRO 3",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ANTH 5"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ECON 1",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": "Regular and honors courses may be combined to complete this series",
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ECON C2002",
+            "ECON C2001"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ECON C2002H",
+            "ECON C2001H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "PSYCH 1",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PSYC C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "PSYC C1000H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "SOCIOL 1",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SOC 1"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "SOCIOL 3AC",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "MEDIAST 10",
+      "group": "C",
+      "category": "required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": []
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-09T00:13:23.0643932",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "5be56f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "PROGRAM",
+        "groupId": "58e56f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The&nbsp;<strong>Media&nbsp;Studies</strong>&nbsp;major&nbsp;integrates&nbsp;perspectives&nbsp;from&nbsp;liberal&nbsp;arts,&nbsp;social&nbsp;sciences,&nbsp;and&nbsp;humanities&nbsp;and&nbsp;offers&nbsp;an&nbsp;interdisciplinary&nbsp;framework&nbsp;to&nbsp;understand&nbsp;the&nbsp;essential&nbsp;role&nbsp;that&nbsp;media&nbsp;plays&nbsp;in&nbsp;economic,&nbsp;social,&nbsp;political,&nbsp;and&nbsp;cultural&nbsp;life.&nbsp;It&nbsp;weds&nbsp;traditions&nbsp;from&nbsp;communication,&nbsp;history,&nbsp;anthropology,&nbsp;sociology,&nbsp;political&nbsp;science,&nbsp;and&nbsp;more&nbsp;with&nbsp;critical&nbsp;theories&nbsp;and&nbsp;cultural&nbsp;studies&nbsp;to&nbsp;analyze&nbsp;the&nbsp;role&nbsp;and&nbsp;meaning&nbsp;of&nbsp;media&nbsp;in&nbsp;our&nbsp;societies.&nbsp;Our&nbsp;emphasis&nbsp;in&nbsp;this&nbsp;major&nbsp;is&nbsp;historical&nbsp;and&nbsp;theoretical,&nbsp;examining&nbsp;media&nbsp;systems,&nbsp;institutions,&nbsp;technologies,&nbsp;policies,&nbsp;and&nbsp;practices.&nbsp;We&nbsp;offer&nbsp;students&nbsp;the&nbsp;analytical&nbsp;tools&nbsp;available&nbsp;to&nbsp;investigate&nbsp;media—old&nbsp;and&nbsp;new,&nbsp;local&nbsp;and&nbsp;global—across&nbsp;the&nbsp;diverse&nbsp;media&nbsp;landscape.&nbsp;The&nbsp;Media&nbsp;Studies&nbsp;major&nbsp;offers&nbsp;three&nbsp;areas&nbsp;of&nbsp;concentration:&nbsp;Digital&nbsp;Studies,&nbsp;Global&nbsp;Cultural&nbsp;Studies,&nbsp;or&nbsp;Media&nbsp;Law&nbsp;and&nbsp;Policy.</p><p></p><p><strong style=\"font-size: 14px;\">Admission&nbsp;for&nbsp;this&nbsp;Major:&nbsp;</strong></p><p>Transfer&nbsp;students&nbsp;who&nbsp;select&nbsp;this&nbsp;major&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application&nbsp;and&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;this&nbsp;major.&nbsp;If&nbsp;you&nbsp;are&nbsp;interested&nbsp;in&nbsp;this&nbsp;major,&nbsp;it&nbsp;is&nbsp;very&nbsp;important&nbsp;to&nbsp;select&nbsp;this&nbsp;major&nbsp;on&nbsp;your&nbsp;application,&nbsp;and&nbsp;complete&nbsp;as&nbsp;many&nbsp;lower-division&nbsp;major&nbsp;requirements&nbsp;as&nbsp;possible&nbsp;prior&nbsp;to&nbsp;transfer.&nbsp;See&nbsp;details&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p>Media&nbsp;Studies&nbsp;10&nbsp;must&nbsp;be&nbsp;completed&nbsp;at&nbsp;UC&nbsp;Berkeley.&nbsp;Any&nbsp;Media&nbsp;Studies&nbsp;10&nbsp;transfer&nbsp;course&nbsp;equivalents&nbsp;completed&nbsp;after&nbsp;summer&nbsp;2020&nbsp;will&nbsp;not&nbsp;satisfy&nbsp;the&nbsp;Media&nbsp;Studies&nbsp;10&nbsp;requirement.&nbsp;Media&nbsp;Studies&nbsp;10&nbsp;is&nbsp;often&nbsp;offered&nbsp;in&nbsp;the&nbsp;summer&nbsp;at&nbsp;UC&nbsp;Berkeley.&nbsp;Summer&nbsp;courses&nbsp;are&nbsp;open&nbsp;to&nbsp;students&nbsp;from&nbsp;other&nbsp;schools.&nbsp;Transfer&nbsp;students&nbsp;are&nbsp;not&nbsp;expected&nbsp;to&nbsp;take&nbsp;Media&nbsp;Studies&nbsp;10&nbsp;before&nbsp;applying&nbsp;to&nbsp;UC&nbsp;Berkeley.</p><p></p><p>All&nbsp;courses&nbsp;for&nbsp;the&nbsp;major,&nbsp;including&nbsp;prerequisites,&nbsp;must&nbsp;be&nbsp;taken&nbsp;for&nbsp;a&nbsp;letter&nbsp;grade.</p><p></p><p>For&nbsp;more&nbsp;information&nbsp;about&nbsp;the&nbsp;Media&nbsp;Studies&nbsp;major,&nbsp;visit&nbsp;the&nbsp;<a href=\"https://mediastudies.ugis.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">Media&nbsp;Studies&nbsp;website</a>.&nbsp;We&nbsp;encourage&nbsp;students&nbsp;to&nbsp;read&nbsp;it&nbsp;in&nbsp;its&nbsp;entirety.&nbsp;</p><p></p><p>For&nbsp;more&nbsp;information:</p><p><a href=\"https://mediastudies.ugis.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://mediastudies.ugis.berkeley.edu/</a></p><p></p><p>Laura&nbsp;Demir,&nbsp;Student&nbsp;Academic&nbsp;Advisor</p><p><a href=\"mailto:mediastudies_advising@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">mediastudies_advising@berkeley.edu</a></p><p></p><p>Chelsea&nbsp;Prieto,&nbsp;Student&nbsp;Academic&nbsp;Advisor</p><p><a href=\"mailto:mediastudies_advising@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">mediastudies_advising@berkeley.edu</a></p><p></p><p>Josh&nbsp;Jackson,&nbsp;Assistant&nbsp;Director&nbsp;and&nbsp;Faculty&nbsp;Advisor</p><p><a href=\"mailto:joshjackson@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">joshjackson@berkeley.edu</a></p>",
+        "groupId": "5ce56f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "exam credit",
+        "groupId": "55e56f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Exam&nbsp;(i.e.&nbsp;AP/IB)&nbsp;credit&nbsp;cannot&nbsp;be&nbsp;used&nbsp;to&nbsp;satisfy&nbsp;any&nbsp;major&nbsp;requirements.&nbsp;Students&nbsp;must&nbsp;take&nbsp;courses&nbsp;to&nbsp;satisfy&nbsp;major&nbsp;requirements.</p>",
+        "groupId": "56e56f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "General"
+      }
+    ],
+    "receiving_course_attributes": [
+      {
+        "template_cell_id": "37cb8405-e67b-4c86-841e-08dec89fcd17",
+        "course": "MEDIAST 10",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "Course(s) must be taken at university"
+          }
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+  ],
+  "receiving_course_titles": {
+    "HISTORY 7B": "The United States from Civil War to Present",
+    "POL SCI 1": "Introduction to American Politics",
+    "ANTHRO 3": "Introduction to Social and Cultural Anthropology",
+    "ECON 1": "Introduction to Economics",
+    "PSYCH 1": "General Psychology",
+    "SOCIOL 1": "Introduction to Sociology",
+    "SOCIOL 3AC": "Principles of Sociology",
+    "MEDIAST 10": "Introduction to Media Studies"
+  }
+}

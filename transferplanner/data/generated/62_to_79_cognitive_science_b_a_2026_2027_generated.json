@@ -1,0 +1,356 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Cognitive Science, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "required",
+      "required_count": 1
+    },
+    {
+      "name": "B",
+      "category": "required",
+      "required_count": 1
+    },
+    {
+      "name": "C",
+      "category": "required",
+      "required_count": 1
+    },
+    {
+      "name": "A",
+      "category": "highly_recommended",
+      "required_count": null,
+      "note": "Please refer to additional important General Information section above"
+    },
+    {
+      "name": "B",
+      "category": "highly_recommended",
+      "required_count": 1,
+      "note": "Please refer to additional important General Information section above"
+    },
+    {
+      "name": "C",
+      "category": "highly_recommended",
+      "required_count": 1,
+      "note": "Please refer to additional important General Information section above"
+    },
+    {
+      "name": "D",
+      "category": "highly_recommended",
+      "required_count": 1,
+      "note": "Please refer to additional important General Information section above"
+    }
+  ],
+  "requirements": [
+    {
+      "text": "MATH 51",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 180"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 16A",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 180"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "DATA C8",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "STAT 2",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "STAT C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "STAT C1000H"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "PSYC 10"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "STAT 20",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": []
+    },
+    {
+      "text": "PSYCH C61",
+      "group": "C",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PSYC 1B"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "PSYC 1BH"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "PSYCH C64",
+      "group": "C",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "MATH 55",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "CSCI 190"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ENGIN 7",
+      "group": "B",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 7"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "COMPSCI 61A",
+      "group": "B",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "DATA C88C",
+      "group": "B",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": []
+    },
+    {
+      "text": "COG SCI 1",
+      "group": "C",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "COG SCI 1B",
+      "group": "C",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "COG SCI N1",
+      "group": "C",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "PHILOS 3",
+      "group": "D",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "PHILOS 12A",
+      "group": "D",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "PHILOS 25A",
+      "group": "D",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "PHILOS 25B",
+      "group": "D",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "AGRS 36",
+      "group": "D",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-09T00:28:45.8762756",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "2ee86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "important major information",
+        "groupId": "31e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><span style=\"font-size: 14px;\">Transfer&nbsp;students&nbsp;who&nbsp;select&nbsp;this&nbsp;major&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application&nbsp;and&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;this&nbsp;major.</span></p><p><span style=\"font-size: 14px;\">If&nbsp;you&nbsp;are&nbsp;interested&nbsp;in&nbsp;this&nbsp;major,&nbsp;it&nbsp;is&nbsp;very&nbsp;important&nbsp;to&nbsp;select&nbsp;this&nbsp;major&nbsp;on&nbsp;your&nbsp;application,&nbsp;and&nbsp;complete&nbsp;as&nbsp;</span><strong style=\"font-size: 14px;\">many&nbsp;lower-division&nbsp;major&nbsp;requirements&nbsp;as&nbsp;possible</strong><span style=\"font-size: 14px;\">&nbsp;prior&nbsp;to&nbsp;transfer.&nbsp;</span></p><p><span style=\"font-size: 14px;\">See&nbsp;details&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</span></p><p></p><p><strong style=\"font-size: 16px;\">REQUIRED&nbsp;COURSES</strong></p><p></p><p><span style=\"font-size: 14px;\">These&nbsp;foundational&nbsp;prerequisites&nbsp;are&nbsp;widely&nbsp;articulated&nbsp;across&nbsp;the&nbsp;CCC&nbsp;system&nbsp;and&nbsp;must&nbsp;be&nbsp;completed&nbsp;before&nbsp;transfer:</span></p><p></p><ul><li><strong style=\"font-size: 14px;\">Calculus:</strong><span style=\"font-size: 14px;\">&nbsp;Complete&nbsp;standard&nbsp;single-variable&nbsp;calculus&nbsp;(articulated&nbsp;&nbsp;to&nbsp;</span><strong style=\"font-size: 14px;\">MATH&nbsp;1A/51</strong><span style=\"font-size: 14px;\">&nbsp;or&nbsp;</span><strong style=\"font-size: 14px;\">MATH&nbsp;16A&nbsp;or&nbsp;a&nbsp;score&nbsp;of&nbsp;3&nbsp;or&nbsp;higher&nbsp;in&nbsp;AP&nbsp;Calculus&nbsp;AB&nbsp;or&nbsp;BC</strong><span style=\"font-size: 14px;\">)</span></li><li><strong style=\"font-size: 14px;\">Statistics&nbsp;or&nbsp;Data&nbsp;Science:</strong><span style=\"font-size: 14px;\">&nbsp;Complete&nbsp;standard&nbsp;</span><strong style=\"font-size: 14px;\">Introductory&nbsp;Statistics</strong><span style=\"font-size: 14px;\">&nbsp;(articulated&nbsp;&nbsp;to&nbsp;</span><strong style=\"font-size: 14px;\">STAT&nbsp;&nbsp;2</strong><span style=\"font-size: 14px;\">&nbsp;or&nbsp;</span><strong style=\"font-size: 14px;\">STAT&nbsp;&nbsp;20&nbsp;or&nbsp;DATA&nbsp;C8&nbsp;or&nbsp;a&nbsp;score&nbsp;of&nbsp;3&nbsp;or&nbsp;higher&nbsp;in&nbsp;AP&nbsp;Statistics</strong><span style=\"font-size: 14px;\">)</span></li><li><strong style=\"font-size: 14px;\">Neuro&nbsp;/&nbsp;Biological&nbsp;Science&nbsp;(1&nbsp;Course):</strong><span style=\"font-size: 14px;\">&nbsp;Complete&nbsp;an&nbsp;</span><strong style=\"font-size: 14px;\">Introductory&nbsp;Biopsychology&nbsp;/&nbsp;Behavioral&nbsp;Neuroscience&nbsp;(articulated&nbsp;to</strong><span style=\"font-size: 14px;\">&nbsp;</span><strong style=\"font-size: 14px;\">PSYCH&nbsp;C61&nbsp;or&nbsp;PSYCH&nbsp;C64&nbsp;or&nbsp;NEU&nbsp;61</strong><span style=\"font-size: 14px;\">)</span></li></ul><p></p><p></p><p><strong style=\"font-size: 16px;\">STRONGLY&nbsp;RECOMMENDED&nbsp;COURSES&nbsp;</strong></p><p></p><p><span style=\"font-size: 14px;\">If&nbsp;the&nbsp;following&nbsp;courses&nbsp;are&nbsp;available&nbsp;at&nbsp;your&nbsp;college,&nbsp;it&nbsp;is&nbsp;highly&nbsp;advisable&nbsp;to&nbsp;complete&nbsp;them.&nbsp;If&nbsp;the&nbsp;courses&nbsp;are&nbsp;not&nbsp;available&nbsp;at&nbsp;your&nbsp;college,&nbsp;transfer&nbsp;students&nbsp;will&nbsp;complete&nbsp;these&nbsp;courses&nbsp;during&nbsp;their&nbsp;first&nbsp;year&nbsp;at&nbsp;UC&nbsp;Berkeley:</span></p><p></p><ul><li><strong style=\"font-size: 14px;\">Discrete&nbsp;Math:</strong><span style=\"font-size: 14px;\">&nbsp;Complete&nbsp;a&nbsp;</span><strong style=\"font-size: 14px;\">Discrete&nbsp;Mathematics</strong><span style=\"font-size: 14px;\">&nbsp;course&nbsp;(articulated&nbsp;to&nbsp;&nbsp;</span><strong style=\"font-size: 14px;\">MATH&nbsp;&nbsp;55</strong><span style=\"font-size: 14px;\">)</span></li><li><strong style=\"font-size: 14px;\">Computer&nbsp;Programming:</strong><span style=\"font-size: 14px;\">&nbsp;</span><strong style=\"font-size: 14px;\">ENGIN&nbsp;7&nbsp;</strong><span style=\"font-size: 14px;\">or</span><strong style=\"font-size: 14px;\">&nbsp;CS&nbsp;61A</strong><span style=\"font-size: 14px;\">&nbsp;or&nbsp;</span><strong style=\"font-size: 14px;\">DATA&nbsp;C88C&nbsp;/&nbsp;CS&nbsp;C88C</strong></li><li><strong style=\"font-size: 14px;\">Introductory&nbsp;Cognitive&nbsp;Science:</strong><span style=\"font-size: 14px;\">&nbsp;</span><strong style=\"font-size: 14px;\">COGSCI&nbsp;1&nbsp;/&nbsp;1B&nbsp;/&nbsp;N1</strong><span style=\"font-size: 14px;\">&nbsp;</span></li><li><strong style=\"font-size: 14px;\">Philosophy&nbsp;Domain&nbsp;(1&nbsp;Course):</strong><span style=\"font-size: 14px;\">&nbsp;Complete&nbsp;a&nbsp;lower-division&nbsp;Philosophy&nbsp;course,&nbsp;the&nbsp;most&nbsp;commonly&nbsp;available&nbsp;across&nbsp;the&nbsp;CCs&nbsp;are:&nbsp;</span><strong style=\"font-size: 14px;\">Intro&nbsp;to&nbsp;Logic</strong><span style=\"font-size: 14px;\">&nbsp;(articulated&nbsp;to&nbsp;</span><strong style=\"font-size: 14px;\">&nbsp;PHILOS&nbsp;12A</strong><span style=\"font-size: 14px;\">)&nbsp;or&nbsp;</span><strong style=\"font-size: 14px;\">Ancient/Modern&nbsp;Philosophy</strong><span style=\"font-size: 14px;\">&nbsp;(articulated&nbsp;to&nbsp;</span><strong style=\"font-size: 14px;\">&nbsp;PHILOS&nbsp;25A/25B</strong><span style=\"font-size: 14px;\">).</span></li></ul><p></p><p><span style=\"font-size: 14px;\">A&nbsp;full&nbsp;list&nbsp;of&nbsp;requirements&nbsp;for&nbsp;the&nbsp;major&nbsp;can&nbsp;be&nbsp;found&nbsp;on&nbsp;our&nbsp;</span><u style=\"font-size: 14px;\"><a href=\"https://cogsci.berkeley.edu/undergraduate-program/major-program/degree-requirements\" rel=\"noopener noreferrer\" target=\"_blank\">website</a></u><span style=\"font-size: 14px;\">.&nbsp;</span></p><p></p><p><strong style=\"font-size: 14px;\">For&nbsp;more&nbsp;information:&nbsp;</strong></p><p><span style=\"font-size: 14px;\">MacKenzie&nbsp;Moore</span></p><p><span style=\"font-size: 14px;\">Cognitive&nbsp;Science</span></p><p><span style=\"font-size: 14px;\">140&nbsp;Stephens&nbsp;Hall</span></p><p><a href=\"mailto:mackenziemoore@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">mackenziemoore@berkeley.edu</a></p><p><a href=\"https://cogsci.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">cogsci.berkeley.edu</a></p>",
+        "groupId": "30e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "2bd66b57-e19e-4b0d-928e-08dec89fcd17",
+        "requirement": "DATA C8",
+        "aliases": [
+          "STAT C8",
+          "INFO C8",
+          "COMPSCI C8"
+        ]
+      },
+      {
+        "template_cell_id": "25154357-f57b-41b6-baac-08df07ed5caf",
+        "requirement": "PSYCH C61",
+        "aliases": [
+          "NEU C61"
+        ]
+      },
+      {
+        "template_cell_id": "b29afea2-e0b2-498a-baad-08df07ed5caf",
+        "requirement": "PSYCH C64",
+        "aliases": [
+          "NEU C64"
+        ]
+      },
+      {
+        "template_cell_id": "8b4b14f9-bcb2-4735-baab-08df07ed5caf",
+        "requirement": "DATA C88C",
+        "aliases": [
+          "COMPSCI C88C"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+  ],
+  "receiving_course_titles": {
+    "MATH 51": "Calculus I",
+    "MATH 16A": "Analytic Geometry and Calculus",
+    "DATA C8": "Foundations of Data Science",
+    "STAT 2": "Introduction to Statistics",
+    "STAT 20": "Introduction to Probability and Statistics",
+    "PSYCH C61": "Brain, Mind, and Behavior",
+    "PSYCH C64": "Exploring the Brain: Introduction to Neuroscience",
+    "MATH 55": "Discrete Mathematics",
+    "ENGIN 7": "Introduction to Computer Programming and Numerical Methods",
+    "COMPSCI 61A": "The Structure and Interpretation of Computer Programs",
+    "DATA C88C": "Computational Structures in Data Science",
+    "COG SCI 1": "Introduction to Cognitive Science",
+    "COG SCI 1B": "Introduction to Cognitive Science",
+    "COG SCI N1": "Introduction to Cognitive Science",
+    "PHILOS 3": "The Nature of Mind",
+    "PHILOS 12A": "Introduction to Logic",
+    "PHILOS 25A": "Ancient Philosophy",
+    "PHILOS 25B": "Modern Philosophy",
+    "AGRS 36": "Greek Philosophy"
+  }
+}

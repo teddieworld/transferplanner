@@ -172,5 +172,13 @@
   "review_notes": [
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
     "Review preserved receiving-course attributes; they are not interpreted as completion rules."
-  ]
+  ],
+  "receiving_course_titles": {
+    "MATH 51": "Calculus I",
+    "MATH 52": "Calculus II",
+    "MATH 53": "Multivariable Calculus",
+    "MATH 54": "Linear Algebra and Differential Equations",
+    "MATH 56": "Linear Algebra",
+    "MATH 55": "Discrete Mathematics"
+  }
 }

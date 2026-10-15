@@ -99,5 +99,10 @@
   "review_required": true,
   "review_notes": [
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
-  ]
+  ],
+  "receiving_course_titles": {
+    "ANTHRO 1": "Introduction to Biological Anthropology",
+    "ANTHRO 2": "Introduction to Archaeology",
+    "ANTHRO 3": "Introduction to Social and Cultural Anthropology"
+  }
 }

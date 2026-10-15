@@ -24,15 +24,15 @@ export default function AcademicYearSelector({
   const availableYears = data ?? [];
 
   return (
-    <div>
-      <label htmlFor="academic-year">Select an academic year</label>
+    <div className="form-field">
+      <label htmlFor="academic-year">Agreement year</label>
       <select
         id="academic-year"
         value={selectedAcademicYear}
         onChange={event => onAcademicYearChange(event.target.value)}
         disabled={isLoading || error !== null || availableYears.length === 0}
       >
-        <option value="">{isLoading ? "Loading academic years..." : "Select an academic year"}</option>
+        <option value="">{isLoading ? "Loading years..." : selectedMajor ? "Choose a year" : "Choose a major first"}</option>
         {availableYears.map(year => (
           <option key={year} value={year}>{year}</option>
         ))}

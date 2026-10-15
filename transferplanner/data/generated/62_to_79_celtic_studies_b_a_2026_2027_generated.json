@@ -111,5 +111,12 @@
   "review_required": true,
   "review_notes": [
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
-  ]
+  ],
+  "receiving_course_titles": {
+    "CELTIC 15": "Elementary Modern Irish",
+    "CELTIC 85": "Intermediate Modern Irish",
+    "CELTIC 16": "Introduction to Modern Welsh",
+    "CELTIC 86": "Intermediate Modern Welsh",
+    "CELTIC 70": "The World of the Celts"
+  }
 }

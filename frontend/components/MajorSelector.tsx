@@ -27,9 +27,9 @@ export default function MajorSelector({
     //value = ___ sets the value that is actually shown in React/UI
     //onChange sends the value back to the react state so it is changed in the code
     return(
-        <div>
+        <div className="form-field">
             <label htmlFor="major">
-                Select a major
+                Intended major
             </label>
             <select 
             value = {selectedMajor}
@@ -38,7 +38,7 @@ export default function MajorSelector({
             id="major"
             >
                 <option value="">
-                    {isLoading ? "Loading majors..." : "Select a major"}
+                    {isLoading ? "Loading majors..." : selectedUniversity ? "Choose a major" : "Choose a university first"}
                 </option>
                 { availableMajors.map(major => (
                 <option 

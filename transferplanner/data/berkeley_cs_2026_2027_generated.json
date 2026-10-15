@@ -221,5 +221,15 @@
   "review_notes": [
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
     "Review preserved receiving-course attributes; they are not interpreted as completion rules."
-  ]
+  ],
+  "receiving_course_titles": {
+    "MATH 51": "Calculus I",
+    "MATH 52": "Calculus II",
+    "MATH 54": "Linear Algebra and Differential Equations",
+    "MATH 56": "Linear Algebra",
+    "COMPSCI 61A": "The Structure and Interpretation of Computer Programs",
+    "COMPSCI 61B": "Data Structures",
+    "COMPSCI 61C": "Machine Structures",
+    "COMPSCI 70": "Discrete Mathematics and Probability Theory"
+  }
 }

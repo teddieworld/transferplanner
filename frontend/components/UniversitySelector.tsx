@@ -23,9 +23,9 @@ export default function UniversitySelector({
     //value = ___ sets the value that is actually shown in React/UI
     //onChange sends the value back to the react state so it is changed in the code
     return(
-        <div>
+        <div className="form-field">
             <label htmlFor="university">
-                Select a University
+                Transfer university
             </label>
             <select 
             value = {selectedUniversity}
@@ -34,7 +34,7 @@ export default function UniversitySelector({
             disabled = {isLoading || error !== null}
             >
                 <option value="">
-                    {isLoading ? "Loading universities..." : "Select a University"}
+                    {isLoading ? "Loading universities..." : "Choose a university"}
                 </option>
             {universities.map(university => (
             <option key={university.id} value={university.name}>

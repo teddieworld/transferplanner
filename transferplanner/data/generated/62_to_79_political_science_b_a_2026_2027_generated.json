@@ -1,0 +1,2071 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Political Science, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "required",
+      "required_count": 2
+    },
+    {
+      "name": "A",
+      "category": "highly_recommended",
+      "required_count": 1
+    },
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "POL SCI 1",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "POLS C1000H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "POL SCI 2",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS 2"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "POL SCI 4",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS 5"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "POLS 7"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "POL SCI 5",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS 9"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "HISTORY 4A",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 3"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST 3H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "HISTORY 4B",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 3"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST 3H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "HISTORY 5",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 4"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "HISTORY 6A",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 10"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST 10H"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "HIST 11"
+          ]
+        },
+        {
+          "option_number": 4,
+          "courses": [
+            "HIST 11H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "HISTORY 7A",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST C1001"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST C1001H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "HISTORY 7B",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST C1002"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST C1002H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "HISTORY 8A",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "HISTORY 8B",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "HISTORY 10",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 35"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "HISTORY 11",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "HISTORY 12",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "HISTORY 14",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 10"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST 10H"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "HIST 11"
+          ]
+        },
+        {
+          "option_number": 4,
+          "courses": [
+            "HIST 11H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "(POL SCI 3) OR (DATA C8 AND POL SCI 88)",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "POL SCI 3: This course must be taken at the university after transfer\nPOL SCI 88: This course must be taken at the university after transfer",
+      "options": []
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-09T00:01:17.6632395",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "f8e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "f9e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Transfer&nbsp;students&nbsp;who&nbsp;select&nbsp;this&nbsp;major&nbsp;on&nbsp;their&nbsp;application&nbsp;and&nbsp;are&nbsp;offered&nbsp;admission&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;this&nbsp;major.&nbsp;If&nbsp;you&nbsp;are&nbsp;interested&nbsp;in&nbsp;this&nbsp;major,&nbsp;it&nbsp;is&nbsp;crucial&nbsp;to&nbsp;select&nbsp;this&nbsp;major&nbsp;on&nbsp;your&nbsp;application,&nbsp;and&nbsp;<strong>complete&nbsp;the&nbsp;required&nbsp;courses</strong>&nbsp;prior&nbsp;to&nbsp;transfer.&nbsp;See&nbsp;details&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.&nbsp;</p><p></p><p>Students&nbsp;must&nbsp;complete&nbsp;any&nbsp;two&nbsp;of&nbsp;the&nbsp;lower-division&nbsp;political&nbsp;science&nbsp;courses&nbsp;from&nbsp;American&nbsp;Politics,&nbsp;Comparative&nbsp;Politics,&nbsp;Political&nbsp;Theory,&nbsp;International&nbsp;Relations,&nbsp;listed&nbsp;below&nbsp;to&nbsp;be&nbsp;admitted&nbsp;to&nbsp;the&nbsp;major.&nbsp;</p><p>One&nbsp;of&nbsp;the&nbsp;courses&nbsp;should&nbsp;be&nbsp;in&nbsp;the&nbsp;students'&nbsp;intended&nbsp;subfield&nbsp;of&nbsp;specialization.&nbsp;<strong>The&nbsp;“Additional&nbsp;Political&nbsp;Science&nbsp;Requirement”&nbsp;(e.g.,&nbsp;PS3&nbsp;“Methods”)&nbsp;&nbsp;and&nbsp;“Strongly&nbsp;Recommended&nbsp;Course”&nbsp;requirements&nbsp;do&nbsp;not&nbsp;have&nbsp;to&nbsp;be&nbsp;completed&nbsp;before&nbsp;transferring&nbsp;and&nbsp;are&nbsp;not&nbsp;needed&nbsp;to&nbsp;be&nbsp;eligible&nbsp;to&nbsp;declare&nbsp;the&nbsp;major.&nbsp;</strong>All&nbsp;courses&nbsp;must&nbsp;be&nbsp;taken&nbsp;for&nbsp;a&nbsp;letter&nbsp;grade.&nbsp;</p><p></p><p>Attention:&nbsp;While&nbsp;PS&nbsp;3&nbsp;(an&nbsp;additional&nbsp;requirement&nbsp;to&nbsp;complete&nbsp;the&nbsp;major&nbsp;but&nbsp;not&nbsp;a&nbsp;prerequisite&nbsp;to&nbsp;declare&nbsp;the&nbsp;major)&nbsp;can&nbsp;only&nbsp;be&nbsp;completed&nbsp;at&nbsp;Berkeley,&nbsp;an&nbsp;alternative&nbsp;but&nbsp;more&nbsp;rigorous&nbsp;two&nbsp;course&nbsp;substitute&nbsp;option&nbsp;is&nbsp;Data&nbsp;C8&nbsp;“Foundations&nbsp;of&nbsp;Data&nbsp;Science”&nbsp;plus&nbsp;a&nbsp;2-unit&nbsp;connector&nbsp;course,&nbsp;Poli&nbsp;Sci&nbsp;88.&nbsp;&nbsp;</p><p></p><p>Data&nbsp;C8&nbsp;can&nbsp;be&nbsp;completed&nbsp;at&nbsp;the&nbsp;community&nbsp;college&nbsp;if&nbsp;an&nbsp;approved&nbsp;equivalent&nbsp;of&nbsp;Data&nbsp;C8&nbsp;is&nbsp;listed&nbsp;below.&nbsp;&nbsp;Students&nbsp;who&nbsp;pursue&nbsp;this&nbsp;two-course&nbsp;option&nbsp;can&nbsp;take&nbsp;Data&nbsp;C8&nbsp;at&nbsp;the&nbsp;community&nbsp;college&nbsp;and&nbsp;must&nbsp;later&nbsp;complete&nbsp;the&nbsp;2-unit&nbsp;connector&nbsp;course,&nbsp;PS88,&nbsp;after&nbsp;transferring&nbsp;to&nbsp;Berkeley.&nbsp;</p><p></p><p><strong>AP&nbsp;TEST&nbsp;CREDIT</strong></p><p>AP&nbsp;credit&nbsp;cannot&nbsp;be&nbsp;used&nbsp;to&nbsp;satisfy&nbsp;any&nbsp;major&nbsp;requirements.</p><p></p><p>More&nbsp;information&nbsp;about&nbsp;the&nbsp;Political&nbsp;Science&nbsp;major&nbsp;can&nbsp;be&nbsp;found&nbsp;by&nbsp;clicking&nbsp;on&nbsp;\"Undergraduate&nbsp;Program\"&nbsp;at&nbsp;<a href=\"http://www.polisci.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://www.polisci.berkeley.edu</a>.</p><p></p><p>Upper-division&nbsp;political&nbsp;science&nbsp;courses&nbsp;are&nbsp;impacted,&nbsp;and&nbsp;restricted&nbsp;to&nbsp;declared&nbsp;majors.&nbsp;Declaring&nbsp;the&nbsp;major&nbsp;as&nbsp;early&nbsp;as&nbsp;possible&nbsp;will&nbsp;better&nbsp;ensure&nbsp;that&nbsp;students&nbsp;can&nbsp;graduate&nbsp;on&nbsp;time.</p><p></p><p><strong>Note:</strong>&nbsp;The&nbsp;Department&nbsp;of&nbsp;Political&nbsp;Science&nbsp;is&nbsp;not&nbsp;involved&nbsp;in&nbsp;the&nbsp;undergraduate&nbsp;admissions&nbsp;process.&nbsp;</p><p>Students&nbsp;should&nbsp;review&nbsp;information&nbsp;on&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;Admissions&nbsp;website&nbsp;in&nbsp;order&nbsp;to&nbsp;determine&nbsp;how&nbsp;to&nbsp;become&nbsp;competitively&nbsp;eligible&nbsp;and&nbsp;contact&nbsp;them&nbsp;with&nbsp;any&nbsp;admissions-related&nbsp;questions.&nbsp;</p><p><a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">http://admissions.berkeley.edu</a></p>",
+        "groupId": "f6e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "reviewed_template_transformations": [
+      {
+        "rule": "or_group",
+        "original_group": {
+          "type": "RequirementGroup",
+          "hideSectionLetters": false,
+          "sections": [
+            {
+              "type": "Section",
+              "rows": [
+                {
+                  "position": 0,
+                  "cells": [
+                    {
+                      "type": "Course",
+                      "course": {
+                        "courseIdentifierParentId": 281518,
+                        "courseTitle": "Introduction to Empirical Analysis and Quantitative Methods",
+                        "courseNumber": "3",
+                        "prefix": "POL SCI",
+                        "prefixParentId": 1971,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 10995,
+                        "department": "Political Science",
+                        "begin": "F1990",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      },
+                      "visibleCrossListedCourses": [],
+                      "requisites": [],
+                      "courseAttributes": [
+                        {
+                          "position": 0,
+                          "content": "Course(s) must be taken at university"
+                        }
+                      ],
+                      "id": "64f71ec9-454d-4de4-8bfc-08dec89fcd17",
+                      "position": 0,
+                      "attributes": []
+                    }
+                  ],
+                  "attributes": []
+                }
+              ],
+              "advisements": [],
+              "position": 0,
+              "attributes": []
+            },
+            {
+              "type": "Section",
+              "rows": [
+                {
+                  "position": 0,
+                  "cells": [
+                    {
+                      "type": "Course",
+                      "course": {
+                        "courseIdentifierParentId": 378343,
+                        "courseTitle": "Foundations of Data Science",
+                        "courseNumber": "C8",
+                        "prefix": "DATA",
+                        "prefixParentId": 16874,
+                        "prefixDescription": "Data Science, Undergraduate",
+                        "departmentParentId": 13979,
+                        "department": "Data Science Undergraduate Studies ",
+                        "begin": "F2020",
+                        "end": "",
+                        "minUnits": 4.0,
+                        "maxUnits": 4.0,
+                        "pathways": []
+                      },
+                      "visibleCrossListedCourses": [
+                        {
+                          "course": {
+                            "courseIdentifierParentId": 367470,
+                            "courseTitle": "Foundations of Data Science",
+                            "courseNumber": "C8",
+                            "prefix": "INFO",
+                            "prefixParentId": 16301,
+                            "prefixDescription": "Information",
+                            "departmentParentId": 13486,
+                            "department": "Information",
+                            "begin": "F2020",
+                            "end": "",
+                            "minUnits": 4.0,
+                            "maxUnits": 4.0,
+                            "pathways": []
+                          }
+                        },
+                        {
+                          "course": {
+                            "courseIdentifierParentId": 367471,
+                            "courseTitle": "Foundations of Data Science",
+                            "courseNumber": "C8",
+                            "prefix": "COMPSCI",
+                            "prefixParentId": 520,
+                            "prefixDescription": "Computer Science",
+                            "departmentParentId": 3212,
+                            "department": "Computer Science",
+                            "begin": "F2020",
+                            "end": "",
+                            "minUnits": 4.0,
+                            "maxUnits": 4.0,
+                            "pathways": []
+                          }
+                        },
+                        {
+                          "course": {
+                            "courseIdentifierParentId": 300361,
+                            "courseTitle": "Foundations of Data Science",
+                            "courseNumber": "C8",
+                            "prefix": "STAT",
+                            "prefixParentId": 3366,
+                            "prefixDescription": "Statistics",
+                            "departmentParentId": 12545,
+                            "department": "Statistics",
+                            "begin": "F2020",
+                            "end": "",
+                            "minUnits": 4.0,
+                            "maxUnits": 4.0,
+                            "pathways": []
+                          }
+                        }
+                      ],
+                      "requisites": [],
+                      "courseAttributes": [],
+                      "id": "1d01f52d-6bd5-4a86-8bfd-08dec89fcd17",
+                      "position": 0,
+                      "attributes": []
+                    }
+                  ],
+                  "attributes": []
+                },
+                {
+                  "position": 1,
+                  "cells": [
+                    {
+                      "type": "Course",
+                      "course": {
+                        "courseIdentifierParentId": 384205,
+                        "courseTitle": "The Scientific Study of Politics",
+                        "courseNumber": "88",
+                        "prefix": "POL SCI",
+                        "prefixParentId": 1971,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 10995,
+                        "department": "Political Science",
+                        "begin": "F2022",
+                        "end": "",
+                        "minUnits": 2.0,
+                        "maxUnits": 2.0,
+                        "pathways": []
+                      },
+                      "visibleCrossListedCourses": [],
+                      "requisites": [],
+                      "courseAttributes": [
+                        {
+                          "position": 0,
+                          "content": "Course(s) must be taken at university"
+                        }
+                      ],
+                      "id": "4a8362dc-5e4b-4b45-8bfe-08dec89fcd17",
+                      "position": 0,
+                      "attributes": []
+                    }
+                  ],
+                  "attributes": []
+                }
+              ],
+              "advisements": [
+                {
+                  "type": "NFollowing",
+                  "amount": 2.0,
+                  "amountUnitType": "Course",
+                  "position": 0,
+                  "selectionType": "Complete"
+                }
+              ],
+              "position": 1,
+              "attributes": []
+            }
+          ],
+          "attributes": [],
+          "showConjunctionBetweenSections": false,
+          "academicYearId": 0,
+          "institutionParentId": 0,
+          "instruction": {
+            "type": "Conjunction",
+            "conjunction": "Or",
+            "id": "bffbfa6d-d056-469d-708e-08dec89fcd0b",
+            "selectionType": "Complete"
+          },
+          "advisements": [],
+          "groupId": "f4e66f45-6887-ef11-8474-000d3a37e3b6",
+          "position": 5,
+          "area": "Requirements"
+        }
+      },
+      {
+        "original_articulations": [
+          {
+            "templateCellId": "64f71ec9-454d-4de4-8bfc-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 281518,
+                "courseTitle": "Introduction to Empirical Analysis and Quantitative Methods",
+                "courseNumber": "3",
+                "prefix": "POL SCI",
+                "prefixParentId": 1971,
+                "prefixDescription": "Political Science",
+                "departmentParentId": 10995,
+                "department": "Political Science",
+                "begin": "F1990",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": "This course must be taken at the university after transfer",
+                "deniedCourses": [],
+                "items": [],
+                "courseGroupConjunctions": [],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          },
+          {
+            "templateCellId": "4a8362dc-5e4b-4b45-8bfe-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 384205,
+                "courseTitle": "The Scientific Study of Politics",
+                "courseNumber": "88",
+                "prefix": "POL SCI",
+                "prefixParentId": 1971,
+                "prefixDescription": "Political Science",
+                "departmentParentId": 10995,
+                "department": "Political Science",
+                "begin": "F2022",
+                "end": "",
+                "minUnits": 2.0,
+                "maxUnits": 2.0,
+                "pathways": []
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": "This course must be taken at the university after transfer",
+                "deniedCourses": [],
+                "items": [],
+                "courseGroupConjunctions": [],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          },
+          {
+            "templateCellId": "08f2a3af-81cb-4bee-8bff-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 275207,
+                "courseTitle": "The Ancient Mediterranean World",
+                "courseNumber": "4A",
+                "prefix": "HISTORY",
+                "prefixParentId": 2977,
+                "prefixDescription": "History",
+                "departmentParentId": 7046,
+                "department": "History",
+                "begin": "F2006",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": [
+                  {
+                    "begin": null,
+                    "beginDate": null,
+                    "beginTermId": null,
+                    "end": null,
+                    "endDate": null,
+                    "endTermId": null,
+                    "pathwayId": 13,
+                    "pathwayName": "History",
+                    "pathwayCode": "History",
+                    "expectationId": 130,
+                    "expectationName": "A-World History Seq.",
+                    "subexpectationId": 0,
+                    "subexpectationName": null
+                  }
+                ]
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": null,
+                "deniedCourses": [],
+                "items": [
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 344198,
+                        "courseTitle": "World History: Prehistoric to Early Modern - Honors",
+                        "courseNumber": "3H",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "Su2011",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 1,
+                    "type": "CourseGroup"
+                  },
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 213291,
+                        "courseTitle": "World History: Prehistoric to Early Modern",
+                        "courseNumber": "3",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "Su2011",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 0,
+                    "type": "CourseGroup"
+                  }
+                ],
+                "courseGroupConjunctions": [
+                  {
+                    "id": "392fcc7b-4a76-4062-6058-08dec8a01552",
+                    "sendingArticulationId": "c189437b-3012-4b18-f783-08dec8a01420",
+                    "groupConjunction": "Or",
+                    "sendingCourseGroupBeginPosition": 0,
+                    "sendingCourseGroupEndPosition": 1
+                  }
+                ],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          },
+          {
+            "templateCellId": "7dcdeaa9-adc9-4a4b-8c00-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 281308,
+                "courseTitle": "Medieval Europe",
+                "courseNumber": "4B",
+                "prefix": "HISTORY",
+                "prefixParentId": 2977,
+                "prefixDescription": "History",
+                "departmentParentId": 7046,
+                "department": "History",
+                "begin": "F2006",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": [
+                  {
+                    "begin": null,
+                    "beginDate": null,
+                    "beginTermId": null,
+                    "end": null,
+                    "endDate": null,
+                    "endTermId": null,
+                    "pathwayId": 13,
+                    "pathwayName": "History",
+                    "pathwayCode": "History",
+                    "expectationId": 130,
+                    "expectationName": "A-World History Seq.",
+                    "subexpectationId": 0,
+                    "subexpectationName": null
+                  }
+                ]
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": null,
+                "deniedCourses": [],
+                "items": [
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 213291,
+                        "courseTitle": "World History: Prehistoric to Early Modern",
+                        "courseNumber": "3",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "Su2011",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 0,
+                    "type": "CourseGroup"
+                  },
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 344198,
+                        "courseTitle": "World History: Prehistoric to Early Modern - Honors",
+                        "courseNumber": "3H",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "Su2011",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 1,
+                    "type": "CourseGroup"
+                  }
+                ],
+                "courseGroupConjunctions": [
+                  {
+                    "id": "ff66842f-2f34-42d1-602f-08dec8a01552",
+                    "sendingArticulationId": "5be91c63-22fd-41d4-f558-08dec8a01420",
+                    "groupConjunction": "Or",
+                    "sendingCourseGroupBeginPosition": 0,
+                    "sendingCourseGroupEndPosition": 1
+                  }
+                ],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          },
+          {
+            "templateCellId": "a4ec637d-ed46-4982-8c01-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 351693,
+                "courseTitle": "European Civilization From the Renaissance to the Present",
+                "courseNumber": "5",
+                "prefix": "HISTORY",
+                "prefixParentId": 2977,
+                "prefixDescription": "History",
+                "departmentParentId": 7046,
+                "department": "History",
+                "begin": "F1990",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": [
+                  {
+                    "begin": null,
+                    "beginDate": null,
+                    "beginTermId": null,
+                    "end": null,
+                    "endDate": null,
+                    "endTermId": null,
+                    "pathwayId": 13,
+                    "pathwayName": "History",
+                    "pathwayCode": "History",
+                    "expectationId": 130,
+                    "expectationName": "A-World History Seq.",
+                    "subexpectationId": 0,
+                    "subexpectationName": null
+                  }
+                ]
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": null,
+                "deniedCourses": [],
+                "items": [
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 215159,
+                        "courseTitle": "World History: Early Modern to the Present",
+                        "courseNumber": "4",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "Su2011",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 0,
+                    "type": "CourseGroup"
+                  }
+                ],
+                "courseGroupConjunctions": [],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          },
+          {
+            "templateCellId": "48374755-4bed-4f08-8c02-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 351653,
+                "courseTitle": "History of China: Origins to the Mongol Conquest",
+                "courseNumber": "6A",
+                "prefix": "HISTORY",
+                "prefixParentId": 2977,
+                "prefixDescription": "History",
+                "departmentParentId": 7046,
+                "department": "History",
+                "begin": "F2006",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": null,
+                "deniedCourses": [],
+                "items": [
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 337584,
+                        "courseTitle": "History of Asia from Pre-History to Early Modern",
+                        "courseNumber": "10",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 0,
+                    "type": "CourseGroup"
+                  },
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 377463,
+                        "courseTitle": "History of Early Modern to Modern Asia - Honors",
+                        "courseNumber": "11H",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 3,
+                    "type": "CourseGroup"
+                  },
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 204055,
+                        "courseTitle": "History of Early Modern to Modern Asia",
+                        "courseNumber": "11",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 2,
+                    "type": "CourseGroup"
+                  },
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 377462,
+                        "courseTitle": "History of Asia from Pre-History to Early Modern - Honors",
+                        "courseNumber": "10H",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 1,
+                    "type": "CourseGroup"
+                  }
+                ],
+                "courseGroupConjunctions": [
+                  {
+                    "id": "83fb670b-0df1-4334-6036-08dec8a01552",
+                    "sendingArticulationId": "965b6fb7-749b-4da7-f56c-08dec8a01420",
+                    "groupConjunction": "Or",
+                    "sendingCourseGroupBeginPosition": 0,
+                    "sendingCourseGroupEndPosition": 1
+                  },
+                  {
+                    "id": "f947b32a-2751-4b83-6037-08dec8a01552",
+                    "sendingArticulationId": "965b6fb7-749b-4da7-f56c-08dec8a01420",
+                    "groupConjunction": "Or",
+                    "sendingCourseGroupBeginPosition": 1,
+                    "sendingCourseGroupEndPosition": 2
+                  },
+                  {
+                    "id": "2b3abd3b-ee97-4052-6038-08dec8a01552",
+                    "sendingArticulationId": "965b6fb7-749b-4da7-f56c-08dec8a01420",
+                    "groupConjunction": "Or",
+                    "sendingCourseGroupBeginPosition": 2,
+                    "sendingCourseGroupEndPosition": 3
+                  }
+                ],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          },
+          {
+            "templateCellId": "0679e594-dbfc-47ba-8c03-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 351688,
+                "courseTitle": "The United States from Settlement to Civil War",
+                "courseNumber": "7A",
+                "prefix": "HISTORY",
+                "prefixParentId": 2977,
+                "prefixDescription": "History",
+                "departmentParentId": 7046,
+                "department": "History",
+                "begin": "F2006",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": [
+                  {
+                    "begin": null,
+                    "beginDate": null,
+                    "beginTermId": null,
+                    "end": null,
+                    "endDate": null,
+                    "endTermId": null,
+                    "pathwayId": 13,
+                    "pathwayName": "History",
+                    "pathwayCode": "History",
+                    "expectationId": 64,
+                    "expectationName": "C2-US History",
+                    "subexpectationId": 0,
+                    "subexpectationName": null
+                  }
+                ]
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": null,
+                "deniedCourses": [],
+                "items": [
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 199022,
+                        "courseTitle": "United States History to 1877 - Honors",
+                        "courseNumber": "C1001H",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "F2026",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 1,
+                    "type": "CourseGroup"
+                  },
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 216501,
+                        "courseTitle": "United States History to 1877",
+                        "courseNumber": "C1001",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "F2026",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 0,
+                    "type": "CourseGroup"
+                  }
+                ],
+                "courseGroupConjunctions": [
+                  {
+                    "id": "ef1a69d3-21e3-4bf3-6024-08dec8a01552",
+                    "sendingArticulationId": "30278483-c660-4f27-f504-08dec8a01420",
+                    "groupConjunction": "Or",
+                    "sendingCourseGroupBeginPosition": 0,
+                    "sendingCourseGroupEndPosition": 1
+                  }
+                ],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          },
+          {
+            "templateCellId": "e28b72f8-f343-43f7-8c04-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 245400,
+                "courseTitle": "The United States from Civil War to Present",
+                "courseNumber": "7B",
+                "prefix": "HISTORY",
+                "prefixParentId": 2977,
+                "prefixDescription": "History",
+                "departmentParentId": 7046,
+                "department": "History",
+                "begin": "F2013",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": [
+                  {
+                    "begin": null,
+                    "beginDate": null,
+                    "beginTermId": null,
+                    "end": null,
+                    "endDate": null,
+                    "endTermId": null,
+                    "pathwayId": 13,
+                    "pathwayName": "History",
+                    "pathwayCode": "History",
+                    "expectationId": 64,
+                    "expectationName": "C2-US History",
+                    "subexpectationId": 0,
+                    "subexpectationName": null
+                  }
+                ]
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": null,
+                "deniedCourses": [],
+                "items": [
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 344200,
+                        "courseTitle": "United States History since 1865 - Honors",
+                        "courseNumber": "C1002H",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "F2026",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 1,
+                    "type": "CourseGroup"
+                  },
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 204035,
+                        "courseTitle": "United States History since 1865",
+                        "courseNumber": "C1002",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "F2026",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 0,
+                    "type": "CourseGroup"
+                  }
+                ],
+                "courseGroupConjunctions": [
+                  {
+                    "id": "9ea0546d-903c-4a11-603e-08dec8a01552",
+                    "sendingArticulationId": "7a680db8-5f09-4482-f58f-08dec8a01420",
+                    "groupConjunction": "Or",
+                    "sendingCourseGroupBeginPosition": 0,
+                    "sendingCourseGroupEndPosition": 1
+                  }
+                ],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          },
+          {
+            "templateCellId": "7227b4ed-3ead-4752-8c07-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 245406,
+                "courseTitle": "African History",
+                "courseNumber": "10",
+                "prefix": "HISTORY",
+                "prefixParentId": 2977,
+                "prefixDescription": "History",
+                "departmentParentId": 7046,
+                "department": "History",
+                "begin": "F1990",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": null,
+                "deniedCourses": [],
+                "items": [
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 163442,
+                        "courseTitle": "History of Africa",
+                        "courseNumber": "35",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "F1995",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 0,
+                    "type": "CourseGroup"
+                  }
+                ],
+                "courseGroupConjunctions": [],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          },
+          {
+            "templateCellId": "05772a1f-607e-41b7-8c0a-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 281236,
+                "courseTitle": "Introduction to the History of Japan",
+                "courseNumber": "14",
+                "prefix": "HISTORY",
+                "prefixParentId": 2977,
+                "prefixDescription": "History",
+                "departmentParentId": 7046,
+                "department": "History",
+                "begin": "F2002",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": null,
+                "deniedCourses": [],
+                "items": [
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 337584,
+                        "courseTitle": "History of Asia from Pre-History to Early Modern",
+                        "courseNumber": "10",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 0,
+                    "type": "CourseGroup"
+                  },
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 377463,
+                        "courseTitle": "History of Early Modern to Modern Asia - Honors",
+                        "courseNumber": "11H",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 3,
+                    "type": "CourseGroup"
+                  },
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 377462,
+                        "courseTitle": "History of Asia from Pre-History to Early Modern - Honors",
+                        "courseNumber": "10H",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 1,
+                    "type": "CourseGroup"
+                  },
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 204055,
+                        "courseTitle": "History of Early Modern to Modern Asia",
+                        "courseNumber": "11",
+                        "prefix": "HIST",
+                        "prefixParentId": 2960,
+                        "prefixDescription": "History",
+                        "departmentParentId": 7055,
+                        "department": "History (HIST)",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 2,
+                    "type": "CourseGroup"
+                  }
+                ],
+                "courseGroupConjunctions": [
+                  {
+                    "id": "babce3d0-cd7a-4b31-603b-08dec8a01552",
+                    "sendingArticulationId": "efae7ac6-0934-4e0e-f585-08dec8a01420",
+                    "groupConjunction": "Or",
+                    "sendingCourseGroupBeginPosition": 0,
+                    "sendingCourseGroupEndPosition": 1
+                  },
+                  {
+                    "id": "605fa274-8fb1-4b16-603c-08dec8a01552",
+                    "sendingArticulationId": "efae7ac6-0934-4e0e-f585-08dec8a01420",
+                    "groupConjunction": "Or",
+                    "sendingCourseGroupBeginPosition": 1,
+                    "sendingCourseGroupEndPosition": 2
+                  },
+                  {
+                    "id": "7858796b-b044-4528-603d-08dec8a01552",
+                    "sendingArticulationId": "efae7ac6-0934-4e0e-f585-08dec8a01420",
+                    "groupConjunction": "Or",
+                    "sendingCourseGroupBeginPosition": 2,
+                    "sendingCourseGroupEndPosition": 3
+                  }
+                ],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          },
+          {
+            "templateCellId": "e88097ec-a2c4-46ce-8c0b-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 275213,
+                "courseTitle": "Introduction to American Politics",
+                "courseNumber": "1",
+                "prefix": "POL SCI",
+                "prefixParentId": 1971,
+                "prefixDescription": "Political Science",
+                "departmentParentId": 10995,
+                "department": "Political Science",
+                "begin": "F1990",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": [
+                  {
+                    "begin": null,
+                    "beginDate": null,
+                    "beginTermId": null,
+                    "end": null,
+                    "endDate": null,
+                    "endTermId": null,
+                    "pathwayId": 19,
+                    "pathwayName": "Political Science",
+                    "pathwayCode": "Political-Science",
+                    "expectationId": 96,
+                    "expectationName": "C1-American gov & politics",
+                    "subexpectationId": 0,
+                    "subexpectationName": null
+                  }
+                ]
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": null,
+                "deniedCourses": [],
+                "items": [
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 211522,
+                        "courseTitle": "American Government and Politics",
+                        "courseNumber": "C1000",
+                        "prefix": "POLS",
+                        "prefixParentId": 18853,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 15413,
+                        "department": "Political Science",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 0,
+                    "type": "CourseGroup"
+                  },
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 167222,
+                        "courseTitle": "American Government and Politics - Honors",
+                        "courseNumber": "C1000H",
+                        "prefix": "POLS",
+                        "prefixParentId": 18853,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 15413,
+                        "department": "Political Science",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 1,
+                    "type": "CourseGroup"
+                  }
+                ],
+                "courseGroupConjunctions": [
+                  {
+                    "id": "d3b6fa67-70a7-43ae-6042-08dec8a01552",
+                    "sendingArticulationId": "1ad717c4-5052-422f-f5a8-08dec8a01420",
+                    "groupConjunction": "Or",
+                    "sendingCourseGroupBeginPosition": 0,
+                    "sendingCourseGroupEndPosition": 1
+                  }
+                ],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          },
+          {
+            "templateCellId": "d8424cf2-3542-4eb0-8c0c-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 270954,
+                "courseTitle": "Introduction to Political Theory",
+                "courseNumber": "4",
+                "prefix": "POL SCI",
+                "prefixParentId": 1971,
+                "prefixDescription": "Political Science",
+                "departmentParentId": 10995,
+                "department": "Political Science",
+                "begin": "F2008",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": [
+                  {
+                    "begin": null,
+                    "beginDate": null,
+                    "beginTermId": null,
+                    "end": null,
+                    "endDate": null,
+                    "endTermId": null,
+                    "pathwayId": 19,
+                    "pathwayName": "Political Science",
+                    "pathwayCode": "Political-Science",
+                    "expectationId": 97,
+                    "expectationName": "C2-Political theory & thought",
+                    "subexpectationId": 0,
+                    "subexpectationName": null
+                  }
+                ]
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": null,
+                "deniedCourses": [],
+                "items": [
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 252672,
+                        "courseTitle": "Political Theory II - Early Modern to Contemporary",
+                        "courseNumber": "7",
+                        "prefix": "POLS",
+                        "prefixParentId": 18853,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 15413,
+                        "department": "Political Science",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 1,
+                    "type": "CourseGroup"
+                  },
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 214472,
+                        "courseTitle": "Political Theory I - Ancient to Contemporary",
+                        "courseNumber": "5",
+                        "prefix": "POLS",
+                        "prefixParentId": 18853,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 15413,
+                        "department": "Political Science",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 0,
+                    "type": "CourseGroup"
+                  }
+                ],
+                "courseGroupConjunctions": [
+                  {
+                    "id": "5519e134-2624-4e7e-6039-08dec8a01552",
+                    "sendingArticulationId": "eb4fb9f4-f9d2-4c37-f576-08dec8a01420",
+                    "groupConjunction": "Or",
+                    "sendingCourseGroupBeginPosition": 0,
+                    "sendingCourseGroupEndPosition": 1
+                  }
+                ],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          },
+          {
+            "templateCellId": "6b2e3c32-6e69-4f66-8c0d-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 300706,
+                "courseTitle": "Introduction to International Relations",
+                "courseNumber": "5",
+                "prefix": "POL SCI",
+                "prefixParentId": 1971,
+                "prefixDescription": "Political Science",
+                "departmentParentId": 10995,
+                "department": "Political Science",
+                "begin": "F2008",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": [
+                  {
+                    "begin": null,
+                    "beginDate": null,
+                    "beginTermId": null,
+                    "end": null,
+                    "endDate": null,
+                    "endTermId": null,
+                    "pathwayId": 19,
+                    "pathwayName": "Political Science",
+                    "pathwayCode": "Political-Science",
+                    "expectationId": 99,
+                    "expectationName": "C4-International relations",
+                    "subexpectationId": 0,
+                    "subexpectationName": null
+                  }
+                ]
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": null,
+                "deniedCourses": [],
+                "items": [
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 197779,
+                        "courseTitle": "International Relations",
+                        "courseNumber": "9",
+                        "prefix": "POLS",
+                        "prefixParentId": 18853,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 15413,
+                        "department": "Political Science",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 0,
+                    "type": "CourseGroup"
+                  }
+                ],
+                "courseGroupConjunctions": [],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          },
+          {
+            "templateCellId": "af13e484-e889-42d4-8c0e-08dec89fcd17",
+            "articulation": {
+              "type": "Course",
+              "course": {
+                "courseIdentifierParentId": 281519,
+                "courseTitle": "Introduction to Comparative Politics",
+                "courseNumber": "2",
+                "prefix": "POL SCI",
+                "prefixParentId": 1971,
+                "prefixDescription": "Political Science",
+                "departmentParentId": 10995,
+                "department": "Political Science",
+                "begin": "F1990",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": [
+                  {
+                    "begin": null,
+                    "beginDate": null,
+                    "beginTermId": null,
+                    "end": null,
+                    "endDate": null,
+                    "endTermId": null,
+                    "pathwayId": 19,
+                    "pathwayName": "Political Science",
+                    "pathwayCode": "Political-Science",
+                    "expectationId": 98,
+                    "expectationName": "C3-Comparative gov & politics",
+                    "subexpectationId": 0,
+                    "subexpectationName": null
+                  }
+                ]
+              },
+              "visibleCrossListedCourses": [],
+              "courseAttributes": [],
+              "sendingArticulation": {
+                "noArticulationReason": null,
+                "deniedCourses": [],
+                "items": [
+                  {
+                    "courseConjunction": "And",
+                    "items": [
+                      {
+                        "visibleCrossListedCourses": [],
+                        "requisites": [],
+                        "attributes": [],
+                        "courseIdentifierParentId": 203547,
+                        "courseTitle": "Comparative Politics",
+                        "courseNumber": "2",
+                        "prefix": "POLS",
+                        "prefixParentId": 18853,
+                        "prefixDescription": "Political Science",
+                        "departmentParentId": 15413,
+                        "department": "Political Science",
+                        "begin": "F2025",
+                        "end": "",
+                        "minUnits": 3.0,
+                        "maxUnits": 3.0,
+                        "pathways": [],
+                        "publishedCourseIdentifierYearTermId": null,
+                        "position": 0,
+                        "type": "Course"
+                      }
+                    ],
+                    "attributes": [],
+                    "position": 0,
+                    "type": "CourseGroup"
+                  }
+                ],
+                "courseGroupConjunctions": [],
+                "type": "SendingArticulation",
+                "attributes": []
+              },
+              "templateOverrides": [],
+              "attributes": [],
+              "receivingAttributes": []
+            },
+            "receivingAttributes": {
+              "type": "Course",
+              "courseAttributes": [],
+              "attributes": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ],
+  "receiving_course_titles": {
+    "POL SCI 1": "Introduction to American Politics",
+    "POL SCI 2": "Introduction to Comparative Politics",
+    "POL SCI 4": "Introduction to Political Theory",
+    "POL SCI 5": "Introduction to International Relations",
+    "HISTORY 4A": "The Ancient Mediterranean World",
+    "HISTORY 4B": "Medieval Europe",
+    "HISTORY 5": "European Civilization From the Renaissance to the Present",
+    "HISTORY 6A": "History of China: Origins to the Mongol Conquest",
+    "HISTORY 7A": "The United States from Settlement to Civil War",
+    "HISTORY 7B": "The United States from Civil War to Present",
+    "HISTORY 8A": "Becoming Latin America, 1492 to 1824",
+    "HISTORY 8B": "Modern Latin America",
+    "HISTORY 10": "African History",
+    "HISTORY 11": "India",
+    "HISTORY 12": "The Middle East",
+    "HISTORY 14": "Introduction to the History of Japan"
+  }
+}

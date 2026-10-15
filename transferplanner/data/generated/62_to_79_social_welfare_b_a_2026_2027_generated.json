@@ -1,0 +1,303 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Social Welfare, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "required",
+      "required_count": null,
+      "note": "Please refer to additional important General Information section above"
+    },
+    {
+      "name": "B",
+      "category": "required",
+      "required_count": 1,
+      "note": "Please refer to additional important General Information section above"
+    },
+    {
+      "name": "C",
+      "category": "required",
+      "required_count": 1,
+      "note": "Please refer to additional important General Information section above"
+    },
+    {
+      "name": "A",
+      "category": "highly_recommended",
+      "required_count": null,
+      "note": "Please refer to additional important General Information section above\nRecommended to be completed prior to transfer"
+    }
+  ],
+  "requirements": [
+    {
+      "text": "PSYCH 1",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PSYC C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "PSYC C1000H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "STAT 2",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "STAT C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "STAT C1000H"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "PSYC 10"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "STAT 20",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": []
+    },
+    {
+      "text": "STAT 21",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": []
+    },
+    {
+      "text": "SOCIOL 5",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "POL SCI 3",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": []
+    },
+    {
+      "text": "SOCIOL 1",
+      "group": "C",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SOC 1"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "SOCIOL 3AC",
+      "group": "C",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "ANTHRO 3",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ANTH 5"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ECON 1",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": "Regular and honors courses may be combined to complete this series",
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ECON C2002",
+            "ECON C2001"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ECON C2002H",
+            "ECON C2001H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "POL SCI 1",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "POLS C1000H"
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T22:39:15.4026377",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "b6db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program",
+        "groupId": "bedb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The&nbsp;Social&nbsp;Welfare&nbsp;undergraduate&nbsp;major&nbsp;is&nbsp;a&nbsp;designated&nbsp;“group&nbsp;major”&nbsp;grounded&nbsp;in&nbsp;the&nbsp;liberal&nbsp;arts,&nbsp;rather&nbsp;than&nbsp;specialized&nbsp;training&nbsp;in&nbsp;the&nbsp;profession&nbsp;of&nbsp;social&nbsp;work.&nbsp;</p><p>The&nbsp;curriculum,&nbsp;as&nbsp;reflected&nbsp;in&nbsp;the&nbsp;core&nbsp;major&nbsp;courses,&nbsp;focuses&nbsp;both&nbsp;on&nbsp;the&nbsp;history&nbsp;and&nbsp;institutions&nbsp;of&nbsp;social&nbsp;work&nbsp;as&nbsp;a&nbsp;field&nbsp;of&nbsp;activity&nbsp;and&nbsp;on&nbsp;the&nbsp;welfare&nbsp;state&nbsp;as&nbsp;a&nbsp;collective&nbsp;enterprise&nbsp;addressing&nbsp;human&nbsp;need.&nbsp;</p><p></p><p>Students&nbsp;gain&nbsp;knowledge&nbsp;of&nbsp;organized&nbsp;networks&nbsp;of&nbsp;public&nbsp;and&nbsp;private&nbsp;social&nbsp;services,&nbsp;and&nbsp;the&nbsp;basic&nbsp;practice&nbsp;methods&nbsp;associated&nbsp;with&nbsp;the&nbsp;social&nbsp;work&nbsp;profession.&nbsp;In&nbsp;doing&nbsp;so,&nbsp;students&nbsp;acquire&nbsp;the&nbsp;knowledge&nbsp;needed&nbsp;to&nbsp;understand,&nbsp;address,&nbsp;and&nbsp;actively&nbsp;participate&nbsp;in&nbsp;the&nbsp;amelioration&nbsp;of&nbsp;critical&nbsp;social&nbsp;problems&nbsp;in&nbsp;American&nbsp;Society.</p><p></p><p><strong>For&nbsp;more&nbsp;information:</strong></p><p>Jeremy&nbsp;Urban,&nbsp;Undergraduate&nbsp;Major&nbsp;Advisor</p><p>UC&nbsp;Berkeley&nbsp;School&nbsp;of&nbsp;Social&nbsp;Welfare</p><p>email:&nbsp;<a href=\"mailto:swugadvisor@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">swugadvisor@berkeley.edu</a></p><p><a href=\"https://socialwelfare.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://socialwelfare.berkeley.edu/</a></p>",
+        "groupId": "c0db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "important major information",
+        "groupId": "b8db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>Social Welfare is a high-demand major.</strong></p><p><br></p><p>The five prerequisites must be completed with a minimum letter grade of C prior to enrollment of the first semester at Berkeley.</p><p>This applies to courses taken at Berkeley or equivalent courses taken at other institutions.</p><p><br></p><p>Note: Prerequisites completed prior to Spring 2006 will count with a C- or P grade.</p><p><br></p><ul><li>Required Lower-division requirements:</li><li class=\"ql-indent-1\">Psychology 1, or 2</li><li class=\"ql-indent-1\">Stats 2, 20, or 21, Soc 5, Poli Sci 3 <strong>or any course that satisfies the College of Letters and Science Quantitative Reasoning Requirement</strong></li><li class=\"ql-indent-1\">Sociology 1, 3, 3A, or 3AC</li><li class=\"ql-indent-1\"><strong>The College of Letters and Science Reading and Composition requirement</strong>. (This is a 2-course series. At UCB: Reading and Composition A + Reading and Composition B)</li><li>Highly recommended lower-division requirements:</li><li class=\"ql-indent-1\">It is suggested that three other courses (introductory anthropology, introductory economics, and introductory political science, as listed below) should be taken as preparation for the major, but these courses are not required to declare the major.</li></ul>",
+        "groupId": "badb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "exam credit",
+        "groupId": "bcdb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 6,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<ul><li>AP&nbsp;Psychology&nbsp;:&nbsp;score&nbsp;of&nbsp;3&nbsp;or&nbsp;higher</li></ul>",
+        "groupId": "bddb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 7,
+        "area": "General"
+      }
+    ],
+    "receiving_course_attributes": [
+      {
+        "template_cell_id": "5526ea3c-29f6-4b43-661f-08dec89fcd17",
+        "course": "STAT 20",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "This course has a prerequisite of one semester of calculus"
+          }
+        ]
+      },
+      {
+        "template_cell_id": "352d95cb-14b2-4dc2-6620-08dec89fcd17",
+        "course": "STAT 21",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "This course has a prerequisite of one semester of calculus"
+          }
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+  ],
+  "receiving_course_titles": {
+    "PSYCH 1": "General Psychology",
+    "STAT 2": "Introduction to Statistics",
+    "STAT 20": "Introduction to Probability and Statistics",
+    "STAT 21": "Introductory Probability and Statistics for Business",
+    "SOCIOL 5": "Evaluation of Evidence",
+    "POL SCI 3": "Introduction to Empirical Analysis and Quantitative Methods",
+    "SOCIOL 1": "Introduction to Sociology",
+    "SOCIOL 3AC": "Principles of Sociology",
+    "ANTHRO 3": "Introduction to Social and Cultural Anthropology",
+    "ECON 1": "Introduction to Economics",
+    "POL SCI 1": "Introduction to American Politics"
+  }
+}

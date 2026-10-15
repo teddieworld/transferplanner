@@ -79,5 +79,10 @@
   "review_required": true,
   "review_notes": [
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
-  ]
+  ],
+  "receiving_course_titles": {
+    "ETH STD 11AC": "Introduction to Ethnic Studies",
+    "NATAMST 20A": "Introduction to Native American Studies",
+    "NATAMST 20B": "Introduction to Native American Studies II: Cultural Practice, Art, and Identity"
+  }
 }

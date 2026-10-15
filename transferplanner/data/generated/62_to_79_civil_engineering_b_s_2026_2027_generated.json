@@ -427,5 +427,27 @@
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
     "Review preserved section headers; they are labels, not interpreted completion rules.",
     "Receiving cross-listed courses are preserved as aliases, not additional requirements."
-  ]
+  ],
+  "receiving_course_titles": {
+    "CHEM 1A": "General Chemistry",
+    "CHEM 1AL": "General Chemistry Laboratory",
+    "CHEM 1B": "General Chemistry",
+    "BIOLOGY 1B": "General Biology (Plant Form & Function, Ecology, Evolution)",
+    "CIV ENG 70": "Engineering Geology",
+    "PHYSICS 7C": "Physics for Scientists and Engineers",
+    "MATH 51": "Calculus I",
+    "MATH 52": "Calculus II",
+    "MATH 53": "Multivariable Calculus",
+    "MATH 54": "Linear Algebra and Differential Equations",
+    "PHYSICS 7A": "Physics for Scientists and Engineers",
+    "PHYSICS 7B": "Physics for Scientists and Engineers",
+    "CIV ENG 11": "Engineered Systems and Sustainability",
+    "CIV ENG C30": "Introduction to Solid Mechanics",
+    "CIV ENG 60": "Structure and Properties of Civil Engineering Materials",
+    "CIV ENG 93": "Engineering Data Analysis",
+    "ENGIN 7": "Introduction to Computer Programming and Numerical Methods",
+    "MEC ENG 40": "Thermodynamics",
+    "ENGIN 40": "Engineering Thermodynamics",
+    "COMPSCI C8": "Foundations of Data Science"
+  }
 }

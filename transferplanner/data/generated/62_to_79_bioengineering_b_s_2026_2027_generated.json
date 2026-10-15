@@ -358,5 +358,26 @@
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
     "Review preserved section headers; they are labels, not interpreted completion rules.",
     "Receiving cross-listed courses are preserved as aliases, not additional requirements."
-  ]
+  ],
+  "receiving_course_titles": {
+    "CHEM 1A": "General Chemistry",
+    "CHEM 1AL": "General Chemistry Laboratory",
+    "CHEM 1B": "General Chemistry",
+    "CHEM 3A": "Chemical Structure and Reactivity",
+    "CHEM 3AL": "Organic Chemistry Laboratory",
+    "MATH 51": "Calculus I",
+    "MATH 52": "Calculus II",
+    "MATH 53": "Multivariable Calculus",
+    "MATH 54": "Linear Algebra and Differential Equations",
+    "PHYSICS 7A": "Physics for Scientists and Engineers",
+    "PHYSICS 7B": "Physics for Scientists and Engineers",
+    "ENGIN 7": "Introduction to Computer Programming and Numerical Methods",
+    "COMPSCI 61A": "The Structure and Interpretation of Computer Programs",
+    "EL ENG 66": "Introduction to Signals, Dynamics, and Information",
+    "COMPSCI 61B": "Data Structures",
+    "COMPSCI C8": "Foundations of Data Science",
+    "MAT SCI 45": "Properties of Materials",
+    "MAT SCI 45L": "Properties of Materials Laboratory",
+    "COMPSCI 70": "Discrete Mathematics and Probability Theory"
+  }
 }

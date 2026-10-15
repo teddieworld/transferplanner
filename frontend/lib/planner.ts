@@ -23,6 +23,8 @@ export function isRequirementSatisfied(
 //each reqirement for a course contains its articulation status and the actual options
 export type Requirement = {
     name: string;
+    receivingCourses?: { code: string; title?: string }[];
+    optionCourseTitles?: Record<string, string>;
     options: string[][];
     preparationOptions?: string[][];
     preparationNote?: string;
@@ -32,6 +34,7 @@ export type Requirement = {
         | "partial"
         | "no_course_articulated"
         | "university_only"
+        | "review_required"
     note?: string;
 }
 
@@ -41,13 +44,15 @@ export type RequirementStatus =
   | "partial"
   | "not_satisfied"
   | "no_course_articulated"
-  | "university_only";
+  | "university_only"
+  | "review_required";
 
 //returns a RequirementStatus
 export function getRequirementStatus(
     requirement: Requirement,
     completedCourses: string[]
 ): RequirementStatus{
+    if (requirement.articulationStatus === "review_required") return "review_required";
     if (requirement.articulationStatus === "no_course_articulated"){
         return "no_course_articulated";
     }
@@ -65,6 +70,7 @@ export function getPreparationStatus(
   requirement: Requirement,
   completedCourses: string[]
 ): RequirementStatus {
+  if (requirement.articulationStatus === "review_required") return "review_required";
   if (requirement.preparationOptions === undefined) {
     return getRequirementStatus(requirement, completedCourses);
   }
@@ -79,7 +85,8 @@ export const requirementStatusLabels: Record<RequirementStatus, string> = {
   partial: "Partial",
   not_satisfied: "Not satisfied",
   no_course_articulated: "No course articulated",
-  university_only: "University only"
+  university_only: "University only",
+  review_required: "Adviser review needed"
 };
 
 //a type for each requirement group

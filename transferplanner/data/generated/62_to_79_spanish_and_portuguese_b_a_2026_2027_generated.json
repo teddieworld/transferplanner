@@ -1,0 +1,2247 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Spanish and Portuguese, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: CONCENTRATION A: THE LANGUAGES, LITERATURES, AND CULTURES OF THE SPANISH-SPEAKING WORLD\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by AND\nThe four concentrations are alternatives; completing all four is not required."
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1,
+      "review_required": true,
+      "note": "Source heading: CONCENTRATION A: THE LANGUAGES, LITERATURES, AND CULTURES OF THE SPANISH-SPEAKING WORLD\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by AND; Complete 1 Course\nThe four concentrations are alternatives; completing all four is not required."
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": 1,
+      "review_required": true,
+      "note": "Source heading: CONCENTRATION A: THE LANGUAGES, LITERATURES, AND CULTURES OF THE SPANISH-SPEAKING WORLD\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by AND; Complete 1 Course\nThe four concentrations are alternatives; completing all four is not required."
+    },
+    {
+      "name": "D",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: CONCENTRATION A: THE LANGUAGES, LITERATURES, AND CULTURES OF THE SPANISH-SPEAKING WORLD\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by AND\nThe four concentrations are alternatives; completing all four is not required."
+    },
+    {
+      "name": "E",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: CONCENTRATION B: THE LANGUAGES, LITERATURES, AND CULTURES OF THE PORTUGUESE-SPEAKING WORLD\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by AND\nThe four concentrations are alternatives; completing all four is not required."
+    },
+    {
+      "name": "F",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: CONCENTRATION C: LATIN AMERICAN LANGUAGES, LITERATURES, AND CULTURES\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by AND\nThe four concentrations are alternatives; completing all four is not required."
+    },
+    {
+      "name": "G",
+      "category": "major_required",
+      "required_count": 1,
+      "review_required": true,
+      "note": "Source heading: CONCENTRATION C: LATIN AMERICAN LANGUAGES, LITERATURES, AND CULTURES\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by AND; Complete 1 Course\nThe four concentrations are alternatives; completing all four is not required."
+    },
+    {
+      "name": "H",
+      "category": "major_required",
+      "required_count": 1,
+      "review_required": true,
+      "note": "Source heading: CONCENTRATION C: LATIN AMERICAN LANGUAGES, LITERATURES, AND CULTURES\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by AND; Complete 1 Course\nThe four concentrations are alternatives; completing all four is not required."
+    },
+    {
+      "name": "I",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: CONCENTRATION C: LATIN AMERICAN LANGUAGES, LITERATURES, AND CULTURES\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by AND\nThe four concentrations are alternatives; completing all four is not required."
+    },
+    {
+      "name": "J",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: CONCENTRATION D: HISPANIC LANGUAGES, LINGUISTICS, AND BILINGUALISM\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by AND\nThe four concentrations are alternatives; completing all four is not required."
+    },
+    {
+      "name": "K",
+      "category": "major_required",
+      "required_count": 1,
+      "review_required": true,
+      "note": "Source heading: CONCENTRATION D: HISPANIC LANGUAGES, LINGUISTICS, AND BILINGUALISM\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by AND; Complete 1 Course\nThe four concentrations are alternatives; completing all four is not required."
+    },
+    {
+      "name": "L",
+      "category": "major_required",
+      "required_count": 1,
+      "review_required": true,
+      "note": "Source heading: CONCENTRATION D: HISPANIC LANGUAGES, LINGUISTICS, AND BILINGUALISM\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by AND; Complete 1 Course\nThe four concentrations are alternatives; completing all four is not required."
+    },
+    {
+      "name": "M",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: CONCENTRATION D: HISPANIC LANGUAGES, LINGUISTICS, AND BILINGUALISM\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by AND\nThe four concentrations are alternatives; completing all four is not required."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "SPANISH 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SPAN 1"
+          ]
+        }
+      ],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 2",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SPAN 2"
+          ]
+        }
+      ],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 3",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SPAN 3"
+          ]
+        }
+      ],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 21",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 4",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SPAN 4"
+          ]
+        }
+      ],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 22",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 25",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "PORTUG 50",
+      "group": "E",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 25",
+      "group": "E",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 1",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SPAN 1"
+          ]
+        }
+      ],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 2",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SPAN 2"
+          ]
+        }
+      ],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 3",
+      "group": "G",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SPAN 3"
+          ]
+        }
+      ],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 21",
+      "group": "G",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 4",
+      "group": "H",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SPAN 4"
+          ]
+        }
+      ],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 22",
+      "group": "H",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 25",
+      "group": "I",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 1",
+      "group": "J",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SPAN 1"
+          ]
+        }
+      ],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 2",
+      "group": "J",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SPAN 2"
+          ]
+        }
+      ],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 3",
+      "group": "K",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SPAN 3"
+          ]
+        }
+      ],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 21",
+      "group": "K",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 4",
+      "group": "L",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SPAN 4"
+          ]
+        }
+      ],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 22",
+      "group": "L",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish and Portuguese"
+    },
+    {
+      "text": "SPANISH 25",
+      "group": "M",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish and Portuguese"
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-09T00:23:47.3403853",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "50e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program",
+        "groupId": "53e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>IMPORTANT:</strong> Individualized assessment is sometimes needed to determine which language or literature course/s a student is prepared to take at Berkeley. Students should check with the Department if they have any questions regarding how their courses or proficiency in Spanish language or literature relates to satisfying a requirement for this major. </p><p><br></p><p><strong>For more information</strong>:</p><p>Undergraduate Advisor </p><p>Department of Spanish and Portuguese </p><p>5317 Dwinelle Hall </p><p><a href=\"mailto:spanua@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">spanua@berkeley.edu</a> </p><p>510-642-4084 </p><p><a href=\"http://spanish-portuguese.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://spanish-portuguese.berkeley.edu</a></p>",
+        "groupId": "55e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "receiving_course_attributes": [
+      {
+        "template_cell_id": "5b4e5e62-3ed6-4923-92ca-08dec89fcd17",
+        "course": "SPANISH 25",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "Consult an adviser"
+          }
+        ]
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 276873,
+                      "courseTitle": "Elementary Spanish",
+                      "courseNumber": "1",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8c0ff866-eab0-4e32-92bb-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 358320,
+                      "courseTitle": "Elementary Spanish",
+                      "courseNumber": "2",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ca7d7181-f738-4667-92bc-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 306933,
+                      "courseTitle": "Intermediate Spanish",
+                      "courseNumber": "3",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "177674b3-08fb-4b96-92bd-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 349645,
+                      "courseTitle": "Spanish for Bilingual Students, First Course",
+                      "courseNumber": "21",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "dcbff011-39e3-4015-92be-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301184,
+                      "courseTitle": "Intermediate Spanish",
+                      "courseNumber": "4",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "65ac91ee-2753-41d9-92bf-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 262062,
+                      "courseTitle": "Spanish for Bilingual Students, Second Course",
+                      "courseNumber": "22",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ebf00a65-35de-4f0d-92c0-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "position": 2,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 163603,
+                      "courseTitle": "Reading and Analysis of Literary Texts",
+                      "courseNumber": "25",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8f4fffdd-c0a7-475e-92c1-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 3,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "124f7847-0b19-4a53-7114-08dec89fcd0b",
+          "selectionType": "Select"
+        },
+        "advisements": [],
+        "groupId": "4fe86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 358320,
+                      "courseTitle": "Elementary Spanish",
+                      "courseNumber": "2",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "af69ba12-0bae-496e-92c2-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 276873,
+                      "courseTitle": "Elementary Spanish",
+                      "courseNumber": "1",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "237786dd-b00e-4cb9-92c3-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 306933,
+                      "courseTitle": "Intermediate Spanish",
+                      "courseNumber": "3",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ead7afd3-94ba-495e-92c4-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 349645,
+                      "courseTitle": "Spanish for Bilingual Students, First Course",
+                      "courseNumber": "21",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "02b53a60-898c-4ea5-92c5-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301184,
+                      "courseTitle": "Intermediate Spanish",
+                      "courseNumber": "4",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a9c6c33d-b2d5-4a7c-92c6-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 262062,
+                      "courseTitle": "Spanish for Bilingual Students, Second Course",
+                      "courseNumber": "22",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2d4bebf0-bbd4-470d-92c7-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "position": 2,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 163603,
+                      "courseTitle": "Reading and Analysis of Literary Texts",
+                      "courseNumber": "25",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "45cbea8d-17b7-4c9e-92c8-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 3,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "067d719b-4756-4088-7115-08dec89fcd0b",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "51e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 7,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "CONCENTRATION B: THE LANGUAGES, LITERATURES, AND CULTURES OF THE PORTUGUESE-SPEAKING WORLD",
+        "groupId": "e36b7445-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "CONCENTRATION D: HISPANIC LANGUAGES, LINGUISTICS, AND BILINGUALISM",
+        "groupId": "ae6c7445-6887-ef11-8474-000d3a37e3b6",
+        "position": 6,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 373885,
+                      "courseTitle": "Intensive Portuguese for Spanish Speakers",
+                      "courseNumber": "50",
+                      "prefix": "PORTUG",
+                      "prefixParentId": 11424,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0b2bc908-8fa5-42e4-92c9-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 163603,
+                      "courseTitle": "Reading and Analysis of Literary Texts",
+                      "courseNumber": "25",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [
+                      {
+                        "position": 0,
+                        "content": "Consult an adviser"
+                      }
+                    ],
+                    "id": "5b4e5e62-3ed6-4923-92ca-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "9175b241-74c6-486f-7116-08dec89fcd0b",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "52e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 306933,
+                      "courseTitle": "Intermediate Spanish",
+                      "courseNumber": "3",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "92c5a8de-bf80-4d14-92cb-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 349645,
+                      "courseTitle": "Spanish for Bilingual Students, First Course",
+                      "courseNumber": "21",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e9802238-4d95-4051-92cc-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301184,
+                      "courseTitle": "Intermediate Spanish",
+                      "courseNumber": "4",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "71b6716b-46e2-4cd1-92cd-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 262062,
+                      "courseTitle": "Spanish for Bilingual Students, Second Course",
+                      "courseNumber": "22",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4cb96653-2cbf-402b-92ce-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Complete"
+              }
+            ],
+            "position": 2,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 163603,
+                      "courseTitle": "Reading and Analysis of Literary Texts",
+                      "courseNumber": "25",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 3.0,
+                      "maxUnits": 3.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1dda4942-2226-46ff-92cf-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 3,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 276873,
+                      "courseTitle": "Elementary Spanish",
+                      "courseNumber": "1",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f2f63d55-3324-41b9-92d0-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 358320,
+                      "courseTitle": "Elementary Spanish",
+                      "courseNumber": "2",
+                      "prefix": "SPANISH",
+                      "prefixParentId": 3168,
+                      "prefixDescription": "Spanish and Portuguese",
+                      "departmentParentId": 12337,
+                      "department": "Spanish and Portuguese",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e6d54269-19eb-47be-92d1-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "And",
+          "id": "179313eb-02e8-4c55-7117-08dec89fcd0b",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "54e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "CONCENTRATION A: THE LANGUAGES, LITERATURES, AND CULTURES OF THE SPANISH-SPEAKING WORLD",
+        "groupId": "e06b7445-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "CONCENTRATION C: LATIN AMERICAN LANGUAGES, LITERATURES, AND CULTURES",
+        "groupId": "ec6b7445-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "8c0ff866-eab0-4e32-92bb-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 276873,
+            "courseTitle": "Elementary Spanish",
+            "courseNumber": "1",
+            "prefix": "SPANISH",
+            "prefixParentId": 3168,
+            "prefixDescription": "Spanish and Portuguese",
+            "departmentParentId": 12337,
+            "department": "Spanish and Portuguese",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 254949,
+                    "courseTitle": "Elementary Spanish",
+                    "courseNumber": "1",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3151,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12334,
+                    "department": "Spanish (SPAN)",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "ca7d7181-f738-4667-92bc-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 358320,
+            "courseTitle": "Elementary Spanish",
+            "courseNumber": "2",
+            "prefix": "SPANISH",
+            "prefixParentId": 3168,
+            "prefixDescription": "Spanish and Portuguese",
+            "departmentParentId": 12337,
+            "department": "Spanish and Portuguese",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353118,
+                    "courseTitle": "Continuing Elementary Spanish",
+                    "courseNumber": "2",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3151,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12334,
+                    "department": "Spanish (SPAN)",
+                    "begin": "F2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "177674b3-08fb-4b96-92bd-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 306933,
+            "courseTitle": "Intermediate Spanish",
+            "courseNumber": "3",
+            "prefix": "SPANISH",
+            "prefixParentId": 3168,
+            "prefixDescription": "Spanish and Portuguese",
+            "departmentParentId": 12337,
+            "department": "Spanish and Portuguese",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290829,
+                    "courseTitle": "Intermediate Spanish",
+                    "courseNumber": "3",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3151,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12334,
+                    "department": "Spanish (SPAN)",
+                    "begin": "F2000",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "65ac91ee-2753-41d9-92bf-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 301184,
+            "courseTitle": "Intermediate Spanish",
+            "courseNumber": "4",
+            "prefix": "SPANISH",
+            "prefixParentId": 3168,
+            "prefixDescription": "Spanish and Portuguese",
+            "departmentParentId": 12337,
+            "department": "Spanish and Portuguese",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253772,
+                    "courseTitle": "Continuing Intermediate Spanish",
+                    "courseNumber": "4",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3151,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12334,
+                    "department": "Spanish (SPAN)",
+                    "begin": "Su2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "af69ba12-0bae-496e-92c2-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 358320,
+            "courseTitle": "Elementary Spanish",
+            "courseNumber": "2",
+            "prefix": "SPANISH",
+            "prefixParentId": 3168,
+            "prefixDescription": "Spanish and Portuguese",
+            "departmentParentId": 12337,
+            "department": "Spanish and Portuguese",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353118,
+                    "courseTitle": "Continuing Elementary Spanish",
+                    "courseNumber": "2",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3151,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12334,
+                    "department": "Spanish (SPAN)",
+                    "begin": "F2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "237786dd-b00e-4cb9-92c3-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 276873,
+            "courseTitle": "Elementary Spanish",
+            "courseNumber": "1",
+            "prefix": "SPANISH",
+            "prefixParentId": 3168,
+            "prefixDescription": "Spanish and Portuguese",
+            "departmentParentId": 12337,
+            "department": "Spanish and Portuguese",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 254949,
+                    "courseTitle": "Elementary Spanish",
+                    "courseNumber": "1",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3151,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12334,
+                    "department": "Spanish (SPAN)",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "ead7afd3-94ba-495e-92c4-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 306933,
+            "courseTitle": "Intermediate Spanish",
+            "courseNumber": "3",
+            "prefix": "SPANISH",
+            "prefixParentId": 3168,
+            "prefixDescription": "Spanish and Portuguese",
+            "departmentParentId": 12337,
+            "department": "Spanish and Portuguese",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290829,
+                    "courseTitle": "Intermediate Spanish",
+                    "courseNumber": "3",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3151,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12334,
+                    "department": "Spanish (SPAN)",
+                    "begin": "F2000",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "a9c6c33d-b2d5-4a7c-92c6-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 301184,
+            "courseTitle": "Intermediate Spanish",
+            "courseNumber": "4",
+            "prefix": "SPANISH",
+            "prefixParentId": 3168,
+            "prefixDescription": "Spanish and Portuguese",
+            "departmentParentId": 12337,
+            "department": "Spanish and Portuguese",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253772,
+                    "courseTitle": "Continuing Intermediate Spanish",
+                    "courseNumber": "4",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3151,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12334,
+                    "department": "Spanish (SPAN)",
+                    "begin": "Su2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "92c5a8de-bf80-4d14-92cb-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 306933,
+            "courseTitle": "Intermediate Spanish",
+            "courseNumber": "3",
+            "prefix": "SPANISH",
+            "prefixParentId": 3168,
+            "prefixDescription": "Spanish and Portuguese",
+            "departmentParentId": 12337,
+            "department": "Spanish and Portuguese",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 290829,
+                    "courseTitle": "Intermediate Spanish",
+                    "courseNumber": "3",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3151,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12334,
+                    "department": "Spanish (SPAN)",
+                    "begin": "F2000",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "71b6716b-46e2-4cd1-92cd-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 301184,
+            "courseTitle": "Intermediate Spanish",
+            "courseNumber": "4",
+            "prefix": "SPANISH",
+            "prefixParentId": 3168,
+            "prefixDescription": "Spanish and Portuguese",
+            "departmentParentId": 12337,
+            "department": "Spanish and Portuguese",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253772,
+                    "courseTitle": "Continuing Intermediate Spanish",
+                    "courseNumber": "4",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3151,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12334,
+                    "department": "Spanish (SPAN)",
+                    "begin": "Su2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "f2f63d55-3324-41b9-92d0-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 276873,
+            "courseTitle": "Elementary Spanish",
+            "courseNumber": "1",
+            "prefix": "SPANISH",
+            "prefixParentId": 3168,
+            "prefixDescription": "Spanish and Portuguese",
+            "departmentParentId": 12337,
+            "department": "Spanish and Portuguese",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 254949,
+                    "courseTitle": "Elementary Spanish",
+                    "courseNumber": "1",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3151,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12334,
+                    "department": "Spanish (SPAN)",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "e6d54269-19eb-47be-92d1-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 358320,
+            "courseTitle": "Elementary Spanish",
+            "courseNumber": "2",
+            "prefix": "SPANISH",
+            "prefixParentId": 3168,
+            "prefixDescription": "Spanish and Portuguese",
+            "departmentParentId": 12337,
+            "department": "Spanish and Portuguese",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353118,
+                    "courseTitle": "Continuing Elementary Spanish",
+                    "courseNumber": "2",
+                    "prefix": "SPAN",
+                    "prefixParentId": 3151,
+                    "prefixDescription": "Spanish",
+                    "departmentParentId": 12334,
+                    "department": "Spanish (SPAN)",
+                    "begin": "F2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "The four concentrations are alternatives; completing all four is not required."
+  ],
+  "calculation_review_required": true,
+  "receiving_course_titles": {
+    "SPANISH 1": "Elementary Spanish",
+    "SPANISH 2": "Elementary Spanish",
+    "SPANISH 3": "Intermediate Spanish",
+    "SPANISH 21": "Spanish for Bilingual Students, First Course",
+    "SPANISH 4": "Intermediate Spanish",
+    "SPANISH 22": "Spanish for Bilingual Students, Second Course",
+    "SPANISH 25": "Reading and Analysis of Literary Texts",
+    "PORTUG 50": "Intensive Portuguese for Spanish Speakers"
+  }
+}

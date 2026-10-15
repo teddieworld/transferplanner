@@ -464,5 +464,32 @@
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
     "Review preserved section headers; they are labels, not interpreted completion rules.",
     "Receiving cross-listed courses are preserved as aliases, not additional requirements."
-  ]
+  ],
+  "receiving_course_titles": {
+    "CHEM 1A": "General Chemistry",
+    "CHEM 1AL": "General Chemistry Laboratory",
+    "CHEM 1B": "General Chemistry",
+    "MATH 51": "Calculus I",
+    "MATH 52": "Calculus II",
+    "MATH 53": "Multivariable Calculus",
+    "MATH 54": "Linear Algebra and Differential Equations",
+    "PHYSICS 7A": "Physics for Scientists and Engineers",
+    "PHYSICS 7B": "Physics for Scientists and Engineers",
+    "CHEM 3A": "Chemical Structure and Reactivity",
+    "CHEM 3AL": "Organic Chemistry Laboratory",
+    "PHYSICS 7C": "Physics for Scientists and Engineers",
+    "COMPSCI 61A": "The Structure and Interpretation of Computer Programs",
+    "ENGIN 7": "Introduction to Computer Programming and Numerical Methods",
+    "MEC ENG 40": "Thermodynamics",
+    "ENGIN 40": "Engineering Thermodynamics",
+    "MATH 55": "Discrete Mathematics",
+    "COMPSCI 61B": "Data Structures",
+    "EL ENG 66": "Introduction to Signals, Dynamics, and Information",
+    "EL ENG 64": "Introduction to Circuits & Devices",
+    "MAT SCI 45": "Properties of Materials",
+    "MAT SCI 45L": "Properties of Materials Laboratory",
+    "CIV ENG 11": "Engineered Systems and Sustainability",
+    "CIV ENG 70": "Engineering Geology",
+    "MEC ENG C85": "Introduction to Solid Mechanics"
+  }
 }

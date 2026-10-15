@@ -1,0 +1,1330 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Ethnic Studies, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 2,
+      "review_required": true,
+      "note": "Repeated template entries for this course need review; it is counted once."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "ETH STD 11AC",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Ethnic Studies"
+    },
+    {
+      "text": "AFRICAM 4A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 35"
+          ]
+        }
+      ],
+      "department": "African American Studies"
+    },
+    {
+      "text": "AFRICAM 4B",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "African American Studies"
+    },
+    {
+      "text": "AFRICAM 5A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "African American Studies"
+    },
+    {
+      "text": "AFRICAM 5B",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "African American Studies"
+    },
+    {
+      "text": "ASAMST 20A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian American Studies"
+    },
+    {
+      "text": "ASAMST 20AC",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "review_required",
+      "note": "Repeated template entries for this course need review; it is counted once.",
+      "options": [],
+      "department": "Asian American Studies"
+    },
+    {
+      "text": "ASAMST 20B",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian American Studies"
+    },
+    {
+      "text": "ASAMST 20C",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian American Studies"
+    },
+    {
+      "text": "CHICANO 20",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Chicanx Latinx Studies"
+    },
+    {
+      "text": "CHICANO 40",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 25"
+          ]
+        }
+      ],
+      "department": "Chicanx Latinx Studies"
+    },
+    {
+      "text": "CHICANO 50",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 40"
+          ]
+        }
+      ],
+      "department": "Chicanx Latinx Studies"
+    },
+    {
+      "text": "CHICANO 70",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Chicanx Latinx Studies"
+    },
+    {
+      "text": "GWS 10",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Gender and Women's Studies"
+    },
+    {
+      "text": "GWS 14",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Gender and Women's Studies"
+    },
+    {
+      "text": "GWS 20",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Gender and Women's Studies"
+    },
+    {
+      "text": "QTP 20AC",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Queer and Trans Praxis"
+    },
+    {
+      "text": "NATAMST 20A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Native American Studies"
+    },
+    {
+      "text": "NATAMST 20B",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Native American Studies"
+    },
+    {
+      "text": "NATAMST 71",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Native American Studies"
+    },
+    {
+      "text": "NATAMST 72",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Native American Studies"
+    },
+    {
+      "text": "NATAMST C73AC",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Native American Studies"
+    },
+    {
+      "text": "Courses that satisfy the elective requirement for the Ethnic Studies major",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T23:15:02.8658853",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "36e06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program",
+        "groupId": "3ee06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The group major in <strong>Ethnic Studies</strong> provides a core curriculum designed to develop a comparative and multidisciplinary understanding of the experiences and communities of African Americans, Asian Americans, Chicano/Latinos, and Native Americans.</p><p><br></p><p>Students majoring in Ethnic Studies study the history, culture, politics, and sociology of Third World communities in the United States within the general context of American society and institutions. Thus, they pursue knowledge vital for a critical understanding of contemporary society and for social changes to improve the lives and communities of racial minorities. Ethnic studies majors also prepare themselves for advanced graduate study in either academic or professional fields.</p><p><br></p><p><strong>Lower division requirements for the Ethnic Studies major: </strong></p><p><br></p><p>ETH STD 11AC - Introduction to Ethnic Studies</p><p>Two electives from:</p><p>- African American Studies</p><p>- Asian American Studies</p><p>- Chicano Studies</p><p>- Ethnic Studies</p><p>- Gender and Women’s Studies</p><p>- LGBT Studies</p><p>- Native American Studies</p><p><br></p><p><strong>For more information contact Major Advisors: </strong></p><p><br></p><p>Dewey St. Germaine</p><p>(510) 643-6420</p><p><a href=\"mailto:deweystg@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">deweystg@berkeley.edu</a></p><p><br></p><p>Laura Jimenez-Olvera</p><p>(510) 642-0243</p><p><a href=\"mailto:lauraj@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">lauraj@berkeley.edu</a></p><p><br></p><p><a href=\"https://ethnicstudies.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://ethnicstudies.berkeley.edu/</a></p>",
+        "groupId": "3ce06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "44fc7845-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "ELECTIVES (LOWER DIVISION)",
+        "groupId": "aca77645-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 263808,
+                      "courseTitle": "Introduction to Ethnic Studies",
+                      "courseNumber": "11AC",
+                      "prefix": "ETH STD",
+                      "prefixParentId": 4008,
+                      "prefixDescription": "Ethnic Studies",
+                      "departmentParentId": 5398,
+                      "department": "Ethnic Studies",
+                      "begin": "F2020",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f763b224-3a1d-4af5-75f1-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "38e06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": true,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 155948,
+                      "courseTitle": "Cultural Politics and Practices in Asian American Communities",
+                      "courseNumber": "20C",
+                      "prefix": "ASAMST",
+                      "prefixParentId": 3321,
+                      "prefixDescription": "Asian American Studies",
+                      "departmentParentId": 1261,
+                      "department": "Asian American Studies",
+                      "begin": "F1997",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3a441a7b-62dd-41fc-75f2-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 22,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "Courses that satisfy the elective requirement for the Ethnic Studies major"
+                    },
+                    "requirementAttributes": [],
+                    "id": "b8fee983-3d17-435d-75f3-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 15,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 293852,
+                      "courseTitle": "Introduction to Feminist Theory",
+                      "courseNumber": "20",
+                      "prefix": "GWS",
+                      "prefixParentId": 11805,
+                      "prefixDescription": "Gender and Women's Studies",
+                      "departmentParentId": 6037,
+                      "department": "Gender and Women's Studies",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "066b66d9-0d7d-41d6-75f4-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 17,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 297410,
+                      "courseTitle": "Introduction to Native American Studies",
+                      "courseNumber": "20A",
+                      "prefix": "NATAMST",
+                      "prefixParentId": 2832,
+                      "prefixDescription": "Native American Studies",
+                      "departmentParentId": 9581,
+                      "department": "Native American Studies",
+                      "begin": "F2001",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8bc6116a-8c92-41af-75f5-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 282497,
+                      "courseTitle": "Africa: History and Culture",
+                      "courseNumber": "4B",
+                      "prefix": "AFRICAM",
+                      "prefixParentId": 5906,
+                      "prefixDescription": "African American Studies",
+                      "departmentParentId": 262,
+                      "department": "African American Studies",
+                      "begin": "F1993",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ba2898f2-b6d2-4150-75f6-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 16,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357923,
+                      "courseTitle": "Sexual Politics and Queer Organizing in the US",
+                      "courseNumber": "20AC",
+                      "prefix": "QTP",
+                      "prefixParentId": 15952,
+                      "prefixDescription": "Queer and Trans Praxis",
+                      "departmentParentId": 15949,
+                      "department": "Queer and Trans Praxis",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b50151bb-1025-42f8-75f7-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 286449,
+                      "courseTitle": "Asian American Communities and Race Relations",
+                      "courseNumber": "20AC",
+                      "prefix": "ASAMST",
+                      "prefixParentId": 3321,
+                      "prefixDescription": "Asian American Studies",
+                      "departmentParentId": 1261,
+                      "department": "Asian American Studies",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e71c8e07-9e13-44c6-75f8-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 351927,
+                      "courseTitle": "Africa: History and Culture",
+                      "courseNumber": "4A",
+                      "prefix": "AFRICAM",
+                      "prefixParentId": 5906,
+                      "prefixDescription": "African American Studies",
+                      "departmentParentId": 262,
+                      "department": "African American Studies",
+                      "begin": "F1993",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d4cdd9f7-12e7-4164-75f9-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 13,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296676,
+                      "courseTitle": "Introduction to Gender and Women's Studies",
+                      "courseNumber": "10",
+                      "prefix": "GWS",
+                      "prefixParentId": 11805,
+                      "prefixDescription": "Gender and Women's Studies",
+                      "departmentParentId": 6037,
+                      "department": "Gender and Women's Studies",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ad6a8240-6bac-4287-75fa-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 19,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 256850,
+                      "courseTitle": "Native Americans in North America to 1900",
+                      "courseNumber": "71",
+                      "prefix": "NATAMST",
+                      "prefixParentId": 2832,
+                      "prefixDescription": "Native American Studies",
+                      "departmentParentId": 9581,
+                      "department": "Native American Studies",
+                      "begin": "F1996",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7e1cd524-a63e-45f9-75fb-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 18,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356075,
+                      "courseTitle": "Introduction to Native American Studies II: Cultural Practice, Art, and Identity",
+                      "courseNumber": "20B",
+                      "prefix": "NATAMST",
+                      "prefixParentId": 2832,
+                      "prefixDescription": "Native American Studies",
+                      "departmentParentId": 9581,
+                      "department": "Native American Studies",
+                      "begin": "F2001",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b09f22a3-807c-4dd8-75fc-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 11,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 135441,
+                      "courseTitle": "Introduction to Chicano History",
+                      "courseNumber": "50",
+                      "prefix": "CHICANO",
+                      "prefixParentId": 4238,
+                      "prefixDescription": "Chicano Studies",
+                      "departmentParentId": 2421,
+                      "department": "Chicanx Latinx Studies",
+                      "begin": "F1995",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8c5398bc-84d8-4e62-75fd-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 14,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 265758,
+                      "courseTitle": "Gender, Sexuality, and Race in Global Political Issues",
+                      "courseNumber": "14",
+                      "prefix": "GWS",
+                      "prefixParentId": 11805,
+                      "prefixDescription": "Gender and Women's Studies",
+                      "departmentParentId": 6037,
+                      "department": "Gender and Women's Studies",
+                      "begin": "F2006",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0447652f-d409-4d38-75fe-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 21,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 373881,
+                      "courseTitle": "Indigenous Peoples in Global Inequality",
+                      "courseNumber": "C73AC",
+                      "prefix": "NATAMST",
+                      "prefixParentId": 2832,
+                      "prefixDescription": "Native American Studies",
+                      "departmentParentId": 9581,
+                      "department": "Native American Studies",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 373892,
+                          "courseTitle": "Indigenous Peoples in Global Inequality",
+                          "courseNumber": "C73AC",
+                          "prefix": "ETH STD",
+                          "prefixParentId": 4008,
+                          "prefixDescription": "Ethnic Studies",
+                          "departmentParentId": 5398,
+                          "department": "Ethnic Studies",
+                          "begin": "F2017",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ff0c4314-e64f-47e9-75ff-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 282498,
+                      "courseTitle": "Introduction to Chicano Culture",
+                      "courseNumber": "20",
+                      "prefix": "CHICANO",
+                      "prefixParentId": 4238,
+                      "prefixDescription": "Chicano Studies",
+                      "departmentParentId": 2421,
+                      "department": "Chicanx Latinx Studies",
+                      "begin": "F1993",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4e58b987-41ef-4444-7600-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 20,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 284733,
+                      "courseTitle": "Native Americans in North America 1900-Present",
+                      "courseNumber": "72",
+                      "prefix": "NATAMST",
+                      "prefixParentId": 2832,
+                      "prefixDescription": "Native American Studies",
+                      "departmentParentId": 9581,
+                      "department": "Native American Studies",
+                      "begin": "F2013",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "04e762fa-4507-4ea4-7601-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 286449,
+                      "courseTitle": "Asian American Communities and Race Relations",
+                      "courseNumber": "20AC",
+                      "prefix": "ASAMST",
+                      "prefixParentId": 3321,
+                      "prefixDescription": "Asian American Studies",
+                      "departmentParentId": 1261,
+                      "department": "Asian American Studies",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "dbfbb8ec-27e9-4013-7602-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 381485,
+                      "courseTitle": "Contemporary Issues in Asian American Communities",
+                      "courseNumber": "20B",
+                      "prefix": "ASAMST",
+                      "prefixParentId": 3321,
+                      "prefixDescription": "Asian American Studies",
+                      "departmentParentId": 1261,
+                      "department": "Asian American Studies",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1d505e6e-889f-4b70-7603-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 155950,
+                      "courseTitle": "Introduction to the History of Asians in the United States",
+                      "courseNumber": "20A",
+                      "prefix": "ASAMST",
+                      "prefixParentId": 3321,
+                      "prefixDescription": "Asian American Studies",
+                      "departmentParentId": 1261,
+                      "department": "Asian American Studies",
+                      "begin": "F1997",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bdafdda0-9126-4891-7604-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 12,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 292040,
+                      "courseTitle": "Latino Politics",
+                      "courseNumber": "70",
+                      "prefix": "CHICANO",
+                      "prefixParentId": 4238,
+                      "prefixDescription": "Chicano Studies",
+                      "departmentParentId": 2421,
+                      "department": "Chicanx Latinx Studies",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6cfd41c0-26b7-48c5-7605-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 282499,
+                      "courseTitle": "African American Life and Culture in the United States",
+                      "courseNumber": "5B",
+                      "prefix": "AFRICAM",
+                      "prefixParentId": 5906,
+                      "prefixDescription": "African American Studies",
+                      "departmentParentId": 262,
+                      "department": "African American Studies",
+                      "begin": "F1993",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4f0fd2df-9e99-4d7a-7606-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 282203,
+                      "courseTitle": "African American Life and Culture in the United States",
+                      "courseNumber": "5A",
+                      "prefix": "AFRICAM",
+                      "prefixParentId": 5906,
+                      "prefixDescription": "African American Studies",
+                      "departmentParentId": 262,
+                      "department": "African American Studies",
+                      "begin": "F1992",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "86c5a6a2-2655-427b-7607-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 281313,
+                      "courseTitle": "Introduction to Chicano Literature in English",
+                      "courseNumber": "40",
+                      "prefix": "CHICANO",
+                      "prefixParentId": 4238,
+                      "prefixDescription": "Chicano Studies",
+                      "departmentParentId": 2421,
+                      "department": "Chicanx Latinx Studies",
+                      "begin": "F1990",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3b96ee13-580f-450d-7608-08dec89fcd17",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 2.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "3ae06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "d4cdd9f7-12e7-4164-75f9-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 351927,
+            "courseTitle": "Africa: History and Culture",
+            "courseNumber": "4A",
+            "prefix": "AFRICAM",
+            "prefixParentId": 5906,
+            "prefixDescription": "African American Studies",
+            "departmentParentId": 262,
+            "department": "African American Studies",
+            "begin": "F1993",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 163442,
+                    "courseTitle": "History of Africa",
+                    "courseNumber": "35",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "8c5398bc-84d8-4e62-75fd-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 135441,
+            "courseTitle": "Introduction to Chicano History",
+            "courseNumber": "50",
+            "prefix": "CHICANO",
+            "prefixParentId": 4238,
+            "prefixDescription": "Chicano Studies",
+            "departmentParentId": 2421,
+            "department": "Chicanx Latinx Studies",
+            "begin": "F1995",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 337469,
+                    "courseTitle": "History of Mexican Americans",
+                    "courseNumber": "40",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "3b96ee13-580f-450d-7608-08dec89fcd17",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 281313,
+            "courseTitle": "Introduction to Chicano Literature in English",
+            "courseNumber": "40",
+            "prefix": "CHICANO",
+            "prefixParentId": 4238,
+            "prefixDescription": "Chicano Studies",
+            "departmentParentId": 2421,
+            "department": "Chicanx Latinx Studies",
+            "begin": "F1990",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 163408,
+                    "courseTitle": "Contemporary Mexican American Literature",
+                    "courseNumber": "25",
+                    "prefix": "LIT",
+                    "prefixParentId": 4569,
+                    "prefixDescription": "Literature",
+                    "departmentParentId": 8664,
+                    "department": "Literature (LIT)",
+                    "begin": "F2001",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "ff0c4314-e64f-47e9-75ff-08dec89fcd17",
+        "requirement": "NATAMST C73AC",
+        "aliases": [
+          "ETH STD C73AC"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "Repeated template entries for this course need review; it is counted once."
+  ],
+  "calculation_review_required": true,
+  "receiving_course_titles": {
+    "ETH STD 11AC": "Introduction to Ethnic Studies",
+    "AFRICAM 4A": "Africa: History and Culture",
+    "AFRICAM 4B": "Africa: History and Culture",
+    "AFRICAM 5A": "African American Life and Culture in the United States",
+    "AFRICAM 5B": "African American Life and Culture in the United States",
+    "ASAMST 20A": "Introduction to the History of Asians in the United States",
+    "ASAMST 20AC": "Asian American Communities and Race Relations",
+    "ASAMST 20B": "Contemporary Issues in Asian American Communities",
+    "ASAMST 20C": "Cultural Politics and Practices in Asian American Communities",
+    "CHICANO 20": "Introduction to Chicano Culture",
+    "CHICANO 40": "Introduction to Chicano Literature in English",
+    "CHICANO 50": "Introduction to Chicano History",
+    "CHICANO 70": "Latino Politics",
+    "GWS 10": "Introduction to Gender and Women's Studies",
+    "GWS 14": "Gender, Sexuality, and Race in Global Political Issues",
+    "GWS 20": "Introduction to Feminist Theory",
+    "QTP 20AC": "Sexual Politics and Queer Organizing in the US",
+    "NATAMST 20A": "Introduction to Native American Studies",
+    "NATAMST 20B": "Introduction to Native American Studies II: Cultural Practice, Art, and Identity",
+    "NATAMST 71": "Native Americans in North America to 1900",
+    "NATAMST 72": "Native Americans in North America 1900-Present",
+    "NATAMST C73AC": "Indigenous Peoples in Global Inequality"
+  }
+}

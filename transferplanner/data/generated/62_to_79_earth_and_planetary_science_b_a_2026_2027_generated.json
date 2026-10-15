@@ -1,0 +1,291 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Earth and Planetary Science, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "required",
+      "required_count": null
+    },
+    {
+      "name": "A",
+      "category": "highly_recommended",
+      "required_count": null,
+      "note": "Please refer to additional important General Information section above"
+    }
+  ],
+  "requirements": [
+    {
+      "text": "CHEM 1A AND CHEM 1AL AND CHEM 1B",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "CHEM 50",
+            "CHEM 51"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "CHEM 50H",
+            "CHEM 51H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "EPS 50",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "GEOL 1"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 51",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 180"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 52",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 181"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "PHYSICS 7A",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PHYS 4A"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "PHYSICS 7B",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PHYS 4B"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "BIOLOGY 1B",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "BIOL 2",
+            "BIOL 4"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "BIOL 2",
+            "BIOL 4H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "EPS 82",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": []
+    },
+    {
+      "text": "MATH 53",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 280"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 54",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 285"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "MATH 285"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "MATH 260",
+            "MATH 290"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "PHYSICS 7C",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PHYS 4C"
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T23:05:06.1010536",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "COLLEGE OF LETTERS AND SCIENCE",
+        "groupId": "ac70abe7-db33-40cd-bca0-01a094ba210f",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program",
+        "groupId": "6dbd64f7-4ce7-45f4-9b59-019916a1c43d",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>Fall&nbsp;2027&nbsp;Admission&nbsp;for&nbsp;this&nbsp;Major:</strong></p><p>Transfer&nbsp;students&nbsp;who&nbsp;select&nbsp;this&nbsp;major&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application&nbsp;and&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;this&nbsp;major.&nbsp;If&nbsp;you&nbsp;are&nbsp;interested&nbsp;in&nbsp;this&nbsp;major,&nbsp;it&nbsp;is&nbsp;very&nbsp;important&nbsp;to&nbsp;select&nbsp;this&nbsp;major&nbsp;on&nbsp;your&nbsp;application,&nbsp;and&nbsp;complete&nbsp;as&nbsp;many&nbsp;lower-division&nbsp;major&nbsp;requirements&nbsp;as&nbsp;possible&nbsp;prior&nbsp;to&nbsp;transfer.&nbsp;See&nbsp;details&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><strong>The&nbsp;Department&nbsp;of&nbsp;Earth&nbsp;and&nbsp;Planetary&nbsp;Science&nbsp;(EPS)</strong>&nbsp;offers&nbsp;six&nbsp;undergraduate&nbsp;specializations&nbsp;leading&nbsp;to&nbsp;a&nbsp;B.A.&nbsp;degree&nbsp;in&nbsp;one&nbsp;of&nbsp;the&nbsp;following&nbsp;specializations&nbsp;:</p><p>-&nbsp;Atmospheric&nbsp;Science;</p><p>-&nbsp;Environmental&nbsp;Earth&nbsp;Science;</p><p>-&nbsp;Geology;</p><p>-&nbsp;Geophysics;</p><p>-&nbsp;Marine&nbsp;Science;&nbsp;and</p><p>-&nbsp;Planetary&nbsp;Science.</p><p></p><p>The&nbsp;degree&nbsp;provides&nbsp;quantitative&nbsp;studies&nbsp;of&nbsp;the&nbsp;earth&nbsp;and&nbsp;is&nbsp;an&nbsp;excellent&nbsp;program&nbsp;toward&nbsp;further&nbsp;studies&nbsp;in&nbsp;graduate&nbsp;school&nbsp;or&nbsp;for&nbsp;active&nbsp;roles&nbsp;in&nbsp;environmental&nbsp;decision&nbsp;making,&nbsp;teaching&nbsp;in&nbsp;high&nbsp;schools,&nbsp;and&nbsp;for&nbsp;job&nbsp;opportunities&nbsp;requiring&nbsp;a&nbsp;basic&nbsp;understanding&nbsp;of&nbsp;natural&nbsp;sciences.</p><p></p><p><strong style=\"font-size: 16px;\">Minimum&nbsp;Admission&nbsp;Requirements&nbsp;for&nbsp;Earth&nbsp;and&nbsp;Planetary&nbsp;Science&nbsp;major</strong></p><p><strong>Complete&nbsp;the&nbsp;equivalent&nbsp;of:</strong></p><p></p><ul><li>Chemistry&nbsp;1A&nbsp;&amp;&nbsp;1AL</li><li>EPS&nbsp;50</li><li>Math&nbsp;51</li><li>Math&nbsp;52</li><li>Physics&nbsp;7A&nbsp;</li><li>Physics&nbsp;7B&nbsp;</li></ul><p></p><p><strong style=\"font-size: 16px;\">Strongly&nbsp;recommended&nbsp;prior&nbsp;to&nbsp;transfer</strong></p><p><strong>Complete&nbsp;the&nbsp;equivalent&nbsp;of&nbsp;additional&nbsp;courses&nbsp;required&nbsp;for&nbsp;specialization&nbsp;of&nbsp;interest:</strong></p><p></p><p>Atmospheric&nbsp;Science,&nbsp;Geophysics,&nbsp;and&nbsp;Planetary&nbsp;Science:</p><ul><li>Math&nbsp;53</li><li>Math&nbsp;54</li><li>Physics&nbsp;7C</li></ul><p></p><p>Marine&nbsp;Science:</p><ul><li>Biology&nbsp;1B</li><li>EPS&nbsp;82</li></ul><p></p><p>Environmental&nbsp;Earth&nbsp;Science:</p><ul><li>Biology&nbsp;1B</li></ul><p></p><p><strong style=\"font-size: 14px;\">For&nbsp;more&nbsp;information:</strong></p><p>Anna&nbsp;Atkinson,&nbsp;Undergraduate&nbsp;Major&nbsp;Advisor</p><p>Department&nbsp;of&nbsp;Earth&nbsp;and&nbsp;Planetary&nbsp;Science</p><p><a href=\"mailto:epsua@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">epsua@berkeley.edu</a></p><p><a href=\"https://eps.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://eps.berkeley.edu</a></p>",
+        "groupId": "6609913a-d280-4fa3-be74-01986124e261",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "exam credit",
+        "groupId": "455dbc51-17a9-4ec9-a9ee-019916a1c43d",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>The&nbsp;Department&nbsp;of&nbsp;Earth&nbsp;and&nbsp;Planetary&nbsp;Science&nbsp;accepts&nbsp;the&nbsp;following&nbsp;AP/IB&nbsp;exam&nbsp;scores&nbsp;and&nbsp;A-Level&nbsp;grades&nbsp;as&nbsp;course&nbsp;equivalencies&nbsp;for&nbsp;EPS&nbsp;specializations:</strong></p><p></p><p>AP&nbsp;Calc&nbsp;AB&nbsp;–&nbsp;score&nbsp;of&nbsp;3,&nbsp;4,&nbsp;5&nbsp;for&nbsp;Math&nbsp;51</p><p>AP&nbsp;Calc&nbsp;BC&nbsp;–&nbsp;score&nbsp;of&nbsp;3&nbsp;or&nbsp;4&nbsp;for&nbsp;Math&nbsp;51;&nbsp;score&nbsp;of&nbsp;5&nbsp;for&nbsp;Math&nbsp;52</p><p>AP&nbsp;Chem&nbsp;–&nbsp;score&nbsp;of&nbsp;3,&nbsp;4&nbsp;or&nbsp;5&nbsp;meets&nbsp;Chem&nbsp;1A&nbsp;and&nbsp;1AL;&nbsp;4&nbsp;or&nbsp;5&nbsp;meets&nbsp;Chem&nbsp;3A</p><p>AP&nbsp;Bio&nbsp;–&nbsp;score&nbsp;of&nbsp;4&nbsp;or&nbsp;5&nbsp;for&nbsp;Biology&nbsp;1A&nbsp;and&nbsp;1B</p><p>IB&nbsp;Math&nbsp;Higher&nbsp;Level&nbsp;(grades&nbsp;5,&nbsp;6&nbsp;or&nbsp;7)&nbsp;-&nbsp;Math&nbsp;51&nbsp;Equivalency</p><p>A-Level&nbsp;Math&nbsp;(grade&nbsp;of&nbsp;\"B\"&nbsp;or&nbsp;better&nbsp;-&nbsp;Math&nbsp;51&nbsp;Equivalency</p><p>A-Level&nbsp;Further&nbsp;Math&nbsp;(grade&nbsp;of&nbsp;\"B\"&nbsp;or&nbsp;better)&nbsp;-&nbsp;Math&nbsp;51&nbsp;&amp;&nbsp;Math&nbsp;52&nbsp;Equivalency</p><p></p><p><strong>Please&nbsp;note&nbsp;that&nbsp;each&nbsp;college/department&nbsp;may&nbsp;have&nbsp;different&nbsp;score&nbsp;requirements.</strong></p><p></p><p><strong>Questions?&nbsp;Contact</strong>&nbsp;<a href=\"mailto:epsua@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">epsua@berkeley.edu</a></p>",
+        "groupId": "912e8224-87d7-493a-b890-0198614535d5",
+        "position": 5,
+        "area": "General"
+      }
+    ],
+    "section_headers": [
+      {
+        "category": "highly_recommended",
+        "requirement_group_position": 3,
+        "header": {
+          "type": "SectionHeader",
+          "content": "ADDITIONAL CONCENTRATION PREPARATION",
+          "position": 0,
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved section headers; they are labels, not interpreted completion rules."
+  ],
+  "receiving_course_titles": {
+    "CHEM 1A": "General Chemistry",
+    "CHEM 1AL": "General Chemistry Laboratory",
+    "CHEM 1B": "General Chemistry",
+    "EPS 50": "The Planet Earth (includes lab)",
+    "MATH 51": "Calculus I",
+    "MATH 52": "Calculus II",
+    "PHYSICS 7A": "Physics for Scientists and Engineers",
+    "PHYSICS 7B": "Physics for Scientists and Engineers",
+    "BIOLOGY 1B": "General Biology (Plant Form & Function, Ecology, Evolution)",
+    "EPS 82": "Oceans",
+    "MATH 53": "Multivariable Calculus",
+    "MATH 54": "Linear Algebra and Differential Equations",
+    "PHYSICS 7C": "Physics for Scientists and Engineers"
+  }
+}

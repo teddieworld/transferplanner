@@ -1,0 +1,515 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Conservation and Resource Studies, B.S.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "required",
+      "required_count": null,
+      "note": "Please refer to additional important General Information section above"
+    },
+    {
+      "name": "B",
+      "category": "required",
+      "required_count": 1,
+      "note": "Please refer to additional important General Information section above"
+    },
+    {
+      "name": "C",
+      "category": "required",
+      "required_count": 1,
+      "note": "Please refer to additional important General Information section above"
+    },
+    {
+      "name": "A",
+      "category": "highly_recommended",
+      "required_count": 1,
+      "note": "Recommended to be completed prior to transfer\nPlease refer to additional important General Information section above"
+    },
+    {
+      "name": "B",
+      "category": "highly_recommended",
+      "required_count": 1,
+      "note": "Recommended to be completed prior to transfer\nPlease refer to additional important General Information section above"
+    },
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "Courses that satisfy Reading & Composition A",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "AMLA 1A"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ENGL C1000"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "ENGL C1000H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Courses that satisfy Reading & Composition B",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGL C1001"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ENGL C1001H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "BIOLOGY 1A AND BIOLOGY 1AL",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "BIOL 1",
+            "BIOL 2"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "BIOL 2",
+            "BIOL 4"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "BIOL 2",
+            "BIOL 4H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "BIOLOGY 1B",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "BIOL 2",
+            "BIOL 4"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "BIOL 2",
+            "BIOL 4H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Other courses that satisfy the Biology requirement for the Conservation and Resource Studies major",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "BIOL 1"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "BIOL 4"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "BIOL 4H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 16A",
+      "group": "C",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 180"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 51",
+      "group": "C",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 180"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "STAT 2",
+      "group": "C",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "STAT C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "STAT C1000H"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "PSYC 10"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "STAT C8",
+      "group": "C",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "STAT 20",
+      "group": "C",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": []
+    },
+    {
+      "text": "ESPM 2",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "ESPM 6",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "BIOL 6",
+            "BIOL 6L"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ESPM 10",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "ESPM 15",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "ESPM C46",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "ESPM 5",
+      "group": "B",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "ESPM C22AC",
+      "group": "B",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "ESPM 50AC",
+      "group": "B",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "ESPM C52",
+      "group": "B",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "ESPM 60",
+      "group": "B",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS 10"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ESPM 90",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Environmental Science, Policy, and Management"
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T23:18:17.4648297",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "RAUSSER COLLEGE OF NATURAL RESOURCES ",
+        "groupId": "d6e06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>++The&nbsp;Rausser&nbsp;College&nbsp;of&nbsp;Natural&nbsp;Resources&nbsp;(RCNR)&nbsp;admits&nbsp;students&nbsp;directly&nbsp;into&nbsp;one&nbsp;of&nbsp;its&nbsp;nine&nbsp;undergraduate&nbsp;majors&nbsp;as&nbsp;selected&nbsp;by&nbsp;the&nbsp;applicant&nbsp;at&nbsp;the&nbsp;time&nbsp;of&nbsp;application.&nbsp;Because&nbsp;Rausser&nbsp;College&nbsp;does&nbsp;not&nbsp;admit&nbsp;transfer&nbsp;students&nbsp;as&nbsp;undeclared,&nbsp;each&nbsp;individual&nbsp;major&nbsp;has&nbsp;a&nbsp;distinct&nbsp;set&nbsp;of&nbsp;transfer&nbsp;courses&nbsp;required&nbsp;as&nbsp;major&nbsp;preparation&nbsp;before&nbsp;the&nbsp;applicant&nbsp;is&nbsp;minimally&nbsp;eligible&nbsp;for&nbsp;admission.&nbsp;&nbsp;</p><p></p><p>Resources&nbsp;for&nbsp;RCNR&nbsp;transfer&nbsp;applicants:&nbsp;</p><ul><li><a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley&nbsp;Office&nbsp;of&nbsp;Undergraduate&nbsp;Admissions&nbsp;Minimum&nbsp;Requirements&nbsp;for&nbsp;Transfer&nbsp;Admission</a></li><li><a href=\"https://nature.berkeley.edu/advising/transfer-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Rausser&nbsp;College&nbsp;of&nbsp;Natural&nbsp;Resources&nbsp;Transfer&nbsp;Applicants&nbsp;page</a>&nbsp;-&nbsp;includes&nbsp;transfer&nbsp;admission&nbsp;guidelines&nbsp;specific&nbsp;to&nbsp;each&nbsp;Rausser&nbsp;College&nbsp;major,&nbsp;as&nbsp;well&nbsp;as&nbsp;additional&nbsp;information&nbsp;on&nbsp;how&nbsp;to&nbsp;submit&nbsp;a&nbsp;competitive&nbsp;application&nbsp;for&nbsp;your&nbsp;intended&nbsp;major&nbsp;</li><li><a href=\"https://nature.berkeley.edu/advising/sample-plans\" rel=\"noopener noreferrer\" target=\"_blank\">Rausser&nbsp;College&nbsp;Major&nbsp;Requirements&nbsp;and&nbsp;Sample&nbsp;Degree&nbsp;Plans</a></li><li><a href=\"https://nature.berkeley.edu/advising/meet-rausser-advisors\" rel=\"noopener noreferrer\" target=\"_blank\">Rausser&nbsp;College&nbsp;Advising&nbsp;Staff</a></li></ul>",
+        "groupId": "0ce16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program",
+        "groupId": "e3e06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p class=\"ql-align-center\"><strong>ABOUT&nbsp;THE&nbsp;CONSERVATION&nbsp;&amp;&nbsp;RESOURCE&nbsp;STUDIES&nbsp;MAJOR</strong></p><p></p><p>The&nbsp;Conservation&nbsp;and&nbsp;Resource&nbsp;Studies&nbsp;(CRS)&nbsp;major&nbsp;is&nbsp;a&nbsp;self-designed&nbsp;interdisciplinary&nbsp;program&nbsp;for&nbsp;students&nbsp;interested&nbsp;in&nbsp;environmental&nbsp;issues&nbsp;and&nbsp;areas&nbsp;of&nbsp;interaction&nbsp;among&nbsp;natural&nbsp;resources,&nbsp;population,&nbsp;energy,&nbsp;technology,&nbsp;societal&nbsp;institutions,&nbsp;and&nbsp;cultural&nbsp;values.&nbsp;Students&nbsp;draw&nbsp;on&nbsp;the&nbsp;course&nbsp;offerings&nbsp;of&nbsp;the&nbsp;entire&nbsp;campus&nbsp;and&nbsp;appropriate&nbsp;community&nbsp;resources&nbsp;in&nbsp;the&nbsp;development&nbsp;of&nbsp;individual&nbsp;programs&nbsp;of&nbsp;study.&nbsp;The&nbsp;major’s&nbsp;orientation&nbsp;is&nbsp;toward&nbsp;flexibility&nbsp;and&nbsp;an&nbsp;individualized&nbsp;educational&nbsp;approach&nbsp;to&nbsp;understanding&nbsp;the&nbsp;structure&nbsp;and&nbsp;dynamic&nbsp;functions&nbsp;of&nbsp;complex&nbsp;environmental&nbsp;systems&nbsp;within&nbsp;our&nbsp;society&nbsp;and&nbsp;biosphere.&nbsp;It&nbsp;encourages&nbsp;interaction&nbsp;among&nbsp;students,&nbsp;faculty,&nbsp;and&nbsp;community.&nbsp;The&nbsp;major’s&nbsp;offerings&nbsp;are&nbsp;designed&nbsp;to&nbsp;help&nbsp;each&nbsp;student&nbsp;formulate&nbsp;an&nbsp;area&nbsp;of&nbsp;interest,&nbsp;but&nbsp;are&nbsp;not&nbsp;in&nbsp;any&nbsp;way&nbsp;meant&nbsp;to&nbsp;limit&nbsp;the&nbsp;range&nbsp;of&nbsp;options&nbsp;available.</p><p></p><p>For&nbsp;additional&nbsp;information,&nbsp;please&nbsp;contact&nbsp;the&nbsp;Conservation&nbsp;&amp;&nbsp;Resource&nbsp;Studies&nbsp;advisor&nbsp;at&nbsp;<a href=\"mailto:crs.ugrad@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">crs.ugrad@berkeley.edu</a>.</p>",
+        "groupId": "16e16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "major requirements",
+        "groupId": "dde06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>Please&nbsp;Note:&nbsp;</strong>Applicants&nbsp;are&nbsp;expected&nbsp;to&nbsp;complete&nbsp;all&nbsp;required&nbsp;coursework&nbsp;by&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;prior&nbsp;to&nbsp;admission.&nbsp;Majors&nbsp;may&nbsp;allow&nbsp;one&nbsp;course&nbsp;pending&nbsp;in&nbsp;the&nbsp;summer&nbsp;term&nbsp;prior&nbsp;to&nbsp;admission&nbsp;if&nbsp;the&nbsp;major&nbsp;has&nbsp;more&nbsp;than&nbsp;five&nbsp;required&nbsp;courses&nbsp;and&nbsp;at&nbsp;least&nbsp;five&nbsp;courses&nbsp;of&nbsp;the&nbsp;required&nbsp;coursework&nbsp;have&nbsp;been&nbsp;completed;&nbsp;in&nbsp;this&nbsp;case,&nbsp;if&nbsp;a&nbsp;requirement&nbsp;includes&nbsp;both&nbsp;a&nbsp;lecture&nbsp;and&nbsp;lab,&nbsp;the&nbsp;lecture&nbsp;and&nbsp;lab&nbsp;together&nbsp;are&nbsp;treated&nbsp;as&nbsp;one&nbsp;course.&nbsp;Majors&nbsp;which&nbsp;require&nbsp;five&nbsp;or&nbsp;fewer&nbsp;required&nbsp;courses&nbsp;to&nbsp;transfer&nbsp;will&nbsp;not&nbsp;allow&nbsp;required&nbsp;coursework&nbsp;to&nbsp;be&nbsp;completed&nbsp;in&nbsp;the&nbsp;summer&nbsp;prior&nbsp;to&nbsp;admission.&nbsp;Please&nbsp;see&nbsp;the&nbsp;<a href=\"https://nature.berkeley.edu/advising/transfer-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Rausser&nbsp;College&nbsp;of&nbsp;Natural&nbsp;Resources&nbsp;Transfer&nbsp;Applicants&nbsp;page</a>&nbsp;for&nbsp;individual&nbsp;requirements&nbsp;by&nbsp;major.</p><p></p><p><strong>Conservation&nbsp;&amp;&nbsp;Resource&nbsp;Studies&nbsp;applicants&nbsp;have&nbsp;five&nbsp;or&nbsp;fewer&nbsp;required&nbsp;courses&nbsp;to&nbsp;complete&nbsp;prior&nbsp;to&nbsp;transfer&nbsp;and&nbsp;will&nbsp;not&nbsp;be&nbsp;allowed&nbsp;to&nbsp;complete&nbsp;a&nbsp;required&nbsp;course&nbsp;in&nbsp;the&nbsp;summer&nbsp;prior&nbsp;to&nbsp;admission.</strong></p><p></p><p></p><p><strong>To&nbsp;ensure&nbsp;full&nbsp;articulation&nbsp;of&nbsp;transfer&nbsp;coursework:&nbsp;</strong>if&nbsp;a&nbsp;series&nbsp;of&nbsp;courses&nbsp;at&nbsp;a&nbsp;community&nbsp;college&nbsp;is&nbsp;required&nbsp;(e.g.,&nbsp;Chemistry&nbsp;101&nbsp;+&nbsp;102&nbsp;+&nbsp;103&nbsp;=&nbsp;CHEM&nbsp;1A/1AL&nbsp;+&nbsp;CHEM&nbsp;1B&nbsp;at&nbsp;UC&nbsp;Berkeley),&nbsp;all&nbsp;of&nbsp;the&nbsp;courses&nbsp;in&nbsp;the&nbsp;series&nbsp;must&nbsp;be&nbsp;completed,&nbsp;and&nbsp;must&nbsp;(unless&nbsp;otherwise&nbsp;indicated)&nbsp;be&nbsp;completed&nbsp;at&nbsp;the&nbsp;same&nbsp;community&nbsp;college.&nbsp;Partial&nbsp;completion&nbsp;of&nbsp;the&nbsp;series&nbsp;(e.g.,&nbsp;two&nbsp;of&nbsp;the&nbsp;three&nbsp;required&nbsp;courses)&nbsp;may&nbsp;result&nbsp;in&nbsp;no&nbsp;credit&nbsp;toward&nbsp;the&nbsp;requirement(s),&nbsp;and&nbsp;splitting&nbsp;a&nbsp;series&nbsp;of&nbsp;courses&nbsp;between&nbsp;different&nbsp;community&nbsp;colleges&nbsp;is&nbsp;not&nbsp;guaranteed&nbsp;to&nbsp;satisfy&nbsp;the&nbsp;requirement.&nbsp;Courses&nbsp;taken&nbsp;out&nbsp;of&nbsp;series&nbsp;will&nbsp;be&nbsp;evaluated&nbsp;by&nbsp;college&nbsp;faculty&nbsp;during&nbsp;the&nbsp;transfer&nbsp;admissions&nbsp;process.&nbsp;If&nbsp;you&nbsp;have&nbsp;questions&nbsp;about&nbsp;the&nbsp;articulation&nbsp;of&nbsp;a&nbsp;series&nbsp;for&nbsp;your&nbsp;intended&nbsp;major,&nbsp;please&nbsp;email&nbsp;<a href=\"mailto:crs.ugrad@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">crs.ugrad@berkeley.edu</a>.</p><p></p><p><strong>Minimum&nbsp;Admissions&nbsp;Requirements&nbsp;in&nbsp;Conservation&nbsp;&amp;&nbsp;Resource&nbsp;Studies:</strong></p><p></p><p>Equivalent&nbsp;of:&nbsp;</p><ul><li>READING&nbsp;&amp;&nbsp;COMPOSITION&nbsp;A&nbsp;+&nbsp;READING&nbsp;&amp;&nbsp;COMPOSTION&nbsp;B&nbsp;-&nbsp;satisfied&nbsp;by&nbsp;full&nbsp;UC&nbsp;IGETC,&nbsp;or&nbsp;may&nbsp;be&nbsp;satisfied&nbsp;with&nbsp;<a href=\"https://nature.berkeley.edu/ap-ib-level-exam-equivalency-chart\" rel=\"noopener noreferrer\" target=\"_blank\">AP/IB/A-Level&nbsp;exam&nbsp;credit</a></li><li>BIOLOGY&nbsp;1A&nbsp;or&nbsp;BIOLOGY&nbsp;1B&nbsp;or&nbsp;BIOLOGY&nbsp;11&nbsp;-&nbsp;may&nbsp;be&nbsp;satisfied&nbsp;with&nbsp;<a href=\"https://nature.berkeley.edu/ap-ib-level-exam-equivalency-chart\" rel=\"noopener noreferrer\" target=\"_blank\">AP/IB/A-Level&nbsp;exam&nbsp;credit</a></li><li>MATH&nbsp;16A&nbsp;or&nbsp;MATH&nbsp;51&nbsp;or&nbsp;STAT&nbsp;2&nbsp;-&nbsp;may&nbsp;be&nbsp;satisfied&nbsp;with&nbsp;<a href=\"https://nature.berkeley.edu/ap-ib-level-exam-equivalency-chart\" rel=\"noopener noreferrer\" target=\"_blank\">AP/IB/A-Level&nbsp;exam&nbsp;credit</a></li></ul><p></p><p></p><p><strong>Highly&nbsp;Recommended&nbsp;(but&nbsp;not&nbsp;required)&nbsp;Prior&nbsp;to&nbsp;Transfer</strong></p><ul><li>Transferable&nbsp;Social&nbsp;&amp;&nbsp;Behavioral&nbsp;Sciences&nbsp;or&nbsp;International&nbsp;Studies&nbsp;breadth&nbsp;course&nbsp;-&nbsp;satisfied&nbsp;by&nbsp;full&nbsp;UC&nbsp;IGETC</li><li>Transferable&nbsp;Physical&nbsp;Science&nbsp;breadth&nbsp;course&nbsp;-&nbsp;satisfied&nbsp;by&nbsp;full&nbsp;UC&nbsp;IGETC</li><li>Transferable&nbsp;Arts&nbsp;&amp;&nbsp;Literature,&nbsp;Historical&nbsp;Studies,&nbsp;or&nbsp;Philosophy&nbsp;&amp;&nbsp;Values&nbsp;breadth&nbsp;course&nbsp;-&nbsp;satisfied&nbsp;by&nbsp;full&nbsp;UC&nbsp;IGETC</li><li>Geography,&nbsp;environmental&nbsp;biology&nbsp;or&nbsp;ecology,&nbsp;chemistry&nbsp;or&nbsp;physics&nbsp;for&nbsp;upper&nbsp;division&nbsp;preparation&nbsp;depending&nbsp;on&nbsp;Area&nbsp;of&nbsp;Interest,&nbsp;environmental&nbsp;justice/law/policy</li></ul>",
+        "groupId": "1ae16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "General"
+      }
+    ],
+    "receiving_course_attributes": [
+      {
+        "template_cell_id": "3a02de4d-b5eb-45bb-732c-08dec89fcd17",
+        "course": "BIOLOGY 1B",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "Recommended"
+          }
+        ]
+      },
+      {
+        "template_cell_id": "6aa86713-75e2-4bb7-7329-08dec89fcd17",
+        "course": "STAT 20",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "This course has a prerequisite of one semester of calculus"
+          }
+        ]
+      },
+      {
+        "template_cell_id": "d86022c7-ff69-4917-732e-08dec89fcd17",
+        "course": "ESPM 90",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "Course(s) must be taken at university"
+          }
+        ]
+      }
+    ],
+    "section_headers": [
+      {
+        "category": "required",
+        "requirement_group_position": 0,
+        "header": {
+          "type": "SectionHeader",
+          "content": "READING AND COMPOSITION REQUIREMENT",
+          "position": 0,
+          "attributes": []
+        }
+      },
+      {
+        "category": "required",
+        "requirement_group_position": 0,
+        "header": {
+          "type": "SectionHeader",
+          "content": "BIOLOGY WITH LAB",
+          "position": 2,
+          "attributes": []
+        }
+      },
+      {
+        "category": "required",
+        "requirement_group_position": 0,
+        "header": {
+          "type": "SectionHeader",
+          "content": "CALCULUS OR STATISTICS",
+          "position": 4,
+          "attributes": []
+        }
+      },
+      {
+        "category": "highly_recommended",
+        "requirement_group_position": 2,
+        "header": {
+          "type": "SectionHeader",
+          "content": "ESPM ENVIRONMENTAL SCIENCE CORE COURSE",
+          "position": 0,
+          "attributes": []
+        }
+      },
+      {
+        "category": "highly_recommended",
+        "requirement_group_position": 2,
+        "header": {
+          "type": "SectionHeader",
+          "content": "ESPM SOCIAL SCIENCE CORE COURSE",
+          "position": 2,
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+    "Review preserved section headers; they are labels, not interpreted completion rules."
+  ],
+  "receiving_course_titles": {
+    "BIOLOGY 1A": "General Biology Lecture (Cells, Genetics, Animal Form & Function)",
+    "BIOLOGY 1AL": "General Biology Laboratory",
+    "BIOLOGY 1B": "General Biology (Plant Form & Function, Ecology, Evolution)",
+    "MATH 16A": "Analytic Geometry and Calculus",
+    "MATH 51": "Calculus I",
+    "STAT 2": "Introduction to Statistics",
+    "STAT C8": "Foundations of Data Science",
+    "STAT 20": "Introduction to Probability and Statistics",
+    "ESPM 2": "The Biosphere",
+    "ESPM 6": "Environmental Biology",
+    "ESPM 10": "Environmental Issues",
+    "ESPM 15": "Introduction to Environmental Sciences",
+    "ESPM C46": "Climate Change and the Future of California",
+    "ESPM 5": "From Farm to Table: Food Systems in a Changing World",
+    "ESPM C22AC": "Fire: Past, Present and Future Interactions with the People and Ecosystems of California",
+    "ESPM 50AC": "Introduction to Culture and Natural Resource Management",
+    "ESPM C52": "History of Native American Land, Colonialism, and Heritage Preservation",
+    "ESPM 60": "Environmental Policy, Administration, and Law",
+    "ESPM 90": "Introduction to Conservation and Resource Studies Major"
+  }
+}

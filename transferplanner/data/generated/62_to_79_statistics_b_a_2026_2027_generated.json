@@ -1,0 +1,333 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Statistics, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "required",
+      "required_count": 1,
+      "note": "Please refer to additional important General Information section above"
+    },
+    {
+      "name": "A",
+      "category": "highly_recommended",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "highly_recommended",
+      "required_count": 1,
+      "note": "Please refer to additional important General Information section above"
+    },
+    {
+      "name": "C",
+      "category": "highly_recommended",
+      "required_count": 1
+    },
+    {
+      "name": "D",
+      "category": "highly_recommended",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "MATH 51",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 180"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 52",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 181"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 53",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 280"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 54",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 285"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "MATH 285"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "MATH 260",
+            "MATH 290"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 56",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "MATH 53",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 280"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 54",
+      "group": "B",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 285"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "MATH 285"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "MATH 260",
+            "MATH 290"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 56",
+      "group": "B",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "STAT 20",
+      "group": "C",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": []
+    },
+    {
+      "text": "DATA C8",
+      "group": "C",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "STAT 2",
+      "group": "D",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "STAT C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "STAT C1000H"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "PSYC 10"
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-09T00:26:16.1244732",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "COLLEGE OF COMPUTING, DATA SCIENCE, AND SOCIETY",
+        "groupId": "48b36845-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE ADMISSION REQUIREMENTS FOR TRANSFER STUDENTS&nbsp;</strong></p><p><br></p><p><strong>THIS MAJOR IS OFFERED BY THE COLLEGE OF COMPUTING, DATA SCIENCE, AND SOCIETY (CDSS)&nbsp;</strong></p><p><br></p><p>Completion of Essential Skills requirements (Computational Reasoning, Human and Social Dynamics of Data</p><p>and Technology, Statistical Reasoning, and Reading and Composition) and&nbsp;Cal-GETC/IGETC are not a</p><p>requirement for admission; however, completion of both is&nbsp;<strong><em>strongly recommended&nbsp;</em></strong>prior to enrollment at</p><p>UC Berkeley to ensure timely degree progress. If course equivalencies are not available at your community college,</p><p>you must plan to take these courses at UC Berkeley.</p><p><br></p><p>To understand the&nbsp;CDSS&nbsp;College Requirements, including essential skills, visit:</p><p><a href=\"https://cdss.berkeley.edu/academics/college-degree-requirements-and-policies#section-el-degree-requirements-1\" rel=\"noopener noreferrer\" target=\"_blank\">https://cdss.berkeley.edu/academics/college-degree-requirements-and-policies#section-el-degree-requirements-1</a></p><p><br></p><p><strong>By the end of the spring term preceding fall enrollment at Berkeley, you must complete</strong>:&nbsp;</p><p><br></p><ol><li><a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">The 7-course pattern</a> (as found in the UC Transfer Admission Eligibility Courses Menu in ASSIST):</li><li>Two transferable courses in English composition;</li><li>One transferable course in mathematical concepts and quantitative reasoning;</li><li>Four transferable college courses chosen from at least two of the following subject areas:</li><li class=\"ql-indent-1\">arts and humanities</li><li class=\"ql-indent-1\">social and behavioral sciences</li><li class=\"ql-indent-1\">physical and biological sciences</li></ol><p><br></p><p>AND&nbsp;</p><p><br></p><p><strong>All required courses as noted by your intended major below.&nbsp;</strong></p><p><strong>Only applicants who have completed 100% of all items above will be considered for admission.</strong></p><p><strong>Additional completion of highly recommended courses will serve to strengthen the application.&nbsp;</strong></p><p><br></p><p><strong>For more information on admission to UC Berkeley</strong>:&nbsp;</p><p><a href=\"https://admissions.berkeley.edu&nbsp;\" rel=\"noopener noreferrer\" target=\"_blank\">https://admissions.berkeley.edu&nbsp;</a></p><p><br></p><p><strong>For specific information on transfer admission to UC Berkeley:</strong></p><p><a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/transfer-requirements/\" rel=\"noopener noreferrer\" target=\"_blank\">https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/transfer-requirements/</a>&nbsp;</p><p><br></p><p><strong>For more information on majors at UC Berkeley</strong>:&nbsp;</p><p><a href=\"https://undergraduate.catalog.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://undergraduate.catalog.berkeley.edu/</a></p><p><br></p>",
+        "groupId": "69db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program ",
+        "groupId": "43e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Statisticians help to design data collection plans, analyze data appropriately and interpret and draw conclusions from those analyses. Berkeley’s Statistics major is especially focused on training students in state-of-the-art methods and preparing them to critically engage with the rapidly evolving and proliferating applications of data analysis in science, industry, government and many other domains. Students in the major can expect to learn the fundamentals of probability theory, statistical reasoning and inferential methods, statistical computing, statistical modeling and its limitations; and will develop skills in description, interpretation and exploratory analysis of data by graphical and other means.</p><p><br></p><p><strong>For more information on this major visit:</strong></p><p><a href=\"https://statistics.berkeley.edu/academics/undergrad/prospective\" rel=\"noopener noreferrer\" target=\"_blank\">https://statistics.berkeley.edu/academics/undergrad/prospective</a></p><p><br></p><p><strong>General contact information:</strong></p><p>367 Evans Hall (Main Office), UC Berkeley</p><p><a href=\"mailto:stat-ugrad@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">stat-ugrad@berkeley.edu</a></p><p>(510) 644-5335 or (510) 643-6131</p>",
+        "groupId": "44e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "important major information",
+        "groupId": "45e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>Required Courses for Admission </strong></p><p><br></p><ul><li>MATH 51 Calculus I</li><li>MATH 52 Calculus II</li></ul><p><br></p><p>One course from:</p><p><br></p><ul><li>MATH 53 Multivariable Calculus (minimum C)</li><li>MATH 54 Linear Algebra &amp; Differential Equationsn -or- MATH 56 - Linear Algebra (minimum C)</li></ul><p><br></p><p>NOTE: Statistics does not require full equivalence to Math 54 and will accept just the Linear Algebra course of an articulated Math 54-equivalent series.</p><p><br></p><p><strong>Highly Recommended Courses</strong></p><p><br></p><p>Completing BOTH Math 53 and Math 54/56 prior to transfer can best prepare a student for the Statistics major.</p><p><br></p><ul><li>MATH 53 Multivariable Calculus (minimum C)</li><li>MATH 54 Linear Algebra &amp; Differential Equations -or- MATH 56 - Linear Algebra (minimum C).</li></ul><p><br></p><p>NOTE: Statistics does not require full equivalence to Math 54 and will accept just the Linear Algebra course of an articulated Math 54-equivalent series.</p><p><br></p><p>One course from:</p><p><br></p><ul><li>STAT 20 Introduction to Probability and Statistics (minimum C)</li></ul><p class=\"ql-indent-1\"><br></p><ul><li>DATA/COMPSCI/INFO/STAT/C8 Foundations of Data Science (minimum C)</li></ul><p class=\"ql-indent-1\"><br></p><ul><li class=\"ql-indent-2\">If no course articulates to STAT 20 or DATA C8, students preparing for the Statistics major may consider taking <strong>STAT 2 - Introduction to Statistics.</strong></li></ul><p class=\"ql-indent-1\"><br></p><ul><li class=\"ql-indent-2\">Most California Community Colleges do not offer an equivalent course to STAT 20 or DATA C8. Taking STAT 2 can be helpful in understanding the discipline and can demonstrate an interest in the field.</li></ul><p class=\"ql-indent-2\"><br></p><ul><li class=\"ql-indent-2\">Because STAT 20 and DATA C8 include additional topics such as programming, causality and machine learning, transfer students are still expected to enroll in STAT 20 or DATA C8 during their first semester at Berkeley if they have not taken the equivalent at their community college.</li></ul><p><br></p><p><br></p><p>Students must earn a minimum 2.0 Grade Point Average in MATH 51, MATH 52, MATH 53, MATH 54/56 and one from STAT 20 or DATA C8 with no lower than a C in MATH 53, MATH 54/56, and either STAT 20 or DATA C8.</p>",
+        "groupId": "46e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "exam credit",
+        "groupId": "47e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 6,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<ul><li>The Statistics Department defers to the <a href=\"https://math.berkeley.edu/courses/choosing/high-school-exam-credits\" rel=\"noopener noreferrer\" target=\"_blank\">Mathematics Department’s evaluation</a> of course equivalence to the pre-major math requirements.</li></ul><p><br></p><ul><li class=\"ql-indent-1\">MATH 51 can be satisfied with a score of 3, 4, or 5 on the AP Calculus AB Exam; or a score of 3 or 4 on the AP Calculus BC Exam.</li></ul><p class=\"ql-indent-1\"><br></p><ul><li class=\"ql-indent-1\">MATH 52 can be satisfied with a score of 5 on the AP Calculus BC Exam.</li></ul><p class=\"ql-indent-1\"><br></p><ul><li class=\"ql-indent-1\">See the <a href=\"https://math.berkeley.edu/courses/overview/high-school-exam-credits\" rel=\"noopener noreferrer\" target=\"_blank\">Mathematics Department guidelines</a> for A-Level and IB Exam scores needed to waive out of MATH 1A and MATH 1B.</li></ul><p><br></p><ul><li>A score of 3, 4, or 5 on the AP Statistics Exam can satisfy STAT 2. This does not satisfy the lower division Statistics requirement met by STAT 20 or DATA C8 but can demonstrate an interest in the field.</li></ul>",
+        "groupId": "48e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 7,
+        "area": "General"
+      }
+    ],
+    "receiving_course_attributes": [
+      {
+        "template_cell_id": "e1dd4386-fd08-4865-92b6-08dec89fcd17",
+        "course": "STAT 20",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "This course has a prerequisite of one semester of calculus"
+          }
+        ]
+      },
+      {
+        "template_cell_id": "9bd39b46-cc95-4f0f-92b8-08dec89fcd17",
+        "course": "STAT 2",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "Recommended; Not required for admission"
+          }
+        ]
+      }
+    ],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "87cdff61-0a4a-482f-92b7-08dec89fcd17",
+        "requirement": "DATA C8",
+        "aliases": [
+          "STAT C8",
+          "COMPSCI C8",
+          "INFO C8"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+  ],
+  "receiving_course_titles": {
+    "MATH 51": "Calculus I",
+    "MATH 52": "Calculus II",
+    "MATH 53": "Multivariable Calculus",
+    "MATH 54": "Linear Algebra and Differential Equations",
+    "MATH 56": "Linear Algebra",
+    "STAT 20": "Introduction to Probability and Statistics",
+    "DATA C8": "Foundations of Data Science",
+    "STAT 2": "Introduction to Statistics"
+  }
+}

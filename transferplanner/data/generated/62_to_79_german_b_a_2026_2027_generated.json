@@ -95,5 +95,11 @@
   "review_required": true,
   "review_notes": [
     "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
-  ]
+  ],
+  "receiving_course_titles": {
+    "GERMAN 1": "Elementary German 1",
+    "GERMAN 2": "Elementary German 2",
+    "GERMAN 3": "Intermediate German I",
+    "GERMAN 4": "Intermediate German II"
+  }
 }

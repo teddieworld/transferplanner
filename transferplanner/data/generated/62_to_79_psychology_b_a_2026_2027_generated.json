@@ -1,0 +1,578 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Psychology, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": 1
+    },
+    {
+      "name": "D",
+      "category": "major_required",
+      "required_count": 1
+    }
+  ],
+  "requirements": [
+    {
+      "text": "PSYCH 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PSYC C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "PSYC C1000H"
+          ]
+        }
+      ],
+      "department": "Psychology"
+    },
+    {
+      "text": "ANTHRO 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ANTH 1"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ANTH 1H"
+          ]
+        }
+      ],
+      "department": "Anthropology"
+    },
+    {
+      "text": "BIOLOGY 1A AND BIOLOGY 1AL",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "BIOL 1",
+            "BIOL 2"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "BIOL 2",
+            "BIOL 4"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "BIOL 2",
+            "BIOL 4H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "INTEGBI 31",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Integrative Biology"
+    },
+    {
+      "text": "MCELLBI 32 AND MCELLBI 32L",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ANAT 36"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "PSYCH C61",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PSYC 1B"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "PSYC 1BH"
+          ]
+        }
+      ],
+      "department": "Psychology"
+    },
+    {
+      "text": "ANTHRO 3",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ANTH 5"
+          ]
+        }
+      ],
+      "department": "Anthropology"
+    },
+    {
+      "text": "LINGUIS 5",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Linguistics"
+    },
+    {
+      "text": "PHILOS 3",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 4",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 5",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 12A",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 25B",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "POL SCI 1",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "POLS C1000H"
+          ]
+        }
+      ],
+      "department": "Political Science"
+    },
+    {
+      "text": "POL SCI 2",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS 2"
+          ]
+        }
+      ],
+      "department": "Political Science"
+    },
+    {
+      "text": "POL SCI 4",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS 5"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "POLS 7"
+          ]
+        }
+      ],
+      "department": "Political Science"
+    },
+    {
+      "text": "SOCIOL 1",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SOC 1"
+          ]
+        }
+      ],
+      "department": "Sociology"
+    },
+    {
+      "text": "SOCIOL 3AC",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Sociology"
+    },
+    {
+      "text": "MATH 51",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 180"
+          ]
+        }
+      ],
+      "department": "Mathematics"
+    },
+    {
+      "text": "MATH 52",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 181"
+          ]
+        }
+      ],
+      "department": "Mathematics"
+    },
+    {
+      "text": "MATH 10A",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Mathematics"
+    },
+    {
+      "text": "MATH 10B",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Mathematics"
+    },
+    {
+      "text": "MATH 54",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 285"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "MATH 285"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "MATH 260",
+            "MATH 290"
+          ]
+        }
+      ],
+      "department": "Mathematics"
+    },
+    {
+      "text": "MATH 55",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "CSCI 190"
+          ]
+        }
+      ],
+      "department": "Mathematics"
+    },
+    {
+      "text": "STAT 2",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "STAT C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "STAT C1000H"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "PSYC 10"
+          ]
+        }
+      ],
+      "department": "Statistics"
+    },
+    {
+      "text": "STAT 20",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "Statistics"
+    },
+    {
+      "text": "STAT 21",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "Statistics"
+    },
+    {
+      "text": "STAT C8",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Statistics"
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T23:26:24.1994093",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "eddd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "requirements",
+        "groupId": "efdd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>PREPARATION&nbsp;FOR&nbsp;TRANSFER&nbsp;AT&nbsp;THE&nbsp;JUNIOR&nbsp;LEVEL</strong></p><p></p><p><strong>Admission&nbsp;to&nbsp;UC&nbsp;Berkeley&nbsp;with&nbsp;the&nbsp;stated&nbsp;intent&nbsp;to&nbsp;major&nbsp;in&nbsp;Psychology&nbsp;does&nbsp;not&nbsp;guarantee&nbsp;acceptance&nbsp;into&nbsp;the&nbsp;major</strong>.&nbsp;</p><p>A&nbsp;departmental&nbsp;application&nbsp;is&nbsp;required&nbsp;and&nbsp;prerequisites&nbsp;must&nbsp;be&nbsp;met.&nbsp;Completion&nbsp;of&nbsp;Cal-GETC/IGETC&nbsp;certification&nbsp;does&nbsp;not&nbsp;correspond&nbsp;to&nbsp;the&nbsp;completion&nbsp;of&nbsp;the&nbsp;lower-division&nbsp;prerequisites&nbsp;required&nbsp;by&nbsp;the&nbsp;Psychology&nbsp;major.</p><p></p><p>Psychology&nbsp;Major&nbsp;Declaration&nbsp;Requirements&nbsp;for&nbsp;Transfer&nbsp;Students:</p><p></p><p>1.&nbsp;Complete&nbsp;all&nbsp;prerequisite&nbsp;courses&nbsp;as&nbsp;outlined&nbsp;below&nbsp;with&nbsp;a&nbsp;satisfactory&nbsp;letter&nbsp;grade,&nbsp;and&nbsp;maintain&nbsp;a&nbsp;minimum&nbsp;2.0&nbsp;average&nbsp;GPA&nbsp;in&nbsp;the&nbsp;prerequisite&nbsp;courses.</p><p></p><p>2.&nbsp;Of&nbsp;the&nbsp;five&nbsp;prerequisites,&nbsp;at&nbsp;least&nbsp;four&nbsp;must&nbsp;be&nbsp;satisfied&nbsp;with&nbsp;letter-graded&nbsp;courses&nbsp;taken&nbsp;at&nbsp;the&nbsp;college&nbsp;level.&nbsp;<strong>One&nbsp;</strong>may&nbsp;be&nbsp;satisfied&nbsp;with&nbsp;an&nbsp;AP&nbsp;or&nbsp;IBHL&nbsp;exam&nbsp;as&nbsp;indicated&nbsp;below.</p><p></p><p>3.&nbsp;Transfer&nbsp;students&nbsp;who&nbsp;apply&nbsp;by&nbsp;the&nbsp;first&nbsp;day&nbsp;of&nbsp;instruction&nbsp;of&nbsp;the&nbsp;2nd&nbsp;semester,&nbsp;or&nbsp;prior&nbsp;to&nbsp;the&nbsp;accumulation&nbsp;of&nbsp;79&nbsp;units&nbsp;or&nbsp;less,&nbsp;whichever&nbsp;comes&nbsp;second,&nbsp;are&nbsp;guaranteed&nbsp;admission&nbsp;to&nbsp;the&nbsp;major.&nbsp;</p><p>Summer&nbsp;Sessions&nbsp;do&nbsp;not&nbsp;apply.&nbsp;Major&nbsp;declaration&nbsp;information&nbsp;and&nbsp;forms&nbsp;are&nbsp;available&nbsp;on&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;Psychology&nbsp;website.</p><p></p><p>4.&nbsp;Most&nbsp;transfer&nbsp;students&nbsp;complete&nbsp;the&nbsp;majority&nbsp;of&nbsp;their&nbsp;lower-division&nbsp;prerequisite&nbsp;courses&nbsp;prior&nbsp;to&nbsp;Berkeley.&nbsp;However,&nbsp;transfer&nbsp;students&nbsp;may&nbsp;fulfill&nbsp;the&nbsp;remaining&nbsp;prerequisites&nbsp;during&nbsp;their&nbsp;first&nbsp;semester&nbsp;at&nbsp;UC&nbsp;Berkeley.</p><p></p><p>5.&nbsp;Students&nbsp;must&nbsp;enroll&nbsp;in&nbsp;Psych&nbsp;101&nbsp;\"Research&nbsp;and&nbsp;Data&nbsp;Analysis&nbsp;in&nbsp;Psychology\"&nbsp;during&nbsp;their&nbsp;first&nbsp;semester&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;be&nbsp;eligible&nbsp;to&nbsp;declare&nbsp;the&nbsp;major&nbsp;before&nbsp;their&nbsp;second&nbsp;semester.&nbsp;This&nbsp;class&nbsp;is&nbsp;an&nbsp;upper&nbsp;division&nbsp;course&nbsp;specific&nbsp;to&nbsp;the&nbsp;Psychology&nbsp;major&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;and&nbsp;is&nbsp;different&nbsp;from&nbsp;other&nbsp;Psychology&nbsp;research&nbsp;method&nbsp;courses&nbsp;you&nbsp;may&nbsp;have&nbsp;previously&nbsp;taken.</p><p></p><p><strong>Psychology&nbsp;1&nbsp;</strong></p><p>The&nbsp;Psychology&nbsp;1&nbsp;requirement&nbsp;may&nbsp;also&nbsp;be&nbsp;satisfied&nbsp;by&nbsp;a&nbsp;score&nbsp;of&nbsp;4&nbsp;or&nbsp;better&nbsp;on&nbsp;the&nbsp;AP&nbsp;Psychology&nbsp;exam&nbsp;or&nbsp;a&nbsp;score&nbsp;of&nbsp;5&nbsp;or&nbsp;better&nbsp;on&nbsp;the&nbsp;IBHL&nbsp;exam.</p><p></p><p><strong>BIOLOGICAL&nbsp;SCIENCE:&nbsp;One&nbsp;course&nbsp;</strong></p><p>If&nbsp;enrollment&nbsp;in&nbsp;a&nbsp;lab&nbsp;is&nbsp;optional,&nbsp;the&nbsp;lab&nbsp;is&nbsp;not&nbsp;required&nbsp;for&nbsp;this&nbsp;major.</p><p></p><p>The&nbsp;Biological&nbsp;Science&nbsp;requirement&nbsp;may&nbsp;be&nbsp;satisfied&nbsp;by&nbsp;a&nbsp;score&nbsp;of&nbsp;4&nbsp;or&nbsp;5&nbsp;in&nbsp;the&nbsp;AP&nbsp;Biology&nbsp;exam&nbsp;or&nbsp;a&nbsp;score&nbsp;of&nbsp;5&nbsp;or&nbsp;better&nbsp;on&nbsp;the&nbsp;IBHL&nbsp;exam.</p><p></p><p><strong>SOCIAL&nbsp;SCIENCE:&nbsp;One&nbsp;course&nbsp;</strong></p><p>The&nbsp;Social&nbsp;Science&nbsp;requirement&nbsp;may&nbsp;be&nbsp;satisfied&nbsp;by&nbsp;a&nbsp;score&nbsp;of&nbsp;4&nbsp;or&nbsp;5&nbsp;on&nbsp;the&nbsp;AP&nbsp;US&nbsp;Government&nbsp;or&nbsp;Comparative&nbsp;Government&nbsp;exam.</p><p></p><p><strong>QUANTITATIVE:&nbsp;One&nbsp;course&nbsp;</strong></p><p>The&nbsp;Psychology&nbsp;major&nbsp;does&nbsp;not&nbsp;accept&nbsp;AP&nbsp;or&nbsp;IBHL&nbsp;credits&nbsp;to&nbsp;fulfill&nbsp;any&nbsp;of&nbsp;the&nbsp;Quantitative&nbsp;requirements.</p><p></p><p><strong>PSYCHOLOGY&nbsp;RESEARCH&nbsp;&amp;&nbsp;DATA:&nbsp;One&nbsp;course&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;</strong></p><p>Psych&nbsp;101&nbsp;(Research&nbsp;and&nbsp;Data&nbsp;Analysis)&nbsp;must&nbsp;be&nbsp;taken&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;the&nbsp;summer&nbsp;before&nbsp;or&nbsp;during&nbsp;the&nbsp;first&nbsp;semester.</p><p></p><p><strong>NOTE</strong>:&nbsp;Different&nbsp;options&nbsp;may&nbsp;be&nbsp;available&nbsp;for&nbsp;satisfying&nbsp;certain&nbsp;requirements.&nbsp;Consult&nbsp;with&nbsp;the&nbsp;advisor&nbsp;in&nbsp;the&nbsp;Psychology&nbsp;department.</p><p></p><p><strong>For&nbsp;more&nbsp;information:&nbsp;</strong></p><p>For&nbsp;more&nbsp;information&nbsp;regarding&nbsp;applying&nbsp;to&nbsp;the&nbsp;major&nbsp;during&nbsp;your&nbsp;first&nbsp;semester&nbsp;at&nbsp;UC&nbsp;Berkeley,&nbsp;please&nbsp;see&nbsp;<a href=\"http://psychology.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://psychology.berkeley.edu</a>&nbsp;or&nbsp;contact&nbsp;an&nbsp;undergraduate&nbsp;adviser&nbsp;at&nbsp;<a href=\"mailto:psychsso@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">psychsso@berkeley.edu</a>.</p>",
+        "groupId": "f1dd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "receiving_course_attributes": [
+      {
+        "template_cell_id": "74efa9e3-918d-462d-6cdb-08dec89fcd17",
+        "course": "PSYCH 1",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "An AP exam may be used to satisfy this course requirement"
+          },
+          {
+            "position": 1,
+            "content": "An IB exam may be used to satisfy this course requirement"
+          }
+        ]
+      },
+      {
+        "template_cell_id": "d56d29c9-872a-4c80-6cf4-08dec89fcd17",
+        "course": "STAT 20",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "This course has a prerequisite of one semester of calculus"
+          }
+        ]
+      },
+      {
+        "template_cell_id": "ea67fadf-3932-418b-6cf2-08dec89fcd17",
+        "course": "STAT 21",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "This course has a prerequisite of one semester of calculus"
+          }
+        ]
+      }
+    ],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "788a4d61-299c-4439-6cdc-08dec89fcd17",
+        "requirement": "PSYCH C61",
+        "aliases": [
+          "NEU C61"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+  ],
+  "receiving_course_titles": {
+    "PSYCH 1": "General Psychology",
+    "ANTHRO 1": "Introduction to Biological Anthropology",
+    "BIOLOGY 1A": "General Biology Lecture (Cells, Genetics, Animal Form & Function)",
+    "BIOLOGY 1AL": "General Biology Laboratory",
+    "INTEGBI 31": "The Ecology and Evolution of Animal Behavior",
+    "MCELLBI 32": "Introduction to Human Physiology",
+    "MCELLBI 32L": "Introduction to Human Physiology Laboratory",
+    "PSYCH C61": "Brain, Mind, and Behavior",
+    "ANTHRO 3": "Introduction to Social and Cultural Anthropology",
+    "LINGUIS 5": "Language and Linguistics",
+    "PHILOS 3": "The Nature of Mind",
+    "PHILOS 4": "Knowledge and Its Limits",
+    "PHILOS 5": "Science and Human Understanding",
+    "PHILOS 12A": "Introduction to Logic",
+    "PHILOS 25B": "Modern Philosophy",
+    "POL SCI 1": "Introduction to American Politics",
+    "POL SCI 2": "Introduction to Comparative Politics",
+    "POL SCI 4": "Introduction to Political Theory",
+    "SOCIOL 1": "Introduction to Sociology",
+    "SOCIOL 3AC": "Principles of Sociology",
+    "MATH 51": "Calculus I",
+    "MATH 52": "Calculus II",
+    "MATH 10A": "Methods of Mathematics: Calculus, Statistics, and Combinatorics",
+    "MATH 10B": "Methods of Mathematics: Calculus, Statistics, and Combinatorics",
+    "MATH 54": "Linear Algebra and Differential Equations",
+    "MATH 55": "Discrete Mathematics",
+    "STAT 2": "Introduction to Statistics",
+    "STAT 20": "Introduction to Probability and Statistics",
+    "STAT 21": "Introductory Probability and Statistics for Business",
+    "STAT C8": "Foundations of Data Science"
+  }
+}

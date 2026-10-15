@@ -1,9 +1,9 @@
 # Articulation response conversion
 
-The current parser reads an ASSIST JSON response exported from the browser's
-Network panel. It converts the six saved Berkeley samples into the normalized
-agreement format. It does not download other
-agreements or write to PostgreSQL.
+The parser reads ASSIST JSON responses captured from the browser and converts
+them into the planner's agreement format. All 95 saved Mt. SAC → Berkeley
+2026–2027 agreements now generate files. Conversion does not download data or
+write to PostgreSQL; source notes and unresolved completion rules require review.
 
 ## Capture an agreement automatically
 
@@ -68,9 +68,9 @@ agreement responses.
 
 Live discovery found 95 Mt. SAC → Berkeley major agreements for academic-year ID
 77 (2026–2027). A three-major browser test saved two responses and skipped an
-existing capture with zero failures. The entire 95-agreement download has not
-been run as part of that verification; new requirement structures may still need
-converter support after collection.
+existing capture with zero failures. The subsequent full collection saved 88
+responses and skipped seven valid existing captures; all 95 are present in the
+raw folder.
 
 Run from the repository root:
 
@@ -83,7 +83,7 @@ python3 -m unittest discover -s transferplanner/scraper/tests -v
 The first argument selects the raw input file; the second selects the output
 file. Both are required, and they must refer to different files. The output
 directory must already exist. Each command converts one agreement; it stops
-before writing if the response contains unsupported rules. Reviewed preparation
+before writing if the response contains unreviewed unsupported rules. Reviewed preparation
 rules are loaded relative to the script, independently of the working directory.
 
 ## Folder conversion
@@ -101,7 +101,9 @@ is an error.
 
 `batch_report.json` in the output folder records each input file, its conversion
 status, output path, and either review notes or an error type/message. It also
-counts successful conversions, failures, and converted agreements needing review.
+counts successful conversions, failures, converted agreements needing review,
+and agreements with groups blocked from automatic completion
+(`calculation_review_required`).
 A bad response or output-file error is recorded and processing continues with the
 next file. The command exits with status 1 if any file failed, or 0 if all converted.
 A configuration/input-folder error exits with status 2.
@@ -110,6 +112,58 @@ A failed file has no successful output listed in the report. An older output fro
 a previous run may still exist; use the current report to identify successful
 results. Successful conversion preserves source notes for review and does not
 mean an agreement is ready to import. Folder mode does not import database rows.
+
+The collected 95-agreement Berkeley 2026–2027 dataset converts **95 agreements
+with zero failures**. All 95 preserve guidance requiring review. **31 agreements
+contain at least one group whose completion cannot be evaluated automatically**;
+this includes American Studies' existing introductory-course ambiguity. These
+groups have `review_required: true` and cannot be marked satisfied even when
+every listed course is checked. Unresolved individual mappings use the distinct
+`articulation_status: "review_required"`, rather than claiming there is no
+articulation. The Python and frontend planners retain this distinction.
+
+`data/reviewed_agreement_profiles.json` binds additional headings, untitled
+admission groups, sequence alternatives, and review-group handling to the exact
+major, institution IDs, academic year, publication, and SHA-256 digests of the
+template and mapping data. Changed source content requires another review.
+Ambiguous concentration choices, area constraints, unit totals, program variants,
+and inconsistencies remain non-evaluable; they are not converted into complete-all
+requirements. Their full native templates and mappings are retained under
+`source.native_requirements` and `source.native_articulations`.
+
+Cognitive Science's
+`REQUIRED COURSES` title is classified as admission preparation using
+`data/reviewed_heading_rules.json`: the rule checks the major, institution IDs,
+academic year, publication timestamp, and exact instruction in the source text.
+This does not make the same ambiguous heading valid for other agreements.
+
+Complete-all advisements (`CompleteFollowing`, `CompleteAllCourses`), integral
+course/row/course-combination counts, and course selections are supported.
+Unit totals are not treated as course counts. Known informational notes on
+headers, sections, and groups are retained. An explicit `No Course Articulated`
+or `This Course is Never Articulated` without sending options remains unmapped;
+an explicit university-only reason remains a separate status.
+
+`reviewed_templates.py` compiles the specifically reviewed calculus/physics
+sequence alternatives and compound OR sections into complete sending-course
+combinations. For example, Economics requires a full MATH 51/52 or 16A/16B
+sequence, not one calculus course. Political Science's additional requirement
+retains POL SCI 3 **or both** DATA C8 and POL SCI 88. Original transformed
+structures are retained under `source.reviewed_template_transformations`.
+The Data Science MATH 54 preparation exception is separately scoped in
+`reviewed_preparation_rules.json`; it does not change full equivalence or the
+Mathematics major's rules.
+
+For future sources outside the reviewed profiles, `--batch --include-review`
+optionally saves semantic conversion failures as distinct `kind: "review_required"`
+packages in `<output>/_review/`. They retain the complete original agreement and
+a readable requirement tree. The report lists them as `blocked`, not converted,
+and the CLI still exits with status 1. The importer rejects these packages before
+issuing SQL. Malformed responses and I/O failures remain failures.
+
+All 95 generated outputs have been tested through an isolated PostgreSQL schema,
+with every test change rolled back. Their referenced courses exist in the saved
+Mt. SAC catalog. This verification does not import them into the live planner.
 
 The original manually entered agreement stays unchanged for comparison. The
 generated core reproduces its three groups, eight requirements, course options,
@@ -124,16 +178,15 @@ alternatives), explicitly linked OR course alternatives, and whole-course
 section counts. It also accepts complete-all `Following` groups and single sections
 without a group instruction. OR between sections containing one course each becomes
 one normalized group with `required_count: 1`; alternatives containing several rows
-or section advisements are rejected because they need a nested model.
-Unrecognized relationships, headings, overrides, and unsupported
-structures raise errors for review rather than being flattened into simpler rules.
+or section advisements need a publication-bound transformation or a non-evaluable
+review group. Unknown sources still raise errors rather than being flattened.
 
 `SectionHeader` items are preserved under `source.section_headers` for review.
 Recognized headings such as `REQUIRED FOR ADMISSION` set the category for following
 sections within their group, overriding a broader degree-requirement heading.
 They do not create requirement groups;
 the actual `Section` items beneath them are still processed. Unknown section
-types and headers carrying attributes or completion rules are rejected.
+types and unreviewed headers carrying additional completion rules are rejected.
 
 Named `Requirement` cells use their source names, including Reading & Composition
 A/B. Receiving `Series` cells must contain courses joined by AND. A series becomes
