@@ -1,0 +1,9 @@
+# Credentials are configured in Vercel, never uploaded with application files.
+.env*
+.vercel
+.next
+node_modules
+.test-build
+coverage
+*.tsbuildinfo
+.DS_Store

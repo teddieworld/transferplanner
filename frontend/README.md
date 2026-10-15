@@ -168,6 +168,98 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Production: https://transferplanner-teddiesboat.vercel.app
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The `transferplanner` Vercel project belongs to the `teddiesboat` scope and is
+connected to `teddieworld/transferplanner` on GitHub. Its root directory is
+`frontend`, its framework is Next.js, and its production branch is `main`.
+It hosts the app and connects to the populated Neon production database. The
+production domain is public; Standard Protection keeps preview and generated
+deployment URLs behind Vercel sign-in.
+
+To publish an update, save the changes, commit them, and push to `main` on GitHub.
+Vercel then builds the pushed commit and updates the production domain when the
+deployment succeeds. A local commit alone does not publish anything, and
+uncommitted files are not included in Git-triggered deployments. Build status
+and logs appear in the Vercel project's Deployments page.
+
+The first deployment was uploaded with the CLI. Its hosting and database changes
+still need to be included in the next Git commit before pushing, particularly
+`lib/db.ts`, `package.json`, `package-lock.json`, and `vercel.json`. Keep environment
+files and `.vercel` out of Git. `.vercelignore` also excludes credentials,
+dependencies, and local build output from CLI uploads. `vercel.json` selects
+Next.js and the Portland (`pdx1`) function region near the Neon database.
+
+Vercel has production-only `DATABASE_URL` (Secret) and `DATABASE_TRANSPORT=tcp`
+(Config). Local development uses its own ignored `frontend/.env.local`, including
+the HTTPS transport fallback where needed. Avoid overwriting that file when
+pulling Vercel environment variables; pull into a separate file and merge any
+needed settings.
+
+Verify the public deployment with the existing read-only tests:
+
+```sh
+TRANSFERPLANNER_TEST_URL=https://transferplanner-teddiesboat.vercel.app npm run test:api
+```
+
+### Setting up another deployment
+
+The website and PostgreSQL database must both be hosted for the planner to work
+when your laptop is off. Vercel runs the Next.js page and API routes; Neon can
+host a copy of the existing PostgreSQL database.
+
+1. Create a Neon PostgreSQL project and copy the local database into its empty
+   database using `pg_dump` / `pg_restore`. Include the schema, catalog, agreements,
+   and metadata. Use a direct (unpooled) connection for database migration.
+2. Import this GitHub repository into Vercel. Set **Root Directory** to
+   `frontend` and use the **Next.js** framework preset and default build settings.
+3. Add Neon's pooled, SSL-enabled connection string as the server environment
+   variable `DATABASE_URL` in Vercel. Keep the connection string private; do not
+   prefix it with `NEXT_PUBLIC_` or put it in Git. Local `PGHOST=/tmp` settings
+   belong only on your laptop.
+4. Deploy and verify `/api/universities`, `/api/courses`, and the complete planner
+   flow at the generated Vercel URL. A successful build alone does not confirm
+   that the hosted database is populated and reachable.
+
+`lib/db.ts` uses `DATABASE_URL` when supplied and otherwise uses the existing
+local `PG*` environment variables. See `.env.example` for placeholder settings.
+Database migration is a separate step from deployment; Vercel does not copy
+your laptop's PostgreSQL database when it builds the repository.
+
+See [Vercel monorepo setup](https://vercel.com/docs/monorepos) and
+[Neon's PostgreSQL migration guide](https://neon.com/docs/import/migrate-from-postgres).
+
+### Neon CLI and agent tooling
+
+The repository root contains `neon.ts`, its config dependencies, and project
+agent skills in `.agents/skills`. The local `.neon` link and environment files
+are ignored by Git. The Neon Codex plugin supplies the MCP server through OAuth;
+do not install a second MCP entry when that plugin is already enabled.
+
+After signing in with `neon login`, run these commands from the repository root:
+
+```sh
+neon config plan
+neon deploy
+neon env pull --service postgres --file frontend/.env.local
+npm run build
+```
+
+`neon deploy` pulls environment variables beside the root `.neon` file. The final
+`env pull` also writes them to the Next.js app's own environment file, preserving
+its other settings. Keep `DATABASE_URL` on the server; it must not be a
+`NEXT_PUBLIC_` variable. Root npm scripts delegate to `frontend`; install its
+dependencies separately with `npm --prefix frontend ci`.
+
+The default connection uses `pg` and Vercel's database-pool lifecycle helper.
+For a Neon environment where outbound port 5432 is unavailable, set
+`DATABASE_TRANSPORT=http` in `frontend/.env.local`. This opts into Neon's HTTPS
+driver while preserving the same parameterized queries and result format.
+Omit that setting to continue using TCP. HTTPS supports the independent read
+queries used by these route handlers; session-based migrations should still use
+the direct connection when available.
+
+Production builds use Webpack because Turbopack's helper process cannot bind a
+port in the restricted local execution environment. `npm test`, `npm run lint`,
+and `npm run test:api` are also available from the repository root. API tests use
+`TRANSFERPLANNER_TEST_URL` to select the running server.
