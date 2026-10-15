@@ -1,0 +1,115 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Celtic Studies, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "CELTIC 15",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Celtic Studies"
+    },
+    {
+      "text": "CELTIC 85",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Celtic Studies"
+    },
+    {
+      "text": "CELTIC 16",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Celtic Studies"
+    },
+    {
+      "text": "CELTIC 86",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Celtic Studies"
+    },
+    {
+      "text": "CELTIC 70",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Celtic Studies"
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-09T00:34:39.529096",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "bee76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "Program",
+        "groupId": "bae76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The major in Celtic Studies is designed to give students both a broad understanding of the place of Celtic languages and cultures in the world and a firm grounding in one or more of the Celtic languages with an innovative linkage of language and literature-in-translation courses intended to allow students maximum flexibility in pursuing their programs in addition to cultural studies courses in mythology, folklore, historical studies, and Medieval studies.</p><p><br></p><p>In addition to three semesters of language study, students will be required to organize their major coursework with reference to one other methodological or disciplinary area chosen from Anthropology, History, Comparative Literature, Linguistics, Medieval Studies, History, Scandinavian, or another related language, literature, or cultural studies course.</p><p><br></p><p><strong>For more information on this major:</strong></p><p>The Program in Celtic Studies</p><p><a href=\"https://celtic.berkeley.edu/ \" rel=\"noopener noreferrer\" target=\"_blank\">https://celtic.berkeley.edu/</a><a href=\"http://celtic.berkeley.edu/ \" rel=\"noopener noreferrer\" target=\"_blank\"> </a></p><p>Undergraduate Student Services Advisor</p><p><a href=\"mailto:issaug@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">issaug@berkeley.edu</a></p><p>(510) 642-4661</p>",
+        "groupId": "bfe76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "important major information",
+        "groupId": "bbe76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong><u>PREPARATION&nbsp;FOR&nbsp;TRANSFER&nbsp;AT&nbsp;THE&nbsp;JUNIOR&nbsp;LEVEL:</u></strong></p><p></p><p>Prerequisites&nbsp;for&nbsp;this&nbsp;major&nbsp;are&nbsp;not&nbsp;offered&nbsp;at&nbsp;California&nbsp;community&nbsp;colleges.&nbsp;Students&nbsp;will&nbsp;be&nbsp;admitted&nbsp;to&nbsp;the&nbsp;Celtic&nbsp;Studies&nbsp;major&nbsp;without&nbsp;the&nbsp;3&nbsp;prerequisites,&nbsp;as&nbsp;it&nbsp;is&nbsp;possible&nbsp;to&nbsp;complete&nbsp;all&nbsp;requirements&nbsp;for&nbsp;this&nbsp;major&nbsp;upon&nbsp;admission&nbsp;to&nbsp;UC&nbsp;Berkeley.</p><p></p><p>Students&nbsp;who&nbsp;are&nbsp;interested&nbsp;in&nbsp;Celtic&nbsp;Studies&nbsp;may&nbsp;be&nbsp;interested&nbsp;in&nbsp;classes&nbsp;in&nbsp;these&nbsp;disciplines&nbsp;as&nbsp;preparation&nbsp;before&nbsp;admission:&nbsp;modern&nbsp;languages,&nbsp;literature,&nbsp;history,&nbsp;classics/mythology,&nbsp;anthropology,&nbsp;art&nbsp;history,&nbsp;linguistics,&nbsp;religious&nbsp;studies,&nbsp;medieval&nbsp;studies.</p><p></p><p>Students&nbsp;who&nbsp;have&nbsp;a&nbsp;prior&nbsp;background&nbsp;in&nbsp;their&nbsp;proposed&nbsp;target&nbsp;language&nbsp;(modern&nbsp;Irish&nbsp;or&nbsp;Welsh)&nbsp;may&nbsp;take&nbsp;a&nbsp;language&nbsp;proficiency&nbsp;test&nbsp;or&nbsp;consult&nbsp;with&nbsp;the&nbsp;language&nbsp;instructor&nbsp;for&nbsp;placement&nbsp;in&nbsp;the&nbsp;correct&nbsp;language&nbsp;course&nbsp;level.</p><p></p><p>Transfer&nbsp;students&nbsp;who&nbsp;select&nbsp;Celtic&nbsp;Studies&nbsp;on&nbsp;their&nbsp;UC&nbsp;Berkeley&nbsp;application&nbsp;are&nbsp;automatically&nbsp;declared&nbsp;and&nbsp;do&nbsp;not&nbsp;need&nbsp;to&nbsp;take&nbsp;any&nbsp;other&nbsp;action&nbsp;to&nbsp;join&nbsp;the&nbsp;major.&nbsp;Any&nbsp;courses&nbsp;required&nbsp;for&nbsp;declaration&nbsp;that&nbsp;are&nbsp;not&nbsp;completed&nbsp;prior&nbsp;to&nbsp;transfer&nbsp;must&nbsp;be&nbsp;completed&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;graduate.</p><p></p><p>To&nbsp;ensure&nbsp;a&nbsp;smooth&nbsp;transition&nbsp;and&nbsp;help&nbsp;you&nbsp;plan&nbsp;your&nbsp;coursework&nbsp;effectively,&nbsp;all&nbsp;admitted&nbsp;transfer&nbsp;students&nbsp;should&nbsp;meet&nbsp;with&nbsp;our&nbsp;undergraduate&nbsp;advisor&nbsp;shortly&nbsp;after&nbsp;admission.&nbsp;This&nbsp;meeting&nbsp;will&nbsp;help&nbsp;you&nbsp;develop&nbsp;a&nbsp;program&nbsp;plan&nbsp;to&nbsp;complete&nbsp;your&nbsp;major&nbsp;requirements&nbsp;and&nbsp;stay&nbsp;on&nbsp;track&nbsp;for&nbsp;graduation.&nbsp;You&nbsp;will&nbsp;receive&nbsp;information&nbsp;on&nbsp;how&nbsp;to&nbsp;schedule&nbsp;this&nbsp;meeting,&nbsp;either&nbsp;through&nbsp;Golden&nbsp;Bear&nbsp;Advising&nbsp;program&nbsp;or&nbsp;an&nbsp;email&nbsp;from&nbsp;the&nbsp;advisor,&nbsp;before&nbsp;the&nbsp;start&nbsp;of&nbsp;your&nbsp;first&nbsp;semester.</p><p></p><p><strong><u>REQUIRED&nbsp;FOR&nbsp;ADMISSION:&nbsp;</u></strong></p><p></p><p>No&nbsp;transfer&nbsp;courses&nbsp;are&nbsp;required&nbsp;for&nbsp;admission;&nbsp;all&nbsp;coursework&nbsp;to&nbsp;complete&nbsp;the&nbsp;major&nbsp;can&nbsp;be&nbsp;done&nbsp;at&nbsp;UC&nbsp;Berkeley.</p>",
+        "groupId": "bce76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "General"
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

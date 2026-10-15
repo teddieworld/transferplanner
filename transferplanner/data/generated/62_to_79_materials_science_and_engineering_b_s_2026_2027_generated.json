@@ -1,0 +1,340 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Materials Science and Engineering, B.S.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "required",
+      "required_count": null
+    },
+    {
+      "name": "A",
+      "category": "highly_recommended",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "CHEM 1A AND CHEM 1AL AND CHEM 1B",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "CHEM 50",
+            "CHEM 51"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "CHEM 50H",
+            "CHEM 51H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 51",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 180"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 52",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 181"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 53",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 280"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 54",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 285"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "MATH 285"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "MATH 260",
+            "MATH 290"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "PHYSICS 7A",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PHYS 4A"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "PHYSICS 7B",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PHYS 4B"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "PHYSICS 7C",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PHYS 4C"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Courses that satisfy Reading & Composition A",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "AMLA 1A"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ENGL C1000"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "ENGL C1000H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Courses that satisfy Reading & Composition B",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGL C1001"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ENGL C1001H"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ENGIN 7",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 7"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MAT SCI 45 AND MAT SCI 45L",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 8"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MEC ENG C85",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 40",
+            "ENGR 42"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ENGIN 40",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "COMPSCI C8",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T22:52:47.501427",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "college of engineering junior transfer admission requirements",
+        "groupId": "20d96f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Admission&nbsp;to&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<strong>College&nbsp;of&nbsp;Engineering</strong>&nbsp;is&nbsp;highly&nbsp;competitive.</p><p></p><p>Applicants&nbsp;to&nbsp;the&nbsp;<strong>Materials&nbsp;Science&nbsp;and&nbsp;Engineering</strong>&nbsp;major&nbsp;must&nbsp;complete&nbsp;all&nbsp;required&nbsp;core&nbsp;UCB&nbsp;preparation&nbsp;courses&nbsp;in&nbsp;order&nbsp;to&nbsp;be&nbsp;eligible&nbsp;for&nbsp;admission.&nbsp;Only&nbsp;applicants&nbsp;who&nbsp;have&nbsp;completed&nbsp;100%&nbsp;of&nbsp;these&nbsp;required&nbsp;courses&nbsp;will&nbsp;be&nbsp;considered&nbsp;for&nbsp;admission.&nbsp;Required&nbsp;courses&nbsp;for&nbsp;admission&nbsp;to&nbsp;the&nbsp;major&nbsp;must&nbsp;be&nbsp;completed&nbsp;by&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;semester&nbsp;prior&nbsp;to&nbsp;fall&nbsp;enrollment.&nbsp;<strong>A&nbsp;summer&nbsp;2027&nbsp;course&nbsp;is&nbsp;not&nbsp;considered&nbsp;to&nbsp;be&nbsp;\"work&nbsp;in&nbsp;progress\"&nbsp;for&nbsp;the&nbsp;fall&nbsp;2027&nbsp;selection&nbsp;process.</strong>&nbsp;</p><p></p><p>If&nbsp;a&nbsp;series&nbsp;of&nbsp;courses&nbsp;at&nbsp;a&nbsp;community&nbsp;college&nbsp;is&nbsp;required&nbsp;(e.g.,&nbsp;Chemistry&nbsp;101&nbsp;+&nbsp;102&nbsp;+&nbsp;103=Chemistry&nbsp;A&nbsp;and&nbsp;B),&nbsp;all&nbsp;the&nbsp;courses&nbsp;in&nbsp;the&nbsp;series&nbsp;must&nbsp;be&nbsp;completed,&nbsp;and&nbsp;must&nbsp;(unless&nbsp;otherwise&nbsp;indicated)&nbsp;be&nbsp;completed&nbsp;at&nbsp;the&nbsp;same&nbsp;community&nbsp;college.&nbsp;Partial&nbsp;completion&nbsp;(e.g.,&nbsp;2&nbsp;of&nbsp;the&nbsp;3&nbsp;required&nbsp;courses)&nbsp;will&nbsp;result&nbsp;in&nbsp;zero&nbsp;credit&nbsp;toward&nbsp;the&nbsp;requirement(s),&nbsp;and&nbsp;the&nbsp;applicant&nbsp;will&nbsp;<strong>NOT</strong>&nbsp;be&nbsp;considered&nbsp;for&nbsp;admission.&nbsp;The&nbsp;only&nbsp;exception&nbsp;to&nbsp;the&nbsp;series&nbsp;rule&nbsp;is&nbsp;Math&nbsp;54.</p><p>If&nbsp;Math&nbsp;54&nbsp;is&nbsp;split&nbsp;into&nbsp;two&nbsp;different&nbsp;courses,&nbsp;one&nbsp;covering&nbsp;linear&nbsp;algebra&nbsp;and&nbsp;one&nbsp;covering&nbsp;differential&nbsp;equations,&nbsp;we&nbsp;strongly&nbsp;encourage&nbsp;applicants&nbsp;to&nbsp;take&nbsp;both&nbsp;courses&nbsp;at&nbsp;the&nbsp;same&nbsp;community&nbsp;college;&nbsp;however,&nbsp;the&nbsp;College&nbsp;of&nbsp;Engineering&nbsp;will&nbsp;accept&nbsp;linear&nbsp;algebra&nbsp;from&nbsp;one&nbsp;California&nbsp;community&nbsp;college&nbsp;and&nbsp;differential&nbsp;equations&nbsp;from&nbsp;a&nbsp;different&nbsp;California&nbsp;community&nbsp;college.</p><p></p><p>Lower&nbsp;division&nbsp;UC&nbsp;Berkeley&nbsp;courses&nbsp;required&nbsp;for&nbsp;graduation&nbsp;(but&nbsp;not&nbsp;admission)&nbsp;are&nbsp;also&nbsp;listed&nbsp;in&nbsp;the&nbsp;major&nbsp;agreements&nbsp;and&nbsp;are&nbsp;strongly&nbsp;recommended&nbsp;to&nbsp;be&nbsp;taken&nbsp;to&nbsp;strengthen&nbsp;one's&nbsp;application.&nbsp;The&nbsp;more&nbsp;of&nbsp;these&nbsp;courses&nbsp;completed,&nbsp;the&nbsp;stronger&nbsp;the&nbsp;application&nbsp;will&nbsp;be.</p><p></p><p><strong>Required&nbsp;core&nbsp;courses&nbsp;for&nbsp;admission:&nbsp;(all&nbsp;these&nbsp;courses&nbsp;must&nbsp;be&nbsp;completed&nbsp;to&nbsp;be&nbsp;considered&nbsp;for&nbsp;admission)</strong></p><p>-&nbsp;UCB&nbsp;CHEM&nbsp;1A/1AL;&nbsp;1B</p><p>-&nbsp;UCB&nbsp;MATH&nbsp;51;&nbsp;52;&nbsp;53;&nbsp;54</p><p>-&nbsp;UCB&nbsp;PHYSICS&nbsp;7A;&nbsp;7B;&nbsp;7C</p><p>-&nbsp;UCB&nbsp;READING&nbsp;COMPOSITION&nbsp;A;&nbsp;B</p><p></p><p><strong>Strongly&nbsp;recommended&nbsp;courses:&nbsp;(if&nbsp;your&nbsp;college&nbsp;offers&nbsp;the&nbsp;courses&nbsp;listed&nbsp;below&nbsp;and&nbsp;they&nbsp;are&nbsp;articulated,&nbsp;taking&nbsp;them&nbsp;will&nbsp;strengthen&nbsp;your&nbsp;application)&nbsp;</strong>If&nbsp;no&nbsp;articulation,&nbsp;students&nbsp;are&nbsp;strongly&nbsp;encouraged&nbsp;to&nbsp;take&nbsp;a&nbsp;course&nbsp;in&nbsp;statics&nbsp;AND&nbsp;a&nbsp;course&nbsp;in&nbsp;Computer&nbsp;Programming.</p><p>-&nbsp;UCB&nbsp;ENGIN&nbsp;7</p><p>-&nbsp;UCB&nbsp;MAT&nbsp;SCI&nbsp;45/45L</p><p>-&nbsp;UCB&nbsp;MEC&nbsp;ENG&nbsp;C85/CIV&nbsp;ENG&nbsp;C30</p><p>-&nbsp;UCB&nbsp;ENGIN&nbsp;40</p><p>-&nbsp;UCB&nbsp;COMPSCI&nbsp;C8</p><p></p><p>Admission&nbsp;is&nbsp;primarily&nbsp;based&nbsp;on&nbsp;the&nbsp;completeness&nbsp;of&nbsp;the&nbsp;applicant's&nbsp;lower&nbsp;division&nbsp;preparation&nbsp;and&nbsp;the&nbsp;level&nbsp;of&nbsp;academic&nbsp;achievement&nbsp;reflected&nbsp;in&nbsp;the&nbsp;student's&nbsp;grade&nbsp;point&nbsp;average.&nbsp;The&nbsp;UC&nbsp;applicant&nbsp;essay&nbsp;also&nbsp;plays&nbsp;an&nbsp;important&nbsp;role&nbsp;in&nbsp;the&nbsp;selection&nbsp;process&nbsp;at&nbsp;UC&nbsp;Berkeley.&nbsp;The&nbsp;College&nbsp;reviews&nbsp;the&nbsp;essay&nbsp;for&nbsp;evidence&nbsp;of&nbsp;interest&nbsp;in&nbsp;the&nbsp;student's&nbsp;chosen&nbsp;field&nbsp;and&nbsp;a&nbsp;thoughtful&nbsp;match&nbsp;between&nbsp;the&nbsp;academic&nbsp;program&nbsp;and&nbsp;the&nbsp;student's&nbsp;academic&nbsp;and&nbsp;career&nbsp;objectives.</p><p></p><p>The&nbsp;College&nbsp;of&nbsp;Engineering&nbsp;requires&nbsp;six&nbsp;humanities/social&nbsp;science&nbsp;courses,&nbsp;two&nbsp;of&nbsp;which&nbsp;must&nbsp;be&nbsp;reading&nbsp;and&nbsp;composition.&nbsp;The&nbsp;only&nbsp;non-technical&nbsp;admission&nbsp;requirement&nbsp;for&nbsp;the&nbsp;College&nbsp;of&nbsp;Engineering&nbsp;is&nbsp;the&nbsp;coursework&nbsp;equivalent&nbsp;to&nbsp;UC&nbsp;Berkeley's&nbsp;Reading&nbsp;and&nbsp;Composition&nbsp;A&nbsp;and&nbsp;B,&nbsp;which&nbsp;must&nbsp;be&nbsp;taken&nbsp;for&nbsp;a&nbsp;letter&nbsp;grade.&nbsp;The&nbsp;College&nbsp;of&nbsp;Engineering&nbsp;<strong>does&nbsp;not&nbsp;recognize&nbsp;the&nbsp;Intersegmental&nbsp;General&nbsp;Education&nbsp;Transfer&nbsp;Curriculum&nbsp;(Cal-GETC/IGETC)&nbsp;and&nbsp;strongly&nbsp;discourages&nbsp;students&nbsp;</strong>from&nbsp;following&nbsp;this&nbsp;option&nbsp;due&nbsp;to&nbsp;the&nbsp;number&nbsp;of&nbsp;major-specific&nbsp;technical&nbsp;courses&nbsp;required&nbsp;for&nbsp;engineering&nbsp;transfer&nbsp;admission.</p><p></p><p><strong>NOTE:</strong>&nbsp;The&nbsp;Reading&nbsp;and&nbsp;Composition&nbsp;requirements&nbsp;<u>cannot&nbsp;</u>be&nbsp;satisfied&nbsp;by&nbsp;Cal-GETC/IGETC;&nbsp;applicants&nbsp;must&nbsp;complete&nbsp;the&nbsp;specific&nbsp;courses&nbsp;indicated&nbsp;as&nbsp;Reading&nbsp;and&nbsp;Composition&nbsp;A&nbsp;and&nbsp;B&nbsp;equivalents&nbsp;to&nbsp;be&nbsp;considered&nbsp;for&nbsp;admission.&nbsp;Failure&nbsp;to&nbsp;complete&nbsp;the&nbsp;exact&nbsp;courses&nbsp;listed&nbsp;will&nbsp;mean&nbsp;the&nbsp;applicant&nbsp;will&nbsp;NOT&nbsp;be&nbsp;considered&nbsp;for&nbsp;admission.&nbsp;The&nbsp;remaining&nbsp;four&nbsp;humanities/social&nbsp;science&nbsp;requirement&nbsp;courses&nbsp;are&nbsp;not&nbsp;considered&nbsp;for&nbsp;admission&nbsp;purposes&nbsp;but&nbsp;are&nbsp;required&nbsp;for&nbsp;graduation.&nbsp;See&nbsp;<a href=\"http://coe.berkeley.edu/hssreq\" rel=\"noopener noreferrer\" target=\"_blank\">http://engineering.berkeley.edu/hss</a>&nbsp;for&nbsp;the&nbsp;College&nbsp;of&nbsp;Engineering&nbsp;humanities/social&nbsp;science&nbsp;breadth&nbsp;requirements&nbsp;and&nbsp;courses.&nbsp;Courses&nbsp;which&nbsp;are&nbsp;three&nbsp;semester&nbsp;units&nbsp;or&nbsp;more&nbsp;that&nbsp;appear&nbsp;in&nbsp;the&nbsp;following&nbsp;categories&nbsp;on&nbsp;the&nbsp;\"General&nbsp;Education/Breadth\"&nbsp;section&nbsp;of&nbsp;<a href=\"http://assist.org/\" rel=\"noopener noreferrer\" target=\"_blank\">assist.org</a>&nbsp;may&nbsp;be&nbsp;used&nbsp;to&nbsp;satisfy&nbsp;two&nbsp;of&nbsp;the&nbsp;remaining&nbsp;four&nbsp;humanities/social&nbsp;science&nbsp;course&nbsp;requirements&nbsp;for&nbsp;the&nbsp;College&nbsp;of&nbsp;Engineering.&nbsp;ARTS&nbsp;AND&nbsp;LITERATURE;&nbsp;HISTORICAL&nbsp;STUDIES;&nbsp;INTERNATIONAL&nbsp;STUDIES&nbsp;PHILOSOPHY&nbsp;AND&nbsp;VALUES;&nbsp;SOCIAL&nbsp;AND&nbsp;BEHAVIORAL&nbsp;SCIENCES.&nbsp;Additionally,&nbsp;courses&nbsp;that&nbsp;teach&nbsp;a&nbsp;foreign&nbsp;language&nbsp;may&nbsp;be&nbsp;used&nbsp;to&nbsp;satisfy&nbsp;this&nbsp;requirement.</p><p></p><p>SAT/ACT/A-level&nbsp;test&nbsp;scores&nbsp;and&nbsp;letters&nbsp;of&nbsp;recommendation&nbsp;are&nbsp;NOT&nbsp;considered&nbsp;for&nbsp;admission.</p><p></p><p><strong>NOTE:&nbsp;ALL&nbsp;REQUIRED&nbsp;COURSES&nbsp;AND&nbsp;ALL&nbsp;STRONGLY&nbsp;RECOMMENDED&nbsp;COURSES&nbsp;FOR&nbsp;THE&nbsp;MAJOR&nbsp;MUST&nbsp;BE&nbsp;TAKEN&nbsp;FOR&nbsp;A&nbsp;LETTER&nbsp;GRADE.&nbsp;FOR&nbsp;MORE&nbsp;INFORMATION,&nbsp;PLEASE&nbsp;CHECK&nbsp;THE&nbsp;COLLEGE'S&nbsp;WEB&nbsp;SITE&nbsp;FOR&nbsp;THE&nbsp;<u>COLLEGE&nbsp;OF&nbsp;ENGINEERING&nbsp;UNDERGRADUATE&nbsp;GUIDE</u>.&nbsp;</strong></p><p></p><p><strong>For&nbsp;more&nbsp;information:&nbsp;</strong></p><p><a href=\"http://engineering.berkeley.edu/admissions/undergraduate-admissions\" rel=\"noopener noreferrer\" target=\"_blank\">http://engineering.berkeley.edu/admissions/undergraduate-admissions</a></p><p></p><p><strong>College&nbsp;of&nbsp;Engineering&nbsp;Undergraduate&nbsp;Guide:&nbsp;</strong></p><p><a href=\"http://engineering.berkeley.edu/academics/undergraduate-guide\" rel=\"noopener noreferrer\" target=\"_blank\">http://engineering.berkeley.edu/academics/undergraduate-guide</a></p><p></p><p><strong>For&nbsp;more&nbsp;information&nbsp;on&nbsp;Materials&nbsp;Science&nbsp;&amp;&nbsp;Engineering:</strong></p><p><a href=\"http://www.mse.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://www.mse.berkeley.edu</a></p><p></p><p><strong>For&nbsp;more&nbsp;information&nbsp;on&nbsp;admission&nbsp;to&nbsp;UC&nbsp;Berkeley:&nbsp;</strong></p><p><a href=\"http://admissions.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://admissions.berkeley.edu&nbsp;</a></p><p></p><p><strong>For&nbsp;more&nbsp;information&nbsp;on&nbsp;majors&nbsp;at&nbsp;UC&nbsp;Berkeley:</strong></p><p><a href=\"https://undergraduate.catalog.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://undergraduate.catalog.berkeley.edu/</a></p>",
+        "groupId": "40d96f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "TEST CREDIT",
+        "groupId": "1fd96f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "Some Advanced Placement, International Baccalaureate, and A-Level exams can fulfill requirements in the College of Engineering. For details, please see <a target=\"_blank\" href=\"https://engineering.berkeley.edu/students/undergraduate-guide/exams/\">https://engineering.berkeley.edu/students/undergraduate-guide/exams/</a>. \n",
+        "groupId": "21d96f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "section_headers": [
+      {
+        "category": "required",
+        "requirement_group_position": 1,
+        "header": {
+          "type": "SectionHeader",
+          "content": "READING AND COMPOSITION REQUIREMENT",
+          "position": 1,
+          "attributes": []
+        }
+      }
+    ],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "5dec4a7e-6ce1-4795-60be-08dec89fcd17",
+        "requirement": "MEC ENG C85",
+        "aliases": [
+          "CIV ENG C30"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved section headers; they are labels, not interpreted completion rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+  ]
+}

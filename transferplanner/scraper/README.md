@@ -5,6 +5,73 @@ Network panel. It converts the six saved Berkeley samples into the normalized
 agreement format. It does not download other
 agreements or write to PostgreSQL.
 
+## Capture an agreement automatically
+
+`assist_collector.py` opens a public major-agreement URL in Chromium, waits for
+its matching articulation response, validates the response, and saves its raw
+JSON automatically. Install the browser support once from the project root:
+
+```sh
+.venv/bin/python -m pip install playwright
+.venv/bin/python -m playwright install chromium
+```
+
+Run the collector with the full agreement-page URL copied from ASSIST:
+
+```sh
+.venv/bin/python transferplanner/scraper/assist_collector.py "PASTE_THE_FULL_ASSIST_AGREEMENT_URL_HERE"
+```
+
+The quoted URL must contain `viewByKey`. The collector supports `to`/`Major`
+agreements and captures one agreement by default. It listens to the browser's
+normal request; it does not modify requests or use the separate key-based API.
+Filenames are generated from the sending/receiving institution IDs, major, and
+academic year, for example `62_to_79_computer_science_b_a_2026_2027.json`.
+The default destination is `transferplanner/data/raw/`, resolved relative to the
+script. `--output-dir` changes the destination. Existing files are protected;
+`--overwrite` explicitly allows replacing a capture. `--headed` shows the browser,
+and `--timeout 60` increases the navigation/response timeout to 60 seconds.
+
+Live capture of the supplied Berkeley CS 2026–2027 page has been verified. The
+captured file also passes through the converter. The collector saves raw data; conversion,
+review, and database importing remain separate steps. Capture errors exit with
+status 1 and are printed in the terminal.
+
+### Collect multiple majors
+
+Supply any one agreement URL for the desired college, university, and academic
+year. `--all-majors` listens for the major list loaded by that page, validates the
+list's scope, and navigates to each major's agreement sequentially. A small test:
+
+```sh
+.venv/bin/python transferplanner/scraper/assist_collector.py --all-majors --limit 5 "PASTE_THE_FULL_ASSIST_AGREEMENT_URL_HERE"
+```
+
+Remove `--limit 5` to process the complete discovered list. The limit selects the
+first N majors alphabetically, including already saved files. Valid matching raw
+responses in the output folder are skipped, even when they use older manually
+chosen filenames. Rerunning the command resumes from files already saved. Only
+the selected year's sending/receiving institution pair is collected.
+
+Requests use one browser page, with a one-second pause between capture attempts.
+`--delay 2` increases the pause. Errors are recorded and processing continues;
+the process exits with status 1 if a selected agreement failed. `--overwrite`
+refreshes existing matching captures in their original filenames; without it,
+existing raw files are preserved. Captures and reports are written atomically.
+
+The collector writes a checkpoint after each result to
+`<output-folder>/_collection/report_<year-id>_<sending-id>_to_<receiving-id>.json`.
+It includes available/selected counts, saved/skipped/failed totals, per-major
+URLs and filenames, and warnings for existing files that could not be validated.
+Reports are inside a subfolder so batch conversion does not mistake them for
+agreement responses.
+
+Live discovery found 95 Mt. SAC → Berkeley major agreements for academic-year ID
+77 (2026–2027). A three-major browser test saved two responses and skipped an
+existing capture with zero failures. The entire 95-agreement download has not
+been run as part of that verification; new requirement structures may still need
+converter support after collection.
+
 Run from the repository root:
 
 ```sh

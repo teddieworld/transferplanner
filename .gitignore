@@ -35,3 +35,6 @@ env/
 # VS Code
 # --------------------
 .vscode/
+
+# ASSIST collection progress
+transferplanner/data/raw/_collection/

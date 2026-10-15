@@ -1,0 +1,138 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "English, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "ENGLISH 17",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 10"
+          ]
+        }
+      ],
+      "department": "English"
+    },
+    {
+      "text": "ENGLISH 45A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 6A"
+          ]
+        }
+      ],
+      "department": "English"
+    },
+    {
+      "text": "ENGLISH 45B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 1",
+            "LIT 6B"
+          ]
+        }
+      ],
+      "department": "English"
+    },
+    {
+      "text": "ENGLISH 45C",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 2",
+            "LIT 6B"
+          ]
+        }
+      ],
+      "department": "English"
+    },
+    {
+      "text": "ENGLISH 90",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 3"
+          ]
+        }
+      ],
+      "department": "English"
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-09T00:23:35.8213254",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "4ee86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "PROGRAM",
+        "groupId": "4de86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong style=\"font-size: 14px;\">To&nbsp;be&nbsp;eligible&nbsp;to&nbsp;declare&nbsp;a&nbsp;major&nbsp;in&nbsp;English,&nbsp;students&nbsp;must&nbsp;have&nbsp;completed:</strong></p><p></p><ol><li>at&nbsp;least&nbsp;30&nbsp;units&nbsp;(including&nbsp;transferred&nbsp;units)</li><li>the<a href=\"http://ls-advise.berkeley.edu/requirements/rc.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;</a><u><a href=\"http://ls-advise.berkeley.edu/requirements/rc.html\" rel=\"noopener noreferrer\" target=\"_blank\">L&nbsp;&amp;&nbsp;S&nbsp;Reading&nbsp;and&nbsp;Composition&nbsp;Requirement</a></u></li><li>two&nbsp;of&nbsp;the&nbsp;following&nbsp;English&nbsp;major&nbsp;course&nbsp;requirements&nbsp;(with&nbsp;a&nbsp;letter&nbsp;grade&nbsp;of&nbsp;C&nbsp;or&nbsp;above):&nbsp;&nbsp;<ul><li>First&nbsp;course&nbsp;must&nbsp;be&nbsp;either&nbsp;English&nbsp;45A&nbsp;or&nbsp;45B</li><li>Second&nbsp;course&nbsp;must&nbsp;be&nbsp;either&nbsp;English&nbsp;45A,&nbsp;45B,&nbsp;45C,&nbsp;90,&nbsp;or&nbsp;Shakespeare</li></ul></li></ol><p></p><p><strong>To&nbsp;prepare&nbsp;</strong>for&nbsp;the&nbsp;English&nbsp;Major,&nbsp;students&nbsp;should&nbsp;complete&nbsp;UC-transferable&nbsp;courses&nbsp;in&nbsp;literary&nbsp;analysis&nbsp;and&nbsp;the&nbsp;history&nbsp;of&nbsp;literature&nbsp;written&nbsp;in&nbsp;English,&nbsp;both&nbsp;American&nbsp;and&nbsp;British.&nbsp;These&nbsp;do&nbsp;not&nbsp;include&nbsp;basic&nbsp;composition&nbsp;and&nbsp;technical&nbsp;writing&nbsp;classes.&nbsp;If&nbsp;your&nbsp;coursework&nbsp;has&nbsp;not&nbsp;been&nbsp;approved&nbsp;on&nbsp;Assist&nbsp;for&nbsp;articulation&nbsp;with&nbsp;the&nbsp;Berkeley&nbsp;requirements&nbsp;listed&nbsp;below,&nbsp;retain&nbsp;syllabi&nbsp;and&nbsp;reading&nbsp;lists&nbsp;for&nbsp;evaluation&nbsp;by&nbsp;the&nbsp;department.&nbsp;The&nbsp;lower&nbsp;division&nbsp;courses&nbsp;needed&nbsp;to&nbsp;graduate&nbsp;with&nbsp;an&nbsp;English&nbsp;major&nbsp;are&nbsp;as&nbsp;follows,&nbsp;and&nbsp;all&nbsp;must&nbsp;be&nbsp;completed&nbsp;with&nbsp;a&nbsp;letter&nbsp;grade&nbsp;of&nbsp;C&nbsp;or&nbsp;above:</p><p></p><p><strong>English&nbsp;45A</strong>&nbsp;-&nbsp;Literature&nbsp;in&nbsp;English:&nbsp;Through&nbsp;Milton</p><p><strong>English&nbsp;45B</strong>&nbsp;-&nbsp;Literature&nbsp;in&nbsp;English:&nbsp;The&nbsp;Late-17th&nbsp;through&nbsp;the&nbsp;Mid-19th&nbsp;Century</p><p><strong>English&nbsp;45C</strong>&nbsp;-&nbsp;Literature&nbsp;in&nbsp;English:&nbsp;The&nbsp;Mid-19th&nbsp;through&nbsp;the&nbsp;Mid-20th&nbsp;Century</p><p><strong>English&nbsp;17</strong>&nbsp;-&nbsp;Shakespeare</p><p><strong>English&nbsp;90</strong>&nbsp;-&nbsp;Practices&nbsp;of&nbsp;Literary&nbsp;Study</p><p></p><p><strong>For&nbsp;more&nbsp;information&nbsp;on&nbsp;the&nbsp;major:</strong></p><p>See&nbsp;our&nbsp;website:&nbsp;<a href=\"https://english.berkeley.edu/major-requirements\" rel=\"noopener noreferrer\" target=\"_blank\">https://english.berkeley.edu/major-requirements&nbsp;</a></p><p>Contact:&nbsp;<a href=\"mailto:english_advising@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">english_advising@berkeley.edu</a></p>",
+        "groupId": "4be86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

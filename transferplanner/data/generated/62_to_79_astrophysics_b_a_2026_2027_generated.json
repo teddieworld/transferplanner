@@ -1,0 +1,258 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Astrophysics, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "ASTRON 7A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Astronomy"
+    },
+    {
+      "text": "ASTRON 7B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Astronomy"
+    },
+    {
+      "text": "ASTRON 10",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ASTR 5",
+            "ASTR 5L"
+          ]
+        }
+      ],
+      "department": "Astronomy"
+    },
+    {
+      "text": "MATH 51",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 180"
+          ]
+        }
+      ],
+      "department": "Mathematics"
+    },
+    {
+      "text": "MATH 52",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 181"
+          ]
+        }
+      ],
+      "department": "Mathematics"
+    },
+    {
+      "text": "MATH 53",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 280"
+          ]
+        }
+      ],
+      "department": "Mathematics"
+    },
+    {
+      "text": "MATH 54",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 285"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "MATH 285"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "MATH 260",
+            "MATH 290"
+          ]
+        }
+      ],
+      "department": "Mathematics"
+    },
+    {
+      "text": "PHYSICS 7A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PHYS 4A"
+          ]
+        }
+      ],
+      "department": "Physics"
+    },
+    {
+      "text": "PHYSICS 7B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PHYS 4B"
+          ]
+        }
+      ],
+      "department": "Physics"
+    },
+    {
+      "text": "PHYSICS 7C",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PHYS 4C"
+          ]
+        }
+      ],
+      "department": "Physics"
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-09T00:20:51.4676389",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "College of Letters and Science",
+        "groupId": "6be86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE&nbsp;ADMISSIONS&nbsp;REQUIREMENTS&nbsp;FOR&nbsp;TRANSFER&nbsp;STUDENTS&nbsp;</strong></p><p></p><p><strong>THIS&nbsp;MAJOR&nbsp;IS&nbsp;OFFERED&nbsp;BY&nbsp;THE&nbsp;COLLEGE&nbsp;OF&nbsp;LETTERS&nbsp;AND&nbsp;SCIENCE&nbsp;(L&amp;S)</strong></p><p></p><p><strong>IMPORTANT&nbsp;information&nbsp;for&nbsp;students&nbsp;applying&nbsp;for&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;for&nbsp;the&nbsp;fall&nbsp;2025&nbsp;application&nbsp;cycle&nbsp;and&nbsp;beyond:</strong></p><p></p><p>Completion&nbsp;of&nbsp;Essential&nbsp;Skills&nbsp;requirements&nbsp;(Reading&nbsp;&amp;&nbsp;Composition,&nbsp;Quantitative&nbsp;Reasoning,&nbsp;and&nbsp;Language)&nbsp;or</p><p>Cal-GETC/IGETC&nbsp;will&nbsp;no&nbsp;longer&nbsp;be&nbsp;a&nbsp;requirement&nbsp;for&nbsp;admission;&nbsp;however,&nbsp;completion&nbsp;of&nbsp;either&nbsp;is<em>&nbsp;</em><strong><em>strongly&nbsp;recommended&nbsp;</em></strong></p><p>prior&nbsp;to&nbsp;enrollment&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;to&nbsp;ensure&nbsp;timely&nbsp;degree&nbsp;progress.&nbsp;More&nbsp;information&nbsp;on&nbsp;new&nbsp;policies&nbsp;is&nbsp;available&nbsp;on</p><p>the&nbsp;L&amp;S&nbsp;<a href=\"https://ls.berkeley.edu/prospective-students/new-policies-transfer-student-applicants\" rel=\"noopener noreferrer\" target=\"_blank\">Transfer&nbsp;Student&nbsp;Applicants</a>&nbsp;website.&nbsp;</p><p></p><p><strong>By&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;spring&nbsp;term&nbsp;preceding&nbsp;fall&nbsp;enrollment&nbsp;at&nbsp;Berkeley,&nbsp;you&nbsp;must&nbsp;complete</strong>:&nbsp;</p><p></p><p>1)<a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;The&nbsp;7-course&nbsp;pattern</a>&nbsp;(as&nbsp;found&nbsp;in&nbsp;the&nbsp;UC&nbsp;Transfer&nbsp;Admission&nbsp;Eligibility&nbsp;Courses&nbsp;Menu&nbsp;in&nbsp;ASSIST):</p><p>·&nbsp;&nbsp;&nbsp;Two&nbsp;transferable&nbsp;courses&nbsp;in&nbsp;English&nbsp;composition;</p><p>·&nbsp;&nbsp;&nbsp;One&nbsp;transferable&nbsp;course&nbsp;in&nbsp;mathematical&nbsp;concepts&nbsp;and&nbsp;quantitative&nbsp;reasoning;</p><p>·&nbsp;&nbsp;&nbsp;Four&nbsp;transferable&nbsp;college&nbsp;courses&nbsp;chosen&nbsp;from&nbsp;at&nbsp;least&nbsp;two&nbsp;of&nbsp;the&nbsp;following&nbsp;subject&nbsp;areas:</p><p class=\"ql-indent-1\">o&nbsp;arts&nbsp;and&nbsp;humanities</p><p class=\"ql-indent-1\">o&nbsp;social&nbsp;and&nbsp;behavioral&nbsp;sciences</p><p class=\"ql-indent-1\">o&nbsp;physical&nbsp;and&nbsp;biological&nbsp;sciences</p><p></p><p>AND</p><p></p><p>2)&nbsp;<strong>Major&nbsp;Requirements</strong>:&nbsp;</p><p>Follow&nbsp;the&nbsp;guidance&nbsp;on&nbsp;preparation&nbsp;for&nbsp;this&nbsp;major&nbsp;below.</p><p></p><p><span style=\"font-size: 14px;\">NOTE:&nbsp;Beginning&nbsp;in&nbsp;fall&nbsp;2027,&nbsp;all&nbsp;transfer&nbsp;students&nbsp;that&nbsp;are&nbsp;offered&nbsp;admission&nbsp;to&nbsp;L&amp;S&nbsp;will&nbsp;be&nbsp;directly&nbsp;admitted&nbsp;into&nbsp;the&nbsp;major&nbsp;they&nbsp;select&nbsp;on&nbsp;their&nbsp;College&nbsp;of&nbsp;Letters&nbsp;and&nbsp;Science&nbsp;(L&amp;S)&nbsp;application.</span></p><p></p><p><strong>L&amp;S&nbsp;General&nbsp;Education&nbsp;requirements:</strong></p><p></p><p>For&nbsp;information&nbsp;on&nbsp;courses&nbsp;that&nbsp;will&nbsp;satisfy&nbsp;L&amp;S&nbsp;General&nbsp;Education&nbsp;(Essential&nbsp;Skills&nbsp;and</p><p>Seven-Course&nbsp;Breadth)&nbsp;requirements&nbsp;from&nbsp;your&nbsp;community&nbsp;college&nbsp;complete&nbsp;the&nbsp;following&nbsp;steps:</p><ol><li>Go&nbsp;to&nbsp;\"Search&nbsp;below&nbsp;for&nbsp;articulation&nbsp;agreements:&nbsp;Major,&nbsp;department,&nbsp;and&nbsp;campus-specific&nbsp;general&nbsp;education&nbsp;agreements”</li><li>Click&nbsp;on&nbsp;the&nbsp;down&nbsp;arrow&nbsp;to&nbsp;select:&nbsp;Academic&nbsp;Year,&nbsp;Institution:&nbsp;<strong>UC&nbsp;Berkeley</strong>,&nbsp;and&nbsp;Agreements&nbsp;with&nbsp;Other&nbsp;Institutions:&nbsp;(Your&nbsp;CA&nbsp;Community&nbsp;College).&nbsp;</li><li>Click&nbsp;on&nbsp;“View&nbsp;Agreements”.</li><li>Under&nbsp;“View&nbsp;Agreement&nbsp;by”&nbsp;select&nbsp;“<strong>General&nbsp;Education/Breadth</strong>”.&nbsp;</li><li>Click&nbsp;on&nbsp;the&nbsp;“General&nbsp;Education/Breadth”&nbsp;radio&nbsp;button,&nbsp;then&nbsp;click&nbsp;on&nbsp;“View&nbsp;Agreement”</li></ol><p></p><p><strong>Learn&nbsp;more&nbsp;from&nbsp;the&nbsp;UC&nbsp;Berkeley&nbsp;<a href=\"http://admissions.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">Office&nbsp;of&nbsp;Undergraduate&nbsp;Admission</a>&nbsp;and&nbsp;specifically&nbsp;about&nbsp;<a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/\" rel=\"noopener noreferrer\" target=\"_blank\">transfer&nbsp;admission</a>&nbsp;preparation.</strong>&nbsp;</p><p></p><p><strong>Review&nbsp;all&nbsp;available&nbsp;majors&nbsp;at&nbsp;<a href=\"https://undergraduate.catalog.berkeley.edu/programs?page=1&amp;pq=\" rel=\"noopener noreferrer\" target=\"_blank\">UC&nbsp;Berkeley</a></strong>.</p>",
+        "groupId": "15e66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "program",
+        "groupId": "66e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>The&nbsp;Department&nbsp;of&nbsp;Astronomy</strong>&nbsp;offers&nbsp;an&nbsp;undergraduate&nbsp;major&nbsp;and&nbsp;minor&nbsp;in&nbsp;Astrophysics.&nbsp;This&nbsp;program&nbsp;prepares&nbsp;students&nbsp;for&nbsp;astrophysics&nbsp;graduate&nbsp;work&nbsp;or&nbsp;other&nbsp;advanced&nbsp;degrees&nbsp;in&nbsp;related&nbsp;science&nbsp;and&nbsp;engineering&nbsp;fields.&nbsp;It&nbsp;also&nbsp;prepares&nbsp;students&nbsp;for&nbsp;careers&nbsp;in&nbsp;teaching&nbsp;or&nbsp;for&nbsp;working&nbsp;in&nbsp;data&nbsp;science,&nbsp;the&nbsp;tech&nbsp;industry,&nbsp;and&nbsp;other&nbsp;technical&nbsp;fields.</p><p></p><p><strong>For&nbsp;more&nbsp;information:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>Academic&nbsp;Advisor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p><a href=\"mailto:astroadvising@berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">astroadvising@berkeley.edu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p><a href=\"https://astro.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">https://astro.berkeley.edu</a></p>",
+        "groupId": "67e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "important major information",
+        "groupId": "68e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong><u>ASTRONOMY&nbsp;7A&nbsp;and&nbsp;7B</u></strong></p><p>ASTRON&nbsp;7A&nbsp;and&nbsp;7B&nbsp;are&nbsp;not&nbsp;required&nbsp;but&nbsp;are&nbsp;highly&nbsp;recommended&nbsp;for&nbsp;the&nbsp;major.</p><p></p><p>ASTRON&nbsp;7A&nbsp;and&nbsp;ASTRON&nbsp;7B&nbsp;requires&nbsp;students&nbsp;to&nbsp;use&nbsp;the&nbsp;laws&nbsp;of&nbsp;modern&nbsp;physics&nbsp;to&nbsp;describe&nbsp;and&nbsp;interpret&nbsp;astronomical&nbsp;phenomena.</p><p></p><p>If&nbsp;a&nbsp;course&nbsp;comparable&nbsp;to&nbsp;<strong>ASTRON&nbsp;7A&nbsp;</strong>is&nbsp;not&nbsp;available,&nbsp;the&nbsp;department&nbsp;recommends&nbsp;that&nbsp;students&nbsp;take&nbsp;a&nbsp;course&nbsp;comparable&nbsp;to&nbsp;Berkeley's&nbsp;<strong>ASTRON&nbsp;10</strong>&nbsp;in&nbsp;order&nbsp;to&nbsp;gain&nbsp;some&nbsp;exposure&nbsp;to&nbsp;the&nbsp;material.&nbsp;However,&nbsp;<strong>ASTRON&nbsp;10</strong>&nbsp;is&nbsp;not&nbsp;required&nbsp;for&nbsp;the&nbsp;major.</p><p></p><p>Most&nbsp;community&nbsp;colleges&nbsp;do&nbsp;not&nbsp;offer&nbsp;an&nbsp;equivalent&nbsp;Introduction&nbsp;to&nbsp;Astrophysics&nbsp;course.&nbsp;Transfer&nbsp;students&nbsp;should&nbsp;take&nbsp;this&nbsp;course&nbsp;during&nbsp;their&nbsp;first&nbsp;semester&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;or&nbsp;take&nbsp;ASTRON&nbsp;7AB&nbsp;the&nbsp;summer&nbsp;before&nbsp;their&nbsp;incoming&nbsp;semester&nbsp;if&nbsp;it&nbsp;is&nbsp;offered.</p><p></p><p><strong><u>PHYSICS&nbsp;7A,&nbsp;7B&nbsp;and&nbsp;7C</u></strong></p><p>This&nbsp;institution&nbsp;may&nbsp;cover&nbsp;the&nbsp;topics&nbsp;in&nbsp;Berkeley's&nbsp;Physics&nbsp;7ABC&nbsp;series&nbsp;in&nbsp;a&nbsp;different&nbsp;order.&nbsp;Students&nbsp;who&nbsp;transfer&nbsp;before&nbsp;completing&nbsp;courses&nbsp;equivalent&nbsp;to&nbsp;the&nbsp;entire&nbsp;7ABC&nbsp;series<strong>&nbsp;may&nbsp;need&nbsp;to&nbsp;enroll&nbsp;in&nbsp;Berkeley's&nbsp;PHYSICS&nbsp;49&nbsp;</strong>to&nbsp;complete&nbsp;missing&nbsp;topics&nbsp;such&nbsp;as&nbsp;wave&nbsp;motion&nbsp;(7A)&nbsp;or&nbsp;heat&nbsp;(7B).</p><p></p><p><strong><u>COMPUTER&nbsp;PROGRAMMING</u></strong></p><p>Those&nbsp;not&nbsp;familiar&nbsp;with&nbsp;a&nbsp;computer&nbsp;programming&nbsp;language&nbsp;are&nbsp;urged&nbsp;to&nbsp;include&nbsp;an&nbsp;introductory&nbsp;course&nbsp;in&nbsp;Computer&nbsp;Science.&nbsp;Python&nbsp;is&nbsp;the&nbsp;most&nbsp;recommended&nbsp;programming&nbsp;language&nbsp;to&nbsp;learn.</p>",
+        "groupId": "6de86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "exam credit",
+        "groupId": "69e86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 6,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>AP&nbsp;Calculus&nbsp;AB&nbsp;with&nbsp;a&nbsp;score&nbsp;of&nbsp;3,4,&nbsp;or&nbsp;5&nbsp;for&nbsp;Math&nbsp;51</p><p>AP&nbsp;Calculus&nbsp;BC&nbsp;with&nbsp;a&nbsp;score&nbsp;of&nbsp;3&nbsp;or&nbsp;4&nbsp;for&nbsp;Math&nbsp;51</p><p>AP&nbsp;Calculus&nbsp;BC&nbsp;with&nbsp;a&nbsp;score&nbsp;of&nbsp;5&nbsp;for&nbsp;Math&nbsp;51&nbsp;and&nbsp;Math&nbsp;52</p>",
+        "groupId": "6ae86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 7,
+        "area": "General"
+      }
+    ],
+    "receiving_course_attributes": [
+      {
+        "template_cell_id": "35003458-d075-4398-92e8-08dec89fcd17",
+        "course": "ASTRON 10",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "Recommended; Not required for the major"
+          }
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+  ]
+}
