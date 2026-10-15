@@ -54,6 +54,25 @@ both results when an exception exists. SQL stores option kinds (`equivalence` or
 `preparation`) and a preparation note; the importer supports `preparation_options`
 without overwriting an existing reviewed exception when importing older JSON.
 
+Before running the updated server/importer on an existing database, apply:
+
+```sh
+psql -h /tmp -d transferplanner -v ON_ERROR_STOP=1 -f transferplanner/database/migrations/003_agreement_context.sql
+```
+
+Migration 003 adds agreement metadata, group rules, and receiving-department
+names. Existing rows retain their mappings. `major_required` groups represent
+lower-division degree requirements separately from admission (`required`) groups.
+Informational agreements contain guidance without evaluable groups and never
+display a satisfied preparation status. The planner shows source notes as plain
+text, including department-review instructions and conditions not evaluated by
+the course checklist.
+
+American Studies' choice group counts at most two satisfied requirements from
+each Berkeley department toward its three-course target. Extra completed courses
+are allowed when a valid subset exists. Its introductory group remains marked
+for adviser review because the template and prose do not unambiguously agree.
+
 Import another reviewed agreement from the repository root using the existing
 Mt. SAC catalog:
 
@@ -61,13 +80,27 @@ Mt. SAC catalog:
 .venv/bin/python transferplanner/database/import_courses.py transferplanner/data/berkeley_math_2026_2027_generated.json
 ```
 
-The importer accepts the normalized file path as an argument. It imports one
-agreement in a transaction and rejects missing course references before inserting
-agreement rows. The catalog is imported only when explicitly supplied with
-`--courses transferplanner/data/mtsac_courses.json`. CS and Mathematics/Applied
-Mathematics each have a Berkeley/Mt. SAC agreement for 2026–2027. Mathematics
+The importer accepts one or more reviewed normalized file paths. Each file has
+its own transaction and rejects missing course references before inserting
+agreement rows. A failed file is rolled back and the remaining files are still
+attempted. The terminal prints a success/failure summary; the command exits with
+status 1 if any file failed. The catalog is imported only when explicitly supplied with
+`--courses transferplanner/data/mtsac_courses.json`. Six saved Berkeley/Mt. SAC
+agreements cover 2026–2027, including one informational agreement. Mathematics
 keeps the full MATH 54 series; it does not receive the CS preparation exception.
 Preserved general-education and exam-credit notes are not evaluated by the planner.
+
+For example, batch import the three reviewed generated agreements from the root:
+
+```sh
+.venv/bin/python transferplanner/database/import_courses.py \
+  transferplanner/data/generated/berkeley_cs_2026_2027_generated.json \
+  transferplanner/data/generated/berkeley_math_2026_2027_generated.json \
+  transferplanner/data/generated/berkeley_aeroeng_2026_2027_generated.json
+```
+
+Pass agreement files, excluding `batch_report.json`. Repeated imports of the same
+unchanged agreement reuse its existing rows.
 
 The importer integration tests use an isolated schema and roll back all test data:
 
@@ -99,8 +132,9 @@ return JSON errors on failures. Course search reads the full catalog and shows
 
 With the migrated database and development server running, `npm run test:api`
 checks the real catalog, agreement endpoints, missing inputs, and unsupported
-years. It makes read-only requests against the Berkeley/Mt. SAC CS and Mathematics
-fixtures. Import both agreements before running it. Set
+years. It makes read-only requests against the Berkeley/Mt. SAC CS, Mathematics,
+African American Studies, American Studies, and Ancient Civilizations fixtures.
+Import these agreements before running it. Set
 `TRANSFERPLANNER_TEST_URL` if your server uses a different local port.
 
 ## Getting Started

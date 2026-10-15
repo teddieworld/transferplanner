@@ -1,5 +1,7 @@
 import argparse
 import json
+import html
+import re
 
 #parse functions SQL
 def connect_to_database():
@@ -172,7 +174,7 @@ def get_major_id(cursor, university_id, major_name):
     if result:
         return result[0]
     return None
-def insert_major_requirement(cursor, major_id, requirement_text,requirement_category, articulation_status, note, group_id, preparation_note=None):
+def insert_major_requirement(cursor, major_id, requirement_text,requirement_category, articulation_status, note, group_id, preparation_note=None, department=None):
     query = """
         INSERT into major_requirements(
             major_id,
@@ -181,9 +183,11 @@ def insert_major_requirement(cursor, major_id, requirement_text,requirement_cate
             articulation_status,
             note,
             group_id,
-            preparation_note
+            preparation_note,
+            department
         )
         VALUES(
+            %s,
             %s,
             %s,
             %s,
@@ -193,7 +197,8 @@ def insert_major_requirement(cursor, major_id, requirement_text,requirement_cate
             %s
         )
         ON CONFLICT(group_id, requirement_text)
-        DO UPDATE SET preparation_note = COALESCE(EXCLUDED.preparation_note, major_requirements.preparation_note)
+        DO UPDATE SET preparation_note = COALESCE(EXCLUDED.preparation_note, major_requirements.preparation_note),
+            department = COALESCE(EXCLUDED.department, major_requirements.department)
     """
     values = (
         major_id,
@@ -202,7 +207,8 @@ def insert_major_requirement(cursor, major_id, requirement_text,requirement_cate
         articulation_status,
         note,
         group_id,
-        preparation_note
+        preparation_note,
+        department
     )
     cursor.execute(query,values)
 def get_major_requirement_id(cursor, group_id, requirement_text):
@@ -283,41 +289,44 @@ def insert_major_requirement_option_course(cursor, option_id, course_id):
         course_id
     )
     cursor.execute(query,values)
-def insert_articulation_agreement(cursor, major_id, college_id, academic_year):
+def insert_articulation_agreement(cursor, major_id, college_id, academic_year, metadata=None):
     cursor.execute("""
-        INSERT INTO articulation_agreements (major_id, college_id, academic_year)
-        VALUES (%s, %s, %s)
+        INSERT INTO articulation_agreements (major_id, college_id, academic_year, planner_metadata)
+        VALUES (%s, %s, %s, %s::jsonb)
         ON CONFLICT (major_id, college_id, academic_year)
-        DO UPDATE SET academic_year = EXCLUDED.academic_year
+        DO UPDATE SET planner_metadata = articulation_agreements.planner_metadata || EXCLUDED.planner_metadata
         RETURNING id
-    """, (major_id, college_id, academic_year))
+    """, (major_id, college_id, academic_year, json.dumps(metadata or {})))
     return cursor.fetchone()[0]
 
-def insert_major_requirement_group(cursor, major_id, agreement_id, group_name, requirement_category, required_count):
+def insert_major_requirement_group(cursor, major_id, agreement_id, group_name, requirement_category, required_count, rules=None):
     query = """
         INSERT into major_requirement_groups(
             major_id,
             agreement_id,
             group_name,
             requirement_category,
-            required_count
+            required_count,
+            rules
         )
         VALUES(
             %s,
             %s,
             %s,
             %s,
-            %s
+            %s,
+            %s::jsonb
         )
         ON CONFLICT(agreement_id, requirement_category, group_name)
-        DO NOTHING
+        DO UPDATE SET rules = major_requirement_groups.rules || EXCLUDED.rules
     """
     values = (
         major_id,
         agreement_id,
         group_name,
         requirement_category,
-        required_count
+        required_count,
+        json.dumps(rules or {})
     )
     cursor.execute(query, values)
 def get_major_requirement_group_id(cursor, agreement_id, requirement_category, group_name):
@@ -356,7 +365,9 @@ def get_major_requirements(cursor, university_name, major_name, academic_year, c
         c.code,
         c.title,
         mro.option_kind,
-        mr.preparation_note
+        mr.preparation_note,
+        mrg.rules,
+        mr.department
         FROM universities u
 
         JOIN majors m
@@ -418,7 +429,8 @@ def build_major_plan(rows):
         if group_name not in plan["categories"][category]:
             plan["categories"][category][group_name] = {
                 "required_count": required_count,
-                "requirements": {}
+                "requirements": {},
+                **(row[13] if len(row) > 13 else {})
             }
 
         requirement_text = row[4]
@@ -431,6 +443,8 @@ def build_major_plan(rows):
                 "note": note,
                 "options": {}
             }
+            if len(row) > 14 and row[14]:
+                group["requirements"][requirement_text]["department"] = row[14]
             if row[12]:
                 group["requirements"][requirement_text]["preparation_note"] = row[12]
 
@@ -470,23 +484,27 @@ def is_requirement_satisfied(requirement, completed_courses):
     return False
 #check each requirement within a group
 def is_group_satisfied(group, completed_courses):
-    satisfied_count = 0
+    if not group["requirements"] or group.get("review_required"):
+        return False
+    satisfied = [r for r in group["requirements"].values()
+                 if get_preparation_status(r, completed_courses) == "satisfied"]
+    limit = group.get("max_per_department")
+    if limit is not None:
+        departments = {}
+        for requirement in satisfied:
+            department = requirement.get("department")
+            if not department:
+                return False
+            departments[department] = departments.get(department, 0) + 1
+        satisfied_count = sum(min(count, limit) for count in departments.values())
+    else:
+        satisfied_count = len(satisfied)
     required_count = group["required_count"]
-    for requirement in group["requirements"].values():
-        status = get_preparation_status(requirement, completed_courses)
-        if status == "satisfied":
-            satisfied_count += 1
-        elif status == "partial":
-            print("partial credit")
-    if required_count is None:
-        if satisfied_count == len(group["requirements"]):
-            return True
-    elif required_count <= satisfied_count:
-        return True
-  
-    return False
+    return satisfied_count >= (len(group["requirements"]) if required_count is None else required_count)
 #check each group within a category and return if its satisfied
 def is_category_satisfied(category, completed_courses):
+    if not category:
+        return False
     for group in category.values():
         if is_group_satisfied(group, completed_courses) is False:
             return False
@@ -535,7 +553,7 @@ def get_major_status(plan, completed_courses):
     for category_name, category in plan["categories"].items():
         categories[category_name] = get_category_status(category, completed_courses)
 
-    major_satisfied = categories["required"]["satisfied"]
+    major_satisfied = categories.get("required", {}).get("satisfied", False)
 
     return {
         "satisfied" : major_satisfied,
@@ -612,12 +630,28 @@ def import_agreement(cursor, agreement):
     if missing:
         raise ValueError(f"Agreement courses are missing from catalog: {', '.join(missing)}")
 
+    kind = agreement.get("kind", "structured")
+    if kind not in ("structured", "informational"):
+        raise ValueError("Unknown agreement kind")
+    if kind == "informational" and (agreement["groups"] or agreement["requirements"]):
+        raise ValueError("Informational agreements cannot contain evaluable course groups")
+    if kind == "structured" and not agreement["groups"]:
+        raise ValueError("Structured agreement has no course groups")
+    metadata = {}
+    if agreement.get("source") or kind == "informational":
+        metadata = {
+            "kind": kind,
+            "notes": [" ".join(html.unescape(re.sub(r"<[^>]+>", " ", a["content"])).split())
+                      for a in agreement.get("source", {}).get("general_information", [])],
+            "reviewNotes": agreement.get("review_notes", [])
+        }
     insert_major(cursor, university_id, agreement["major"])
     major_id = get_major_id(cursor, university_id, agreement["major"])
-    agreement_id = insert_articulation_agreement(cursor, major_id, college_id, agreement["academic_year"])
+    agreement_id = insert_articulation_agreement(cursor, major_id, college_id, agreement["academic_year"], metadata)
     for group in agreement["groups"]:
         insert_major_requirement_group(
-            cursor, major_id, agreement_id, group["name"], group["category"], group["required_count"]
+            cursor, major_id, agreement_id, group["name"], group["category"], group["required_count"],
+            {key: group[key] for key in ("note", "max_per_department", "review_required") if key in group}
         )
 
     for requirement in agreement["requirements"]:
@@ -627,7 +661,7 @@ def import_agreement(cursor, agreement):
         insert_major_requirement(
             cursor, major_id, requirement["text"], requirement["category"],
             requirement["articulation_status"], requirement["note"], group_id,
-            requirement.get("preparation_note")
+            requirement.get("preparation_note"), requirement.get("department")
         )
         requirement_id = get_major_requirement_id(cursor, group_id, requirement["text"])
         options = [("equivalence", option["option_number"], option["courses"])
@@ -656,11 +690,36 @@ def main(agreement_path, courses_path=None):
           f"{len(agreement['groups'])} groups, {len(agreement['requirements'])} requirements.")
     if agreement.get("review_required"):
         print("Source notes remain preserved in JSON; general education and exam credit are not evaluated.")
+    return agreement_id
+
+
+def import_agreements(agreement_paths, courses_path=None):
+    """Import reviewed files independently so one failure does not stop the batch."""
+    report = {"imported": 0, "failed": 0, "files": []}
+    for agreement_path in agreement_paths:
+        try:
+            # main() owns the connection and transaction for this file only.
+            agreement_id = main(agreement_path, courses_path)
+        except Exception as error:
+            report["failed"] += 1
+            report["files"].append({
+                "input": str(agreement_path), "status": "failed",
+                "error_type": type(error).__name__, "error": str(error)
+            })
+            print(f"Failed {agreement_path}: {type(error).__name__}: {error}")
+        else:
+            report["imported"] += 1
+            report["files"].append({
+                "input": str(agreement_path), "status": "imported", "agreement_id": agreement_id
+            })
+    print(f"Import summary: {report['imported']} succeeded; {report['failed']} failed.")
+    return report
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Import one reviewed, normalized articulation agreement.")
-    parser.add_argument("agreement", help="Path to the normalized agreement JSON")
+    parser = argparse.ArgumentParser(description="Import one or more reviewed, normalized articulation agreements.")
+    parser.add_argument("agreement", nargs="+", help="Paths to reviewed, normalized agreement JSON files")
     parser.add_argument("--courses", help="Optional catalog JSON to import before the agreement")
     args = parser.parse_args()
-    main(args.agreement, args.courses)
+    report = import_agreements(args.agreement, args.courses)
+    raise SystemExit(1 if report["failed"] else 0)

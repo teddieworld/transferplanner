@@ -26,6 +26,7 @@ export default function RequirementDisplay({
             ]
         }
         </p>
+        {requirement.department && <p>Berkeley department: {requirement.department}</p>}
         {requirement.options.map((option, index) => (
         <p key={index}>
             {requirement.preparationOptions ? "Equivalence option" : "Option"} {index + 1}: {option.join(" AND ")} — {

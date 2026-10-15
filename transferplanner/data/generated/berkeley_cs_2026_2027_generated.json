@@ -1,0 +1,225 @@
+{
+  "university": "University of California, Berkeley",
+  "major": "Computer Science, B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "required",
+      "required_count": 1
+    },
+    {
+      "name": "A",
+      "category": "highly_recommended",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "MATH 51",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 180"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 52",
+      "group": "A",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MATH 181"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MATH 54",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGR 285"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "MATH 285"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "MATH 260",
+            "MATH 290"
+          ]
+        }
+      ],
+      "preparation_options": [
+        [
+          "ENGR 285"
+        ],
+        [
+          "MATH 285"
+        ],
+        [
+          "MATH 260"
+        ]
+      ],
+      "preparation_note": "Computer Science does not require full equivalence to Math 54 and will accept just the Linear Algebra course of an articulated Math 54-equivalent series."
+    },
+    {
+      "text": "MATH 56",
+      "group": "B",
+      "category": "required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "COMPSCI 61A",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "COMPSCI 61B",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "partial",
+      "note": "Must complete an additional university course after transfer to satisfy this requirement",
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "CSCI 240"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "COMPSCI 61C",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "COMPSCI 70",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": []
+    }
+  ],
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-10-08T22:41:14.6764595",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 79,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "COLLEGE OF COMPUTING, DATA SCIENCE, AND SOCIETY",
+        "groupId": "6bdb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>COLLEGE ADMISSION REQUIREMENTS FOR TRANSFER STUDENTS&nbsp;</strong></p><p><br></p><p><strong>THIS MAJOR IS OFFERED BY THE COLLEGE OF COMPUTING, DATA SCIENCE, AND SOCIETY (CDSS)&nbsp;</strong></p><p><br></p><p>Completion of Essential Skills requirements (Computational Reasoning, Human and Social Dynamics of Data</p><p>and Technology, Statistical Reasoning, and Reading and Composition) and&nbsp;Cal-GETC/IGETC are not a</p><p>requirement for admission; however, completion of both is&nbsp;<strong><em>strongly recommended&nbsp;</em></strong>prior to enrollment at</p><p>UC Berkeley to ensure timely degree progress. If course equivalencies are not available at your community college,</p><p>you must plan to take these courses at UC Berkeley.</p><p><br></p><p>To understand the&nbsp;CDSS&nbsp;College Requirements, including essential skills, visit:</p><p><a href=\"https://cdss.berkeley.edu/academics/college-degree-requirements-and-policies#section-el-degree-requirements-1\" rel=\"noopener noreferrer\" target=\"_blank\">https://cdss.berkeley.edu/academics/college-degree-requirements-and-policies#section-el-degree-requirements-1</a></p><p><br></p><p><strong>By the end of the spring term preceding fall enrollment at Berkeley, you must complete</strong>:&nbsp;</p><p><br></p><ol><li><a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html\" rel=\"noopener noreferrer\" target=\"_blank\">The 7-course pattern</a> (as found in the UC Transfer Admission Eligibility Courses Menu in ASSIST):</li><li>Two transferable courses in English composition;</li><li>One transferable course in mathematical concepts and quantitative reasoning;</li><li>Four transferable college courses chosen from at least two of the following subject areas:</li><li class=\"ql-indent-1\">arts and humanities</li><li class=\"ql-indent-1\">social and behavioral sciences</li><li class=\"ql-indent-1\">physical and biological sciences</li></ol><p><br></p><p>AND&nbsp;</p><p><br></p><p><strong>All required courses as noted by your intended major below.&nbsp;</strong></p><p><strong>Only applicants who have completed 100% of all items above will be considered for admission.</strong></p><p><strong>Additional completion of highly recommended courses will serve to strengthen the application.&nbsp;</strong></p><p><br></p><p><strong>For more information on admission to UC Berkeley</strong>:&nbsp;</p><p><a href=\"https://admissions.berkeley.edu&nbsp;\" rel=\"noopener noreferrer\" target=\"_blank\">https://admissions.berkeley.edu&nbsp;</a></p><p><br></p><p><strong>For specific information on transfer admission to UC Berkeley:</strong></p><p><a href=\"https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/transfer-requirements/\" rel=\"noopener noreferrer\" target=\"_blank\">https://admissions.berkeley.edu/apply-to-berkeley/transfer-students/transfer-requirements/</a>&nbsp;</p><p><br></p><p><strong>For more information on majors at UC Berkeley</strong>:&nbsp;</p><p><a href=\"https://undergraduate.catalog.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://undergraduate.catalog.berkeley.edu/</a></p><p><br></p>",
+        "groupId": "69db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "PROGRAM",
+        "groupId": "7ddb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Admission to the Computer Science major in the&nbsp;<strong>College of Computing, Data Science, and Society (CDSS)</strong>&nbsp;at UC Berkeley is highly competitive.</p><p>It is important that applicants choose a major carefully, as junior transfers will not be allowed to change their major to Computer Science after the application deadline.</p><p><br></p><p>At Berkeley, we construe computer science broadly to include the theory of computation, the design and analysis of algorithms, the architecture and logic design of </p><p>computers, programming languages, compilers, operating systems, scientific computation, computer graphics, databases, artificial intelligence and natural language</p><p>processing. Our goal is to prepare students both for a possible research career and long-term technical leadership in industry. We must therefore look beyond today's</p><p>technology and give students the big ideas and the learning skills that will prepare them to teach themselves about tomorrow's technology.&nbsp;</p><p><br></p><p><strong>Visit the following websites for more information:&nbsp;</strong></p><p><a href=\"https://eecs.berkeley.edu/resources/undergrads/cs\" rel=\"noopener noreferrer\" target=\"_blank\">https://eecs.berkeley.edu/resources/undergrads/cs</a><a href=\"https://eecs.berkeley.edu/resources/undergrads/cs%C2%A0\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;</a></p><p><br></p><p><a href=\"https://eecs.berkeley.edu/resources/undergrads/cs/transfer-prereqs/faq-4/\" rel=\"noopener noreferrer\" target=\"_blank\">https://eecs.berkeley.edu/resources/undergrads/cs/transfer-prereqs/faq-4/</a></p><p><br></p><p><a href=\"https://cdss.berkeley.edu/academics/undergraduate-education\" rel=\"noopener noreferrer\" target=\"_blank\">https://cdss.berkeley.edu/academics/undergraduate-education</a></p><p><br></p><p><strong>General contact information:&nbsp;</strong></p><p>349 Soda&nbsp;Hall, UC Berkeley</p><p><a href=\"mailto:cs-advising@cs.berkeley.edu\" rel=\"noopener noreferrer\" target=\"_blank\">cs-advising@cs.berkeley.edu</a><a href=\"https://prod.assistng.org/Articulation/cs-advising@cs.berkeley.edu%C2%A0\" rel=\"noopener noreferrer\" target=\"_blank\">&nbsp;</a></p><p>(510) 664-4436</p>",
+        "groupId": "6ddb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "important major information",
+        "groupId": "6fdb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>Required&nbsp;Courses&nbsp;for&nbsp;Admission</strong></p><p></p><ul><li><ul><li>MATH&nbsp;51,&nbsp;MATH&nbsp;52</li></ul></li></ul><p class=\"ql-indent-1\"></p><ul><li><ul><li>MATH&nbsp;54&nbsp;or&nbsp;MATH&nbsp;56&nbsp;</li></ul></li></ul><p class=\"ql-indent-1\"></p><ul><li><ul><li><ul><li><span style=\"font-size: 14px;\">Computer&nbsp;Science&nbsp;does&nbsp;not&nbsp;require&nbsp;full&nbsp;equivalence&nbsp;to&nbsp;Math&nbsp;54&nbsp;and&nbsp;will&nbsp;accept&nbsp;just&nbsp;the&nbsp;Linear&nbsp;Algebra&nbsp;course&nbsp;of&nbsp;an&nbsp;articulated&nbsp;Math&nbsp;54-equivalent&nbsp;series.</span></li></ul></li></ul></li></ul><p></p><p><strong>Highly&nbsp;Recommended&nbsp;Courses&nbsp;for&nbsp;Admission</strong></p><p></p><ul><li><ul><li>COMPSCI&nbsp;61A,&nbsp;COMPSCI&nbsp;61B,&nbsp;COMPSCI&nbsp;61C&nbsp;<ul><li>If&nbsp;the&nbsp;community&nbsp;college&nbsp;course&nbsp;is&nbsp;followed&nbsp;by&nbsp;the&nbsp;note&nbsp;‘Must&nbsp;complete&nbsp;an&nbsp;additional&nbsp;university&nbsp;course&nbsp;after&nbsp;transfer&nbsp;to&nbsp;satisfy&nbsp;this&nbsp;requirement,’&nbsp;then,&nbsp;to&nbsp;fully&nbsp;complete&nbsp;this&nbsp;requirement,&nbsp;you&nbsp;will&nbsp;need&nbsp;to&nbsp;take&nbsp;the&nbsp;corresponding&nbsp;course&nbsp;(COMPSCI&nbsp;47A,&nbsp;47B,&nbsp;or&nbsp;47C)&nbsp;at&nbsp;UC&nbsp;Berkeley&nbsp;after&nbsp;you&nbsp;enroll,&nbsp;in&nbsp;addition&nbsp;to&nbsp;completing&nbsp;the&nbsp;community&nbsp;college&nbsp;course.</li></ul></li></ul></li></ul><p class=\"ql-indent-1\"></p><ul><li><ul><li>Data&nbsp;structures--even&nbsp;if&nbsp;not&nbsp;officially&nbsp;comparable&nbsp;to&nbsp;Berkeley's&nbsp;COMPSCI&nbsp;61B;&nbsp;and&nbsp;</li></ul></li></ul><p class=\"ql-indent-1\"></p><ul><li><ul><li>Java&nbsp;(preferred)&nbsp;or&nbsp;C++&nbsp;</li></ul></li></ul><p class=\"ql-indent-1\"></p><ul><li><ul><li>COMPSCI&nbsp;70&nbsp;-&nbsp;COMPSCI&nbsp;70&nbsp;is&nbsp;offered&nbsp;during&nbsp;the&nbsp;Berkeley&nbsp;Summer&nbsp;session&nbsp;or&nbsp;Concurrent&nbsp;Enrollment.</li></ul></li></ul><p></p><ul><li>The&nbsp;entire&nbsp;Computer&nbsp;Science&nbsp;61&nbsp;series&nbsp;is&nbsp;also&nbsp;offered&nbsp;during&nbsp;the&nbsp;Berkeley&nbsp;Summer&nbsp;session.&nbsp;The&nbsp;department&nbsp;recommends&nbsp;that,&nbsp;when&nbsp;possible,&nbsp;students&nbsp;take&nbsp;one&nbsp;of&nbsp;these&nbsp;courses&nbsp;during&nbsp;the&nbsp;summer&nbsp;session&nbsp;prior&nbsp;to&nbsp;transfer.</li></ul>",
+        "groupId": "74db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "exam credit",
+        "groupId": "79db6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 6,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Acceptable exam credit:</p><p><br></p><ul><li><a href=\"https://undergraduate.catalog.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">MATH 51</a> (Calculus I) can be satisfied with at least a “3” on the AP AB or BC Calculus exam, at least a “5” on the IB Math Higher Level, or at least a \"B\" on A-Level Math&nbsp;</li></ul><p><br></p><ul><li><a href=\"https://undergraduate.catalog.berkeley.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">MATH 52</a> (Calculus II) can be satisfied with a “5” on the AP BC Calculus exam or at least a \"B\" on A-Level Further Math</li></ul>",
+        "groupId": "7bdb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 7,
+        "area": "General"
+      }
+    ],
+    "receiving_course_attributes": [
+      {
+        "template_cell_id": "a405caf9-1672-46b0-65b8-08dec89fcd17",
+        "course": "COMPSCI 70",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "Course(s) must be taken at university"
+          }
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+  ]
+}

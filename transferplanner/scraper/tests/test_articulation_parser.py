@@ -3,7 +3,9 @@ import json
 import unittest
 from pathlib import Path
 
-from transferplanner.scraper.articulation_parser import build_agreement, load_assist_response
+from transferplanner.scraper.articulation_parser import (
+    build_agreement, get_requirement_sections, load_assist_response
+)
 
 
 DATA = Path(__file__).resolve().parents[2] / "data"
@@ -117,6 +119,50 @@ class ArticulationParserTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             build_agreement(altered)
 
+    def test_section_header_is_preserved_without_changing_requirements(self):
+        altered = copy.deepcopy(self.raw)
+        assets = json.loads(altered["templateAssets"])
+        group = next(a for a in sorted(assets, key=lambda a: a["position"]) if a["type"] == "RequirementGroup")
+        for section in group["sections"]:
+            section["position"] += 1
+        header = {"type": "SectionHeader", "content": "Course preparation", "position": 0, "attributes": []}
+        group["sections"].append(header)
+        altered["templateAssets"] = json.dumps(assets)
+        actual, expected = build_agreement(altered), build_agreement(self.raw)
+        self.assertEqual(actual["groups"], expected["groups"])
+        self.assertEqual(actual["requirements"], expected["requirements"])
+        self.assertEqual(actual["source"]["section_headers"], [{
+            "category": "required", "requirement_group_position": group["position"], "header": header
+        }])
+        self.assertTrue(actual["review_required"])
+
+    def test_aerospace_reading_requirements_beneath_header_are_still_processed(self):
+        raw = load_assist_response(DATA / "raw/berkeley_aeroeng_2026_2027.json")
+        assets = json.loads(raw["templateAssets"])
+        group = next(a for a in assets if a["type"] == "RequirementGroup" and
+                     any(s["type"] == "SectionHeader" for s in a["sections"]))
+        sections = get_requirement_sections(group)
+        self.assertEqual([len(rows) for rows, count in sections], [6, 2, 9])
+        self.assertEqual([count for rows, count in sections], [None, None, 1])
+        reading_rows = sections[1][0]
+        self.assertEqual([row["cells"][0]["requirement"]["name"] for row in reading_rows], [
+            "Courses that satisfy Reading & Composition A", "Courses that satisfy Reading & Composition B"
+        ])
+        actual = build_agreement(raw)
+        self.assertEqual([r["text"] for r in actual["requirements"] if r["group"] == "B" and
+                          r["category"] == "required"], [
+            "Courses that satisfy Reading & Composition A", "Courses that satisfy Reading & Composition B"
+        ])
+
+    def test_unrecognized_sections_and_header_rules_are_rejected(self):
+        for item in [
+            {"type": "UnknownSection", "position": 0},
+            {"type": "SectionHeader", "position": 0, "advisements": [{"type": "NFollowing"}]},
+            {"type": "SectionHeader", "position": 0, "attributes": [{"content": "Complete one"}]}
+        ]:
+            with self.subTest(item=item), self.assertRaises(ValueError):
+                get_requirement_sections({"sections": [item]})
+
 
 class MathematicsParserTests(unittest.TestCase):
     def setUp(self):
@@ -223,6 +269,165 @@ class MathematicsParserTests(unittest.TestCase):
             altered["templateAssets"] = json.dumps(assets)
             with self.assertRaises(ValueError):
                 build_agreement(altered)
+
+
+class AerospaceParserTests(unittest.TestCase):
+    def setUp(self):
+        self.raw = load_assist_response(DATA / "raw/berkeley_aeroeng_2026_2027.json")
+        self.rules = json.loads((DATA / "reviewed_preparation_rules.json").read_text())
+
+    def test_all_aerospace_mappings_keep_their_course_combinations(self):
+        actual = build_agreement(self.raw, self.rules)
+        self.assertEqual(actual["major"], "Aerospace Engineering, B.S.")
+        self.assertEqual(actual["academic_year"], "2026–2027")
+        self.assertEqual([(g["category"], g["required_count"]) for g in actual["groups"]], [
+            ("required", None), ("required", None), ("required", 1),
+            ("highly_recommended", 1), ("highly_recommended", None), ("highly_recommended", 1)
+        ])
+        expected = {
+            "MATH 51": [["MATH 180"]], "MATH 52": [["MATH 181"]], "MATH 53": [["MATH 280"]],
+            "MATH 54": [["ENGR 285"], ["MATH 285"], ["MATH 260", "MATH 290"]],
+            "PHYSICS 7A": [["PHYS 4A"]], "PHYSICS 7B": [["PHYS 4B"]],
+            "Courses that satisfy Reading & Composition A": [["AMLA 1A"], ["ENGL C1000"], ["ENGL C1000H"]],
+            "Courses that satisfy Reading & Composition B": [["ENGL C1001"], ["ENGL C1001H"]],
+            "ASTRON 7A": [], "ASTRON 10": [["ASTR 5", "ASTR 5L"]],
+            "BIOLOGY 1A AND BIOLOGY 1AL": [["BIOL 1", "BIOL 2"], ["BIOL 2", "BIOL 4"], ["BIOL 2", "BIOL 4H"]],
+            "BIOLOGY 1B": [["BIOL 2", "BIOL 4"], ["BIOL 2", "BIOL 4H"]],
+            "CHEM 1A AND CHEM 1AL AND CHEM 1B": [["CHEM 50", "CHEM 51"], ["CHEM 50H", "CHEM 51H"]],
+            "CHEM 3A AND CHEM 3AL": [["CHEM 80"]], "CHEM 3B AND CHEM 3BL": [["CHEM 81"]],
+            "MCELLBI 32 AND MCELLBI 32L": [["ANAT 36"]], "PHYSICS 7C": [["PHYS 4C"]],
+            "ENGIN 7": [["ENGR 7"]], "COMPSCI 61A": [],
+            "MAT SCI 45 AND MAT SCI 45L": [["ENGR 8"]],
+            "MEC ENG C85": [["ENGR 40", "ENGR 42"]], "MEC ENG 40": [], "ENGIN 40": []
+        }
+        self.assertEqual(len(actual["requirements"]), 23)
+        self.assertEqual({r["text"]: [o["courses"] for o in r["options"]] for r in actual["requirements"]}, expected)
+        for requirement in actual["requirements"]:
+            self.assertNotIn("preparation_options", requirement)
+            self.assertEqual(requirement["articulation_status"],
+                             "articulated" if expected[requirement["text"]] else "no_course_articulated")
+
+    def test_aerospace_preparation_needs_both_reading_requirements_and_complete_science_option(self):
+        from transferplanner.database.import_courses import build_major_plan, is_category_satisfied
+        agreement = build_agreement(self.raw, self.rules)
+        groups = {(g["category"], g["name"]): g for g in agreement["groups"]}
+        rows = []
+        for requirement in agreement["requirements"]:
+            group = groups[(requirement["category"], requirement["group"])]
+            for option in requirement["options"] or [{"option_number": None, "courses": [None]}]:
+                for code in option["courses"]:
+                    rows.append([agreement["university"], agreement["major"], group["name"],
+                                 group["required_count"], requirement["text"], option["option_number"],
+                                 requirement["category"], requirement["articulation_status"],
+                                 requirement["note"], code, None, "equivalence", None])
+        required = build_major_plan(rows)["categories"]["required"]
+        base = ["MATH 180", "MATH 181", "MATH 280", "ENGR 285", "PHYS 4A", "PHYS 4B",
+                "ENGL C1000", "ENGL C1001"]
+        for extra, expected in [([], False), (["ASTR 5"], False), (["ASTR 5", "ASTR 5L"], True),
+                                (["CHEM 50"], False), (["CHEM 50", "CHEM 51"], True),
+                                (["BIOL 1"], False), (["BIOL 1", "BIOL 2"], True), (["ANAT 36"], True)]:
+            with self.subTest(extra=extra):
+                self.assertEqual(is_category_satisfied(required, base + extra), expected)
+        self.assertTrue(is_category_satisfied(required, base[:-2] + ["AMLA 1A", "ENGL C1001H", "PHYS 4C"]))
+        self.assertFalse(is_category_satisfied(required, base[:-1] + ["PHYS 4C"]))
+        self.assertFalse(is_category_satisfied(required, [c for c in base if c != "ENGR 285"] + ["MATH 260", "PHYS 4C"]))
+
+    def test_cross_listing_is_preserved_without_an_extra_requirement(self):
+        actual = build_agreement(self.raw)
+        aliases = actual["source"]["receiving_cross_listed_courses"]
+        self.assertEqual(len(aliases), 1)
+        self.assertEqual(aliases[0]["requirement"], "MEC ENG C85")
+        self.assertEqual(aliases[0]["aliases"], ["CIV ENG C30"])
+        self.assertNotIn("CIV ENG C30", [r["text"] for r in actual["requirements"]])
+        self.assertTrue(actual["review_required"])
+
+    def test_positions_control_series_and_or_course_order(self):
+        altered = copy.deepcopy(self.raw)
+        assets = json.loads(altered["templateAssets"])
+        assets.reverse()
+        for asset in assets:
+            asset.get("sections", []).reverse()
+            for section in asset.get("sections", []):
+                section.get("rows", []).reverse()
+                for row in section.get("rows", []):
+                    for cell in row["cells"]:
+                        if cell["type"] == "Series":
+                            cell["series"]["courses"].reverse()
+        altered["templateAssets"] = json.dumps(assets)
+        mappings = json.loads(altered["articulations"])
+        mappings.reverse()
+        for mapping in mappings:
+            options = mapping["articulation"]["sendingArticulation"]["items"]
+            options.reverse()
+            for option in options:
+                option["items"].reverse()
+        altered["articulations"] = json.dumps(mappings)
+        self.assertEqual(build_agreement(altered), build_agreement(self.raw))
+
+    def test_unsupported_or_empty_receiving_structures_are_not_simplified(self):
+        for change in ["series_or", "series_empty", "requirement_empty", "sending_unknown"]:
+            altered = copy.deepcopy(self.raw)
+            assets = json.loads(altered["templateAssets"])
+            cells = [cell for a in assets for s in a.get("sections", [])
+                     for row in s.get("rows", []) for cell in row["cells"]]
+            if change == "series_or":
+                next(c for c in cells if c["type"] == "Series")["series"]["conjunction"] = "Or"
+            elif change == "series_empty":
+                next(c for c in cells if c["type"] == "Series")["series"]["courses"] = []
+            elif change == "requirement_empty":
+                next(c for c in cells if c["type"] == "Requirement")["requirement"]["name"] = ""
+            else:
+                mappings = json.loads(altered["articulations"])
+                mappings[0]["articulation"]["sendingArticulation"]["items"][0]["courseConjunction"] = "Unknown"
+                altered["articulations"] = json.dumps(mappings)
+            altered["templateAssets"] = json.dumps(assets)
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                build_agreement(altered)
+
+
+class AdditionalMajorTests(unittest.TestCase):
+    def load(self, name):
+        return load_assist_response(DATA / f"raw/berkeley_{name}_2026_2027.json")
+
+    def test_admission_subheading_overrides_degree_heading(self):
+        result = build_agreement(self.load("aframestudies"))
+        self.assertEqual(result["groups"], [{"name": "A", "category": "required", "required_count": None}])
+        self.assertEqual([r["text"] for r in result["requirements"]], ["AFRICAM 4A", "AFRICAM 5A", "AFRICAM 5B"])
+        self.assertEqual(result["requirements"][0]["options"][0]["courses"], ["HIST 35"])
+
+    def test_degree_rules_notes_and_wrapped_cross_listing_are_preserved(self):
+        result = build_agreement(self.load("amerstudies"))
+        self.assertTrue(all(g["category"] == "major_required" for g in result["groups"]))
+        self.assertTrue(result["groups"][0]["review_required"])
+        self.assertEqual(result["groups"][1]["required_count"], 3)
+        self.assertEqual(result["groups"][1]["max_per_department"], 2)
+        self.assertIn("Consult an adviser", result["groups"][1]["note"])
+        self.assertTrue(all(r.get("department") for r in result["requirements"]))
+        self.assertEqual(result["source"]["receiving_cross_listed_courses"][0]["aliases"], ["LNS C30U"])
+
+    def test_guidance_only_response_is_explicitly_informational(self):
+        result = build_agreement(self.load("ancgreekromanciv"))
+        self.assertEqual(result["kind"], "informational")
+        self.assertEqual(result["groups"], [])
+        self.assertEqual(result["requirements"], [])
+        self.assertTrue(result["source"]["general_information"])
+
+    def test_changed_source_does_not_reuse_department_rules(self):
+        raw = self.load("amerstudies")
+        raw["publishDate"] = "2030-01-01"
+        with self.assertRaisesRegex(ValueError, "Reviewed group rule"):
+            build_agreement(raw)
+
+    def test_python_department_limit_counts_valid_subsets(self):
+        from transferplanner.database.import_courses import is_group_satisfied
+        group = {"required_count": 3, "max_per_department": 2, "requirements": {
+            code: {"articulation_status": "articulated", "department": "History" if code != "D" else "Sociology",
+                   "options": {1: {"courses": [{"code": code}]}}} for code in "ABCD"
+        }}
+        self.assertFalse(is_group_satisfied(group, list("ABC")))
+        self.assertTrue(is_group_satisfied(group, list("ABD")))
+        self.assertTrue(is_group_satisfied(group, list("ABCD")))
+        self.assertFalse(is_group_satisfied({**group, "review_required": True}, list("ABCD")))
 
 
 if __name__ == "__main__":

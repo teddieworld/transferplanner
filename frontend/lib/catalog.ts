@@ -61,8 +61,9 @@ export async function getCourses(college: string): Promise<CourseCatalogEntry[]>
 export async function getAgreement(
   university: string, major: string, academicYear: string, college: string
 ): Promise<MajorAgreement | null> {
-  const result = await pool.query<{ id: number; university: string; major: string; academicYear: string }>(`
-    SELECT a.id, u.name AS university, m.name AS major, a.academic_year AS "academicYear"
+  const result = await pool.query<{ id: number; university: string; major: string; academicYear: string;
+    metadata: {kind?: "structured" | "informational"; notes?: string[]; reviewNotes?: string[]} }>(`
+    SELECT a.id, u.name AS university, m.name AS major, a.academic_year AS "academicYear", a.planner_metadata AS metadata
     FROM articulation_agreements a
     JOIN majors m ON m.id = a.major_id
     JOIN universities u ON u.id = m.university_id
@@ -78,6 +79,7 @@ export async function getAgreement(
       r.id AS "requirementId", r.requirement_text AS "requirementName",
       r.articulation_status AS "articulationStatus", r.note,
       r.preparation_note AS "preparationNote",
+      r.department, g.rules,
       o.id AS "optionId", o.option_kind AS "optionKind",
       o.option_number AS "optionNumber", c.code AS "courseCode"
     FROM major_requirement_groups g
@@ -90,6 +92,7 @@ export async function getAgreement(
     ORDER BY g.requirement_category, g.group_name, g.id, r.id, o.option_kind, o.option_number, c.code
   `, [agreement.id]);
   return buildAgreement({
-    university: agreement.university, major: agreement.major, academicYear: agreement.academicYear
+    university: agreement.university, major: agreement.major, academicYear: agreement.academicYear,
+    ...agreement.metadata
   }, rows.rows);
 }

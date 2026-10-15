@@ -76,6 +76,30 @@ test("Mathematics is selectable with its own year, alternatives and recommendati
   assert.deepEqual(recommended[0].options, [["CSCI 190"]]);
 });
 
+test("new agreements separate admission, degree rules and informational guidance", async () => {
+  for (const name of ["African American Studies, B.A.", "American Studies, B.A.", "Ancient Greek and Roman Civilizations, B.A."]) {
+    const result = await request("/api/agreement", { university, major: name, year: "2026–2027" });
+    assert.equal(result.status, 200, name);
+    assert.ok(result.body.notes.length > 0);
+    if (name === "African American Studies, B.A.") {
+      assert.equal(result.body.requiredGroups[0].requirements.length, 3);
+      assert.deepEqual(result.body.requiredGroups[0].requirements[0].options, [["HIST 35"]]);
+    } else if (name === "American Studies, B.A.") {
+      assert.deepEqual(result.body.requiredGroups, []);
+      assert.equal(result.body.majorRequiredGroups.length, 2);
+      assert.equal(result.body.majorRequiredGroups[0].reviewRequired, true);
+      const choice = result.body.majorRequiredGroups[1];
+      assert.equal(choice.requiredCount, 3);
+      assert.equal(choice.maxPerDepartment, 2);
+      assert.ok(choice.requirements.every(r => r.department));
+    } else {
+      assert.equal(result.body.kind, "informational");
+      assert.deepEqual(result.body.requiredGroups, []);
+      assert.deepEqual(result.body.majorRequiredGroups, []);
+    }
+  }
+});
+
 test("catalog exposes real units, descriptions, transferability and prerequisite links", async () => {
   const courses = await request("/api/courses");
   assert.equal(courses.status, 200);

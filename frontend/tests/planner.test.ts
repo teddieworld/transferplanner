@@ -5,6 +5,40 @@ import type { AgreementRow } from "../lib/agreement-builder";
 import { getRequirementStatus, getPreparationStatus, isCategorySatisfied, isGroupSatisfied, isOptionSatisfied } from "../lib/planner";
 import type { Requirement } from "../lib/planner";
 
+test("informational agreements and empty admission categories never report satisfied", () => {
+  const plan = buildAgreement({ university: "Berkeley", major: "Ancient Civilizations", academicYear: "2026–2027",
+    kind: "informational", notes: ["Department review is needed."] }, []);
+  assert.equal(plan.kind, "informational");
+  assert.equal(isCategorySatisfied(plan.requiredGroups, []), false);
+  assert.throws(() => buildAgreement({ university: "Berkeley", major: "Unknown", academicYear: "2026–2027" }, []));
+});
+
+test("department limits count a valid subset, and ambiguous groups require review", () => {
+  const requirements: Requirement[] = ["A", "B", "C", "D"].map((name, index) => ({
+    name, articulationStatus: "articulated", options: [[name]], department: index < 3 ? "History" : "Sociology"
+  }));
+  const group = { name: "B", requiredCount: 3, maxPerDepartment: 2, requirements };
+  assert.equal(isGroupSatisfied(group, ["A", "B", "C"]), false);
+  assert.equal(isGroupSatisfied(group, ["A", "B", "D"]), true);
+  assert.equal(isGroupSatisfied(group, ["A", "B", "C", "D"]), true);
+  assert.equal(isGroupSatisfied({ ...group, reviewRequired: true }, ["A", "B", "C", "D"]), false);
+  assert.equal(isGroupSatisfied({ ...group, requirements: requirements.map(r => ({ ...r, department: undefined })) }, ["A", "B", "D"]), false);
+});
+
+test("SQL builder separates degree groups and preserves their department rules", () => {
+  const row: AgreementRow = {
+    groupId: 1, groupName: "B", category: "major_required", requiredCount: 3,
+    rules: { max_per_department: 2, note: "Choose across departments" },
+    requirementId: 1, requirementName: "HISTORY 7A", articulationStatus: "articulated",
+    department: "History", note: null, optionId: 1, optionNumber: 1, courseCode: "HIST C1001"
+  };
+  const plan = buildAgreement({ university: "Berkeley", major: "American Studies", academicYear: "2026–2027" }, [row]);
+  assert.equal(plan.requiredGroups.length, 0);
+  assert.equal(plan.majorRequiredGroups?.[0].maxPerDepartment, 2);
+  assert.equal(plan.majorRequiredGroups?.[0].requirements[0].department, "History");
+  assert.equal(plan.majorRequiredGroups?.[0].note, "Choose across departments");
+});
+
 const math54: Requirement = {
   name: "MATH 54", articulationStatus: "articulated",
   options: [["ENGR 285"], ["MATH 285"], ["MATH 260", "MATH 290"]]

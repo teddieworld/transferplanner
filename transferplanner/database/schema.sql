@@ -55,6 +55,7 @@ CREATE TABLE IF NOT EXISTS articulation_agreements(
     major_id INTEGER NOT NULL REFERENCES majors(id),
     college_id INTEGER NOT NULL REFERENCES colleges(id),
     academic_year TEXT NOT NULL,
+    planner_metadata JSONB NOT NULL DEFAULT '{}'::jsonb,
     UNIQUE(major_id, college_id, academic_year)
 );
 --One articulation agreement for a major, starting college, and academic year.
@@ -66,6 +67,7 @@ CREATE TABLE IF NOT EXISTS major_requirement_groups(
     group_name TEXT NOT NULL,
     requirement_category TEXT NOT NULL,
     required_count INTEGER,
+    rules JSONB NOT NULL DEFAULT '{}'::jsonb,
     UNIQUE(agreement_id, requirement_category, group_name)
 );
 --Groups must exist before major_requirements can reference them.
@@ -78,6 +80,7 @@ CREATE TABLE IF NOT EXISTS major_requirements(
     articulation_status TEXT NOT NULL,
     note TEXT,
     preparation_note TEXT,
+    department TEXT,
     group_id INTEGER NOT NULL REFERENCES major_requirement_groups(id),
     UNIQUE(group_id, requirement_text)
 );

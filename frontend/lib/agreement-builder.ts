@@ -15,13 +15,16 @@ export type AgreementRow = {
   optionId: number | null;
   optionNumber: number | null;
   courseCode: string | null;
+  department?: string | null;
+  rules?: { max_per_department?: number; note?: string; review_required?: boolean };
 };
 
-type AgreementMetadata = Pick<MajorAgreement, "university" | "major" | "academicYear">;
+type AgreementMetadata = Pick<MajorAgreement, "university" | "major" | "academicYear" | "kind" | "notes" | "reviewNotes">;
 
 export function buildAgreement(metadata: AgreementMetadata, rows: AgreementRow[]): MajorAgreement {
   const requiredGroups: RequirementGroup[] = [];
   const highlyRecommendedGroups: RequirementGroup[] = [];
+  const majorRequiredGroups: RequirementGroup[] = [];
   const groups = new Map<number, RequirementGroup>();
   const requirements = new Map<number, Requirement>();
   const options = new Map<number, string[]>();
@@ -30,9 +33,16 @@ export function buildAgreement(metadata: AgreementMetadata, rows: AgreementRow[]
     let group = groups.get(row.groupId);
     if (!group) {
       group = { name: row.groupName, requiredCount: row.requiredCount, requirements: [] };
+      if (row.rules?.max_per_department !== undefined) {
+        if (!Number.isInteger(row.rules.max_per_department) || row.rules.max_per_department < 1) throw new Error("Invalid department limit");
+        group.maxPerDepartment = row.rules.max_per_department;
+      }
+      if (row.rules?.note) group.note = row.rules.note;
+      if (row.rules?.review_required) group.reviewRequired = true;
       groups.set(row.groupId, group);
       if (row.category === "required") requiredGroups.push(group);
       else if (row.category === "highly_recommended") highlyRecommendedGroups.push(group);
+      else if (row.category === "major_required") majorRequiredGroups.push(group);
       else throw new Error(`Unsupported requirement category: ${row.category}`);
     }
     if (row.requirementId === null) continue;
@@ -49,6 +59,7 @@ export function buildAgreement(metadata: AgreementMetadata, rows: AgreementRow[]
         name: row.requirementName,
         articulationStatus: status,
         options: [],
+        ...(row.department ? { department: row.department } : {}),
         ...(row.note ? { note: row.note } : {}),
         ...(row.preparationNote ? { preparationNote: row.preparationNote } : {})
       };
@@ -78,6 +89,8 @@ export function buildAgreement(metadata: AgreementMetadata, rows: AgreementRow[]
   for (const option of options.values()) {
     if (option.length === 0) throw new Error("Articulation option has no courses for this college");
   }
-  if (requiredGroups.length === 0) throw new Error("Agreement has no required groups");
-  return { ...metadata, requiredGroups, highlyRecommendedGroups };
+  const hasGroups = requiredGroups.length + majorRequiredGroups.length + highlyRecommendedGroups.length > 0;
+  if (metadata.kind === "informational" && hasGroups) throw new Error("Informational agreement has course groups");
+  if (!hasGroups && metadata.kind !== "informational") throw new Error("Agreement has no course groups");
+  return { ...metadata, requiredGroups, majorRequiredGroups, highlyRecommendedGroups };
 }

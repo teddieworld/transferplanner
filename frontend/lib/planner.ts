@@ -26,6 +26,7 @@ export type Requirement = {
     options: string[][];
     preparationOptions?: string[][];
     preparationNote?: string;
+    department?: string;
     articulationStatus:
         | "articulated"
         | "partial"
@@ -86,13 +87,27 @@ export type RequirementGroup = {
   name: string;
   requirements: Requirement[];
   requiredCount: number | null;
+  maxPerDepartment?: number;
+  note?: string;
+  reviewRequired?: boolean;
 };
 
 export function isGroupSatisfied(
     group:RequirementGroup,
     completedCourses: string[]
 ): boolean{
-    const satisfiedCount = group.requirements.filter(requirement => getPreparationStatus(requirement, completedCourses) === "satisfied").length;
+    if (group.reviewRequired || group.requirements.length === 0) return false;
+    const satisfied = group.requirements.filter(requirement => getPreparationStatus(requirement, completedCourses) === "satisfied");
+    let satisfiedCount = satisfied.length;
+    const departmentLimit = group.maxPerDepartment;
+    if (departmentLimit !== undefined) {
+      const counts = new Map<string, number>();
+      for (const requirement of satisfied) {
+        if (!requirement.department) return false;
+        counts.set(requirement.department, (counts.get(requirement.department) ?? 0) + 1);
+      }
+      satisfiedCount = [...counts.values()].reduce((total, count) => total + Math.min(count, departmentLimit), 0);
+    }
 
     const requiredCount = group.requiredCount ?? group.requirements.length;
     //if left side is null, then use right side
@@ -103,7 +118,7 @@ export function isCategorySatisfied(
   groups: RequirementGroup[],
   completedCourses: string[]
 ): boolean {
-  return groups.every(group =>
+  return groups.length > 0 && groups.every(group =>
     isGroupSatisfied(group, completedCourses)
   );
 }
@@ -114,4 +129,8 @@ export type MajorAgreement = {
   academicYear: string;
   requiredGroups: RequirementGroup[];
   highlyRecommendedGroups: RequirementGroup[];
+  majorRequiredGroups?: RequirementGroup[];
+  kind?: "structured" | "informational";
+  notes?: string[];
+  reviewNotes?: string[];
 };
