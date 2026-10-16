@@ -68,7 +68,7 @@ test("AP policies are scoped to campus, major, agreement year and valid exam sco
   for (const changes of [{ university: "University of California, Los Angeles" }, { academicYear: "2025–2026" }, { major: "Unknown major" }]) {
     const plan = applyAPMajorCredit({ ...original, ...changes }, { "calculus-bc": { score: "5" } }, []);
     assert.equal(majorRequirement(plan, "MATH 51").apPreparation, undefined);
-    assert.match(plan.apPreparationReview!.message, /not been reviewed/);
+    assert.match(plan.apPreparationReview!.message, /not reviewed/);
   }
   const cleared = applyAPMajorCredit(applyAPMajorCredit(original, { "calculus-ab": { score: "5" } }, []), {}, []);
   assert.equal(majorRequirement(cleared, "MATH 51").apPreparation, undefined);
@@ -771,7 +771,7 @@ test("unmapped and partial overlaps withhold AP units and request counselor/admi
   assert.equal(result.remainingUnits, 52);
   assert.ok(result.apCredit.overlap.checks.every(check => check.status === "review"));
   assert.ok(result.apCredit.overlap.checks.every(check => /counselor or UC admissions/.test(check.message)));
-  assert.ok(result.apCredit.overlap.checks.every(check => /excluded from this estimate/.test(check.message)));
+  assert.ok(result.apCredit.overlap.checks.every(check => /AP units excluded/.test(check.message)));
   assert.deepEqual(result.apCredit.overlap.patternExcludedExamIds, []);
   const removed = getTransferUnitProgress(catalog, [], {}, ap, {});
   assert.equal(removed.apCredit.units, 7.9);

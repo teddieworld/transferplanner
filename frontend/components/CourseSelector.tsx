@@ -35,7 +35,7 @@ export default function CourseSelector({ courses, isLoading, error, completedCou
       </div>
       {completedCourses.length > 0 && <div className="selected-courses" aria-label="Selected courses">{completedCourses.map(code => <button type="button" key={code} onClick={() => onCourseChange(code, false)} aria-label={`Remove ${code}`} className="course-chip">{code}<Icon name="x" size={12} /></button>)}</div>}
       {isLoading && <p className="inline-message" role="status">Loading your course catalog...</p>}
-      {error && <p className="error-message" role="alert">{error}</p>}
+      {error && <p className="error-message" role="alert">Course catalog could not load. Refresh to retry.</p>}
       {!isLoading && !error && <div className="course-list-heading"><span>COURSE</span><span>UNITS</span></div>}
       <div className="course-list" tabIndex={0} role="region" aria-label="Mt. SAC courses">
         {visibleCourses.map(course => {

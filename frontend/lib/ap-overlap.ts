@@ -8,7 +8,7 @@ import eligibility from "../data/uc-eligibility-mtsac-2025-2026.json";
 
 export const AP_OVERLAP_SOURCE = "https://catalog.mtsac.edu/registration-policies/academic-policies-requirements/";
 export const AP_OVERLAP_CHECKED_ON = "2026-10-15";
-export const AP_OVERLAP_REVIEW_NOTICE = "AP units awaiting overlap review are excluded from this estimate. Confirm the credit with a counselor or UC admissions before counting it toward the 60-unit requirement.";
+export const AP_OVERLAP_REVIEW_NOTICE = "Confirm excluded AP credit with a counselor or UC admissions.";
 export const AP_OVERLAP_ALIAS_SOURCES = [
   "https://catalog.mtsac.edu/programs/coursesaz/engl/",
   "https://www.mtsac.edu/art-history/courses.html",
@@ -57,7 +57,7 @@ const equivalent = (code: string, expected: string) => code === expected || Bool
 
 export type APOverlapCheck = {
   examId: string; examName: string; status: "excluded" | "review" | "clear";
-  courseCodes: string[]; message: string;
+  courseCodes: string[]; reason: string; message: string;
   patternAreas: UCArea[];
 };
 export type APOverlapReport = { checks: APOverlapCheck[]; excludedExamIds: string[]; patternExcludedExamIds: string[] };
@@ -87,10 +87,14 @@ export function getAPOverlap(
       score = Number(result.abSubscore);
     }
     const base = { examId: exam.id, examName: exam.name, patternAreas: AP_SUBJECT_AREAS[exam.id] ?? [] };
+    const check = (status: APOverlapCheck["status"], courseCodes: string[], reason: string, patternAreas = base.patternAreas): APOverlapCheck => ({
+      ...base, status, courseCodes, reason, patternAreas,
+      message: status === "review" ? `${reason} AP units excluded. ${AP_OVERLAP_REVIEW_NOTICE}` : reason,
+    });
     if (!rule) {
-      checks.push({ ...base, status: potential.length ? "review" : "clear", courseCodes: [], message: potential.length
-        ? `No reviewed course-equivalence rule is available for this exam, so overlap with your coursework cannot be checked. ${AP_OVERLAP_REVIEW_NOTICE}`
-        : "No completed college coursework to compare yet." });
+      checks.push(check(potential.length ? "review" : "clear", [], potential.length
+        ? "No verified rule to check this exam against your college courses."
+        : "No college coursework to compare."));
       continue;
     }
     const matches = potential.filter(course => rule.groups.some(group => group.some(code => equivalent(course.code, code))));
@@ -106,12 +110,21 @@ export function getAPOverlap(
           return approval.status === "eligible" ? approval.areas : [];
         }));
       const patternAreas = base.patternAreas.filter(area => !coveredAreas.has(area));
-      checks.push({ ...base, patternAreas, status: "excluded", courseCodes,
-        message: `Automatically excluded from the unit total in this estimate: ${courseCodes.join(" + ")} covers the documented course equivalency. College-course units are kept.${patternAreas.length ? ` AP subject credit remains available for ${patternAreas.join(" / ")} in the seven-course pattern; no qualifying college counterpart replaces it there yet.` : base.patternAreas.length ? " Eligible college coursework represents its subject credit in the seven-course pattern." : ""}` });
+      checks.push(check("excluded", courseCodes, `Duplicates ${courseCodes.join(" + ")}. College units counted; AP units excluded.`, patternAreas));
     } else if (matches.length) {
-      checks.push({ ...base, status: "review", courseCodes, message: `Possible overlap with ${courseCodes.join(" + ")}: partial course coverage, missing earned units/qualifying grades, or score-specific equivalence needs review. ${AP_OVERLAP_REVIEW_NOTICE}` });
+      const reasons: string[] = [];
+      const missing = rule.groups.filter(group => !potential.some(course => group.some(code => equivalent(course.code, code))));
+      if (missing.length) reasons.push(`Partial overlap with ${courseCodes.join(" + ")}; missing ${missing.map(group => group[0]).join(" + ")}.`);
+      const missingGrades = matches.filter(course => !reviews[course.code]?.grade).map(course => course.code);
+      if (missingGrades.length) reasons.push(`Add grades for ${missingGrades.join(", ")}.`);
+      const lowGrades = matches.filter(course => reviews[course.code]?.grade && !PREPARATION_GRADES.has(reviews[course.code].grade)).map(course => course.code);
+      if (lowGrades.length) reasons.push(`Grades below C in ${lowGrades.join(", ")} need an overlap check.`);
+      const invalidUnits = matches.filter(course => (getEarnedUnits(course, earnedUnits[course.code]) ?? 0) <= 0).map(course => course.code);
+      if (invalidUnits.length) reasons.push(`Enter valid earned units for ${invalidUnits.join(", ")}.`);
+      if (score < (rule.minScore ?? 3)) reasons.push(`Score ${score} is below the college's equivalency threshold (${rule.minScore ?? 3}).`);
+      checks.push(check("review", courseCodes, reasons.join(" ")));
     } else {
-      checks.push({ ...base, status: "clear", courseCodes: [], message: "No matching completed course found in the reviewed equivalency rules." });
+      checks.push(check("clear", [], "No matching college course."));
     }
   }
   return { checks, excludedExamIds: checks.filter(check => check.status !== "clear").map(check => check.examId),

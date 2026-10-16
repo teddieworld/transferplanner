@@ -58,7 +58,7 @@ export default function Home() {
   const inputKey = JSON.stringify([profile, choices, completedCourses, earnedUnits, apResults, patternReviews]);
   const stale = generated !== null && generated.key !== inputKey;
   const generatedEnrolled = generated ? getEnrolledCourses(generated.completed, generated.reviews) : [];
-  const generatedFailedCount = generated?.completed.filter(code => generated.reviews[code]?.status !== "enrolled" && ["F", "NP", "W"].includes(generated.reviews[code]?.grade)).length ?? 0;
+  const generatedFailed = generated?.completed.filter(code => generated.reviews[code]?.status !== "enrolled" && ["F", "NP", "W"].includes(generated.reviews[code]?.grade)) ?? [];
   const apOverlap = courses && !catalogError ? getAPOverlap(apResults, courses, completedCourses, earnedUnits, patternReviews) : null;
 
   function goToTab(tab: PlannerTab, focusPanel = true) {
@@ -98,12 +98,19 @@ export default function Home() {
   async function generatePlan() {
     goToTab("plan");
     setGenerationError(null);
-    if (!selectedCampuses.length || !profile.collegeYear || !profile.entrySeason || !/^\d{4}$/.test(profile.entryYear) || Number(profile.entryYear) < 2020 || Number(profile.entryYear) > 2100 || selectedCampuses.some(campus => !choices[campus.id].major.trim())) {
-      setGenerationError("In Colleges & timing, choose at least one campus, an intended major for each, your current college year, and a valid UC entry term and year.");
+    const missing: string[] = [];
+    if (!selectedCampuses.length) missing.push("choose a UC campus");
+    if (!profile.collegeYear) missing.push("choose your current college year");
+    if (!profile.entrySeason) missing.push("choose your UC entry term");
+    if (!/^\d{4}$/.test(profile.entryYear) || Number(profile.entryYear) < 2020 || Number(profile.entryYear) > 2100) missing.push("enter a UC entry year from 2020 to 2100");
+    const missingMajors = selectedCampuses.filter(campus => !choices[campus.id].major.trim());
+    if (missingMajors.length) missing.push(`choose a major for ${missingMajors.map(campus => campus.label).join(", ")}`);
+    if (missing.length) {
+      setGenerationError(`In Colleges & timing: ${missing.join("; ")}.`);
       return;
     }
     if (!courses || isCatalogLoading || catalogError) {
-      setGenerationError("The course catalog must load before a plan can be generated. Refresh to retry if it failed.");
+      setGenerationError("Course catalog unavailable. Refresh and try again.");
       return;
     }
     // Capture the exact inputs used. Changes during/after this request mark it stale.
@@ -116,15 +123,15 @@ export default function Home() {
           const majorResponse = await fetch(`/api/majors?${new URLSearchParams({ university: campus.name })}`);
           if (!majorResponse.ok) throw new Error("Majors unavailable");
           const majors: Major[] = await majorResponse.json();
-          if (!majors.length) return { ...base, message: "Major agreement data for this campus has not been added yet." };
-          if (!majors.some(major => major.name === choice.major)) return { ...base, message: "Choose a major from this campus’s available list in Colleges & timing, then regenerate." };
-          if (!choice.academicYear) return { ...base, message: "Choose an ASSIST agreement year in Colleges & timing, then regenerate to include this major’s preparation." };
+          if (!majors.length) return { ...base, message: "No major checklist for this campus. Confirm preparation with its admissions office." };
+          if (!majors.some(major => major.name === choice.major)) return { ...base, message: "Choose a listed major in Colleges & timing, then regenerate." };
+          if (!choice.academicYear) return { ...base, message: "Choose an ASSIST agreement year, then regenerate." };
           const response = await fetch(`/api/agreement?${new URLSearchParams({ university: campus.name, major: choice.major, year: choice.academicYear })}`);
           if (!response.ok) throw new Error("Agreement unavailable");
           const agreement: MajorAgreement = await response.json();
           return { campus: campus.label, major: choice.major, agreement: applyAPMajorCredit(agreement, apResults, getMajorCourses(completedCourses, patternReviews)) };
         } catch {
-          return { ...base, message: "We couldn’t load this campus’s agreement. Regenerate to retry; do not treat this as an evaluated major plan." };
+          return { ...base, message: "Agreement unavailable. Regenerate to retry." };
         }
       }));
       const creditCourses = getCreditCourses(completedCourses, patternReviews);
@@ -137,7 +144,7 @@ export default function Home() {
         suggestions: getPatternSuggestions(courses, completedCourses, earnedUnits, patternReviews, apResults, priorityCodes),
         remainingUnits: getTransferUnitProgress(courses, creditCourses, earnedUnits, apResults, patternReviews).remainingUnits });
     } catch {
-      setGenerationError("The plan could not be generated. Please try again.");
+      setGenerationError("Plan could not load. Try again.");
     } finally {
       setIsGenerating(false);
     }
@@ -161,36 +168,35 @@ export default function Home() {
               <div className="form-field"><label htmlFor="entry-season">Planned UC entry term</label><select id="entry-season" value={profile.entrySeason} onChange={e => setProfile({ ...profile, entrySeason: e.target.value })}><option value="">Choose a term</option>{["Fall", "Winter", "Spring", "Summer"].map(season => <option key={season}>{season}</option>)}</select></div>
               <div className="form-field"><label htmlFor="entry-year">UC entry year</label><input id="entry-year" type="number" min="2020" max="2100" step="1" placeholder="2027" value={profile.entryYear} onChange={e => setProfile({ ...profile, entryYear: e.target.value })} /></div>
             </div>
-            <p className="form-feedback">Your entry term is a planning goal. Check whether each campus and major accepts transfers in that term and confirm its deadlines. <a className="inline-link" href="https://admission.universityofcalifornia.edu/campuses-majors/" target="_blank" rel="noreferrer">Check UC campuses and majors ↗</a></p>
+            <p className="form-feedback"><a className="inline-link" href="https://admission.universityofcalifornia.edu/campuses-majors/" target="_blank" rel="noreferrer">Check entry terms and deadlines ↗</a></p>
             <fieldset className="campus-choices"><legend>Which colleges are you hoping to attend?</legend><div className="campus-checkboxes">{UC_CAMPUSES.map(campus => <label key={campus.id} className={choices[campus.id] ? "campus-option campus-option-selected" : "campus-option"}><input type="checkbox" checked={Boolean(choices[campus.id])} onChange={e => toggleCampus(campus.id, e.target.checked)} />{campus.label}</label>)}</div></fieldset>
             <div className="target-colleges">{selectedCampuses.map(campus => <TargetCollege key={campus.id} campus={campus} choice={choices[campus.id]} onChange={choice => setChoices(previous => ({ ...previous, [campus.id]: choice }))} />)}</div>
-            <p className="form-feedback">Detailed major agreements currently cover Berkeley. Other campus selections are saved as goals; their major preparation will be marked unavailable.</p>
-            <div className="wizard-actions"><span className="action-hint">Next, add the AP credit you already have.</span><button type="button" className="button button-primary" onClick={() => goToTab("ap")}>Continue to AP credit <Icon name="arrow" size={17} /></button></div>
+            <div className="wizard-actions"><button type="button" className="button button-primary" onClick={() => goToTab("ap")}>Continue to AP credit <Icon name="arrow" size={17} /></button></div>
           </section>
           <section hidden={activeTab !== "ap"} role="tabpanel" id="planner-panel-ap" aria-labelledby="planner-tab-ap" tabIndex={0} className="wizard-card ap-card">
-            <div className="wizard-card-heading"><h2>AP credit you&apos;ve earned</h2><p>Add completed AP exams and scores. If you haven&apos;t taken any, continue to college courses.</p></div>
+            <div className="wizard-card-heading"><h2>AP credit you&apos;ve earned</h2><p>Add your exam scores, or skip this step.</p></div>
             <APExamSelector results={apResults} onChange={setAPResults} showHeading={false} overlap={apOverlap} catalogError={catalogError} />
             <div className="wizard-actions"><button type="button" className="button button-back" onClick={() => goToTab("colleges")}>← Colleges & timing</button><button type="button" className="button button-primary" onClick={() => goToTab("courses")}>Continue to college courses <Icon name="arrow" size={17} /></button></div>
           </section>
           <section hidden={activeTab !== "courses"} role="tabpanel" id="planner-panel-courses" aria-labelledby="planner-tab-courses" tabIndex={0} className="wizard-card coursework-card">
-            <div className="wizard-card-heading"><h2>Your college courses</h2><p>Select completed Mt. SAC courses and classes you&apos;re currently enrolled in. Set each course&apos;s status below; only completed courses need grades. Leave courses you haven&apos;t enrolled in for your generated checklist.</p></div>
+            <div className="wizard-card-heading"><h2>Your college courses</h2><p>Add completed or currently enrolled Mt. SAC courses. Set each course&apos;s status below.</p></div>
             <CourseSelector courses={courses ?? []} isLoading={isCatalogLoading} error={catalogError} completedCourses={completedCourses} onCourseChange={handleCourseChange} onClearCourses={() => { setCompletedCourses([]); setEarnedUnits({}); setPatternReviews({}); }} showHeading={false} />
             {!isCatalogLoading && !catalogError && <CompletedCourseDetails courses={courses ?? []} completed={completedCourses} earnedUnits={earnedUnits} reviews={patternReviews} onUnitsChange={(code, value) => setEarnedUnits(previous => ({ ...previous, [code]: value }))} onReviewsChange={setPatternReviews} />}
             <div className="wizard-actions"><button type="button" className="button button-back" onClick={() => goToTab("ap")}>← AP credit</button><button type="button" className="button button-primary" disabled={isGenerating} onClick={() => void generatePlan()}>{isGenerating ? "Generating…" : "Generate my plan"}<Icon name="arrow" size={17} /></button></div>
           </section>
           <section hidden={activeTab !== "plan"} role="tabpanel" id="planner-panel-plan" aria-labelledby="planner-tab-plan" tabIndex={0} className="wizard-card results-card">
-            <div className="wizard-card-heading"><h2>Your transfer plan</h2><p>A remaining-course checklist, estimated UC-transferable units, and your seven-course-pattern progress.</p></div>
-            <div className="generation-controls"><button type="button" className="button button-primary" disabled={isGenerating} onClick={() => void generatePlan()}>{isGenerating ? "Generating your plan…" : generated ? "Regenerate my plan" : "Generate my plan"}</button><span className="action-hint">Uses your entries from the first three tabs.</span></div>
+            <div className="wizard-card-heading"><h2>Your transfer plan</h2></div>
+            <div className="generation-controls"><button type="button" className="button button-primary" disabled={isGenerating} onClick={() => void generatePlan()}>{isGenerating ? "Generating your plan…" : generated ? "Regenerate my plan" : "Generate my plan"}</button></div>
             {generationError && <div className="error-message" role="alert"><p>{generationError}</p><button type="button" className="text-button" onClick={() => goToTab("colleges")}>Edit colleges & timing</button></div>}
-            {isGenerating && <p className="form-feedback" role="status">Loading campus agreements and checking your remaining course options…</p>}
-            {stale && <p className="stale-plan" role="status">Your entries have changed. This is your previous plan; regenerate it to include your latest changes.</p>}
-            {!generated && !isGenerating && <p className="empty-plan">Complete Colleges & timing, add any earned AP and college credit, then generate your checklist here. You can generate a starting plan with no earned credit.</p>}
+            {isGenerating && <p className="form-feedback" role="status">Generating your plan…</p>}
+            {stale && <p className="stale-plan" role="status">Entries changed. Regenerate to update this plan.</p>}
+            {!generated && !isGenerating && <p className="empty-plan">Choose your colleges, add any credit, then generate your plan.</p>}
             {generated && <>
-              <div className="generated-plan-intro"><h3>Planning for {generated.profile.entrySeason} {generated.profile.entryYear}</h3><p>{generated.profile.collegeYear} · {generated.agreements.map(item => item.campus).join(" · ")}</p><p>This checklist is a planning estimate, not an admission or deadline determination. Your current college year and entry term provide context; confirm course-completion deadlines for each campus and major. No semester schedule or course availability is calculated.</p></div>
+              <div className="generated-plan-intro"><h3>Planning for {generated.profile.entrySeason} {generated.profile.entryYear}</h3><p>{generated.profile.collegeYear} · {generated.agreements.map(item => item.campus).join(" · ")}</p></div>
               <div className="transfer-progress-content">
                 <EnrolledCourses codes={generatedEnrolled} catalog={generated.catalog} reviews={generated.reviews} />
-                {generatedFailedCount > 0 && <p className="checklist-note">{generatedFailedCount} entered courses with F, NP or W grades are excluded from the unit estimate. Grades below C do not count as completed major preparation in this checklist.</p>}
-                {generated.creditCourses.some(code => !generated.reviews[code]?.grade) && <p className="checklist-note">Some entered courses have no grade. Unit and major course matches are provisional until you enter grades in College courses.</p>}
+                {generatedFailed.length > 0 && <p className="checklist-note">No earned units (F, NP or W): {generatedFailed.join(", ")}.</p>}
+                {generated.creditCourses.some(code => !generated.reviews[code]?.grade) && <p className="checklist-note">Add final grades in College courses: {generated.creditCourses.filter(code => !generated.reviews[code]?.grade).join(", ")}. Unit and major matches may change.</p>}
                 <TransferUnitSummary courses={generated.catalog} isLoading={false} error={null} completedCourses={generated.creditCourses} earnedUnits={generated.earnedUnits} apResults={generated.apResults} reviews={generated.reviews} onEarnedUnitsChange={() => {}} showInputs={false} />
                 <SevenCoursePattern courses={generated.catalog} isLoading={false} error={null} completedCourses={generated.completed} earnedUnits={generated.earnedUnits} apResults={generated.apResults} reviews={generated.reviews} />
               </div>
@@ -202,8 +208,8 @@ export default function Home() {
         {activeTab !== "colleges" && <div className="plan-context" aria-label="Current entries"><div className="context-route"><div><span className="context-colleges">Mt. SAC → {selectedCampuses.length ? selectedCampuses.map(campus => campus.label).join(" · ") : "Choose your UC campuses"}</span><strong>{profile.entrySeason && profile.entryYear ? `${profile.entrySeason} ${profile.entryYear}` : "Your transfer goals"}</strong></div><span className="context-course-count">{completedCourses.length} courses · {Object.keys(apResults).length} AP exams</span></div></div>}
         </div>
       </section>
-      <p className="session-note">Entries and your generated plan are kept while this page is open. Refreshing clears them.</p>
-      <details id="planning-guide" className="planning-guide"><summary><strong>How to use this planner</strong><Icon name="chevron" size={17} /></summary><div className="guide-content"><p><strong>1. Colleges & timing.</strong> Select target campuses and a major per campus. Enter your current year in college and intended UC entry term. Select an applicable source agreement year where available.</p><p><strong>2. AP credit.</strong> Enter exams and earned scores. Documented full duplicates with completed college courses are excluded automatically; partial and unmapped overlaps are flagged for review.</p><p><strong>3. College courses.</strong> Add completed or currently enrolled Mt. SAC courses. Enrolled courses need no grade and are shown as in progress. For completed courses, enter transcript grades, completion terms and variable units. ASSIST approval dates and supported credit conditions are checked automatically. Missing dates or unresolved source conditions stay flagged.</p><p><strong>4. Your plan.</strong> Generate a remaining-course checklist with course names, UC units and pattern progress. Alternatives and choose-N groups remain choices. Admission requirements, additional degree preparation and recommendations are shown separately. Regenerate after editing entries.</p><p>Use official <a className="inline-link" href="https://assist.org" target="_blank" rel="noreferrer">ASSIST agreements</a> and your college adviser to confirm applicable years, prerequisites, credit limits and deadlines. The planner does not determine admission eligibility.</p></div></details>
+      <p className="session-note">Refreshing clears your entries.</p>
+      <details id="planning-guide" className="planning-guide"><summary><strong>How to use this planner</strong><Icon name="chevron" size={17} /></summary><div className="guide-content"><p>1. Choose campuses, majors and your transfer term.</p><p>2. Add AP exam scores.</p><p>3. Add courses, status and final grades.</p><p>4. Generate your plan. Regenerate after editing.</p><p>Planning estimate only. Confirm requirements and deadlines with a counselor and <a className="inline-link" href="https://assist.org" target="_blank" rel="noreferrer">ASSIST ↗</a>. Major checklists currently cover Berkeley.</p></div></details>
       <footer className="site-footer"><span>Mt. SAC course catalog · ASSIST articulation agreements</span><span>Transfer Planner</span></footer>
     </main>
   </div>;

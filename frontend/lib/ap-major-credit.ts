@@ -43,9 +43,9 @@ export function applyAPMajorCredit(agreement: MajorAgreement, results: APResults
       const fullyCovered = alternatives.some(option => option.length > 0 && option.every(code => covers.has(code)));
       const collegeMatched = getPreparationStatus(requirement, completed) === "satisfied";
       const capReached = policy?.maxExamGroups !== undefined && (collegeComplete || examGroups >= policy.maxExamGroups);
-      const reviewNote = requirement.articulationStatus === "review_required" ? "The source rule still needs adviser review."
-        : capReached && !collegeMatched ? collegeComplete ? "This group is already met by college coursework; AP is reserved for another prerequisite." : "The major's limit on exam-based prerequisites has been reached. College coursework is still needed here."
-        : !fullyCovered ? "AP covers only part of this bundled requirement. The full sequence remains open; a combined AP/course substitution needs review."
+      const reviewNote = requirement.articulationStatus === "review_required" ? "Course combinations are unverified. Confirm with a counselor."
+        : capReached && !collegeMatched ? collegeComplete ? "College coursework already meets this group. AP is reserved for another prerequisite." : "The limit on exam-based prerequisites is reached. Complete college coursework here."
+        : !fullyCovered ? "AP covers only part of this requirement. Confirm the remaining courses with a counselor."
         : undefined;
       const satisfied = fullyCovered && !capReached && requirement.articulationStatus !== "review_required";
       if (satisfied && !collegeMatched) usesExam = true;
@@ -66,9 +66,9 @@ export function applyAPMajorCredit(agreement: MajorAgreement, results: APResults
   const majorRequiredGroups = mapGroups(agreement.majorRequiredGroups ?? []);
   const highlyRecommendedGroups = mapGroups(agreement.highlyRecommendedGroups);
   const message = !policy
-    ? "AP major-preparation rules have not been reviewed for this campus, major and agreement year. No AP substitutions are applied; check the department's policy."
-    : ["AP matches use reviewed major-specific rules for this agreement year.", policy.note,
-      "Only the listed substitutions are applied. Other exams, waivers and partial sequences need department review."].filter(Boolean).join(" ");
+    ? "AP rules are not reviewed for this major and year. Confirm credit with the department."
+    : policy.rules.length === 0 ? "This major does not accept AP credit."
+      : "No supported requirement matches these exams and scores. Confirm alternatives with the department.";
   return { ...agreement, requiredGroups, majorRequiredGroups, highlyRecommendedGroups,
-    apPreparationReview: entered.length ? { message, unmatchedExams: entered.filter(exam => !matchedExams.has(exam.id)).map(exam => `AP ${exam.name}${results[exam.id].score ? ` (${results[exam.id].score})` : " (score missing)"}`) } : undefined };
+    apPreparationReview: entered.length ? { message, ...(policy?.note ? { policyNote: policy.note } : {}), unmatchedExams: entered.filter(exam => !matchedExams.has(exam.id)).map(exam => `AP ${exam.name}${results[exam.id].score ? ` (${results[exam.id].score})` : " (score missing)"}`) } : undefined };
 }

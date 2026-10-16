@@ -44,17 +44,17 @@ export function getCourseApproval(
   const course = catalog.find(item => item.code === code);
   const mapping = getCourseEligibility(code);
   const result = (status: CourseApproval["status"], messages: string[], areas: UCArea[] = []): CourseApproval => ({ code, status, messages, areas });
-  if (reviews[code]?.status === "enrolled") return result("in_progress", ["Currently enrolled. Mark this course completed and enter its final grade before it can count toward completed preparation."]);
-  if (!course || !mapping) return result("review", ["No verified course-area approval is available for this code in our ASSIST snapshot."]);
-  if (!course.ucTransferable) return result("not_approved", ["The catalog does not mark this course UC transferable."]);
+  if (reviews[code]?.status === "enrolled") return result("in_progress", ["Enter a final grade after completing this course."]);
+  if (!course || !mapping) return result("review", ["No verified seven-course-pattern area for this course."]);
+  if (!course.ucTransferable) return result("not_approved", ["Not listed as UC transferable."]);
   const term = completionTerm(reviews[code]);
-  if (!term) return result("pending", ["Enter the course completion term and year to check ASSIST approval dates."]);
+  if (!term) return result("pending", ["Add the completion term and year."]);
   const index = termIndex(term)!;
   const courseEnd = mapping.courseEndTerm === "" ? Infinity : termIndex(mapping.courseEndTerm);
-  if (courseEnd !== null && index >= courseEnd) return result("not_approved", [`This recorded course version ends in ${formatTerm(mapping.courseEndTerm!)}; the end term itself is excluded.`]);
+  if (courseEnd !== null && index >= courseEnd) return result("not_approved", [`This course version ends before ${formatTerm(mapping.courseEndTerm!)}. Check the newer version on ASSIST.`]);
   const courseStart = mapping.courseBeginTerm === "" ? -Infinity : termIndex(mapping.courseBeginTerm);
-  if (courseStart === null || courseEnd === null) return result("review", ["The source course-version dates are missing or unsupported."]);
-  if (index < courseStart) return result("review", [`The recorded course version begins in ${formatTerm(mapping.courseBeginTerm!)}. An earlier course version or renamed code needs historical source data.`]);
+  if (courseStart === null || courseEnd === null) return result("review", ["Course approval dates are missing. Confirm your course term on ASSIST."]);
+  if (index < courseStart) return result("review", [`Your course predates this record (${formatTerm(mapping.courseBeginTerm!)}). Confirm the older course on ASSIST.`]);
   const areas = new Set<UCArea>();
   let unknownDates = false;
   for (const approval of mapping.approvals) {
@@ -68,7 +68,7 @@ export function getCourseApproval(
     if (start === null || end === null) { unknownDates = true; continue; }
     if (index >= start && index < end) areas.add(approval.area as UCArea);
   }
-  if (!areas.size) return result(unknownDates ? "review" : "not_approved", [unknownDates ? "The source approval range is incomplete or uses an unsupported term code." : `No recorded UC pattern area applies in ${formatTerm(term)}. ASSIST end terms are excluded from their approval range.`]);
+  if (!areas.size) return result(unknownDates ? "review" : "not_approved", [unknownDates ? "Approval dates are incomplete. Confirm your course term on ASSIST." : `No recorded pattern approval for ${formatTerm(term)}. Check ASSIST.`]);
 
   const blocked: string[] = [];
   const pending: string[] = [];
@@ -78,10 +78,10 @@ export function getCourseApproval(
   function checkOrder(blockers: string[]) {
     for (const blocker of blockers.filter(other => selected.includes(other) && other !== code)) {
       const otherTerm = completionTerm(reviews[blocker]);
-      if (!otherTerm) { pending.push(`Enter ${blocker}'s completion term/year to check the course-order restriction.`); continue; }
+      if (!otherTerm) { pending.push(`Add ${blocker}'s completion term and year to check course order.`); continue; }
       const otherIndex = termIndex(otherTerm)!;
-      if (otherIndex < index) blocked.push(`No credit under the listed condition: ${code} was taken after ${blocker} (${formatTerm(otherTerm)}).`);
-      else if (otherIndex === index) reviewMessages.push(`${code} and ${blocker} are recorded in the same term. Session dates are needed to determine which was taken first.`);
+      if (otherIndex < index) blocked.push(`${code} was taken after ${blocker} (${formatTerm(otherTerm)}); ASSIST excludes credit in this order.`);
+      else if (otherIndex === index) reviewMessages.push(`${code} and ${blocker} are in the same term. Ask a counselor to confirm which came first.`);
     }
   }
   for (const raw of mapping.notes) {
@@ -102,7 +102,7 @@ export function getCourseApproval(
       const related = catalog.filter(other => selected.includes(other.code) && ["ASTR", "GEOL", "METO", "OCEA"].includes(other.code.split(" ")[0])
         && mappings[other.code]?.creditGroup !== mapping.creditGroup);
       checkOrder(related.filter(other => other.ucTransferable || other.csuTransferable).map(other => other.code));
-      if (related.some(other => !other.ucTransferable && !other.csuTransferable)) reviewMessages.push("The level of another entered earth-science course cannot be verified from the catalog flags.");
+      if (related.some(other => !other.ucTransferable && !other.csuTransferable)) reviewMessages.push("Another earth-science course may limit credit. Ask a counselor to check its level.");
       checked.push("Earth-science course ordering checked against entered college-level courses.");
       continue;
     }
@@ -113,14 +113,14 @@ export function getCourseApproval(
     if (note === "PHYS 2AG, PHYS 2BG or PHYS 4A, PHYS 4B, PHYS 4C combined: maximum credit, 1 series - deduct credit for duplication of topics") {
       const first = selected.some(other => ["PHYS 2AG", "PHYS 2BG"].includes(other));
       const second = selected.some(other => ["PHYS 4A", "PHYS 4B", "PHYS 4C"].includes(other));
-      if (first && second) reviewMessages.push("Courses from both physics series are entered. Topic-by-topic duplicate credit needs review; this matcher does not guess the allocation.");
+      if (first && second) reviewMessages.push("Both physics series are entered. Ask a counselor to check duplicate topics before counting credit.");
       else checked.push("Only one physics series is entered; the cross-series duplication restriction is not triggered.");
       continue;
     }
-    reviewMessages.push(`This source condition has no automatic rule yet: ${raw}`);
+    reviewMessages.push(`Ask a counselor to confirm this condition: ${raw}`);
   }
   if (blocked.length) return result("not_approved", [...new Set(blocked)]);
   if (pending.length) return result("pending", [...new Set(pending)]);
-  if (reviewMessages.length || unknownDates) return result("review", [...new Set([...reviewMessages, ...(unknownDates ? ["Some source approval ranges could not be evaluated."] : [])])]);
+  if (reviewMessages.length || unknownDates) return result("review", [...new Set([...reviewMessages, ...(unknownDates ? ["Some approval dates are missing. Confirm your course term on ASSIST."] : [])])]);
   return result("eligible", [`Recorded ${[...areas].join(" / ")} approval covers ${formatTerm(term)}.`, ...new Set(checked)], [...areas]);
 }

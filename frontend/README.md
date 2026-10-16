@@ -132,6 +132,13 @@ source agreement years are selected independently for each campus with imported
 agreements. Campuses without imported agreements accept a free-text major goal
 and explicitly report that major preparation is not evaluated.
 
+The main screens show inputs, results and short next steps. AP exclusions name
+the exam and actual cause (partial sequence, missing grade/units, score threshold
+or unavailable overlap rules). Course warnings name the course and the detail
+needed. Routine approval checks use a short status; rule explanations, policies
+and source notes stay in closed details. Review flags and calculation rules are
+unchanged; no flag is dismissed by hiding its source explanation.
+
 College courses supports Completed and Currently enrolled statuses. Enrolled
 courses hide grade and earned-unit inputs, use enrollment term/year labels, and
 are listed separately in the generated plan. Their course options carry an

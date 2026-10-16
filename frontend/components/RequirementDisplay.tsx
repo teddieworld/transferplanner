@@ -5,7 +5,7 @@ import { getRequirementStatus, getPreparationStatus, isOptionSatisfied, requirem
 import Icon from "./Icon";
 import APPreparationCredit from "./APPreparationCredit";
 
-type RequirementDisplayProps = { requirement: Requirement; completedCourses: string[]; enrolledCourses?: string[] };
+type RequirementDisplayProps = { requirement: Requirement; completedCourses: string[]; enrolledCourses?: string[]; compact?: boolean; showDepartment?: boolean };
 
 function CourseOption({ courses, titles, completedCourses, enrolledCourses }: {
   courses: string[];
@@ -25,10 +25,11 @@ function CourseOption({ courses, titles, completedCourses, enrolledCourses }: {
   ))}</span>;
 }
 
-export default function RequirementDisplay({ requirement, completedCourses, enrolledCourses = [] }: RequirementDisplayProps) {
-  const status = getRequirementStatus(requirement, completedCourses);
+export default function RequirementDisplay({ requirement, completedCourses, enrolledCourses = [], compact = false, showDepartment = false }: RequirementDisplayProps) {
   const preparationStatus = getPreparationStatus(requirement, completedCourses);
+  const status = compact ? preparationStatus : getRequirementStatus(requirement, completedCourses);
   const complete = preparationStatus === "satisfied";
+  const options = compact ? requirement.preparationOptions ?? requirement.options : requirement.options;
   return (
     <div className={`requirement-row ${complete ? "requirement-complete" : ""}`}>
       <div className="requirement-title">
@@ -41,27 +42,29 @@ export default function RequirementDisplay({ requirement, completedCourses, enro
         )) : requirement.name}</strong>
         <span className={`status-badge status-${complete && requirement.apPreparation?.satisfied ? "satisfied" : status}`}>{requirement.apPreparation?.satisfied && complete ? "AP preparation match" : requirementStatusLabels[status]}</span>
       </div>
-      {requirement.department && <p className="requirement-meta">Berkeley department: {requirement.department}</p>}
+      {showDepartment && requirement.department && <p className="requirement-meta">Department: {requirement.department}</p>}
       <APPreparationCredit requirement={requirement} />
-      {requirement.apPreparation?.satisfied && <p className="requirement-meta">College course equivalence: {requirementStatusLabels[status]}. AP preparation credit does not mark the Mt. SAC courses below as completed.</p>}
-      {requirement.preparationOptions && <p className="requirement-meta">Course equivalence options</p>}
-      <div className="requirement-options">{requirement.options.map((option, index) => (
+      {!compact && requirement.preparationOptions && <p className="requirement-meta">Course equivalence options</p>}
+      <div className="requirement-options">{options.map((option, index) => (
         <div className={`requirement-option ${isOptionSatisfied(option, completedCourses) ? "option-complete" : ""}`} key={index}>
           {index > 0 && <span className="option-or">OR</span>}
           <CourseOption courses={option} titles={requirement.optionCourseTitles} completedCourses={completedCourses} enrolledCourses={enrolledCourses} />
           {isOptionSatisfied(option, completedCourses) && <span className="option-completed-label">Completed</span>}
         </div>
       ))}</div>
-      {requirement.preparationOptions && <div className="preparation-block">
+      {!compact && requirement.preparationOptions && <div className="preparation-block">
         <p>Major preparation <span className={`status-badge status-${preparationStatus}`}>{requirementStatusLabels[preparationStatus]}</span></p>
         {requirement.preparationOptions.map((option, index) => <div key={index} className="preparation-option">
           {index > 0 && <span className="option-or">OR</span>}
           <CourseOption courses={option} titles={requirement.optionCourseTitles} completedCourses={completedCourses} enrolledCourses={enrolledCourses} />
           {isOptionSatisfied(option, completedCourses) && <Icon name="check" size={13} />}
         </div>)}
-        {requirement.preparationNote && <p className="requirement-note">{requirement.preparationNote}</p>}
+        {requirement.preparationNote && <details className="course-credit-notes"><summary>Substitution rule</summary><p className="requirement-note">{requirement.preparationNote}</p></details>}
       </div>}
-      {requirement.note && <p className="requirement-note">{requirement.note}</p>}
+      {compact && requirement.preparationNote && <details className="course-credit-notes"><summary>Substitution rule</summary><p className="requirement-note">{requirement.preparationNote}</p></details>}
+      {requirement.articulationStatus === "review_required" && <p className="requirement-note">Course equivalence is unverified. Confirm the option with a counselor.</p>}
+      {requirement.articulationStatus === "partial" && <p className="requirement-note">{requirement.note?.includes("additional university course after transfer") ? "An additional university course is needed after transfer." : "Only part of this requirement has a course match. Confirm the rest with the department."}</p>}
+      {requirement.note && !/^(No Course Articulated|This course must be taken at the university after transfer|Must complete an additional university course after transfer to satisfy this requirement)$/i.test(requirement.note) && <details className="course-credit-notes"><summary>Course conditions</summary><p className="requirement-note">{requirement.note}</p></details>}
     </div>
   );
 }

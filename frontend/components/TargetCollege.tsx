@@ -18,13 +18,13 @@ export default function TargetCollege({ campus, choice, onChange }: {
         {hasMajors ? <select id={`major-${campus.id}`} value={choice.major} onChange={e => onChange({ major: e.target.value, academicYear: "" })}>
           <option value="">Choose a major</option>{majors!.map(major => <option key={major.id} value={major.name}>{major.name}</option>)}
         </select> : <input id={`major-${campus.id}`} value={choice.major} disabled={isLoading || Boolean(error)} placeholder={isLoading ? "Loading majors…" : "For example, Computer Science"} onChange={e => onChange({ major: e.target.value, academicYear: "" })} />}
-        {!isLoading && !error && !hasMajors && <p>Major agreements are not available here yet. We&apos;ll save your intended major and show general UC transfer progress.</p>}
-        {error && <p role="alert">{error}</p>}
+        {!isLoading && !error && !hasMajors && <p>Major checklist unavailable. UC unit and pattern totals are still available.</p>}
+        {error && <p role="alert">Majors could not load. Refresh to retry.</p>}
       </div>
       {hasMajors && <div className="form-field"><label htmlFor={`year-${campus.id}`}>ASSIST agreement year</label><select id={`year-${campus.id}`} value={choice.academicYear} disabled={!years?.length || loadingYears} onChange={e => onChange({ ...choice, academicYear: e.target.value })}>
         <option value="">{loadingYears ? "Loading years…" : "Choose an agreement year"}</option>{years?.map(year => <option key={year} value={year}>{year}</option>)}
-      </select><p>This is the source year for course mappings, separate from when you plan to enter UC. Use the year that applies to your coursework.</p>
-      {yearError && <p role="alert">{yearError}</p>}
+      </select><p>Choose the year that applies to your coursework.</p>
+      {yearError && <p role="alert">Agreement years could not load. Refresh to retry.</p>}
       {choice.major && years?.length === 0 && <p>No agreement years are available for this major.</p>}</div>}
     </div>
   </section>;

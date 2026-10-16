@@ -3,6 +3,7 @@ import type { CourseCatalogEntry } from "@/lib/catalog-types";
 import { getSevenCourseProgress, UC_ELIGIBILITY } from "@/lib/seven-course-pattern";
 import type { CoursePatternReviews } from "@/lib/seven-course-pattern";
 import CourseApprovalStatus from "./CourseApprovalStatus";
+import { getEarnedUnits, PREPARATION_GRADES } from "@/lib/course-credit";
 
 type Props = {
   courses: CourseCatalogEntry[] | null; isLoading: boolean; error: string | null;
@@ -12,8 +13,21 @@ type Props = {
 
 export default function SevenCoursePattern({ courses, isLoading, error, completedCourses, earnedUnits, apResults, reviews }: Props) {
   if (isLoading) return <section className="unit-summary" aria-label="UC seven-course pattern"><p role="status">Loading seven-course pattern...</p></section>;
-  if (error || !courses) return <section className="unit-summary" aria-label="UC seven-course pattern"><p role="alert">The seven-course pattern is unavailable until the catalog loads.</p></section>;
+  if (error || !courses) return <section className="unit-summary" aria-label="UC seven-course pattern"><p role="alert">Catalog unavailable. Refresh to check the pattern.</p></section>;
   const progress = getSevenCourseProgress(courses, completedCourses, earnedUnits, reviews, apResults);
+  const issues = [...new Set(completedCourses)].filter(code => reviews[code]?.status !== "enrolled").flatMap(code => {
+    const course = courses.find(item => item.code === code);
+    const approval = progress.approvals.find(item => item.code === code);
+    const grade = reviews[code]?.grade;
+    const reasons: string[] = [];
+    if (!grade) reasons.push("Add a final grade.");
+    else if (!PREPARATION_GRADES.has(grade)) reasons.push(`Grade ${grade} does not meet the C-or-better requirement.`);
+    if (approval && approval.status !== "eligible") reasons.push(...approval.messages);
+    const units = course ? getEarnedUnits(course, earnedUnits[code]) : null;
+    if (course && units === null) reasons.push("Enter earned units.");
+    else if (units !== null && units < 3) reasons.push("At least 3 earned semester units are required.");
+    return reasons.length ? [{ code, reasons }] : [];
+  });
   const categories = [
     { name: "English composition", count: progress.english, required: 2, areas: ["UC-E"] },
     { name: "Math and quantitative reasoning", count: progress.math, required: 1, areas: ["UC-M"] },
@@ -24,20 +38,15 @@ export default function SevenCoursePattern({ courses, isLoading, error, complete
       <div className="unit-summary-heading"><h3 id="pattern-heading">UC seven-course pattern <span>Estimate</span></h3><a href="https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/basic-requirements.html" target="_blank" rel="noreferrer">UC pattern requirements ↗</a></div>
       <p className="pattern-status" role="status">{progress.complete ? "Seven-course pattern matched (estimate)" : `${progress.matchedCount} of 7 course slots matched`}</p>
       <div className="pattern-categories">{categories.map(category => <div className="pattern-category" key={category.name}>
-        <h4>{category.name}</h4><p><strong>{category.count} / {category.required}</strong> {category.areas.join(" · ")}</p>
-        {category.required === 4 && <p className="pattern-area-count">{progress.areaCount} of at least 2 subject areas represented{progress.breadth === 4 && progress.areaCount < 2 ? " — add a course in another area" : ""}</p>}
-        <ul>{progress.matches.filter(match => category.areas.includes(match.area)).map(match => <li key={match.id}>{match.label} <span>{match.area}</span></li>)}</ul>
+        <h4>{category.name}</h4><p><strong>{category.count} / {category.required}</strong></p>
+        {category.required === 4 && <p className="pattern-area-count">{progress.areaCount} of 2 required subject areas{progress.breadth === 4 && progress.areaCount < 2 ? " — choose a course in another area" : ""}</p>}
+        <ul>{progress.matches.filter(match => category.areas.includes(match.area)).map(match => <li key={match.id}>{match.label}</li>)}</ul>
       </div>)}</div>
-      {progress.pendingCount > 0 && <p className="unit-exclusion">{progress.pendingCount} selected {progress.pendingCount === 1 ? "course needs" : "courses need"} a grade, completion term, valid earned units, or a resolved source condition before counting here.</p>}
-      {progress.enrolledCourses.length > 0 && <p className="checklist-note">Currently enrolled courses are in progress and do not count toward completed pattern slots: {progress.enrolledCourses.join(", ")}.</p>}
-      <p className="unit-summary-note">Course areas: ASSIST Mt. SAC {UC_ELIGIBILITY.academicYear}. The app checks recorded approval ranges (begin term included, end term excluded) and supported restrictions against your entries. A blank source end term is open-ended. This is a saved snapshot checked on {UC_ELIGIBILITY.checkedOn}; historical versions, same-term ordering and unhandled conditions are flagged instead of assumed approved.</p>
-      {progress.approvals.length > 0 && <details className="pattern-review"><summary>Automatic approval results ({progress.approvals.length})</summary>
-        <p>Checks use your entered completion terms and course history. Course-family limits are applied by the pattern matcher, so individually eligible courses may share a single slot. Edit grades, completion terms and units in College courses.</p>
+      {issues.length > 0 && <div className="pattern-issues"><h4>Courses not counted</h4><ul>{issues.map(issue => <li key={issue.code}><strong>{issue.code}:</strong> {issue.reasons.join(" ")}</li>)}</ul><p>Edit course details in College courses.</p></div>}
+      {progress.approvals.length > 0 && <details className="pattern-review"><summary>Course approval details</summary>
         {progress.approvals.map(approval => <div className="pattern-course-review" key={approval.code}><strong>{approval.code}</strong><CourseApprovalStatus approval={approval} /></div>)}
       </details>}
-      {progress.unlisted.length > 0 && <p className="unit-exclusion">No verified area in this snapshot for: {progress.unlisted.join(", ")}. These courses do not count toward this pattern estimate; they may still earn transferable units.</p>}
-      <p className="unit-summary-note">Each course or AP exam fills one slot. Only one English slot can use AP credit. Overlapping AP exam families count once. Duplicate AP units and pattern subject credit are evaluated separately. Valid AP subject credit remains available when its college counterpart has not qualified for the pattern. Once an eligible college counterpart covers the same area, the AP does not add another slot for that overlap. Partial or unmapped overlap remains provisional and needs UC review. This checks the UC admission pattern, independently of Berkeley&apos;s seven-course breadth or major requirements. Completion deadlines, other years, other colleges and IB/A-level credit need separate review.</p>
-      <a className="pattern-source-link" href="https://assist.org" target="_blank" rel="noreferrer">Review course approvals on ASSIST ↗</a>
+      <details className="unit-summary-note"><summary>Pattern rules and sources</summary><p>College courses need a C or better, at least 3 semester units, and approval for the course term. Each course or exam fills one slot; AP can fill at most one English slot. Overlapping credit and course-family limits apply. This is the UC admission pattern, separate from campus breadth and major requirements.</p><p>ASSIST Mt. SAC {UC_ELIGIBILITY.academicYear} · checked {UC_ELIGIBILITY.checkedOn}. Other colleges, IB and A-levels are not included.</p><a className="pattern-source-link" href="https://assist.org" target="_blank" rel="noreferrer">Check ASSIST ↗</a></details>
     </section>
   );
 }

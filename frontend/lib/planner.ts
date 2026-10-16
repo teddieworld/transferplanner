@@ -88,11 +88,11 @@ export function getPreparationStatus(
 //returns the labels printed into html
 export const requirementStatusLabels: Record<RequirementStatus, string> = {
   satisfied: "Satisfied",
-  partial: "Partial",
-  not_satisfied: "Not satisfied",
-  no_course_articulated: "No course articulated",
-  university_only: "University only",
-  review_required: "Adviser review needed"
+  partial: "Partly matched",
+  not_satisfied: "Still needed",
+  no_course_articulated: "No Mt. SAC equivalent",
+  university_only: "Take after transfer",
+  review_required: "Confirm course option"
 };
 
 //a type for each requirement group
@@ -146,5 +146,5 @@ export type MajorAgreement = {
   kind?: "structured" | "informational";
   notes?: string[];
   reviewNotes?: string[];
-  apPreparationReview?: { message: string; unmatchedExams: string[] };
+  apPreparationReview?: { message: string; unmatchedExams: string[]; policyNote?: string };
 };

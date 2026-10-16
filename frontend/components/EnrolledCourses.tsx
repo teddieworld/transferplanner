@@ -8,7 +8,7 @@ export default function EnrolledCourses({ codes, catalog, reviews }: {
   if (!codes.length) return null;
   return <section className="enrolled-course-summary" aria-labelledby="enrolled-courses-heading">
     <h3 id="enrolled-courses-heading">Currently enrolled</h3>
-    <p>These courses are in progress. They are excluded from earned units and completed requirements, and stay on your remaining checklist until completed. When finished, change the status to Completed, enter your final grade and regenerate your plan.</p>
+    <p>Not counted yet. Add final grades when completed, then regenerate your plan.</p>
     <ul>{codes.map(code => {
       const course = catalog.find(item => item.code === code);
       const term = completionTerm(reviews[code]);
