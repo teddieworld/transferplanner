@@ -3,7 +3,7 @@ import type { UCArea } from "./seven-course-pattern";
 // UC systemwide unit credit, checked 2026-10-15. Subject/major credit is campus-specific.
 export const AP_CREDIT_SOURCE = "https://admission.universityofcalifornia.edu/admission-requirements/ap-exam-credits/ap-credits/";
 export type APExam = { id: string; name: string; units: number; bucket?: string; note?: string };
-export type APResult = { score: string; abSubscore?: string };
+export type APResult = { score: string; abSubscore?: string; examYear?: string };
 export type APResults = Record<string, APResult>;
 
 export const AP_EXAMS: APExam[] = [

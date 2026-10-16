@@ -337,5 +337,6 @@ all 292 added agreements and 1,688 catalog courses. Imports were checked on an
 isolated Neon branch first, with existing rows preserved and foreign keys checked.
 
 The website's campus selectors and agreement-year dropdowns read these records
-automatically. AP units and the UC seven-course pattern remain available, but
-UCLA/UCSD AP-to-major preparation policies have not yet been implemented.
+automatically. Reviewed UCLA and UCSD AP-to-major policies are implemented in
+`frontend/lib/ucla-ap-major-policies.ts` and `frontend/lib/ucsd-ap-major-policies.ts`.
+See `frontend/data/AP_MAJOR_POLICIES.md` for policy scope, sources and conditions.

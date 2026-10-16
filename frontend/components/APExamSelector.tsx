@@ -3,9 +3,9 @@ import type { APResults } from "@/lib/ap-credit";
 import { AP_OVERLAP_SOURCE } from "@/lib/ap-overlap";
 import type { APOverlapReport } from "@/lib/ap-overlap";
 
-type APExamSelectorProps = { results: APResults; onChange: (results: APResults) => void; showHeading?: boolean; overlap: APOverlapReport | null; catalogError?: string | null };
+type APExamSelectorProps = { results: APResults; onChange: (results: APResults) => void; showHeading?: boolean; overlap: APOverlapReport | null; catalogError?: string | null; showEconomicsYear?: boolean };
 
-export default function APExamSelector({ results, onChange, showHeading = true, overlap, catalogError }: APExamSelectorProps) {
+export default function APExamSelector({ results, onChange, showHeading = true, overlap, catalogError, showEconomicsYear = false }: APExamSelectorProps) {
   const selected = AP_EXAMS.filter(exam => results[exam.id]);
   return (
     <section className="ap-panel" aria-labelledby={showHeading ? "ap-heading" : undefined} aria-label={showHeading ? undefined : "AP exams"}>
@@ -27,6 +27,7 @@ export default function APExamSelector({ results, onChange, showHeading = true, 
           <div className="ap-score-fields">
             <div className="form-field"><label htmlFor={`ap-score-${exam.id}`}>Exam score</label><select id={`ap-score-${exam.id}`} value={result.score} onChange={event => onChange({ ...results, [exam.id]: { ...result, score: event.target.value } })}><option value="">Select score...</option>{[1, 2, 3, 4, 5].map(score => <option key={score} value={score}>{score}</option>)}</select></div>
             {exam.id === "calculus-bc" && <div className="form-field"><label htmlFor="ap-ab-subscore">AB subscore (optional)</label><select id="ap-ab-subscore" value={result.abSubscore ?? ""} onChange={event => onChange({ ...results, [exam.id]: { ...result, abSubscore: event.target.value } })}><option value="">Not entered</option>{[1, 2, 3, 4, 5].map(score => <option key={score} value={score}>{score}</option>)}</select></div>}
+            {showEconomicsYear && ["microeconomics", "macroeconomics"].includes(exam.id) && result.score === "4" && <div className="form-field"><label htmlFor={`ap-year-${exam.id}`}>Exam year (for UCLA credit)</label><input id={`ap-year-${exam.id}`} type="number" min="1950" max="2100" placeholder="Optional" value={result.examYear ?? ""} onChange={event => onChange({ ...results, [exam.id]: { ...result, examYear: event.target.value } })} /></div>}
             <p className="ap-exam-units" aria-live="polite">{check?.status === "review" ? "0 units · needs review" : check?.status === "excluded" ? "0 units · duplicate credit" : !result.score ? "Choose a score" : `${units} semester units before shared limits`}</p>
           </div>
           {exam.note && <p className="ap-exam-note">{exam.note}</p>}

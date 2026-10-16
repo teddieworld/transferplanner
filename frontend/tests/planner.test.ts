@@ -4,6 +4,8 @@ import { readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { applyAPMajorCredit } from "../lib/ap-major-credit";
 import { BERKELEY_AP_POLICIES } from "../lib/ap-major-policies";
+import { UCLA_AP_POLICIES } from "../lib/ucla-ap-major-policies";
+import { UCSD_AP_POLICIES } from "../lib/ucsd-ap-major-policies";
 import type { MajorAgreement, RequirementGroup } from "../lib/planner";
 import { buildAgreement } from "../lib/agreement-builder";
 import type { AgreementRow } from "../lib/agreement-builder";
@@ -23,8 +25,9 @@ type GeneratedAgreement = {
   requirements: { text: string; group: string; category: string; articulation_status: Requirement["articulationStatus"]; options: { courses: string[] }[]; preparation_options?: string[][]; department?: string }[];
 };
 const agreementDirectory = resolve(process.cwd(), "../transferplanner/data/generated");
-const agreementFixtures = readdirSync(agreementDirectory).filter(name => name.endsWith(".json"))
-  .map(name => JSON.parse(readFileSync(resolve(agreementDirectory, name), "utf8")) as GeneratedAgreement).filter(data => data.major);
+const agreementFixtures = [agreementDirectory, resolve(agreementDirectory, "ucla"), resolve(agreementDirectory, "ucsd")]
+  .flatMap(directory => readdirSync(directory).filter(name => name.endsWith("_generated.json"))
+    .map(name => JSON.parse(readFileSync(resolve(directory, name), "utf8")) as GeneratedAgreement)).filter(data => data.major);
 function majorFixture(major: string): MajorAgreement {
   const data = agreementFixtures.find(data => data.major.trim() === major)!;
   assert.ok(data, `Missing source agreement: ${major}`);
@@ -40,6 +43,148 @@ function majorFixture(major: string): MajorAgreement {
 function allMajorRequirements(plan: MajorAgreement) {
   return [...plan.requiredGroups, ...plan.majorRequiredGroups ?? [], ...plan.highlyRecommendedGroups].flatMap(group => group.requirements);
 }
+
+test("UCLA and UCSD use different calculus thresholds and keep Berkeley separate", () => {
+  const ucla = majorFixture("Computer Science/B.S.");
+  const ucsd = majorFixture("CSE: Computer Science B.S.");
+  for (const score of [3, 4, 5]) {
+    const results = { "calculus-bc": { score: String(score) } };
+    const la = applyAPMajorCredit(ucla, results, []);
+    const sd = applyAPMajorCredit(ucsd, results, []);
+    assert.equal(getPreparationStatus(majorRequirement(la, "MATH 31A"), []) === "satisfied", score >= 4);
+    assert.equal(getPreparationStatus(majorRequirement(la, "MATH 31B"), []) === "satisfied", score === 5);
+    assert.equal(getPreparationStatus(majorRequirement(sd, "MATH 20A"), []), "satisfied");
+    assert.equal(getPreparationStatus(majorRequirement(sd, "MATH 20B"), []) === "satisfied", score >= 4);
+    assert.equal(getPreparationStatus(majorRequirement(sd, "MATH 20C"), []), "not_satisfied");
+  }
+  assert.equal(majorRequirement(applyAPMajorCredit(ucla, { "calculus-ab": { score: "4" } }, []), "MATH 31A").apPreparation, undefined);
+  assert.equal(getPreparationStatus(majorRequirement(applyAPMajorCredit(ucsd, { "calculus-ab": { score: "4" } }, []), "MATH 20A"), []), "satisfied");
+  assert.equal(getAPCredit({ "calculus-bc": { score: "4" } }).units, 5.3);
+});
+
+test("UCLA Economics score four needs an exam before May 2021", () => {
+  const original = majorFixture("Economics/B.A.");
+  for (const [examYear, accepted] of [[undefined, false], ["2020", true], ["2021", false], ["2026", false], ["0199", false], ["2020.0", false]] as const) {
+    const plan = applyAPMajorCredit(original, { microeconomics: { score: "4", examYear } }, []);
+    assert.equal(getPreparationStatus(majorRequirement(plan, "ECON 1"), []) === "satisfied", accepted, String(examYear));
+  }
+  const five = applyAPMajorCredit(original, { microeconomics: { score: "5" }, macroeconomics: { score: "5" } }, []);
+  assert.equal(getPreparationStatus(majorRequirement(five, "ECON 1"), []), "satisfied");
+  assert.equal(getPreparationStatus(majorRequirement(five, "ECON 2"), []), "satisfied");
+});
+
+test("UCLA English, Psychology and program exclusions follow major instructions", () => {
+  const ucla = majorFixture("Computer Science/B.S.");
+  for (const score of ["3", "4"]) {
+    const plan = applyAPMajorCredit(ucla, { "english-language": { score }, "computer-science-a": { score: "5" } }, []);
+    assert.equal(getPreparationStatus(majorRequirement(plan, "ENGCOMP 3"), []) === "satisfied", score === "4");
+    assert.equal(getPreparationStatus(majorRequirement(plan, "COM SCI 31"), []), "not_satisfied");
+  }
+  const psych = applyAPMajorCredit(majorFixture("Psychology/B.A."), {
+    biology: { score: "3" }, psychology: { score: "4" }, statistics: { score: "3" }, "calculus-ab": { score: "3" },
+  }, []);
+  for (const name of ["PSYCH 10", "Lower Division Biology Courses", "Introductory Statistics Courses", "Calculus Requirement"]) {
+    assert.equal(getPreparationStatus(majorRequirement(psych, name), []), "satisfied", name);
+  }
+  const denied = applyAPMajorCredit(majorFixture("Public Affairs/B.A."), { biology: { score: "5" }, "government-us": { score: "5" } }, []);
+  assert.ok(allMajorRequirements(denied).every(req => !req.apPreparation));
+  assert.match(denied.apPreparationReview!.message, /does not accept AP/);
+  const comm = applyAPMajorCredit(majorFixture("Communication/B.A."), { psychology: { score: "5" } }, []);
+  assert.equal(majorRequirement(comm, "PSYCH 10").apPreparation!.satisfied, false);
+  assert.match(majorRequirement(comm, "PSYCH 10").apPreparation!.reviewNote!, /four major-prep courses/);
+});
+
+test("UCSD science exemptions respect scores and leave laboratories and honors courses unmet", () => {
+  const original = majorFixture("Biology: General Biology B.S.");
+  for (const score of [3, 4, 5]) {
+    const plan = applyAPMajorCredit(original, { biology: { score: String(score) }, chemistry: { score: String(score) } }, []);
+    for (const name of ["BILD 1", "BILD 2", "BILD 3"]) assert.equal(getPreparationStatus(majorRequirement(plan, name), []) === "satisfied", score >= 4);
+    assert.equal(getPreparationStatus(majorRequirement(plan, "CHEM 6A"), []) === "satisfied", score >= 4);
+    for (const name of ["CHEM 6B", "CHEM 6C"]) assert.equal(getPreparationStatus(majorRequirement(plan, name), []) === "satisfied", score === 5);
+    for (const name of ["BILD 4", "CHEM 7L", "CHEM 41A"]) assert.equal(majorRequirement(plan, name).apPreparation, undefined);
+  }
+  const chemistry = applyAPMajorCredit(majorFixture("Chemistry and Biochemistry: Chemistry B.S."), { chemistry: { score: "5" } }, []);
+  assert.equal(getPreparationStatus(majorRequirement(chemistry, "CHEM 6C"), []), "satisfied");
+  assert.equal(majorRequirement(chemistry, "CHEM 7L").apPreparation, undefined);
+});
+
+test("UCSD CS, statistics and economics do not inherit another campus's equivalencies", () => {
+  const cs = applyAPMajorCredit(majorFixture("CSE: Computer Science B.S."), { "computer-science-a": { score: "5" } }, []);
+  assert.equal(majorRequirement(cs, "CSE 11").apPreparation, undefined);
+  assert.match(cs.apPreparationReview!.unmatchedExams[0], /not CSE 11/);
+  const cog = applyAPMajorCredit(majorFixture("Cognitive Science B.S."), { "computer-science-a": { score: "4" }, statistics: { score: "5" } }, []);
+  assert.equal(getPreparationStatus(majorRequirement(cog, "CSE 8A"), []), "satisfied");
+  assert.equal(majorRequirement(cog, "COGS 14B").apPreparation, undefined);
+  const econ = applyAPMajorCredit(majorFixture("Economics B.A."), { microeconomics: { score: "5" }, macroeconomics: { score: "5" } }, []);
+  assert.equal(getPreparationStatus(majorRequirement(econ, "ECON 1"), []), "satisfied");
+  assert.equal(getPreparationStatus(majorRequirement(econ, "ECON 3"), []), "satisfied");
+});
+
+test("a UCSD exam fills one alternative series and re-evaluates when scores change", () => {
+  const original = majorFixture("Cognitive Science B.S.");
+  const ap = { "calculus-bc": { score: "4" } };
+  const plan = applyAPMajorCredit(original, ap, []);
+  const names = ["MATH 10A", "MATH 10B", "MATH 20A", "MATH 20B"];
+  assert.equal(names.filter(name => majorRequirement(plan, name).apPreparation?.satisfied).length, 2);
+  const changed = applyAPMajorCredit(plan, { "calculus-bc": { score: "2" } }, []);
+  assert.ok(allMajorRequirements(changed).every(req => !req.apPreparation));
+  const cleared = applyAPMajorCredit(plan, {}, []);
+  assert.ok(allMajorRequirements(cleared).every(req => !req.apPreparation));
+  assert.ok(allMajorRequirements(original).every(req => !req.apPreparation));
+  assert.deepEqual(plan.majorRequiredGroups?.map(group => group.reviewRequired), original.majorRequiredGroups?.map(group => group.reviewRequired));
+});
+
+test("UCLA partial science bundles do not become complete through a single AP exemption", () => {
+  const original = majorFixture("Computer Science/B.S.");
+  const plan = applyAPMajorCredit(original, { "physics-c-mechanics": { score: "5" } }, []);
+  const physics = allMajorRequirements(plan).find(req => req.name.startsWith("PHYSICS 1A AND"))!;
+  assert.equal(physics.apPreparation!.satisfied, false);
+  assert.match(physics.apPreparation!.reviewNote!, /only part/);
+  assert.equal(getRequirementStatus(physics, []), "not_satisfied");
+});
+
+test("International Studies' language waiver is distinct from general language placement", () => {
+  const original = majorFixture("International Studies - Economics B.A.");
+  const plan = applyAPMajorCredit(original, { chinese: { score: "4" } }, []);
+  assert.equal(getPreparationStatus(majorRequirement(plan, "CHIN 20AN"), []), "satisfied");
+  assert.equal(getRequirementStatus(majorRequirement(plan, "CHIN 20AN"), []), "review_required");
+  assert.ok(plan.majorRequiredGroups?.find(group => group.requirements.some(req => req.name === "CHIN 20AN"))?.reviewRequired);
+  const below = applyAPMajorCredit(original, { chinese: { score: "3" } }, []);
+  assert.equal(majorRequirement(below, "CHIN 20AN").apPreparation, undefined);
+  assert.equal(getAPCredit({ chinese: { score: "4" } }).units, 5.3);
+});
+
+test("UCSD department-specific Statistics waivers do not leak between majors", () => {
+  const global = applyAPMajorCredit(majorFixture("Global Health B.A."), { statistics: { score: "3" } }, []);
+  assert.equal(getPreparationStatus(majorRequirement(global, "PSYC 60"), []), "satisfied");
+  const psych = applyAPMajorCredit(majorFixture("Psychology B.A. with a Specialization in Clinical Psychology"),
+    { statistics: { score: "5" }, psychology: { score: "5" } }, []);
+  assert.equal(majorRequirement(psych, "PSYC 60").apPreparation, undefined);
+  assert.ok(psych.apPreparationReview!.unmatchedExams.some(exam => exam.includes("does not fulfill PSYC 60")));
+});
+
+test("new campus rules stay scoped to the reviewed major and agreement year", () => {
+  for (const [policies, university, academicYear] of [
+    [UCLA_AP_POLICIES, "University of California, Los Angeles", "2025–2026"],
+    [UCSD_AP_POLICIES, "University of California, San Diego", "2026–2027"],
+  ] as const) {
+    for (const [major, policy] of Object.entries(policies)) {
+      const original = majorFixture(major);
+      assert.equal(original.university, university);
+      assert.equal(original.academicYear, academicYear);
+      for (const rule of policy.rules) {
+        assert.ok(rule.source.startsWith("https://"));
+        assert.ok(rule.exams.every(exam => AP_EXAMS.some(item => item.id === exam.id)));
+      }
+    }
+    const original = majorFixture(university.endsWith("Los Angeles") ? "Computer Science/B.S." : "CSE: Computer Science B.S.");
+    for (const changed of [{ ...original, academicYear: "2027–2028" }, { ...original, university: "University of California, Davis" }, { ...original, major: "Unknown program" }]) {
+      const plan = applyAPMajorCredit(changed, { "calculus-bc": { score: "5" } }, []);
+      assert.ok(allMajorRequirements(plan).every(req => !req.apPreparation));
+      assert.match(plan.apPreparationReview!.message, /not reviewed/);
+    }
+  }
+});
 function majorRequirement(plan: MajorAgreement, name: string) {
   const req = allMajorRequirements(plan).find(req => req.name === name);
   assert.ok(req, `Missing requirement: ${name}`);

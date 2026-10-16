@@ -167,7 +167,7 @@ export default function Home() {
           </section>
           <section hidden={activeTab !== "ap"} role="tabpanel" id="planner-panel-ap" aria-labelledby="planner-tab-ap" tabIndex={0} className="wizard-card ap-card">
             <div className="wizard-card-heading"><h2>AP credit you&apos;ve earned</h2><p>Add your exam scores, or skip this step.</p></div>
-            <APExamSelector results={apResults} onChange={setAPResults} showHeading={false} overlap={apOverlap} catalogError={catalogError} />
+            <APExamSelector results={apResults} onChange={setAPResults} showHeading={false} overlap={apOverlap} catalogError={catalogError} showEconomicsYear={selectedCampuses.some(campus => campus.id === "los-angeles")} />
             <div className="wizard-actions"><button type="button" className="button button-back" onClick={() => goToTab("colleges")}>← Colleges & timing</button><button type="button" className="button button-primary" onClick={() => goToTab("courses")}>Continue to college courses <Icon name="arrow" size={17} /></button></div>
           </section>
           <section hidden={activeTab !== "courses"} role="tabpanel" id="planner-panel-courses" aria-labelledby="planner-tab-courses" tabIndex={0} className="wizard-card coursework-card">

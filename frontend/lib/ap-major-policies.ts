@@ -4,12 +4,19 @@
 // Keep exact campus, major and agreement-year scope; never infer rules from titles.
 export type APMajorRule = {
   covers: string[];
-  exams: { id: string; minimum: number; subscore?: boolean }[];
+  exams: { id: string; minimum: number; maximum?: number; subscore?: boolean; beforeYear?: number }[];
   collegeOptions?: string[][];
+  // Rules sharing a choice represent mutually exclusive course/series awards.
+  choice?: string;
+  reviewNote?: string;
+  independentOfCourseMapping?: boolean;
   source: string;
   note?: string;
 };
-export type APMajorPolicy = { rules: APMajorRule[]; note?: string; maxExamGroups?: number };
+export type APMajorPolicy = {
+  rules: APMajorRule[]; note?: string; maxExamGroups?: number;
+  unmatchedMessage?: string; examMessages?: Record<string, string>;
+};
 
 const assist = "https://assist.org/transfer/results?year=77&institution=62&agreement=79&agreementType=to&view=agreement&viewBy=major";
 const math = "https://math.berkeley.edu/courses/choosing/high-school-exam-credits";

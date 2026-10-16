@@ -30,6 +30,7 @@ export type Requirement = {
     preparationNote?: string;
     apPreparation?: {
       satisfied: boolean;
+      independentOfCourseMapping?: boolean;
       matches: { exams: string[]; collegeCourses?: string[]; covers: string[]; source: string; note?: string }[];
       reviewNote?: string;
     };
@@ -75,6 +76,9 @@ export function getPreparationStatus(
   requirement: Requirement,
   completedCourses: string[]
 ): RequirementStatus {
+  // A separately reviewed departmental waiver can meet preparation while the
+  // community-college equivalence and its group rules still need review.
+  if (requirement.apPreparation?.satisfied && requirement.apPreparation.independentOfCourseMapping) return "satisfied";
   if (requirement.articulationStatus === "review_required") return "review_required";
   if (requirement.apPreparation?.satisfied) return "satisfied";
   if (requirement.preparationOptions === undefined) {

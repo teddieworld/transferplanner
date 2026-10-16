@@ -8,6 +8,7 @@ export default function APPreparationCredit({ requirement }: { requirement: Requ
     {credit.matches.map((match, index) => <p className="requirement-note" key={index}>
       {[...match.exams, ...match.collegeCourses ?? []].join(" AND ")} → {match.covers.join(" AND ")}.{" "}
       <a href={match.source} target="_blank" rel="noreferrer">Major AP policy ↗</a>
+      {match.note && <> {match.note}</>}
     </p>)}
     {credit.reviewNote && <p className="requirement-note">{credit.reviewNote}</p>}
   </div>;
