@@ -1,0 +1,2942 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Communication:  Media Industries and Communication B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nSource instruction: Complete 1 Course\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nThe source uses area or quantity conditions across sections. Confirm which areas and courses to choose."
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nSource instruction: Complete 1 Course\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nThe source uses area or quantity conditions across sections. Confirm which areas and courses to choose."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "COMM 20",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Communication"
+    },
+    {
+      "text": "COMM 30",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Communication"
+    },
+    {
+      "text": "COMM 40",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Communication"
+    },
+    {
+      "text": "LTWR 8A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGL 8A"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTWR 8B",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGL 8B"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTWR 8C",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGL 8F"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "MUS 1A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "MUS 110A"
+          ]
+        }
+      ],
+      "department": "Music"
+    },
+    {
+      "text": "TDAC 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "THTR 11"
+          ]
+        }
+      ],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDDE 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDDM 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDGE 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "THTR 9"
+          ]
+        }
+      ],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDGE 3",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDPW 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "VIS 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 2",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 3",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 9",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 10",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 41",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "ECON 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ECON C2001"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ECON C2001H"
+          ]
+        }
+      ],
+      "department": "Economics"
+    },
+    {
+      "text": "MGT 3",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Rady School of Management"
+    },
+    {
+      "text": "MGT 45",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "BUSA 7"
+          ]
+        }
+      ],
+      "department": "Rady School of Management"
+    },
+    {
+      "text": "COGS 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Cognitive Science"
+    },
+    {
+      "text": "COGS 3",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Cognitive Science"
+    },
+    {
+      "text": "COGS 9",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Cognitive Science"
+    },
+    {
+      "text": "COGS 18",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Cognitive Science"
+    },
+    {
+      "text": "CSE 3",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "CISB 11"
+          ]
+        }
+      ],
+      "department": "Computer Science and Engineering"
+    },
+    {
+      "text": "CSE 6R",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Computer Science and Engineering"
+    },
+    {
+      "text": "CSE 8A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "CISP 21"
+          ]
+        }
+      ],
+      "department": "Computer Science and Engineering"
+    },
+    {
+      "text": "CSS 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Computational Social Science"
+    },
+    {
+      "text": "DSC 10",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Data Science"
+    },
+    {
+      "text": "COGS 14A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PSYC 3"
+          ]
+        }
+      ],
+      "department": "Cognitive Science"
+    },
+    {
+      "text": "ECON 5",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Economics"
+    },
+    {
+      "text": "POLI 5",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Political Science"
+    },
+    {
+      "text": "PSYC 60",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PSYC 10"
+          ]
+        }
+      ],
+      "department": "Psychology"
+    },
+    {
+      "text": "SOCI 60",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PSYC 3"
+          ]
+        }
+      ],
+      "department": "Sociology"
+    }
+  ],
+  "receiving_course_titles": {
+    "COMM 20": "Analysis of Media Forms and Cultures",
+    "COMM 30": "Digital Media Literacy: Analyzing Forms, Practices, and Infrastructures of Mediated Public Life",
+    "COMM 40": "Promotional Communication",
+    "LTWR 8A": "Writing Fiction",
+    "LTWR 8B": "Writing Poetry",
+    "LTWR 8C": "Writing Nonfiction",
+    "MUS 1A": "Fundamentals of Music",
+    "TDAC 1": "Introduction to Acting",
+    "TDDE 1": "Introduction to Design for the Theatre",
+    "TDDM 1": "Introduction to Dance Making",
+    "TDGE 1": "Introduction to Theatre",
+    "TDGE 3": "Cultivating the Creative Mind",
+    "TDPW 1": "Introduction to Playwriting",
+    "VIS 1": "Introduction to Art-Making: Two-Dimensional Practices",
+    "VIS 2": "Introduction to Art-Making: Motion and Time Based Art",
+    "VIS 3": "Introduction to Art-Making: Three-Dimensional Practices",
+    "VIS 9": "Introduction to Digital Photography for Non-Majors",
+    "VIS 10": "Computing in the Arts Lecture Series",
+    "VIS 41": "Design Communication",
+    "ECON 1": "Principles of Microeconomics",
+    "MGT 3": "Quantitative Methods in Business",
+    "MGT 45": "Principles of Accounting",
+    "COGS 1": "Introduction to Cognitive Science",
+    "COGS 3": "Introduction to Computing",
+    "COGS 9": "Introduction to Data Science",
+    "COGS 18": "Introduction to Python",
+    "CSE 3": "Fluency in Information Technology",
+    "CSE 6R": "Introduction to Computer Science and Object-Oriented Programming: Python",
+    "CSE 8A": "Introduction to Programming and Computational Problem Solving I",
+    "CSS 1": "Introductory Programming for Computational Social Science",
+    "DSC 10": "Principles of Data Science",
+    "COGS 14A": "Introduction to Research Methods",
+    "ECON 5": "Data Analytics for the Social Sciences",
+    "POLI 5": "Data Analytics for the Social Sciences",
+    "PSYC 60": "Introduction to Statistics",
+    "SOCI 60": "Practice of Social Research"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T18:40:21.0450533",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "b3dd7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p><strong>Transfer students are highly encouraged to complete coursework that will satisfy IGETC, partial IGETC, or the General Education requirements for the college that they apply to at UC San Diego. </strong></p><p><br></p><p>The Bachelor of Arts in Media Industries &amp; Communication offers a curriculum in media literacy, institutional analysis, and skills acquisition. Core courses provide a historical and theoretical background for analyzing an increasingly complex media and communication landscape, with a focus on the inner workings of specific sectors (i.e. film, advertising, internet, tourism, etc.). Electives cover a broad range of topics from film analysis to surveillance culture. Students must also take skills-centered practice-based courses in media production, design, and/or other areas. This major welcomes both aspiring media practitioners (filmmakers, musicians, journalists, etc.) and those who aspire to work in media and culture as marketers, managers, digital specialists, lawyers, executives, policy analysts, HR professionals, and more.</p><p><br></p><p><strong>﻿For more information about on the Media Industries and Communication major please visit our website: </strong><a href=\"http://communication.ucsd.edu/\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>http://communication.ucsd.edu</strong></a></p>",
+        "groupId": "b4dd7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410815,
+                      "courseTitle": "Analysis of Media Forms and Cultures",
+                      "courseNumber": "20",
+                      "prefix": "COMM",
+                      "prefixParentId": 3,
+                      "prefixDescription": "Communication",
+                      "departmentParentId": 2758,
+                      "department": "Communication",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "67a4176d-487f-42dc-c9e5-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410816,
+                      "courseTitle": " Digital Media Literacy: Analyzing Forms, Practices, and Infrastructures of Mediated Public Life",
+                      "courseNumber": "30",
+                      "prefix": "COMM",
+                      "prefixParentId": 3,
+                      "prefixDescription": "Communication",
+                      "departmentParentId": 2758,
+                      "department": "Communication",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "59c04a5f-6613-4df7-c9e6-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 411016,
+                      "courseTitle": "Promotional Communication",
+                      "courseNumber": "40",
+                      "prefix": "COMM",
+                      "prefixParentId": 3,
+                      "prefixDescription": "Communication",
+                      "departmentParentId": 2758,
+                      "department": "Communication",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "31c8ba58-1f15-4cb5-c9e7-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromArea",
+          "amount": 1.0,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 0.0,
+          "areaType": "None",
+          "id": "ba2c09c9-1ac1-4455-3699-08def1776a62",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "fedd7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294826,
+                      "courseTitle": "Writing Fiction",
+                      "courseNumber": "8A",
+                      "prefix": "LTWR",
+                      "prefixParentId": 13106,
+                      "prefixDescription": "Literature/Writing",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d18b84f6-04db-4606-c9e8-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 298035,
+                      "courseTitle": "Writing Poetry",
+                      "courseNumber": "8B",
+                      "prefix": "LTWR",
+                      "prefixParentId": 13106,
+                      "prefixDescription": "Literature/Writing",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "26899449-7071-4105-c9e9-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 265756,
+                      "courseTitle": "Writing Nonfiction",
+                      "courseNumber": "8C",
+                      "prefix": "LTWR",
+                      "prefixParentId": 13106,
+                      "prefixDescription": "Literature/Writing",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "21082298-ec3c-42c1-c9ea-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289401,
+                      "courseTitle": "Fundamentals of Music",
+                      "courseNumber": "1A",
+                      "prefix": "MUS",
+                      "prefixParentId": 6516,
+                      "prefixDescription": "Music",
+                      "departmentParentId": 9393,
+                      "department": "Music",
+                      "begin": "F2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "adb93121-d102-43c8-c9eb-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289365,
+                      "courseTitle": "Introduction to Acting",
+                      "courseNumber": "1",
+                      "prefix": "TDAC",
+                      "prefixParentId": 10957,
+                      "prefixDescription": "Theatre & Dance/Theatre Acting",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "463e60ba-c054-4182-c9ec-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289375,
+                      "courseTitle": "Introduction to Design for the Theatre",
+                      "courseNumber": "1",
+                      "prefix": "TDDE",
+                      "prefixParentId": 597,
+                      "prefixDescription": "Theatre & Dance/Theatre Design",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "85325f0f-63de-4ffd-c9ed-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269449,
+                      "courseTitle": "Introduction to Dance Making",
+                      "courseNumber": "1",
+                      "prefix": "TDDM",
+                      "prefixParentId": 16173,
+                      "prefixDescription": "Theatre & Dance/Dance Making",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "23fbee71-c2cc-46e9-c9ee-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 268821,
+                      "courseTitle": "Introduction to Theatre",
+                      "courseNumber": "1",
+                      "prefix": "TDGE",
+                      "prefixParentId": 13348,
+                      "prefixDescription": "Theatre & Dance/Theatre General",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3b21a9de-9a84-4fdc-c9ef-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259931,
+                      "courseTitle": "Introduction to Playwriting",
+                      "courseNumber": "1",
+                      "prefix": "TDPW",
+                      "prefixParentId": 8775,
+                      "prefixDescription": "Theatre & Dance/Theatre Playwriting",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e1ac7843-bca6-4496-c9f0-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289351,
+                      "courseTitle": "Introduction to Art-Making: Two-Dimensional Practices",
+                      "courseNumber": "1",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9afb7941-82f2-4753-c9f1-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 411018,
+                      "courseTitle": "Cultivating the Creative Mind",
+                      "courseNumber": "3",
+                      "prefix": "TDGE",
+                      "prefixParentId": 13348,
+                      "prefixDescription": "Theatre & Dance/Theatre General",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0bb72544-0299-41f6-c9f2-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 11,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294913,
+                      "courseTitle": "Introduction to Art-Making: Motion and Time Based Art",
+                      "courseNumber": "2",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "aba12300-53e9-40b8-c9f3-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 12,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259913,
+                      "courseTitle": "Introduction to Art-Making: Three-Dimensional Practices",
+                      "courseNumber": "3",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4b89a603-0d3d-461e-c9f4-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 19,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356082,
+                      "courseTitle": "Introduction to Cognitive Science",
+                      "courseNumber": "1",
+                      "prefix": "COGS",
+                      "prefixParentId": 5,
+                      "prefixDescription": "Cognitive Science",
+                      "departmentParentId": 2715,
+                      "department": "Cognitive Science",
+                      "begin": "F2001",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "528411d8-f9e1-4643-c9f5-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 20,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355261,
+                      "courseTitle": "Introduction to Computing",
+                      "courseNumber": "3",
+                      "prefix": "COGS",
+                      "prefixParentId": 5,
+                      "prefixDescription": "Cognitive Science",
+                      "departmentParentId": 2715,
+                      "department": "Cognitive Science",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 7,
+                          "pathwayName": "Communication",
+                          "pathwayCode": "Communication",
+                          "expectationId": 32,
+                          "expectationName": "C3-Choose 1 Course From List",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6a63f516-eec3-4a81-c9f6-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 21,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 369333,
+                      "courseTitle": "Introduction to Data Science ",
+                      "courseNumber": "9",
+                      "prefix": "COGS",
+                      "prefixParentId": 5,
+                      "prefixDescription": "Cognitive Science",
+                      "departmentParentId": 2715,
+                      "department": "Cognitive Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 26,
+                          "pathwayName": "Data Science",
+                          "pathwayCode": "Data-Science",
+                          "expectationId": 173,
+                          "expectationName": "C1. Introductory data science/statistics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3db6273a-56e8-4708-c9f7-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 22,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300305,
+                      "courseTitle": "Introduction to Python",
+                      "courseNumber": "18",
+                      "prefix": "COGS",
+                      "prefixParentId": 5,
+                      "prefixDescription": "Cognitive Science",
+                      "departmentParentId": 2715,
+                      "department": "Cognitive Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "13a2c69e-2e74-4575-c9f8-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 23,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 295366,
+                      "courseTitle": "Fluency in Information Technology",
+                      "courseNumber": "3",
+                      "prefix": "CSE",
+                      "prefixParentId": 1108,
+                      "prefixDescription": "Computer Science and Engineering",
+                      "departmentParentId": 3276,
+                      "department": "Computer Science and Engineering",
+                      "begin": "F2003",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 7,
+                          "pathwayName": "Communication",
+                          "pathwayCode": "Communication",
+                          "expectationId": 32,
+                          "expectationName": "C3-Choose 1 Course From List",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8f3207a4-d38c-4b05-c9f9-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 24,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 381252,
+                      "courseTitle": "Introduction to Computer Science and Object-Oriented Programming: Python",
+                      "courseNumber": "6R",
+                      "prefix": "CSE",
+                      "prefixParentId": 1108,
+                      "prefixDescription": "Computer Science and Engineering",
+                      "departmentParentId": 3276,
+                      "department": "Computer Science and Engineering",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "165763b0-c8f4-4034-c9fa-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 25,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259256,
+                      "courseTitle": "Introduction to Programming and Computational Problem Solving I",
+                      "courseNumber": "8A",
+                      "prefix": "CSE",
+                      "prefixParentId": 1108,
+                      "prefixDescription": "Computer Science and Engineering",
+                      "departmentParentId": 3276,
+                      "department": "Computer Science and Engineering",
+                      "begin": "F2020",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 8,
+                          "pathwayName": "Computer Science",
+                          "pathwayCode": "Computer-Science",
+                          "expectationId": 34,
+                          "expectationName": "C1-Intro to Programming/CS1",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b829c350-0b54-4320-c9fb-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 26,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410811,
+                      "courseTitle": "Introductory Programming for Computational Social Science",
+                      "courseNumber": "1",
+                      "prefix": "CSS",
+                      "prefixParentId": 18528,
+                      "prefixDescription": "Computational Social Science",
+                      "departmentParentId": 15257,
+                      "department": "Computational Social Science",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "74ae417f-4d37-4ec1-c9fc-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 27,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 369334,
+                      "courseTitle": "Principles of Data Science",
+                      "courseNumber": "10",
+                      "prefix": "DSC",
+                      "prefixParentId": 16378,
+                      "prefixDescription": "Data Science",
+                      "departmentParentId": 13556,
+                      "department": "Data Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7c2be7bb-d978-4269-c9fd-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 28,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357455,
+                      "courseTitle": "Introduction to Research Methods",
+                      "courseNumber": "14A",
+                      "prefix": "COGS",
+                      "prefixParentId": 5,
+                      "prefixDescription": "Cognitive Science",
+                      "departmentParentId": 2715,
+                      "department": "Cognitive Science",
+                      "begin": "F2012",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7a4ee697-b925-477e-c9fe-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 29,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 381372,
+                      "courseTitle": " Data Analytics for the Social Sciences",
+                      "courseNumber": "5",
+                      "prefix": "ECON",
+                      "prefixParentId": 1187,
+                      "prefixDescription": "Economics",
+                      "departmentParentId": 4221,
+                      "department": "Economics",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "65670163-67ef-4808-c9ff-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 30,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 367700,
+                      "courseTitle": "Data Analytics for the Social Sciences",
+                      "courseNumber": "5",
+                      "prefix": "POLI",
+                      "prefixParentId": 1896,
+                      "prefixDescription": "Political Science",
+                      "departmentParentId": 11007,
+                      "department": "Political Science",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "458157cf-3962-496b-ca00-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 31,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259933,
+                      "courseTitle": "Introduction to Statistics",
+                      "courseNumber": "60",
+                      "prefix": "PSYC",
+                      "prefixParentId": 4594,
+                      "prefixDescription": "Psychology",
+                      "departmentParentId": 11223,
+                      "department": "Psychology",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 7,
+                          "pathwayName": "Communication",
+                          "pathwayCode": "Communication",
+                          "expectationId": 30,
+                          "expectationName": "C1-Statistics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 20,
+                          "pathwayName": "Psychology",
+                          "pathwayCode": "Psychology",
+                          "expectationId": 101,
+                          "expectationName": "C2-Statistics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "25939447-70a1-41eb-ca01-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 32,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355278,
+                      "courseTitle": "Practice of Social Research",
+                      "courseNumber": "60",
+                      "prefix": "SOCI",
+                      "prefixParentId": 8981,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12169,
+                      "department": "Sociology",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "37aec8b6-7777-45d1-ca02-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 13,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 411019,
+                      "courseTitle": "Introduction to Digital Photography for Non-Majors",
+                      "courseNumber": "9",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "731b9722-e253-4e3a-ca03-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 14,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300359,
+                      "courseTitle": "Computing in the Arts Lecture Series",
+                      "courseNumber": "10",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "103cac79-155e-4a5e-ca04-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 15,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357817,
+                      "courseTitle": "Design Communication",
+                      "courseNumber": "41",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f7fd4400-44f5-4a08-ca05-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 16,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288901,
+                      "courseTitle": "Principles of Microeconomics",
+                      "courseNumber": "1",
+                      "prefix": "ECON",
+                      "prefixParentId": 1187,
+                      "prefixDescription": "Economics",
+                      "departmentParentId": 4221,
+                      "department": "Economics",
+                      "begin": "F2007",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 9,
+                          "pathwayName": "Economics",
+                          "pathwayCode": "Economics",
+                          "expectationId": 44,
+                          "expectationName": "C2-Macroeconomics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 29,
+                          "pathwayName": "Environmental Science",
+                          "pathwayCode": "Environmental-Science",
+                          "expectationId": 197,
+                          "expectationName": "C7. Principles of economics (microeconomics)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5d489b8f-978a-4c67-ca06-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 18,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 302694,
+                      "courseTitle": "Principles of Accounting",
+                      "courseNumber": "45",
+                      "prefix": "MGT",
+                      "prefixParentId": 14777,
+                      "prefixDescription": "Management",
+                      "departmentParentId": 11449,
+                      "department": "Rady School of Management",
+                      "begin": "F2012",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e0ddb4ec-00bf-4035-ca07-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 17,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365744,
+                      "courseTitle": "Quantitative Methods in Business",
+                      "courseNumber": "3",
+                      "prefix": "MGT",
+                      "prefixParentId": 14777,
+                      "prefixDescription": "Management",
+                      "departmentParentId": 11449,
+                      "department": "Rady School of Management",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "fb17dca4-2a95-4599-ca08-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromArea",
+          "amount": 1.0,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 0.0,
+          "areaType": "None",
+          "id": "33de0adb-df14-45aa-369a-08def1776a62",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "ffdd7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "d18b84f6-04db-4606-c9e8-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 294826,
+            "courseTitle": "Writing Fiction",
+            "courseNumber": "8A",
+            "prefix": "LTWR",
+            "prefixParentId": 13106,
+            "prefixDescription": "Literature/Writing",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F2010",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 196803,
+                    "courseTitle": "Creative Writing - Fiction",
+                    "courseNumber": "8A",
+                    "prefix": "ENGL",
+                    "prefixParentId": 2684,
+                    "prefixDescription": "English",
+                    "departmentParentId": 5068,
+                    "department": "English (ENGL)",
+                    "begin": "S2001",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "26899449-7071-4105-c9e9-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 298035,
+            "courseTitle": "Writing Poetry",
+            "courseNumber": "8B",
+            "prefix": "LTWR",
+            "prefixParentId": 13106,
+            "prefixDescription": "Literature/Writing",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F2010",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 337228,
+                    "courseTitle": "Creative Writing - Poetry",
+                    "courseNumber": "8B",
+                    "prefix": "ENGL",
+                    "prefixParentId": 2684,
+                    "prefixDescription": "English",
+                    "departmentParentId": 5068,
+                    "department": "English (ENGL)",
+                    "begin": "S2001",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "21082298-ec3c-42c1-c9ea-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 265756,
+            "courseTitle": "Writing Nonfiction",
+            "courseNumber": "8C",
+            "prefix": "LTWR",
+            "prefixParentId": 13106,
+            "prefixDescription": "Literature/Writing",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F2010",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 220783,
+                    "courseTitle": "Creative Writing - Nonfiction",
+                    "courseNumber": "8F",
+                    "prefix": "ENGL",
+                    "prefixParentId": 2684,
+                    "prefixDescription": "English",
+                    "departmentParentId": 5068,
+                    "department": "English (ENGL)",
+                    "begin": "F2009",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "adb93121-d102-43c8-c9eb-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 289401,
+            "courseTitle": "Fundamentals of Music",
+            "courseNumber": "1A",
+            "prefix": "MUS",
+            "prefixParentId": 6516,
+            "prefixDescription": "Music",
+            "departmentParentId": 9393,
+            "department": "Music",
+            "begin": "F2005",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 203874,
+                    "courseTitle": "Music Fundamentals for Musicians",
+                    "courseNumber": "110A",
+                    "prefix": "MUS",
+                    "prefixParentId": 6570,
+                    "prefixDescription": "Music",
+                    "departmentParentId": 9524,
+                    "department": "Music (MUS)",
+                    "begin": "F2022",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "463e60ba-c054-4182-c9ec-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 289365,
+            "courseTitle": "Introduction to Acting",
+            "courseNumber": "1",
+            "prefix": "TDAC",
+            "prefixParentId": 10957,
+            "prefixDescription": "Theatre & Dance/Theatre Acting",
+            "departmentParentId": 12844,
+            "department": "Theatre and Dance",
+            "begin": "F2005",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 157779,
+                    "courseTitle": "Principles of Acting I",
+                    "courseNumber": "11",
+                    "prefix": "THTR",
+                    "prefixParentId": 8811,
+                    "prefixDescription": "Theater Arts",
+                    "departmentParentId": 12824,
+                    "department": "Theater Arts (THTR)",
+                    "begin": "Su2003",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "3b21a9de-9a84-4fdc-c9ef-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 268821,
+            "courseTitle": "Introduction to Theatre",
+            "courseNumber": "1",
+            "prefix": "TDGE",
+            "prefixParentId": 13348,
+            "prefixDescription": "Theatre & Dance/Theatre General",
+            "departmentParentId": 12844,
+            "department": "Theatre and Dance",
+            "begin": "F2005",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 164564,
+                    "courseTitle": "Introduction to Theater Arts",
+                    "courseNumber": "9",
+                    "prefix": "THTR",
+                    "prefixParentId": 8811,
+                    "prefixDescription": "Theater Arts",
+                    "departmentParentId": 12824,
+                    "department": "Theater Arts (THTR)",
+                    "begin": "Su2003",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "528411d8-f9e1-4643-c9f5-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 356082,
+            "courseTitle": "Introduction to Cognitive Science",
+            "courseNumber": "1",
+            "prefix": "COGS",
+            "prefixParentId": 5,
+            "prefixDescription": "Cognitive Science",
+            "departmentParentId": 2715,
+            "department": "Cognitive Science",
+            "begin": "F2001",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "8f3207a4-d38c-4b05-c9f9-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 295366,
+            "courseTitle": "Fluency in Information Technology",
+            "courseNumber": "3",
+            "prefix": "CSE",
+            "prefixParentId": 1108,
+            "prefixDescription": "Computer Science and Engineering",
+            "departmentParentId": 3276,
+            "department": "Computer Science and Engineering",
+            "begin": "F2003",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 7,
+                "pathwayName": "Communication",
+                "pathwayCode": "Communication",
+                "expectationId": 32,
+                "expectationName": "C3-Choose 1 Course From List",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 242494,
+                    "courseTitle": "Computer Information Systems",
+                    "courseNumber": "11",
+                    "prefix": "CISB",
+                    "prefixParentId": 13790,
+                    "prefixDescription": "Computer Information Systems: Beginning",
+                    "departmentParentId": 3142,
+                    "department": "Computer Information Systems (CIS)",
+                    "begin": "Su2005",
+                    "end": "",
+                    "minUnits": 3.5,
+                    "maxUnits": 3.5,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "b829c350-0b54-4320-c9fb-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 259256,
+            "courseTitle": "Introduction to Programming and Computational Problem Solving I",
+            "courseNumber": "8A",
+            "prefix": "CSE",
+            "prefixParentId": 1108,
+            "prefixDescription": "Computer Science and Engineering",
+            "departmentParentId": 3276,
+            "department": "Computer Science and Engineering",
+            "begin": "F2020",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 8,
+                "pathwayName": "Computer Science",
+                "pathwayCode": "Computer-Science",
+                "expectationId": 34,
+                "expectationName": "C1-Intro to Programming/CS1",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 299080,
+                    "courseTitle": "Programming in Java",
+                    "courseNumber": "21",
+                    "prefix": "CISP",
+                    "prefixParentId": 13794,
+                    "prefixDescription": "Computer Information Systems: Programming",
+                    "departmentParentId": 3142,
+                    "department": "Computer Information Systems (CIS)",
+                    "begin": "Su2013",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "7a4ee697-b925-477e-c9fe-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 357455,
+            "courseTitle": "Introduction to Research Methods",
+            "courseNumber": "14A",
+            "prefix": "COGS",
+            "prefixParentId": 5,
+            "prefixDescription": "Cognitive Science",
+            "departmentParentId": 2715,
+            "department": "Cognitive Science",
+            "begin": "F2012",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282974,
+                    "courseTitle": "Introduction to Research Methods in Psychology",
+                    "courseNumber": "3",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4651,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11326,
+                    "department": "Psychology (PSYC)",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "458157cf-3962-496b-ca00-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 367700,
+            "courseTitle": "Data Analytics for the Social Sciences",
+            "courseNumber": "5",
+            "prefix": "POLI",
+            "prefixParentId": 1896,
+            "prefixDescription": "Political Science",
+            "departmentParentId": 11007,
+            "department": "Political Science",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "25939447-70a1-41eb-ca01-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 259933,
+            "courseTitle": "Introduction to Statistics",
+            "courseNumber": "60",
+            "prefix": "PSYC",
+            "prefixParentId": 4594,
+            "prefixDescription": "Psychology",
+            "departmentParentId": 11223,
+            "department": "Psychology",
+            "begin": "F1999",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 7,
+                "pathwayName": "Communication",
+                "pathwayCode": "Communication",
+                "expectationId": 30,
+                "expectationName": "C1-Statistics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 20,
+                "pathwayName": "Psychology",
+                "pathwayCode": "Psychology",
+                "expectationId": 101,
+                "expectationName": "C2-Statistics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 265818,
+                    "courseTitle": "Statistics for the Behavioral Sciences",
+                    "courseNumber": "10",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4651,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11326,
+                    "department": "Psychology (PSYC)",
+                    "begin": "F2003",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "37aec8b6-7777-45d1-ca02-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355278,
+            "courseTitle": "Practice of Social Research",
+            "courseNumber": "60",
+            "prefix": "SOCI",
+            "prefixParentId": 8981,
+            "prefixDescription": "Sociology",
+            "departmentParentId": 12169,
+            "department": "Sociology",
+            "begin": "F2009",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282974,
+                    "courseTitle": "Introduction to Research Methods in Psychology",
+                    "courseNumber": "3",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4651,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11326,
+                    "department": "Psychology (PSYC)",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "103cac79-155e-4a5e-ca04-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 300359,
+            "courseTitle": "Computing in the Arts Lecture Series",
+            "courseNumber": "10",
+            "prefix": "VIS",
+            "prefixParentId": 5352,
+            "prefixDescription": "Visual Arts",
+            "departmentParentId": 13008,
+            "department": "Visual Arts",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "5d489b8f-978a-4c67-ca06-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 288901,
+            "courseTitle": "Principles of Microeconomics",
+            "courseNumber": "1",
+            "prefix": "ECON",
+            "prefixParentId": 1187,
+            "prefixDescription": "Economics",
+            "departmentParentId": 4221,
+            "department": "Economics",
+            "begin": "F2007",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 9,
+                "pathwayName": "Economics",
+                "pathwayCode": "Economics",
+                "expectationId": 44,
+                "expectationName": "C2-Macroeconomics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 29,
+                "pathwayName": "Environmental Science",
+                "pathwayCode": "Environmental-Science",
+                "expectationId": 197,
+                "expectationName": "C7. Principles of economics (microeconomics)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 226260,
+                    "courseTitle": "Principles of Microeconomics - Honors",
+                    "courseNumber": "C2001H",
+                    "prefix": "ECON",
+                    "prefixParentId": 3944,
+                    "prefixDescription": "Economics",
+                    "departmentParentId": 15746,
+                    "department": "Economics",
+                    "begin": "F2026",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 202599,
+                    "courseTitle": "Principles of Microeconomics",
+                    "courseNumber": "C2001",
+                    "prefix": "ECON",
+                    "prefixParentId": 3944,
+                    "prefixDescription": "Economics",
+                    "departmentParentId": 15746,
+                    "department": "Economics",
+                    "begin": "F2026",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "e3d2a62c-df92-4f61-76e7-08def177bf47",
+                "sendingArticulationId": "f52db01d-08ae-49b8-7fae-08def177b236",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "e0ddb4ec-00bf-4035-ca07-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 302694,
+            "courseTitle": "Principles of Accounting",
+            "courseNumber": "45",
+            "prefix": "MGT",
+            "prefixParentId": 14777,
+            "prefixDescription": "Management",
+            "departmentParentId": 11449,
+            "department": "Rady School of Management",
+            "begin": "F2012",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 302869,
+                    "courseTitle": "Principles of Accounting - Financial",
+                    "courseNumber": "7",
+                    "prefix": "BUSA",
+                    "prefixParentId": 7556,
+                    "prefixDescription": "Business: Accounting",
+                    "departmentParentId": 2178,
+                    "department": "Business: Accounting (BUSA)",
+                    "begin": "S2001",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 201,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.",
+    "The source uses area or quantity conditions across sections. Confirm which areas and courses to choose."
+  ],
+  "calculation_review_required": true
+}

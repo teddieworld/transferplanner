@@ -1,0 +1,680 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Cinematic Arts and Film Studies: Cinematic Arts B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 3
+    }
+  ],
+  "requirements": [
+    {
+      "text": "FILM 71",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Cinematic Arts and Film Studies"
+    },
+    {
+      "text": "FILM 72",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Cinematic Arts and Film Studies"
+    },
+    {
+      "text": "FILM 73",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Cinematic Arts and Film Studies"
+    },
+    {
+      "text": "VIS 84",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "COMM 20",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Communication"
+    },
+    {
+      "text": "COMM 30",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Communication"
+    },
+    {
+      "text": "HILD 14",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "TDGE 10",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDGE 11",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDGE 12",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDTR 20",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "VIS 6",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 7",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 84B",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    }
+  ],
+  "receiving_course_titles": {
+    "FILM 71": "Fundamentals of Cinematography",
+    "FILM 72": "Fundamentals of Directing",
+    "FILM 73": "Fundamentals of Editing",
+    "VIS 84": "Film History",
+    "COMM 20": "Analysis of Media Forms and Cultures",
+    "COMM 30": "Digital Media Literacy: Analyzing Forms, Practices, and Infrastructures of Mediated Public Life",
+    "HILD 14": "Film and History in Latin America",
+    "TDGE 10": "Theatre and Film",
+    "TDGE 11": "Great Performances on Film",
+    "TDGE 12": "Topics in Cinema and Race",
+    "TDTR 20": "Dance on Film",
+    "VIS 6": "Race, Gender, and Robots",
+    "VIS 7": "Movie Magic from Melies to Marvel",
+    "VIS 84B": "Film Aesthetics"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T18:39:38.340979",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "8ddd7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The cinematic arts major is an interdisciplinary major for students eager to engage in the study and practices of film and filmmaking. Students will explore a wide range of film studies, including film histories, theories, directors, cultural perspectives, and more. In addition, students will take courses offering instruction in production techniques such as cinematography, directing, and upper-division courses in animation, editing, sound, visual effects, and screenwriting. The interdisciplinary nature of the major allows students to study cinematic arts through connection to related fields while completing a capstone thesis project.</p>",
+        "groupId": "8edd7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410812,
+                      "courseTitle": "Fundamentals of Cinematography",
+                      "courseNumber": "71",
+                      "prefix": "FILM",
+                      "prefixParentId": 18527,
+                      "prefixDescription": "Cinematic Arts and Film Studies",
+                      "departmentParentId": 15256,
+                      "department": "Cinematic Arts and Film Studies",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5f965fe3-5f3b-4a25-ca09-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410813,
+                      "courseTitle": "Fundamentals of Directing",
+                      "courseNumber": "72",
+                      "prefix": "FILM",
+                      "prefixParentId": 18527,
+                      "prefixDescription": "Cinematic Arts and Film Studies",
+                      "departmentParentId": 15256,
+                      "department": "Cinematic Arts and Film Studies",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "847346c2-aba9-4f39-ca0a-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410814,
+                      "courseTitle": "Fundamentals of Editing",
+                      "courseNumber": "73",
+                      "prefix": "FILM",
+                      "prefixParentId": 18527,
+                      "prefixDescription": "Cinematic Arts and Film Studies",
+                      "departmentParentId": 15256,
+                      "department": "Cinematic Arts and Film Studies",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1eca1d6f-1934-46e3-ca0b-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294895,
+                      "courseTitle": "Film History",
+                      "courseNumber": "84",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a1542c00-793c-4814-ca0c-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "8fdd7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410815,
+                      "courseTitle": "Analysis of Media Forms and Cultures",
+                      "courseNumber": "20",
+                      "prefix": "COMM",
+                      "prefixParentId": 3,
+                      "prefixDescription": "Communication",
+                      "departmentParentId": 2758,
+                      "department": "Communication",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b7bc6d08-d8b9-434a-ca0d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410816,
+                      "courseTitle": " Digital Media Literacy: Analyzing Forms, Practices, and Infrastructures of Mediated Public Life",
+                      "courseNumber": "30",
+                      "prefix": "COMM",
+                      "prefixParentId": 3,
+                      "prefixDescription": "Communication",
+                      "departmentParentId": 2758,
+                      "department": "Communication",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "db7673f4-beb3-4ee9-ca0e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410817,
+                      "courseTitle": " Film and History in Latin America",
+                      "courseNumber": "14",
+                      "prefix": "HILD",
+                      "prefixParentId": 2909,
+                      "prefixDescription": "History",
+                      "departmentParentId": 6911,
+                      "department": "History",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "40169366-e114-4a94-ca0f-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410819,
+                      "courseTitle": "Theatre and Film",
+                      "courseNumber": "10",
+                      "prefix": "TDGE",
+                      "prefixParentId": 13348,
+                      "prefixDescription": "Theatre & Dance/Theatre General",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9213cff9-943b-4fc1-ca10-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410818,
+                      "courseTitle": "Great Performances on Film",
+                      "courseNumber": "11",
+                      "prefix": "TDGE",
+                      "prefixParentId": 13348,
+                      "prefixDescription": "Theatre & Dance/Theatre General",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "508e35ac-df8f-4e16-ca11-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410820,
+                      "courseTitle": "Topics in Cinema and Race",
+                      "courseNumber": "12",
+                      "prefix": "TDGE",
+                      "prefixParentId": 13348,
+                      "prefixDescription": "Theatre & Dance/Theatre General",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8809e51f-ad7a-4c2c-ca12-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 363561,
+                      "courseTitle": "Dance on Film",
+                      "courseNumber": "20",
+                      "prefix": "TDTR",
+                      "prefixParentId": 13839,
+                      "prefixDescription": "Theatre & Dance/Dance Theory",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2017",
+                      "end": "W2026",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3b11c773-4faf-4802-ca13-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410821,
+                      "courseTitle": "Race, Gender, and Robots",
+                      "courseNumber": "6",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b02c4826-e5bb-4ea0-ca14-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 410822,
+                      "courseTitle": "Movie Magic from Melies to Marvel",
+                      "courseNumber": "7",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "df19bc3a-2531-4ead-ca15-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 381249,
+                      "courseTitle": "Film Aesthetics",
+                      "courseNumber": "84B",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8ef1dbc8-21e4-42a5-ca16-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "None",
+          "amount": 3.0,
+          "amountUnitType": "Course",
+          "id": "41f6c75c-e537-4ca9-369b-08def1776a62",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "90dd7145-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION REQUIREMENTS",
+        "groupId": "2e157945-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": []
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

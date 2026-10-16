@@ -1,0 +1,481 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Chicanx and Latinx Studies B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": 1
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1
+    }
+  ],
+  "requirements": [
+    {
+      "text": "CLX 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Chicanx and Latinx studies"
+    },
+    {
+      "text": "ETHN 30",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Ethnic Studies"
+    },
+    {
+      "text": "CLX 2",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Chicanx and Latinx studies"
+    },
+    {
+      "text": "CLX 3",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Chicanx and Latinx studies"
+    },
+    {
+      "text": "HILD 7C",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 40"
+          ]
+        }
+      ],
+      "department": "History"
+    }
+  ],
+  "receiving_course_titles": {
+    "CLX 1": "Cornerstone of Chicanx and Latinx Studies",
+    "ETHN 30": "Introduction to Chicanx and Latinx Studies",
+    "CLX 2": "Chicanx and Latinx Gender and Sexuality",
+    "CLX 3": "Special Topics in Chicanx and Latinx Studies",
+    "HILD 7C": "Race and Ethnicity in the United States"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T17:30:34.8398892",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "GENERAL INFORMATION",
+        "groupId": "2447cdf3-0c04-47cc-a0dc-0198bdd0b65f",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p><span style=\"font-size: 16px;\">The Chicanx and Latinx studies major and minor explore the life and culture of Chicanx and Latinx communities in the United States and beyond. This encompasses all Chicanx and Latinx experiences and histories while emphasizing perspectives from the arts, humanities, social sciences, and STEM fields. This includes topics like immigration, borders, policing, race, gender, sexuality, disability, class, public health, culture, indigeneity, social justice, and other issues affecting these communities. Through an interdisciplinary course of study drawing upon course offerings in the Departments of Critical Gender Studies, Communication, Ethnic Studies, History, Linguistics, Literature, Music, Philosophy, Political Science, Theatre and Dance, Urban Studies and Planning, and Visual Arts, among others, students will gain an understanding of this important segment of the US population.</span></p>",
+        "groupId": "31517962-5a85-4d5c-9635-0198bdd0b65f",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "e0eaa572-005e-43bf-a5f1-0198bdd8eeb2",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418234,
+                      "courseTitle": "Cornerstone of Chicanx and Latinx Studies",
+                      "courseNumber": "1",
+                      "prefix": "CLX",
+                      "prefixParentId": 19397,
+                      "prefixDescription": "Chicanx and Latinx studies",
+                      "departmentParentId": 15695,
+                      "department": "Chicanx and Latinx studies",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "04a10ff9-d218-4dff-c14a-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418378,
+                      "courseTitle": "Introduction to Chicanx and Latinx Studies",
+                      "courseNumber": "30",
+                      "prefix": "ETHN",
+                      "prefixParentId": 3992,
+                      "prefixDescription": "Ethnic Studies",
+                      "departmentParentId": 5403,
+                      "department": "Ethnic Studies",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d9bbe0ab-5df2-44aa-c14b-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "78bfe605-afd6-47b3-361f-08def1776a62",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "bd57bd9b-0814-43af-b0c6-0198bdd8eeb2",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418235,
+                      "courseTitle": "Chicanx and Latinx Gender and Sexuality",
+                      "courseNumber": "2",
+                      "prefix": "CLX",
+                      "prefixParentId": 19397,
+                      "prefixDescription": "Chicanx and Latinx studies",
+                      "departmentParentId": 15695,
+                      "department": "Chicanx and Latinx studies",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2cc124aa-3e16-4a8a-c14c-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418236,
+                      "courseTitle": "Special Topics in Chicanx and Latinx Studies",
+                      "courseNumber": "3",
+                      "prefix": "CLX",
+                      "prefixParentId": 19397,
+                      "prefixDescription": "Chicanx and Latinx studies",
+                      "departmentParentId": 15695,
+                      "department": "Chicanx and Latinx studies",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "536ec033-3941-4206-c14d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259923,
+                      "courseTitle": "Race and Ethnicity in the United States",
+                      "courseNumber": "7C",
+                      "prefix": "HILD",
+                      "prefixParentId": 2909,
+                      "prefixDescription": "History",
+                      "departmentParentId": 6911,
+                      "department": "History",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 64,
+                          "expectationName": "C2-US History",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ea052374-ce16-41ff-c14e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "188fa15c-d578-49bc-3620-08def1776a62",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "3cfcf35d-288c-45de-b146-0198bdd8eeb3",
+        "position": 2,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "536ec033-3941-4206-c14d-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 418236,
+            "courseTitle": "Special Topics in Chicanx and Latinx Studies",
+            "courseNumber": "3",
+            "prefix": "CLX",
+            "prefixParentId": 19397,
+            "prefixDescription": "Chicanx and Latinx studies",
+            "departmentParentId": 15695,
+            "department": "Chicanx and Latinx studies",
+            "begin": "F2025",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "ea052374-ce16-41ff-c14e-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 259923,
+            "courseTitle": "Race and Ethnicity in the United States",
+            "courseNumber": "7C",
+            "prefix": "HILD",
+            "prefixParentId": 2909,
+            "prefixDescription": "History",
+            "departmentParentId": 6911,
+            "department": "History",
+            "begin": "F1999",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 64,
+                "expectationName": "C2-US History",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 337469,
+                    "courseTitle": "History of Mexican Americans",
+                    "courseNumber": "40",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

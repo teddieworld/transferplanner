@@ -1,0 +1,625 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Anthropology/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "ANTHRO 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ANTH 1"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ANTH 1H"
+          ]
+        }
+      ],
+      "department": "Anthropology"
+    },
+    {
+      "text": "ANTHRO 2",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ANTH 4"
+          ]
+        }
+      ],
+      "department": "Anthropology"
+    },
+    {
+      "text": "ANTHRO 3",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ANTH 5"
+          ]
+        }
+      ],
+      "department": "Anthropology"
+    },
+    {
+      "text": "ANTHRO 4",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Anthropology"
+    }
+  ],
+  "receiving_course_titles": {
+    "ANTHRO 1": "HUMAN EVOLUTION",
+    "ANTHRO 2": "Archaeology: Introduction",
+    "ANTHRO 3": "CULTURE AND SOCIETY",
+    "ANTHRO 4": "Culture and Communication"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2025-10-31T03:24:46.9644897",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "72bc6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The Anthropology B.A. major is designed for students interested in an anthropological understanding of human behavior. One of the strengths of anthropology is its cross-cultural “holistic” and integrative approach with many fields, such as biology, history, linguistics, the social sciences, and many of the humanities.</p><p><br></p><p>Listed below are the lower division preparation courses for the major.</p><p><br></p><p>To be considered for this major, <strong><u>please complete two or more courses listed below</u></strong> by the end of spring before transfer:</p><ul><li>One course in Human Evolution,</li><li>One course in Archaeology,</li><li>One course in Sociocultural Anthropology, and</li><li>One course in Culture and Communication.</li></ul><p>All courses must be taken for a letter grade.</p><p><br></p><p>For more information regarding this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.anthro.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">anthro.ucla.edu</a> and <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.admission.ucla.edu.E\" rel=\"noopener noreferrer\" target=\"_blank\">admission.ucla.edu.</a></p><p><br></p><p>PLEASE NOTE: the community college courses listed below have been approved to satisfy the preparation for this major at UCLA, but they may not be exact equivalents of the UCLA courses.</p>",
+        "groupId": "78bc6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "462c7745-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 86,
+                      "courseTitle": "CULTURE AND SOCIETY",
+                      "courseNumber": "3",
+                      "prefix": "ANTHRO",
+                      "prefixParentId": 10805,
+                      "prefixDescription": "Anthropology",
+                      "departmentParentId": 812,
+                      "department": "Anthropology",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 1,
+                          "pathwayName": "Anthropology",
+                          "pathwayCode": "Anthropology",
+                          "expectationId": 2,
+                          "expectationName": "C2-Cultural Anthro",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b72af78e-9971-492a-e578-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 258998,
+                      "courseTitle": "Archaeology: Introduction",
+                      "courseNumber": "2",
+                      "prefix": "ANTHRO",
+                      "prefixParentId": 10805,
+                      "prefixDescription": "Anthropology",
+                      "departmentParentId": 812,
+                      "department": "Anthropology",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 1,
+                          "pathwayName": "Anthropology",
+                          "pathwayCode": "Anthropology",
+                          "expectationId": 3,
+                          "expectationName": "C3-Intro to Archaeology",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1de0e7d8-4c6c-4a18-e579-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 284946,
+                      "courseTitle": "HUMAN EVOLUTION",
+                      "courseNumber": "1",
+                      "prefix": "ANTHRO",
+                      "prefixParentId": 10805,
+                      "prefixDescription": "Anthropology",
+                      "departmentParentId": 812,
+                      "department": "Anthropology",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 1,
+                          "pathwayName": "Anthropology",
+                          "pathwayCode": "Anthropology",
+                          "expectationId": 1,
+                          "expectationName": "C1-Physical/Biological Anthro",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "349ec7ba-cb09-46bd-e57a-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288891,
+                      "courseTitle": "Culture and Communication",
+                      "courseNumber": "4",
+                      "prefix": "ANTHRO",
+                      "prefixParentId": 10805,
+                      "prefixDescription": "Anthropology",
+                      "departmentParentId": 812,
+                      "department": "Anthropology",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 7,
+                          "pathwayName": "Communication",
+                          "pathwayCode": "Communication",
+                          "expectationId": 33,
+                          "expectationName": "C4-Choose 3 Courses From List",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9f5de4dc-2ade-42da-e57b-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "7d65cbb4-4aff-497c-6809-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "75bc6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "b72af78e-9971-492a-e578-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 86,
+            "courseTitle": "CULTURE AND SOCIETY",
+            "courseNumber": "3",
+            "prefix": "ANTHRO",
+            "prefixParentId": 10805,
+            "prefixDescription": "Anthropology",
+            "departmentParentId": 812,
+            "department": "Anthropology",
+            "begin": "F2017",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 1,
+                "pathwayName": "Anthropology",
+                "pathwayCode": "Anthropology",
+                "expectationId": 2,
+                "expectationName": "C2-Cultural Anthro",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 163646,
+                    "courseTitle": "Cultural Anthropology",
+                    "courseNumber": "5",
+                    "prefix": "ANTH",
+                    "prefixParentId": 10742,
+                    "prefixDescription": "Anthropology",
+                    "departmentParentId": 824,
+                    "department": "Anthropology (ANTH)",
+                    "begin": "Su2018",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 270,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "1de0e7d8-4c6c-4a18-e579-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 258998,
+            "courseTitle": "Archaeology: Introduction",
+            "courseNumber": "2",
+            "prefix": "ANTHRO",
+            "prefixParentId": 10805,
+            "prefixDescription": "Anthropology",
+            "departmentParentId": 812,
+            "department": "Anthropology",
+            "begin": "F2017",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 1,
+                "pathwayName": "Anthropology",
+                "pathwayCode": "Anthropology",
+                "expectationId": 3,
+                "expectationName": "C3-Intro to Archaeology",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 274015,
+                    "courseTitle": "Archaeology",
+                    "courseNumber": "4",
+                    "prefix": "ANTH",
+                    "prefixParentId": 10742,
+                    "prefixDescription": "Anthropology",
+                    "departmentParentId": 824,
+                    "department": "Anthropology (ANTH)",
+                    "begin": "F2016",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 263,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "349ec7ba-cb09-46bd-e57a-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 284946,
+            "courseTitle": "HUMAN EVOLUTION",
+            "courseNumber": "1",
+            "prefix": "ANTHRO",
+            "prefixParentId": 10805,
+            "prefixDescription": "Anthropology",
+            "departmentParentId": 812,
+            "department": "Anthropology",
+            "begin": "F2017",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 1,
+                "pathwayName": "Anthropology",
+                "pathwayCode": "Anthropology",
+                "expectationId": 1,
+                "expectationName": "C1-Physical/Biological Anthro",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 193213,
+                    "courseTitle": "Biological Anthropology",
+                    "courseNumber": "1",
+                    "prefix": "ANTH",
+                    "prefixParentId": 10742,
+                    "prefixDescription": "Anthropology",
+                    "departmentParentId": 824,
+                    "department": "Anthropology (ANTH)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 223231,
+                    "courseTitle": "Biological Anthropology - Honors",
+                    "courseNumber": "1H",
+                    "prefix": "ANTH",
+                    "prefixParentId": 10742,
+                    "prefixDescription": "Anthropology",
+                    "departmentParentId": 824,
+                    "department": "Anthropology (ANTH)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "23a6f576-a7be-413e-e56d-08ddcb9717a5",
+                "sendingArticulationId": "2bea8926-e246-4879-e296-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

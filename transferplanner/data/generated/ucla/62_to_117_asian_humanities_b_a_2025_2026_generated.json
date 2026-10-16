@@ -1,0 +1,1123 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Asian Humanities/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1
+    }
+  ],
+  "requirements": [
+    {
+      "text": "The Equivalent of Intermediate level in an Asian language, i.e. Chinese, Japanese, Korean, Hindi-Urdu, Filipino, Indonesian and Vietnamese or placement exam",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "ASIAN 30",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian"
+    },
+    {
+      "text": "CHIN 50",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Chinese"
+    },
+    {
+      "text": "JAPAN 50",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Japanese"
+    },
+    {
+      "text": "JAPAN 70",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Japanese"
+    },
+    {
+      "text": "KOREA 50",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Korean"
+    },
+    {
+      "text": "ASIAN M60",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian"
+    },
+    {
+      "text": "ASIAN M60W",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian"
+    },
+    {
+      "text": "ASIAN M61",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian"
+    },
+    {
+      "text": "CHIN M60",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Chinese"
+    },
+    {
+      "text": "CHIN M60W",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Chinese"
+    },
+    {
+      "text": "KOREA M60",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Korean"
+    },
+    {
+      "text": "S ASIAN M60",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "South Asian"
+    },
+    {
+      "text": "SEASIAN M60",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Southeast Asian"
+    },
+    {
+      "text": "JAPAN 75",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Japanese"
+    },
+    {
+      "text": "JAPAN 80",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Japanese"
+    },
+    {
+      "text": "KOREA 40",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Korean"
+    },
+    {
+      "text": "KOREA 70",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Korean"
+    },
+    {
+      "text": "KOREA 80",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Korean"
+    }
+  ],
+  "receiving_course_titles": {
+    "ASIAN 30": "Languages and Cultures of Asia",
+    "CHIN 50": "Chinese Civilization",
+    "JAPAN 50": "Japanese Civilization",
+    "JAPAN 70": "Images of Japan: Literature and Film",
+    "KOREA 50": "History of Korean Civilization",
+    "ASIAN M60": "Introduction to Buddhism",
+    "ASIAN M60W": "Introduction to Buddhism",
+    "ASIAN M61": "Introduction to Zen Buddhism",
+    "CHIN M60": "Introduction to Chinese Religions",
+    "CHIN M60W": "Introduction to Chinese Religions",
+    "KOREA M60": "Introduction to Korean Religions",
+    "S ASIAN M60": "Religion in Classical India: Introduction",
+    "SEASIAN M60": "Religious Traditions in Southeast Asia",
+    "JAPAN 75": "Anime",
+    "JAPAN 80": "How Does It Move? Action and Moving Image in Modern Japan",
+    "KOREA 40": "Korean Wave: Globalization of South Korean Popular Culture",
+    "KOREA 70": "Images of Korea",
+    "KOREA 80": "Introduction to Korean Cinema"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-01-16T21:06:00.6743522",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "cfbc6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Asian Humanities majors choose their main language concentration in Chinese, Japanese, Korean, South Asian, or Southeast Asian languages, while simultaneously acquiring broad cultural competence by taking courses from at least four countries or areas across Asia. This provides students with a combination of strong language skills and the knowledge necessary to engage with various aspects of multiple Asian societies.</p><p><br></p><p>Listed below are the lower division preparation courses for the major.</p><p><br></p><p>To be considered for this major, you must complete the following courses by the end of spring before transfer:</p><ul><li>One year of a college level Asian language OR</li><li>At least one year of high school in which the primary language of instruction was an Asian language.</li><li>One course from: Asian Civilization, Introduction to Buddhism, Introduction to Asian Religions</li></ul><p>Completion of two years of college level foreign language is <strong>STRONGLY RECOMMENDED</strong>.</p><p>A placement exam is required for all language majors regardless of credits earned in lower division language courses.</p><p>All courses must be taken for a letter grade.</p><p><br></p><p>For more information regarding this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.alc.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">alc.ucla.edu</a> and <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.admission.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">admission.ucla.edu</a>.</p><p><br></p><p>PLEASE NOTE: the community college courses listed below have been approved to satisfy the preparation for this major at UCLA, but they may not be exact equivalents of the UCLA courses listed.</p>",
+        "groupId": "dabc6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "The Equivalent of Intermediate level in an Asian language, i.e. Chinese, Japanese, Korean, Hindi-Urdu, Filipino, Indonesian and Vietnamese or placement exam"
+                    },
+                    "requirementAttributes": [],
+                    "id": "031abbac-18b9-4898-e565-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "FOREIGN LANGUAGE REQUIREMENT",
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "87dbda94-416b-4363-6807-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "d4bc6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288713,
+                      "courseTitle": "Chinese Civilization",
+                      "courseNumber": "50",
+                      "prefix": "CHIN",
+                      "prefixParentId": 15735,
+                      "prefixDescription": "Chinese",
+                      "departmentParentId": 2597,
+                      "department": "Chinese",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9d7a347e-36b2-4005-e566-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305212,
+                      "courseTitle": "Japanese Civilization",
+                      "courseNumber": "50",
+                      "prefix": "JAPAN",
+                      "prefixParentId": 15689,
+                      "prefixDescription": "Japanese",
+                      "departmentParentId": 7852,
+                      "department": "Japanese",
+                      "begin": "Su2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7a36cbfd-136b-40b2-e567-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379818,
+                      "courseTitle": "Images of Japan: Literature and Film",
+                      "courseNumber": "70",
+                      "prefix": "JAPAN",
+                      "prefixParentId": 15689,
+                      "prefixDescription": "Japanese",
+                      "departmentParentId": 7852,
+                      "department": "Japanese",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9561bb1e-ac26-4d69-e568-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305213,
+                      "courseTitle": "History of Korean Civilization",
+                      "courseNumber": "50",
+                      "prefix": "KOREA",
+                      "prefixParentId": 15690,
+                      "prefixDescription": "Korean",
+                      "departmentParentId": 8225,
+                      "department": "Korean",
+                      "begin": "Su2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7248eb23-d906-4284-e569-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 2,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387374,
+                      "courseTitle": "Introduction to Buddhism",
+                      "courseNumber": "M60",
+                      "prefix": "ASIAN",
+                      "prefixParentId": 14422,
+                      "prefixDescription": "Asian",
+                      "departmentParentId": 1249,
+                      "department": "Asian",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a7ae1362-6a48-46db-e56a-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288641,
+                      "courseTitle": "Introduction to Buddhism",
+                      "courseNumber": "M60W",
+                      "prefix": "ASIAN",
+                      "prefixParentId": 14422,
+                      "prefixDescription": "Asian",
+                      "departmentParentId": 1249,
+                      "department": "Asian",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 309490,
+                          "courseTitle": "Introduction to Buddhism",
+                          "courseNumber": "M60A",
+                          "prefix": "RELIGN",
+                          "prefixParentId": 15691,
+                          "prefixDescription": "Religion, Study of",
+                          "departmentParentId": 11670,
+                          "department": "Religion, Study of",
+                          "begin": "S2016",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      },
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 360058,
+                          "courseTitle": "Introduction to Buddhism",
+                          "courseNumber": "M60W",
+                          "prefix": "RELIGN",
+                          "prefixParentId": 15691,
+                          "prefixDescription": "Religion, Study of",
+                          "departmentParentId": 11670,
+                          "department": "Religion, Study of",
+                          "begin": "S2016",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "03a84e7a-828a-4ad3-e56b-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383389,
+                      "courseTitle": "Introduction to Zen Buddhism",
+                      "courseNumber": "M61",
+                      "prefix": "ASIAN",
+                      "prefixParentId": 14422,
+                      "prefixDescription": "Asian",
+                      "departmentParentId": 1249,
+                      "department": "Asian",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "915e0b3b-a5dd-4a0c-e56c-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305215,
+                      "courseTitle": "Introduction to Chinese Religions",
+                      "courseNumber": "M60",
+                      "prefix": "CHIN",
+                      "prefixParentId": 15735,
+                      "prefixDescription": "Chinese",
+                      "departmentParentId": 2597,
+                      "department": "Chinese",
+                      "begin": "S2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 305214,
+                          "courseTitle": "Introduction to Chinese Religions",
+                          "courseNumber": "M60B",
+                          "prefix": "RELIGN",
+                          "prefixParentId": 15691,
+                          "prefixDescription": "Religion, Study of",
+                          "departmentParentId": 11670,
+                          "department": "Religion, Study of",
+                          "begin": "S2016",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c5d3d739-9847-447e-e56d-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288653,
+                      "courseTitle": "Introduction to Chinese Religions",
+                      "courseNumber": "M60W",
+                      "prefix": "CHIN",
+                      "prefixParentId": 15735,
+                      "prefixDescription": "Chinese",
+                      "departmentParentId": 2597,
+                      "department": "Chinese",
+                      "begin": "S2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 288652,
+                          "courseTitle": "Introduction to Chinese Religions",
+                          "courseNumber": "M61W",
+                          "prefix": "RELIGN",
+                          "prefixParentId": 15691,
+                          "prefixDescription": "Religion, Study of",
+                          "departmentParentId": 11670,
+                          "department": "Religion, Study of",
+                          "begin": "S2016",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "919f6f62-ff80-49da-e56e-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309494,
+                      "courseTitle": "Introduction to Korean Religions",
+                      "courseNumber": "M60",
+                      "prefix": "KOREA",
+                      "prefixParentId": 15690,
+                      "prefixDescription": "Korean",
+                      "departmentParentId": 8225,
+                      "department": "Korean",
+                      "begin": "S2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 309493,
+                          "courseTitle": "Introduction to Korean Religions",
+                          "courseNumber": "M60C",
+                          "prefix": "RELIGN",
+                          "prefixParentId": 15691,
+                          "prefixDescription": "Religion, Study of",
+                          "departmentParentId": 11670,
+                          "department": "Religion, Study of",
+                          "begin": "S2016",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9f6dfe03-e7ae-4ec9-e56f-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360062,
+                      "courseTitle": "Religion in Classical India: Introduction",
+                      "courseNumber": "M60",
+                      "prefix": "S ASIAN",
+                      "prefixParentId": 15857,
+                      "prefixDescription": "South Asian",
+                      "departmentParentId": 12194,
+                      "department": "South Asian",
+                      "begin": "S2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 360061,
+                          "courseTitle": "Religion in Classical India: Introduction",
+                          "courseNumber": "M60D",
+                          "prefix": "RELIGN",
+                          "prefixParentId": 15691,
+                          "prefixDescription": "Religion, Study of",
+                          "departmentParentId": 11670,
+                          "department": "Religion, Study of",
+                          "begin": "S2016",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "557a801e-6ff8-45de-e570-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304688,
+                      "courseTitle": "Religious Traditions in Southeast Asia",
+                      "courseNumber": "M60",
+                      "prefix": "SEASIAN",
+                      "prefixParentId": 14378,
+                      "prefixDescription": "Southeast Asian",
+                      "departmentParentId": 12196,
+                      "department": "Southeast Asian",
+                      "begin": "S2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 304687,
+                          "courseTitle": "Religious Traditions in Southeast Asia",
+                          "courseNumber": "M60E",
+                          "prefix": "RELIGN",
+                          "prefixParentId": 15691,
+                          "prefixDescription": "Religion, Study of",
+                          "departmentParentId": 11670,
+                          "department": "Religion, Study of",
+                          "begin": "S2016",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "18a630fd-68e1-4ad2-e571-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 4,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379819,
+                      "courseTitle": "Anime",
+                      "courseNumber": "75",
+                      "prefix": "JAPAN",
+                      "prefixParentId": 15689,
+                      "prefixDescription": "Japanese",
+                      "departmentParentId": 7852,
+                      "department": "Japanese",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "dc9e6544-8693-48b2-e572-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379820,
+                      "courseTitle": "How Does It Move? Action and Moving Image in Modern Japan",
+                      "courseNumber": "80",
+                      "prefix": "JAPAN",
+                      "prefixParentId": 15689,
+                      "prefixDescription": "Japanese",
+                      "departmentParentId": 7852,
+                      "department": "Japanese",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3cdc1f0b-623a-438e-e573-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379822,
+                      "courseTitle": "Korean Wave: Globalization of South Korean Popular Culture",
+                      "courseNumber": "40",
+                      "prefix": "KOREA",
+                      "prefixParentId": 15690,
+                      "prefixDescription": "Korean",
+                      "departmentParentId": 8225,
+                      "department": "Korean",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f2c93911-0c0b-49da-e574-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 380331,
+                      "courseTitle": "Images of Korea",
+                      "courseNumber": "70",
+                      "prefix": "KOREA",
+                      "prefixParentId": 15690,
+                      "prefixDescription": "Korean",
+                      "departmentParentId": 8225,
+                      "department": "Korean",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "743d6f95-bdbf-4b51-e575-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 380333,
+                      "courseTitle": "Introduction to Korean Cinema",
+                      "courseNumber": "80",
+                      "prefix": "KOREA",
+                      "prefixParentId": 15690,
+                      "prefixDescription": "Korean",
+                      "departmentParentId": 8225,
+                      "department": "Korean",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c54457a6-488c-4c91-e576-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 6,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379814,
+                      "courseTitle": "Languages and Cultures of Asia",
+                      "courseNumber": "30",
+                      "prefix": "ASIAN",
+                      "prefixParentId": 14422,
+                      "prefixDescription": "Asian",
+                      "departmentParentId": 1249,
+                      "department": "Asian",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8e7dade0-ab27-4414-e577-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "CIVILIZATION",
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "INTRODUCTION TO RELIGION",
+            "position": 3,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "CULTURE",
+            "position": 5,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "3bb1556f-997f-4c65-6808-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "d7bc6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "5a2c7745-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [],
+    "section_headers": [
+      {
+        "category": "major_required",
+        "requirement_group_position": 1,
+        "header": {
+          "type": "SectionHeader",
+          "content": "FOREIGN LANGUAGE REQUIREMENT",
+          "position": 0,
+          "attributes": []
+        }
+      },
+      {
+        "category": "major_required",
+        "requirement_group_position": 2,
+        "header": {
+          "type": "SectionHeader",
+          "content": "CIVILIZATION",
+          "position": 1,
+          "attributes": []
+        }
+      },
+      {
+        "category": "major_required",
+        "requirement_group_position": 2,
+        "header": {
+          "type": "SectionHeader",
+          "content": "INTRODUCTION TO RELIGION",
+          "position": 3,
+          "attributes": []
+        }
+      },
+      {
+        "category": "major_required",
+        "requirement_group_position": 2,
+        "header": {
+          "type": "SectionHeader",
+          "content": "CULTURE",
+          "position": 5,
+          "attributes": []
+        }
+      }
+    ],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "03a84e7a-828a-4ad3-e56b-08ddcb96dfae",
+        "requirement": "ASIAN M60W",
+        "aliases": [
+          "RELIGN M60A",
+          "RELIGN M60W"
+        ]
+      },
+      {
+        "template_cell_id": "c5d3d739-9847-447e-e56d-08ddcb96dfae",
+        "requirement": "CHIN M60",
+        "aliases": [
+          "RELIGN M60B"
+        ]
+      },
+      {
+        "template_cell_id": "919f6f62-ff80-49da-e56e-08ddcb96dfae",
+        "requirement": "CHIN M60W",
+        "aliases": [
+          "RELIGN M61W"
+        ]
+      },
+      {
+        "template_cell_id": "9f6dfe03-e7ae-4ec9-e56f-08ddcb96dfae",
+        "requirement": "KOREA M60",
+        "aliases": [
+          "RELIGN M60C"
+        ]
+      },
+      {
+        "template_cell_id": "557a801e-6ff8-45de-e570-08ddcb96dfae",
+        "requirement": "S ASIAN M60",
+        "aliases": [
+          "RELIGN M60D"
+        ]
+      },
+      {
+        "template_cell_id": "18a630fd-68e1-4ad2-e571-08ddcb96dfae",
+        "requirement": "SEASIAN M60",
+        "aliases": [
+          "RELIGN M60E"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved section headers; they are labels, not interpreted completion rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+  ]
+}

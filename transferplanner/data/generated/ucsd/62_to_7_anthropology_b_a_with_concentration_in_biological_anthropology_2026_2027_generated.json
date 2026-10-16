@@ -1,0 +1,275 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Anthropology B.A. with Concentration in Biological Anthropology",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "highly_recommended",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "ANTH 2",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ANTH 1"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ANTH 1H"
+          ]
+        }
+      ]
+    }
+  ],
+  "receiving_course_titles": {
+    "ANTH 2": "Human Origins"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T19:53:52.6037623",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "41c36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p><strong>Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. </strong></p><p><br></p><p>Students who anticipate a major or minor in Biological Anthropology are advised to take ANTH 2 (Human Origins), which is a <span style=\"color: rgb(169, 62, 58);\">recommended</span> introduction for most upper-division courses offered by the department.</p>",
+        "groupId": "44c36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289405,
+                      "courseTitle": "Human Origins",
+                      "courseNumber": "2",
+                      "prefix": "ANTH",
+                      "prefixParentId": 10683,
+                      "prefixDescription": "Anthropology",
+                      "departmentParentId": 681,
+                      "department": "Anthropology",
+                      "begin": "F2007",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 1,
+                          "pathwayName": "Anthropology",
+                          "pathwayCode": "Anthropology",
+                          "expectationId": 1,
+                          "expectationName": "C1-Physical/Biological Anthro",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8f4f91c0-bb20-4e71-c770-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "35c36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "RECOMMENDED BUT NOT REQUIRED",
+        "groupId": "b0197945-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "8f4f91c0-bb20-4e71-c770-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 289405,
+            "courseTitle": "Human Origins",
+            "courseNumber": "2",
+            "prefix": "ANTH",
+            "prefixParentId": 10683,
+            "prefixDescription": "Anthropology",
+            "departmentParentId": 681,
+            "department": "Anthropology",
+            "begin": "F2007",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 1,
+                "pathwayName": "Anthropology",
+                "pathwayCode": "Anthropology",
+                "expectationId": 1,
+                "expectationName": "C1-Physical/Biological Anthro",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 223231,
+                    "courseTitle": "Biological Anthropology - Honors",
+                    "courseNumber": "1H",
+                    "prefix": "ANTH",
+                    "prefixParentId": 10742,
+                    "prefixDescription": "Anthropology",
+                    "departmentParentId": 824,
+                    "department": "Anthropology (ANTH)",
+                    "begin": "F1999",
+                    "end": "F2027",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 193213,
+                    "courseTitle": "Biological Anthropology",
+                    "courseNumber": "1",
+                    "prefix": "ANTH",
+                    "prefixParentId": 10742,
+                    "prefixDescription": "Anthropology",
+                    "departmentParentId": 824,
+                    "department": "Anthropology (ANTH)",
+                    "begin": "F1999",
+                    "end": "F2027",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "54f0fc8a-a5fa-4a0a-76ed-08def177bf47",
+                "sendingArticulationId": "85c1b155-ccb1-4667-7fd0-08def177b236",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

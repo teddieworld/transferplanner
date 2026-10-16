@@ -1,0 +1,566 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Education Sciences B.S.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": 1
+    }
+  ],
+  "requirements": [
+    {
+      "text": "EDS 30",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Education Studies"
+    },
+    {
+      "text": "EDS 31",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Education Studies"
+    },
+    {
+      "text": "EDS 38",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Education Studies"
+    },
+    {
+      "text": "EDS 39",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Education Studies"
+    },
+    {
+      "text": "HDS 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Human Development Program"
+    },
+    {
+      "text": "SOCI 60",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PSYC 3"
+          ]
+        }
+      ],
+      "department": "Sociology"
+    },
+    {
+      "text": "EDS 40",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Education Studies"
+    }
+  ],
+  "receiving_course_titles": {
+    "EDS 30": "Introduction to Math Teaching",
+    "EDS 31": "Introduction to Teaching Science",
+    "EDS 38": "Explorations in Education",
+    "EDS 39": "Explorations in Secondary STEM Education",
+    "HDS 1": "Introduction to Human Developmental Sciences",
+    "SOCI 60": "Practice of Social Research",
+    "EDS 40": "Nature, Community, and Education"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T19:46:16.40103",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "GENERAL INFORMATION",
+        "groupId": "81c36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>Our Bachelor of Science will provide you with opportunities to explore the complex social, psychological, economic, historical, political, and cultural issues that impact our lives. Our overarching mission is to provide the resources for you to combine interactive academic coursework, hands-on service-learning experiences, and a deep understanding about the relationship between research and educational issues. You will reflect deeply on underlying educational principles and gain the insight needed to become advocates for equity and social justice within our society. Students are guided to develop an understanding of research and theory within the realities of practice and to use practice to reevaluate both research and theory. </p><p><br></p><p>The B.S. in Education Sciences provides interdisciplinary opportunities for undergraduate students. Graduates are prepared for careers in the global knowledge economy, with opportunities to apply learning modalities and technologies in multicultural contexts. </p><p><br></p><p>The major in Education Sciences provides a foundation for the study of education, focused on four domains. These include: </p><p><br></p><ul><li>Education in a Diverse Society </li><li>Learning and Development </li><li>Introduction to Learning Contexts</li><li>Educational Research and Evaluation</li></ul><p><br></p><p>Students are also encouraged to pick an area of focus, and may choose from the upper-division electives listed. Students may define their own area of focus, selecting from courses offered by EDS and other related departments with department approval. </p><p><br></p><p>Graduates may choose from career opportunities such as: </p><ul><li>Public Education</li><li>Public Health</li><li>Higher Education</li><li>Educational Policy</li><li>Non-Profit Organizations</li><li>Curriculum Development</li></ul><p><br></p><p>Many graduates will pursue advanced degrees leading to teacher credentialing or educational research. Graduates may also pursue careers in public education supporting students through counseling, school psychology, or student affairs. For more information please visit <a href=\"http://educationstudies.ucsd.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://educationstudies.ucsd.edu/</a></p>",
+        "groupId": "7ec36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 370249,
+                      "courseTitle": "Introduction to Math Teaching",
+                      "courseNumber": "30",
+                      "prefix": "EDS",
+                      "prefixParentId": 16431,
+                      "prefixDescription": "Education Studies",
+                      "departmentParentId": 13594,
+                      "department": "Education Studies",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 2.0,
+                      "maxUnits": 2.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8a451667-96d3-4c2f-c79b-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355252,
+                      "courseTitle": "Introduction to Human Developmental Sciences",
+                      "courseNumber": "1",
+                      "prefix": "HDS",
+                      "prefixParentId": 7,
+                      "prefixDescription": "Human Developmental Sciences",
+                      "departmentParentId": 7231,
+                      "department": "Human Development Program",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "fed8002f-4ad6-4ada-c79c-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 370251,
+                      "courseTitle": "Explorations in Education",
+                      "courseNumber": "38",
+                      "prefix": "EDS",
+                      "prefixParentId": 16431,
+                      "prefixDescription": "Education Studies",
+                      "departmentParentId": 13594,
+                      "department": "Education Studies",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 2.0,
+                      "maxUnits": 2.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3786cedb-cfe3-464d-c79d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355278,
+                      "courseTitle": "Practice of Social Research",
+                      "courseNumber": "60",
+                      "prefix": "SOCI",
+                      "prefixParentId": 8981,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12169,
+                      "department": "Sociology",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8e2f01c7-e371-4045-c79e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 370250,
+                      "courseTitle": "Introduction to Teaching Science",
+                      "courseNumber": "31",
+                      "prefix": "EDS",
+                      "prefixParentId": 16431,
+                      "prefixDescription": "Education Studies",
+                      "departmentParentId": 13594,
+                      "department": "Education Studies",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 2.0,
+                      "maxUnits": 2.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "27e2075f-124c-4f88-c79f-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 370252,
+                      "courseTitle": "Explorations in Secondary STEM Education",
+                      "courseNumber": "39",
+                      "prefix": "EDS",
+                      "prefixParentId": 16431,
+                      "prefixDescription": "Education Studies",
+                      "departmentParentId": 13594,
+                      "department": "Education Studies",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 2.0,
+                      "maxUnits": 2.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7a9bfd50-b438-4951-c7a0-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418260,
+                      "courseTitle": " Nature, Community, and Education",
+                      "courseNumber": "40",
+                      "prefix": "EDS",
+                      "prefixParentId": 16431,
+                      "prefixDescription": "Education Studies",
+                      "departmentParentId": 13594,
+                      "department": "Education Studies",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "10ae1b67-466d-4baa-c7a1-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "84c36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION REQUIREMENTS",
+        "groupId": "db147945-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "8a451667-96d3-4c2f-c79b-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 370249,
+            "courseTitle": "Introduction to Math Teaching",
+            "courseNumber": "30",
+            "prefix": "EDS",
+            "prefixParentId": 16431,
+            "prefixDescription": "Education Studies",
+            "departmentParentId": 13594,
+            "department": "Education Studies",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 2.0,
+            "maxUnits": 2.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "fed8002f-4ad6-4ada-c79c-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355252,
+            "courseTitle": "Introduction to Human Developmental Sciences",
+            "courseNumber": "1",
+            "prefix": "HDS",
+            "prefixParentId": 7,
+            "prefixDescription": "Human Developmental Sciences",
+            "departmentParentId": 7231,
+            "department": "Human Development Program",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "8e2f01c7-e371-4045-c79e-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355278,
+            "courseTitle": "Practice of Social Research",
+            "courseNumber": "60",
+            "prefix": "SOCI",
+            "prefixParentId": 8981,
+            "prefixDescription": "Sociology",
+            "departmentParentId": 12169,
+            "department": "Sociology",
+            "begin": "F2009",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282974,
+                    "courseTitle": "Introduction to Research Methods in Psychology",
+                    "courseNumber": "3",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4651,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11326,
+                    "department": "Psychology (PSYC)",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "27e2075f-124c-4f88-c79f-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 370250,
+            "courseTitle": "Introduction to Teaching Science",
+            "courseNumber": "31",
+            "prefix": "EDS",
+            "prefixParentId": 16431,
+            "prefixDescription": "Education Studies",
+            "departmentParentId": 13594,
+            "department": "Education Studies",
+            "begin": "F2019",
+            "end": "",
+            "minUnits": 2.0,
+            "maxUnits": 2.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

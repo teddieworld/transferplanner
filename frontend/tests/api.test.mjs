@@ -20,7 +20,7 @@ test("live database supplies universities, majors, years, and the complete Berke
   const majors = await request("/api/majors", { university });
   assert.equal(majors.status, 200);
   assert.ok(majors.body.some(item => item.name === major));
-  const emptyMajors = await request("/api/majors", { university: "University of California, Los Angeles" });
+  const emptyMajors = await request("/api/majors", { university: "University of California, Davis" });
   assert.deepEqual(emptyMajors.body, []);
 
   const years = await request("/api/academic-years", { university, major });
@@ -50,6 +50,31 @@ test("live database supplies universities, majors, years, and the complete Berke
   assert.equal(recommendations.find(item => item.name === "COMPSCI 61B").articulationStatus, "partial");
   assert.ok(recommendations.find(item => item.name === "COMPSCI 61B").note);
   assert.equal(recommendations.find(item => item.name === "COMPSCI 70").articulationStatus, "university_only");
+});
+
+test("UCLA and UC San Diego expose campus-specific majors, years and full agreements", async () => {
+  for (const [university, major, year, expectedCount, receivingCode, collegeCode] of [
+    ["University of California, Los Angeles", "Computer Science/B.S.", "2025–2026", 134, "MATH 31A", "MATH 180"],
+    ["University of California, San Diego", "CSE: Computer Science B.S.", "2026–2027", 158, "CSE 11", "CSCI 145"],
+  ]) {
+    const majors = await request("/api/majors", { university });
+    assert.equal(majors.status, 200);
+    assert.equal(majors.body.length, expectedCount);
+    assert.ok(majors.body.some(item => item.name === major));
+    assert.ok(majors.body.every(item => !/\bminor\b/i.test(item.name)));
+    const years = await request("/api/academic-years", { university, major });
+    assert.deepEqual(years.body, [year]);
+    const agreement = await request("/api/agreement", { university, major, year });
+    assert.equal(agreement.status, 200);
+    assert.equal(agreement.body.university, university);
+    assert.equal(agreement.body.major, major);
+    const requirements = [...agreement.body.requiredGroups, ...agreement.body.majorRequiredGroups,
+      ...agreement.body.highlyRecommendedGroups].flatMap(group => group.requirements);
+    const requirement = requirements.find(item => item.name === receivingCode);
+    assert.ok(requirement.receivingCourses[0].title);
+    assert.ok(requirement.options.some(option => option.includes(collegeCode)));
+    assert.ok(requirement.optionCourseTitles[collegeCode]);
+  }
 });
 
 test("Mathematics is selectable with its own year, alternatives and recommendation", async () => {

@@ -1,0 +1,585 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Linguistics and Philosophy/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": 2
+    },
+    {
+      "name": "D",
+      "category": "major_required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "LING 20",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Linguistics"
+    },
+    {
+      "text": "PHILOS 31",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 7",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 8",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 21",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 23",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS M24",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "Elementary and Intermediate Levels (Six Terms) Of One Foreign Language",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "Equivalent of level three of two foreign languages",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    }
+  ],
+  "receiving_course_titles": {
+    "LING 20": "Introduction to Linguistics Analysis",
+    "PHILOS 31": "Logic, First Course",
+    "PHILOS 7": "Introduction to Philosophy of Mind",
+    "PHILOS 8": "Introduction to Philosophy of Science",
+    "PHILOS 21": "Skepticism and Rationality",
+    "PHILOS 23": "Meaning and Communication",
+    "PHILOS M24": "Language and Identity"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-03-20T22:18:44.567985",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "75b06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The Linguistics and Philosophy major combines the basic courses of the general linguistics program with that of philosophy, for students who are reflective about their beliefs or who wish to become so. Students enrich their knowledge about the nature, grammar, and history of human language, and are given the opportunity to ponder the foundations of almost any other subject to which they are exposed — whether history, religion, government, law, or science.</p><p><br></p><p>Listed below are the lower division preparation courses for this major.</p><p><br></p><p>To be considered for this major, you must complete the following courses by the end of spring before transfer:</p><ul><li>One year of college level coursework in the declared language OR</li><li>At least one year of high school in which the primary language of instruction was the declared language.</li></ul><p>Completion of introduction to linguistics and introduction to logic are <strong>STRONGLY RECOMMENDED</strong>.</p><p>Completion of two years of college level foreign language is <strong>STRONGLY RECOMMENDED</strong>.</p><p>A placement exam for a language offered at UCLA may be taken upon transfer to test out of or make progress toward the major language requirement.</p><p>All courses must be taken for a letter grade.</p><p><br></p><p>For more information regarding this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.linguistics.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">linguistics.ucla.edu</a> and <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.admission.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">admission.ucla.edu</a>.</p><p><br></p><p>PLEASE NOTE: the community college courses listed below have been approved to satisfy the preparation for this major at UCLA, but they may not be exact equivalents of the UCLA courses.</p>",
+        "groupId": "7ab06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288650,
+                      "courseTitle": "Introduction to Linguistics Analysis",
+                      "courseNumber": "20",
+                      "prefix": "LING",
+                      "prefixParentId": 118,
+                      "prefixDescription": "Linguistics",
+                      "departmentParentId": 8640,
+                      "department": "Linguistics",
+                      "begin": "S2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b622a404-1cac-4647-ea66-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "a7d4afab-9e3f-43d6-693c-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "69b06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259540,
+                      "courseTitle": "Logic, First Course",
+                      "courseNumber": "31",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "Su2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 17,
+                          "pathwayName": "Philosophy",
+                          "pathwayCode": "Philosophy",
+                          "expectationId": 85,
+                          "expectationName": "C1-Symbolic Logic",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f2c77552-0486-4b1a-ea67-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "9dff7953-9cb5-4a31-693d-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "73b06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 380772,
+                      "courseTitle": "Language and Identity",
+                      "courseNumber": "M24",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 387591,
+                          "courseTitle": "Language and Identity",
+                          "courseNumber": "M7",
+                          "prefix": "LING",
+                          "prefixParentId": 118,
+                          "prefixDescription": "Linguistics",
+                          "departmentParentId": 8640,
+                          "department": "Linguistics",
+                          "begin": "F2023",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "37a6a701-9254-4437-ea69-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305280,
+                      "courseTitle": "Meaning and Communication",
+                      "courseNumber": "23",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f2bf36fe-9a3a-46e8-ea6a-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 303780,
+                      "courseTitle": "Introduction to Philosophy of Science",
+                      "courseNumber": "8",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a59d1e12-7c11-4cab-ea6b-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289128,
+                      "courseTitle": "Skepticism and Rationality",
+                      "courseNumber": "21",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 17,
+                          "pathwayName": "Philosophy",
+                          "pathwayCode": "Philosophy",
+                          "expectationId": 89,
+                          "expectationName": "C5-Philosophy of Mind/Epistemology",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "99568957-ca40-42b7-ea6c-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288862,
+                      "courseTitle": "Introduction to Philosophy of Mind",
+                      "courseNumber": "7",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 17,
+                          "pathwayName": "Philosophy",
+                          "pathwayCode": "Philosophy",
+                          "expectationId": 89,
+                          "expectationName": "C5-Philosophy of Mind/Epistemology",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "68274e6c-f95e-437e-ea6d-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "AtLeast",
+          "amount": 2.0,
+          "amountUnitType": "Course",
+          "id": "73d9a2b5-53d5-49b9-693e-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "76b06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "Elementary and Intermediate Levels (Six Terms) Of One Foreign Language"
+                    },
+                    "requirementAttributes": [],
+                    "id": "9a5c34d2-288f-4778-ea6e-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "Equivalent of level three of two foreign languages"
+                    },
+                    "requirementAttributes": [],
+                    "id": "60467e36-b624-4389-ea6f-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "59b453b2-2b48-4f38-693f-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "77b06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "b72a7745-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "37a6a701-9254-4437-ea69-08ddcb96dfae",
+        "requirement": "PHILOS M24",
+        "aliases": [
+          "LING M7"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+  ]
+}

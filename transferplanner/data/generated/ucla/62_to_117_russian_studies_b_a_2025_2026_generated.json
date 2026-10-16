@@ -1,0 +1,401 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Russian Studies/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": 1
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1
+    }
+  ],
+  "requirements": [
+    {
+      "text": "RUSSN 6",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Russian"
+    },
+    {
+      "text": "RUSSN 20",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Russian"
+    },
+    {
+      "text": "RUSSN 25",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Russian"
+    },
+    {
+      "text": "RUSSN 25W",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Russian"
+    },
+    {
+      "text": "RUSSN 90A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Russian"
+    },
+    {
+      "text": "RUSSN 90B",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Russian"
+    },
+    {
+      "text": "RUSSN 90BW",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Russian"
+    }
+  ],
+  "receiving_course_titles": {
+    "RUSSN 6": "Intermediate Russian",
+    "RUSSN 20": "Intensive Intermediate Russian",
+    "RUSSN 25": "Great Russian Novel",
+    "RUSSN 25W": "Great Russian Novel",
+    "RUSSN 90A": "Introduction to Russian Culture",
+    "RUSSN 90B": "Russian Culture in 20th Century",
+    "RUSSN 90BW": "Russian Culture in 20th Century"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-01-16T20:57:03.1511174",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "83ba6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The Russian Studies major allows students to learn the Russian language while studying economics, history, political science and other fields where Russian can be a plus.</p><p><br></p><p>Listed below are the lower division preparation courses for the major.</p><p><br></p><p>To be considered for this major, you must complete the following courses by the end of the spring before transfer:</p><ul><li>One year of college level Russian OR</li><li>At least one year of high school in which the primary language of instruction was Russian. </li></ul><p>Completion of two years of college level foreign language is <strong>STRONGLY RECOMMENDED</strong>. </p><p>A placement exam is required for all language majors regardless of credits earned in lower division language courses.</p><p>All courses must be taken for a letter grade.</p><p><br></p><p>For information regarding this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://slavic.ucla.edu</u> and <u style=\"color: rgb(41, 98, 255);\">https://admission.ucla.edu</u>.</p><p><br></p><p>PLEASE NOTE: the community college courses listed below have been approved to satisfy the preparation for this major at UCLA, but they may not be exact equivalents of the UCLA courses listed.</p>",
+        "groupId": "85ba6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309459,
+                      "courseTitle": "Intermediate Russian",
+                      "courseNumber": "6",
+                      "prefix": "RUSSN",
+                      "prefixParentId": 14375,
+                      "prefixDescription": "Russian",
+                      "departmentParentId": 11805,
+                      "department": "Russian",
+                      "begin": "Su2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f1b62527-f3e5-4bf2-e778-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 306773,
+                      "courseTitle": "Intensive Intermediate Russian",
+                      "courseNumber": "20",
+                      "prefix": "RUSSN",
+                      "prefixParentId": 14375,
+                      "prefixDescription": "Russian",
+                      "departmentParentId": 11805,
+                      "department": "Russian",
+                      "begin": "Su2015",
+                      "end": "",
+                      "minUnits": 12.0,
+                      "maxUnits": 12.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7ef67b29-5cb9-4cb4-e779-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "8b305c17-cf9d-4fe9-6879-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "82ba6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "fe2b7745-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305187,
+                      "courseTitle": "Great Russian Novel",
+                      "courseNumber": "25W",
+                      "prefix": "RUSSN",
+                      "prefixParentId": 14375,
+                      "prefixDescription": "Russian",
+                      "departmentParentId": 11805,
+                      "department": "Russian",
+                      "begin": "Su2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2da4b26d-a08f-4460-e77a-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360039,
+                      "courseTitle": "Introduction to Russian Culture",
+                      "courseNumber": "90A",
+                      "prefix": "RUSSN",
+                      "prefixParentId": 14375,
+                      "prefixDescription": "Russian",
+                      "departmentParentId": 11805,
+                      "department": "Russian",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "631b65da-497d-4e9e-e77b-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 287003,
+                      "courseTitle": "Russian Culture in 20th Century",
+                      "courseNumber": "90B",
+                      "prefix": "RUSSN",
+                      "prefixParentId": 14375,
+                      "prefixDescription": "Russian",
+                      "departmentParentId": 11805,
+                      "department": "Russian",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0a487266-2954-4380-e77c-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359809,
+                      "courseTitle": "Russian Culture in 20th Century",
+                      "courseNumber": "90BW",
+                      "prefix": "RUSSN",
+                      "prefixParentId": 14375,
+                      "prefixDescription": "Russian",
+                      "departmentParentId": 11805,
+                      "department": "Russian",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0931faba-19b6-4b34-e77d-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 287913,
+                      "courseTitle": "Great Russian Novel",
+                      "courseNumber": "25",
+                      "prefix": "RUSSN",
+                      "prefixParentId": 14375,
+                      "prefixDescription": "Russian",
+                      "departmentParentId": 11805,
+                      "department": "Russian",
+                      "begin": "Su2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bf9e1c05-b2bf-4f4f-e77e-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "7c5debe1-6834-4acb-687a-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "84ba6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": []
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

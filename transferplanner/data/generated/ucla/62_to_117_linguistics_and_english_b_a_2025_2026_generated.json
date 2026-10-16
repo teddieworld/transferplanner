@@ -1,0 +1,966 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Linguistics and English/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": 1
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "ENGL 10B: These courses articulate only as a complete series. Confirm the entire sequence."
+    },
+    {
+      "name": "D",
+      "category": "major_required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "ENGL 4W",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ENGL 1B"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ENGL 1BH"
+          ]
+        }
+      ],
+      "department": "English"
+    },
+    {
+      "text": "ENGL 4WX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "English"
+    },
+    {
+      "text": "LING 20",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Linguistics"
+    },
+    {
+      "text": "ENGL 10A",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 6A"
+          ]
+        }
+      ],
+      "department": "English"
+    },
+    {
+      "text": "ENGL 10B",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "review_required",
+      "note": "Articulates as a Series Only\nAdviser review needed: These courses articulate only as a complete series. Confirm the entire sequence.",
+      "options": [],
+      "department": "English"
+    },
+    {
+      "text": "ENGL 10C",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 6B"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "LIT 1"
+          ]
+        },
+        {
+          "option_number": 3,
+          "courses": [
+            "LIT 2"
+          ]
+        }
+      ],
+      "department": "English"
+    },
+    {
+      "text": "Elementary and Intermediate Levels (Six Terms) Of One Foreign Language",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "Equivalent of level three of two foreign languages",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    }
+  ],
+  "receiving_course_titles": {
+    "ENGL 4W": "Critical Reading and Writing",
+    "ENGL 4WX": "Critical Reading and Writing (Community-Engaged Learning)",
+    "LING 20": "Introduction to Linguistics Analysis",
+    "ENGL 10A": "Literatures in English to 1700",
+    "ENGL 10B": "Literatures in English, 1700 to 1850",
+    "ENGL 10C": "Literatures in English, 1850 to Present"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2025-10-31T03:19:25.1738838",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "e0c36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The Linguistics and English major combines the basic courses of the general linguistics program with that of English. Students are able to study the literatures and cultures of those parts of the world in which English is the primary language, the history and structure of the English language itself, and enrich their knowledge about the nature, grammar, and history of human language at the same time.</p><p><br></p><p>Listed below are the lower division preparation courses for this major.</p><p><br></p><p>To be considered for this major, you must complete the following courses by the end of spring before transfer:</p><ul><li>One year of college level coursework in the declared language OR</li><li>At least one year of high school in which the primary language of instruction was the declared language.</li></ul><p>Completion of an introduction to linguistics course is <strong>STRONGLY RECOMMENDED</strong>.</p><p>Completion of two years of college level foreign language is <strong>STRONGLY RECOMMENDED</strong>.</p><p>A placement exam for a language offered at UCLA may be taken upon transfer to test out of or make progress toward the major language requirement.</p><p>All courses must be taken for a letter grade.</p><p><br></p><p>For more information regarding this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://linguistics.ucla.edu</u> and <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.admission.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">admission.ucla.edu</a>.</p><p><br></p><p>PLEASE NOTE: the community college courses listed below have been approved to satisfy the preparation for this major at UCLA, but they may not be exact equivalents of the UCLA courses.</p>",
+        "groupId": "ddc36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 303465,
+                      "courseTitle": "Critical Reading and Writing",
+                      "courseNumber": "4W",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2740,
+                      "prefixDescription": "English",
+                      "departmentParentId": 5027,
+                      "department": "English",
+                      "begin": "S2000",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "10bdb1e5-4d21-468d-e2c7-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359897,
+                      "courseTitle": "Critical Reading and Writing (Community-Engaged Learning) ",
+                      "courseNumber": "4WX",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2740,
+                      "prefixDescription": "English",
+                      "departmentParentId": 5027,
+                      "department": "English",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "252ab4b3-90e6-4a46-e2c8-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "d0dd2192-380d-4239-675f-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "dbc36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288650,
+                      "courseTitle": "Introduction to Linguistics Analysis",
+                      "courseNumber": "20",
+                      "prefix": "LING",
+                      "prefixParentId": 118,
+                      "prefixDescription": "Linguistics",
+                      "departmentParentId": 8640,
+                      "department": "Linguistics",
+                      "begin": "S2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "73323074-527f-49f7-e2c9-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "733899d7-43c3-4ead-6760-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "dcc36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "37f47845-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "Equivalent of level three of two foreign languages"
+                    },
+                    "requirementAttributes": [],
+                    "id": "0a53b148-f322-4dd8-e2ca-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Requirement",
+                    "requirement": {
+                      "name": "Elementary and Intermediate Levels (Six Terms) Of One Foreign Language"
+                    },
+                    "requirementAttributes": [],
+                    "id": "6fcc62f5-88c8-4130-e2cb-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "a5cc714f-3111-4d41-6761-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "e3c36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 1296,
+                      "courseTitle": "Literatures in English to 1700",
+                      "courseNumber": "10A",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2740,
+                      "prefixDescription": "English",
+                      "departmentParentId": 5027,
+                      "department": "English",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 11,
+                          "pathwayName": "English",
+                          "pathwayCode": "English",
+                          "expectationId": 54,
+                          "expectationName": "C1-Survey of British Lit to 1850",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7a76365b-ca27-4ccf-e2cc-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 1823,
+                      "courseTitle": "Literatures in English, 1700 to 1850",
+                      "courseNumber": "10B",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2740,
+                      "prefixDescription": "English",
+                      "departmentParentId": 5027,
+                      "department": "English",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 11,
+                          "pathwayName": "English",
+                          "pathwayCode": "English",
+                          "expectationId": 54,
+                          "expectationName": "C1-Survey of British Lit to 1850",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "57a8fb43-6c2f-4dd4-e2cd-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 1811,
+                      "courseTitle": "Literatures in English, 1850 to Present",
+                      "courseNumber": "10C",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2740,
+                      "prefixDescription": "English",
+                      "departmentParentId": 5027,
+                      "department": "English",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 11,
+                          "pathwayName": "English",
+                          "pathwayCode": "English",
+                          "expectationId": 55,
+                          "expectationName": "C2-Survey of Brit and/or Am. Lit (1860-present)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4432a103-aa18-4e49-e2ce-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "62ca7c62-83ad-4a3e-6762-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "e5c36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "10bdb1e5-4d21-468d-e2c7-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 303465,
+            "courseTitle": "Critical Reading and Writing",
+            "courseNumber": "4W",
+            "prefix": "ENGL",
+            "prefixParentId": 2740,
+            "prefixDescription": "English",
+            "departmentParentId": 5027,
+            "department": "English",
+            "begin": "S2000",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 209045,
+                    "courseTitle": "English - Introduction to Literary Types - Honors",
+                    "courseNumber": "1BH",
+                    "prefix": "ENGL",
+                    "prefixParentId": 2684,
+                    "prefixDescription": "English",
+                    "departmentParentId": 5068,
+                    "department": "English (ENGL)",
+                    "begin": "Su2007",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 161265,
+                    "courseTitle": "English - Introduction to Literary Types",
+                    "courseNumber": "1B",
+                    "prefix": "ENGL",
+                    "prefixParentId": 2684,
+                    "prefixDescription": "English",
+                    "departmentParentId": 5068,
+                    "department": "English (ENGL)",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "6a91eb4c-cde3-4429-e586-08ddcb9717a5",
+                "sendingArticulationId": "32fb777e-7b56-4305-e2c5-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "7a76365b-ca27-4ccf-e2cc-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 1296,
+            "courseTitle": "Literatures in English to 1700",
+            "courseNumber": "10A",
+            "prefix": "ENGL",
+            "prefixParentId": 2740,
+            "prefixDescription": "English",
+            "departmentParentId": 5027,
+            "department": "English",
+            "begin": "F2011",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 11,
+                "pathwayName": "English",
+                "pathwayCode": "English",
+                "expectationId": 54,
+                "expectationName": "C1-Survey of British Lit to 1850",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 337506,
+                    "courseTitle": "Survey of English Literature up to 1800",
+                    "courseNumber": "6A",
+                    "prefix": "LIT",
+                    "prefixParentId": 4569,
+                    "prefixDescription": "Literature",
+                    "departmentParentId": 8664,
+                    "department": "Literature (LIT)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "57a8fb43-6c2f-4dd4-e2cd-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 1823,
+            "courseTitle": "Literatures in English, 1700 to 1850",
+            "courseNumber": "10B",
+            "prefix": "ENGL",
+            "prefixParentId": 2740,
+            "prefixDescription": "English",
+            "departmentParentId": 5027,
+            "department": "English",
+            "begin": "F2011",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 11,
+                "pathwayName": "English",
+                "pathwayCode": "English",
+                "expectationId": 54,
+                "expectationName": "C1-Survey of British Lit to 1850",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "Articulates as a Series Only",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "4432a103-aa18-4e49-e2ce-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 1811,
+            "courseTitle": "Literatures in English, 1850 to Present",
+            "courseNumber": "10C",
+            "prefix": "ENGL",
+            "prefixParentId": 2740,
+            "prefixDescription": "English",
+            "departmentParentId": 5027,
+            "department": "English",
+            "begin": "F2011",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 11,
+                "pathwayName": "English",
+                "pathwayCode": "English",
+                "expectationId": 55,
+                "expectationName": "C2-Survey of Brit and/or Am. Lit (1860-present)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 164995,
+                    "courseTitle": "Survey of English Literature Since 1800",
+                    "courseNumber": "6B",
+                    "prefix": "LIT",
+                    "prefixParentId": 4569,
+                    "prefixDescription": "Literature",
+                    "departmentParentId": 8664,
+                    "department": "Literature (LIT)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 203,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 161263,
+                    "courseTitle": "Early American Literature",
+                    "courseNumber": "1",
+                    "prefix": "LIT",
+                    "prefixParentId": 4569,
+                    "prefixDescription": "Literature",
+                    "departmentParentId": 8664,
+                    "department": "Literature (LIT)",
+                    "begin": "F2001",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 203,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 216114,
+                    "courseTitle": "Modern American Literature",
+                    "courseNumber": "2",
+                    "prefix": "LIT",
+                    "prefixParentId": 4569,
+                    "prefixDescription": "Literature",
+                    "departmentParentId": 8664,
+                    "department": "Literature (LIT)",
+                    "begin": "F2001",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 203,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 2,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "2ffece70-6d17-41b8-8659-08de00f70b2d",
+                "sendingArticulationId": "bd74844a-47aa-40de-e2cf-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              },
+              {
+                "id": "0ac94b4d-908b-4e20-865a-08de00f70b2d",
+                "sendingArticulationId": "bd74844a-47aa-40de-e2cf-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 1,
+                "sendingCourseGroupEndPosition": 2
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "These courses articulate only as a complete series. Confirm the entire sequence."
+  ],
+  "calculation_review_required": true
+}

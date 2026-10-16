@@ -1,0 +1,2473 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "African and Middle Eastern Studies/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": 2
+    },
+    {
+      "name": "D",
+      "category": "major_required",
+      "required_count": 2,
+      "review_required": true,
+      "note": "COM LIT 1D OR COM LIT 2DW OR COM LIT 4DW: Receiving-course alternatives need review before completion can be verified."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "I A STD 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "International and Area Studies"
+    },
+    {
+      "text": "ART HIS 28",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "AHIS 11"
+          ]
+        }
+      ],
+      "department": "Art History"
+    },
+    {
+      "text": "HIST 9D",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HIST 10B",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HIST 97F",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "This Course is Never Articulated",
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HIST 97J",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "This Course is Never Articulated",
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "M E STD M50CW",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Middle Eastern Studies"
+    },
+    {
+      "text": "PORTGSE 40A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Portuguese"
+    },
+    {
+      "text": "ECON 1",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "BUSC 1B"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "BUSC 1BH"
+          ]
+        }
+      ],
+      "department": "Economics"
+    },
+    {
+      "text": "ECON 2",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "BUSC 1A"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "BUSC 1AH"
+          ]
+        }
+      ],
+      "department": "Economics"
+    },
+    {
+      "text": "GEOG 4",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Geography"
+    },
+    {
+      "text": "GEOG 6",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "GEOG 5"
+          ]
+        }
+      ],
+      "department": "Geography"
+    },
+    {
+      "text": "POL SCI 50",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS 2"
+          ]
+        }
+      ],
+      "department": "Political Science"
+    },
+    {
+      "text": "SOCIOL 1",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SOC 1"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "SOC 1H"
+          ]
+        }
+      ],
+      "department": "Sociology"
+    },
+    {
+      "text": "ANTHRO 3",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ANTH 5"
+          ]
+        }
+      ],
+      "department": "Anthropology"
+    },
+    {
+      "text": "COM LIT 1D OR COM LIT 2DW OR COM LIT 4DW",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "review_required",
+      "note": "Adviser review needed: Receiving-course alternatives need review before completion can be verified.",
+      "options": []
+    },
+    {
+      "text": "ETHNMUS 5",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Ethnomusicology"
+    },
+    {
+      "text": "ETHNMUS M25",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Ethnomusicology"
+    },
+    {
+      "text": "GEOG 3",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "GEOG 2"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "GEOG 2H"
+          ]
+        }
+      ],
+      "department": "Geography"
+    },
+    {
+      "text": "HIST 2B",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HIST 22",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "HIST 4"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "HIST 4H"
+          ]
+        }
+      ],
+      "department": "History"
+    },
+    {
+      "text": "WL ARTS 20",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "World Arts and Culture"
+    },
+    {
+      "text": "WL ARTS 33",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "World Arts and Culture"
+    }
+  ],
+  "receiving_course_titles": {
+    "I A STD 1": "Introduction to International and Area Studies",
+    "ART HIS 28": "Arts of Africa",
+    "HIST 9D": "Introduction to Asian Civilizations: History of Middle East",
+    "HIST 10B": "History of Africa, 1800 to Present",
+    "HIST 97F": "Introduction to Historical Practice: Variable Topics in Near Eastern History",
+    "HIST 97J": "Introduction to Historical Practice: Variable Topics in African History",
+    "M E STD M50CW": "Making and Studying Modern Middle East",
+    "PORTGSE 40A": "Portuguese, Brazilian, and African Literature in Translation: Portuguese and Portuguese-African Literature",
+    "ECON 1": "Principles of Economics(Microeconomics)",
+    "ECON 2": "Principles of Economics(Macroeconomics)",
+    "GEOG 4": "Globalization: Regional Development and World Economy",
+    "GEOG 6": "World Regions: Concepts and Contemporary Issues",
+    "POL SCI 50": "Introduction to Comparative Politics",
+    "SOCIOL 1": "Introductory Sociology",
+    "ANTHRO 3": "CULTURE AND SOCIETY",
+    "COM LIT 1D": "Great Books from World at Large",
+    "COM LIT 2DW": "Survey of Literature: Great Books from World at Large",
+    "COM LIT 4DW": "Literature and Writing: Great Books from World at Large",
+    "ETHNMUS 5": "Music Around World",
+    "ETHNMUS M25": "Global Pop",
+    "GEOG 3": "Cultural Geography",
+    "HIST 2B": "Social Knowledge and Social Power",
+    "HIST 22": "Contemporary World History, 1760 to Present",
+    "WL ARTS 20": "Culture: Introduction",
+    "WL ARTS 33": "Colonialism and Resistance"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-03-05T23:19:01.6518749",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "8cbb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The African and Middle Eastern Studies major provides an interdisciplinary approach to studying the history, culture, politics, geography, economics, language, and philosophy of the region - from Morocco through Iran.</p><p><br></p><p>Listed below are the lower division preparation courses for the major.</p><p><br></p><p>To be considered for this major, you must complete the following by the end of spring before transfer:</p><ul><li>One year of college level language in Arabic, Armenian, Hebrew, Persian, Turkish or</li><li>An African language or at least one year of high school in which the primary language of instruction was Arabic, Armenian, Hebrew, Persian, Turkish or</li><li>An African language AND at least two preparatory courses listed below (in addition to the foreign language).</li></ul><p>Completion of intermediate/advanced foreign language is <strong>STRONGLY RECOMMENDED</strong>. A placement exam is required for all language majors regardless of credits earned in lower division language courses.</p><p>All courses must be taken for a letter grade by the end of spring term before transfer.</p><p><br></p><p>For more information regarding this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.international.ucla.edu/academics/ids\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(41, 98, 255);\"><u>i</u></a><a href=\"http://www.international.ucla.edu/academics/ids\" rel=\"noopener noreferrer\" target=\"_blank\">nternational.ucla.edu/academics/ids</a> and <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.admission.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">admission.ucla.edu</a>.</p><p><br></p><p>PLEASE NOTE: the community college courses listed below have been approved to satisfy the preparation for this major at UCLA, but they may not be exact equivalents of the UCLA courses listed.</p>",
+        "groupId": "a5bb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "FOREIGN LANGUAGE REQUIREMENT",
+        "groupId": "a8bb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "One area related foreign language sequence through the intermediate level in Arabic, Armenian, Hebrew, Iranian and Turkic languages. This may be fulfilled by taking a placement exam given through the appropriate language department.",
+        "groupId": "99bb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "AP/IB EXAM CREDIT",
+        "groupId": "405b65e1-abf8-47b5-9fdb-019b93ecd1c5",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The AP/IB Exam Scores listed below may be used to satisfy major prep:</p><ul><li>A score of <strong><u>3 or higher on the AP Comparative Government exam</u></strong> can be used in place of the comparative politics course (POL SCI 50).</li><li>A score of<strong><u> 5 or higher on the IB HL Economics exam</u></strong> can be used in place of the microeconomics course (ECON 1).</li></ul>",
+        "groupId": "da6738b3-5907-4005-ae0c-019b93ecd1c5",
+        "position": 5,
+        "area": "General"
+      }
+    ],
+    "receiving_course_attributes": [
+      {
+        "template_cell_id": "91f48d12-91f1-4186-e6b2-08ddcb96dfae",
+        "course": "COM LIT 1D OR COM LIT 2DW OR COM LIT 4DW",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "seriesCourseId": "1ecc0011-4e06-4299-6a84-08ddcb96d747",
+            "position": 0,
+            "content": "Course recommended to be taken at university"
+          }
+        ]
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288865,
+                      "courseTitle": "Introduction to Comparative Politics",
+                      "courseNumber": "50",
+                      "prefix": "POL SCI",
+                      "prefixParentId": 2025,
+                      "prefixDescription": "Political Science",
+                      "departmentParentId": 11000,
+                      "department": "Political Science",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 19,
+                          "pathwayName": "Political Science",
+                          "pathwayCode": "Political-Science",
+                          "expectationId": 98,
+                          "expectationName": "C3-Comparative gov & politics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9d3afad7-92a1-407c-e6a4-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289422,
+                      "courseTitle": "Principles of Economics(Microeconomics)",
+                      "courseNumber": "1",
+                      "prefix": "ECON",
+                      "prefixParentId": 1296,
+                      "prefixDescription": "Economics",
+                      "departmentParentId": 4316,
+                      "department": "Economics",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 9,
+                          "pathwayName": "Economics",
+                          "pathwayCode": "Economics",
+                          "expectationId": 43,
+                          "expectationName": "C1-Microeconomics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 29,
+                          "pathwayName": "Environmental Science",
+                          "pathwayCode": "Environmental-Science",
+                          "expectationId": 197,
+                          "expectationName": "C7. Principles of economics (microeconomics)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1b5f655e-4784-4c75-e6a5-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 295002,
+                      "courseTitle": "Principles of Economics(Macroeconomics)",
+                      "courseNumber": "2",
+                      "prefix": "ECON",
+                      "prefixParentId": 1296,
+                      "prefixDescription": "Economics",
+                      "departmentParentId": 4316,
+                      "department": "Economics",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 9,
+                          "pathwayName": "Economics",
+                          "pathwayCode": "Economics",
+                          "expectationId": 44,
+                          "expectationName": "C2-Macroeconomics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e9b6523c-5fd8-49d7-e6a6-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304099,
+                      "courseTitle": "Globalization: Regional Development and World Economy",
+                      "courseNumber": "4",
+                      "prefix": "GEOG",
+                      "prefixParentId": 10606,
+                      "prefixDescription": "Geography",
+                      "departmentParentId": 6217,
+                      "department": "Geography",
+                      "begin": "F2004",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9150ad86-8481-406c-e6a7-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359693,
+                      "courseTitle": "World Regions: Concepts and Contemporary Issues",
+                      "courseNumber": "6",
+                      "prefix": "GEOG",
+                      "prefixParentId": 10606,
+                      "prefixDescription": "Geography",
+                      "departmentParentId": 6217,
+                      "department": "Geography",
+                      "begin": "F2004",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "78eaf371-6163-41c1-e6a8-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 258995,
+                      "courseTitle": "Introductory Sociology",
+                      "courseNumber": "1",
+                      "prefix": "SOCIOL",
+                      "prefixParentId": 9099,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12165,
+                      "department": "Sociology",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 7,
+                          "pathwayName": "Communication",
+                          "pathwayCode": "Communication",
+                          "expectationId": 33,
+                          "expectationName": "C4-Choose 3 Courses From List",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 21,
+                          "pathwayName": "Sociology",
+                          "pathwayCode": "Sociology",
+                          "expectationId": 106,
+                          "expectationName": "C1-Intro Soc.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "77dd3475-9926-415e-e6a9-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "INTERNATIONAL POLITICS AND MARKETS",
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "AtLeast",
+          "amount": 2.0,
+          "amountUnitType": "Course",
+          "id": "9db2f9dd-ad37-45f9-6844-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "95bb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "272c7745-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360002,
+                      "courseTitle": "Making and Studying Modern Middle East",
+                      "courseNumber": "M50CW",
+                      "prefix": "M E STD",
+                      "prefixParentId": 15431,
+                      "prefixDescription": "Middle Eastern Studies",
+                      "departmentParentId": 9296,
+                      "department": "Middle Eastern Studies",
+                      "begin": "S2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "df2fefd7-f6af-4818-e6aa-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383143,
+                      "courseTitle": "Portuguese, Brazilian, and African Literature in Translation: Portuguese and Portuguese-African Literature",
+                      "courseNumber": "40A",
+                      "prefix": "PORTGSE",
+                      "prefixParentId": 15871,
+                      "prefixDescription": "Portuguese",
+                      "departmentParentId": 11135,
+                      "department": "Portuguese",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "03eaaae4-d160-4f88-e6ab-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288697,
+                      "courseTitle": "Arts of Africa",
+                      "courseNumber": "28",
+                      "prefix": "ART HIS",
+                      "prefixParentId": 14295,
+                      "prefixDescription": "Art History",
+                      "departmentParentId": 1190,
+                      "department": "Art History",
+                      "begin": "S2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a75b4e6a-cd93-44ad-e6ac-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304101,
+                      "courseTitle": "Introduction to Asian Civilizations: History of Middle East",
+                      "courseNumber": "9D",
+                      "prefix": "HIST",
+                      "prefixParentId": 3017,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7013,
+                      "department": "History",
+                      "begin": "Su2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "91329ce0-4d68-4be6-e6ad-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 271648,
+                      "courseTitle": "Introduction to Historical Practice: Variable Topics in African History",
+                      "courseNumber": "97J",
+                      "prefix": "HIST",
+                      "prefixParentId": 3017,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7013,
+                      "department": "History",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "aa950165-b373-4b2a-e6ae-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 271646,
+                      "courseTitle": "Introduction to Historical Practice: Variable Topics in Near Eastern History",
+                      "courseNumber": "97F",
+                      "prefix": "HIST",
+                      "prefixParentId": 3017,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7013,
+                      "department": "History",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "17f9341c-4dc9-4f0c-e6af-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308966,
+                      "courseTitle": "History of Africa, 1800 to Present",
+                      "courseNumber": "10B",
+                      "prefix": "HIST",
+                      "prefixParentId": 3017,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7013,
+                      "department": "History",
+                      "begin": "Su2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6e84470f-2548-4931-e6b0-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "AREA STUDIES",
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "AtLeast",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "37ea1a6b-a80c-4c2d-6845-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "9cbb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304098,
+                      "courseTitle": "Cultural Geography",
+                      "courseNumber": "3",
+                      "prefix": "GEOG",
+                      "prefixParentId": 10606,
+                      "prefixDescription": "Geography",
+                      "departmentParentId": 6217,
+                      "department": "Geography",
+                      "begin": "F2004",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2d4483a0-2d3f-42f4-e6b1-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "Or",
+                      "name": "COM LIT 1D, COM LIT 2DW, COM LIT 4DW",
+                      "courses": [
+                        {
+                          "id": "86226d97-2bc7-4644-6a82-08ddcb96d747",
+                          "position": 0,
+                          "courseIdentifierParentId": 285975,
+                          "courseTitle": "Great Books from World at Large",
+                          "courseNumber": "1D",
+                          "prefix": "COM LIT",
+                          "prefixParentId": 14379,
+                          "prefixDescription": "Comparative Literature",
+                          "departmentParentId": 2939,
+                          "department": "Comparative Literature",
+                          "begin": "W2009",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "33833f0f-142c-43c9-6a83-08ddcb96d747",
+                          "position": 1,
+                          "courseIdentifierParentId": 359813,
+                          "courseTitle": "Survey of Literature: Great Books from World at Large",
+                          "courseNumber": "2DW",
+                          "prefix": "COM LIT",
+                          "prefixParentId": 14379,
+                          "prefixDescription": "Comparative Literature",
+                          "departmentParentId": 2939,
+                          "department": "Comparative Literature",
+                          "begin": "W2009",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "1ecc0011-4e06-4299-6a84-08ddcb96d747",
+                          "position": 2,
+                          "courseIdentifierParentId": 305153,
+                          "courseTitle": "Literature and Writing: Great Books from World at Large",
+                          "courseNumber": "4DW",
+                          "prefix": "COM LIT",
+                          "prefixParentId": 14379,
+                          "prefixDescription": "Comparative Literature",
+                          "departmentParentId": 2939,
+                          "department": "Comparative Literature",
+                          "begin": "Su2014",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [
+                      {
+                        "seriesCourseId": "1ecc0011-4e06-4299-6a84-08ddcb96d747",
+                        "position": 0,
+                        "content": "Course recommended to be taken at university"
+                      }
+                    ],
+                    "id": "91f48d12-91f1-4186-e6b2-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300441,
+                      "courseTitle": "Culture: Introduction",
+                      "courseNumber": "20",
+                      "prefix": "WL ARTS",
+                      "prefixParentId": 14369,
+                      "prefixDescription": "World Arts and Cultures",
+                      "departmentParentId": 13246,
+                      "department": "World Arts and Culture",
+                      "begin": "S2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "08e71282-6f7f-4937-e6b3-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305283,
+                      "courseTitle": "Colonialism and Resistance",
+                      "courseNumber": "33",
+                      "prefix": "WL ARTS",
+                      "prefixParentId": 14369,
+                      "prefixDescription": "World Arts and Cultures",
+                      "departmentParentId": 13246,
+                      "department": "World Arts and Culture",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6c8de87b-8e8b-4791-e6b4-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 303800,
+                      "courseTitle": "Social Knowledge and Social Power",
+                      "courseNumber": "2B",
+                      "prefix": "HIST",
+                      "prefixParentId": 3017,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7013,
+                      "department": "History",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "da6a0371-f73c-401a-e6b5-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 380779,
+                      "courseTitle": "Music Around World",
+                      "courseNumber": "5",
+                      "prefix": "ETHNMUS",
+                      "prefixParentId": 16218,
+                      "prefixDescription": "Ethnomusicology",
+                      "departmentParentId": 5429,
+                      "department": "Ethnomusicology",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "11429f63-a6c7-4bd5-e6b6-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 364951,
+                      "courseTitle": "Global Pop",
+                      "courseNumber": "M25",
+                      "prefix": "ETHNMUS",
+                      "prefixParentId": 16218,
+                      "prefixDescription": "Ethnomusicology",
+                      "departmentParentId": 5429,
+                      "department": "Ethnomusicology",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5ebea5bb-c3b8-404c-e6b7-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 86,
+                      "courseTitle": "CULTURE AND SOCIETY",
+                      "courseNumber": "3",
+                      "prefix": "ANTHRO",
+                      "prefixParentId": 10805,
+                      "prefixDescription": "Anthropology",
+                      "departmentParentId": 812,
+                      "department": "Anthropology",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 1,
+                          "pathwayName": "Anthropology",
+                          "pathwayCode": "Anthropology",
+                          "expectationId": 2,
+                          "expectationName": "C2-Cultural Anthro",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "07f552dd-ea61-417e-e6b8-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 1815,
+                      "courseTitle": "Contemporary World History, 1760 to Present ",
+                      "courseNumber": "22",
+                      "prefix": "HIST",
+                      "prefixParentId": 3017,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7013,
+                      "department": "History",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 13,
+                          "pathwayName": "History",
+                          "pathwayCode": "History",
+                          "expectationId": 63,
+                          "expectationName": "C1-World History/Western Civ Seq.",
+                          "subexpectationId": 130,
+                          "subexpectationName": "A-World History Seq."
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2010cb20-a455-476c-e6b9-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "INTERNATIONAL SOCIETIES AND CULTURES",
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "AtLeast",
+          "amount": 2.0,
+          "amountUnitType": "Course",
+          "id": "42b30582-124f-4c54-6846-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "a7bb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359874,
+                      "courseTitle": "Introduction to International and Area Studies",
+                      "courseNumber": "1",
+                      "prefix": "I A STD",
+                      "prefixParentId": 15359,
+                      "prefixDescription": "International and Area Studies",
+                      "departmentParentId": 7680,
+                      "department": "International and Area Studies",
+                      "begin": "F2012",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a8772b29-accd-45f2-e6ba-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "2bb8737c-c5e0-4b83-6847-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "a9bb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "9d3afad7-92a1-407c-e6a4-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 288865,
+            "courseTitle": "Introduction to Comparative Politics",
+            "courseNumber": "50",
+            "prefix": "POL SCI",
+            "prefixParentId": 2025,
+            "prefixDescription": "Political Science",
+            "departmentParentId": 11000,
+            "department": "Political Science",
+            "begin": "F2002",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 19,
+                "pathwayName": "Political Science",
+                "pathwayCode": "Political-Science",
+                "expectationId": 98,
+                "expectationName": "C3-Comparative gov & politics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 203547,
+                    "courseTitle": "Comparative Politics",
+                    "courseNumber": "2",
+                    "prefix": "POLS",
+                    "prefixParentId": 18853,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 15413,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "1b5f655e-4784-4c75-e6a5-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 289422,
+            "courseTitle": "Principles of Economics(Microeconomics)",
+            "courseNumber": "1",
+            "prefix": "ECON",
+            "prefixParentId": 1296,
+            "prefixDescription": "Economics",
+            "departmentParentId": 4316,
+            "department": "Economics",
+            "begin": "F1999",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 9,
+                "pathwayName": "Economics",
+                "pathwayCode": "Economics",
+                "expectationId": 43,
+                "expectationName": "C1-Microeconomics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 29,
+                "pathwayName": "Environmental Science",
+                "pathwayCode": "Environmental-Science",
+                "expectationId": 197,
+                "expectationName": "C7. Principles of economics (microeconomics)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 226260,
+                    "courseTitle": "Principles of Microeconomics - Honors",
+                    "courseNumber": "1BH",
+                    "prefix": "BUSC",
+                    "prefixParentId": 3944,
+                    "prefixDescription": "Business: Economics",
+                    "departmentParentId": 2179,
+                    "department": "Business: Economics (BUSC)",
+                    "begin": "F2025",
+                    "end": "F2026",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 202599,
+                    "courseTitle": "Principles of Microeconomics",
+                    "courseNumber": "1B",
+                    "prefix": "BUSC",
+                    "prefixParentId": 3944,
+                    "prefixDescription": "Business: Economics",
+                    "departmentParentId": 2179,
+                    "department": "Business: Economics (BUSC)",
+                    "begin": "F2025",
+                    "end": "F2026",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "92be955d-76ec-457a-e563-08ddcb9717a5",
+                "sendingArticulationId": "89bb4ec3-ace9-48a2-e27e-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "e9b6523c-5fd8-49d7-e6a6-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 295002,
+            "courseTitle": "Principles of Economics(Macroeconomics)",
+            "courseNumber": "2",
+            "prefix": "ECON",
+            "prefixParentId": 1296,
+            "prefixDescription": "Economics",
+            "departmentParentId": 4316,
+            "department": "Economics",
+            "begin": "F1999",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 9,
+                "pathwayName": "Economics",
+                "pathwayCode": "Economics",
+                "expectationId": 44,
+                "expectationName": "C2-Macroeconomics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 184039,
+                    "courseTitle": "Principles of Macroeconomics - Honors",
+                    "courseNumber": "1AH",
+                    "prefix": "BUSC",
+                    "prefixParentId": 3944,
+                    "prefixDescription": "Business: Economics",
+                    "departmentParentId": 2179,
+                    "department": "Business: Economics (BUSC)",
+                    "begin": "F2025",
+                    "end": "F2026",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 205156,
+                    "courseTitle": "Principles of Macroeconomics",
+                    "courseNumber": "1A",
+                    "prefix": "BUSC",
+                    "prefixParentId": 3944,
+                    "prefixDescription": "Business: Economics",
+                    "departmentParentId": 2179,
+                    "department": "Business: Economics (BUSC)",
+                    "begin": "F2025",
+                    "end": "F2026",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "81cc8f1c-d3b9-4867-e570-08ddcb9717a5",
+                "sendingArticulationId": "5d5d171a-70e7-4f85-e29c-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "78eaf371-6163-41c1-e6a8-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 359693,
+            "courseTitle": "World Regions: Concepts and Contemporary Issues",
+            "courseNumber": "6",
+            "prefix": "GEOG",
+            "prefixParentId": 10606,
+            "prefixDescription": "Geography",
+            "departmentParentId": 6217,
+            "department": "Geography",
+            "begin": "F2004",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 213492,
+                    "courseTitle": "World Regional Geography",
+                    "courseNumber": "5",
+                    "prefix": "GEOG",
+                    "prefixParentId": 10546,
+                    "prefixDescription": "Geography",
+                    "departmentParentId": 6248,
+                    "department": "Geography (GEOG)",
+                    "begin": "F1997",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "77dd3475-9926-415e-e6a9-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 258995,
+            "courseTitle": "Introductory Sociology",
+            "courseNumber": "1",
+            "prefix": "SOCIOL",
+            "prefixParentId": 9099,
+            "prefixDescription": "Sociology",
+            "departmentParentId": 12165,
+            "department": "Sociology",
+            "begin": "F2002",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 7,
+                "pathwayName": "Communication",
+                "pathwayCode": "Communication",
+                "expectationId": 33,
+                "expectationName": "C4-Choose 3 Courses From List",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 21,
+                "pathwayName": "Sociology",
+                "pathwayCode": "Sociology",
+                "expectationId": 106,
+                "expectationName": "C1-Intro Soc.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 234766,
+                    "courseTitle": "Introduction to Sociology - Honors",
+                    "courseNumber": "1H",
+                    "prefix": "SOC",
+                    "prefixParentId": 9036,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12176,
+                    "department": "Sociology (SOC)",
+                    "begin": "Su2018",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 337399,
+                    "courseTitle": "Introduction to Sociology",
+                    "courseNumber": "1",
+                    "prefix": "SOC",
+                    "prefixParentId": 9036,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12176,
+                    "department": "Sociology (SOC)",
+                    "begin": "Su2018",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "2a780e16-59f5-4875-e580-08ddcb9717a5",
+                "sendingArticulationId": "3fa4805b-1bea-4fb9-e2b8-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "a75b4e6a-cd93-44ad-e6ac-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 288697,
+            "courseTitle": "Arts of Africa",
+            "courseNumber": "28",
+            "prefix": "ART HIS",
+            "prefixParentId": 14295,
+            "prefixDescription": "Art History",
+            "departmentParentId": 1190,
+            "department": "Art History",
+            "begin": "S2016",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 188870,
+                    "courseTitle": "History of African, Oceanic, and Native American Art",
+                    "courseNumber": "11",
+                    "prefix": "AHIS",
+                    "prefixParentId": 8183,
+                    "prefixDescription": "Art: History",
+                    "departmentParentId": 1235,
+                    "department": "Art: History (AHIS)",
+                    "begin": "F2006",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "aa950165-b373-4b2a-e6ae-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 271648,
+            "courseTitle": "Introduction to Historical Practice: Variable Topics in African History",
+            "courseNumber": "97J",
+            "prefix": "HIST",
+            "prefixParentId": 3017,
+            "prefixDescription": "History",
+            "departmentParentId": 7013,
+            "department": "History",
+            "begin": "F2010",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This Course is Never Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "17f9341c-4dc9-4f0c-e6af-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 271646,
+            "courseTitle": "Introduction to Historical Practice: Variable Topics in Near Eastern History",
+            "courseNumber": "97F",
+            "prefix": "HIST",
+            "prefixParentId": 3017,
+            "prefixDescription": "History",
+            "departmentParentId": 7013,
+            "department": "History",
+            "begin": "F2010",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This Course is Never Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "2d4483a0-2d3f-42f4-e6b1-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 304098,
+            "courseTitle": "Cultural Geography",
+            "courseNumber": "3",
+            "prefix": "GEOG",
+            "prefixParentId": 10606,
+            "prefixDescription": "Geography",
+            "departmentParentId": 6217,
+            "department": "Geography",
+            "begin": "F2004",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 345948,
+                    "courseTitle": "Human Geography - Honors",
+                    "courseNumber": "2H",
+                    "prefix": "GEOG",
+                    "prefixParentId": 10546,
+                    "prefixDescription": "Geography",
+                    "departmentParentId": 6248,
+                    "department": "Geography (GEOG)",
+                    "begin": "Su2006",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 156415,
+                    "courseTitle": "Human Geography",
+                    "courseNumber": "2",
+                    "prefix": "GEOG",
+                    "prefixParentId": 10546,
+                    "prefixDescription": "Geography",
+                    "departmentParentId": 6248,
+                    "department": "Geography (GEOG)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "ac6b7d85-0289-4a6c-e57c-08ddcb9717a5",
+                "sendingArticulationId": "f0b9f1d7-09b5-40d9-e2b2-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "07f552dd-ea61-417e-e6b8-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 86,
+            "courseTitle": "CULTURE AND SOCIETY",
+            "courseNumber": "3",
+            "prefix": "ANTHRO",
+            "prefixParentId": 10805,
+            "prefixDescription": "Anthropology",
+            "departmentParentId": 812,
+            "department": "Anthropology",
+            "begin": "F2017",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 1,
+                "pathwayName": "Anthropology",
+                "pathwayCode": "Anthropology",
+                "expectationId": 2,
+                "expectationName": "C2-Cultural Anthro",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 163646,
+                    "courseTitle": "Cultural Anthropology",
+                    "courseNumber": "5",
+                    "prefix": "ANTH",
+                    "prefixParentId": 10742,
+                    "prefixDescription": "Anthropology",
+                    "departmentParentId": 824,
+                    "department": "Anthropology (ANTH)",
+                    "begin": "Su2018",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 270,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "2010cb20-a455-476c-e6b9-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 1815,
+            "courseTitle": "Contemporary World History, 1760 to Present ",
+            "courseNumber": "22",
+            "prefix": "HIST",
+            "prefixParentId": 3017,
+            "prefixDescription": "History",
+            "departmentParentId": 7013,
+            "department": "History",
+            "begin": "F2017",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 13,
+                "pathwayName": "History",
+                "pathwayCode": "History",
+                "expectationId": 63,
+                "expectationName": "C1-World History/Western Civ Seq.",
+                "subexpectationId": 130,
+                "subexpectationName": "A-World History Seq."
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "Or",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 239442,
+                    "courseTitle": "World History: Early Modern to the Present - Honors",
+                    "courseNumber": "4H",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "Su2011",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 242,
+                    "position": 1,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 215159,
+                    "courseTitle": "World History: Early Modern to the Present",
+                    "courseNumber": "4",
+                    "prefix": "HIST",
+                    "prefixParentId": 2960,
+                    "prefixDescription": "History",
+                    "departmentParentId": 7055,
+                    "department": "History (HIST)",
+                    "begin": "Su2011",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 242,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "section_headers": [
+      {
+        "category": "major_required",
+        "requirement_group_position": 2,
+        "header": {
+          "type": "SectionHeader",
+          "content": "AREA STUDIES",
+          "position": 0,
+          "attributes": []
+        }
+      },
+      {
+        "category": "major_required",
+        "requirement_group_position": 3,
+        "header": {
+          "type": "SectionHeader",
+          "content": "INTERNATIONAL POLITICS AND MARKETS",
+          "position": 0,
+          "attributes": []
+        }
+      },
+      {
+        "category": "major_required",
+        "requirement_group_position": 4,
+        "header": {
+          "type": "SectionHeader",
+          "content": "INTERNATIONAL SOCIETIES AND CULTURES",
+          "position": 0,
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+    "Review preserved section headers; they are labels, not interpreted completion rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "Receiving-course alternatives need review before completion can be verified."
+  ],
+  "calculation_review_required": true
+}

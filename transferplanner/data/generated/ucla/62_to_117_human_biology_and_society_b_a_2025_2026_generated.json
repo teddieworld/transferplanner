@@ -1,0 +1,5006 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Human Biology and Society/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": 1
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "D",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "E",
+      "category": "major_required",
+      "required_count": 1
+    },
+    {
+      "name": "F",
+      "category": "major_required",
+      "required_count": 4
+    }
+  ],
+  "requirements": [
+    {
+      "text": "SOC GEN 5",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Society and Genetics"
+    },
+    {
+      "text": "SOC GEN M71A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Society and Genetics"
+    },
+    {
+      "text": "SOCIOL M72A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Sociology"
+    },
+    {
+      "text": "ANTHRO 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ANTH 1"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "ANTH 1H"
+          ]
+        }
+      ],
+      "department": "Anthropology"
+    },
+    {
+      "text": "CHEM 20A",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "CHEM 50"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "CHEM 50H"
+          ]
+        }
+      ],
+      "department": "Chemistry and Biochemistry"
+    },
+    {
+      "text": "LIFESCI 7A",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "BIOL 4"
+          ]
+        }
+      ],
+      "department": "Life Sciences"
+    },
+    {
+      "text": "LIFESCI 7B",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "BIOL 4"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "BIOL 4H"
+          ]
+        }
+      ],
+      "department": "Life Sciences"
+    },
+    {
+      "text": "LIFESCI 7C",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ANAT 36"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "BIOL 2"
+          ]
+        }
+      ],
+      "department": "Life Sciences"
+    },
+    {
+      "text": "STATS 10",
+      "group": "E",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "STAT C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "STAT C1000H"
+          ]
+        }
+      ],
+      "department": "Statistics"
+    },
+    {
+      "text": "STATS 13",
+      "group": "E",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "STAT C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "STAT C1000H"
+          ]
+        }
+      ],
+      "department": "Statistics"
+    },
+    {
+      "text": "AF AMER 1",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "African American Studies"
+    },
+    {
+      "text": "AF AMER M5",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "African American Studies"
+    },
+    {
+      "text": "AF AMER 6",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "African American Studies"
+    },
+    {
+      "text": "AM IND M10",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "American Indian Studies"
+    },
+    {
+      "text": "ANTHRO 3",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ANTH 5"
+          ]
+        }
+      ],
+      "department": "Anthropology"
+    },
+    {
+      "text": "ASIA AM 10",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian American Studies"
+    },
+    {
+      "text": "ASIA AM 10W",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian American Studies"
+    },
+    {
+      "text": "ASIA AM 20",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian American Studies"
+    },
+    {
+      "text": "ASIA AM 20W",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian American Studies"
+    },
+    {
+      "text": "ASIA AM 40",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian American Studies"
+    },
+    {
+      "text": "ASIA AM 40W",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian American Studies"
+    },
+    {
+      "text": "ASIA AM 50",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian American Studies"
+    },
+    {
+      "text": "ASIA AM 50W",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Asian American Studies"
+    },
+    {
+      "text": "CCAS 10A",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Chicana and Chicano Studies"
+    },
+    {
+      "text": "CCAS 10B",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Chicana and Chicano Studies"
+    },
+    {
+      "text": "ENGL M30",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "English"
+    },
+    {
+      "text": "ENVIRON M30",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Environment"
+    },
+    {
+      "text": "GENDER 10",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Gender Studies"
+    },
+    {
+      "text": "GEOG 3",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "GEOG 2"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "GEOG 2H"
+          ]
+        }
+      ],
+      "department": "Geography"
+    },
+    {
+      "text": "HIST 3A",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HIST 3C",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HIST 3D",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HIST 12A",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HIST 12B",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HIST 12C",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HNRS 70A",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Honors Collegium"
+    },
+    {
+      "text": "LBR STD M1A",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Labor Studies"
+    },
+    {
+      "text": "LBR STD M1B",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Labor Studies"
+    },
+    {
+      "text": "LBR STD M1CW",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Labor Studies"
+    },
+    {
+      "text": "LBR STD 10",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Labor Studies"
+    },
+    {
+      "text": "MCD BIO 50",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Molecular, Cell, and Developmental Biology"
+    },
+    {
+      "text": "MCD BIO 60",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Molecular, Cell, and Developmental Biology"
+    },
+    {
+      "text": "PHILOS 3",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 4",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 6",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 7",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 8",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 22",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "PHILOS 22W",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Philosophy"
+    },
+    {
+      "text": "POL SCI 10",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS 5"
+          ]
+        }
+      ],
+      "department": "Political Science"
+    },
+    {
+      "text": "POL SCI 40",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "POLS C1000H"
+          ]
+        }
+      ],
+      "department": "Political Science"
+    },
+    {
+      "text": "PUB AFF 10",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "Public Affairs"
+    },
+    {
+      "text": "PUB AFF 20",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Public Affairs"
+    },
+    {
+      "text": "PUB AFF 30",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Public Affairs"
+    },
+    {
+      "text": "PUB AFF 80",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Public Affairs"
+    },
+    {
+      "text": "SOCIOL 1",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SOC 1"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "SOC 1H"
+          ]
+        }
+      ],
+      "department": "Sociology"
+    },
+    {
+      "text": "SOCIOL M5",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Sociology"
+    }
+  ],
+  "receiving_course_titles": {
+    "SOC GEN 5": "Integrative Approaches to Human Biology and Society",
+    "SOC GEN M71A": "Biotechnology and Society",
+    "SOCIOL M72A": "Sex from Biology to Gendered Society",
+    "ANTHRO 1": "HUMAN EVOLUTION",
+    "CHEM 20A": "Chemical Structure",
+    "LIFESCI 7A": "Cell and Molecular Biology",
+    "LIFESCI 7B": "Genetics, Evolution, and Ecology",
+    "LIFESCI 7C": "Physiology and Human Biology",
+    "STATS 10": "Introduction to Statistical Reasoning",
+    "STATS 13": "Introduction to Statistical Methods for Life and Health Sciences",
+    "AF AMER 1": "Introduction to Black Studies",
+    "AF AMER M5": "Social Organization of Black Communities",
+    "AF AMER 6": "Trends in Black Intellectual Thought",
+    "AM IND M10": "Introduction to American Indian Studies",
+    "ANTHRO 3": "CULTURE AND SOCIETY",
+    "ASIA AM 10": "History of Asian Americans",
+    "ASIA AM 10W": "History of Asian Americans",
+    "ASIA AM 20": "Contemporary Asian American Communities",
+    "ASIA AM 20W": "Contemporary Asian American Communities",
+    "ASIA AM 40": "Asian American Movement",
+    "ASIA AM 40W": "Asian American Movement",
+    "ASIA AM 50": "Asian American Women",
+    "ASIA AM 50W": "Asian American Women",
+    "CCAS 10A": "Introduction to Chicana/Chicano Studies: History and Culture",
+    "CCAS 10B": "Introduction to Chicana/Chicano Studies: Social Structure and Contemporary Conditions",
+    "ENGL M30": "Environmental Literature and Culture",
+    "ENVIRON M30": "Environmental Literature and Culture",
+    "GENDER 10": "Introduction to Gender Studies",
+    "GEOG 3": "Cultural Geography",
+    "HIST 3A": "History of Science: Renaissance to 1800",
+    "HIST 3C": "History of Science: 20th Century",
+    "HIST 3D": "History of Modern Medicine",
+    "HIST 12A": "Inequality: History of Mass Imprisonment",
+    "HIST 12B": "Inequality: History of Neoliberalism",
+    "HIST 12C": "Inequality: Global History of Anti-Colonial Thought and Struggle",
+    "HNRS 70A": "Genetic Engineering in Medicine, Agriculture, and Law",
+    "LBR STD M1A": "Work, Labor, and Social Justice in U.S.",
+    "LBR STD M1B": "Work, Labor, and Social Justice in U.S.",
+    "LBR STD M1CW": "Work, Labor, and Social Justice in U.S.: Special Topics",
+    "LBR STD 10": "Introduction to Labor and Workplace Studies",
+    "MCD BIO 50": "Stem Cell Biology, Politics, and Ethics: Teasing Apart Issues",
+    "MCD BIO 60": "Biomedical Ethics",
+    "PHILOS 3": "Historical Introduction to Philosophy",
+    "PHILOS 4": "Philosophical Analysis of Contemporary Moral Issues",
+    "PHILOS 6": "Introduction to Political Philosophy",
+    "PHILOS 7": "Introduction to Philosophy of Mind",
+    "PHILOS 8": "Introduction to Philosophy of Science",
+    "PHILOS 22": "Introduction to Ethical Theory",
+    "PHILOS 22W": "Introduction to Ethical Theory",
+    "POL SCI 10": "Introduction to Political Theory",
+    "POL SCI 40": "Introduction to American Politics",
+    "PUB AFF 10": "Social Problems and Social Change",
+    "PUB AFF 20": "Power, Politics, and Policy Change",
+    "PUB AFF 30": "Comparative Analysis of Wealth, Policy, and Power",
+    "PUB AFF 80": "How Social Environments Shape Human Development",
+    "SOCIOL 1": "Introductory Sociology",
+    "SOCIOL M5": "Social Organization of Black Communities"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-03-25T21:19:10.6580139",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "c3bb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The Human Biology and Society B.A. major provides an interdisciplinary approach to learning about current issues at the intersections of human biology, genomics and society. The major attempts to bridge the gap between life sciences and humanities/social sciences, generating an interdisciplinary perspective needed to address many important and current questions of ethics; history; public policy about food and nutrition; genetics research and commercialization; genetic origins and relatedness of human populations; medical privacy right etc. The Human Biology and Society B.A. is good preparation for careers in health, law, business, academia, and public policy.</p><p><br></p><p>Listed below are the lower division preparation courses for the major.</p><p><br></p><p>To be considered for this major, you must complete a <strong><u>MINIMUM OF FIVE</u></strong> major preparation courses, by the spring before transfer:</p><ul><li>One year of Biology with Lab for major (Cellular, Evolution) or the equivalent of Life Science 7A and 7B;</li><li>One semester of General Chemistry,</li><li>One course in Statistics,</li><li>One Human Evolution course, and</li><li>Two additional Social Theory courses (listed below).</li></ul><p>All courses must be taken for a letter grade.</p><p><br></p><p>For more information regarding this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://socgen.ucla.edu</u> and <u style=\"color: rgb(41, 98, 255);\">https://admission.ucla.edu</u>.</p><p><br></p><p>PLEASE NOTE: the community college courses listed below have been approved to satisfy the preparation for this major at UCLA, but they may not be exact equivalents of the UCLA courses listed.</p>",
+        "groupId": "ccbb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "ADDITIONAL NOTE",
+        "groupId": "c6bb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The community college statistics course included on this agreement has been approved as a substitute for Statistics 13 course, however it may not transfer as an exact UCLA equivalent.</p>",
+        "groupId": "cfbb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "AP/IB CREDIT",
+        "groupId": "1da6af38-beb4-4ea4-8141-019b944dc2aa",
+        "position": 4,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>No AP or IB exams are considered equivalent, and credit earned from those exams cannot be used towards the Human Biology and Society B.A. major prep.</p>",
+        "groupId": "a808a64d-dc8b-4bd9-b495-019b944dc2aa",
+        "position": 5,
+        "area": "General"
+      }
+    ],
+    "receiving_course_attributes": [
+      {
+        "template_cell_id": "7a79a26d-99ae-4585-e693-08ddcb96dfae",
+        "course": "STATS 13",
+        "attributes": [],
+        "course_attributes": [
+          {
+            "position": 0,
+            "content": "Acceptable substitute"
+          }
+        ]
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 284946,
+                      "courseTitle": "HUMAN EVOLUTION",
+                      "courseNumber": "1",
+                      "prefix": "ANTHRO",
+                      "prefixParentId": 10805,
+                      "prefixDescription": "Anthropology",
+                      "departmentParentId": 812,
+                      "department": "Anthropology",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 1,
+                          "pathwayName": "Anthropology",
+                          "pathwayCode": "Anthropology",
+                          "expectationId": 1,
+                          "expectationName": "C1-Physical/Biological Anthro",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "da537052-f906-43b6-e65e-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "15b7a16f-f644-46e6-683d-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "b7bb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 1827,
+                      "courseTitle": "Chemical Structure",
+                      "courseNumber": "20A",
+                      "prefix": "CHEM",
+                      "prefixParentId": 10658,
+                      "prefixDescription": "Chemistry and Biochemistry",
+                      "departmentParentId": 2396,
+                      "department": "Chemistry and Biochemistry",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 3,
+                          "pathwayName": "Biology",
+                          "pathwayCode": "Biology",
+                          "expectationId": 9,
+                          "expectationName": "C2-General Chem. Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 6,
+                          "pathwayName": "Chemistry",
+                          "pathwayCode": "Chemistry",
+                          "expectationId": 24,
+                          "expectationName": "C1-General Chem",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 10,
+                          "pathwayName": "Electrical Engineering",
+                          "pathwayCode": "Electrical-Engineering",
+                          "expectationId": 51,
+                          "expectationName": "C6-Chemistry I",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 15,
+                          "pathwayName": "Mechanical Engineering",
+                          "pathwayCode": "Mechanical-Engineering",
+                          "expectationId": 75,
+                          "expectationName": "C5-Chem Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 22,
+                          "pathwayName": "Aerospace Engineering",
+                          "pathwayCode": "Aerospace-Engineering",
+                          "expectationId": 143,
+                          "expectationName": "C7. General chemistry (full sequence with lab)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 23,
+                          "pathwayName": "Bioengineering",
+                          "pathwayCode": "Bioengineering",
+                          "expectationId": 152,
+                          "expectationName": "C6. General chemistry (full sequence with lab)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 24,
+                          "pathwayName": "Chemical Engineering",
+                          "pathwayCode": "Chemical-Engineering",
+                          "expectationId": 162,
+                          "expectationName": "C6. General chemistry (full sequence with lab)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 25,
+                          "pathwayName": "Civil Engineering",
+                          "pathwayCode": "Civil-Engineering",
+                          "expectationId": 170,
+                          "expectationName": "C6. General chemistry (full sequence with lab)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 29,
+                          "pathwayName": "Environmental Science",
+                          "pathwayCode": "Environmental-Science",
+                          "expectationId": 195,
+                          "expectationName": "C5. General chemistry (full sequence with lab)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 30,
+                          "pathwayName": "Materials Science and Engineering",
+                          "pathwayCode": "Materials-Science-and-Engineering",
+                          "expectationId": 202,
+                          "expectationName": "C5. General chemistry (full sequence with lab)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "acf8460d-c9a2-4a20-e65f-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "0d330f1b-45ce-472a-683e-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "babb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305292,
+                      "courseTitle": "Cell and Molecular Biology",
+                      "courseNumber": "7A",
+                      "prefix": "LIFESCI",
+                      "prefixParentId": 9769,
+                      "prefixDescription": "Life Sciences",
+                      "departmentParentId": 8609,
+                      "department": "Life Sciences",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 3,
+                          "pathwayName": "Biology",
+                          "pathwayCode": "Biology",
+                          "expectationId": 8,
+                          "expectationName": "C1-Intro Biology Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 20,
+                          "pathwayName": "Psychology",
+                          "pathwayCode": "Psychology",
+                          "expectationId": 103,
+                          "expectationName": "C4-Biology I",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 23,
+                          "pathwayName": "Bioengineering",
+                          "pathwayCode": "Bioengineering",
+                          "expectationId": 154,
+                          "expectationName": "C8. Biology (full introductory sequence)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 29,
+                          "pathwayName": "Environmental Science",
+                          "pathwayCode": "Environmental-Science",
+                          "expectationId": 194,
+                          "expectationName": "C4. Introductory biology (full sequence with lab)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "44dbfe93-f99e-4020-e660-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305293,
+                      "courseTitle": "Genetics, Evolution, and Ecology",
+                      "courseNumber": "7B",
+                      "prefix": "LIFESCI",
+                      "prefixParentId": 9769,
+                      "prefixDescription": "Life Sciences",
+                      "departmentParentId": 8609,
+                      "department": "Life Sciences",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 3,
+                          "pathwayName": "Biology",
+                          "pathwayCode": "Biology",
+                          "expectationId": 8,
+                          "expectationName": "C1-Intro Biology Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 23,
+                          "pathwayName": "Bioengineering",
+                          "pathwayCode": "Bioengineering",
+                          "expectationId": 154,
+                          "expectationName": "C8. Biology (full introductory sequence)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 29,
+                          "pathwayName": "Environmental Science",
+                          "pathwayCode": "Environmental-Science",
+                          "expectationId": 194,
+                          "expectationName": "C4. Introductory biology (full sequence with lab)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6a99b459-9556-40ec-e661-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309580,
+                      "courseTitle": "Physiology and Human Biology",
+                      "courseNumber": "7C",
+                      "prefix": "LIFESCI",
+                      "prefixParentId": 9769,
+                      "prefixDescription": "Life Sciences",
+                      "departmentParentId": 8609,
+                      "department": "Life Sciences",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 3,
+                          "pathwayName": "Biology",
+                          "pathwayCode": "Biology",
+                          "expectationId": 8,
+                          "expectationName": "C1-Intro Biology Seq.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9a0759d2-7494-4e49-e662-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "56598b3c-bc1d-4b12-683f-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "bdbb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "2e2c7745-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309270,
+                      "courseTitle": "History of Asian Americans",
+                      "courseNumber": "10",
+                      "prefix": "ASIA AM",
+                      "prefixParentId": 14994,
+                      "prefixDescription": "Asian American Studies",
+                      "departmentParentId": 1264,
+                      "department": "Asian American Studies",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "12e87c47-3f84-4086-e663-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309271,
+                      "courseTitle": "Contemporary Asian American Communities",
+                      "courseNumber": "20",
+                      "prefix": "ASIA AM",
+                      "prefixParentId": 14994,
+                      "prefixDescription": "Asian American Studies",
+                      "departmentParentId": 1264,
+                      "department": "Asian American Studies",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f0ed667b-7092-4570-e664-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305121,
+                      "courseTitle": "Asian American Movement",
+                      "courseNumber": "40",
+                      "prefix": "ASIA AM",
+                      "prefixParentId": 14994,
+                      "prefixDescription": "Asian American Studies",
+                      "departmentParentId": 1264,
+                      "department": "Asian American Studies",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "dd596d68-aefd-4e03-e665-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 11,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305123,
+                      "courseTitle": "Asian American Women",
+                      "courseNumber": "50",
+                      "prefix": "ASIA AM",
+                      "prefixParentId": 14994,
+                      "prefixDescription": "Asian American Studies",
+                      "departmentParentId": 1264,
+                      "department": "Asian American Studies",
+                      "begin": "F2013",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "51ecb6b6-7d74-4622-e666-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 37,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 258992,
+                      "courseTitle": "Introduction to Ethical Theory",
+                      "courseNumber": "22",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 17,
+                          "pathwayName": "Philosophy",
+                          "pathwayCode": "Philosophy",
+                          "expectationId": 88,
+                          "expectationName": "C4-Ethical Theory",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "41de31c7-8952-440f-e667-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 46,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 286874,
+                      "courseTitle": "Social Organization of Black Communities",
+                      "courseNumber": "M5",
+                      "prefix": "SOCIOL",
+                      "prefixParentId": 9099,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12165,
+                      "department": "Sociology",
+                      "begin": "S2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 286834,
+                          "courseTitle": "Social Organization of Black Communities",
+                          "courseNumber": "M5",
+                          "prefix": "AF AMER",
+                          "prefixParentId": 14991,
+                          "prefixDescription": "African American Studies",
+                          "departmentParentId": 259,
+                          "department": "African American Studies",
+                          "begin": "S2016",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4c352f46-d6ad-43e9-e668-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 18,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304098,
+                      "courseTitle": "Cultural Geography",
+                      "courseNumber": "3",
+                      "prefix": "GEOG",
+                      "prefixParentId": 10606,
+                      "prefixDescription": "Geography",
+                      "departmentParentId": 6217,
+                      "department": "Geography",
+                      "begin": "F2004",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e6e4b0f0-6216-4a86-e669-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 24,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 372928,
+                      "courseTitle": "Inequality: Global History of Anti-Colonial Thought and Struggle",
+                      "courseNumber": "12C",
+                      "prefix": "HIST",
+                      "prefixParentId": 3017,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7013,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e2526d62-eb19-4643-e66a-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 34,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 1829,
+                      "courseTitle": "Introduction to Political Philosophy",
+                      "courseNumber": "6",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "W2003",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "46408dc5-2a13-426c-e66b-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 43,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 368270,
+                      "courseTitle": "Comparative Analysis of Wealth, Policy, and Power",
+                      "courseNumber": "30",
+                      "prefix": "PUB AFF",
+                      "prefixParentId": 16338,
+                      "prefixDescription": "Public Affairs",
+                      "departmentParentId": 13514,
+                      "department": "Public Affairs",
+                      "begin": "S2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0a622c3c-0a6c-494d-e66c-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 32,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309579,
+                      "courseTitle": "Historical Introduction to Philosophy",
+                      "courseNumber": "3",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "37a42fe3-d9fd-4fe0-e66d-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 19,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359621,
+                      "courseTitle": "History of Science: Renaissance to 1800",
+                      "courseNumber": "3A",
+                      "prefix": "HIST",
+                      "prefixParentId": 3017,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7013,
+                      "department": "History",
+                      "begin": "W2020",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "efa73dc9-c35a-471e-e66e-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 42,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 368269,
+                      "courseTitle": "Power, Politics, and Policy Change",
+                      "courseNumber": "20",
+                      "prefix": "PUB AFF",
+                      "prefixParentId": 16338,
+                      "prefixDescription": "Public Affairs",
+                      "departmentParentId": 13514,
+                      "department": "Public Affairs",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "62cffb65-058e-4b89-e66f-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 30,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309317,
+                      "courseTitle": "Stem Cell Biology, Politics, and Ethics: Teasing Apart Issues",
+                      "courseNumber": "50",
+                      "prefix": "MCD BIO",
+                      "prefixParentId": 15161,
+                      "prefixDescription": "Molecular, Cell, and Developmental Biology",
+                      "departmentParentId": 9335,
+                      "department": "Molecular, Cell, and Developmental Biology",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3751de8c-3c4c-4e83-e670-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 35,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288862,
+                      "courseTitle": "Introduction to Philosophy of Mind",
+                      "courseNumber": "7",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 17,
+                          "pathwayName": "Philosophy",
+                          "pathwayCode": "Philosophy",
+                          "expectationId": 89,
+                          "expectationName": "C5-Philosophy of Mind/Epistemology",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bd2e1f19-8fd0-49d3-e671-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 44,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 368275,
+                      "courseTitle": "How Social Environments Shape Human Development",
+                      "courseNumber": "80",
+                      "prefix": "PUB AFF",
+                      "prefixParentId": 16338,
+                      "prefixDescription": "Public Affairs",
+                      "departmentParentId": 13514,
+                      "department": "Public Affairs",
+                      "begin": "W2023",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7410b530-c436-42a6-e672-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 286834,
+                      "courseTitle": "Social Organization of Black Communities",
+                      "courseNumber": "M5",
+                      "prefix": "AF AMER",
+                      "prefixParentId": 14991,
+                      "prefixDescription": "African American Studies",
+                      "departmentParentId": 259,
+                      "department": "African American Studies",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 286874,
+                          "courseTitle": "Social Organization of Black Communities",
+                          "courseNumber": "M5",
+                          "prefix": "SOCIOL",
+                          "prefixParentId": 9099,
+                          "prefixDescription": "Sociology",
+                          "departmentParentId": 12165,
+                          "department": "Sociology",
+                          "begin": "S2016",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0e3bcb25-bdb1-4524-e673-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 33,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 284976,
+                      "courseTitle": "Philosophical Analysis of Contemporary Moral Issues",
+                      "courseNumber": "4",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "W2003",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "caca3f91-0eb0-45a2-e674-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 27,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 380111,
+                      "courseTitle": "Work, Labor, and Social Justice in U.S.",
+                      "courseNumber": "M1B",
+                      "prefix": "LBR STD",
+                      "prefixParentId": 16974,
+                      "prefixDescription": "Labor Studies",
+                      "departmentParentId": 14075,
+                      "department": "Labor Studies",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 6.0,
+                      "maxUnits": 6.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d065d090-f587-4437-e675-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 13,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304779,
+                      "courseTitle": "Introduction to Chicana/Chicano Studies: History and Culture",
+                      "courseNumber": "10A",
+                      "prefix": "CCAS",
+                      "prefixParentId": 16926,
+                      "prefixDescription": "Chicana/o and Central American Studies",
+                      "departmentParentId": 2404,
+                      "department": "Chicana and Chicano Studies",
+                      "begin": "W2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ecf6d317-00ec-42a5-e676-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 41,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 368268,
+                      "courseTitle": "Social Problems and Social Change",
+                      "courseNumber": "10",
+                      "prefix": "PUB AFF",
+                      "prefixParentId": 16338,
+                      "prefixDescription": "Public Affairs",
+                      "departmentParentId": 13514,
+                      "department": "Public Affairs",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f1c2189d-f1c4-4de9-e677-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 31,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309318,
+                      "courseTitle": "Biomedical Ethics",
+                      "courseNumber": "60",
+                      "prefix": "MCD BIO",
+                      "prefixParentId": 15161,
+                      "prefixDescription": "Molecular, Cell, and Developmental Biology",
+                      "departmentParentId": 9335,
+                      "department": "Molecular, Cell, and Developmental Biology",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d3730d92-c523-4db4-e678-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 39,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 288859,
+                      "courseTitle": "Introduction to Political Theory",
+                      "courseNumber": "10",
+                      "prefix": "POL SCI",
+                      "prefixParentId": 2025,
+                      "prefixDescription": "Political Science",
+                      "departmentParentId": 11000,
+                      "department": "Political Science",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 19,
+                          "pathwayName": "Political Science",
+                          "pathwayCode": "Political-Science",
+                          "expectationId": 97,
+                          "expectationName": "C2-Political theory & thought",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0a8d94a1-2e38-4108-e679-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 20,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308829,
+                      "courseTitle": "History of Science: 20th Century",
+                      "courseNumber": "3C",
+                      "prefix": "HIST",
+                      "prefixParentId": 3017,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7013,
+                      "department": "History",
+                      "begin": "W2020",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e6b3d9c3-4897-4b87-e67a-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 21,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359622,
+                      "courseTitle": "History of Modern Medicine",
+                      "courseNumber": "3D",
+                      "prefix": "HIST",
+                      "prefixParentId": 3017,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7013,
+                      "department": "History",
+                      "begin": "W2020",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4722b805-4e19-4595-e67b-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305019,
+                      "courseTitle": "Introduction to American Indian Studies",
+                      "courseNumber": "M10",
+                      "prefix": "AM IND",
+                      "prefixParentId": 15146,
+                      "prefixDescription": "American Indian Studies",
+                      "departmentParentId": 494,
+                      "department": "American Indian Studies",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4e601a50-7731-4f1b-e67c-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 29,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 372922,
+                      "courseTitle": "Introduction to Labor and Workplace Studies",
+                      "courseNumber": "10",
+                      "prefix": "LBR STD",
+                      "prefixParentId": 16974,
+                      "prefixDescription": "Labor Studies",
+                      "departmentParentId": 14075,
+                      "department": "Labor Studies",
+                      "begin": "W2020",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "724f97de-d06d-4551-e67d-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 16,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 380108,
+                      "courseTitle": "Environmental Literature and Culture",
+                      "courseNumber": "M30",
+                      "prefix": "ENVIRON",
+                      "prefixParentId": 15298,
+                      "prefixDescription": "Environment",
+                      "departmentParentId": 5190,
+                      "department": "Environment",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e066048c-d786-4192-e67e-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 28,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 380112,
+                      "courseTitle": "Work, Labor, and Social Justice in U.S.: Special Topics",
+                      "courseNumber": "M1CW",
+                      "prefix": "LBR STD",
+                      "prefixParentId": 16974,
+                      "prefixDescription": "Labor Studies",
+                      "departmentParentId": 14075,
+                      "department": "Labor Studies",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 6.0,
+                      "maxUnits": 6.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7979caa5-e813-44be-e680-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 86,
+                      "courseTitle": "CULTURE AND SOCIETY",
+                      "courseNumber": "3",
+                      "prefix": "ANTHRO",
+                      "prefixParentId": 10805,
+                      "prefixDescription": "Anthropology",
+                      "departmentParentId": 812,
+                      "department": "Anthropology",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 1,
+                          "pathwayName": "Anthropology",
+                          "pathwayCode": "Anthropology",
+                          "expectationId": 2,
+                          "expectationName": "C2-Cultural Anthro",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f8640498-d364-49cd-e681-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 372920,
+                      "courseTitle": "Introduction to Black Studies",
+                      "courseNumber": "1",
+                      "prefix": "AF AMER",
+                      "prefixParentId": 14991,
+                      "prefixDescription": "African American Studies",
+                      "departmentParentId": 259,
+                      "department": "African American Studies",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a62aef0a-4e85-41ff-e682-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 22,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 372926,
+                      "courseTitle": "Inequality: History of Mass Imprisonment",
+                      "courseNumber": "12A",
+                      "prefix": "HIST",
+                      "prefixParentId": 3017,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7013,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "26f0d5fe-abd7-4c4a-e683-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 25,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309319,
+                      "courseTitle": "Genetic Engineering in Medicine, Agriculture, and Law",
+                      "courseNumber": "70A",
+                      "prefix": "HNRS",
+                      "prefixParentId": 15164,
+                      "prefixDescription": "Honors Collegium",
+                      "departmentParentId": 7110,
+                      "department": "Honors Collegium",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c9d484ec-2aef-4b99-e684-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 287861,
+                      "courseTitle": "Trends in Black Intellectual Thought",
+                      "courseNumber": "6",
+                      "prefix": "AF AMER",
+                      "prefixParentId": 14991,
+                      "prefixDescription": "African American Studies",
+                      "departmentParentId": 259,
+                      "department": "African American Studies",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3c179e80-f0b7-4d96-e685-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 36,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 303780,
+                      "courseTitle": "Introduction to Philosophy of Science",
+                      "courseNumber": "8",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b01cf248-d839-41aa-e686-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 17,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304195,
+                      "courseTitle": "Introduction to Gender Studies",
+                      "courseNumber": "10",
+                      "prefix": "GENDER",
+                      "prefixParentId": 15358,
+                      "prefixDescription": "Gender Studies",
+                      "departmentParentId": 6043,
+                      "department": "Gender Studies",
+                      "begin": "F2014",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4c675704-bdff-4a4b-e687-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 14,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309223,
+                      "courseTitle": "Introduction to Chicana/Chicano Studies: Social Structure and Contemporary Conditions",
+                      "courseNumber": "10B",
+                      "prefix": "CCAS",
+                      "prefixParentId": 16926,
+                      "prefixDescription": "Chicana/o and Central American Studies",
+                      "departmentParentId": 2404,
+                      "department": "Chicana and Chicano Studies",
+                      "begin": "W2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6daa9076-6a3e-4b2f-e688-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 23,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 372927,
+                      "courseTitle": "Inequality: History of Neoliberalism",
+                      "courseNumber": "12B",
+                      "prefix": "HIST",
+                      "prefixParentId": 3017,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7013,
+                      "department": "History",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "dd33920d-3119-46e1-e689-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 40,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259179,
+                      "courseTitle": "Introduction to American Politics",
+                      "courseNumber": "40",
+                      "prefix": "POL SCI",
+                      "prefixParentId": 2025,
+                      "prefixDescription": "Political Science",
+                      "departmentParentId": 11000,
+                      "department": "Political Science",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 19,
+                          "pathwayName": "Political Science",
+                          "pathwayCode": "Political-Science",
+                          "expectationId": 96,
+                          "expectationName": "C1-American gov & politics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ebe8df96-273c-4b9c-e68a-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 26,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 380110,
+                      "courseTitle": "Work, Labor, and Social Justice in U.S.",
+                      "courseNumber": "M1A",
+                      "prefix": "LBR STD",
+                      "prefixParentId": 16974,
+                      "prefixDescription": "Labor Studies",
+                      "departmentParentId": 14075,
+                      "department": "Labor Studies",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 6.0,
+                      "maxUnits": 6.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "57fb5aca-318c-405d-e68b-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 15,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 380109,
+                      "courseTitle": "Environmental Literature and Culture",
+                      "courseNumber": "M30",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2740,
+                      "prefixDescription": "English",
+                      "departmentParentId": 5027,
+                      "department": "English",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8f65e4e1-3fb2-43e5-e68c-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 45,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 258995,
+                      "courseTitle": "Introductory Sociology",
+                      "courseNumber": "1",
+                      "prefix": "SOCIOL",
+                      "prefixParentId": 9099,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12165,
+                      "department": "Sociology",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 7,
+                          "pathwayName": "Communication",
+                          "pathwayCode": "Communication",
+                          "expectationId": 33,
+                          "expectationName": "C4-Choose 3 Courses From List",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 21,
+                          "pathwayName": "Sociology",
+                          "pathwayCode": "Sociology",
+                          "expectationId": 106,
+                          "expectationName": "C1-Intro Soc.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "46ff4958-74bd-4469-e68d-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359898,
+                      "courseTitle": "History of Asian Americans",
+                      "courseNumber": "10W",
+                      "prefix": "ASIA AM",
+                      "prefixParentId": 14994,
+                      "prefixDescription": "Asian American Studies",
+                      "departmentParentId": 1264,
+                      "department": "Asian American Studies",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "21542421-bf49-42bd-e68e-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365827,
+                      "courseTitle": "Contemporary Asian American Communities",
+                      "courseNumber": "20W",
+                      "prefix": "ASIA AM",
+                      "prefixParentId": 14994,
+                      "prefixDescription": "Asian American Studies",
+                      "departmentParentId": 1264,
+                      "department": "Asian American Studies",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "86f0e18e-d72c-41d8-e68f-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365828,
+                      "courseTitle": "Asian American Movement",
+                      "courseNumber": "40W",
+                      "prefix": "ASIA AM",
+                      "prefixParentId": 14994,
+                      "prefixDescription": "Asian American Studies",
+                      "departmentParentId": 1264,
+                      "department": "Asian American Studies",
+                      "begin": "S2018",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1fc49ca2-1c73-4427-e690-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 12,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365829,
+                      "courseTitle": "Asian American Women",
+                      "courseNumber": "50W",
+                      "prefix": "ASIA AM",
+                      "prefixParentId": 14994,
+                      "prefixDescription": "Asian American Studies",
+                      "departmentParentId": 1264,
+                      "department": "Asian American Studies",
+                      "begin": "S2018",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "69d13315-cf79-431e-e691-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 38,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359623,
+                      "courseTitle": "Introduction to Ethical Theory",
+                      "courseNumber": "22W",
+                      "prefix": "PHILOS",
+                      "prefixParentId": 5491,
+                      "prefixDescription": "Philosophy",
+                      "departmentParentId": 10222,
+                      "department": "Philosophy",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "06618443-e976-4756-e692-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "SOCIAL THEORY COURSES",
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "AtLeast",
+          "amount": 4.0,
+          "amountUnitType": "Course",
+          "id": "3cb444e6-e880-4848-6840-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "c0bb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 6,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 262474,
+                      "courseTitle": "Introduction to Statistical Methods for Life and Health Sciences",
+                      "courseNumber": "13",
+                      "prefix": "STATS",
+                      "prefixParentId": 3372,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12559,
+                      "department": "Statistics",
+                      "begin": "Su2002",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 21,
+                          "pathwayName": "Sociology",
+                          "pathwayCode": "Sociology",
+                          "expectationId": 108,
+                          "expectationName": "C3-Stats",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [
+                      {
+                        "position": 0,
+                        "content": "Acceptable substitute"
+                      }
+                    ],
+                    "id": "7a79a26d-99ae-4585-e693-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304223,
+                      "courseTitle": "Introduction to Statistical Reasoning",
+                      "courseNumber": "10",
+                      "prefix": "STATS",
+                      "prefixParentId": 3372,
+                      "prefixDescription": "Statistics",
+                      "departmentParentId": 12559,
+                      "department": "Statistics",
+                      "begin": "F2005",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 7,
+                          "pathwayName": "Communication",
+                          "pathwayCode": "Communication",
+                          "expectationId": 30,
+                          "expectationName": "C1-Statistics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 21,
+                          "pathwayName": "Sociology",
+                          "pathwayCode": "Sociology",
+                          "expectationId": 108,
+                          "expectationName": "C3-Stats",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 20,
+                          "pathwayName": "Psychology",
+                          "pathwayCode": "Psychology",
+                          "expectationId": 101,
+                          "expectationName": "C2-Statistics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 26,
+                          "pathwayName": "Data Science",
+                          "pathwayCode": "Data-Science",
+                          "expectationId": 173,
+                          "expectationName": "C1. Introductory data science/statistics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 31,
+                          "pathwayName": "Statistics",
+                          "pathwayCode": "Statistics",
+                          "expectationId": 207,
+                          "expectationName": "Introductory data science/statistics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "45b99857-c6c3-484e-e694-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "54318479-1d65-4798-6841-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "c9bb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305898,
+                      "courseTitle": "Sex from Biology to Gendered Society",
+                      "courseNumber": "M72A",
+                      "prefix": "SOCIOL",
+                      "prefixParentId": 9099,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12165,
+                      "department": "Sociology",
+                      "begin": "Su2017",
+                      "end": "",
+                      "minUnits": 6.0,
+                      "maxUnits": 6.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 305897,
+                          "courseTitle": "Sex from Biology to Gendered Society",
+                          "courseNumber": "M72A",
+                          "prefix": "COMM ",
+                          "prefixParentId": 109,
+                          "prefixDescription": "Communication ",
+                          "departmentParentId": 2819,
+                          "department": "Communication ",
+                          "begin": "Su2017",
+                          "end": "",
+                          "minUnits": 6.0,
+                          "maxUnits": 6.0,
+                          "pathways": []
+                        }
+                      },
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 305900,
+                          "courseTitle": "Sex from Biology to Gendered Society",
+                          "courseNumber": "M72A",
+                          "prefix": "CLUSTER",
+                          "prefixParentId": 15856,
+                          "prefixDescription": "Clusters",
+                          "departmentParentId": 6063,
+                          "department": "Clusters",
+                          "begin": "Su2017",
+                          "end": "",
+                          "minUnits": 6.0,
+                          "maxUnits": 6.0,
+                          "pathways": []
+                        }
+                      },
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 305899,
+                          "courseTitle": "Sex from Biology to Gendered Society",
+                          "courseNumber": "M72A",
+                          "prefix": "SOC GEN",
+                          "prefixParentId": 15163,
+                          "prefixDescription": "Society and Genetics",
+                          "departmentParentId": 12031,
+                          "department": "Society and Genetics",
+                          "begin": "Su2014",
+                          "end": "",
+                          "minUnits": 6.0,
+                          "maxUnits": 6.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "299b0af3-7ed7-4d3d-e695-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359939,
+                      "courseTitle": "Integrative Approaches to Human Biology and Society",
+                      "courseNumber": "5",
+                      "prefix": "SOC GEN",
+                      "prefixParentId": 15163,
+                      "prefixDescription": "Society and Genetics",
+                      "departmentParentId": 12031,
+                      "department": "Society and Genetics",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bf661cab-9cad-447a-e696-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360324,
+                      "courseTitle": "Biotechnology and Society",
+                      "courseNumber": "M71A",
+                      "prefix": "SOC GEN",
+                      "prefixParentId": 15163,
+                      "prefixDescription": "Society and Genetics",
+                      "departmentParentId": 12031,
+                      "department": "Society and Genetics",
+                      "begin": "Su2014",
+                      "end": "",
+                      "minUnits": 6.0,
+                      "maxUnits": 6.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4c4f266e-0dab-4256-e697-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "c06eefa0-0dc5-4a26-6842-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "d5bb6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "da537052-f906-43b6-e65e-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 284946,
+            "courseTitle": "HUMAN EVOLUTION",
+            "courseNumber": "1",
+            "prefix": "ANTHRO",
+            "prefixParentId": 10805,
+            "prefixDescription": "Anthropology",
+            "departmentParentId": 812,
+            "department": "Anthropology",
+            "begin": "F2017",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 1,
+                "pathwayName": "Anthropology",
+                "pathwayCode": "Anthropology",
+                "expectationId": 1,
+                "expectationName": "C1-Physical/Biological Anthro",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 193213,
+                    "courseTitle": "Biological Anthropology",
+                    "courseNumber": "1",
+                    "prefix": "ANTH",
+                    "prefixParentId": 10742,
+                    "prefixDescription": "Anthropology",
+                    "departmentParentId": 824,
+                    "department": "Anthropology (ANTH)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 223231,
+                    "courseTitle": "Biological Anthropology - Honors",
+                    "courseNumber": "1H",
+                    "prefix": "ANTH",
+                    "prefixParentId": 10742,
+                    "prefixDescription": "Anthropology",
+                    "departmentParentId": 824,
+                    "department": "Anthropology (ANTH)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "23a6f576-a7be-413e-e56d-08ddcb9717a5",
+                "sendingArticulationId": "2bea8926-e246-4879-e296-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "acf8460d-c9a2-4a20-e65f-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 1827,
+            "courseTitle": "Chemical Structure",
+            "courseNumber": "20A",
+            "prefix": "CHEM",
+            "prefixParentId": 10658,
+            "prefixDescription": "Chemistry and Biochemistry",
+            "departmentParentId": 2396,
+            "department": "Chemistry and Biochemistry",
+            "begin": "F1999",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 3,
+                "pathwayName": "Biology",
+                "pathwayCode": "Biology",
+                "expectationId": 9,
+                "expectationName": "C2-General Chem. Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 6,
+                "pathwayName": "Chemistry",
+                "pathwayCode": "Chemistry",
+                "expectationId": 24,
+                "expectationName": "C1-General Chem",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 10,
+                "pathwayName": "Electrical Engineering",
+                "pathwayCode": "Electrical-Engineering",
+                "expectationId": 51,
+                "expectationName": "C6-Chemistry I",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 15,
+                "pathwayName": "Mechanical Engineering",
+                "pathwayCode": "Mechanical-Engineering",
+                "expectationId": 75,
+                "expectationName": "C5-Chem Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 22,
+                "pathwayName": "Aerospace Engineering",
+                "pathwayCode": "Aerospace-Engineering",
+                "expectationId": 143,
+                "expectationName": "C7. General chemistry (full sequence with lab)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 23,
+                "pathwayName": "Bioengineering",
+                "pathwayCode": "Bioengineering",
+                "expectationId": 152,
+                "expectationName": "C6. General chemistry (full sequence with lab)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 24,
+                "pathwayName": "Chemical Engineering",
+                "pathwayCode": "Chemical-Engineering",
+                "expectationId": 162,
+                "expectationName": "C6. General chemistry (full sequence with lab)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 25,
+                "pathwayName": "Civil Engineering",
+                "pathwayCode": "Civil-Engineering",
+                "expectationId": 170,
+                "expectationName": "C6. General chemistry (full sequence with lab)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 29,
+                "pathwayName": "Environmental Science",
+                "pathwayCode": "Environmental-Science",
+                "expectationId": 195,
+                "expectationName": "C5. General chemistry (full sequence with lab)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 30,
+                "pathwayName": "Materials Science and Engineering",
+                "pathwayCode": "Materials-Science-and-Engineering",
+                "expectationId": 202,
+                "expectationName": "C5. General chemistry (full sequence with lab)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 285325,
+                    "courseTitle": "General Chemistry I - Honors",
+                    "courseNumber": "50H",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3801,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2392,
+                    "department": "Chemistry (CHEM)",
+                    "begin": "Su2005",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 218,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 302178,
+                    "courseTitle": "General Chemistry I",
+                    "courseNumber": "50",
+                    "prefix": "CHEM",
+                    "prefixParentId": 3801,
+                    "prefixDescription": "Chemistry",
+                    "departmentParentId": 2392,
+                    "department": "Chemistry (CHEM)",
+                    "begin": "Su2005",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 218,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "da448783-28e5-4ead-e589-08ddcb9717a5",
+                "sendingArticulationId": "f17daaa6-6b0a-4f27-e2d0-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "44dbfe93-f99e-4020-e660-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 305292,
+            "courseTitle": "Cell and Molecular Biology",
+            "courseNumber": "7A",
+            "prefix": "LIFESCI",
+            "prefixParentId": 9769,
+            "prefixDescription": "Life Sciences",
+            "departmentParentId": 8609,
+            "department": "Life Sciences",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 3,
+                "pathwayName": "Biology",
+                "pathwayCode": "Biology",
+                "expectationId": 8,
+                "expectationName": "C1-Intro Biology Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 20,
+                "pathwayName": "Psychology",
+                "pathwayCode": "Psychology",
+                "expectationId": 103,
+                "expectationName": "C4-Biology I",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 23,
+                "pathwayName": "Bioengineering",
+                "pathwayCode": "Bioengineering",
+                "expectationId": 154,
+                "expectationName": "C8. Biology (full introductory sequence)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 29,
+                "pathwayName": "Environmental Science",
+                "pathwayCode": "Environmental-Science",
+                "expectationId": 194,
+                "expectationName": "C4. Introductory biology (full sequence with lab)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353198,
+                    "courseTitle": "Biology for Majors",
+                    "courseNumber": "4",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4878,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1773,
+                    "department": "Biology (BIOL)",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "6a99b459-9556-40ec-e661-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 305293,
+            "courseTitle": "Genetics, Evolution, and Ecology",
+            "courseNumber": "7B",
+            "prefix": "LIFESCI",
+            "prefixParentId": 9769,
+            "prefixDescription": "Life Sciences",
+            "departmentParentId": 8609,
+            "department": "Life Sciences",
+            "begin": "F2017",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 3,
+                "pathwayName": "Biology",
+                "pathwayCode": "Biology",
+                "expectationId": 8,
+                "expectationName": "C1-Intro Biology Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 23,
+                "pathwayName": "Bioengineering",
+                "pathwayCode": "Bioengineering",
+                "expectationId": 154,
+                "expectationName": "C8. Biology (full introductory sequence)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 29,
+                "pathwayName": "Environmental Science",
+                "pathwayCode": "Environmental-Science",
+                "expectationId": 194,
+                "expectationName": "C4. Introductory biology (full sequence with lab)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 289343,
+                    "courseTitle": "Biology for Majors - Honors",
+                    "courseNumber": "4H",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4878,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1773,
+                    "department": "Biology (BIOL)",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353198,
+                    "courseTitle": "Biology for Majors",
+                    "courseNumber": "4",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4878,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1773,
+                    "department": "Biology (BIOL)",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "e689488a-8b04-42d1-e566-08ddcb9717a5",
+                "sendingArticulationId": "97aa41e0-f9ef-4dcd-e284-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "9a0759d2-7494-4e49-e662-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 309580,
+            "courseTitle": "Physiology and Human Biology",
+            "courseNumber": "7C",
+            "prefix": "LIFESCI",
+            "prefixParentId": 9769,
+            "prefixDescription": "Life Sciences",
+            "departmentParentId": 8609,
+            "department": "Life Sciences",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 3,
+                "pathwayName": "Biology",
+                "pathwayCode": "Biology",
+                "expectationId": 8,
+                "expectationName": "C1-Intro Biology Seq.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 307845,
+                    "courseTitle": "Human Physiology",
+                    "courseNumber": "36",
+                    "prefix": "ANAT",
+                    "prefixParentId": 12214,
+                    "prefixDescription": "Anatomy and Physiology",
+                    "departmentParentId": 643,
+                    "department": "Anatomy and Physiology (ANAT)",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 5.0,
+                    "maxUnits": 5.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 289260,
+                    "courseTitle": "Plant and Animal Biology",
+                    "courseNumber": "2",
+                    "prefix": "BIOL",
+                    "prefixParentId": 4878,
+                    "prefixDescription": "Biology",
+                    "departmentParentId": 1773,
+                    "department": "Biology (BIOL)",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "10faae9f-fbc8-4f07-e57e-08ddcb9717a5",
+                "sendingArticulationId": "578b4068-eb32-4614-e2b5-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "e6e4b0f0-6216-4a86-e669-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 304098,
+            "courseTitle": "Cultural Geography",
+            "courseNumber": "3",
+            "prefix": "GEOG",
+            "prefixParentId": 10606,
+            "prefixDescription": "Geography",
+            "departmentParentId": 6217,
+            "department": "Geography",
+            "begin": "F2004",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 345948,
+                    "courseTitle": "Human Geography - Honors",
+                    "courseNumber": "2H",
+                    "prefix": "GEOG",
+                    "prefixParentId": 10546,
+                    "prefixDescription": "Geography",
+                    "departmentParentId": 6248,
+                    "department": "Geography (GEOG)",
+                    "begin": "Su2006",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 156415,
+                    "courseTitle": "Human Geography",
+                    "courseNumber": "2",
+                    "prefix": "GEOG",
+                    "prefixParentId": 10546,
+                    "prefixDescription": "Geography",
+                    "departmentParentId": 6248,
+                    "department": "Geography (GEOG)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "ac6b7d85-0289-4a6c-e57c-08ddcb9717a5",
+                "sendingArticulationId": "f0b9f1d7-09b5-40d9-e2b2-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "f1c2189d-f1c4-4de9-e677-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 368268,
+            "courseTitle": "Social Problems and Social Change",
+            "courseNumber": "10",
+            "prefix": "PUB AFF",
+            "prefixParentId": 16338,
+            "prefixDescription": "Public Affairs",
+            "departmentParentId": 13514,
+            "department": "Public Affairs",
+            "begin": "F2018",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "0a8d94a1-2e38-4108-e679-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 288859,
+            "courseTitle": "Introduction to Political Theory",
+            "courseNumber": "10",
+            "prefix": "POL SCI",
+            "prefixParentId": 2025,
+            "prefixDescription": "Political Science",
+            "departmentParentId": 11000,
+            "department": "Political Science",
+            "begin": "F2002",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 19,
+                "pathwayName": "Political Science",
+                "pathwayCode": "Political-Science",
+                "expectationId": 97,
+                "expectationName": "C2-Political theory & thought",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 214472,
+                    "courseTitle": "Political Theory I - Ancient to Contemporary",
+                    "courseNumber": "5",
+                    "prefix": "POLS",
+                    "prefixParentId": 18853,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 15413,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "f8640498-d364-49cd-e681-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 86,
+            "courseTitle": "CULTURE AND SOCIETY",
+            "courseNumber": "3",
+            "prefix": "ANTHRO",
+            "prefixParentId": 10805,
+            "prefixDescription": "Anthropology",
+            "departmentParentId": 812,
+            "department": "Anthropology",
+            "begin": "F2017",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 1,
+                "pathwayName": "Anthropology",
+                "pathwayCode": "Anthropology",
+                "expectationId": 2,
+                "expectationName": "C2-Cultural Anthro",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 163646,
+                    "courseTitle": "Cultural Anthropology",
+                    "courseNumber": "5",
+                    "prefix": "ANTH",
+                    "prefixParentId": 10742,
+                    "prefixDescription": "Anthropology",
+                    "departmentParentId": 824,
+                    "department": "Anthropology (ANTH)",
+                    "begin": "Su2018",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 270,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "ebe8df96-273c-4b9c-e68a-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 259179,
+            "courseTitle": "Introduction to American Politics",
+            "courseNumber": "40",
+            "prefix": "POL SCI",
+            "prefixParentId": 2025,
+            "prefixDescription": "Political Science",
+            "departmentParentId": 11000,
+            "department": "Political Science",
+            "begin": "F2002",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 19,
+                "pathwayName": "Political Science",
+                "pathwayCode": "Political-Science",
+                "expectationId": 96,
+                "expectationName": "C1-American gov & politics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 211522,
+                    "courseTitle": "American Government and Politics",
+                    "courseNumber": "C1000",
+                    "prefix": "POLS",
+                    "prefixParentId": 18853,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 15413,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 167222,
+                    "courseTitle": "American Government and Politics - Honors",
+                    "courseNumber": "C1000H",
+                    "prefix": "POLS",
+                    "prefixParentId": 18853,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 15413,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "71cbcee1-4af5-44fa-e576-08ddcb9717a5",
+                "sendingArticulationId": "b8b2edfb-73e4-4e52-e2a4-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "46ff4958-74bd-4469-e68d-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 258995,
+            "courseTitle": "Introductory Sociology",
+            "courseNumber": "1",
+            "prefix": "SOCIOL",
+            "prefixParentId": 9099,
+            "prefixDescription": "Sociology",
+            "departmentParentId": 12165,
+            "department": "Sociology",
+            "begin": "F2002",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 7,
+                "pathwayName": "Communication",
+                "pathwayCode": "Communication",
+                "expectationId": 33,
+                "expectationName": "C4-Choose 3 Courses From List",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 21,
+                "pathwayName": "Sociology",
+                "pathwayCode": "Sociology",
+                "expectationId": 106,
+                "expectationName": "C1-Intro Soc.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 234766,
+                    "courseTitle": "Introduction to Sociology - Honors",
+                    "courseNumber": "1H",
+                    "prefix": "SOC",
+                    "prefixParentId": 9036,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12176,
+                    "department": "Sociology (SOC)",
+                    "begin": "Su2018",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 337399,
+                    "courseTitle": "Introduction to Sociology",
+                    "courseNumber": "1",
+                    "prefix": "SOC",
+                    "prefixParentId": 9036,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12176,
+                    "department": "Sociology (SOC)",
+                    "begin": "Su2018",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "2a780e16-59f5-4875-e580-08ddcb9717a5",
+                "sendingArticulationId": "3fa4805b-1bea-4fb9-e2b8-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "7a79a26d-99ae-4585-e693-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 262474,
+            "courseTitle": "Introduction to Statistical Methods for Life and Health Sciences",
+            "courseNumber": "13",
+            "prefix": "STATS",
+            "prefixParentId": 3372,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12559,
+            "department": "Statistics",
+            "begin": "Su2002",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 21,
+                "pathwayName": "Sociology",
+                "pathwayCode": "Sociology",
+                "expectationId": 108,
+                "expectationName": "C3-Stats",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 203272,
+                    "courseTitle": "Introduction to Statistics",
+                    "courseNumber": "C1000",
+                    "prefix": "STAT",
+                    "prefixParentId": 18917,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 9082,
+                    "department": "Mathematics (MATH)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 179,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 219675,
+                    "courseTitle": "Introduction to Statistics -  Honors",
+                    "courseNumber": "C1000H",
+                    "prefix": "STAT",
+                    "prefixParentId": 18917,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 9082,
+                    "department": "Mathematics (MATH)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": 183,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "39f66ee5-ec64-4144-e57f-08ddcb9717a5",
+                "sendingArticulationId": "ab94810b-9795-4d25-e2b6-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "45b99857-c6c3-484e-e694-08ddcb96dfae",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 304223,
+            "courseTitle": "Introduction to Statistical Reasoning",
+            "courseNumber": "10",
+            "prefix": "STATS",
+            "prefixParentId": 3372,
+            "prefixDescription": "Statistics",
+            "departmentParentId": 12559,
+            "department": "Statistics",
+            "begin": "F2005",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 7,
+                "pathwayName": "Communication",
+                "pathwayCode": "Communication",
+                "expectationId": 30,
+                "expectationName": "C1-Statistics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 21,
+                "pathwayName": "Sociology",
+                "pathwayCode": "Sociology",
+                "expectationId": 108,
+                "expectationName": "C3-Stats",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 20,
+                "pathwayName": "Psychology",
+                "pathwayCode": "Psychology",
+                "expectationId": 101,
+                "expectationName": "C2-Statistics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 26,
+                "pathwayName": "Data Science",
+                "pathwayCode": "Data-Science",
+                "expectationId": 173,
+                "expectationName": "C1. Introductory data science/statistics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 31,
+                "pathwayName": "Statistics",
+                "pathwayCode": "Statistics",
+                "expectationId": 207,
+                "expectationName": "Introductory data science/statistics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 203272,
+                    "courseTitle": "Introduction to Statistics",
+                    "courseNumber": "C1000",
+                    "prefix": "STAT",
+                    "prefixParentId": 18917,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 9082,
+                    "department": "Mathematics (MATH)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 219675,
+                    "courseTitle": "Introduction to Statistics -  Honors",
+                    "courseNumber": "C1000H",
+                    "prefix": "STAT",
+                    "prefixParentId": 18917,
+                    "prefixDescription": "Statistics",
+                    "departmentParentId": 9082,
+                    "department": "Mathematics (MATH)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "9100c58c-183e-4130-e56b-08ddcb9717a5",
+                "sendingArticulationId": "f00c7df9-6276-448b-e28c-08ddcb97173a",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ],
+    "section_headers": [
+      {
+        "category": "major_required",
+        "requirement_group_position": 6,
+        "header": {
+          "type": "SectionHeader",
+          "content": "SOCIAL THEORY COURSES",
+          "position": 0,
+          "attributes": []
+        }
+      }
+    ],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "299b0af3-7ed7-4d3d-e695-08ddcb96dfae",
+        "requirement": "SOCIOL M72A",
+        "aliases": [
+          "COMM M72A",
+          "CLUSTER M72A",
+          "SOC GEN M72A"
+        ]
+      },
+      {
+        "template_cell_id": "0e3bcb25-bdb1-4524-e673-08ddcb96dfae",
+        "requirement": "AF AMER M5",
+        "aliases": [
+          "SOCIOL M5"
+        ]
+      },
+      {
+        "template_cell_id": "4c352f46-d6ad-43e9-e668-08ddcb96dfae",
+        "requirement": "SOCIOL M5",
+        "aliases": [
+          "AF AMER M5"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+    "Review preserved section headers; they are labels, not interpreted completion rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Urban Studies and Planning B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nSource instruction: Select 1 Course\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": 1,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nSource instruction: Select 1 Course\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "USP 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Urban Studies and Planning"
+    },
+    {
+      "text": "USP 4",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Urban Studies and Planning"
+    },
+    {
+      "text": "USP 30",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Urban Studies and Planning"
+    },
+    {
+      "text": "USP 60",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Urban Studies and Planning"
+    },
+    {
+      "text": "USP 2",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Urban Studies and Planning"
+    },
+    {
+      "text": "USP 6",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Urban Studies and Planning"
+    },
+    {
+      "text": "USP 3",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Urban Studies and Planning"
+    },
+    {
+      "text": "USP 5",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Urban Studies and Planning"
+    }
+  ],
+  "receiving_course_titles": {
+    "USP 1": "History of U.S. Urban Communities",
+    "USP 4": "Introduction to Geographic Information Systems",
+    "USP 30": "Urban Studies and Planning Colloquium",
+    "USP 60": "The Practice of Planning Research",
+    "USP 2": "Urban World System",
+    "USP 6": "Introduction to Global Architecture",
+    "USP 3": "The City and Social Theory",
+    "USP 5": "Introduction to the Real Estate and Development Process"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T18:36:40.9569271",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "a3b36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p>The urban studies and planning major is an interdisciplinary social science major that provides students with a variety of perspectives for understanding the development, growth, and culture of cities and the communities within them. Course work introduces students to the ways different disciplines understand cities and the societies of which they are a part. Upper-division requirements educate students about the parameters within which urban choices are made. The urban studies and planning major is the oldest and most comprehensive undergraduate urban planning degree program in the University of California system. For more information please visit <a href=\"https://usp.ucsd.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://usp.ucsd.edu/</a></p>",
+        "groupId": "a1b36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 365743,
+                      "courseTitle": "Introduction to the Real Estate and Development Process",
+                      "courseNumber": "5",
+                      "prefix": "USP",
+                      "prefixParentId": 7185,
+                      "prefixDescription": "Urban Studies and Planning",
+                      "departmentParentId": 12964,
+                      "department": "Urban Studies and Planning",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "92ab0d09-2036-4d8c-c50b-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289355,
+                      "courseTitle": "The City and Social Theory",
+                      "courseNumber": "3",
+                      "prefix": "USP",
+                      "prefixParentId": 7185,
+                      "prefixDescription": "Urban Studies and Planning",
+                      "departmentParentId": 12964,
+                      "department": "Urban Studies and Planning",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "548b02cd-b9ee-4ece-c50c-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 2,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 372416,
+                      "courseTitle": "Introduction to Geographic Information Systems",
+                      "courseNumber": "4",
+                      "prefix": "USP",
+                      "prefixParentId": 7185,
+                      "prefixDescription": "Urban Studies and Planning",
+                      "departmentParentId": 12964,
+                      "department": "Urban Studies and Planning",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "dd628602-56cd-415d-c50d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355259,
+                      "courseTitle": "History of U.S. Urban Communities",
+                      "courseNumber": "1",
+                      "prefix": "USP",
+                      "prefixParentId": 7185,
+                      "prefixDescription": "Urban Studies and Planning",
+                      "departmentParentId": 12964,
+                      "department": "Urban Studies and Planning",
+                      "begin": "Su2001",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4f2ee03d-35b5-4aa2-c50e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 411140,
+                      "courseTitle": "Urban Studies and Planning Colloquium",
+                      "courseNumber": "30",
+                      "prefix": "USP",
+                      "prefixParentId": 7185,
+                      "prefixDescription": "Urban Studies and Planning",
+                      "departmentParentId": 12964,
+                      "department": "Urban Studies and Planning",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 2.0,
+                      "maxUnits": 2.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2bb3a2f7-a88f-49d9-c50f-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 411141,
+                      "courseTitle": "The Practice of Planning Research",
+                      "courseNumber": "60",
+                      "prefix": "USP",
+                      "prefixParentId": 7185,
+                      "prefixDescription": "Urban Studies and Planning",
+                      "departmentParentId": 12964,
+                      "department": "Urban Studies and Planning",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a6dcd109-e882-4ec6-c510-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355285,
+                      "courseTitle": "Urban World System",
+                      "courseNumber": "2",
+                      "prefix": "USP",
+                      "prefixParentId": 7185,
+                      "prefixDescription": "Urban Studies and Planning",
+                      "departmentParentId": 12964,
+                      "department": "Urban Studies and Planning",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "210d55e8-e6d6-4762-c511-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 381432,
+                      "courseTitle": " Introduction to Global Architecture",
+                      "courseNumber": "6",
+                      "prefix": "USP",
+                      "prefixParentId": 7185,
+                      "prefixDescription": "Urban Studies and Planning",
+                      "departmentParentId": 12964,
+                      "department": "Urban Studies and Planning",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "fbfa0e00-22a0-4081-c512-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "9fb36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "2bb3a2f7-a88f-49d9-c50f-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 411140,
+            "courseTitle": "Urban Studies and Planning Colloquium",
+            "courseNumber": "30",
+            "prefix": "USP",
+            "prefixParentId": 7185,
+            "prefixDescription": "Urban Studies and Planning",
+            "departmentParentId": 12964,
+            "department": "Urban Studies and Planning",
+            "begin": "F2024",
+            "end": "",
+            "minUnits": 2.0,
+            "maxUnits": 2.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "a6dcd109-e882-4ec6-c510-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 411141,
+            "courseTitle": "The Practice of Planning Research",
+            "courseNumber": "60",
+            "prefix": "USP",
+            "prefixParentId": 7185,
+            "prefixDescription": "Urban Studies and Planning",
+            "departmentParentId": 12964,
+            "department": "Urban Studies and Planning",
+            "begin": "F2024",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.",
+    "Confirm how the listed sections fit together before using this group as a checklist."
+  ],
+  "calculation_review_required": true
+}

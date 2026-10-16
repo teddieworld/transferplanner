@@ -1,0 +1,524 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Dance B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "TDPR 6",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDTR 10",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDDM 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDGE 40",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDHD 20",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDMV 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDMV 2",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDMV 3",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDMV 11",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDMV 38",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDMV 43",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    }
+  ],
+  "receiving_course_titles": {
+    "TDPR 6": "Theatre Practicum",
+    "TDTR 10": "Introduction to Dance",
+    "TDDM 1": "Introduction to Dance Making",
+    "TDGE 40": "Dance and Socia Movement(s)",
+    "TDHD 20": "Looking at Dance",
+    "TDMV 1": "Beginning Ballet",
+    "TDMV 2": "Beginning Contemporary Dance",
+    "TDMV 3": "Beginning Jazz",
+    "TDMV 11": "Theatrical Tap",
+    "TDMV 38": "Beginning Hip Hop",
+    "TDMV 43": "West African Dance"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T19:08:02.9280386",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "5fc16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p><strong>The Department of Theatre and Dance offers a Bachelor of Arts degree in Dance (B.A.). The Dance Major offers students an opportunity to specialize their training in the creative, aesthetic and conceptual discipline of dance as a contemporary art form, within the context of a broad undergraduate education. The Dance Major allows students to study a range of techniques and dance practices that include traditional and contemporary forms, world dance, somatic movement approaches, dance making, history and theory. Our program emphasizes innovation and interdisciplinary collaboration, encourages hybridization of dance vocabularies and aims to push forward the boundaries of dance as a culturally and aesthetically diverse art form. Integral to the practice and appreciation of dance is relationship, interaction and exchange with others, both physically and intellectually. Our program fosters an open, respectful, imaginative, inventive, and non-competitive approach to all areas of practice, and encourages students to be self-motivated, rigorous, proactive and reflective to prepare them for the demands of a variety of professional careers. </strong></p><p><br></p><p><strong>﻿Students who have not taken the introductory level Dance courses at UCSD (TDMV 1, TDMV 2, and/or TDMV 3) must have instructor approval to enroll in intermediate level (TDMV 110, TDMV 120, and/or TDMV 130) or higher technique classes. </strong></p><p><br></p><p><strong>For more information please visit </strong><a href=\"https://theatre.ucsd.edu/academics/undergraduate/dance.html\" rel=\"noopener noreferrer\" target=\"_blank\">https://theatre.ucsd.edu/academics/undergraduate/dance.html</a></p>",
+        "groupId": "5dc16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "edfa7845-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269450,
+                      "courseTitle": "Introduction to Dance",
+                      "courseNumber": "10",
+                      "prefix": "TDTR",
+                      "prefixParentId": 13839,
+                      "prefixDescription": "Theatre & Dance/Dance Theory",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1d519796-64a7-4194-c66d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269449,
+                      "courseTitle": "Introduction to Dance Making",
+                      "courseNumber": "1",
+                      "prefix": "TDDM",
+                      "prefixParentId": 16173,
+                      "prefixDescription": "Theatre & Dance/Dance Making",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "97813700-7704-4340-c66e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300552,
+                      "courseTitle": "Theatre Practicum",
+                      "courseNumber": "6",
+                      "prefix": "TDPR",
+                      "prefixParentId": 12,
+                      "prefixDescription": "Theatre & Dance/Practicum",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 6.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "615ba1dc-b384-4592-c66f-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 363557,
+                      "courseTitle": "Looking at Dance",
+                      "courseNumber": "20",
+                      "prefix": "TDHD",
+                      "prefixParentId": 16171,
+                      "prefixDescription": "Theatre & Dance/Dance History",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0b3a9101-8326-4dbe-c670-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418244,
+                      "courseTitle": "Dance and Socia Movement(s)",
+                      "courseNumber": "40",
+                      "prefix": "TDGE",
+                      "prefixParentId": 13348,
+                      "prefixDescription": "Theatre & Dance/Theatre General",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "73655339-83a8-4c42-c671-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418237,
+                      "courseTitle": "Beginning Ballet",
+                      "courseNumber": "1",
+                      "prefix": "TDMV",
+                      "prefixParentId": 16172,
+                      "prefixDescription": "Theatre & Dance/Dance Movement",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e4d80228-286f-4bac-c672-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418238,
+                      "courseTitle": "Beginning Contemporary Dance",
+                      "courseNumber": "2",
+                      "prefix": "TDMV",
+                      "prefixParentId": 16172,
+                      "prefixDescription": "Theatre & Dance/Dance Movement",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "89ff2d5c-61f6-4b07-c673-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418239,
+                      "courseTitle": "Beginning Jazz",
+                      "courseNumber": "3",
+                      "prefix": "TDMV",
+                      "prefixParentId": 16172,
+                      "prefixDescription": "Theatre & Dance/Dance Movement",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "42e72ca9-2514-403f-c674-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418240,
+                      "courseTitle": "Theatrical Tap",
+                      "courseNumber": "11",
+                      "prefix": "TDMV",
+                      "prefixParentId": 16172,
+                      "prefixDescription": "Theatre & Dance/Dance Movement",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "fe8cf166-bba7-427c-c675-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418241,
+                      "courseTitle": "Beginning Hip Hop",
+                      "courseNumber": "38",
+                      "prefix": "TDMV",
+                      "prefixParentId": 16172,
+                      "prefixDescription": "Theatre & Dance/Dance Movement",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5a6b0474-520a-439a-c676-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418242,
+                      "courseTitle": "West African Dance",
+                      "courseNumber": "43",
+                      "prefix": "TDMV",
+                      "prefixParentId": 16172,
+                      "prefixDescription": "Theatre & Dance/Dance Movement",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "997f3fc4-0649-4e41-c677-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "5bc16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": []
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

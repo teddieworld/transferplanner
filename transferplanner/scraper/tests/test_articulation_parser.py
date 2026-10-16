@@ -5,11 +5,78 @@ from pathlib import Path
 
 from transferplanner.scraper.articulation_parser import (
     build_agreement, get_requirement_sections, load_assist_response,
-    get_articulation_status, get_required_count, plain_text
+    get_articulation_status, get_required_count, plain_text, build_options
 )
 
 
 DATA = Path(__file__).resolve().parents[2] / "data"
+
+
+class MultiCampusStructureTests(unittest.TestCase):
+    def test_ucla_cs_preserves_physics_bundle_and_both_english_requirements(self):
+        raw = load_assist_response(DATA / 'raw/ucla/62_to_117_computer_science_b_s_2025_2026.json')
+        result = build_agreement(raw)
+        self.assertEqual((result['university'], result['academic_year']),
+                         ('University of California, Los Angeles', '2025–2026'))
+        physics = next(r for r in result['requirements'] if r['text'].startswith('PHYSICS 1A AND'))
+        self.assertEqual(physics['options'], [{'option_number': 1, 'courses': ['PHYS 4A', 'PHYS 4B', 'PHYS 4C']}])
+        english = [r for r in result['requirements'] if r['text'] in ['ENGCOMP 3', 'English composition courses']]
+        self.assertEqual(len({r['group'] for r in english}), 2)
+        self.assertIn('ENGL 1B', [code for o in english[1]['options'] for code in o['courses']])
+        raw['publishDate'] = '2099-01-01'
+        with self.assertRaisesRegex(ValueError, 'changed source'):
+            build_agreement(raw)
+
+    def test_ucsd_cs_keeps_science_choices_and_verified_independent_math_section(self):
+        raw = load_assist_response(DATA / 'raw/ucsd/62_to_7_cse_computer_science_b_s_2026_2027.json')
+        result = build_agreement(raw)
+        groups = {g['name']: g for g in result['groups']}
+        self.assertEqual(groups['D']['required_count'], 1)
+        self.assertFalse(groups['C'].get('review_required', False))
+        self.assertEqual([r['text'] for r in result['requirements'] if r['group']=='C'],
+                         ['MATH 18', 'MATH 20A', 'MATH 20B', 'MATH 20C'])
+        biology = next(r for r in result['requirements'] if r['text']=='BILD 1')
+        self.assertEqual([o['courses'] for o in biology['options']],
+                         [['BIOL 2', 'BIOL 4'], ['BIOL 2', 'BIOL 4H']])
+        self.assertNotIn('preparation_options', biology)
+
+    def test_new_campus_review_groups_keep_native_source_without_claiming_completion(self):
+        raw = load_assist_response(DATA / 'raw/ucla/62_to_117_cognitive_science_b_s_2025_2026.json')
+        result = build_agreement(raw)
+        self.assertTrue(result['calculation_review_required'])
+        self.assertTrue(any(g.get('review_required') for g in result['groups']))
+        self.assertEqual(result['source']['native_articulations'], json.loads(raw['articulations']))
+
+    def test_and_between_alternative_groups_keeps_every_required_part(self):
+        groups = [{"type": "CourseGroup", "position": index, "courseConjunction": "Or",
+                   "items": [{"type": "Course", "position": n,
+                              "course": {"prefix": "TEST", "courseNumber": code}}
+                             for n, code in enumerate(codes)]}
+                  for index, codes in enumerate([['A', 'B'], ['C', 'D']])]
+        sending = {"items": groups, "courseGroupConjunctions": [{"groupConjunction": "And",
+                   "sendingCourseGroupBeginPosition": 0, "sendingCourseGroupEndPosition": 1}]}
+        options = build_options({"sendingArticulation": sending})
+        self.assertEqual([o['courses'] for o in options], [
+            ['TEST A', 'TEST C'], ['TEST A', 'TEST D'], ['TEST B', 'TEST C'], ['TEST B', 'TEST D']])
+        sending['courseGroupConjunctions'][0]['sendingCourseGroupEndPosition'] = 2
+        with self.assertRaises(ValueError):
+            build_options({"sendingArticulation": sending})
+
+    def test_counted_and_sections_require_a_choice_in_each_section(self):
+        sections = [{"type": "Section", "position": n, "rows": [{"position": 0}, {"position": 1}]}
+                    for n in range(2)]
+        group = {"sections": sections, "instruction": {"type": "NFromConjunction",
+                 "selectionType": "Complete", "conjunction": "And", "amount": 1.0,
+                 "amountUnitType": "Course", "amountQuantifier": "None"}}
+        self.assertEqual([count for _, count in get_requirement_sections(group)], [1, 1])
+        group['instruction']['conjunction'] = 'Or'
+        rows, count = get_requirement_sections(group)[0]
+        self.assertEqual((len(rows), count), (4, 1))
+        group['sections'] = sections[:1]
+        self.assertEqual(get_requirement_sections(group)[0][1], 1)
+        group['instruction']['amountUnitType'] = 'Unit'
+        with self.assertRaises(ValueError):
+            get_requirement_sections(group)
 
 
 class CognitiveScienceParserTests(unittest.TestCase):

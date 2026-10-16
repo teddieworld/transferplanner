@@ -1,0 +1,315 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Portuguese & Brazilian Studies/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: LOWER DIVISION MAJOR REQUIREMENTS\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Complete 1 Course\nA group mixes required and recommended course choices"
+    },
+    {
+      "name": "A",
+      "category": "highly_recommended",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: LOWER DIVISION MAJOR REQUIREMENTS\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Complete 1 Course\nA group mixes required and recommended course choices"
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "PORTGSE 25",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Portuguese"
+    },
+    {
+      "text": "PORTGSE 26",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Portuguese"
+    },
+    {
+      "text": "PORTGSE 27",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "PORTGSE 46",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Portuguese"
+    }
+  ],
+  "receiving_course_titles": {
+    "PORTGSE 25": "Advanced Portuguese",
+    "PORTGSE 26": "Language and Popular Culture",
+    "PORTGSE 27": "Writing Studies: Afro-Luso-Brazilian World",
+    "PORTGSE 46": "Brazil and Portuguese-Speaking World"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-01-16T20:53:46.2875521",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "d0b76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The Portuguese and Brazilian Studies major focuses on creative writing, social awareness, and visual cultures across the diverse regions, trains students in the Portuguese language - both written and conversational - as well as broad cultural literacy in the histories and societies of Portuguese-speaking communities.</p><p><br></p><p>Listed below are the lower division preparation courses for this major.</p><p><br></p><p>To be considered for this major, you must complete the following courses by the end of spring before transfer:</p><ul><li>One year of college level coursework in the declared language OR</li><li>At least one year in high school in which the primary language of instruction was the declared language.</li></ul><p>Completion of two years of college level foreign language is <strong>STRONGLY RECOMMENDED</strong>. </p><p>A placement exam is required for all majors regardless of credits earned in lower division language courses.</p><p>All courses must be taken for a letter grade.</p><p><br></p><p>For more information regarding this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://spanport.ucla.edu</u> and <u style=\"color: rgb(41, 98, 255);\">https://admission.ucla.edu</u>.</p><p><br></p><p>PLEASE NOTE: the community college courses listed below have been approved to satisfy the preparation for this major at UCLA, but they may not be exact equivalents of the UCLA courses listed. In addition some language courses may be cross listed and available in different departments, however all major preparation courses must be taken from the Spanish department</p>",
+        "groupId": "c7b76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379236,
+                      "courseTitle": "Advanced Portuguese",
+                      "courseNumber": "25",
+                      "prefix": "PORTGSE",
+                      "prefixParentId": 15871,
+                      "prefixDescription": "Portuguese",
+                      "departmentParentId": 11135,
+                      "department": "Portuguese",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e389b536-17ec-45e7-e82a-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379237,
+                      "courseTitle": "Language and Popular Culture",
+                      "courseNumber": "26",
+                      "prefix": "PORTGSE",
+                      "prefixParentId": 15871,
+                      "prefixDescription": "Portuguese",
+                      "departmentParentId": 11135,
+                      "department": "Portuguese",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "242ac774-1188-42c5-e82b-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "STRONGLY RECOMMENDED",
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379238,
+                      "courseTitle": "Writing Studies: Afro-Luso-Brazilian World",
+                      "courseNumber": "27",
+                      "prefix": "PORTGSE",
+                      "prefixParentId": 15871,
+                      "prefixDescription": "Portuguese",
+                      "departmentParentId": 11135,
+                      "department": "Portuguese",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3af0c7a0-6aec-49da-e82c-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 2,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "0cb0b23a-a195-4872-68a8-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "ceb76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360098,
+                      "courseTitle": "Brazil and Portuguese-Speaking World",
+                      "courseNumber": "46",
+                      "prefix": "PORTGSE",
+                      "prefixParentId": 15871,
+                      "prefixDescription": "Portuguese",
+                      "departmentParentId": 11135,
+                      "department": "Portuguese",
+                      "begin": "Su2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6097882c-be19-41af-e82d-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "0c6c8a0e-3813-4fc6-68a9-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "cfb76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "722b7745-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [],
+    "section_headers": [
+      {
+        "category": "highly_recommended",
+        "requirement_group_position": 1,
+        "header": {
+          "type": "SectionHeader",
+          "content": "STRONGLY RECOMMENDED",
+          "position": 1,
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved section headers; they are labels, not interpreted completion rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "A group mixes required and recommended course choices"
+  ],
+  "calculation_review_required": true
+}

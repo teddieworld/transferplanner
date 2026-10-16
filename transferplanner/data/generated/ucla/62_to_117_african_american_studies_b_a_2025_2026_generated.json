@@ -1,0 +1,385 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "African American Studies/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1
+    }
+  ],
+  "requirements": [
+    {
+      "text": "AF AMER 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "African American Studies"
+    },
+    {
+      "text": "AF AMER 2A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "African American Studies"
+    },
+    {
+      "text": "AF AMER 2B",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "African American Studies"
+    },
+    {
+      "text": "AF AMER 2C",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "African American Studies"
+    },
+    {
+      "text": "AF AMER M5",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "African American Studies"
+    },
+    {
+      "text": "AF AMER 6",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "African American Studies"
+    }
+  ],
+  "receiving_course_titles": {
+    "AF AMER 1": "Introduction to Black Studies",
+    "AF AMER 2A": "Africa and Middle East",
+    "AF AMER 2B": "Race and U.S. Military Intervention in Africa",
+    "AF AMER 2C": "Black Folks Kung Fu Fightin': Black America, Martial Arts, and Popular Culture",
+    "AF AMER M5": "Social Organization of Black Communities",
+    "AF AMER 6": "Trends in Black Intellectual Thought"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2025-10-31T03:25:56.9994479",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "85bd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The Department of African American Studies at UCLA continues in the legacy of developing global citizen-scholars focused on analyzing and writing about the lived experiences and freedom dreams of people throughout Africa and the African Diaspora.</p><p><br></p><p>Listed below are the lower division preparation courses for the major.</p><p><br></p><p>To be considered for this major, you must complete the following by the end of spring before transfer:</p><ul><li>One course in African American Studies or</li><li>One Civilizations of Africa course.</li></ul><p>All courses must be taken for a letter grade.</p><p><br></p><p>For more information regarding this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://afam.ucla.edu</u> and <u style=\"color: rgb(41, 98, 255);\">https://admission.ucla.edu</u>.</p><p><br></p><p>PLEASE NOTE: the community college courses listed below have been approved to satisfy the preparation for this major at UCLA, but they may not be exact equivalents of the UCLA courses listed.</p>",
+        "groupId": "a2bd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 372920,
+                      "courseTitle": "Introduction to Black Studies",
+                      "courseNumber": "1",
+                      "prefix": "AF AMER",
+                      "prefixParentId": 14991,
+                      "prefixDescription": "African American Studies",
+                      "departmentParentId": 259,
+                      "department": "African American Studies",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "89da4881-a4e1-4733-e530-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "ca6e35a1-766c-4447-67fc-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "22bd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379895,
+                      "courseTitle": "Africa and Middle East",
+                      "courseNumber": "2A",
+                      "prefix": "AF AMER",
+                      "prefixParentId": 14991,
+                      "prefixDescription": "African American Studies",
+                      "departmentParentId": 259,
+                      "department": "African American Studies",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "598d8c37-39f6-439c-e531-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379896,
+                      "courseTitle": "Race and U.S. Military Intervention in Africa",
+                      "courseNumber": "2B",
+                      "prefix": "AF AMER",
+                      "prefixParentId": 14991,
+                      "prefixDescription": "African American Studies",
+                      "departmentParentId": 259,
+                      "department": "African American Studies",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1b90c7b1-adb0-4ae1-e532-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379897,
+                      "courseTitle": "Black Folks Kung Fu Fightin': Black America, Martial Arts, and Popular Culture",
+                      "courseNumber": "2C",
+                      "prefix": "AF AMER",
+                      "prefixParentId": 14991,
+                      "prefixDescription": "African American Studies",
+                      "departmentParentId": 259,
+                      "department": "African American Studies",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7cbf84e2-40ea-48e3-e533-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 286834,
+                      "courseTitle": "Social Organization of Black Communities",
+                      "courseNumber": "M5",
+                      "prefix": "AF AMER",
+                      "prefixParentId": 14991,
+                      "prefixDescription": "African American Studies",
+                      "departmentParentId": 259,
+                      "department": "African American Studies",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 286874,
+                          "courseTitle": "Social Organization of Black Communities",
+                          "courseNumber": "M5",
+                          "prefix": "SOCIOL",
+                          "prefixParentId": 9099,
+                          "prefixDescription": "Sociology",
+                          "departmentParentId": 12165,
+                          "department": "Sociology",
+                          "begin": "S2016",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7beeb469-ffd5-418c-e534-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 287861,
+                      "courseTitle": "Trends in Black Intellectual Thought",
+                      "courseNumber": "6",
+                      "prefix": "AF AMER",
+                      "prefixParentId": 14991,
+                      "prefixDescription": "African American Studies",
+                      "departmentParentId": 259,
+                      "department": "African American Studies",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "84f0e3c8-ef9c-44b2-e535-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "aad91b5e-2f8d-46fa-67fd-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "86bd6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "722c7745-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "7beeb469-ffd5-418c-e534-08ddcb96dfae",
+        "requirement": "AF AMER M5",
+        "aliases": [
+          "SOCIOL M5"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+  ]
+}

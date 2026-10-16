@@ -1,0 +1,38 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Music Industry/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [],
+  "requirements": [],
+  "kind": "informational",
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2025-10-31T04:08:51.2354858",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "e4b66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The Music Industry major at UCLA creates your pathway to study music while also gaining the practical skills required to meet the challenges of today’s evolving music industry. This program combines practical hands-on training with the study of music within the context of different societies, cultures, and theories. Transfer applicants to the school are considered on the basis of academic achievement as well as departmental screening requirements and must have a minimum 3.2 GPA at the time of application. California community college students are strongly encouraged, but not required, to complete IGETC; all other transfer students are encouraged to make progress toward completion of the school’s general education requirements.</p><p><br></p><p>Recommended (not required) preparation for the major:</p><ul><li>Transfer applicants to the Music Industry major with 90 or more units must complete as many of the following introductory courses as possible prior to admission to UCLA:</li><li>At least two quarters of Musicianship or Music Theory training, equivalent to Music Industry 20A and 20B, and</li><li>At least two quarters of study in Finance and Accounting, equivalent to Music Industry 10A and 10B.</li></ul><p><br></p><p>In addition to the UC Application, applicants are required to submit supplemental application materials which vary by major and are used in a pre-screening process to determine which students will be invited to interview and/or audition.</p><p><br></p><p>The UCLA Herb Alpert School of Music houses the supplemental application on the Acceptd platform - <u style=\"color: rgb(41, 98, 255);\">https://app.getacceptd.com/herbalpert</u>. Specific supplemental application requirements for each major program (and, for Music Performance, Music Education, and Global Jazz Studies majors, specific instrument area) can be found on Acceptd.</p><p><br></p><p>Other general information about the application process can be found on the School of Music’s website at <u style=\"color: rgb(41, 98, 255);\">https://schoolofmusic.ucla.edu/admissions/undergraduate</u>.</p>",
+        "groupId": "e0b66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [],
+    "native_articulations": []
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

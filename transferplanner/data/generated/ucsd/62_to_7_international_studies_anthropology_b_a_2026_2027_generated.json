@@ -1,0 +1,1134 @@
+{
+  "university": "University of California, San Diego",
+  "major": "International Studies - Anthropology B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nSource instruction: Complete 1 Course\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nThe source uses area or quantity conditions across sections. Confirm which areas and courses to choose.\nCHIN 20AN: The source lists multiple course groups without an explicit relationship. Confirm the acceptable course combinations."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "CHIN 20AN",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "review_required",
+      "note": "Adviser review needed: The source lists multiple course groups without an explicit relationship. Confirm the acceptable course combinations.",
+      "options": [],
+      "department": "Chinese Studies"
+    },
+    {
+      "text": "JAPN 20A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "JAPN 4"
+          ]
+        }
+      ],
+      "department": "Japanese Studies"
+    },
+    {
+      "text": "LIAB 1D AND LIAB 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIFR 1D AND LIFR 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LTFR 2A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LIGM 1D AND LIGM 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LTGM 2A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LIIT 1D AND LIIT 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LTIT 2A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ITAL 3"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTKO 2A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LIPO 1D AND LIPO 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LTRU 2A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LISL 1D AND LISL 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LISP 1D AND LISP 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LTSP 2A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    }
+  ],
+  "receiving_course_titles": {
+    "CHIN 20AN": "Second-Year Chinese I",
+    "JAPN 20A": "Second Year Japanese I",
+    "LIAB 1D": "Arabic Conversation",
+    "LIAB 1DX": "Analysis of Arabic",
+    "LIFR 1D": "French Conversation",
+    "LIFR 1DX": "Analysis of French",
+    "LTFR 2A": "Intermediate French I",
+    "LIGM 1D": "German Conversation",
+    "LIGM 1DX": "Analysis of German",
+    "LTGM 2A": "Intermediate German I",
+    "LIIT 1D": "Italian Conversation",
+    "LIIT 1DX": "Analysis of Italian",
+    "LTIT 2A": "Intermediate Italian I",
+    "LTKO 2A": "Intermediate Korean: Second Year I",
+    "LIPO 1D": "Portuguese Conversation",
+    "LIPO 1DX": "Analysis of Portuguese",
+    "LTRU 2A": "Second-Year Russian",
+    "LISL 1D": "American Sign Language Conversation",
+    "LISL 1DX": "Analysis of American Sign Language",
+    "LISP 1D": "Spanish Conversation",
+    "LISP 1DX": "Analysis of Spanish",
+    "LTSP 2A": "Intermediate Spanish I"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T19:04:50.633541",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "79c16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL SUBJECT TO CHANGE. PLEASE CONSULT THE CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p><strong>Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. </strong></p><p><br></p><p><strong>Why International Studies? </strong></p><p><br></p><p>The International Studies Program (ISP) at UC San Diego offers an interdisciplinary major that brings the insights of different disciplines—anthropology, economics, international business, history, linguistics, literature, political science and sociology—to the deep exploration of the causes and consequences of the processes found across the globe. The major provides students with both a firm grounding in a discipline and the flexibility to permit exploration from alternative perspectives. For more information, please visit <a href=\"http://isp.ucsd.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://isp.ucsd.edu</a>.</p><p><br></p><p>In addition to the BA in International Studies, ISP and the School of Global Policy and Strategy (GPS) offer a sequential Bachelor of Arts / Master of International Affairs program. With careful preparation, transfer students are able to complete their BA in International Studies and then their Master of International Affairs in three years following transfer to UCSD. Application to the program is required. Please see the International Studies – Bachelor/Master articulation agreement for requirements as well as the following website for more information: <a href=\"http://isp.ucsd.edu/programs/bachelor-master/index.html\" rel=\"noopener noreferrer\" target=\"_blank\">http://isp.ucsd.edu/programs/bachelor-master/index.html</a></p><p><br></p><p><strong>International Studies Major Lower-Division Requirements </strong></p><p>NOTE: Students are encouraged to complete these requirements <strong>before</strong> transfer to UCSD. All courses <span style=\"color: rgb(169, 62, 58);\">(excluding courses for language requirement)</span> must be taken for a letter grade <span style=\"color: rgb(169, 62, 58);\">of C- or better</span>.</p><p><br></p><p><strong>1. </strong>\t<strong>Language Requirement:</strong></p><p><strong> <u>• Completion of the fourth quarter college-level course in a foreign language. </u></strong></p><p class=\"ql-indent-1\">1. Note: If there is not an articulation agreement in place for language courses at this particular community college, please contact the International Studies Program at isp@ucsd.edu for the procedure to</p><p class=\"ql-indent-1\">obtain credit at UCSD.</p><p><u> </u><strong><u>• OR the language requirement may also be completed by one of the following options: </u></strong></p><p class=\"ql-indent-1\">o Graduation from a high school outside of the United States where a language other than English was spoken.</p><p class=\"ql-indent-1\">o Score of 4 or better on an AP world language exam or 3 or better on an AP world literature exam.</p><p class=\"ql-indent-1\">o Score of 6 or 7 on the IB Language Exam. o Score of 700 or better on a SAT II language exam.</p><p class=\"ql-indent-1\">o Passing of a proficiency exam at UCSD.</p><p><strong>2. </strong>\t<strong>Disciplinary Focus specific lower-division pre-requisite courses:</strong></p><p class=\"ql-indent-1\">• Economics Disciplinary Focus</p><p class=\"ql-indent-2\">o Additional lower-division courses are required. Please see the International Studies – Economics articulation agreement.</p><p class=\"ql-indent-1\">• International Business Disciplinary Focus</p><p class=\"ql-indent-2\">o Additional lower-division courses are required. Please see the International Studies - International Business articulation agreement.</p><p class=\"ql-indent-1\">• Philosophy Disciplinary Focus</p><p class=\"ql-indent-2\">o Additional lower-division courses are required. Please see the International Studies - Philosophy articulation agreement.</p><p><br></p><p>Please contact the International Studies program at isp@ucsd.edu or (858) 822-5299 for additional information or clarification.</p>",
+        "groupId": "7bc16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308521,
+                      "courseTitle": "Second Year Japanese I",
+                      "courseNumber": "20A",
+                      "prefix": "JAPN",
+                      "prefixParentId": 9515,
+                      "prefixDescription": "Japanese Studies",
+                      "departmentParentId": 7918,
+                      "department": "Japanese Studies",
+                      "begin": "F2007",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6f57a317-6175-4ca0-c692-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 14,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359466,
+                      "courseTitle": "Intermediate Spanish I",
+                      "courseNumber": "2A",
+                      "prefix": "LTSP",
+                      "prefixParentId": 5374,
+                      "prefixDescription": "Literatures in Spanish",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "484a16e1-a04a-46da-c693-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 12,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISL 1D, LISL 1DX",
+                      "courses": [
+                        {
+                          "id": "e74c4530-394a-45b5-8a08-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 126674,
+                          "courseTitle": "American Sign Language Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "d815c26b-7007-41a1-8a09-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 146546,
+                          "courseTitle": "Analysis of American Sign Language",
+                          "courseNumber": "1DX",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "02b3d15e-7cce-4a00-c694-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIGM 1D, LIGM 1DX",
+                      "courses": [
+                        {
+                          "id": "f0bab4b7-23b8-4fbc-8a20-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 146554,
+                          "courseTitle": "German Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LIGM",
+                          "prefixParentId": 7771,
+                          "prefixDescription": "Linguistics/German",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "cbbeacaf-ebf9-4477-8a22-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 146548,
+                          "courseTitle": "Analysis of German",
+                          "courseNumber": "1DX",
+                          "prefix": "LIGM",
+                          "prefixParentId": 7771,
+                          "prefixDescription": "Linguistics/German",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "49ad747d-3fac-4630-c695-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308532,
+                      "courseTitle": "Intermediate German I",
+                      "courseNumber": "2A",
+                      "prefix": "LTGM",
+                      "prefixParentId": 9376,
+                      "prefixDescription": "Literatures in German",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0817b161-0c3b-4ac9-c696-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305133,
+                      "courseTitle": "Intermediate Korean: Second Year I",
+                      "courseNumber": "2A",
+                      "prefix": "LTKO",
+                      "prefixParentId": 15512,
+                      "prefixDescription": "Literatures in Korean",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2013",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "82762f09-0048-4337-c697-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 271151,
+                      "courseTitle": "Second-Year Chinese I",
+                      "courseNumber": "20AN",
+                      "prefix": "CHIN",
+                      "prefixParentId": 8862,
+                      "prefixDescription": "Chinese Studies",
+                      "departmentParentId": 2634,
+                      "department": "Chinese Studies",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7df226d3-147c-4808-c698-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIAB 1D, LIAB 1DX",
+                      "courses": [
+                        {
+                          "id": "9e13738c-7a88-44b1-8a25-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 145603,
+                          "courseTitle": "Arabic Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LIAB",
+                          "prefixParentId": 14247,
+                          "prefixDescription": "Linguistics/Arabic",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "adbf9ef1-47a8-42ff-8a26-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 126974,
+                          "courseTitle": "Analysis of Arabic",
+                          "courseNumber": "1DX",
+                          "prefix": "LIAB",
+                          "prefixParentId": 14247,
+                          "prefixDescription": "Linguistics/Arabic",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "e0143849-821b-47f6-c699-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 13,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISP 1D, LISP 1DX",
+                      "courses": [
+                        {
+                          "id": "f8347f77-bc29-42ab-8a00-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 146555,
+                          "courseTitle": "Spanish Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LISP",
+                          "prefixParentId": 3096,
+                          "prefixDescription": "Linguistics/Spanish",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "62c15494-2599-4678-8a01-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 145154,
+                          "courseTitle": "Analysis of Spanish",
+                          "courseNumber": "1DX",
+                          "prefix": "LISP",
+                          "prefixParentId": 3096,
+                          "prefixDescription": "Linguistics/Spanish",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "2e1aab4b-e490-4639-c69a-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 11,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308524,
+                      "courseTitle": "Second-Year Russian",
+                      "courseNumber": "2A",
+                      "prefix": "LTRU",
+                      "prefixParentId": 3462,
+                      "prefixDescription": "Russian Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c9e09886-fdc2-4236-c69b-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIFR 1D, LIFR 1DX",
+                      "courses": [
+                        {
+                          "id": "2de54093-b516-424c-89fc-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 146556,
+                          "courseTitle": "French Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LIFR",
+                          "prefixParentId": 6718,
+                          "prefixDescription": "Linguistics/French",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "f612a00f-a679-43ee-89fd-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 126679,
+                          "courseTitle": "Analysis of French",
+                          "courseNumber": "1DX",
+                          "prefix": "LIFR",
+                          "prefixParentId": 6718,
+                          "prefixDescription": "Linguistics/French",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "4505290c-2e7c-40b2-c69c-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308526,
+                      "courseTitle": "Intermediate Italian I",
+                      "courseNumber": "2A",
+                      "prefix": "LTIT",
+                      "prefixParentId": 4091,
+                      "prefixDescription": "Literatures in Italian",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "48a36dc5-8874-40a9-c69d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 282872,
+                      "courseTitle": "Intermediate French I",
+                      "courseNumber": "2A",
+                      "prefix": "LTFR",
+                      "prefixParentId": 345,
+                      "prefixDescription": "Literatures in French",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2ff37353-4ca3-413a-c69e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIIT 1D, LIIT 1DX",
+                      "courses": [
+                        {
+                          "id": "e6de13d1-f125-42a1-89fe-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 127094,
+                          "courseTitle": "Italian Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2010",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "aef85508-19ca-43dd-89ff-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 127095,
+                          "courseTitle": "Analysis of Italian",
+                          "courseNumber": "1DX",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2010",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "831ef6cd-203f-4217-c69f-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIPO 1D, LIPO 1DX",
+                      "courses": [
+                        {
+                          "id": "25cdc4b9-4c53-495b-8a14-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 328049,
+                          "courseTitle": "Portuguese Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LIPO",
+                          "prefixParentId": 14248,
+                          "prefixDescription": "Linguistics/Portuguese",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "ba1ff372-efea-4ead-8a15-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 147022,
+                          "courseTitle": "Analysis of Portuguese",
+                          "courseNumber": "1DX",
+                          "prefix": "LIPO",
+                          "prefixParentId": 14248,
+                          "prefixDescription": "Linguistics/Portuguese",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "e223f820-096a-4fb7-c6a0-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromArea",
+          "amount": 1.0,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 0.0,
+          "areaType": "None",
+          "id": "7a28100a-2b9e-4800-3670-08def1776a62",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "7dc16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "6f57a317-6175-4ca0-c692-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 308521,
+            "courseTitle": "Second Year Japanese I",
+            "courseNumber": "20A",
+            "prefix": "JAPN",
+            "prefixParentId": 9515,
+            "prefixDescription": "Japanese Studies",
+            "departmentParentId": 7918,
+            "department": "Japanese Studies",
+            "begin": "F2007",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282078,
+                    "courseTitle": "Continuing Intermediate Japanese",
+                    "courseNumber": "4",
+                    "prefix": "JAPN",
+                    "prefixParentId": 9556,
+                    "prefixDescription": "Japanese",
+                    "departmentParentId": 7917,
+                    "department": "Japanese (JAPN)",
+                    "begin": "F2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "7df226d3-147c-4808-c698-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 271151,
+            "courseTitle": "Second-Year Chinese I",
+            "courseNumber": "20AN",
+            "prefix": "CHIN",
+            "prefixParentId": 8862,
+            "prefixDescription": "Chinese Studies",
+            "departmentParentId": 2634,
+            "department": "Chinese Studies",
+            "begin": "F2015",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 295297,
+                    "courseTitle": "Continuing Intermediate Chinese",
+                    "courseNumber": "4",
+                    "prefix": "CHIN",
+                    "prefixParentId": 8896,
+                    "prefixDescription": "Chinese",
+                    "departmentParentId": 2631,
+                    "department": "Chinese (CHIN)",
+                    "begin": "Su2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 248956,
+                    "courseTitle": "Intermediate Chinese",
+                    "courseNumber": "3",
+                    "prefix": "CHIN",
+                    "prefixParentId": 8896,
+                    "prefixDescription": "Chinese",
+                    "departmentParentId": 2631,
+                    "department": "Chinese (CHIN)",
+                    "begin": "F2003",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "48a36dc5-8874-40a9-c69d-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 308526,
+            "courseTitle": "Intermediate Italian I",
+            "courseNumber": "2A",
+            "prefix": "LTIT",
+            "prefixParentId": 4091,
+            "prefixDescription": "Literatures in Italian",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F2026",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253830,
+                    "courseTitle": "Intermediate Italian",
+                    "courseNumber": "3",
+                    "prefix": "ITAL",
+                    "prefixParentId": 1720,
+                    "prefixDescription": "Italian",
+                    "departmentParentId": 7821,
+                    "department": "Italian (ITAL)",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.",
+    "The source uses area or quantity conditions across sections. Confirm which areas and courses to choose.",
+    "The source lists multiple course groups without an explicit relationship. Confirm the acceptable course combinations."
+  ],
+  "calculation_review_required": true
+}

@@ -1,0 +1,842 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Political Science/Public Policy B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "POLI 10",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS C1000"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "POLS C1000H"
+          ]
+        }
+      ],
+      "department": "Political Science"
+    },
+    {
+      "text": "POLI 11",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS 2"
+          ]
+        }
+      ],
+      "department": "Political Science"
+    },
+    {
+      "text": "POLI 12",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS 9"
+          ]
+        }
+      ],
+      "department": "Political Science"
+    },
+    {
+      "text": "POLI 13",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "POLS 5"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "POLS 7"
+          ]
+        }
+      ],
+      "department": "Political Science"
+    },
+    {
+      "text": "POLI 30",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Political Science"
+    }
+  ],
+  "receiving_course_titles": {
+    "POLI 10": "Introduction to Political Science: American Politics",
+    "POLI 11": "Introduction to Political Science: Comparative Politics",
+    "POLI 12": "Introduction to Political Science: International Relations",
+    "POLI 13": "Power and Justice",
+    "POLI 30": "Political Inquiry"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T18:12:45.9550729",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "79b16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION</strong>. </p><p><br></p><p>Please visit the Department of Political Science homepage: <a href=\"http://polisci.ucsd.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://polisci.ucsd.edu</a>. </p><p><br></p><p>NOTE: Eight areas of concentration are offered.</p><p><br></p><p><span style=\"color: rgb(169, 62, 58);\">Students are required to take two of the lower-division courses (11-12-13) as well as Political Science 10 and Political Science 30 (PS 30 is not included in the introductory sequence).</span></p>",
+        "groupId": "77b16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294925,
+                      "courseTitle": "Introduction to Political Science: Comparative Politics",
+                      "courseNumber": "11",
+                      "prefix": "POLI",
+                      "prefixParentId": 1896,
+                      "prefixDescription": "Political Science",
+                      "departmentParentId": 11007,
+                      "department": "Political Science",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 19,
+                          "pathwayName": "Political Science",
+                          "pathwayCode": "Political-Science",
+                          "expectationId": 98,
+                          "expectationName": "C3-Comparative gov & politics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "12e5c313-e237-442f-c35c-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355241,
+                      "courseTitle": "Introduction to Political Science: International Relations",
+                      "courseNumber": "12",
+                      "prefix": "POLI",
+                      "prefixParentId": 1896,
+                      "prefixDescription": "Political Science",
+                      "departmentParentId": 11007,
+                      "department": "Political Science",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 19,
+                          "pathwayName": "Political Science",
+                          "pathwayCode": "Political-Science",
+                          "expectationId": 99,
+                          "expectationName": "C4-International relations",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2b821670-c641-4a44-c35d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294901,
+                      "courseTitle": "Introduction to Political Science: American Politics",
+                      "courseNumber": "10",
+                      "prefix": "POLI",
+                      "prefixParentId": 1896,
+                      "prefixDescription": "Political Science",
+                      "departmentParentId": 11007,
+                      "department": "Political Science",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 19,
+                          "pathwayName": "Political Science",
+                          "pathwayCode": "Political-Science",
+                          "expectationId": 96,
+                          "expectationName": "C1-American gov & politics",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f55d09cd-e9f7-4a29-c35e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259929,
+                      "courseTitle": "Power and Justice",
+                      "courseNumber": "13",
+                      "prefix": "POLI",
+                      "prefixParentId": 1896,
+                      "prefixDescription": "Political Science",
+                      "departmentParentId": 11007,
+                      "department": "Political Science",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 19,
+                          "pathwayName": "Political Science",
+                          "pathwayCode": "Political-Science",
+                          "expectationId": 97,
+                          "expectationName": "C2-Political theory & thought",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3c6dc000-5481-47d0-c35f-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 265694,
+                      "courseTitle": "Political Inquiry",
+                      "courseNumber": "30",
+                      "prefix": "POLI",
+                      "prefixParentId": 1896,
+                      "prefixDescription": "Political Science",
+                      "departmentParentId": 11007,
+                      "department": "Political Science",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b590100f-044a-40d4-c360-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "74b16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "82fa7845-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "12e5c313-e237-442f-c35c-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 294925,
+            "courseTitle": "Introduction to Political Science: Comparative Politics",
+            "courseNumber": "11",
+            "prefix": "POLI",
+            "prefixParentId": 1896,
+            "prefixDescription": "Political Science",
+            "departmentParentId": 11007,
+            "department": "Political Science",
+            "begin": "F1999",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 19,
+                "pathwayName": "Political Science",
+                "pathwayCode": "Political-Science",
+                "expectationId": 98,
+                "expectationName": "C3-Comparative gov & politics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 203547,
+                    "courseTitle": "Comparative Politics",
+                    "courseNumber": "2",
+                    "prefix": "POLS",
+                    "prefixParentId": 18853,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 15413,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "2b821670-c641-4a44-c35d-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355241,
+            "courseTitle": "Introduction to Political Science: International Relations",
+            "courseNumber": "12",
+            "prefix": "POLI",
+            "prefixParentId": 1896,
+            "prefixDescription": "Political Science",
+            "departmentParentId": 11007,
+            "department": "Political Science",
+            "begin": "F1999",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 19,
+                "pathwayName": "Political Science",
+                "pathwayCode": "Political-Science",
+                "expectationId": 99,
+                "expectationName": "C4-International relations",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 197779,
+                    "courseTitle": "International Relations",
+                    "courseNumber": "9",
+                    "prefix": "POLS",
+                    "prefixParentId": 18853,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 15413,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "f55d09cd-e9f7-4a29-c35e-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 294901,
+            "courseTitle": "Introduction to Political Science: American Politics",
+            "courseNumber": "10",
+            "prefix": "POLI",
+            "prefixParentId": 1896,
+            "prefixDescription": "Political Science",
+            "departmentParentId": 11007,
+            "department": "Political Science",
+            "begin": "F1999",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 19,
+                "pathwayName": "Political Science",
+                "pathwayCode": "Political-Science",
+                "expectationId": 96,
+                "expectationName": "C1-American gov & politics",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 167222,
+                    "courseTitle": "American Government and Politics - Honors",
+                    "courseNumber": "C1000H",
+                    "prefix": "POLS",
+                    "prefixParentId": 18853,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 15413,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 211522,
+                    "courseTitle": "American Government and Politics",
+                    "courseNumber": "C1000",
+                    "prefix": "POLS",
+                    "prefixParentId": 18853,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 15413,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "01a89a64-341b-4542-76e8-08def177bf47",
+                "sendingArticulationId": "985e9693-93d7-4879-7fb2-08def177b236",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "3c6dc000-5481-47d0-c35f-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 259929,
+            "courseTitle": "Power and Justice",
+            "courseNumber": "13",
+            "prefix": "POLI",
+            "prefixParentId": 1896,
+            "prefixDescription": "Political Science",
+            "departmentParentId": 11007,
+            "department": "Political Science",
+            "begin": "F1998",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 19,
+                "pathwayName": "Political Science",
+                "pathwayCode": "Political-Science",
+                "expectationId": 97,
+                "expectationName": "C2-Political theory & thought",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 252672,
+                    "courseTitle": "Political Theory II - Early Modern to Contemporary",
+                    "courseNumber": "7",
+                    "prefix": "POLS",
+                    "prefixParentId": 18853,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 15413,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 214472,
+                    "courseTitle": "Political Theory I - Ancient to Contemporary",
+                    "courseNumber": "5",
+                    "prefix": "POLS",
+                    "prefixParentId": 18853,
+                    "prefixDescription": "Political Science",
+                    "departmentParentId": 15413,
+                    "department": "Political Science",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "0ab823b4-9217-4465-751b-08def177bf47",
+                "sendingArticulationId": "eae8f06b-404c-4281-65c9-08def177b236",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "b590100f-044a-40d4-c360-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 265694,
+            "courseTitle": "Political Inquiry",
+            "courseNumber": "30",
+            "prefix": "POLI",
+            "prefixParentId": 1896,
+            "prefixDescription": "Political Science",
+            "departmentParentId": 11007,
+            "department": "Political Science",
+            "begin": "F2002",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

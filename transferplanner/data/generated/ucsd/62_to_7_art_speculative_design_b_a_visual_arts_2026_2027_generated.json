@@ -1,0 +1,1073 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Art: Speculative Design B.A. (Visual Arts)",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: BREADTH ELECTIVE\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Complete 2 Course\nAdditional group or section instructions apply. Review the source notes before choosing courses.\nMaximum credit, one course"
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: BREADTH ELECTIVE\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Complete 2 Course\nAdditional group or section instructions apply. Review the source notes before choosing courses."
+    },
+    {
+      "name": "D",
+      "category": "major_required",
+      "required_count": 1
+    }
+  ],
+  "requirements": [
+    {
+      "text": "VIS 11",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 30",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 41",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 2",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 3",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 60",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 70N",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 80",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "COGS 10",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Cognitive Science"
+    },
+    {
+      "text": "USP 1",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Urban Studies and Planning"
+    },
+    {
+      "text": "USP 2",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Urban Studies and Planning"
+    },
+    {
+      "text": "USP 3",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Urban Studies and Planning"
+    },
+    {
+      "text": "VIS 10",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 22",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 31",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 32",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    }
+  ],
+  "receiving_course_titles": {
+    "VIS 11": "Introduction to Visual Culture",
+    "VIS 30": "Introduction to Speculative Design",
+    "VIS 41": "Design Communication",
+    "VIS 1": "Introduction to Art-Making: Two-Dimensional Practices",
+    "VIS 2": "Introduction to Art-Making: Motion and Time Based Art",
+    "VIS 3": "Introduction to Art-Making: Three-Dimensional Practices",
+    "VIS 60": "Introduction to Digital Photography",
+    "VIS 70N": "Introduction to Media",
+    "VIS 80": "Intro to the Studio Major",
+    "COGS 10": "Cognitive Consequences of Technology",
+    "USP 1": "History of U.S. Urban Communities",
+    "USP 2": "Urban World System",
+    "USP 3": "The City and Social Theory",
+    "VIS 10": "Computing in the Arts Lecture Series",
+    "VIS 22": "Formations of Modern Art",
+    "VIS 31": "Undead Media, All Things Zombie",
+    "VIS 32": "Art, Design and the Brain"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T17:28:49.1694539",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "25af6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p><strong>Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. </strong></p><p><br></p><p>The role of designers in imagining alternative futures for a world in crisis has never been more important. Speculative Design is an artistic approach that emphasizes new ideas and solutions for the present that involve thinking through the future, putting design questions like “what if?” and “for whom?” ahead of market and industry imperatives. The Speculative Design Major prepares students for creative arts-based design practices fueled by critical speculative thinking and consideration of people, beings, and ideas usually marginalized by design. Situated in a visual arts department, we engage in research-based art practice, interdisciplinary writing, and design for social change. The major bridges computing in the arts, film and photography, digital media, studio art, public culture and community-based practice, and history, criticism, and theory. We encourage students to engage in the transformation of communities, ecologies, technology, and geopolitics through design. Debate about design values, possibilities, and outcomes is encouraged in a curriculum that offers a mix of studio, laboratory, lecture, and seminar classes. Each student in the major builds a portfolio that reflects aesthetic, social, and critical design thinking. Through project-based learning, we prepare aspiring design artists, graphic designers, urban designers, and design critics and scholars to imagine possible futures for our diverse and more than human world. For more information please visit <a href=\"http://visarts.ucsd.edu\" rel=\"noopener noreferrer\" target=\"_blank\">visarts.ucsd.edu</a>.</p>",
+        "groupId": "29af6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementTitle",
+        "content": "BREADTH ELECTIVE",
+        "groupId": "c2d97645-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "HISTORY",
+        "groupId": "b1e07645-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300360,
+                      "courseTitle": "Introduction to Visual Culture",
+                      "courseNumber": "11",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d72e8136-60b7-4fe1-c190-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357817,
+                      "courseTitle": "Design Communication",
+                      "courseNumber": "41",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1eb397d6-f1d7-45c4-c191-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357816,
+                      "courseTitle": "Introduction to Speculative Design",
+                      "courseNumber": "30",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "86e23622-e8a6-4edf-c192-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "27af6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289351,
+                      "courseTitle": "Introduction to Art-Making: Two-Dimensional Practices",
+                      "courseNumber": "1",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "55596698-da99-463a-c193-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294913,
+                      "courseTitle": "Introduction to Art-Making: Motion and Time Based Art",
+                      "courseNumber": "2",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a314b838-4710-460b-c194-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259913,
+                      "courseTitle": "Introduction to Art-Making: Three-Dimensional Practices",
+                      "courseNumber": "3",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e4e50229-caf6-4261-c195-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": [
+              {
+                "position": 0,
+                "content": "Maximum credit, one course"
+              }
+            ]
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 290255,
+                      "courseTitle": "Introduction to Media",
+                      "courseNumber": "70N",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 6.0,
+                      "maxUnits": 6.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "cb273b01-8d34-4ba9-c196-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304943,
+                      "courseTitle": "Intro to the Studio Major",
+                      "courseNumber": "80",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9b86aef1-d96f-4a80-c197-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355285,
+                      "courseTitle": "Urban World System",
+                      "courseNumber": "2",
+                      "prefix": "USP",
+                      "prefixParentId": 7185,
+                      "prefixDescription": "Urban Studies and Planning",
+                      "departmentParentId": 12964,
+                      "department": "Urban Studies and Planning",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "30298803-e4f0-4979-c198-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300044,
+                      "courseTitle": "Cognitive Consequences of Technology",
+                      "courseNumber": "10",
+                      "prefix": "COGS",
+                      "prefixParentId": 5,
+                      "prefixDescription": "Cognitive Science",
+                      "departmentParentId": 2715,
+                      "department": "Cognitive Science",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "efcf53f3-c47f-4c94-c199-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289359,
+                      "courseTitle": "Introduction to Digital Photography",
+                      "courseNumber": "60",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9eedfe93-d072-4fe8-c19a-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289355,
+                      "courseTitle": "The City and Social Theory",
+                      "courseNumber": "3",
+                      "prefix": "USP",
+                      "prefixParentId": 7185,
+                      "prefixDescription": "Urban Studies and Planning",
+                      "departmentParentId": 12964,
+                      "department": "Urban Studies and Planning",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "714a7492-bca5-4966-c19b-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355259,
+                      "courseTitle": "History of U.S. Urban Communities",
+                      "courseNumber": "1",
+                      "prefix": "USP",
+                      "prefixParentId": 7185,
+                      "prefixDescription": "Urban Studies and Planning",
+                      "departmentParentId": 12964,
+                      "department": "Urban Studies and Planning",
+                      "begin": "Su2001",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1c0b53fe-1f0a-4690-c19c-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromArea",
+          "amount": 2.0,
+          "amountQuantifier": "None",
+          "amountUnitType": "Course",
+          "toAmountDeterminer": "None",
+          "toAmount": 0.0,
+          "areaType": "None",
+          "id": "9007de28-f7dc-46f3-3626-08def1776a62",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "28af6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 381247,
+                      "courseTitle": "Art, Design and the Brain",
+                      "courseNumber": "32",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8e1277cc-a9be-4de5-c19d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 287207,
+                      "courseTitle": "Formations of Modern Art",
+                      "courseNumber": "22",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5c9c1a25-3d6f-4669-c19e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300359,
+                      "courseTitle": "Computing in the Arts Lecture Series",
+                      "courseNumber": "10",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4f514e01-2197-4ec7-c19f-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 381246,
+                      "courseTitle": "Undead Media, All Things Zombie",
+                      "courseNumber": "31",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "789046b6-58ae-4ca2-c1a0-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "2aaf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "FOUNDATION LEVEL - REQUIRED COURSEWORK",
+        "groupId": "93ce7645-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "d72e8136-60b7-4fe1-c190-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 300360,
+            "courseTitle": "Introduction to Visual Culture",
+            "courseNumber": "11",
+            "prefix": "VIS",
+            "prefixParentId": 5352,
+            "prefixDescription": "Visual Arts",
+            "departmentParentId": 13008,
+            "department": "Visual Arts",
+            "begin": "F2021",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "86e23622-e8a6-4edf-c192-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 357816,
+            "courseTitle": "Introduction to Speculative Design",
+            "courseNumber": "30",
+            "prefix": "VIS",
+            "prefixParentId": 5352,
+            "prefixDescription": "Visual Arts",
+            "departmentParentId": 13008,
+            "department": "Visual Arts",
+            "begin": "F2015",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "cb273b01-8d34-4ba9-c196-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 290255,
+            "courseTitle": "Introduction to Media",
+            "courseNumber": "70N",
+            "prefix": "VIS",
+            "prefixParentId": 5352,
+            "prefixDescription": "Visual Arts",
+            "departmentParentId": 13008,
+            "department": "Visual Arts",
+            "begin": "F1998",
+            "end": "",
+            "minUnits": 6.0,
+            "maxUnits": 6.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "9b86aef1-d96f-4a80-c197-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 304943,
+            "courseTitle": "Intro to the Studio Major",
+            "courseNumber": "80",
+            "prefix": "VIS",
+            "prefixParentId": 5352,
+            "prefixDescription": "Visual Arts",
+            "departmentParentId": 13008,
+            "department": "Visual Arts",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "4f514e01-2197-4ec7-c19f-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 300359,
+            "courseTitle": "Computing in the Arts Lecture Series",
+            "courseNumber": "10",
+            "prefix": "VIS",
+            "prefixParentId": 5352,
+            "prefixDescription": "Visual Arts",
+            "departmentParentId": 13008,
+            "department": "Visual Arts",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "Additional group or section instructions apply. Review the source notes before choosing courses."
+  ],
+  "calculation_review_required": true
+}

@@ -1,0 +1,519 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Music B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nMUS 2A AND MUS 2AK: The source has no sending-course mapping; confirm the requirement with the department\nMUS 2B AND MUS 2BK: The source has no sending-course mapping; confirm the requirement with the department\nMUS 2C AND MUS 2CK: The source has no sending-course mapping; confirm the requirement with the department"
+    }
+  ],
+  "requirements": [
+    {
+      "text": "MUS 2A AND MUS 2AK",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "review_required",
+      "note": "Adviser review needed: The source has no sending-course mapping; confirm the requirement with the department",
+      "options": []
+    },
+    {
+      "text": "MUS 2B AND MUS 2BK",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "review_required",
+      "note": "Adviser review needed: The source has no sending-course mapping; confirm the requirement with the department",
+      "options": []
+    },
+    {
+      "text": "MUS 2C AND MUS 2CK",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "review_required",
+      "note": "Adviser review needed: The source has no sending-course mapping; confirm the requirement with the department",
+      "options": []
+    }
+  ],
+  "receiving_course_titles": {
+    "MUS 2A": "Basic Musicianship",
+    "MUS 2AK": "Basic Keyboard",
+    "MUS 2B": "Basic Musicianship",
+    "MUS 2BK": "Basic Keyboard",
+    "MUS 2C": "Basic Musicianship",
+    "MUS 2CK": "Basic Keyboard"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T18:13:57.0993928",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "21b16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p><strong>Special Advising Note: </strong></p><p><strong>Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. </strong></p><p><br></p><p>The curriculum for the Bachelor of Arts Degree in Music emphasizes the development of musical listening and performance skills as applied to both contemporary and traditional music. Students can concentrate in the areas of composition, performance, literature, technology, or jazz and the music of the African Diaspora.</p><p><br></p><p>All transfer students are cleared to enroll in Music 101A - Music Theory and Practice I. Students must take a placement exam for Music 2ABC - Basic Musicianship, which will be given Monday of Welcome Week, and Music 2AK,BK, and CK, which will be given at the first class meeting in the fall quarter. If the exams are not passed, Music 2A-B-C tutoring is provided and Music 2AK-BK-CK must be taken.</p><p><br></p><p>At least three quarters of performance ensembles are required.</p><p><br></p><p>For more information please visit <a href=\"https://music-cms.ucsd.edu/ugrad/index.html\" rel=\"noopener noreferrer\" target=\"_blank\">https://music-cms.ucsd.edu/ugrad/index.html</a></p>",
+        "groupId": "25b16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "receiving_course_attributes": [
+      {
+        "template_cell_id": "ca6b7905-876e-42d5-c348-08def1776a70",
+        "course": "MUS 2A AND MUS 2AK",
+        "attributes": [],
+        "course_attributes": [],
+        "series_attributes": [
+          {
+            "position": 0,
+            "content": "Articulation is subject to placement by proficiency exam"
+          }
+        ]
+      },
+      {
+        "template_cell_id": "56c119da-84dc-4fcb-c347-08def1776a70",
+        "course": "MUS 2B AND MUS 2BK",
+        "attributes": [],
+        "course_attributes": [],
+        "series_attributes": [
+          {
+            "position": 0,
+            "content": "Articulation is subject to placement by proficiency exam"
+          }
+        ]
+      },
+      {
+        "template_cell_id": "4d54d931-921f-4fd6-c346-08def1776a70",
+        "course": "MUS 2C AND MUS 2CK",
+        "attributes": [],
+        "course_attributes": [],
+        "series_attributes": [
+          {
+            "position": 0,
+            "content": "Articulation is subject to placement by proficiency exam"
+          }
+        ]
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "MUS 2C, MUS 2CK",
+                      "courses": [
+                        {
+                          "id": "c69fb81b-421a-4c1c-8a27-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 289408,
+                          "courseTitle": "Basic Musicianship",
+                          "courseNumber": "2C",
+                          "prefix": "MUS",
+                          "prefixParentId": 6516,
+                          "prefixDescription": "Music",
+                          "departmentParentId": 9393,
+                          "department": "Music",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "f3144279-8e06-457d-8a28-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 120474,
+                          "courseTitle": "Basic Keyboard",
+                          "courseNumber": "2CK",
+                          "prefix": "MUS",
+                          "prefixParentId": 6516,
+                          "prefixDescription": "Music",
+                          "departmentParentId": 9393,
+                          "department": "Music",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.0,
+                          "maxUnits": 2.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [
+                      {
+                        "position": 0,
+                        "content": "Articulation is subject to placement by proficiency exam"
+                      }
+                    ],
+                    "courseAttributes": [],
+                    "id": "4d54d931-921f-4fd6-c346-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "MUS 2B, MUS 2BK",
+                      "courses": [
+                        {
+                          "id": "4f92b036-23c6-4496-8a02-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 294900,
+                          "courseTitle": "Basic Musicianship",
+                          "courseNumber": "2B",
+                          "prefix": "MUS",
+                          "prefixParentId": 6516,
+                          "prefixDescription": "Music",
+                          "departmentParentId": 9393,
+                          "department": "Music",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "aa0a7300-3a95-4f1c-8a03-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 107800,
+                          "courseTitle": "Basic Keyboard",
+                          "courseNumber": "2BK",
+                          "prefix": "MUS",
+                          "prefixParentId": 6516,
+                          "prefixDescription": "Music",
+                          "departmentParentId": 9393,
+                          "department": "Music",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.0,
+                          "maxUnits": 2.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [
+                      {
+                        "position": 0,
+                        "content": "Articulation is subject to placement by proficiency exam"
+                      }
+                    ],
+                    "courseAttributes": [],
+                    "id": "56c119da-84dc-4fcb-c347-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "MUS 2A, MUS 2AK",
+                      "courses": [
+                        {
+                          "id": "979f5638-41d8-4f64-8a33-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 294927,
+                          "courseTitle": "Basic Musicianship",
+                          "courseNumber": "2A",
+                          "prefix": "MUS",
+                          "prefixParentId": 6516,
+                          "prefixDescription": "Music",
+                          "departmentParentId": 9393,
+                          "department": "Music",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 4.0,
+                          "maxUnits": 4.0,
+                          "pathways": []
+                        },
+                        {
+                          "id": "ff781d75-1652-4c24-8a36-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 120473,
+                          "courseTitle": "Basic Keyboard",
+                          "courseNumber": "2AK",
+                          "prefix": "MUS",
+                          "prefixParentId": 6516,
+                          "prefixDescription": "Music",
+                          "departmentParentId": 9393,
+                          "department": "Music",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.0,
+                          "maxUnits": 2.0,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [
+                      {
+                        "position": 0,
+                        "content": "Articulation is subject to placement by proficiency exam"
+                      }
+                    ],
+                    "courseAttributes": [],
+                    "id": "ca6b7905-876e-42d5-c348-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "1fb16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "4d54d931-921f-4fd6-c346-08def1776a70",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "MUS 2C, MUS 2CK",
+            "courses": [
+              {
+                "id": "c69fb81b-421a-4c1c-8a27-08def1775d64",
+                "position": 0,
+                "courseIdentifierParentId": 289408,
+                "courseTitle": "Basic Musicianship",
+                "courseNumber": "2C",
+                "prefix": "MUS",
+                "prefixParentId": 6516,
+                "prefixDescription": "Music",
+                "departmentParentId": 9393,
+                "department": "Music",
+                "begin": "F1998",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              },
+              {
+                "id": "f3144279-8e06-457d-8a28-08def1775d64",
+                "position": 1,
+                "courseIdentifierParentId": 120474,
+                "courseTitle": "Basic Keyboard",
+                "courseNumber": "2CK",
+                "prefix": "MUS",
+                "prefixParentId": 6516,
+                "prefixDescription": "Music",
+                "departmentParentId": 9393,
+                "department": "Music",
+                "begin": "F1998",
+                "end": "",
+                "minUnits": 2.0,
+                "maxUnits": 2.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [],
+          "courseAttributes": [],
+          "sendingArticulation": null,
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "56c119da-84dc-4fcb-c347-08def1776a70",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "MUS 2B, MUS 2BK",
+            "courses": [
+              {
+                "id": "4f92b036-23c6-4496-8a02-08def1775d64",
+                "position": 0,
+                "courseIdentifierParentId": 294900,
+                "courseTitle": "Basic Musicianship",
+                "courseNumber": "2B",
+                "prefix": "MUS",
+                "prefixParentId": 6516,
+                "prefixDescription": "Music",
+                "departmentParentId": 9393,
+                "department": "Music",
+                "begin": "F1998",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              },
+              {
+                "id": "aa0a7300-3a95-4f1c-8a03-08def1775d64",
+                "position": 1,
+                "courseIdentifierParentId": 107800,
+                "courseTitle": "Basic Keyboard",
+                "courseNumber": "2BK",
+                "prefix": "MUS",
+                "prefixParentId": 6516,
+                "prefixDescription": "Music",
+                "departmentParentId": 9393,
+                "department": "Music",
+                "begin": "F1998",
+                "end": "",
+                "minUnits": 2.0,
+                "maxUnits": 2.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [],
+          "courseAttributes": [],
+          "sendingArticulation": null,
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "ca6b7905-876e-42d5-c348-08def1776a70",
+        "articulation": {
+          "type": "Series",
+          "series": {
+            "conjunction": "And",
+            "name": "MUS 2A, MUS 2AK",
+            "courses": [
+              {
+                "id": "979f5638-41d8-4f64-8a33-08def1775d64",
+                "position": 0,
+                "courseIdentifierParentId": 294927,
+                "courseTitle": "Basic Musicianship",
+                "courseNumber": "2A",
+                "prefix": "MUS",
+                "prefixParentId": 6516,
+                "prefixDescription": "Music",
+                "departmentParentId": 9393,
+                "department": "Music",
+                "begin": "F1998",
+                "end": "",
+                "minUnits": 4.0,
+                "maxUnits": 4.0,
+                "pathways": []
+              },
+              {
+                "id": "ff781d75-1652-4c24-8a36-08def1775d64",
+                "position": 1,
+                "courseIdentifierParentId": 120473,
+                "courseTitle": "Basic Keyboard",
+                "courseNumber": "2AK",
+                "prefix": "MUS",
+                "prefixParentId": 6516,
+                "prefixDescription": "Music",
+                "departmentParentId": 9393,
+                "department": "Music",
+                "begin": "F1998",
+                "end": "",
+                "minUnits": 2.0,
+                "maxUnits": 2.0,
+                "pathways": []
+              }
+            ],
+            "seriesPathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "seriesAttributes": [],
+          "courseAttributes": [],
+          "sendingArticulation": null,
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Series",
+          "seriesAttributes": [],
+          "seriesCourseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.",
+    "The source has no sending-course mapping; confirm the requirement with the department"
+  ],
+  "calculation_review_required": true
+}

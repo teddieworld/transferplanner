@@ -10,6 +10,7 @@ import html
 import hashlib
 import re
 import tempfile
+from itertools import product
 from pathlib import Path
 try:
     from .reviewed_templates import apply_template_rules
@@ -151,6 +152,8 @@ def get_articulation_notes(articulation):
     if articulation is None:
         return []
     sending = articulation["sendingArticulation"]
+    if sending is None:
+        return [attribute["content"] for attribute in sorted_by_position(articulation.get("attributes", []))]
     notes = []
     if sending.get("noArticulationReason"):
         notes.append(sending["noArticulationReason"])
@@ -193,6 +196,8 @@ def build_options(articulation):
     if articulation is None:
         return []
     sending = articulation["sendingArticulation"]
+    if sending is None:
+        raise ValueError("The source has no sending-course mapping; confirm the requirement with the department")
     if articulation.get("templateOverrides"):
         # An override that repeats the exact effective mapping changes nothing.
         # Variant-specific alternative mappings still need a variant model.
@@ -205,9 +210,13 @@ def build_options(articulation):
         for index in range(1, len(groups))
     ]
     actual_links = []
+    relationships = {link["groupConjunction"] for link in conjunctions}
+    if relationships - {"And", "Or"} or len(relationships) > 1:
+        raise ValueError("Mixed or unknown sending-group relationships need review")
     for conjunction in conjunctions:
-        if conjunction["groupConjunction"] != "Or":
-            raise ValueError("This converter supports OR between options only")
+        if any(not isinstance(conjunction.get(field), int) for field in (
+                "sendingCourseGroupBeginPosition", "sendingCourseGroupEndPosition")):
+            raise ValueError("Option conjunctions are missing or unsupported")
         actual_links.append((
             conjunction["sendingCourseGroupBeginPosition"],
             conjunction["sendingCourseGroupEndPosition"]
@@ -215,7 +224,7 @@ def build_options(articulation):
     if sorted(actual_links) != sorted(expected_links):
         raise ValueError("Option conjunctions are missing or unsupported")
 
-    options = []
+    option_sets = []
     for option in groups:
         if option["type"] != "CourseGroup" or option["courseConjunction"] not in ("And", "Or"):
             raise ValueError("Course groups must use an AND or OR conjunction")
@@ -224,9 +233,22 @@ def build_options(articulation):
             raise ValueError("Option must contain ordinary course items")
         codes = [get_course_code(course) for course in courses]
         alternatives = [codes] if option["courseConjunction"] == "And" else [[code] for code in codes]
-        for alternative in alternatives:
-            options.append({"option_number": len(options) + 1, "courses": alternative})
-    return options
+        option_sets.append(alternatives)
+    if relationships == {"And"}:
+        count = 1
+        for alternatives in option_sets:
+            count *= len(alternatives)
+        if count > 512:
+            raise ValueError("Sending-course combination exceeds 512 alternatives")
+        combinations = [list(dict.fromkeys(code for codes in choices for code in codes))
+                        for choices in product(*option_sets)]
+    else:
+        combinations = [codes for alternatives in option_sets for codes in alternatives]
+    unique = []
+    for codes in combinations:
+        if codes not in unique:
+            unique.append(codes)
+    return [{"option_number": index, "courses": codes} for index, codes in enumerate(unique, 1)]
 
 
 def get_required_count(section):
@@ -280,6 +302,22 @@ def get_requirement_sections(group):
         if instruction.get("selectionType") not in {"Complete", "Select"}:
             raise ValueError("Unsupported section selection rule")
         instruction_type = instruction.get("type")
+        if instruction_type == "NFromConjunction":
+            # ASSIST renders this as N courses from each AND section, or N
+            # from a single section. Compound OR sections still need nesting.
+            amount = instruction.get("amount")
+            if (set(instruction) - {"type", "id", "selectionType", "conjunction", "amount", "amountUnitType", "amountQuantifier"}
+                    or instruction.get("conjunction") not in {"And", "Or"}
+                    or instruction.get("amountUnitType") not in {"Course", "Row", "CourseOrCombination"}
+                    or instruction.get("amountQuantifier", "None") not in {"None", "AtLeast"}
+                    or not isinstance(amount, (int, float)) or amount < 1 or int(amount) != amount
+                    or any(section.get("advisements") for section in sections)):
+                raise ValueError("Unsupported section selection rule")
+            if len(sections) > 1 and instruction["conjunction"] == "Or":
+                # "Complete N courses from A, B, or C" counts choices across
+                # sections; section advisements were excluded above.
+                return [([row for section in sections for row in sorted_by_position(section["rows"])], int(amount))]
+            return [(sorted_by_position(section["rows"]), int(amount)) for section in sections]
         if instruction_type == "Conjunction":
             conjunction = instruction.get("conjunction")
             if conjunction == "Or":
@@ -431,6 +469,8 @@ def build_agreement(agreement, reviewed_rules=None):
         group_issues = list(profile.get("blocking_issues", []))
         try:
             section_plans = get_requirement_sections(asset)
+            if any(len({row_context[id(row)][0] for row in rows}) != 1 for rows, _ in section_plans):
+                raise ValueError("A group mixes required and recommended course choices")
         except ValueError as error:
             if not allow_review:
                 raise
@@ -477,7 +517,15 @@ def build_agreement(agreement, reviewed_rules=None):
                 if len(row["cells"]) != 1 or row.get("attributes"):
                     raise ValueError("Multi-cell rows or row instructions need review")
                 cell = row["cells"][0]
-                label = get_receiving_label(cell)
+                receiving_issue = None
+                try:
+                    label = get_receiving_label(cell)
+                except ValueError:
+                    if not (allow_review and cell["type"] == "Series" and
+                            cell["series"].get("conjunction") == "Or" and cell["series"].get("courses")):
+                        raise
+                    label = " OR ".join(get_course_code(course) for course in sorted_by_position(cell["series"]["courses"]))
+                    receiving_issue = "Receiving-course alternatives need review before completion can be verified."
                 if cell.get("requisites"):
                     raise ValueError("Unsupported receiving course structure")
                 if cell["id"] in used_cells:
@@ -506,7 +554,7 @@ def build_agreement(agreement, reviewed_rules=None):
                     receiving_cross_listed_courses.append({
                         "template_cell_id": cell["id"], "requirement": label, "aliases": aliases
                     })
-                mapping_issue = None
+                mapping_issue = receiving_issue
                 try:
                     options = build_options(articulation)
                     articulation_status = get_articulation_status(articulation)
@@ -516,6 +564,8 @@ def build_agreement(agreement, reviewed_rules=None):
                     options = []
                     articulation_status = "review_required"
                     mapping_issue = human_review_reason(str(error))
+                if receiving_issue:
+                    articulation_status = "review_required"
                 if cell["type"] == "GeneralEducation":
                     if not allow_review:
                         raise ValueError("General education areas need their separate course agreement")
@@ -758,7 +808,7 @@ def convert_file(input_path, output_path, reviewed_rules=None):
     return agreement
 
 
-def convert_folder(input_folder, output_folder, include_review=False):
+def convert_folder(input_folder, output_folder, include_review=False, exclude_minors=False):
     input_folder, output_folder = Path(input_folder), Path(output_folder)
     if not input_folder.is_dir():
         raise ValueError(f"Input folder does not exist: {input_folder}")
@@ -774,9 +824,16 @@ def convert_folder(input_folder, output_folder, include_review=False):
               "calculation_review_required": 0, "files": []}
     if include_review:
         report["blocked"] = 0
+    if exclude_minors:
+        report["skipped"] = 0
     for input_path in inputs:
         output_path = output_folder / f"{input_path.stem}_generated.json"
         try:
+            if exclude_minors and re.search(r"\bminor\b", load_assist_response(input_path)["name"], re.I):
+                report["skipped"] += 1
+                report["files"].append({"input": str(input_path), "status": "skipped", "output": None,
+                                        "reason": "Minor agreement, excluded from the major planner"})
+                continue
             agreement = convert_file(input_path, output_path, reviewed_rules)
         except Exception as error:
             # Each file is independent. Record the error type as well as its
@@ -837,12 +894,16 @@ if __name__ == "__main__":
     parser.add_argument("--batch", action="store_true", help="Convert all JSON files directly inside the input folder")
     parser.add_argument("--include-review", action="store_true",
                         help="With --batch, preserve unsupported agreements as blocked review packages")
+    parser.add_argument("--exclude-minors", action="store_true", help="With --batch, skip agreements explicitly named as minors")
     args = parser.parse_args()
     if args.include_review and not args.batch:
         parser.error("--include-review requires --batch")
+    if args.exclude_minors and not args.batch:
+        parser.error("--exclude-minors requires --batch")
     try:
         if args.batch:
-            report = convert_folder(args.input, args.output, include_review=args.include_review)
+            report = convert_folder(args.input, args.output, include_review=args.include_review,
+                                    exclude_minors=args.exclude_minors)
             raise SystemExit(1 if report["failed"] or report.get("blocked") else 0)
         main(args.input, args.output)
     except (OSError, ValueError) as error:

@@ -1,0 +1,1481 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "European Languages and Transcultural Studies with Italian/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": 1
+    }
+  ],
+  "requirements": [
+    {
+      "text": "ITALIAN 6",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Italian"
+    },
+    {
+      "text": "FRNCH 12",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "French"
+    },
+    {
+      "text": "FRNCH 14",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "French"
+    },
+    {
+      "text": "FRNCH 14W",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "French"
+    },
+    {
+      "text": "FRNCH 16",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "French"
+    },
+    {
+      "text": "FRNCH 41",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "French"
+    },
+    {
+      "text": "FRNCH 60",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "French"
+    },
+    {
+      "text": "GERMAN 50B",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "German"
+    },
+    {
+      "text": "GERMAN 59",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "German"
+    },
+    {
+      "text": "ITALIAN 42A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Italian"
+    },
+    {
+      "text": "ITALIAN 42B",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Italian"
+    },
+    {
+      "text": "ITALIAN 42C",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Italian"
+    },
+    {
+      "text": "ITALIAN 46",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Italian"
+    },
+    {
+      "text": "ITALIAN 50A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Italian"
+    },
+    {
+      "text": "ITALIAN 50B",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Italian"
+    },
+    {
+      "text": "SCAND 40",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Scandinavian"
+    },
+    {
+      "text": "SCAND 40W",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Scandinavian"
+    },
+    {
+      "text": "SCAND 50",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Scandinavian"
+    },
+    {
+      "text": "SCAND 50W",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Scandinavian"
+    },
+    {
+      "text": "SCAND 60W",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Scandinavian"
+    },
+    {
+      "text": "COM LIT 1E",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Comparative Literature"
+    },
+    {
+      "text": "DGT HUM 30",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Digital Humanities"
+    },
+    {
+      "text": "ENGL M30",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "English"
+    },
+    {
+      "text": "EE BIOL 17",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Ecology and Evolutionary Biology"
+    },
+    {
+      "text": "HIST 3D",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "History"
+    },
+    {
+      "text": "HNRS 1",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Honors Collegium"
+    },
+    {
+      "text": "HNRS 26",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Honors Collegium"
+    },
+    {
+      "text": "MCD BIO 60",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Molecular, Cell, and Developmental Biology"
+    },
+    {
+      "text": "RELIGN 55",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Religion, Study of"
+    },
+    {
+      "text": "GERMAN 61A",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "German"
+    }
+  ],
+  "receiving_course_titles": {
+    "ITALIAN 6": "Intermediate Italian",
+    "FRNCH 12": "Introduction to Study of French and Francophone Literature",
+    "FRNCH 14": "Introduction to French Culture and Civilization in English",
+    "FRNCH 14W": "Introduction to French Culture and Civilization in English",
+    "FRNCH 16": "Society And Self in Early Modern France",
+    "FRNCH 41": "French Cinema and Culture",
+    "FRNCH 60": "French and Francophone Novel",
+    "GERMAN 50B": "Great Works of German Literature in Translation: Romanticism to Present",
+    "GERMAN 59": "Holocaust in Film and Literature",
+    "ITALIAN 42A": "Italy through Ages in English: Saints and Sinners in Early Modern Italy",
+    "ITALIAN 42B": "Italy through Ages in English: Modern and Contemporary Italy",
+    "ITALIAN 42C": "Italy Through the Ages in English: Food and Literature in Italy",
+    "ITALIAN 46": "Italian Cinema and Culture in English",
+    "ITALIAN 50A": "Masterpieces of Italian Literature in English: Middle Ages to Baroque",
+    "ITALIAN 50B": "Masterpieces of Italian Literature in English: Enlightenment to Postmodernity",
+    "SCAND 40": "Heroic Journey in Northern Myth, Legend, and Epic",
+    "SCAND 40W": "Heroic Journey in Northern Myth, Legend, and Epic",
+    "SCAND 50": "Introduction to Scandinavian Literatures and Cultures",
+    "SCAND 50W": "Introduction to Scandinavian Literatures and Cultures",
+    "SCAND 60W": "Introduction to Nordic Cinema",
+    "COM LIT 1E": "Social Media and Storytelling: Comparing Cultures",
+    "DGT HUM 30": "Los Angeles Tech City: Digital Technologies and Spatial Justice",
+    "ENGL M30": "Environmental Literature and Culture",
+    "EE BIOL 17": "Evolution for Everyone",
+    "HIST 3D": "History of Modern Medicine",
+    "HNRS 1": "Plague Culture",
+    "HNRS 26": "Representing Medicine: Art, Literature, and Film",
+    "MCD BIO 60": "Biomedical Ethics",
+    "RELIGN 55": "Spirit of Medicine",
+    "GERMAN 61A": "Modern Metropolis: Berlin"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-01-16T21:08:24.9691124",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR DETAILS",
+        "groupId": "69bf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The European Languages and Transcultural Studies with Italian major will give students a deep understanding of European culture and history, including in a global context, with a particular expertise in Italian.</p><p><br></p><p>Listed below are the lower division preparation courses for the major.</p><p><br></p><p>To be considered for this major, you must complete the following courses by the end of spring before transfer:</p><ul><li>Two years of college level courses in the declared language or at least one year of high school in which the primary language of instruction was the declared language</li><li>One course in European literature, culture, film or media.</li></ul><p>All courses must be taken for a letter grade. </p><p><br></p><p><strong>Note:</strong>&nbsp;High school foreign language classes will NOT satisfy major preparation requirements</p><p><br></p><p>For information regarding preparation for this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.germanic.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">elts.ucla.edu</a> and <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.admission.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">admission.ucla.edu</a>.</p><p><br></p><p>PLEASE NOTE: the community college courses listed below have been approved to satisfy the preparation for this major at UCLA, but they may not be exact equivalents of the UCLA courses.</p>",
+        "groupId": "4cbf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralTitle",
+        "content": "APCREDIT",
+        "groupId": "9a440b67-f7d8-4fb7-8812-019b9437bbc8",
+        "position": 2,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The AP Exam Scores listed below may be used to satisfy the major prep:</p><ul><li>A score of <strong><u>5 on the AP Italian exam</u></strong> will satisfy ITALIAN 6.</li></ul><p><br></p><p>Foreign language credit awarded by UCLA as a result of AP exams for students in the School of Letters and Science may be found here: <a href=\"https://admission.ucla.edu/admitted-students/ap-credit-the-college\" rel=\"noopener noreferrer\" target=\"_blank\">https://admission.ucla.edu/admitted-students/ap-credit-the-college</a></p>",
+        "groupId": "6a6595ec-6678-444f-aa28-019b9437bbc8",
+        "position": 3,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379207,
+                      "courseTitle": "Intermediate Italian",
+                      "courseNumber": "6",
+                      "prefix": "ITALIAN",
+                      "prefixParentId": 14373,
+                      "prefixDescription": "Italian",
+                      "departmentParentId": 7817,
+                      "department": "Italian",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "daa8237b-cdce-4958-e4ec-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "182dca2b-01d5-4b0f-67ed-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "59bf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 285974,
+                      "courseTitle": "Introduction to French Culture and Civilization in English",
+                      "courseNumber": "14W",
+                      "prefix": "FRNCH",
+                      "prefixParentId": 14384,
+                      "prefixDescription": "French",
+                      "departmentParentId": 5998,
+                      "department": "French",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "76632959-b4f1-4d52-e4ed-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 15,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387762,
+                      "courseTitle": "Heroic Journey in Northern Myth, Legend, and Epic",
+                      "courseNumber": "40W",
+                      "prefix": "SCAND",
+                      "prefixParentId": 16943,
+                      "prefixDescription": "Scandinavian",
+                      "departmentParentId": 14042,
+                      "department": "Scandinavian",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9e713731-46ee-44cd-e4ee-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 17,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387761,
+                      "courseTitle": "Introduction to Scandinavian Literatures and Cultures",
+                      "courseNumber": "50W",
+                      "prefix": "SCAND",
+                      "prefixParentId": 16943,
+                      "prefixDescription": "Scandinavian",
+                      "departmentParentId": 14042,
+                      "department": "Scandinavian",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "278b5fd6-1abf-4f25-e4ef-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 18,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387763,
+                      "courseTitle": "Introduction to Nordic Cinema",
+                      "courseNumber": "60W",
+                      "prefix": "SCAND",
+                      "prefixParentId": 16943,
+                      "prefixDescription": "Scandinavian",
+                      "departmentParentId": 14042,
+                      "department": "Scandinavian",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d6402ffe-c552-4b3d-e4f0-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383139,
+                      "courseTitle": "Holocaust in Film and Literature ",
+                      "courseNumber": "59",
+                      "prefix": "GERMAN",
+                      "prefixParentId": 17094,
+                      "prefixDescription": "German",
+                      "departmentParentId": 14203,
+                      "department": "German",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ca8475ec-a223-451b-e4f1-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383136,
+                      "courseTitle": "French Cinema and Culture",
+                      "courseNumber": "41",
+                      "prefix": "FRNCH",
+                      "prefixParentId": 14384,
+                      "prefixDescription": "French",
+                      "departmentParentId": 5998,
+                      "department": "French",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "826c41a3-8e3e-4fa9-e4f2-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 16,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383147,
+                      "courseTitle": "Introduction to Scandinavian Literatures and Cultures",
+                      "courseNumber": "50",
+                      "prefix": "SCAND",
+                      "prefixParentId": 16943,
+                      "prefixDescription": "Scandinavian",
+                      "departmentParentId": 14042,
+                      "department": "Scandinavian",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7908309f-fd0e-4fb7-e4f3-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 11,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 370220,
+                      "courseTitle": "Italian Cinema and Culture in English ",
+                      "courseNumber": "46",
+                      "prefix": "ITALIAN",
+                      "prefixParentId": 14373,
+                      "prefixDescription": "Italian",
+                      "departmentParentId": 7817,
+                      "department": "Italian",
+                      "begin": "S2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "dc952605-5523-4bf3-e4f4-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383857,
+                      "courseTitle": "Italy Through the Ages in English: Food and Literature in Italy",
+                      "courseNumber": "42C",
+                      "prefix": "ITALIAN",
+                      "prefixParentId": 14373,
+                      "prefixDescription": "Italian",
+                      "departmentParentId": 7817,
+                      "department": "Italian",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "cb425f36-c333-4e1a-e4f5-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 14,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383848,
+                      "courseTitle": "Heroic Journey in Northern Myth, Legend, and Epic",
+                      "courseNumber": "40",
+                      "prefix": "SCAND",
+                      "prefixParentId": 16943,
+                      "prefixDescription": "Scandinavian",
+                      "departmentParentId": 14042,
+                      "department": "Scandinavian",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c487b7e9-521b-4252-e4f6-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 12,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383858,
+                      "courseTitle": "Masterpieces of Italian Literature in English: Middle Ages to Baroque",
+                      "courseNumber": "50A",
+                      "prefix": "ITALIAN",
+                      "prefixParentId": 14373,
+                      "prefixDescription": "Italian",
+                      "departmentParentId": 7817,
+                      "department": "Italian",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2bc3334c-5735-4fca-e4f7-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383847,
+                      "courseTitle": "Society And Self in Early Modern France",
+                      "courseNumber": "16",
+                      "prefix": "FRNCH",
+                      "prefixParentId": 14384,
+                      "prefixDescription": "French",
+                      "departmentParentId": 5998,
+                      "department": "French",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e3146381-cc9b-430f-e4f8-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 13,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383142,
+                      "courseTitle": "Masterpieces of Italian Literature in English: Enlightenment to Postmodernity",
+                      "courseNumber": "50B",
+                      "prefix": "ITALIAN",
+                      "prefixParentId": 14373,
+                      "prefixDescription": "Italian",
+                      "departmentParentId": 7817,
+                      "department": "Italian",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "defad8b6-6e4c-4aa8-e4f9-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379204,
+                      "courseTitle": "Introduction to Study of French and Francophone Literature",
+                      "courseNumber": "12",
+                      "prefix": "FRNCH",
+                      "prefixParentId": 14384,
+                      "prefixDescription": "French",
+                      "departmentParentId": 5998,
+                      "department": "French",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "052c8c0d-9414-4233-e4fa-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309179,
+                      "courseTitle": "Introduction to French Culture and Civilization in English",
+                      "courseNumber": "14",
+                      "prefix": "FRNCH",
+                      "prefixParentId": 14384,
+                      "prefixDescription": "French",
+                      "departmentParentId": 5998,
+                      "department": "French",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5ac11cbf-5dc2-4ef2-e4fb-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359804,
+                      "courseTitle": "Italy through Ages in English: Saints and Sinners in Early Modern Italy",
+                      "courseNumber": "42A",
+                      "prefix": "ITALIAN",
+                      "prefixParentId": 14373,
+                      "prefixDescription": "Italian",
+                      "departmentParentId": 7817,
+                      "department": "Italian",
+                      "begin": "Su2018",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3e839f3b-a60d-4c2e-e4fc-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383137,
+                      "courseTitle": "French and Francophone Novel",
+                      "courseNumber": "60",
+                      "prefix": "FRNCH",
+                      "prefixParentId": 14384,
+                      "prefixDescription": "French",
+                      "departmentParentId": 5998,
+                      "department": "French",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "83b58e3c-ad11-488b-e4fd-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383138,
+                      "courseTitle": "Great Works of German Literature in Translation: Romanticism to Present",
+                      "courseNumber": "50B",
+                      "prefix": "GERMAN",
+                      "prefixParentId": 17094,
+                      "prefixDescription": "German",
+                      "departmentParentId": 14203,
+                      "department": "German",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "21ee36a4-5139-4cfb-e4fe-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304599,
+                      "courseTitle": "Italy through Ages in English: Modern and Contemporary Italy",
+                      "courseNumber": "42B",
+                      "prefix": "ITALIAN",
+                      "prefixParentId": 14373,
+                      "prefixDescription": "Italian",
+                      "departmentParentId": 7817,
+                      "department": "Italian",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "86abaf6f-e425-41a5-e4ff-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "EUROPEAN LITERATURE, LANGUAGE, CULTURE, OR FILM AND MEDIA",
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "AtLeast",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "4d7d5299-a6d7-46ce-67ee-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "63bf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 380109,
+                      "courseTitle": "Environmental Literature and Culture",
+                      "courseNumber": "M30",
+                      "prefix": "ENGL",
+                      "prefixParentId": 2740,
+                      "prefixDescription": "English",
+                      "departmentParentId": 5027,
+                      "department": "English",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "cd744b2b-0cf2-4bc8-e500-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 3,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383844,
+                      "courseTitle": "Evolution for Everyone",
+                      "courseNumber": "17",
+                      "prefix": "EE BIOL",
+                      "prefixParentId": 17122,
+                      "prefixDescription": "Ecology and Evolutionary Biology",
+                      "departmentParentId": 14230,
+                      "department": "Ecology and Evolutionary Biology",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a178cc2e-5c1a-45dd-e501-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359622,
+                      "courseTitle": "History of Modern Medicine",
+                      "courseNumber": "3D",
+                      "prefix": "HIST",
+                      "prefixParentId": 3017,
+                      "prefixDescription": "History",
+                      "departmentParentId": 7013,
+                      "department": "History",
+                      "begin": "W2020",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ae60a682-58aa-4e76-e502-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383845,
+                      "courseTitle": "Plague Culture",
+                      "courseNumber": "1",
+                      "prefix": "HNRS",
+                      "prefixParentId": 15164,
+                      "prefixDescription": "Honors Collegium",
+                      "departmentParentId": 7110,
+                      "department": "Honors Collegium",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0face827-7cd7-4788-e503-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383846,
+                      "courseTitle": "Representing Medicine: Art, Literature, and Film",
+                      "courseNumber": "26",
+                      "prefix": "HNRS",
+                      "prefixParentId": 15164,
+                      "prefixDescription": "Honors Collegium",
+                      "departmentParentId": 7110,
+                      "department": "Honors Collegium",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f65d4716-9c76-4f67-e504-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309318,
+                      "courseTitle": "Biomedical Ethics",
+                      "courseNumber": "60",
+                      "prefix": "MCD BIO",
+                      "prefixParentId": 15161,
+                      "prefixDescription": "Molecular, Cell, and Developmental Biology",
+                      "departmentParentId": 9335,
+                      "department": "Molecular, Cell, and Developmental Biology",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e58b5ecd-0f5d-418b-e505-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383851,
+                      "courseTitle": "Spirit of Medicine",
+                      "courseNumber": "55",
+                      "prefix": "RELIGN",
+                      "prefixParentId": 15691,
+                      "prefixDescription": "Religion, Study of",
+                      "departmentParentId": 11670,
+                      "department": "Religion, Study of",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2806aa50-68ec-48cd-e506-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 5,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383140,
+                      "courseTitle": "Modern Metropolis: Berlin",
+                      "courseNumber": "61A",
+                      "prefix": "GERMAN",
+                      "prefixParentId": 17094,
+                      "prefixDescription": "German",
+                      "departmentParentId": 14203,
+                      "department": "German",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8698834b-30ef-4669-e507-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 7,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383850,
+                      "courseTitle": " Los Angeles Tech City: Digital Technologies and Spatial Justice",
+                      "courseNumber": "30",
+                      "prefix": "DGT HUM",
+                      "prefixParentId": 17123,
+                      "prefixDescription": "Digital Humanities",
+                      "departmentParentId": 14231,
+                      "department": "Digital Humanities",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e48e649a-66e2-4711-e508-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383849,
+                      "courseTitle": "Social Media and Storytelling: Comparing Cultures",
+                      "courseNumber": "1E",
+                      "prefix": "COM LIT",
+                      "prefixParentId": 14379,
+                      "prefixDescription": "Comparative Literature",
+                      "departmentParentId": 2939,
+                      "department": "Comparative Literature",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "68b67c3c-d6a7-4695-e509-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "ENVIRONMENTAL",
+            "position": 2,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "DIGITAL",
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "MEDICAL",
+            "position": 4,
+            "attributes": []
+          },
+          {
+            "type": "SectionHeader",
+            "content": "URBAN",
+            "position": 6,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "d2e32e20-5cf8-4fa7-67ef-08ddcb96dfa1",
+          "selectionType": "Select"
+        },
+        "advisements": [],
+        "groupId": "66bf6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "852c7745-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "EXPERIMENTAL HUMANITIES",
+        "groupId": "b34cf33a-9530-4948-9682-019a9837e08f",
+        "position": 3,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [],
+    "section_headers": [
+      {
+        "category": "major_required",
+        "requirement_group_position": 2,
+        "header": {
+          "type": "SectionHeader",
+          "content": "EUROPEAN LITERATURE, LANGUAGE, CULTURE, OR FILM AND MEDIA",
+          "position": 0,
+          "attributes": []
+        }
+      },
+      {
+        "category": "major_required",
+        "requirement_group_position": 4,
+        "header": {
+          "type": "SectionHeader",
+          "content": "DIGITAL",
+          "position": 0,
+          "attributes": []
+        }
+      },
+      {
+        "category": "major_required",
+        "requirement_group_position": 4,
+        "header": {
+          "type": "SectionHeader",
+          "content": "ENVIRONMENTAL",
+          "position": 2,
+          "attributes": []
+        }
+      },
+      {
+        "category": "major_required",
+        "requirement_group_position": 4,
+        "header": {
+          "type": "SectionHeader",
+          "content": "MEDICAL",
+          "position": 4,
+          "attributes": []
+        }
+      },
+      {
+        "category": "major_required",
+        "requirement_group_position": 4,
+        "header": {
+          "type": "SectionHeader",
+          "content": "URBAN",
+          "position": 6,
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved section headers; they are labels, not interpreted completion rules."
+  ]
+}

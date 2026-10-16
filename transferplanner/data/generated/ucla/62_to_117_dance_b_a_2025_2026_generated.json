@@ -1,0 +1,38 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Dance/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [],
+  "requirements": [],
+  "kind": "informational",
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2025-10-31T03:51:56.696823",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "bfb36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The Department of World Arts and Cultures/Dance is at the forefront of innovative, interdisciplinary, and cross-cultural studies of the arts, offering a curriculum in which students can explore the vital relationship of the arts and performance to cultural theory and criticism. The Dance major thoroughly integrates learning to dance, learning to make dances, and critical interrogation of dance as a cultural practice. Students study a variety of techniques from around the world throughout their studies. They enroll in a four-term sequence in dance composition, with additional opportunities to participate in the creation of their own dances, as well as working as dancers in the creation of new works by faculty members and visiting artists. Furthermore, they engage in a core of four courses in the study of scholarly discourse around the body and dance, launching a critical inquiry into their own study of bodily practices, internalization of the embodied experience, and how bodily ideas and embodied experiences are interpreted and communicated outwardly and interpersonally, both locally and globally.</p><p><br></p><p>Admission to Dance is selective: we receive many applications for limited spots. The most important admission criteria are the supplemental application which involves a dance audition, additional essays, strong academic performance, and evidence of community engagement relative to interest in the major.</p><p><br></p><p>The availability of arts coursework at community colleges can differ, so you may not find exact equivalents for all classes. However, this will not negatively affect your admission. Look for the closest matches in your curriculum, and if a course wasn't completed at your current institution, you can take it at UCLA. Substitutions for lower-division requirements will be determined by the department in the summer following admission. Syllabi or other descriptive course documentation may be required for consideration.</p><p><br></p><p>Recommended (not required) preparation for the major*:</p><ul><li>One course each in improvisation/choreography, dance history and theory</li><li>At least eight courses [approximately 12 semester/ 20 quarter units] in various dance techniques particularly modern/postmodern dance, Hip-Hop, West African, Ballet, or coursework focusing on using dance as a medium to connect and engage the community.</li></ul><p>*Most transfer students complete these courses at UCLA.&nbsp;</p><p><br></p><p>Supplemental requirements:</p><p>In addition to the general UC Application, applicants must submit a supplement which consists of an audition, additional essays, and other creative materials. Additional fees may apply. We will also be looking for strong academic preparation and evidence of involvement in the arts and community that demonstrates interest in varied cultures.&nbsp;</p><p><br></p><p>All students must have a cumulative 3.0 GPA at the time of application.<strong> </strong></p><p><strong>Students MUST complete the requisite two English courses and one Math course by the end of Spring prior to transfer.</strong> Students are encouraged to take their required English and Math courses as early as possible with at least one English course completed by the end of Fall. Completion of IGETC is not required but strongly recommended.</p><p><br></p><p>More information may be found at <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.arts.ucla.edu/apply\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(41, 98, 255);\"><u>a</u></a><a href=\"http://www.arts.ucla.edu/apply\" rel=\"noopener noreferrer\" target=\"_blank\">rts.ucla.edu/apply</a>. Dance considers sophomore transfers.</p><p><br></p><p>For more information about sophomore transfer admission criteria, please visit <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.arts.ucla.edu/apply\" rel=\"noopener noreferrer\" target=\"_blank\">arts.ucla.edu/apply</a>.</p>",
+        "groupId": "bbb36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [],
+    "native_articulations": []
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

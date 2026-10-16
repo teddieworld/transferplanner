@@ -1,0 +1,716 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Spanish and Portuguese/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: LOWER DIVISION MAJOR REQUIREMENTS\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Complete 1 Course\nA group mixes required and recommended course choices"
+    },
+    {
+      "name": "A",
+      "category": "highly_recommended",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: LOWER DIVISION MAJOR REQUIREMENTS\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Complete 1 Course\nA group mixes required and recommended course choices"
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "D",
+      "category": "major_required",
+      "required_count": 1
+    },
+    {
+      "name": "E",
+      "category": "major_required",
+      "required_count": 1
+    }
+  ],
+  "requirements": [
+    {
+      "text": "PORTGSE 25",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Portuguese"
+    },
+    {
+      "text": "PORTGSE 26",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Portuguese"
+    },
+    {
+      "text": "PORTGSE 27",
+      "group": "A",
+      "category": "highly_recommended",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "PORTGSE M35",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Portuguese"
+    },
+    {
+      "text": "SPAN M35",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish"
+    },
+    {
+      "text": "PORTGSE 46",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Portuguese"
+    },
+    {
+      "text": "SPAN 25",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish"
+    },
+    {
+      "text": "SPAN 27",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish"
+    },
+    {
+      "text": "SPAN 42",
+      "group": "E",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish"
+    },
+    {
+      "text": "SPAN 44",
+      "group": "E",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Spanish"
+    }
+  ],
+  "receiving_course_titles": {
+    "PORTGSE 25": "Advanced Portuguese",
+    "PORTGSE 26": "Language and Popular Culture",
+    "PORTGSE 27": "Writing Studies: Afro-Luso-Brazilian World",
+    "PORTGSE M35": "Spanish, Portuguese, and Nature of Language",
+    "SPAN M35": "Spanish, Portuguese, and Nature of Language",
+    "PORTGSE 46": "Brazil and Portuguese-Speaking World",
+    "SPAN 25": "Advanced Spanish Composition",
+    "SPAN 27": "Advanced Spanish Composition for Heritage Speakers",
+    "SPAN 42": "Iberian Cultures",
+    "SPAN 44": "Latin American Cultures"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2025-10-31T03:35:00.0986108",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "31b86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The Spanish and Portuguese major takes an interdisciplinary approach to the historic parallels, contrasts, connections, and discontinuities that have shaped global Hispanic and Lusophone cultures from the early modern period to the present, in Europe, Africa, Asia, North and South America. This combined major offers unparalleled flexibility and breadth in the study of the languages, literature, and cultures of nearly 700 million Spanish and Portuguese speakers worldwide.</p><p><br></p><p>Listed below are the lower division preparation courses for this major.</p><p><br></p><p>To be considered for this major, you must complete the following courses by the end of spring before transfer:</p><ul><li>One year of college level coursework in the declared language OR</li><li>At least one year in high school in which the primary language of instruction was the declared language.</li></ul><p>Completion of two years of college level foreign language is <strong>STRONGLY RECOMMENDED</strong>. </p><p>A placement exam is required for all majors regardless of credits earned in lower division language courses.</p><p>All courses must be taken for a letter grade.</p><p><br></p><p>For more information regarding this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://spanport.ucla.edu</u> and <u style=\"color: rgb(41, 98, 255);\">https://admission.ucla.edu</u>.</p><p><br></p><p>PLEASE NOTE: the community college courses listed below have been approved to satisfy the preparation for this major at UCLA, but they may not be exact equivalents of the UCLA courses. Additionally, some language courses may be cross listed and available in different departments, however all major preparation courses must be taken from the Spanish department.</p>",
+        "groupId": "2eb86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379212,
+                      "courseTitle": "Advanced Spanish Composition",
+                      "courseNumber": "25",
+                      "prefix": "SPAN",
+                      "prefixParentId": 14377,
+                      "prefixDescription": "Spanish",
+                      "departmentParentId": 12293,
+                      "department": "Spanish",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1103fe11-43fb-4a72-e7f9-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379213,
+                      "courseTitle": "Advanced Spanish Composition for Heritage Speakers",
+                      "courseNumber": "27",
+                      "prefix": "SPAN",
+                      "prefixParentId": 14377,
+                      "prefixDescription": "Spanish",
+                      "departmentParentId": 12293,
+                      "department": "Spanish",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "20eadb2f-03ee-4cd4-e7fa-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "eae8aed2-8a04-4336-6898-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "24b86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 270479,
+                      "courseTitle": "Iberian Cultures",
+                      "courseNumber": "42",
+                      "prefix": "SPAN",
+                      "prefixParentId": 14377,
+                      "prefixDescription": "Spanish",
+                      "departmentParentId": 12293,
+                      "department": "Spanish",
+                      "begin": "S2018",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "967de800-438d-44d4-e7fb-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 285965,
+                      "courseTitle": "Latin American Cultures",
+                      "courseNumber": "44",
+                      "prefix": "SPAN",
+                      "prefixParentId": 14377,
+                      "prefixDescription": "Spanish",
+                      "departmentParentId": 12293,
+                      "department": "Spanish",
+                      "begin": "Su2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4343599a-a035-4a32-e7fc-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "55ff329f-0b51-4dad-6899-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "27b86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 381005,
+                      "courseTitle": "Spanish, Portuguese, and Nature of Language",
+                      "courseNumber": "M35",
+                      "prefix": "PORTGSE",
+                      "prefixParentId": 15871,
+                      "prefixDescription": "Portuguese",
+                      "departmentParentId": 11135,
+                      "department": "Portuguese",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 379235,
+                          "courseTitle": "Spanish, Portuguese, and Nature of Language",
+                          "courseNumber": "M35",
+                          "prefix": "SPAN",
+                          "prefixParentId": 14377,
+                          "prefixDescription": "Spanish",
+                          "departmentParentId": 12293,
+                          "department": "Spanish",
+                          "begin": "F2022",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b88d9584-5257-4f36-e7fd-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379235,
+                      "courseTitle": "Spanish, Portuguese, and Nature of Language",
+                      "courseNumber": "M35",
+                      "prefix": "SPAN",
+                      "prefixParentId": 14377,
+                      "prefixDescription": "Spanish",
+                      "departmentParentId": 12293,
+                      "department": "Spanish",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [
+                      {
+                        "course": {
+                          "courseIdentifierParentId": 381005,
+                          "courseTitle": "Spanish, Portuguese, and Nature of Language",
+                          "courseNumber": "M35",
+                          "prefix": "PORTGSE",
+                          "prefixParentId": 15871,
+                          "prefixDescription": "Portuguese",
+                          "departmentParentId": 11135,
+                          "department": "Portuguese",
+                          "begin": "S2021",
+                          "end": "",
+                          "minUnits": 5.0,
+                          "maxUnits": 5.0,
+                          "pathways": []
+                        }
+                      }
+                    ],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6ff4a523-4dfd-4ef1-e7fe-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "And",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "b6a55296-926d-4e23-689a-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "29b86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360098,
+                      "courseTitle": "Brazil and Portuguese-Speaking World",
+                      "courseNumber": "46",
+                      "prefix": "PORTGSE",
+                      "prefixParentId": 15871,
+                      "prefixDescription": "Portuguese",
+                      "departmentParentId": 11135,
+                      "department": "Portuguese",
+                      "begin": "Su2016",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "77dfc588-a832-4038-e7ff-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "31bd834c-5769-49b7-689b-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "2bb86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "802b7745-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "SectionHeader",
+            "content": "HIGHLY RECOMMENDED",
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379238,
+                      "courseTitle": "Writing Studies: Afro-Luso-Brazilian World",
+                      "courseNumber": "27",
+                      "prefix": "PORTGSE",
+                      "prefixParentId": 15871,
+                      "prefixDescription": "Portuguese",
+                      "departmentParentId": 11135,
+                      "department": "Portuguese",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bfccd129-7019-4917-e800-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 2,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379237,
+                      "courseTitle": "Language and Popular Culture",
+                      "courseNumber": "26",
+                      "prefix": "PORTGSE",
+                      "prefixParentId": 15871,
+                      "prefixDescription": "Portuguese",
+                      "departmentParentId": 11135,
+                      "department": "Portuguese",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1e4e42b0-5670-40b3-e801-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 379236,
+                      "courseTitle": "Advanced Portuguese",
+                      "courseNumber": "25",
+                      "prefix": "PORTGSE",
+                      "prefixParentId": 15871,
+                      "prefixDescription": "Portuguese",
+                      "departmentParentId": 11135,
+                      "department": "Portuguese",
+                      "begin": "S2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "dd341f99-b539-4dea-e802-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "NFromConjunction",
+          "conjunction": "Or",
+          "amountQuantifier": "None",
+          "amount": 1.0,
+          "amountUnitType": "Course",
+          "id": "fb17d80c-fd06-469f-689c-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "38b86f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [],
+    "section_headers": [
+      {
+        "category": "highly_recommended",
+        "requirement_group_position": 1,
+        "header": {
+          "type": "SectionHeader",
+          "content": "HIGHLY RECOMMENDED",
+          "position": 1,
+          "attributes": []
+        }
+      }
+    ],
+    "receiving_cross_listed_courses": [
+      {
+        "template_cell_id": "b88d9584-5257-4f36-e7fd-08ddcb96dfae",
+        "requirement": "PORTGSE M35",
+        "aliases": [
+          "SPAN M35"
+        ]
+      },
+      {
+        "template_cell_id": "6ff4a523-4dfd-4ef1-e7fe-08ddcb96dfae",
+        "requirement": "SPAN M35",
+        "aliases": [
+          "PORTGSE M35"
+        ]
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Review preserved section headers; they are labels, not interpreted completion rules.",
+    "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "A group mixes required and recommended course choices"
+  ],
+  "calculation_review_required": true
+}

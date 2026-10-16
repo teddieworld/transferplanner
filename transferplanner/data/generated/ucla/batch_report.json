@@ -1,0 +1,1840 @@
+{
+  "converted": 134,
+  "failed": 0,
+  "review_required": 134,
+  "calculation_review_required": 46,
+  "files": [
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_aerospace_engineering_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_aerospace_engineering_b_s_2025_2026_generated.json",
+      "groups": 6,
+      "requirements": 13,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_african_american_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_african_american_studies_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 6,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_african_and_middle_eastern_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_african_and_middle_eastern_studies_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 23,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Receiving-course alternatives need review before completion can be verified."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_american_indian_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_american_indian_studies_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 5,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_american_literature_and_culture_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_american_literature_and_culture_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 6,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "The source lists multiple course groups without an explicit relationship. Confirm the acceptable course combinations."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_ancient_near_east_and_egyptology_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_ancient_near_east_and_egyptology_b_a_2025_2026_generated.json",
+      "groups": 1,
+      "requirements": 9,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_anthropology_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_anthropology_b_a_2025_2026_generated.json",
+      "groups": 1,
+      "requirements": 4,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_anthropology_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_anthropology_b_s_2025_2026_generated.json",
+      "groups": 8,
+      "requirements": 21,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "Receiving-course alternatives need review before completion can be verified.",
+        "Following sections have an unexpected conjunction"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_applied_linguistics_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_applied_linguistics_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 5,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_applied_mathematics_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_applied_mathematics_b_s_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 11,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_arabic_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_arabic_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 8,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_architectural_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_architectural_studies_b_a_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_art_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_art_b_a_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_art_history_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_art_history_b_a_2025_2026_generated.json",
+      "groups": 1,
+      "requirements": 13,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_asian_american_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_asian_american_studies_b_a_2025_2026_generated.json",
+      "groups": 1,
+      "requirements": 11,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "The source lists multiple course groups without an explicit relationship. Confirm the acceptable course combinations."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_asian_humanities_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_asian_humanities_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 19,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_asian_languages_and_linguistics_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_asian_languages_and_linguistics_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 21,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_asian_religions_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_asian_religions_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 10,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_asian_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_asian_studies_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 44,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Receiving-course alternatives need review before completion can be verified."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_astrophysics_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_astrophysics_b_s_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 13,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "The source uses area or quantity conditions across sections. Confirm which areas and courses to choose."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_atmospheric_and_oceanic_sciences_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_atmospheric_and_oceanic_sciences_b_s_2025_2026_generated.json",
+      "groups": 8,
+      "requirements": 18,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_atmospheric_and_oceanic_sciences_mathematics_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_atmospheric_and_oceanic_sciences_mathematics_b_s_2025_2026_generated.json",
+      "groups": 6,
+      "requirements": 17,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_biochemistry_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_biochemistry_b_s_2025_2026_generated.json",
+      "groups": 7,
+      "requirements": 13,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_bioengineering_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_bioengineering_b_s_2025_2026_generated.json",
+      "groups": 8,
+      "requirements": 18,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_biology_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_biology_b_s_2025_2026_generated.json",
+      "groups": 10,
+      "requirements": 19,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_biophysics_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_biophysics_b_s_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 11,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_business_economics_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_business_economics_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 8,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_central_and_east_european_languages_and_cultures_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_central_and_east_european_languages_and_cultures_b_a_2025_2026_generated.json",
+      "groups": 1,
+      "requirements": 2,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_chemical_engineering_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_chemical_engineering_b_s_2025_2026_generated.json",
+      "groups": 7,
+      "requirements": 14,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_chemistry_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_chemistry_b_s_2025_2026_generated.json",
+      "groups": 5,
+      "requirements": 10,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_chemistry_materials_science_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_chemistry_materials_science_b_s_2025_2026_generated.json",
+      "groups": 5,
+      "requirements": 10,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_chicana_and_chicano_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_chicana_and_chicano_studies_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 3,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_chinese_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_chinese_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 10,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_civil_engineering_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_civil_engineering_b_s_2025_2026_generated.json",
+      "groups": 10,
+      "requirements": 29,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_classical_civilization_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_classical_civilization_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 14,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_climate_science_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_climate_science_b_s_2025_2026_generated.json",
+      "groups": 9,
+      "requirements": 18,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "The source uses area or quantity conditions across sections. Confirm which areas and courses to choose."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_cognitive_science_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_cognitive_science_b_s_2025_2026_generated.json",
+      "groups": 8,
+      "requirements": 36,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "The source uses area or quantity conditions across sections. Confirm which areas and courses to choose."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_communication_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_communication_b_a_2025_2026_generated.json",
+      "groups": 7,
+      "requirements": 14,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "The source uses area or quantity conditions across sections. Confirm which areas and courses to choose.",
+        "Unsupported section selection rule"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_comparative_literature_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_comparative_literature_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 17,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "These courses articulate only as a complete series. Confirm the entire sequence."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_computational_biology_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_computational_biology_b_s_2025_2026_generated.json",
+      "groups": 10,
+      "requirements": 23,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "Receiving-course alternatives need review before completion can be verified.",
+        "Choose one complete alternative section; do not combine incomplete alternatives."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_computer_engineering_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_computer_engineering_b_s_2025_2026_generated.json",
+      "groups": 6,
+      "requirements": 19,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unrecognized articulation reason: Course(s) Denied"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_computer_science_and_engineering_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_computer_science_and_engineering_b_s_2025_2026_generated.json",
+      "groups": 7,
+      "requirements": 18,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_computer_science_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_computer_science_b_s_2025_2026_generated.json",
+      "groups": 7,
+      "requirements": 17,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_dance_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_dance_b_a_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_data_theory_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_data_theory_b_s_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 14,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_design_media_arts_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_design_media_arts_b_a_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_disability_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_disability_studies_b_a_2025_2026_generated.json",
+      "groups": 5,
+      "requirements": 42,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_earth_and_environmental_science_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_earth_and_environmental_science_b_a_2025_2026_generated.json",
+      "groups": 6,
+      "requirements": 22,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_ecology_behavior_and_evolution_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_ecology_behavior_and_evolution_b_s_2025_2026_generated.json",
+      "groups": 10,
+      "requirements": 19,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_economics_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_economics_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 6,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_education_and_social_transformation_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_education_and_social_transformation_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 3,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_electrical_engineering_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_electrical_engineering_b_s_2025_2026_generated.json",
+      "groups": 8,
+      "requirements": 18,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_engineering_geology_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_engineering_geology_b_s_2025_2026_generated.json",
+      "groups": 7,
+      "requirements": 22,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_english_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_english_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 6,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "These courses articulate only as a complete series. Confirm the entire sequence.",
+        "The source lists multiple course groups without an explicit relationship. Confirm the acceptable course combinations."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_environmental_science_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_environmental_science_b_s_2025_2026_generated.json",
+      "groups": 13,
+      "requirements": 23,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "Confirm how the listed sections fit together before using this group as a checklist."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_ethnomusicology_ba_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_ethnomusicology_ba_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_european_languages_and_transcultural_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_european_languages_and_transcultural_studies_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 34,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_european_languages_and_transcultural_studies_with_french_and_francophone_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_european_languages_and_transcultural_studies_with_french_and_francophone_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 31,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_european_languages_and_transcultural_studies_with_german_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_european_languages_and_transcultural_studies_with_german_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 31,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_european_languages_and_transcultural_studies_with_italian_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_european_languages_and_transcultural_studies_with_italian_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 30,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_european_languages_and_transcultural_studies_with_scandinavian_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_european_languages_and_transcultural_studies_with_scandinavian_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 30,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_european_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_european_studies_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 48,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Receiving-course alternatives need review before completion can be verified."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_film_and_television_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_film_and_television_b_a_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_financial_actuarial_mathematics_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_financial_actuarial_mathematics_b_s_2025_2026_generated.json",
+      "groups": 5,
+      "requirements": 13,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_gender_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_gender_studies_b_a_2025_2026_generated.json",
+      "groups": 1,
+      "requirements": 1,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_geography_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_geography_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 6,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_geography_environmental_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_geography_environmental_studies_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 8,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_geology_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_geology_b_s_2025_2026_generated.json",
+      "groups": 8,
+      "requirements": 25,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "Following sections have an unexpected conjunction",
+        "The source uses area or quantity conditions across sections. Confirm which areas and courses to choose."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_geophysics_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_geophysics_b_s_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 21,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_global_jazz_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_global_jazz_studies_b_a_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_global_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_global_studies_b_a_2025_2026_generated.json",
+      "groups": 7,
+      "requirements": 58,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Receiving-course alternatives need review before completion can be verified."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_greek_and_latin_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_greek_and_latin_b_a_2025_2026_generated.json",
+      "groups": 5,
+      "requirements": 11,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Choose one complete alternative section; do not combine incomplete alternatives."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_greek_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_greek_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 7,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Choose one complete alternative section; do not combine incomplete alternatives."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_history_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_history_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 29,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "The source lists multiple course groups without an explicit relationship. Confirm the acceptable course combinations."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_human_biology_and_society_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_human_biology_and_society_b_a_2025_2026_generated.json",
+      "groups": 6,
+      "requirements": 57,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_human_biology_and_society_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_human_biology_and_society_b_s_2025_2026_generated.json",
+      "groups": 11,
+      "requirements": 43,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "Receiving-course alternatives need review before completion can be verified."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_international_development_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_international_development_studies_b_a_2025_2026_generated.json",
+      "groups": 12,
+      "requirements": 39,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Receiving-course alternatives need review before completion can be verified.",
+        "Additional group or section instructions apply. Review the source notes before choosing courses."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_iranian_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_iranian_studies_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 5,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "The source uses area or quantity conditions across sections. Confirm which areas and courses to choose."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_japanese_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_japanese_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 8,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_jewish_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_jewish_studies_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 9,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_korean_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_korean_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 10,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_labor_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_labor_studies_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 26,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_latin_american_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_latin_american_studies_b_a_2025_2026_generated.json",
+      "groups": 6,
+      "requirements": 30,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "The source uses area or quantity conditions across sections. Confirm which areas and courses to choose.",
+        "Receiving-course alternatives need review before completion can be verified."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_latin_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_latin_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 7,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Choose one complete alternative section; do not combine incomplete alternatives."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_linguistics_and_anthropology_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_linguistics_and_anthropology_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 4,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_linguistics_and_asian_languages_and_cultures_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_linguistics_and_asian_languages_and_cultures_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 7,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_linguistics_and_computer_science_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_linguistics_and_computer_science_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 10,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_linguistics_and_english_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_linguistics_and_english_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 8,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "These courses articulate only as a complete series. Confirm the entire sequence."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_linguistics_and_philosophy_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_linguistics_and_philosophy_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 9,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_linguistics_and_psychology_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_linguistics_and_psychology_b_a_2025_2026_generated.json",
+      "groups": 5,
+      "requirements": 8,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_linguistics_and_spanish_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_linguistics_and_spanish_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 8,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_linguistics_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_linguistics_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 7,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_marine_biology_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_marine_biology_b_s_2025_2026_generated.json",
+      "groups": 11,
+      "requirements": 21,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_materials_engineering_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_materials_engineering_b_s_2025_2026_generated.json",
+      "groups": 9,
+      "requirements": 21,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unrecognized articulation reason: Course(s) Denied"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_mathematics_applied_science_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_mathematics_applied_science_b_s_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 19,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_mathematics_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_mathematics_b_s_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 16,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_mathematics_economics_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_mathematics_economics_b_s_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 12,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_mathematics_for_teaching_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_mathematics_for_teaching_b_s_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 20,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_mathematics_of_computation_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_mathematics_of_computation_b_s_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 15,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_mechanical_engineering_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_mechanical_engineering_b_s_2025_2026_generated.json",
+      "groups": 8,
+      "requirements": 19,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unrecognized articulation reason: Course(s) Denied"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_microbiology_immunology_and_molecular_genetics_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_microbiology_immunology_and_molecular_genetics_b_s_2025_2026_generated.json",
+      "groups": 9,
+      "requirements": 20,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "Receiving-course alternatives need review before completion can be verified."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_middle_eastern_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_middle_eastern_studies_b_a_2025_2026_generated.json",
+      "groups": 1,
+      "requirements": 16,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_molecular_cell_and_developmental_biology_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_molecular_cell_and_developmental_biology_b_s_2025_2026_generated.json",
+      "groups": 9,
+      "requirements": 18,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "Receiving-course alternatives need review before completion can be verified."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_music_composition_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_music_composition_b_a_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_music_education_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_music_education_b_a_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_music_industry_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_music_industry_b_a_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_music_performance_b_m_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_music_performance_b_m_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_musicology_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_musicology_b_a_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_neuroscience_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_neuroscience_b_s_2025_2026_generated.json",
+      "groups": 9,
+      "requirements": 20,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "Receiving-course alternatives need review before completion can be verified."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_nordic_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_nordic_studies_b_a_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_nursing_generic_prelicensure_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_nursing_generic_prelicensure_b_s_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 14,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_philosophy_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_philosophy_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 5,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_physics_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_physics_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 13,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_physics_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_physics_b_s_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 13,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_physiological_science_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_physiological_science_b_s_2025_2026_generated.json",
+      "groups": 9,
+      "requirements": 18,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "Receiving-course alternatives need review before completion can be verified."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_political_science_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_political_science_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 8,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_portuguese_brazilian_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_portuguese_brazilian_studies_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 4,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "A group mixes required and recommended course choices"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_psychobiology_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_psychobiology_b_s_2025_2026_generated.json",
+      "groups": 9,
+      "requirements": 18,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "Receiving-course alternatives need review before completion can be verified."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_psychology_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_psychology_b_a_2025_2026_generated.json",
+      "groups": 5,
+      "requirements": 31,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_public_affairs_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_public_affairs_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 8,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Receiving-course alternatives need review before completion can be verified."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_public_health_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_public_health_b_a_2025_2026_generated.json",
+      "groups": 5,
+      "requirements": 11,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_public_health_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_public_health_b_s_2025_2026_generated.json",
+      "groups": 10,
+      "requirements": 22,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "Unsupported section selection rule",
+        "Receiving-course alternatives need review before completion can be verified."
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_religion_study_of_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_religion_study_of_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 32,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_russian_language_and_literature_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_russian_language_and_literature_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 7,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_russian_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_russian_studies_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 7,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_sociology_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_sociology_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 6,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_southeast_asian_studies_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_southeast_asian_studies_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 13,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_spanish_and_community_and_culture_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_spanish_and_community_and_culture_b_a_2025_2026_generated.json",
+      "groups": 3,
+      "requirements": 6,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_spanish_and_linguistics_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_spanish_and_linguistics_b_a_2025_2026_generated.json",
+      "groups": 4,
+      "requirements": 7,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_spanish_and_portuguese_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_spanish_and_portuguese_b_a_2025_2026_generated.json",
+      "groups": 6,
+      "requirements": 10,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved section headers; they are labels, not interpreted completion rules.",
+        "Receiving cross-listed courses are preserved as aliases, not additional requirements.",
+        "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+        "A group mixes required and recommended course choices"
+      ],
+      "calculation_review_required": true
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_spanish_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_spanish_b_a_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 4,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_statistics_and_data_science_b_s_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_statistics_and_data_science_b_s_2025_2026_generated.json",
+      "groups": 2,
+      "requirements": 10,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+        "Review preserved receiving-course attributes; they are not interpreted as completion rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_theater_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_theater_b_a_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    },
+    {
+      "input": "transferplanner/data/raw/ucla/62_to_117_world_arts_and_cultures_b_a_2025_2026.json",
+      "status": "converted",
+      "output": "transferplanner/data/generated/ucla/62_to_117_world_arts_and_cultures_b_a_2025_2026_generated.json",
+      "groups": 0,
+      "requirements": 0,
+      "review_required": true,
+      "review_notes": [
+        "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+      ],
+      "calculation_review_required": false
+    }
+  ],
+  "blocked": 0,
+  "skipped": 0
+}

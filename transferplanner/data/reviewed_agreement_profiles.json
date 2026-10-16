@@ -879,5 +879,3653 @@
     "articulations_sha256": "0cdcfb769ac7ee0b05deba2e666966995b54d6e272feff274590ef9e5085916c",
     "headings": {},
     "allow_review_groups": true
+  },
+  {
+    "major": "Aerospace  Engineering/B.S",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-05T22:41:43.5007529",
+    "template_sha256": "52863138e5a4cc33139d75cc2e2c91edb118399da37458f8b1a0f953d04be1cb",
+    "articulations_sha256": "7d46c8273426ae7ea4bd20f770b227028118172d9ba9c14446e4fc9a9b2bd0d6",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "African American Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:25:56.9994479",
+    "template_sha256": "60f7ebff4a121d902ef487b8db3a9ba4f63e88437d4d9c1e8187b53ea8f62836",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "African and Middle Eastern Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-03-05T23:19:01.6518749",
+    "template_sha256": "df07a3efb10d983b6d7dec57635ed40be7e7bd8e71c1946d5b0fcd60b1579a53",
+    "articulations_sha256": "9b22868c585225b65ad3656e474de97506981937301a3bf56abe12d385d940ca",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "American Indian Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:57:53.8559595",
+    "template_sha256": "92063bce58e725fb5d9835c21956675c7c925ce5f3cbec75b914c7a0839e01cb",
+    "articulations_sha256": "4d9f3f93dcc958775d01524fbe7f18d0200d09a603a58bc85813700d341666d5",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "American Literature and Culture/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T21:10:02.0276523",
+    "template_sha256": "c92a7ba211410f92f7e400a35c185adb41c8405a45c2d6cb731e2e27dd7d7765",
+    "articulations_sha256": "a6a4bd55bb4ea2c421777f787bb70c98fe8ee8e48ab21967813d86b88e1b17c5",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Ancient Near East and Egyptology/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-06T18:25:07.9157356",
+    "template_sha256": "d951ece74d8538170061ad6e6780dd0ef9163fe133e5b8641e14f69bb0056b81",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Anthropology/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:24:46.9644897",
+    "template_sha256": "c7df76ba94f76f7fbd1dabdf2c94472a2735ee91ed3843cc96df48109aeec001",
+    "articulations_sha256": "5a6af6383aad5c1c029c30821599b4a2f3b8750d0cebf500fda827da75dfeab4",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Anthropology/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-10T18:20:54.5269841",
+    "template_sha256": "cccadc79b835e055598f00e564d3ac98b8bb6ff281c75d445520a90165b99a75",
+    "articulations_sha256": "9d683e8b17d0ad3b9801bdb5fb8226620499d8fc25c5bc2f0977d9dc7858f303",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Applied Linguistics/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T21:01:09.9516336",
+    "template_sha256": "682cfebc6d7a36026cede3586f5166ecc9850c0b8170d4d05b8311ffae027b78",
+    "articulations_sha256": "c3dc80b73f95beda53e7927e57063a3ec96ed4b14669ae1e3d786a498196154f",
+    "headings": {
+      "ADDITIONAL MAJOR PREPARATION COURSES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Applied Mathematics/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:36:28.2424945",
+    "template_sha256": "3c8f073c0b5cac82600b02d6eb3d83efe9f7317c82e4a70858e3709c9155b3f7",
+    "articulations_sha256": "45ee824fe56f93f2d5f3a67e58e963846170e0b67d26d1a77b264cbd8c80e1d3",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Arabic/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:37:18.1976614",
+    "template_sha256": "ec2c5b1d0186a0ca7fa59797f889dd44f0c76bfba6996aa4e5e07ebbe13d8f3d",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Architectural Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:20:45.8032413",
+    "template_sha256": "fc4fc16691713c42c73a52fde7ae38f41da5b368d24de9f51e11293b55eb44cf",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Art/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-23T22:12:14.1707608",
+    "template_sha256": "b43e3bec83bd0c297f7b4c7e3096693d194e21b3d1b4b8f3f78a124f6b248ef2",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Art History/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-11-14T16:05:18.175682",
+    "template_sha256": "55b416a09dc704b029550efe0a00d70f9cce9cef770d6ed39d1ef72fda8018a7",
+    "articulations_sha256": "371c1021d10d9c268080b7e3cb8742ed81a526670d8311b7ca73ebcc278660f8",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Asian American Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-06T18:32:10.8004238",
+    "template_sha256": "ee3e0b1048ea61f695cfd01b6ed73daa369c8c5e90e864fe25aba91d891268fa",
+    "articulations_sha256": "7a31ffe778c25eac3232c7bc6dc420a123bef85bedb1f8ea12be671b053b0634",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Asian Humanities/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T21:06:00.6743522",
+    "template_sha256": "6a3605b42d34129fd958f853482d06362339c98cba42b702dd585505e2a36247",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Asian Languages and Linguistics/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:48:37.2445534",
+    "template_sha256": "a1319a05faabbbdcecdc420ebc9ee0d3a1d8f6bb1c1a60badfe770da1035807f",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Asian Religions/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T21:09:44.1155182",
+    "template_sha256": "30fc2972a5e7c956af4d5630b74521aef4b711d4eadc6f78be1c5f40397e8c87",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Asian Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-03-05T23:16:54.9197346",
+    "template_sha256": "202565740a57fd5d69bb2a476bac4a4e696f8553baffa41774ccbaa6e2b4fd32",
+    "articulations_sha256": "81d3a8d001e892f8d21bd47ea48285c07f3d7d9420b12d8f7b1752dcf7f9b40d",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Astrophysics/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-10T18:19:04.8406898",
+    "template_sha256": "e619dc7201e46d2bed336fc5637ae70aee9391186b9003218f83a5f45e08ec7d",
+    "articulations_sha256": "00dfb62ff8c55f4b19fc0fb98226d455ba17d92d617f07c6537668194b37e768",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Atmospheric and Oceanic Sciences/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-10T18:14:35.0966112",
+    "template_sha256": "c8d673aa312a2b4e6449b7c8b87b22916bd5d14aa7755801b402e54f0629c50a",
+    "articulations_sha256": "6d69732f8ada90fb3d5a32bfab9df8d96989dac7d739851df72a4acd45c23330",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Atmospheric, And Oceanic Sciences/Mathematics/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-10T18:12:17.1246082",
+    "template_sha256": "2db6d6840f19b8a300705f39741b596f42765a9833ea44b5ca6d3e2f7f1e0a51",
+    "articulations_sha256": "eb8bc46256be28c0d2f5417d12bf0b6a00c2faf0bddddf06cf3ac3392f05ff21",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Biochemistry/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-04T22:13:40.785593",
+    "template_sha256": "e87dd8f85a6dae12593b98323fbd857982aee9868ab5652c1483a41664bc085f",
+    "articulations_sha256": "1178d5bde053fbd5b4371b0856e216b76e49d1825340ed2bfd149d3f321867b5",
+    "headings": {
+      "ADDITIONAL MAJOR PREPARATION COURSES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Bioengineering/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-05T22:40:42.5850464",
+    "template_sha256": "feedca1934fe8a32b6f7d70493a492c639977bf6afca9123887ec8d594fa2c29",
+    "articulations_sha256": "dff2ceaed00cc44434bd738009384d241d3d0a04314313af57dffa1367b18549",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Biology/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-06T00:15:11.7295447",
+    "template_sha256": "d75bf1335f5a571c5708f6c3a418f4998ceaf6c383d7babfc108cda31aa1a5f9",
+    "articulations_sha256": "13113ac5579a23730821b9f520f8496088f28a81bc2ec3bfeabffbf302b11b23",
+    "headings": {
+      "ADDITIONAL MAJOR PREPARATION COURSES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Biophysics/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-10T18:18:37.6531694",
+    "template_sha256": "1d7ad3494b167118fd3ae4a98193735d2bcfbecd1be4728dccf1b2e9fa113102",
+    "articulations_sha256": "6b5cdab032c8d6ef2077f62de7d02133497affa7ba39e6ad2ebd66b244b5c5e5",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Business Economics/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:56:26.1150759",
+    "template_sha256": "318af82a22c933b6463060ba5f2073eeba1f0c181a2a2a100a20e1adbff70bc0",
+    "articulations_sha256": "b869bcb11d4e4cfbabb60e99f399419984b69bc3f7dd82f534e63985d94fc4e2",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Central and East European Languages and Cultures/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-06T18:34:43.0697321",
+    "template_sha256": "8dd60f593ee41625d070d02c37fb78a2cd929108491919ef33281a14f4f23a90",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chemical Engineering/ B.S",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-05T22:46:23.939441",
+    "template_sha256": "7fb90375e8777becad48fc8a2355f65e79273513765dfd05611762595e3e377f",
+    "articulations_sha256": "e50b221aa6fabbb49e8fb97b1af52689a6afdd305adaabece9becc85459f814f",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chemistry/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-04T22:12:11.5837917",
+    "template_sha256": "89f55d6a10acf071b2ab637bdba67b06db873890d238b92b95a8d623314871a7",
+    "articulations_sha256": "53330f9ed793c5d858bb58b897e33b91ae646d446f3d61ff535b767f45e10edc",
+    "headings": {
+      "ADDITIONAL MAJOR PREPARATION COURSES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chemistry/Materials Science/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-04T22:14:33.9412381",
+    "template_sha256": "8e2a76c68ee73e46716fc00604c11595de30e8983fb3d2208f72fb5fe4a00960",
+    "articulations_sha256": "8c4984ac753e8f21148f8ead883da78f550fd5c57b1e5e5fb689beaf88fb7530",
+    "headings": {
+      "ADDITIONAL MAJOR PREPARATION COURSES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chicana and Chicano Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-23T22:14:32.957785",
+    "template_sha256": "7adee85d7fd5ea0a1dfaf9505ae1d11da0873d51c3076bbb311ecd9e51aa1330",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chinese/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T21:05:48.6458162",
+    "template_sha256": "a7be328776e056e0b505ae33b209d4d6c99eef1915279e090007adfd05d9b068",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Civil Engineering/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-05T22:43:26.6368671",
+    "template_sha256": "9588034bf52b0c94f039cdb135bd73f4a882b9db88760965842502f08686cc2d",
+    "articulations_sha256": "80bf51435f060d014e1ff0e1dbff48ab49520a27ab879d6d531a937b5b69b39b",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Classical Civilization/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:55:13.5073793",
+    "template_sha256": "75558628c5e51f61e47c6064f2bd86fdcd9ee5ed6f1bad88cb270621f56d105c",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Climate Science/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-10T18:11:27.9121705",
+    "template_sha256": "e8d777fa67f81ef0926a79fed2dc8f50810c2b415341a49d09c0cd07314a60ee",
+    "articulations_sha256": "29e38fee5062f2e22eb95991adef24bcb947b89d521834bcdcbdf8e31cc00874",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Cognitive Science/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:22:55.7487024",
+    "template_sha256": "bf1074f53c13579c9dc7203e7d688bbcba879aa8d54ee985403ea7876c3ec2bd",
+    "articulations_sha256": "d9d04954c346f8040cea4cc4e5e64be99c20be54dfaa7c0b591b9901b377e51e",
+    "headings": {
+      "ADDITIONAL MAJOR REQUIREMENTS": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Communication/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:36:09.815758",
+    "template_sha256": "14e9a01ea51e826207544498929318db1ec50f2c085f00b6c174ce775ddae2fd",
+    "articulations_sha256": "a9849a84bdbaf6c967752474209c093ecc8bc0ca6207f1999d6b1633fa25078c",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Comparative Literature/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:46:15.3555824",
+    "template_sha256": "05287bdde7949bc6713ca7957092fcd2729d6e4521d7d4dd863869da962d6875",
+    "articulations_sha256": "c6d8a875266b0af809dc30772bd872480a652326fb1d522ae2e110369c65184b",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Computational Biology/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-09T16:14:59.5723722",
+    "template_sha256": "f8f6accdc46a09eb9c93c0623d22113867f127baad2bf49d4c997272deb16208",
+    "articulations_sha256": "f6ba758d259a80577ccb4f54f07cb4568435d4578cfbf38c163c3576067962c5",
+    "headings": {
+      "ADDITIONAL MAJOR PREPARATION COURSES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Computer Engineering/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-05T22:44:39.1710724",
+    "template_sha256": "ab9c21416fea4de5fcdc7cce7de04df0515307e0f6d1ac48563e9b73443ba057",
+    "articulations_sha256": "fdb0b85ebd1881ff18ff0342921d0a49fe5903b2b1cd4882b0d4147e1376b3c0",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Computer Science and Engineering/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-05T22:41:19.4510639",
+    "template_sha256": "5cd5ff844bfb69d8b3bff5503fee6666231e426590a40951de63a2f856e4ad55",
+    "articulations_sha256": "57e6254f9cdc350372402b47b842f93b816d628e07892a4d97de3c13e97affc9",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Computer Science/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-05T22:44:37.27498",
+    "template_sha256": "6f8734badf9ba54ec89c13c2b8072057e1bce46802e940dc7fd32850c04e373e",
+    "articulations_sha256": "1caee0f2670b0885f537e7d2004cefd4dff085e868296314df75153d7857741d",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Dance/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:51:56.696823",
+    "template_sha256": "4ae585b1cc44b9c3f87e5cff56a017e1d4aee7192bcda159c3243c7d8f4fcdc2",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Data Theory/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-06T18:36:19.8600215",
+    "template_sha256": "f72fa5f42e44220b6a1c988512cf0c435b0ad88c6d13a7eb18906f80d25c0a36",
+    "articulations_sha256": "54f98ba60e4e94e502823c525fae55fbb944499091e3f1f1eab9645442e1fdf9",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Design/Media Arts/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-24T22:33:01.114774",
+    "template_sha256": "626f75fc89e590bc85001de030883eb0ab498b4211a75912c9183edabae0dd94",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Disability Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-03-25T21:20:03.0025944",
+    "template_sha256": "a41d2db86cd4b5d0bf01689109ee4b8a2bb9350597c4097a998fa0ba5e703928",
+    "articulations_sha256": "964df2388558702c5df1025f1bf18860b0bc91c3efd5f70ac336c1c4eb7e2d82",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Earth and Environmental Science/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:34:06.6413599",
+    "template_sha256": "bbc8a6e7b802ebe68f8c44454127c8a7cc6a470b0a1159b60d2f6babf9eec0bb",
+    "articulations_sha256": "fa4e48b50d2c1076fa9fa43d3fec0513824cef18c28df28d9b21a8072ad627d1",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Ecology, Behavior, and Evolution/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-06T00:18:49.6967633",
+    "template_sha256": "c29725920a5cf946b35f4a514be6340a8c6b7c4172e9b85235203f0b18cc154b",
+    "articulations_sha256": "1cd1a1178d7788d963153161641b3737158a41d9905b7cb7b4b443adaaecb8b8",
+    "headings": {
+      "ADDITIONAL MAJOR PREPARATION COURSES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Economics/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:45:25.6595818",
+    "template_sha256": "fb76c824951d1c7e2d04dd3fedfaf334a980f41da5160c2a9701a400d52ab589",
+    "articulations_sha256": "e442aa147eca090022013d4cbe491d0b3023edcb7584a78027dc2a8b15c5c726",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Education and Social Transformation/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-06T18:37:26.5842184",
+    "template_sha256": "82df54a8493b417ea23e1a9fb4d6507d8398f74b152dbc89789ebc0de1fe5148",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Electrical Engineering/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-05T22:40:20.1317022",
+    "template_sha256": "da694db435b979f8202bfd0bd2a0dc2ae00c4404135b5a9f4274b1a722a060ca",
+    "articulations_sha256": "38cf69b7aebffbe17163281afe668f829a99a454441da110970a1d63d915ace4",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Engineering Geology/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-10T18:17:19.7006781",
+    "template_sha256": "c23cc459912fd8d88dd494a6b3322f8527148f0474cc948cadd61034aea183f4",
+    "articulations_sha256": "57f744ac2a5489349ccb504f72ff4d13266e1786e659e69fbf776edbf5881fca",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "English/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:59:13.7943447",
+    "template_sha256": "47b863cd194a13003051d37d7709699f1f7b31a2439db15b629041889b2276c6",
+    "articulations_sha256": "0faa0d90527f1ee55fa5f1f1badca54aa26872aa994d09a000f366abeffe3421",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Environmental Science/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-11-04T20:34:53.8569316",
+    "template_sha256": "c801ead0146a9f2b59ff94d260a674e290f61b81fbcd926f9be43d259c9c6cb0",
+    "articulations_sha256": "fe8f0e54024b073a93db583c882a9d7d752c44d6e3a2aced49673be4f5278b8e",
+    "headings": {
+      "STRONGLY RECOMMENDED FOR MINOR/CONCENTRATION": "highly_recommended"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Ethnomusicology/BA.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:19:30.8154812",
+    "template_sha256": "5968746c105b44349a19e78c81db3cf59c3a7a8b43f2834a38badcb5859befb2",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "European Languages and Transcultural Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:36:41.163385",
+    "template_sha256": "7d19323cc70ce0a632dbac5cb650b21ef867d5036a2105bb5147db02f393c6c2",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {
+      "EXPERIMENTAL HUMANITIES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "European Languages and Transcultural Studies with French and Francophone/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:49:59.7138948",
+    "template_sha256": "510b12d1802f0e41be1c47cfd701fd42411cf29b1045b874699210502ad0d945",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {
+      "EXPERIMENTAL HUMANITIES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "European Languages and Transcultural Studies with German/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T21:07:19.1758163",
+    "template_sha256": "84e965668d218541fff60195ceedd0c5a5a131729fc583f3fefcceaa136a850f",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {
+      "EXPERIMENTAL HUMANITIES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "European Languages and Transcultural Studies with Italian/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T21:08:24.9691124",
+    "template_sha256": "9390a3f5bd3962eb85d17e7db3cd08e8cf6fd67f5e0f9e04d2a61028f2bef009",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {
+      "EXPERIMENTAL HUMANITIES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "European Languages and Transcultural Studies with Scandinavian/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:40:49.4721549",
+    "template_sha256": "66f3116bce69ef106546daad3369ea5aa6c4469bce371e1fde1196e1b5429148",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {
+      "EXPERIMENTAL HUMANITIES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "European Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-03-05T23:18:16.8138054",
+    "template_sha256": "dedf79893a7cbe70bdd81e3c67dc1d3066561799916340a4765316c050c42e30",
+    "articulations_sha256": "c034accff9355e8d1f0e1be6d0d5d18bd167ca3b50caf38f1dbdb0133bd6201e",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Film and Television/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T04:02:45.6925084",
+    "template_sha256": "acee7d81140f30221776c961953b741d6cb3281d07868b61af8dbe0e9557f17c",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Financial Actuarial Mathematics/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T21:01:02.0442574",
+    "template_sha256": "b552733b359ee0cc871de09a8f0e205ec9366c31a60aab22c5a29762e90057af",
+    "articulations_sha256": "516a7b0a612ffaeaeb8f1d089bf41a465a1cbbbdf0ebd022348d15fbc2a3d67f",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Gender Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:54:05.7070652",
+    "template_sha256": "093b0578a61505de8dcdfe22c12f8cfc54a99a52fec7552c62926cc846328999",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Geography/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:51:31.5404648",
+    "template_sha256": "3b6b0f02c386da5107672d3cc3d5fee30f8f7695e39f6a0293bf4fe5e8df7305",
+    "articulations_sha256": "741a52403d1ac1b5425f694855defcff8518fe1db637e91131cae08bb4c536e3",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Geography/Environmental Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:25:31.5715673",
+    "template_sha256": "cec3d79e3b9c63cf619db6e85726965f893b741dd7ce291cc84f170e553b546a",
+    "articulations_sha256": "b9c299f44a25db1f592cfa4e9fe0c0a0e4072f00f29f02915bf2fac126ad4aa1",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Geology/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:21:18.3494855",
+    "template_sha256": "34e9af0e2a4f481ee9e9942ef1b67b91abb78c6d6826f97e33faa3b46bc23b77",
+    "articulations_sha256": "c13ef919ffe8be997fe98e845f3266944b9e27304baf0dd98aca2a80771b8dfa",
+    "headings": {
+      "EARTH SCIENCE": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Geophysics/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-06-17T16:11:38.1690178",
+    "template_sha256": "840ad2d235bac3edf0939cedb6c588b5d6e9589dcc46082caebabf8635a1f060",
+    "articulations_sha256": "80ada7cb4e70e382d4c3d4ff90a388297b1534f50ed619d0be32a335f95761f1",
+    "headings": {
+      "EARTH SCIENCE": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Global Jazz Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:21:31.1055671",
+    "template_sha256": "63aea815cb8cefb4802a3a97cdfb4c13608daea2425c43975b90d48244ecb355",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Global Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:58:30.7633036",
+    "template_sha256": "eb8e102252f4218960bf2494f18f1e341f2f5330be24d5889929f0f33ee2db9a",
+    "articulations_sha256": "1eb166637d95c5ed63f5a6708cc31b19bdb7096df6860f88eecef4ccc927c017",
+    "headings": {
+      "MARKET/RESOURCES": "major_required",
+      "CULTURE/SOCIETY: GRP II": "major_required",
+      "METHODS COURSE": "major_required",
+      "GOVERNANCE AND CONFLICT": "major_required",
+      "CULTURE/SOCIETY: GRP I": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Greek and Latin/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:45:01.3880363",
+    "template_sha256": "2bd7d79ceb1cb9e0d8ff4253f89a01e500ef903c073fccbe392953e43491c52b",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Greek/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:52:08.1603189",
+    "template_sha256": "c0139f77fc41fc439ca51278dd7908b2d5f2be5cff1136ffb86717f74946d94b",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "History/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-11-20T16:00:31.5228341",
+    "template_sha256": "2b586c3a51f0fbe016bd160eeac489e22de3fe25076141e23feadb07aac972a3",
+    "articulations_sha256": "bbc9a5ec25f4677e11612eabbabd31465641b688630f2f697634e825b06fbb0f",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Human Biology and Society/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-03-25T21:19:10.6580139",
+    "template_sha256": "3d691de9e59d267f6a166f9d1daee153705992778219ff9108801ef9620b589c",
+    "articulations_sha256": "db8786d483a07b39729f0e1e778590e3ff883c86119c3fc2dc7ac602c8cbac70",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Human Biology and Society/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-03-25T21:18:39.0059682",
+    "template_sha256": "9775b7ce923ee95566152d48009781a3e964c13a1c15b2e89822ac999d040018",
+    "articulations_sha256": "acac2a00d11ee8358326960e75ea703259fa7d75775e5d522a2079737c06154e",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "International Development Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-04T22:06:37.2243543",
+    "template_sha256": "33f68c25dd8aa92b05b40e6ba15206f3f70448e59db2ffdc70ced8e1e5cda7ee",
+    "articulations_sha256": "48dc53bccb30690cdb0eb033b1d7f2c70e3f8b8c83b70b8632dbd0f4509da0bb",
+    "headings": {
+      "SOCIAL SCIENCES/AREA STUDIES": "major_required",
+      "METHODOLOGY COURSES": "major_required",
+      "INTERNATIONAL STUDIES": "major_required",
+      "ECONOMICS, GEOGRAPHY, PUBLIC AFFAIRS": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Iranian Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-06T18:45:48.37495",
+    "template_sha256": "200aa140eba5eda592f4a05a57a06aea11e8ac054d79ca5997cd60c7c1e66572",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Japanese/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:38:17.8817655",
+    "template_sha256": "896d59e6271c61e9f0aae202ec1cbef23b38f39b733225d1334e6490a0b51f8b",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Jewish Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-06T18:43:55.6720461",
+    "template_sha256": "db670a19f0baa91701984a824be54a33027fdbda1d24784037f8f8901eab4f18",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Korean/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:47:24.9871611",
+    "template_sha256": "fedaff059ba0466390ca2fe89355bcb11a8dd81d8b5864b1649036157d01d735",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Labor Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-06T18:44:03.5204587",
+    "template_sha256": "b2ccbeb55911c6df14563467b8091948096217d28b5a605167cb75571a73278c",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Latin American Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-03-05T23:16:34.8625952",
+    "template_sha256": "a8a2a5ec361fd2bee245ae8fcd1eda6bf47aec2690418ec543bb34f0a7469e38",
+    "articulations_sha256": "422e474c118a50ce0fdfa5947fdae1a9894136dbef3209e0d01750058dbc44ea",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Latin/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:54:40.5632129",
+    "template_sha256": "20fee8b82665ec194570af6cb991027d44bfb8b49a4254646156ee44bd169a66",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Linguistics and Anthropology/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:38:58.1453353",
+    "template_sha256": "7eec2a64c51866603bdd0a889cb0ab1e8c3250b76f8bf63ca4525fc536033dcf",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Linguistics and Asian Languages and Cultures/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:20:28.7493198",
+    "template_sha256": "3a09e01db5c9b20c257e847e8ddceaa28b9daea0e62f91e6baccdb3f05ff7d57",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Linguistics and Computer Science/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T21:08:19.190448",
+    "template_sha256": "e96fc6e7d7a69dee89e672ebd1d255c6138ddb6acfe39316259c2610a12e1cc8",
+    "articulations_sha256": "f084cf2f414f6ef53c15ed43d7c67320d935352c9c622873ce0becb5749dfb3a",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Linguistics and English/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:19:25.1738838",
+    "template_sha256": "bab055c5027cda02581085b8eca7062aa00f688730d3eb05b4e31b1c5acee4f0",
+    "articulations_sha256": "2c86bb8ae4e3e4101cd5041dcb08b7044d589732ab7b130ceadc54a88edb0a2d",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Linguistics and Philosophy/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-03-20T22:18:44.567985",
+    "template_sha256": "8b298f7d9a8fe7aa560e33d68ba61da498087cb7bc0f6ff58758c82e982fbcc3",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Linguistics and Psychology/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:41:53.550355",
+    "template_sha256": "8a5ccc96fbb9ef798c1c98eda485bd92144c952afc6cdf3f22726ff3fc36eb1e",
+    "articulations_sha256": "af1a708ddc4e90c9ab1d70a1ba8666b91b291b958182e90331749fdf9a49fa86",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Linguistics and Spanish/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:51:45.4341135",
+    "template_sha256": "02f99a85d1cb12638b896862eced8278eceaaa52d60bc81324b4a24c827763f7",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Linguistics/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:40:30.0379554",
+    "template_sha256": "5e6ff1cac260f845aeac7ccb258c76da114921529f766b818a306a15a9313c0c",
+    "articulations_sha256": "9d50b30a1242b64b71a6bc63d04275f4f1a44ceb132d85e758d7b248df8f8e18",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Marine Biology/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-06T00:13:56.1865842",
+    "template_sha256": "a3df8180e5e10f84ea6c7049cf276f4b59ff73532578e04c808b12b2ba839a0b",
+    "articulations_sha256": "dd1d4ccd4ea820ea2fac5479e480a97e2dba8ad36df84ee914bf19e39558df56",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Materials Engineering/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-05T22:42:40.7415476",
+    "template_sha256": "bb41193e53aeeace9d512c43771ece446e3a9ee9755efe49433501fa6ffa975d",
+    "articulations_sha256": "a5e5843a4b4fee803d8f7019a72cb2603767672ba091a889dd593a64c9905bb3",
+    "headings": {
+      "ADDITIONAL MAJOR PREPARATION COURSES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Mathematics/Applied Science/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:41:41.8773444",
+    "template_sha256": "185fe5c242ea3bfc7569a7c6df7be8fde2f977f0e22ba69926a5d9c62b19f4ec",
+    "articulations_sha256": "798404af74c20593251a65f989ce1eaa84d2fc8cbd15dd373885fe8eb5dabbcd",
+    "headings": {
+      "HISTORY": "major_required",
+      "PHYSICAL SCIENCE": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Mathematics/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T21:04:18.7328435",
+    "template_sha256": "e247252db70268dea1a42127d35e7b17391edada65f6bafc9bfd347cf313755e",
+    "articulations_sha256": "42ef9464e68c6a1266134fcd00e7fc4feda8016e099a47a6873c68c0c70dabae",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Mathematics/Economics/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:55:53.775602",
+    "template_sha256": "f8c01a6bbcdc6ab23a1b271956e00d96afa01124742aebf7ba14f57005ecbf31",
+    "articulations_sha256": "cef471c5f797e6288360446b2c77c78fe971bb2a1da7ab9883d32b22a109db58",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Mathematics for Teaching/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:57:26.0663177",
+    "template_sha256": "3a93ab969a4d1fbe85ba100c9fa9d226773414faf6d7e6e4d475d9d9884d2c5a",
+    "articulations_sha256": "8a5f30710ac7d07dcb7ba7efca0f8b5fd12085fdafd27fb313bbded26f69af10",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Mathematics of Computation/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:38:30.8047428",
+    "template_sha256": "dc607770a80df653aa07897fd2e126567a45a12c5a2663a9ceaa08f901ae10c6",
+    "articulations_sha256": "9ddb2dcbdd05ddf34f072c52e70ef43e4ee6453ef5d425fc6a4785aa55682865",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Mechanical Engineering/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-05T22:45:04.2679674",
+    "template_sha256": "aa03dd13c5c0d268ede06aab2c657087dcac301368d068eca8712c614967d295",
+    "articulations_sha256": "735023b9294da6eeb0c9fed63ddbc71067ae96e0ef0054b12de99f851f623163",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Microbiology, Immunology, and Molecular Genetics/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-09-24T22:49:01.4454988",
+    "template_sha256": "457be8257eea79bc5f6c0f8a2249c8cb64351f513f8767adb9aa8f1e2c915d90",
+    "articulations_sha256": "89f5b44b881b0e784f3b0a0547d67e6b19ce20387cfd3e19265341ec84fc39e2",
+    "headings": {
+      "ADDITIONAL MAJOR PREPARATION COURSES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Middle Eastern Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:47:57.5741742",
+    "template_sha256": "f8923272a68cb72a4e1aa7a6c5a3d52209a20ebe6b979b1ab1123de71b142ac2",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Molecular, Cell, and Developmental Biology/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-06T00:17:28.7249654",
+    "template_sha256": "69116f6be7cd34a68747455079f7a3673948d43470ee0c1d9cd28cc78f4f7387",
+    "articulations_sha256": "f6f5e7f8dda6646d5ecd6dfa9e3cdca4d338217970a3d3d1e585e70c5255dd1e",
+    "headings": {
+      "ADDITIONAL MAJOR PREPARATION COURSES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Music Composition/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T04:03:12.5433921",
+    "template_sha256": "6d5e6b27d227a1c33ce558fa29c5e1753417cbcbfd12342fb789d7aa01a8f69d",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Music Education/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:49:30.1180686",
+    "template_sha256": "6cdde059e376880c3f77a15ef7155939e509ea03ce07da91dd001ad27be44943",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Music Industry/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T04:08:51.2354858",
+    "template_sha256": "36a409393574f6608ec8a5815af5909b873720dcb1d62a72c182dcf3d7f7170b",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Music Performance/B.M.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:33:15.243977",
+    "template_sha256": "1e99e3ef4231688c7ba890b07dd3fe461c2a0f52d96e3ec7805d2f3dda6e3667",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Musicology/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T04:11:10.6104479",
+    "template_sha256": "1b6276b07058827d046b2a04d9de60ca717d7fac5065108a85ef4936caaec47e",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Neuroscience/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-06T00:17:15.8268191",
+    "template_sha256": "a7d21840443803e39ab89489507c17582336e7a4b098369d8d67eb10bcb6a2ed",
+    "articulations_sha256": "091567658fb69158c856523963bb06cc70cec72e9065ce2e86d81b47760524ef",
+    "headings": {
+      "ADDITIONAL MAJOR PREPARATION COURSES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Nordic Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:31:29.3733343",
+    "template_sha256": "f7244f2fb3a053194a2a6b2342bd35c069d0811e542a9f05c533668746d97311",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Nursing-Generic/Prelicensure/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-05T22:24:16.546568",
+    "template_sha256": "31b27a6577607673d79ad58401dd2083f4e5191f5dfba7d76d6b8e11e854a6ba",
+    "articulations_sha256": "353a800ae18d0c00aecb1f034d76baa0da6a547bec401a8298f3f4e201a92aad",
+    "headings": {
+      "RECOMMENDED COURSES": "highly_recommended"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Philosophy/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:49:19.8502008",
+    "template_sha256": "e6239997000f10e6ac154e909ea53f6eda0b83ef37fceb0225a0418bd807f594",
+    "articulations_sha256": "47036d8c317413ab2ba2fd4c2c02d85c1816fc52c686a9ef4ef67d3c45c42920",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Physics/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-10T18:16:17.592996",
+    "template_sha256": "88de5f8ada5c9c11eeb672dbe0c51f0ec0eec19e085cec3c514bfbb1b161d0d5",
+    "articulations_sha256": "97a4b623e858855c13c50cfd46bb4e3367d1436f658195f0ceb083a95c2cb3a6",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Physics/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-10T18:14:36.9868652",
+    "template_sha256": "0fee2a82cbdaa574ae320fbe37b22015d477f13ccc4b710abc3c94ce63bcac44",
+    "articulations_sha256": "33f139068b9bec4471962ac3a0f165d062d1a12d9ae61d7846b29fc2d9f2de12",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Physiological Science/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-06T00:19:07.0041889",
+    "template_sha256": "df49249f305f3a3e634ec6c510902a45fede4dda93b8fb4eff9bcac4a51153ac",
+    "articulations_sha256": "fc706d6aa39e984f84b4fe4a30dc775fe60f5359067e8323e1a14ae6b2f22992",
+    "headings": {
+      "ADDITIONAL MAJOR PREPARATION COURSES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Political Science/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T21:07:04.1274332",
+    "template_sha256": "5f6a1da850302c4cf6c7f74ec66699e758ad0911e8fef5d930220be3349d2510",
+    "articulations_sha256": "00ba9f40a66e21ba0bc688d5fb3ee351d6f0e5e75860c60eca46c5c68471a6f5",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Portuguese & Brazilian Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:53:46.2875521",
+    "template_sha256": "99a20c6c4f8f818a364b5fef5fc64de7fd5acb9716c86bf3bb3c9b71b0f2f00e",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Psychobiology/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-10T18:17:27.224319",
+    "template_sha256": "8b8aa76f5b475eb2127509c3e069fdd001422dc3ff07081e5df1214b643b67ff",
+    "articulations_sha256": "9078d86595e2afeb9ae4e243fa7429da2f73726f163d73e797c5125d9d4b973a",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Psychology/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:57:47.0537617",
+    "template_sha256": "9ffa200a3d06ec730197409e9b480ddfb0b15b1901412e4c44db97c0260def46",
+    "articulations_sha256": "9842103cd6787a51acf9ee59d63544ff9fca09fafae28dec132af4ae4587301c",
+    "headings": {
+      "QUANTITATIVE REASONING": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Public Affairs/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-03-25T21:17:45.8534219",
+    "template_sha256": "739d4cbf962aaaccff0b5e582ae96416ee37615ed98a79211a2d328a8d9c0e19",
+    "articulations_sha256": "1450c76dcaf502cbd620f7897c735a1ca4ce1f0f1aa4bade1e930bff4ebd33f9",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Public Health/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T04:04:11.4183734",
+    "template_sha256": "69f757ca568a0bd066bc91d29568d57d30126c2490a6dd12a74284686624b630",
+    "articulations_sha256": "19f41fd77bf34dac5ec0917656bfa415ca6bc203e91152ef9d052906fa5055a5",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Public Health/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-10T18:15:20.0730561",
+    "template_sha256": "6e590d029a86e3ae409722c392b50287bd0edc104065ec0c37834b997456379d",
+    "articulations_sha256": "502a13aba5a72eb1c3bcac33ed9f6c49052ff3f5e03eb2ca30a8699693626b73",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Religion, Study of /B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-11-18T15:55:49.4759727",
+    "template_sha256": "cfaccd2b020c66e0cf99650a83d7ed7b0e8ebfc4f43f2cc8a7222d78ce90ff16",
+    "articulations_sha256": "0ea829ab7ab454277dcac2527601e8a6caafcb2fd664ef87daec51eb3c919c85",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Russian Language and Literature/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:43:05.049346",
+    "template_sha256": "d6c8499110f1e35b8a63d83aa7c6234239afe415a2b0ac13b95528b66119f067",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Russian Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:57:03.1511174",
+    "template_sha256": "f042f4080b9784a519a99ba17b41605cfcf6c735ae93639ee7d3ea8af7b0e81e",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Sociology/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-06T18:50:43.174947",
+    "template_sha256": "20954f72e82310d6f086756b270363035847d59254af1bde4b067faf008736cb",
+    "articulations_sha256": "242fb11fa31c7e83f6f40cf1a6138a749e20ec21aa822aa98fb1f46b83b6cae5",
+    "headings": {
+      "MATHEMATICS COURSES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Southeast Asian Studies/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-01-16T20:58:35.0614037",
+    "template_sha256": "ebb99eab762accf8ff329c5ab0f288af03260574f3038cee8efbf90724214789",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Spanish and Community and Culture/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:27:19.3796309",
+    "template_sha256": "ee299ffcdd9df6ab92739acc4bba2779ed34fd30807fd47447d04cdf8a943bff",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Spanish and Linguistics/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:28:33.9361216",
+    "template_sha256": "11396657c63e691f8bce345e0451d6dce777c0cc0d40abb4b1f2270932cc1af6",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Spanish and Portuguese/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:35:00.0986108",
+    "template_sha256": "baf7cb2f46a26a427ee11ca855cb50315f48d983365266fe597ecc61457b13ed",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Spanish/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:50:34.5861812",
+    "template_sha256": "8082f7d92ee6585d37c1aa29348dcd23ef476f611ff71459dc6a6cc421298dd3",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Statistics and Data Science/B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:36:46.9906371",
+    "template_sha256": "5ab2b57ca6790ec08ba21dff82f6ec879ebd07e22ed42563ea1fdcc15b5f42d9",
+    "articulations_sha256": "5ad204b3caf0817aca003230cde3762d9b3a5ae4b00184c4b07a2b4396accadc",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Theater B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2025-10-31T03:50:49.2337007",
+    "template_sha256": "1144291e0f43b66c463254ce0a20bbf4b39d4889648d30cd901f9c37e5a8aa77",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "World Arts and Cultures/B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "source_publish_date": "2026-02-23T22:11:55.2693844",
+    "template_sha256": "82b3e0c1a373f328efd74bad19d20839659280561bfd0bccb142b53bd2333dd7",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Anthropology B.A. with Concentration in Archaeology",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:27:44.7023583",
+    "template_sha256": "35f19a9f318b3d766a96f56b47cfcd84b529afe21b8c8ef9b194ff806fba3c35",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {
+      "RECOMMENDED BUT NOT REQUIRED": "highly_recommended"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Anthropology B.A. with Concentration in Biological Anthropology",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:53:52.6037623",
+    "template_sha256": "6141b7a2085fa94d8716731b065f966686d5ffd7d636a9600d25c848d726d269",
+    "articulations_sha256": "6355eb37126b4ef106e07861211129b2a79413a88fc2c1a264d0c278c78a6eb9",
+    "headings": {
+      "RECOMMENDED BUT NOT REQUIRED": "highly_recommended"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Anthropology B.A. with Concentration in Climate Change and Human Solutions",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:39:48.3932478",
+    "template_sha256": "3deac04387bcd1cf0210c7d9cb655166812d80d21155ca8663a088888ff31665",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Anthropology B.A. with Concentration in Sociocultural Anthropology",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:44:56.0650782",
+    "template_sha256": "4ef345d4e671eae1684528c98323bf096158a8531d832fd726dd90d4ade64c39",
+    "articulations_sha256": "d83a36f55b88628b5a45a6759fa1e66c74fcbccb2926639365be3b25e9458a75",
+    "headings": {
+      "RECOMMENDED BUT NOT REQUIRED": "highly_recommended"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Anthropology: Biological Anthropology B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:48:19.5573664",
+    "template_sha256": "0998fbfdf8287536deaa5de3195ff5cc106448eef337f7ed609258601d97718c",
+    "articulations_sha256": "491e5b905185d3a7e886de8f67d90d2ef0daf5a021e0ad502a91a7e985989123",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Anthropology: Environmental Anthropology B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:47:36.6083577",
+    "template_sha256": "6ad6995bbc1ac51d7045e16319a4325e6dee450f7987506daea733ab810652a5",
+    "articulations_sha256": "8056360738d9e03b20b6e4e3e7f2164ebea9c1d52c0024a694d6dd7f8f9b495d",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Art: Art History/Criticism B.A. (Visual Arts)",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:07:30.4248384",
+    "template_sha256": "e27c880d80ca78c3c9aa917440ad884814e559f314ecc1fcef0c810cbf8dadf3",
+    "articulations_sha256": "0655e3e13d0ee0d09f284a4b100b2e17e2aa1f2a96c654b30fe2b3d96ce943b7",
+    "headings": {
+      "FOUNDATION LEVEL - REQUIRED COURSEWORK": "major_required",
+      "ART HISTORY": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Art: Interdisciplinary Computing in the Arts Major (ICAM) B.A. (Visual Arts)",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:48:39.6638313",
+    "template_sha256": "d32640b8bf23a6a67199205614685d3c704cf6d634571b6b27f2103ebecdae9d",
+    "articulations_sha256": "c1aa88baf531f2c82f80527ce551becbefeaa8275e63af0afbd66f81f5147123",
+    "headings": {
+      "ART MAKING": "major_required",
+      "INTERDISCIPLINARY": "major_required",
+      "COMPUTER SCIENCE": "major_required",
+      "MATHEMATICS": "major_required",
+      "FOUNDATION LEVEL - REQUIRED COURSEWORK": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Art: Media B.A. ( Visual Arts)",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:49:45.3457359",
+    "template_sha256": "d8f2464f8dd533efec7cde49e6f479d4c7fc6090218703001b1af59bcba1ad1e",
+    "articulations_sha256": "00ddb0b623e596f2b92cae530a3fd2b3fe5aa6761b724b597c1751a9a8b6bf08",
+    "headings": {
+      "ART MAKING": "major_required",
+      "MEDIA STUDIES": "major_required",
+      "FOUNDATION LEVEL - REQUIRED COURSEWORK": "major_required",
+      "ART HISTORY": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Art: Speculative Design B.A. (Visual Arts)",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:28:49.1694539",
+    "template_sha256": "c5afe02bfeef0846a34fb560bccd5a3062b8066eb3e25b3307cec28a6d811c24",
+    "articulations_sha256": "f8e9e0a9406b5006e201786da8802fea86726e1f84c7e13d0d750e03ccd5ef3b",
+    "headings": {
+      "BREADTH ELECTIVE": "major_required",
+      "HISTORY": "major_required",
+      "FOUNDATION LEVEL - REQUIRED COURSEWORK": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Art: Studio B.A. (Visual Arts)",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:18:55.5683856",
+    "template_sha256": "5bb2029ef53b2ce2c892c630a3ee2ec585c266a65d9e67fc30f5f9525e65ef05",
+    "articulations_sha256": "be60f7c70c3f400b77e4da66ecbde2b8b955df0ad5790b73c3b5e1336b32de00",
+    "headings": {
+      "FOUNDATION LEVEL - REQUIRED COURSEWORK": "major_required",
+      "ART MAKING": "major_required",
+      "ART HISTORY": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Astronomy and Astrophysics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:30:12.1624929",
+    "template_sha256": "23e64e4176a1d52ca324f2cb25e3b78c91b80e3f8caae0eedafc41e6c7f60f42",
+    "articulations_sha256": "bd0079b68ad927b59886a8cecd2d92a40b2be60a3bafd735c34ee39a57854b71",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Astrophysical Sciences B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:30:54.8106304",
+    "template_sha256": "8acd396a54ecb4f85ad08f675e7bc1c3373403fb636268880e6989ae1b9e0290",
+    "articulations_sha256": "08e9643ce4d87d2410f9685a5dcaf5ed7c37c2e9355d431ba72345b8267c6170",
+    "headings": {
+      "LOWER DIVISION REQUIRED COURSES": "major_required",
+      "PROGRAMMING": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Bioengineering B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:24:08.4500413",
+    "template_sha256": "6eef9c80fbb809ca87e6da852e653e9134cb9f7f2facd70de7ea3e04d4f02b69",
+    "articulations_sha256": "d870a8e4f07864c98c65ebadc277bd307c2770b088f1c01ea699742650aa9d96",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Bioengineering: Bioinformatics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:03:37.6097946",
+    "template_sha256": "d1a182727d0ccf2eef765d7b62dd723055472580edc04c970cd30789d366b208",
+    "articulations_sha256": "5932aa7c1bd7c4559da58ccc09b65bf9d9aa430890c6efbca9db458bf051ef95",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Bioengineering: BioSystems B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:29:06.109879",
+    "template_sha256": "3ab8f81c1f829ec5a408a013f4491c308bc17a380b48d946d9cc834fa4362176",
+    "articulations_sha256": "31f4564fc49e3b09fbc011514f4797ebb82400f1fa99995d1ccae34f9c429aeb",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Bioengineering: Biotechnology B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:46:32.1969412",
+    "template_sha256": "1981e56ccdf8fee62790428c221927d0b69c96022e90a165d3023db1d1d27b45",
+    "articulations_sha256": "f73e3e40d3a65de6d070087520d2b5ff7fbe5d1416853fd95742dff7665b4a61",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Biology: Ecology, Behavior, and Evolution B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:18:23.8107019",
+    "template_sha256": "72fe456d5454f3c8b6798f7e3fcddeaf931541168b06210551fde7c1c708a243",
+    "articulations_sha256": "ee81fdaae63a96654295261c0620beff2f05cb408564e7d324517a778ddff1b0",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Biology: General Biology B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:44:33.9236318",
+    "template_sha256": "e1d3c221799c02a2b02b6ac5750ac66adf9a4624b10edb0c3011f4a22ca72c16",
+    "articulations_sha256": "bcdd865e0bf410053b1c38b8fcac603ef197c881974f5fd96825860c7d1d1508",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Biology: Human Biology B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:45:42.1075024",
+    "template_sha256": "5170ffc311d072727c86ac59b37d34f98736f08d1f6be9b0857a1a23e8109da2",
+    "articulations_sha256": "f4d8b16150da1074e52b0bbc5998a0fd591a27527e3012123071e7fa20d2cf41",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Biology: Microbiology B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:34:14.8426963",
+    "template_sha256": "8625801c5106e28f6a9d770ed5e0b46a6787cee33c7d461019ef9bc9a1d70819",
+    "articulations_sha256": "e4e7fb56e12b805c70ee37124bdf53d68f5a9d3122c16397fad4b97e39c70657",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Biology: Molecular and Cell Biology B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:52:02.1234893",
+    "template_sha256": "6b4aaa6e1c875c33ff9c90f5ba66f53ebbf0b6545c0c098b1ae2d1a919565543",
+    "articulations_sha256": "e4e7fb56e12b805c70ee37124bdf53d68f5a9d3122c16397fad4b97e39c70657",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Biology: Neurobiology",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:17:07.6180146",
+    "template_sha256": "3105c89d92779ccf8f0cc4a126f706a07687cd87b28f868bbc31c674b5e37a26",
+    "articulations_sha256": "f4d8b16150da1074e52b0bbc5998a0fd591a27527e3012123071e7fa20d2cf41",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Biology with a Specialization in Bioinformatics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:08:03.783914",
+    "template_sha256": "37635f286efbf354bd3f9290f3cf1406379accbcd477dd5d125e7702434d1cfe",
+    "articulations_sha256": "728e784812981761d2570ef6655d375eedff987202a0e64a2380b321a8e03d69",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Black Diaspora and African American Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:29:12.6878529",
+    "template_sha256": "29c9f0defcd5d1486f0b0d5197c24d139b1e0ffef07ab6d8710531d20450ab57",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Business Economics B.S : Rady School of Management",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:46:33.0817699",
+    "template_sha256": "2fb0a3df90e3baf234005efc70069bd6a2af26d1e9b482153531c6dfe99f5c3b",
+    "articulations_sha256": "2c5c5965da21340f41fffcf3d4049c57c29773f12e032e5ad8ca7052c5463eda",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Chemical and Nano Engineering: Chemical Engineering B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:33:10.2813505",
+    "template_sha256": "eb9a82307aeb6be0d30ac34214e47ec7567c15a53f4343ea77f1c2894c6ff528",
+    "articulations_sha256": "1b614a3706f6886ee92f855b0da0efe602bc2d1ad3fc2c652af6c494f0bcc11d",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Chemical and Nano Engineering: NanoEngineering B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:05:27.2480557",
+    "template_sha256": "0128e38058707fbfb1f0db20a1f45f554e7018b6cdc276f55d256063bd6f3b50",
+    "articulations_sha256": "f96ef339f50510e39df26c0d0ad7075575695b2d2fb2186a025c6f0b960ec1f9",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Chemistry and Biochemistry: Biochemistry B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:00:14.4701323",
+    "template_sha256": "dcd788401c3dd3a19adfe3cfec718e712b4c8fb64b95368b49fa9ffc786f439e",
+    "articulations_sha256": "2d0fd634b71a11bbef250eb016d84e6342b1d5f1e009ddb4df38c0f3f27ee7c3",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chemistry and Biochemistry: Chemistry B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:56:53.5599539",
+    "template_sha256": "c6261ff96841dad76b6331c1592c2b07cca5206de24e089e37147ce6a2b73e50",
+    "articulations_sha256": "eea9e3a235bf56d6eff5dfcc70235ef3c342f0e75e0adcc9cca2ebdd1f885eb9",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chemistry and Biochemistry: Environmental Chemistry B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:13:23.3866057",
+    "template_sha256": "95d30ad749921bcf6374096d2f2403834a29360bb9890be34908475ae390fca8",
+    "articulations_sha256": "f33317bc7f3a5086c35429c9aea3d6a31374ba0ac610d9404f40505a634dd7c9",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chemistry and Biochemistry: Molecular Synthesis B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:20:32.2294552",
+    "template_sha256": "9306c9b8b5f88816f11338d196bc0c84c55edbf99e9085a99b5105410719e0ca",
+    "articulations_sha256": "8ea943969b86d0af7f561f5d533ab5b12af24637a1378f025e2d9b61ea57cc17",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chemistry and Biochemistry: Pharmacological Chemistry B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:35:11.0162111",
+    "template_sha256": "56d7e22eb14e54baaa8ba9c6ffcbe3f343243031bffcf4263dd32856c9099083",
+    "articulations_sha256": "da43d4b1ed4a583f1cd34b51ff8b5bb2df8c0b1cf3bc2256cd6faa2dfa89f414",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chicanx and Latinx Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:30:34.8398892",
+    "template_sha256": "9e1571f84fbd6d16d1aaa7f3f9a74c9065749f2e68fa1d708c50d67521411edd",
+    "articulations_sha256": "68eb0adade9b978078a4810de332bd8d5bdc0bcac9be73cd3d8818a6eed47baf",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Chinese Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:20:53.9897142",
+    "template_sha256": "aac661efcec4c51353e9a83e7877f922d8d9dc55efd0ef7375ecf0f2f0d0f77c",
+    "articulations_sha256": "c42c7d9781ea4cb709b72211d407eefeba0e039c37cb805bf121aeda1f215a55",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Cinematic Arts and Film Studies: Cinematic Arts B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:39:38.340979",
+    "template_sha256": "6562d02a3623c81f3f433c643462281f12c0373c37c0274e5c36b555da353074",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {
+      "LOWER DIVISION REQUIREMENTS": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Classical Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:05:54.8953624",
+    "template_sha256": "f172f62a6d7d383d00dbdffdaa1e10a319d980efc50ee113213180eb8c7c0cf9",
+    "articulations_sha256": "ab0081a5d283e720ffaad7097cd9148bb81828bbdfc2ed1eda461339a7b2e8a5",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Cognitive Science B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:29:27.2075767",
+    "template_sha256": "b75e884908c655ec220cedae0223d89b545244185585d5436f9a37338d1c1bf0",
+    "articulations_sha256": "0e59880843fa618b8ea45a3326c6582bc21626ca750558e461ff3c38559d24a6",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Cognitive Science B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:16:59.7509406",
+    "template_sha256": "dd1425c519799c7d7f994a543fd552a30c18658a6a3a0d3b4b77fa3a5c154a3e",
+    "articulations_sha256": "75ba079682fce7627d27ecc2d8e4b6e551e434b02d1eccd5a2c405453c9011ba",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Cognitive Science B.S. Specialization in Clin Aspcts of Cogn",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:23:30.1840357",
+    "template_sha256": "2a30d412731737d488b9591f71efb2be2158c2f7deb85e49c0200aa20c00efa4",
+    "articulations_sha256": "20b74ef4f4e1f683fad9f29015972b9bb690bd7272ac061adb54be0f99f799a8",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Cognitive Science B.S. Specialization in Design and Interaction",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:20:21.3157693",
+    "template_sha256": "88b403597d4f93c0ef5092c579fb0109eb116db20dc0b0272af3b2973452ff7c",
+    "articulations_sha256": "be2ecf7afa45fbda83d849663db3af23fc998f265350af18e1f2c3020a8b426e",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Cognitive Science B.S. with Specialization in Language and Culture",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:08:24.0725562",
+    "template_sha256": "d7b3530fd179905a57ca4bcb1b14500338ca0145df1fc940eb74a04f77122422",
+    "articulations_sha256": "2a5f0fc055f29074fc3ffefe9d526aded9874e1ee79bcacd1721239e2fdc7030",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Cognitive Science B.S. with Specialization in Machine Learning and Neural Computation",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:59:33.8799058",
+    "template_sha256": "c6cf21f45b01f811a0197825c5eea5e733efccddbdfadf2474279d8ed48aa36f",
+    "articulations_sha256": "34fdcdb0d2a3525940ae8a8d42e7aa537bc3b2b9119bd6a6bd832138ae4addce",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Cognitive Science B.S. with Specialization in Neuroscience",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:07:04.0792108",
+    "template_sha256": "808d1e33965f78318730c94bfe8c168cdb22f72fe365a487169725818bacefb7",
+    "articulations_sha256": "70367609f936ce6a2cca8086c979748a5f9c7f9532b43857bad0a2a3e8396cd8",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Cognitive Science: Cognitive and Behavioral Neuroscience B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:38:28.3687371",
+    "template_sha256": "74e482993f95a3c79952e60599958f4b4c338f26d00314131f724d6b519d3542",
+    "articulations_sha256": "8bcf77a1a72c09c4a0e8504f81293a497b83124278fd74e2e2127010bd8f5efd",
+    "headings": {
+      "ADDITIONAL MAJOR REQUIREMENTS": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Communication B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:50:51.3302175",
+    "template_sha256": "66f5491e0bfd583cb6b914363e1d903f7cadd20082fa6c99a569cc4ccee3ccd7",
+    "articulations_sha256": "a89089065f916b6959a28c065b5eb6e2bf2e35b878cd110f61a0840ae76c392d",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Communication:  Media Industries and Communication B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:40:21.0450533",
+    "template_sha256": "5759d1637c6fdcfa4c5b5ecf4274de59d934be2c5453066981de45bd83d5a895",
+    "articulations_sha256": "7b064161844d756c1107b8c7caca069a59a47cd7fdeeb4c1da858cd9b697f71d",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Critical Gender Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:55:09.5545411",
+    "template_sha256": "1251bdd2cf1f7539551c307f77c21ba710f041e7605aabd95839622b4e878fbe",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "CSE: Artificial Intelligence B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:38:08.9368491",
+    "template_sha256": "c4cdd883e736e787590e5caefcfc2579290bcbdc42abfd2b4b1d164480095a8c",
+    "articulations_sha256": "4b5cbf4377503a10036d2d402e348e185de0cc92be36d676b9e1b61dd7b536ed",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "CSE: Computer Engineering B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:32:50.9670066",
+    "template_sha256": "0d2b2492011225c9eaa5597a582f76c91c5bf6426f5ca766eb0abf44295dc48b",
+    "articulations_sha256": "cc061c5908fcdf7c28df7a345f0745b59fa4aae8771b09f8a7a3769bec7f672c",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "CSE: Computer Science B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:45:29.5975746",
+    "template_sha256": "a0858a3e94c59b2328f96d8d46b5013822c07403dd189fb44cd014c850503617",
+    "articulations_sha256": "c74a44a30bde7b6b6a4b4b46609cb8207304b357d660436643100427d50e74fe",
+    "headings": {},
+    "allow_review_groups": true,
+    "independent_sections": [
+      2
+    ]
+  },
+  {
+    "major": "CSE: Computer Science with a Specialization in Bioinformatics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:09:50.4508484",
+    "template_sha256": "4cc0991c77bf2c157343ed901bf83e049a52b196b6ff79e46eba62041c6a7da4",
+    "articulations_sha256": "f7b15c452df5731725f98b2886fa42f1629eec8a570a00c7e8311594c947649c",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Dance B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:08:02.9280386",
+    "template_sha256": "0c3e33bbbe7673fb47211600a49273e2b483c99b91a0b9b1ef20c4f938d0a54a",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Data Science B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:18:14.7272704",
+    "template_sha256": "97b81350fb9a949c61299564ea71b21c88d58e673e8867edfd799e90728f43ab",
+    "articulations_sha256": "b8b0d7618f4a7e4922468efb4f721081e75a74d54671c07696fbbd5481e6451c",
+    "headings": {
+      "LOWER DIVISION REQUIREMENTS": "major_required",
+      "ADDITIONAL MAJOR REQUIREMENTS": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Data Science: Business Data Science B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:31:59.7107555",
+    "template_sha256": "931b9d889623fda3bd349dfe99a03d18a7c03a2c35aaa98ae797c067ef2399f3",
+    "articulations_sha256": "a8ed1bd4049504503bf1e250eca0fc0b6807e5796582cd02bd1c15dcbe349e71",
+    "headings": {
+      "ADDITIONAL MAJOR REQUIREMENTS": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "ECE: Computer Engineering B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:46:00.8020376",
+    "template_sha256": "c0136f45e43fa0479dca42fca8fa0876e44360122854b9c9c51c504bf3d7b608",
+    "articulations_sha256": "bb56a6948a04ef229b1b427093943b2e145b6ddb8208e6647cedf81999943213",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "ECE: Electrical Engineering and Society B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:02:37.6384067",
+    "template_sha256": "097cf482e0a3435269ec28442e7379407164e65faa11d0bfac52d3af3ad8b255",
+    "articulations_sha256": "c33b7818711c9c7c9f7ec2bc4365acb92847d14b76d9b811d676f20d13ea0379",
+    "headings": {
+      "POLITICAL SCIENCE STUDIES": "major_required",
+      "SOCIOLOGY STUDIES": "major_required",
+      "ECONOMICS STUDIES": "major_required",
+      "HISTORICAL STUDIES": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "ECE: Electrical Engineering B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:23:47.6020261",
+    "template_sha256": "75349cb77cd04666ab5b0d13b8538d9d0d17f1fc7f6c693ddc4cca436876b2c6",
+    "articulations_sha256": "77d377ef6d01f42b00a9250bada826e7f9a2ed0ca5ab82768fb5b970066b4255",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "ECE: Engineering Physics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:32:59.9286423",
+    "template_sha256": "983d120b4cdf351f9e58d035c06c54d03138d1ba96f51844faae5c750134e7dc",
+    "articulations_sha256": "b8c267b9ee548994fa9c8df49301e66147af87c96014debd05fbda0a2358ddc2",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Economics B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:09:59.1425278",
+    "template_sha256": "d5b305f8acd8f266a1d37c589d14e20b7609ce0883d6a09316f59a32011cdbe7",
+    "articulations_sha256": "9adbbe80a0a371b19be9931e137aeaee333e2d3e3723267a854e7c53691e12ff",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Economics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:42:07.9422486",
+    "template_sha256": "295e074e71ccc24273d09ec5a68fb6deea422a5ca7cad998593a5494d3af4cbb",
+    "articulations_sha256": "53536c886111ea4f97b17290c4e2fbef11667ab2f6175d8e780fa5fc134c0a25",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Economics: Business Economics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:28:32.0386026",
+    "template_sha256": "10aaa734db3bc3c2496327301eb0cd033ac3895275c90c5a3ad48a3808bafd2c",
+    "articulations_sha256": "f049875ee572567410b5e2bd9279ead73263659807a35c09f3e2a5c5689ef71c",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Economics: Joint Major in Mathematics and Economics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:56:32.4057715",
+    "template_sha256": "a6b494d6bbe1daba6fcb9032504a8dc2806648012e2ea10842a63aae60b58ffa",
+    "articulations_sha256": "1b57d12c7f242a3ecc762d91613d4b4680e12c7e171ab70f83cd8ea7b259b735",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Education Sciences B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:46:16.40103",
+    "template_sha256": "4fc729abe074c9dc211df35ad4961399da9770e0429c60d5bab9458a1005d945",
+    "articulations_sha256": "637edef4d859ce588f446c395c399b7f2a6f2ca1aefe0e34c4de68396e6f4c32",
+    "headings": {
+      "LOWER DIVISION REQUIREMENTS": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Environmental Systems/Earth Sciences B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:40:31.5774294",
+    "template_sha256": "c6462a509c0cdeb41d26871353230e543741704d935db885720c1f851baa7871",
+    "articulations_sha256": "04e4a15d87949d2a630a23b737a5d8c8e01adf85f5249c5685a36010522faf67",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Environmental Systems/Ecology, Behavior, and Evolution B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:30:42.829728",
+    "template_sha256": "4d5e6c3a18f2bd4edd6d843078c55e75ebcd6bbcafed60ac4cbcefaa2a09089a",
+    "articulations_sha256": "16c38991af2f9ca5a07b6d1617e0678b76313f20d24fd9567167a8e9242f1b06",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Environmental Systems/Environmental Chemistry B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:22:26.7729994",
+    "template_sha256": "6ba604021884b32f8f2d50a8cd9e6918b8f747ba54736d9233eac67b997010ea",
+    "articulations_sha256": "285cf3f86357352487a1d7c7816503e46e1178b56943411277b66d2aff296704",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Environmental Systems/Environmental Policy B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:08:54.5072005",
+    "template_sha256": "905f20e52f79863908d679b903108969a5266e947b899b319c80e71b934d483a",
+    "articulations_sha256": "d7fa20cc85b23d4b751650f41695a096d533d0ae4b937de953b5914091369303",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Ethnic Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:49:39.7610426",
+    "template_sha256": "93bd2fe9c0b40ee7f4ff8f7dd0f3c84f8219c9991325376c42c79f13908a4f24",
+    "articulations_sha256": "0d96fe178a6fa72eba57854d47a68e7cc6645d9fd24e68e523fc16d275e905a1",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Geosciences B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:12:10.8309338",
+    "template_sha256": "b62c7f549686a9a16f72ba708d1cc3bf4a9197a88379870647d8775287be56f9",
+    "articulations_sha256": "990d9df0049d6e9031bfb852ec35febc85b31f8aa141cee74f124bb74637452a",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "German Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:45:13.5050575",
+    "template_sha256": "a2fec0e468bef5ab06060a9fd3a39455bff4d08ffaa118c1d94af4a83354a867",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Global Health B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:42:12.426186",
+    "template_sha256": "ed67d9f48f4c227cf605f2408f90a5038c6affcec65822017874c52f69d7e13f",
+    "articulations_sha256": "69ee6d011873685d02148c9f745e73856c2ea4949f054ab59609e1dfc11e7a18",
+    "headings": {
+      "ELECTIVES (LOWER DIVISION)": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Global Health B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:11:39.9064989",
+    "template_sha256": "34726a55e3cc9e509bfda92b62140d6a01354ade024db077233911a035e31dc5",
+    "articulations_sha256": "334cd9f904bfbb17128f55d1f9a11a37a5df587af06c110b6d16b520dc1f332a",
+    "headings": {
+      "LOWER DIVISION CORE": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Global South Studies (Formerly Third World Studies) B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:32:22.0070144",
+    "template_sha256": "c40e918a8eaebf4b1daa8eed7db16f5b8937b5adb6cddd30f58b1a969bedd5cf",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "History B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:47:02.0005135",
+    "template_sha256": "b3540afdfb1e545d27e672f2898a068558f078596777c078f5b35d71dc7f5873",
+    "articulations_sha256": "afcfd8a5a0574281e86c9cf4e1b8c15dc89b530d1f23d8f2124e71c401a9636b",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Human Developmental Sciences B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:35:44.4206179",
+    "template_sha256": "b121a1234414d52347a7994fe35de875ccb75ed338a944cb7c00a064bfb2f53e",
+    "articulations_sha256": "9917b22000e2e677f3845e2acc7d2a27e7177254d2258f9a2c19525d3709d6e7",
+    "headings": {
+      "STATISTICS": "major_required"
+    },
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Human Developmental Sciences B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:12:47.5243005",
+    "template_sha256": "df504337dbc2540678d126622f383ae414158f012b426e15ce73127e8f7d4d57",
+    "articulations_sha256": "cedbe249a2cb09a2d745f60c2ab65818575c769d01769bce31ffddc80da0cd9a",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Human Developmental Sciences B.S. with a Specialization in Equity & Diversity",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:35:59.6448615",
+    "template_sha256": "0a50d0863a918b462f7034146f883c0563502f4dd314c9ebb0038f4f124922b8",
+    "articulations_sha256": "8262faf892dd586675c7e4e862ade64fc1c88b3fb19a0ac7f1be8bb6813cc3bf",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Human Developmental Sciences B.S. with a Specialization in Healthy Aging",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:06:42.5429991",
+    "template_sha256": "32998271a6f19ffa86d25fa52a81e23ff37de2674aeb3e681917aeaffd2675b1",
+    "articulations_sha256": "861e8a7abac8fa01681b47442db968581682c62e554af00c04170dbd8d78dc8e",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "International Studies - Anthropology B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:04:50.633541",
+    "template_sha256": "0e5ebe566f04c7b1183d384258de6967ed29bd6308c3926cd960aaacbe9d6b92",
+    "articulations_sha256": "9e3e42180e681d89ed3ee0709063a62da015097d112ffadd8890c4123afb55f4",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "International Studies - Economics B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:13:37.7177049",
+    "template_sha256": "6fb4bef0c1e4585c8e6513dc36331efb256ad66fc2d433fe024f65645e4de5c6",
+    "articulations_sha256": "891e8a20a989605caeceaa1216a3a384a7d123ce9977e5b64015956e57c72476",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "International Studies - History B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:16:57.1360581",
+    "template_sha256": "405e6ec0cf426aaf693686a2896dd78abddd647c8a82cd5ebd69615a5a65efac",
+    "articulations_sha256": "f292cf54e37bcae4fc27eb0703514d807a1ab09eae6bd35647baecf8b0145712",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "International Studies - International Business B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:49:29.3089488",
+    "template_sha256": "d4d7bff0e3abf9cc84243019bfe8a336781bbf7a6b5a08be1ad1ca2569b3f7d3",
+    "articulations_sha256": "e58eef12f6d9a9f09d2305f1f60b653729fe85cc16a3df3e08bda210794d7897",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "International Studies - Linguistics B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:30:27.0354576",
+    "template_sha256": "d01f26a66d95a525289e8f57f7f3d1a056a2ed38640387ff15e465de81b07876",
+    "articulations_sha256": "a84563d53d75178750ac000564f0a50b647fec8db1353f7f4fc852fa0a1704e2",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "International Studies - Literature B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:15:33.5290002",
+    "template_sha256": "7c24e6fb13f62b729c1c8997aa0387e92e12c04fa5c66dd249d19c4b0a893968",
+    "articulations_sha256": "ab56e871f0fddedf7e951838b85ab49fb5748e08d6b752a54bb0c0646c00021e",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "International Studies - Philosophy B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:08:57.3043434",
+    "template_sha256": "34d66720431875d82f1e167141639c3c9e3c3a0bfc889023084b8203d0009f19",
+    "articulations_sha256": "18e507fc21c40d89aeb63d0db028b1c6b723d5d99563ba78e97311673a0e4ca8",
+    "headings": {
+      "LOWER DIVISION REQUIREMENTS": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "International Studies - Political Science B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:17:18.7153647",
+    "template_sha256": "9211126a7637c669cc7f443f4d392e2431a2b4ee73ae14260c5fd267f073d837",
+    "articulations_sha256": "ca384c14eb73db3c2b6f9516cecf74c7c636304cf8df5ae13af4dae3c56dd238",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "International Studies - Sociology  B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:25:38.456353",
+    "template_sha256": "83cfb03de7cc37b53fbe8edb7ef4dbc0ed91c66aeb5f76face157ad9944150eb",
+    "articulations_sha256": "0a8cd91b556ba7874ff831e3733d2a9bd7a5b17200006bfe62f3296d2fdf0ded",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Italian Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:10:22.0126869",
+    "template_sha256": "b72d0089afec96dfc10a20ecd4fa0116d9a283f85582798c6d2df674358380a5",
+    "articulations_sha256": "26e7e3cc6ac358518c40ed2daca6a489910176f0f8e61cbc1ec986a42476668a",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Japanese Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:28:18.5210012",
+    "template_sha256": "ec165d30e08bed11f5c72cab1606ca60c52cc9f36eaf21d054189d203774937f",
+    "articulations_sha256": "b2ebc40f69fd55e4fc0fb97e4a230387da83f78b8fbce7826781c727d72ddc0a",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Jewish Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:30:03.0244378",
+    "template_sha256": "fabe54643a6a9d916e539aded549c1fdcf287c35582476fd3890f1746019b8e1",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Latin American Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:47:12.5970086",
+    "template_sha256": "037b0fca725e643e39ffb52b9e1e768d349ded26afef4d379df57fef0d497cc0",
+    "articulations_sha256": "690d129c3c7eaad5d79a81166c76a616ad1ab40b18c2e9d9327cfe68d221ae94",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Linguistics B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:17:29.7478733",
+    "template_sha256": "b46f609fd881afea18f5435f47bd1e66f6c319b3c2edde4d114886096eccb7fe",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Linguistics Language Program",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:43:59.7162459",
+    "template_sha256": "10f6f7456a6bb56fc50ac9a25357adea2cb8273a175be1d578ff84cc763af541",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Linguistics: Language Studies Specialization in one language B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:51:24.8443898",
+    "template_sha256": "d1833f4f70a9c610a5667a566b0a280777cfcbe89e736c91e00829ea347839b2",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Linguistics with Specialization in Cognition and Language B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:51:59.3242474",
+    "template_sha256": "d3b912fe089461af59a7170bd133d6854685adc8fd9a1338eab2138152f7572c",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Linguistics with Specialization in Language and Society B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:53:36.5362061",
+    "template_sha256": "80a59d77179f7f348014cb3ebc904d908c99be100611a66f99a093e7810f89e1",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Linguistics with Specialization in Speech and Language Sciences B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:20:03.8277057",
+    "template_sha256": "2104ccf8d6c628a2fb5396e1420b70bd82c6464ef8690a082a10d9c1b319ff23",
+    "articulations_sha256": "303dee51b1c84f86619807784119b0d13d81e7a1210d7582765b2725724d8da7",
+    "headings": {
+      "STATISTICS": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Literature: Literary Arts B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:30:45.6945528",
+    "template_sha256": "804a2776fef9807a089adee0281c760d025976c1809d42482ed5c16f841a121c",
+    "articulations_sha256": "946b9066054d1a745db83533e8aa0cae033acafc1dd89e34b3102b82a7983df4",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Literature: Spanish Literature B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:14:39.6793274",
+    "template_sha256": "58dac74422832a21de56d0fa7dc57321dc2d0b996c1b1ab216ee37ec722398d4",
+    "articulations_sha256": "0dbe64550704609db03b36ce9ddd479be8732dd01bc21eaa5fb3036a14575b2c",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Literature: World Literature and Culture B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:21:46.1269842",
+    "template_sha256": "28b8cfaf0fe650f7e5b0c31aa70c1d69d16852f7075d044f65e787a24eba0463",
+    "articulations_sha256": "f95e6161dcfccc689f17bf5d023747d1fd74763d563e0393419a53cd3cfb38cf",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Literature/Writing B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:47:33.9663209",
+    "template_sha256": "5100464ab2508090133c2523dbf3dca189282c5411844600d01c306ff99814ba",
+    "articulations_sha256": "19f23b0410c5a2866bae3b0539e3efd3f437b03c7e3cb76214b752a23b7a7493",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Literatures in English B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:15:23.7884839",
+    "template_sha256": "ac0cd28d397f5f3b0c5f965ef5f5862c4a64ce15a7f34778b26a14808b482c7d",
+    "articulations_sha256": "9f27c0cc53341385adb5774e682ae28f2f57a6ff3a0a5f09c20bfc2f24bc342b",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "MAE: Aerospace Engineering B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:51:10.0930185",
+    "template_sha256": "e9eab1c9285da885d73ac8c7c9a89fbd420b12f004a2931f78e85ec9266dda2d",
+    "articulations_sha256": "b751b70f36b2a02423b2f8675677601801f07eaba66b9306dd971e95b8280875",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "MAE: Mechanical Engineering B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:49:41.1556319",
+    "template_sha256": "2ab1b44c4c84b34e3b4206b6a40a2685c297dd4fa8ff2dd699ec08e1f012a044",
+    "articulations_sha256": "836b6e1e296fe57afbbe6fb6e031a7e320e781bc61b5755aa0b6fea9457804f2",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Marine Biology B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:27:56.0013542",
+    "template_sha256": "8921ca87dde07c8e4a83004aaac202aaec3aa925a1964578bd47a055fd148c10",
+    "articulations_sha256": "e4f3a00ad8885dacc558e404ad02c6cbafb97e8da6a18ef512ea35ce0f932daf",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Mathematics: Applied Mathematics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:02:50.0439041",
+    "template_sha256": "a9471f0278c7b39fcacbcb8832579b6324c25f441bbd1ea46be9043a6f98a1c1",
+    "articulations_sha256": "ee31539f3ae5d7a2a2781e8f611ea190d6e6aed80c7b02e527388df2c569a883",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Mathematics/Applied Science B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:25:21.6556795",
+    "template_sha256": "397fbd4138facd5b479c40c68d291b55215a58c6ef845f62962992463cbf541a",
+    "articulations_sha256": "959020c8a4fc68fe1a2a2f1a35403104a13226f6fd8e43f83883573fa1ba593c",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Mathematics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:18:16.0014735",
+    "template_sha256": "a0f2c7881a3f66560744f636b4e0f7d36dc0b8ea60dc79059aea7e2a1730de1c",
+    "articulations_sha256": "97a44432ba46be89c5b16e78695f66af40eaa913b2831389187f71a7a8157271",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Mathematics/Computer Science B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:21:34.6065059",
+    "template_sha256": "5cbf3c9746abc0fc4d4052d13fac1f9060df401a94232b9c8f7981de737bd03e",
+    "articulations_sha256": "ebb089e2e8d5bcd5f34d854a447a0d048e4c39e73cba399607220b7ba382f08d",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Mathematics: Joint Major in Mathematics and Economics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:27:19.7773728",
+    "template_sha256": "29fe212beb055ba9eda1ac9d8856dd6766a11ba2ce89266f8bfa089430bc2ff2",
+    "articulations_sha256": "a4a2740e90b91352358fda55c44346393bd607bcf41db83193a875425b1a6f2c",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Mathematics: Mathematical Biology",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:28:41.4665567",
+    "template_sha256": "9b62606b7ea34b1054fe4b74da5bb4bd123b1cadeb351d8ef9f92f7a39797d4b",
+    "articulations_sha256": "683673aafe0db714ab803ce2a6d04f420d926a1d2df85df3a8373c8bfab91ded",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Mathematics: Probability and Statistics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:06:02.4304433",
+    "template_sha256": "28104ef10553c20d3c67421a310656cd69f042c3e931b8faff77340a37654a33",
+    "articulations_sha256": "01d09eecc1a250f2f8b4866e2faf795e8fa5030d353aebbf5983bedf374ce854",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Mathematics/Secondary Education B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:54:01.1012342",
+    "template_sha256": "b516215979931dae867b3ca88230ef7a5dc3fb61bdd3d29a4bad538a1732863c",
+    "articulations_sha256": "f216044781cdb14efeda7a20f278aec05dd6c97559b4064b90f4d81d87432794",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Music B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:13:57.0993928",
+    "template_sha256": "741649345718bc1505018ad017834c9762881034a3f4affcce892df66b5c0bb3",
+    "articulations_sha256": "9f4092928e846b15eaa5b0d100d9a2786e559cc501f13f55f57a5552c8f87708",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Music/Humanities Major B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:26:54.5437349",
+    "template_sha256": "77787ef7765b6c7b4c2f0babc1e59ff5ebb78f57f2b8b4637ab31c37a99c2104",
+    "articulations_sha256": "7d2f3e405901b429fbabe545eba800b32f6fb3af8210fb6f74324fd3d7c89278",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Music: Interdisciplinary Computing in the Arts Major (ICAM) B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:22:34.4204307",
+    "template_sha256": "af3d06d86a2e23b8a3143abd58a6c3303c2ad692a8f880977628504cc4c6fee6",
+    "articulations_sha256": "3705a0cdd519f109d18f2d210c76d2523719746dcb0c2fca52ee439ece746909",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Oceanic and Atmospheric Sciences B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:29:11.3371634",
+    "template_sha256": "e7c3b301f62c69a080f3aace2110b743093784924acb839f54df9cefd5553132",
+    "articulations_sha256": "fd334caa8c253329b5bb0021cab6f9212fffd5fe88aad1d641ab511078df62c0",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Philosophy B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:43:23.6375552",
+    "template_sha256": "b329ca45c10c049de2287b2f83a8eb63f6b3bd50ca7f7e131c5bdcda1b8c7601",
+    "articulations_sha256": "cdf68a85053b30f99f8b708647377f30df4541d30b02e2566f718cbec81d1b2b",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Physics B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:00:20.6515655",
+    "template_sha256": "613c939c569940742cad4071ed1c47693a5666e0e10e4af6e42ddf617fb6f134",
+    "articulations_sha256": "05f80781b1f5737b81eb924f3a4f8be2ecebcd9c7227d88c5ebbd7551c7ade68",
+    "headings": {
+      "RECOMMENDED BUT NOT REQUIRED": "highly_recommended"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Physics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:29:52.9742191",
+    "template_sha256": "824e42848d178615d5063e6309b1594f6e20298164594d8412b234ba8c8583e5",
+    "articulations_sha256": "ae7fede734e8fd82d0d7dab671d53ebc6460f2908ba46c6666347d8f2ee086a2",
+    "headings": {
+      "RECOMMENDED BUT NOT REQUIRED": "highly_recommended"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Political Science/American Politics B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:10:31.6768296",
+    "template_sha256": "49f2a3a7283b6bdc076340f942329060b13915bc649d559b9c215ff2416ea572",
+    "articulations_sha256": "4b8817f142284adc9f3192fee8d20d06a1497dd1e43d875a4fd11fa8734ddb9e",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Political Science B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:12:09.9935193",
+    "template_sha256": "2cacbcb3910fdbe992e05e86bdb87dee53e1fb183274d749c94d02e19213a704",
+    "articulations_sha256": "2c83b869f35cc8ade33ccdb4b5c191d8776e97f26bd6cae60732c32d75549192",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Political Science/Comparative Politics B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:31:59.1553231",
+    "template_sha256": "db25f145eef985333bb8059eee56318b796cac5d9592b652bd5854aec16ec932",
+    "articulations_sha256": "5083c565e01695abd8da963f85491ed5dfe7f93ff82be3633398b1ee0f55b603",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Political Science/Data Analytics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:16:07.8240995",
+    "template_sha256": "30da26a47aae95d62853ac7a7bd541e22b52574e6d3b49623064d49bdbddd0a2",
+    "articulations_sha256": "442defa99b797a5a072237063d5c8758961c385437e18dd527a74e74904a7952",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Political Science/International Relations B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:11:56.4475432",
+    "template_sha256": "43316dbf0203631381a445bcb210efd5128e48fb00cfc30a2e84650884782e96",
+    "articulations_sha256": "4b4b4ff4417d55c31f692f7806e7ff58a3c2d75bdaa697a7701d00161341e95c",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Political Science/Political Theory B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:57:56.8979919",
+    "template_sha256": "45fd54a79d6080d92177957af5bf39735e51eaaef4c556eb8fec3ae68f47a4f6",
+    "articulations_sha256": "f5fb3521add435644de7649471e9b4f0a1551bc91d0bc4965222327c40450f20",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Political Science/Public Law B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:26:23.9083828",
+    "template_sha256": "4cc12fbcd92eeb3a8aee661af1c598010efc16c0502de993369db38b607047e4",
+    "articulations_sha256": "2883c59263e4ce95c163051c0eb9a1de8fed81a4f5424d2f751faa144bfaaeec",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Political Science/Public Policy B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:12:45.9550729",
+    "template_sha256": "0ada34b614120028a4ca9dc0183c5e4a7ca51f09679f69e30e09232d4cea2d7a",
+    "articulations_sha256": "2e5d1b10acf9720501099f8928317f1abaa58b7fed9eda43d19b3537a93bc1e9",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Political Science/Race, Ethnicity, and Politics B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:35:03.2575812",
+    "template_sha256": "4c737b1ce7254f2aab45573ed3e5f1becc1742fe504676c6312521bcc9764ea3",
+    "articulations_sha256": "6aecb3c3cee7087bcc3fe22301ea6327f876c10908f83f1b4ad5e4ccb8371254",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Psychology B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:10:54.9775922",
+    "template_sha256": "7d88e59796ae6cdc7b2a66021a6f2a220d329942447734ac2478d970f3b04b6c",
+    "articulations_sha256": "0e0b39fbcc1cbaf1fa869408ca044e352de8b36753fbd1809ff89a53da918657",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Psychology B.A. with a Specialization in Clinical Psychology",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:31:10.4688831",
+    "template_sha256": "8ed3af7f0325e2229af5bc6e383e917bca010ab7b971536519c339562937c45f",
+    "articulations_sha256": "1711e3de9de2bc7f34c40458f8e74361c164554467438f12f43d45c167196f2f",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Psychology B.S. with a Specialization in Clinical Psychology",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:01:07.7787236",
+    "template_sha256": "245d433e19ca937b71d6977e74afe4a374a2d9307870d295e2abb064461a21fc",
+    "articulations_sha256": "54e842248dede66b0bdcbdb8fced44774766f115f177a4a4104ed28b96c7cd33",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Psychology: Business Psychology B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:34:27.4951247",
+    "template_sha256": "5844f263d090810a7d4e632dfbce84c0289b8d82d91a2f0a9b4fa6f56223dd61",
+    "articulations_sha256": "25d376ec383a175d710dc938b468a4b7753d7f08899c92cbc652bfe82afadef2",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Psychology: Cognitive and Behavioral Neuroscience B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:43:28.6814388",
+    "template_sha256": "629b32c8b43ea82bc6228185756bcdfad3e00b27f84a0911549c97f1a97601b2",
+    "articulations_sha256": "81e0321df366c6b7c84a29d1b5251fc4f0f9a6152d5098228ed6f9ab4e5173fe",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Psychology: Experimental Psychology B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:47:51.8397895",
+    "template_sha256": "9fdbb3dd4329a0828db87e1fa579b6a087b53a4243825855053d56eb802887c5",
+    "articulations_sha256": "e06d1d62297d0ab7c9ab3ef87799c683fc07e756b1b209fdb486565fde0a0cdd",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Public Health B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:21:09.8863483",
+    "template_sha256": "1a5c13fb1e2c8c4412e98d30202608d0e44b63c411e1a1a935120770b21998d3",
+    "articulations_sha256": "732dbc1ac3d7726108f68611882b5ea9a835c67ccfaa03d6a4b77ca4e4694946",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Public Health with Concentration in Biostatistics B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:59:06.9085696",
+    "template_sha256": "ead02ae438608042f2961720b1618cdf0acf9fcd48e9e9e16d457233005ee3ae",
+    "articulations_sha256": "7c8421be708d6b6539cf703138ad8d70f16b0a192aa7027ea21ad9e3a07f4f22",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Public Health with Concentration in Medicine Sciences B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:19:40.1647185",
+    "template_sha256": "c9b6082c767e62a21fb75741bd294de8ddc404105f231b1bbd6f817f82eddcb2",
+    "articulations_sha256": "a44c20b3132f1b6ade2e1f1edc77c602e8fa223147da4d47754092ffb0006c4e",
+    "headings": {},
+    "allow_review_groups": true
+  },
+  {
+    "major": "Real Estate and Development B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:29:44.5368048",
+    "template_sha256": "e042cda0690f4c48a5538d9a276b39587a543ed190c14547bb5878a79acc7624",
+    "articulations_sha256": "a9f671c81cccbae46f77a7ff8481c7be5b78f64f33b13423f5a289b57c4ccb40",
+    "headings": {
+      "LOWER DIVISION REQUIREMENTS": "major_required"
+    },
+    "allow_review_groups": true
+  },
+  {
+    "major": "Religion, Study of B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:16:42.0838595",
+    "template_sha256": "cda5475168718b3e0e7bf1a8d789da762c20e42608807d7663db8a65d70f7f44",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Russian, East European, and Eurasian Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:12:26.0430886",
+    "template_sha256": "0a6b8fbd483aaa0e60a8c1786da3de93072815b2437f43619f22eec3f4b9287b",
+    "articulations_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Sociology/American Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:10:10.2274424",
+    "template_sha256": "fdf9ab9cef0a98e57ee018b2f265c375a9faaa5517d243e605d4bbaf7aa774f5",
+    "articulations_sha256": "0dcd61bcd44f8bddff32061868afc01928179702307251ddf73ec4ed5900d212",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Sociology B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:22:37.2458306",
+    "template_sha256": "6052501196fff982b9aac5736183855e87297e7ce3a1095807a77bdbb221b90f",
+    "articulations_sha256": "7d6c6a9b2b038ff9459a922b7788a61b70b6d79ef0ef5b4769c0a33a0aecc595",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Sociology/Culture and Communication B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T17:49:54.2170966",
+    "template_sha256": "7f1a9d57d89b79fba7e00aa2f33d0a3d9f38cb8f1dd921cced2e75d573c0b896",
+    "articulations_sha256": "c614371933a25a681b47949e9bb02d0db797dae9be09a3bcc81d6b8d7e166909",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Sociology/Economy and Society B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:36:55.442453",
+    "template_sha256": "4101ab581967ea02f0823c08f8e9579c11ff00e553fe50a44b1392f1d822ec1e",
+    "articulations_sha256": "658da6d6b9af67eea4da53bd03966ba91d8d83bb3ffd5b0839d6b56c56d8e4fe",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Sociology/International Studies B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:19:18.872967",
+    "template_sha256": "e16fee4066aa085b83da2ea4c94f550bda8d3b1d681c86742a3cefa5ae7f4f9b",
+    "articulations_sha256": "ae3e70c037e78c4919b03394dd4f5239374afafd7347984df55f214d9201d301",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Sociology/Law and Society B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T20:26:34.9410033",
+    "template_sha256": "d27282aac4fc6d60a469b413be74d3aabb5056b42d67aecf56417745f6a54b30",
+    "articulations_sha256": "e8d7073e2a378c9d144843c34a96e01223e8f22aea0bf82ab83cc46013eebdce",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Sociology/Science and Medicine B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:56:29.7332639",
+    "template_sha256": "77ad7098c8fc0fd60a371e2eb76fb17240b925bc2913581fc8ff72cde95a4fc9",
+    "articulations_sha256": "d00afa7aecc7e93db644c3e996ab82ab6a28a155243d63422780f225951af731",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Sociology/Social Inequalities B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:23:44.2837385",
+    "template_sha256": "7c369772aced7b77d9d9bfb9d5aba2501d56f1eae58138e4cf034454c87b6982",
+    "articulations_sha256": "a18d3d1bc6663a1a2c0811cb3b39cb19c1e07fee4e75ec544a78858ec5446d7b",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Structural Engineering B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:55:46.3747768",
+    "template_sha256": "469c9e2c4b2c55be77d9a2eaf92ce0f0f303adbfa3760ef970a30edf3772ec9a",
+    "articulations_sha256": "d53ef61debd5abf6e4c7dc15967d3904e48cd6ae9bc1d114f6db426a85b663a9",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Structural Engineering with a Specialization in Aerospace Structures B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:43:03.2695189",
+    "template_sha256": "ddefb077ab45e3e2aa1713a06bbb4da817db550b107ccc19aee7cf7c0304da78",
+    "articulations_sha256": "d53ef61debd5abf6e4c7dc15967d3904e48cd6ae9bc1d114f6db426a85b663a9",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Structural Engineering with a Specialization in Civil Structures B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:44:46.596841",
+    "template_sha256": "ddefb077ab45e3e2aa1713a06bbb4da817db550b107ccc19aee7cf7c0304da78",
+    "articulations_sha256": "d53ef61debd5abf6e4c7dc15967d3904e48cd6ae9bc1d114f6db426a85b663a9",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Structural Engineering with a Specialization in Geotechnical Engineering B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:43:57.4484484",
+    "template_sha256": "ddefb077ab45e3e2aa1713a06bbb4da817db550b107ccc19aee7cf7c0304da78",
+    "articulations_sha256": "d53ef61debd5abf6e4c7dc15967d3904e48cd6ae9bc1d114f6db426a85b663a9",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Structural Engineering with a Specialization in Structural Health Monitoring/Non-destructive Evaluation B.S.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:41:14.6939285",
+    "template_sha256": "ddefb077ab45e3e2aa1713a06bbb4da817db550b107ccc19aee7cf7c0304da78",
+    "articulations_sha256": "d53ef61debd5abf6e4c7dc15967d3904e48cd6ae9bc1d114f6db426a85b663a9",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Theatre and Dance B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:47:07.2800516",
+    "template_sha256": "3d6fb096920c8cfffaa2ebae9792ca39c49a0c8250bafacf6c2e386a1aca01e2",
+    "articulations_sha256": "b3df9fd8f63140f11a286afa66cb26071281ede6b4946ae6248e53a7205858f6",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Theatre B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T19:32:20.0706039",
+    "template_sha256": "3251eb937319abd468cf290dc527a7337f75d449abcd83a7fd2a18cfdb8b03f6",
+    "articulations_sha256": "a11df6cf884d37809518e4f1734df57a9046d353d64284f2544545471ca22349",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
+  },
+  {
+    "major": "Urban Studies and Planning B.A.",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "source_publish_date": "2026-09-14T18:36:40.9569271",
+    "template_sha256": "9488037b65553ff43c6c28af3280ea014eaa6e26d94dfe7fc65a544cc7b5420b",
+    "articulations_sha256": "842898e44673f810e64e1c46c6c5222dbea764ba470e204618e7c521175df159",
+    "headings": {},
+    "allow_review_groups": true,
+    "initial_category": "major_required",
+    "blocking_issues": [
+      "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    ]
   }
 ]

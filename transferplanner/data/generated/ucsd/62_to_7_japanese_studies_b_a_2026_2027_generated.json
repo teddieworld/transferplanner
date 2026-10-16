@@ -1,0 +1,703 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Japanese Studies B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "JAPN 10A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "JAPN 1"
+          ]
+        }
+      ],
+      "department": "Japanese Studies"
+    },
+    {
+      "text": "JAPN 10B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "JAPN 2"
+          ]
+        }
+      ],
+      "department": "Japanese Studies"
+    },
+    {
+      "text": "JAPN 10C",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "JAPN 3"
+          ]
+        }
+      ],
+      "department": "Japanese Studies"
+    },
+    {
+      "text": "JAPN 20A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "JAPN 4"
+          ]
+        }
+      ],
+      "department": "Japanese Studies"
+    },
+    {
+      "text": "JAPN 20B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "JAPN 5"
+          ]
+        }
+      ],
+      "department": "Japanese Studies"
+    },
+    {
+      "text": "JAPN 20C",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Japanese Studies"
+    }
+  ],
+  "receiving_course_titles": {
+    "JAPN 10A": "First Year Japanese I",
+    "JAPN 10B": "First Year Japanese II",
+    "JAPN 10C": "First Year Japanese III",
+    "JAPN 20A": "Second Year Japanese I",
+    "JAPN 20B": "Second Year Japanese II",
+    "JAPN 20C": "Second Year Japanese III"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T17:28:18.5210012",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "32af6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p><strong>Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. </strong></p><p><br></p><p>The Program in Japanese Studies coordinates a variety of campus offerings dealing with the language, history, culture, and political economy of Japan. In addition to courses available in the Departments of Economics, History, Literature, Music, Political Science, and Sociology, qualified undergraduates may also enroll in Japan-related courses in the Graduate School of Inter- national Relations and Pacific Studies. </p><p><br></p><p>The language requirement may be waived by demonstrating the equivalent proficiency through exam. Please see our website for more information. <a href=\"http://japan.ucsd.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://japan.ucsd.edu</a>. </p><p><br></p><p><span style=\"color: rgb(169, 62, 58);\">Required: 2 years lower division Japanese language. </span></p><p><br></p><p><strong style=\"color: rgb(169, 62, 58);\">JAPN 10A-B-C &amp; JAPN 20A-B-C = 2 years lower-division language.</strong></p>",
+        "groupId": "31af6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 303557,
+                      "courseTitle": "Second Year Japanese III",
+                      "courseNumber": "20C",
+                      "prefix": "JAPN",
+                      "prefixParentId": 9515,
+                      "prefixDescription": "Japanese Studies",
+                      "departmentParentId": 7918,
+                      "department": "Japanese Studies",
+                      "begin": "F2007",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2c0b77d7-996e-4030-c1af-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 303443,
+                      "courseTitle": "First Year Japanese I",
+                      "courseNumber": "10A",
+                      "prefix": "JAPN",
+                      "prefixParentId": 9515,
+                      "prefixDescription": "Japanese Studies",
+                      "departmentParentId": 7918,
+                      "department": "Japanese Studies",
+                      "begin": "F2007",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c8bde395-bcee-478d-c1b0-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 303555,
+                      "courseTitle": "Second Year Japanese II",
+                      "courseNumber": "20B",
+                      "prefix": "JAPN",
+                      "prefixParentId": 9515,
+                      "prefixDescription": "Japanese Studies",
+                      "departmentParentId": 7918,
+                      "department": "Japanese Studies",
+                      "begin": "F2007",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a0ab0509-1319-4259-c1b1-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308530,
+                      "courseTitle": "First Year Japanese III",
+                      "courseNumber": "10C",
+                      "prefix": "JAPN",
+                      "prefixParentId": 9515,
+                      "prefixDescription": "Japanese Studies",
+                      "departmentParentId": 7918,
+                      "department": "Japanese Studies",
+                      "begin": "F2007",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7949af25-a67b-423c-c1b2-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308521,
+                      "courseTitle": "Second Year Japanese I",
+                      "courseNumber": "20A",
+                      "prefix": "JAPN",
+                      "prefixParentId": 9515,
+                      "prefixDescription": "Japanese Studies",
+                      "departmentParentId": 7918,
+                      "department": "Japanese Studies",
+                      "begin": "F2007",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7c336254-111e-4330-c1b3-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308528,
+                      "courseTitle": "First Year Japanese II",
+                      "courseNumber": "10B",
+                      "prefix": "JAPN",
+                      "prefixParentId": 9515,
+                      "prefixDescription": "Japanese Studies",
+                      "departmentParentId": 7918,
+                      "department": "Japanese Studies",
+                      "begin": "F2007",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0c04942f-c781-4d64-c1b4-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "33af6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "c8bde395-bcee-478d-c1b0-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 303443,
+            "courseTitle": "First Year Japanese I",
+            "courseNumber": "10A",
+            "prefix": "JAPN",
+            "prefixParentId": 9515,
+            "prefixDescription": "Japanese Studies",
+            "departmentParentId": 7918,
+            "department": "Japanese Studies",
+            "begin": "F2007",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282667,
+                    "courseTitle": "Elementary Japanese",
+                    "courseNumber": "1",
+                    "prefix": "JAPN",
+                    "prefixParentId": 9556,
+                    "prefixDescription": "Japanese",
+                    "departmentParentId": 7917,
+                    "department": "Japanese (JAPN)",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "a0ab0509-1319-4259-c1b1-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 303555,
+            "courseTitle": "Second Year Japanese II",
+            "courseNumber": "20B",
+            "prefix": "JAPN",
+            "prefixParentId": 9515,
+            "prefixDescription": "Japanese Studies",
+            "departmentParentId": 7918,
+            "department": "Japanese Studies",
+            "begin": "F2007",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 262244,
+                    "courseTitle": "Advanced Japanese",
+                    "courseNumber": "5",
+                    "prefix": "JAPN",
+                    "prefixParentId": 9556,
+                    "prefixDescription": "Japanese",
+                    "departmentParentId": 7917,
+                    "department": "Japanese (JAPN)",
+                    "begin": "F1999",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "7949af25-a67b-423c-c1b2-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 308530,
+            "courseTitle": "First Year Japanese III",
+            "courseNumber": "10C",
+            "prefix": "JAPN",
+            "prefixParentId": 9515,
+            "prefixDescription": "Japanese Studies",
+            "departmentParentId": 7918,
+            "department": "Japanese Studies",
+            "begin": "F2007",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 283009,
+                    "courseTitle": "Intermediate Japanese",
+                    "courseNumber": "3",
+                    "prefix": "JAPN",
+                    "prefixParentId": 9556,
+                    "prefixDescription": "Japanese",
+                    "departmentParentId": 7917,
+                    "department": "Japanese (JAPN)",
+                    "begin": "F1995",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "7c336254-111e-4330-c1b3-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 308521,
+            "courseTitle": "Second Year Japanese I",
+            "courseNumber": "20A",
+            "prefix": "JAPN",
+            "prefixParentId": 9515,
+            "prefixDescription": "Japanese Studies",
+            "departmentParentId": 7918,
+            "department": "Japanese Studies",
+            "begin": "F2007",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282078,
+                    "courseTitle": "Continuing Intermediate Japanese",
+                    "courseNumber": "4",
+                    "prefix": "JAPN",
+                    "prefixParentId": 9556,
+                    "prefixDescription": "Japanese",
+                    "departmentParentId": 7917,
+                    "department": "Japanese (JAPN)",
+                    "begin": "F2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "0c04942f-c781-4d64-c1b4-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 308528,
+            "courseTitle": "First Year Japanese II",
+            "courseNumber": "10B",
+            "prefix": "JAPN",
+            "prefixParentId": 9515,
+            "prefixDescription": "Japanese Studies",
+            "departmentParentId": 7918,
+            "department": "Japanese Studies",
+            "begin": "F2007",
+            "end": "",
+            "minUnits": 5.0,
+            "maxUnits": 5.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282410,
+                    "courseTitle": "Continuing Elementary Japanese",
+                    "courseNumber": "2",
+                    "prefix": "JAPN",
+                    "prefixParentId": 9556,
+                    "prefixDescription": "Japanese",
+                    "departmentParentId": 7917,
+                    "department": "Japanese (JAPN)",
+                    "begin": "F2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+  ],
+  "calculation_review_required": true
+}

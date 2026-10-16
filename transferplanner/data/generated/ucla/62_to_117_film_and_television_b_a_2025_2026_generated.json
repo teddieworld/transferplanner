@@ -1,0 +1,38 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Film and Television/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [],
+  "requirements": [],
+  "kind": "informational",
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2025-10-31T04:02:45.6925084",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "fab46f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The four-year Bachelor of Arts degree in Film and Television provides an education in the history and theory of these art forms and basic learning experiences in production within the context of a liberal arts education.</p><p><br></p><p>In the first year, students are introduced to all major aspects of film, television, and digital media study. In the second year, each student completes a senior concentration chosen from film production, television production [narrative or documentary], screenwriting, animation, cinema and media studies or digital media. Students must also complete at least one professional internship. Undergraduates in the film and television program take courses in: cinema and media studies- the history, theory, and aesthetics of both film and television; production- film, television (studio and field), digital, experimental, and animation; and film and television craft- writing, directing, cinematography and editing.</p><p><br></p><p>Recommended courses prior to entrance include:</p><ul><li>American Film History,</li><li>European Film History,</li><li>American Television History, and</li><li>One Theater course.</li></ul><p>Additional admission requirements include a personal essay, a critical essay, a creative writing sample a life challenge essay and two letters of recommendation. Film, videotapes, DVD's and links are not accepted.</p><p><br></p><p>Prior experience is not required. Applicants to the school must have a minimum 3.2 GPA at the time of application and must complete their general education coursework prior to entrance. Transfer students cannot change to the Film and Television major after they transfer to UCLA.</p><p><br></p><p>For more information regarding this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.tft.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">tft.ucla.edu</a> and <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.admission.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">admission.ucla.edu</a>.</p>",
+        "groupId": "f2b46f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [],
+    "native_articulations": []
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Musicology/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [],
+  "requirements": [],
+  "kind": "informational",
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2025-10-31T04:11:10.6104479",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "19b76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The goal of the BA in Musicology is designed to provide training in the study of music for liberal arts students who do not wish to pursue a degree in performance. The goals of the Musicology major are grounded firmly in the humanistic study of music, and we interpret Musicology in the broadest possible sense: there is no built-in bias toward art music, Western music, or music of the past. Transfer applicants to the school are considered on the basis of academic achievement as well as departmental screening requirements and must have a minimum 3.2 GPA at the time of application. California community college students are strongly encouraged, but not required, to complete IGETC; all other transfer students are encouraged to make progress toward completion of the school’s general education requirements.</p><p><br></p><p>Recommended (not required) preparation for the major:</p><ul><li>A one-year comprehensive Music Theory course sequence, incorporating Musicianship (ear training and sight singing), as well as Keyboard Skills; or</li><li>One year of Music Theory and one year of Musicianship (ear training and sight singing).</li><li>Exemptions/substitutions for lower division requirements will be determined by the department in the summer following admission. Syllabi or the other descriptive course documentation may be required for consideration.</li></ul><p><br></p><p>In addition to the UC Application, applicants are required to submit supplemental application materials which vary by major and are used in a pre-screening process to determine which students will be invited to interview and/or audition.</p><p><br></p><p>The UCLA Herb Alpert School of Music houses the supplemental application on the Acceptd platform - <u style=\"color: rgb(41, 98, 255);\">https://app.getacceptd.com/herbalpert</u>. Specific supplemental application requirements for each major program (and, for Music Performance, Music Education, and Global Jazz Studies majors, specific instrument area) can be found on Acceptd.</p><p><br></p><p>Other general information about the application process can be found on the School of Music’s website at <u style=\"color: rgb(41, 98, 255);\">https://schoolofmusic.ucla.edu/admissions/undergraduate</u>.</p>",
+        "groupId": "1db76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [],
+    "native_articulations": []
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

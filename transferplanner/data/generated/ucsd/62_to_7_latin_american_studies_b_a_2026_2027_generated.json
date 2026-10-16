@@ -1,0 +1,418 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Latin American Studies B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "LATI 10",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Latin American Studies"
+    },
+    {
+      "text": "LATI 50",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": "No Course Articulated",
+      "options": [],
+      "department": "Latin American Studies"
+    },
+    {
+      "text": "LTSP 2A",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTSP 2B",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTSP 2C",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTSP 2D",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTSP 2E",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    }
+  ],
+  "receiving_course_titles": {
+    "LATI 10": "Reading North by South: Latin American Studies and the US Liberation Movements",
+    "LATI 50": "Introduction to Latin America",
+    "LTSP 2A": "Intermediate Spanish I",
+    "LTSP 2B": "Intermediate Spanish II",
+    "LTSP 2C": "Intermediate Spanish III",
+    "LTSP 2D": "Intermediate/Advanced Spanish: Spanish for Bilingual Speakers",
+    "LTSP 2E": "Advanced Readings and Composition for Bilingual Speakers"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T19:47:12.5970086",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "6dc36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p><strong>Latin American Studies</strong></p><p><br></p><p>The Bachelor of Arts in Latin American studies blends coverage of methodological and theoretical approaches to the study of Latin America with a broad foundation in the Humanities and Social Sciences through an interdisciplinary approach.</p><p><br></p><p>This degree prepares students for careers in education, government, business and non-profit agencies. It also equips the student with strong research and writing skills in preparation for graduate school.</p><p><br></p><p>To prepare for this major students may complete the language requirement at the community college level by taking courses equivalent to UCSD's course LTSP 2A (or above). Students who satisfy this requirement by examination are encouraged, but not required, to study Portuguese. Students are encouraged to enroll in courses that will develop strong reading and writing skills. Students are also strongly encouraged to participate in Education Abroad Programs in Latin America.</p><p><br></p><p>For more information please visit <a href=\"http://las.ucsd.edu.\" rel=\"noopener noreferrer\" target=\"_blank\">las.ucsd.edu.</a></p>",
+        "groupId": "7bc36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 376612,
+                      "courseTitle": "Reading North by South: Latin American Studies and the US Liberation Movements",
+                      "courseNumber": "10",
+                      "prefix": "LATI",
+                      "prefixParentId": 13456,
+                      "prefixDescription": "Latin American Studies",
+                      "departmentParentId": 8330,
+                      "department": "Latin American Studies",
+                      "begin": "F2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7e0ba923-4a91-4a97-c794-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 268857,
+                      "courseTitle": "Introduction to Latin America",
+                      "courseNumber": "50",
+                      "prefix": "LATI",
+                      "prefixParentId": 13456,
+                      "prefixDescription": "Latin American Studies",
+                      "departmentParentId": 8330,
+                      "department": "Latin American Studies",
+                      "begin": "F2003",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b19d628c-88ba-49a3-c795-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 282875,
+                      "courseTitle": "Intermediate Spanish II",
+                      "courseNumber": "2B",
+                      "prefix": "LTSP",
+                      "prefixParentId": 5374,
+                      "prefixDescription": "Literatures in Spanish",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c416cd9a-1ad8-4ead-c796-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359466,
+                      "courseTitle": "Intermediate Spanish I",
+                      "courseNumber": "2A",
+                      "prefix": "LTSP",
+                      "prefixParentId": 5374,
+                      "prefixDescription": "Literatures in Spanish",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "459d7240-1e77-4d18-c797-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 295730,
+                      "courseTitle": "Advanced Readings and Composition for Bilingual Speakers",
+                      "courseNumber": "2E",
+                      "prefix": "LTSP",
+                      "prefixParentId": 5374,
+                      "prefixDescription": "Literatures in Spanish",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2004",
+                      "end": "F2026",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "32a42dd8-4add-4a84-c798-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289393,
+                      "courseTitle": "Intermediate Spanish III",
+                      "courseNumber": "2C",
+                      "prefix": "LTSP",
+                      "prefixParentId": 5374,
+                      "prefixDescription": "Literatures in Spanish",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "07a28d88-b75d-4d4c-c799-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294897,
+                      "courseTitle": "Intermediate/Advanced Spanish: Spanish for Bilingual Speakers",
+                      "courseNumber": "2D",
+                      "prefix": "LTSP",
+                      "prefixParentId": 5374,
+                      "prefixDescription": "Literatures in Spanish",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2001",
+                      "end": "F2026",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "80bbb637-f480-4708-c79a-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "76c36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "b19d628c-88ba-49a3-c795-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 268857,
+            "courseTitle": "Introduction to Latin America",
+            "courseNumber": "50",
+            "prefix": "LATI",
+            "prefixParentId": 13456,
+            "prefixDescription": "Latin American Studies",
+            "departmentParentId": 8330,
+            "department": "Latin American Studies",
+            "begin": "F2003",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "No Course Articulated",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.",
+    "Confirm how the listed sections fit together before using this group as a checklist."
+  ],
+  "calculation_review_required": true
+}

@@ -1,0 +1,556 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Italian Studies B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "LIIT 1A AND LIIT 1AX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIIT 1B AND LIIT 1BX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIIT 1C AND LIIT 1CX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LTIT 2A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ITAL 3"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTIT 2B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ITAL 4"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTIT 50",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    }
+  ],
+  "receiving_course_titles": {
+    "LIIT 1A": "Italian Conversation",
+    "LIIT 1AX": "Analysis of Italian",
+    "LIIT 1B": "Italian Conversation",
+    "LIIT 1BX": "Analysis of Italian",
+    "LIIT 1C": "Italian Conversation",
+    "LIIT 1CX": "Analysis of Italian",
+    "LTIT 2A": "Intermediate Italian I",
+    "LTIT 2B": "Intermediate Italian II",
+    "LTIT 50": "Advanced Italian"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T19:10:22.0126869",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "3fc16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation.</strong></p><p><br></p><p>Upper-division course offerings are limited, and the major is unavailable to declare from Spring 2025 through the end of Spring 2028. A minor is recommended at this time.&nbsp;</p><p><br></p><p>Italian Studies is an interdisciplinary program in the language, literature, history, music, theater and art of Italy. Italian Studies coordinates the departments of History, Literature, Music, Visual Arts, and Theater and Dance and offers students the opportunity to design a major, leading to a B.A., around the course offerings of these five departments.</p><p><br></p><p>For more information please visit <a href=\"https://iah.ucsd.edu/academics/italian-studies/index.html\" rel=\"noopener noreferrer\" target=\"_blank\">http://caesar.ucsd.edu/italian/</a></p><p><br></p><p><span style=\"color: rgb(169, 62, 58);\">Required: 2 years lower division Italian language</span></p>",
+        "groupId": "42c16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIIT 1A, LIIT 1AX",
+                      "courses": [
+                        {
+                          "id": "81e9386e-6cc8-4e64-8a2f-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 126677,
+                          "courseTitle": "Italian Conversation",
+                          "courseNumber": "1A",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "e0ec4a27-71dc-4690-8a31-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 327988,
+                          "courseTitle": "Analysis of Italian",
+                          "courseNumber": "1AX",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "c28e9ddd-8f37-49a8-c655-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355290,
+                      "courseTitle": "Advanced Italian",
+                      "courseNumber": "50",
+                      "prefix": "LTIT",
+                      "prefixParentId": 4091,
+                      "prefixDescription": "Literatures in Italian",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e419e912-0942-4055-c656-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIIT 1B, LIIT 1BX",
+                      "courses": [
+                        {
+                          "id": "81fa6d9e-b34b-4194-8a1f-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 327987,
+                          "courseTitle": "Italian Conversation",
+                          "courseNumber": "1B",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "77d7e98f-fbf5-4087-8a21-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 146540,
+                          "courseTitle": "Analysis of Italian",
+                          "courseNumber": "1BX",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "b968b234-4e8f-43c9-c657-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIIT 1C, LIIT 1CX",
+                      "courses": [
+                        {
+                          "id": "78968639-dadf-4137-8a34-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 327992,
+                          "courseTitle": "Italian Conversation",
+                          "courseNumber": "1C",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "9814995e-abb3-41ee-8a35-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 145153,
+                          "courseTitle": "Analysis of Italian",
+                          "courseNumber": "1CX",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "56d674d5-1ed8-4725-c658-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308526,
+                      "courseTitle": "Intermediate Italian I",
+                      "courseNumber": "2A",
+                      "prefix": "LTIT",
+                      "prefixParentId": 4091,
+                      "prefixDescription": "Literatures in Italian",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f84a8133-a692-44a2-c659-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359468,
+                      "courseTitle": "Intermediate Italian II",
+                      "courseNumber": "2B",
+                      "prefix": "LTIT",
+                      "prefixParentId": 4091,
+                      "prefixDescription": "Literatures in Italian",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "88fe7d5f-c9cf-4573-c65a-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "3dc16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "f84a8133-a692-44a2-c659-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 308526,
+            "courseTitle": "Intermediate Italian I",
+            "courseNumber": "2A",
+            "prefix": "LTIT",
+            "prefixParentId": 4091,
+            "prefixDescription": "Literatures in Italian",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F2026",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253830,
+                    "courseTitle": "Intermediate Italian",
+                    "courseNumber": "3",
+                    "prefix": "ITAL",
+                    "prefixParentId": 1720,
+                    "prefixDescription": "Italian",
+                    "departmentParentId": 7821,
+                    "department": "Italian (ITAL)",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "88fe7d5f-c9cf-4573-c65a-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 359468,
+            "courseTitle": "Intermediate Italian II",
+            "courseNumber": "2B",
+            "prefix": "LTIT",
+            "prefixParentId": 4091,
+            "prefixDescription": "Literatures in Italian",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F2026",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353062,
+                    "courseTitle": "Continuing Intermediate Italian",
+                    "courseNumber": "4",
+                    "prefix": "ITAL",
+                    "prefixParentId": 1720,
+                    "prefixDescription": "Italian",
+                    "departmentParentId": 7821,
+                    "department": "Italian (ITAL)",
+                    "begin": "F2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+  ],
+  "calculation_review_required": true
+}

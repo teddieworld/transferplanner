@@ -1,0 +1,45 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Linguistics with Specialization in Language and Society B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [],
+  "requirements": [],
+  "kind": "informational",
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T18:53:36.5362061",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "8db56f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p>Linguistics 101 is required as an introduction to the field and serves as the prerequisite to certain other courses. Students who choose a linguistics major should enroll in it as early as possible. </p><p><br></p><p>Every student with a specialized major must consult the faculty adviser in the Department of Linguistics to have approved an individual curricular plan to satisfy the major requirements for the option chosen. </p><p><br></p><p>Each linguistics degree requires a certain level of language proficiency. Students are encouraged to take as many courses in language as possible to prepare for the major requirements at UC San Diego. To review the Linguistics Department degree requirements, visit the UCSD General Catalog web site at <a href=\"http://www.ucsd.edu/catalog \" rel=\"noopener noreferrer\" target=\"_blank\">http://www.ucsd.edu/catalog </a>, click on Course Listings, then Linguistics. There you will find a description of the department, degree requirements for undergraduate (and graduate) degrees, and course listings. </p><p><br></p><p>For more information please visit <a href=\"https://linguistics.ucsd.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://linguistics.ucsd.edu/</a></p>",
+        "groupId": "90b56f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [],
+    "native_articulations": []
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

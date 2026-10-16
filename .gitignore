@@ -38,4 +38,5 @@ env/
 
 # ASSIST collection progress
 transferplanner/data/raw/_collection/
+transferplanner/data/raw/**/_collection/
 .neon

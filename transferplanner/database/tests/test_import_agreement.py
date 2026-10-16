@@ -23,6 +23,16 @@ SCRIPT = Path(__file__).resolve().parents[1] / "import_courses.py"
 
 
 class BatchInputTests(unittest.TestCase):
+    def test_database_connection_uses_explicit_environment_url_and_preserves_local_default(self):
+        from transferplanner.database.import_courses import connect_to_database
+        with patch('psycopg.connect') as connect:
+            with patch.dict(os.environ, {'DATABASE_URL':'postgresql://example.invalid/test'}):
+                connect_to_database()
+                connect.assert_called_with('postgresql://example.invalid/test')
+            with patch.dict(os.environ, {'DATABASE_URL':''}):
+                connect_to_database()
+                connect.assert_called_with('dbname = transferplanner')
+
     def test_bad_json_and_missing_files_are_each_reported_without_opening_database(self):
         with tempfile.TemporaryDirectory() as directory:
             bad = Path(directory) / "bad.json"

@@ -1,0 +1,779 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Classical Studies B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: LOWER DIVISION MAJOR REQUIREMENTS\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by OR\nChoose one complete alternative section; do not combine incomplete alternatives."
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: LOWER DIVISION MAJOR REQUIREMENTS\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by OR\nChoose one complete alternative section; do not combine incomplete alternatives."
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: LOWER DIVISION MAJOR REQUIREMENTS\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by OR\nChoose one complete alternative section; do not combine incomplete alternatives."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "LTWL 19A",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTWL 19B",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTWL 19C",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTLA 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LATN 1",
+            "LATN 2"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTLA 2",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LATN 1",
+            "LATN 2"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTLA 3",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LATN 1",
+            "LATN 2"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTGK 1",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTGK 2",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTGK 3",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    }
+  ],
+  "receiving_course_titles": {
+    "LTWL 19A": "Introduction to the Ancient Greeks and Romans",
+    "LTWL 19B": "Introduction to the Ancient Greeks and Romans",
+    "LTWL 19C": "Introduction to the Ancient Greeks and Romans",
+    "LTLA 1": "Beginning Latin",
+    "LTLA 2": "Intermediate Latin I",
+    "LTLA 3": "Intermediate Latin II",
+    "LTGK 1": "Beginning Greek",
+    "LTGK 2": "Intermediate Greek I",
+    "LTGK 3": "Intermediate Greek II"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T19:05:54.8953624",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "65c16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION.</strong></p><p><br></p><p><strong>Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. </strong></p><p><br></p><p>The Classical Studies Program provides an interdisciplinary examination of the ancient Mediterranean world, from the era of the Bronze Age to the great transformations of late antiquity. The program centers on the cultures of Greece and Rome and is inclusive of other cultures of the region. In the Classical Studies Program students study the ancient world through a diverse disciplinary lens, with courses offered in history, literature, philosophy, political science, visual arts, and more. Students have two options to major in the Classical Studies Program: a language emphasis track, which focuses on Greek and Latin texts in their literary, intellectual, and historical context; or the cultures emphasis track, which uses texts in translation for the study of antiquity. A minor is also available.</p><p><br></p><p><strong style=\"color: rgb(169, 62, 58);\">For the language emphasis track, students should take 2 classes from A and complete both B and C. </strong></p><p><strong style=\"color: rgb(169, 62, 58);\">For the cultures emphasis track, students can choose A, B, or C.&nbsp;</strong></p><p><br></p><p>For both tracks, a major in classical studies consists of a choice of twelve upper-division courses (forty-eight units) approved for the program and listed below. All courses used to meet requirements for a major in classical studies must be taken for a letter grade and be passed with a grade of C– or better.</p><p><br></p><p>For more information please visit <a href=\"https://iah.ucsd.edu/academics/classical-studies\" rel=\"noopener noreferrer\" target=\"_blank\">https://iah.ucsd.edu/academics/classical-studies</a></p>",
+        "groupId": "68c16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 263371,
+                      "courseTitle": "Introduction to the Ancient Greeks and Romans",
+                      "courseNumber": "19C",
+                      "prefix": "LTWL",
+                      "prefixParentId": 10,
+                      "prefixDescription": "Literatures of the World",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6ce34c8b-0b30-4f8b-c678-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 263372,
+                      "courseTitle": "Introduction to the Ancient Greeks and Romans",
+                      "courseNumber": "19A",
+                      "prefix": "LTWL",
+                      "prefixParentId": 10,
+                      "prefixDescription": "Literatures of the World",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bb5b1a94-1824-4711-c679-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296980,
+                      "courseTitle": "Introduction to the Ancient Greeks and Romans",
+                      "courseNumber": "19B",
+                      "prefix": "LTWL",
+                      "prefixParentId": 10,
+                      "prefixDescription": "Literatures of the World",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2000",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "cdc2153e-9e88-4860-c67a-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259930,
+                      "courseTitle": "Intermediate Greek II",
+                      "courseNumber": "3",
+                      "prefix": "LTGK",
+                      "prefixParentId": 11450,
+                      "prefixDescription": "Greek Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "91ec3e6d-8844-48a8-c67b-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259928,
+                      "courseTitle": "Intermediate Greek I",
+                      "courseNumber": "2",
+                      "prefix": "LTGK",
+                      "prefixParentId": 11450,
+                      "prefixDescription": "Greek Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "83032b3e-62d6-4070-c67c-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355288,
+                      "courseTitle": "Beginning Greek",
+                      "courseNumber": "1",
+                      "prefix": "LTGK",
+                      "prefixParentId": 11450,
+                      "prefixDescription": "Greek Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8dcf590b-be0e-4221-c67d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 2,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355289,
+                      "courseTitle": "Intermediate Latin I",
+                      "courseNumber": "2",
+                      "prefix": "LTLA",
+                      "prefixParentId": 8956,
+                      "prefixDescription": "Latin Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c6ee486f-75df-4a42-c67e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355244,
+                      "courseTitle": "Intermediate Latin II",
+                      "courseNumber": "3",
+                      "prefix": "LTLA",
+                      "prefixParentId": 8956,
+                      "prefixDescription": "Latin Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "68af17a2-04cc-46e8-c67f-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355270,
+                      "courseTitle": "Beginning Latin",
+                      "courseNumber": "1",
+                      "prefix": "LTLA",
+                      "prefixParentId": 8956,
+                      "prefixDescription": "Latin Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7ff1f97b-4c6b-4dcc-c680-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "ebdd104e-2989-4aa6-366f-08def1776a62",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "64c16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "23fb7845-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "c6ee486f-75df-4a42-c67e-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355289,
+            "courseTitle": "Intermediate Latin I",
+            "courseNumber": "2",
+            "prefix": "LTLA",
+            "prefixParentId": 8956,
+            "prefixDescription": "Latin Literature",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F1998",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 356895,
+                    "courseTitle": "Continuing Elementary Latin",
+                    "courseNumber": "2",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 270272,
+                    "courseTitle": "Elementary Latin",
+                    "courseNumber": "1",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "68af17a2-04cc-46e8-c67f-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355244,
+            "courseTitle": "Intermediate Latin II",
+            "courseNumber": "3",
+            "prefix": "LTLA",
+            "prefixParentId": 8956,
+            "prefixDescription": "Latin Literature",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F1998",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 356895,
+                    "courseTitle": "Continuing Elementary Latin",
+                    "courseNumber": "2",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 270272,
+                    "courseTitle": "Elementary Latin",
+                    "courseNumber": "1",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "7ff1f97b-4c6b-4dcc-c680-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355270,
+            "courseTitle": "Beginning Latin",
+            "courseNumber": "1",
+            "prefix": "LTLA",
+            "prefixParentId": 8956,
+            "prefixDescription": "Latin Literature",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F1998",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 356895,
+                    "courseTitle": "Continuing Elementary Latin",
+                    "courseNumber": "2",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 270272,
+                    "courseTitle": "Elementary Latin",
+                    "courseNumber": "1",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "Choose one complete alternative section; do not combine incomplete alternatives."
+  ],
+  "calculation_review_required": true
+}

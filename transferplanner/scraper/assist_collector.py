@@ -11,6 +11,12 @@ from urllib.parse import parse_qs, urlparse, urlencode
 RAW_FOLDER = Path(__file__).resolve().parents[1] / "data/raw"
 
 
+class RateLimitError(RuntimeError):
+    def __init__(self, retry_after=60):
+        super().__init__("ASSIST returned HTTP 429; pause before resuming collection")
+        self.retry_after = retry_after
+
+
 def agreement_key(url):
     parsed = urlparse(url)
     if parsed.scheme != "https" or parsed.hostname not in ("assist.org", "www.assist.org"):
@@ -26,6 +32,26 @@ def agreement_key(url):
             not re.fullmatch(r"[0-9a-fA-F-]{36}", parts[5])):
         raise ValueError("This collector supports sending-college-to-university major URLs")
     return keys[0]
+
+
+def major_list_scope(url):
+    """Accept a major page or a results list without needing a major UUID."""
+    parsed = urlparse(url)
+    if (parsed.scheme != "https" or parsed.hostname not in ("assist.org", "www.assist.org") or
+            parsed.path.rstrip("/") != "/transfer/results"):
+        raise ValueError("Use an https://assist.org/transfer/results URL")
+    query = parse_qs(parsed.query)
+    if "viewByKey" in query:
+        return "/".join(agreement_key(url).split("/")[:5])
+    values = {}
+    for name in ("year", "institution", "agreement"):
+        items = query.get(name, [])
+        if len(items) != 1 or not items[0].isdigit():
+            raise ValueError(f"Results URL must contain one numeric {name}")
+        values[name] = items[0]
+    if query.get("agreementType") != ["to"] or query.get("viewBy") != ["major"]:
+        raise ValueError("Choose sending-college-to-university major agreements")
+    return f"{values['year']}/{values['institution']}/to/{values['agreement']}/Major"
 
 
 def matches_agreement_response(url, expected_key):
@@ -143,6 +169,9 @@ def capture_on_page(page, url, key, timeout_ms):
     except PlaywrightTimeoutError as error:
         raise RuntimeError("ASSIST did not load the matching agreement before the timeout. Try --headed to inspect the page.") from error
     if not response.ok:
+        if response.status == 429:
+            retry_after = response.headers.get("retry-after", "60")
+            raise RateLimitError(int(retry_after) if retry_after.isdigit() else 60)
         raise RuntimeError(f"ASSIST returned HTTP {response.status} for the agreement; no response was saved")
     return response.json()
 
@@ -195,7 +224,12 @@ def capture_major_batch(page, majors, output_folder, timeout_ms=45000, overwrite
             entry.update(status="skipped", output=str(existing[key]))
         else:
             try:
-                payload = capture_on_page(page, entry["url"], key, timeout_ms)
+                try:
+                    payload = capture_on_page(page, entry["url"], key, timeout_ms)
+                except RateLimitError as error:
+                    print(f"ASSIST rate limit: waiting {max(60, error.retry_after)} seconds before one retry.", flush=True)
+                    page.wait_for_timeout(max(60, error.retry_after) * 1000)
+                    payload = capture_on_page(page, entry["url"], key, timeout_ms)
                 if payload.get("result", {}).get("name") != label:
                     raise ValueError("Response major name does not match the discovered list entry")
                 output = save_response(payload, key, output_folder, overwrite, existing.get(key))
@@ -208,6 +242,12 @@ def capture_major_batch(page, majors, output_folder, timeout_ms=45000, overwrite
         if report_path is not None:
             write_json(report_path, report)
         print(f"[{index}/{len(selected)}] {entry['status']}: {label}", flush=True)
+        if entry.get("error_type") == "RateLimitError":
+            report["not_attempted"] = len(selected) - index
+            if report_path is not None:
+                write_json(report_path, report)
+            print("Rate limit persists; collection stopped. Rerun later to resume saved progress.", flush=True)
+            break
         if entry["status"] != "skipped" and delay_ms > 0 and index < len(selected):
             page.wait_for_timeout(delay_ms)
     return report
@@ -215,7 +255,7 @@ def capture_major_batch(page, majors, output_folder, timeout_ms=45000, overwrite
 
 def collect_all_majors(url, output_folder=RAW_FOLDER, headed=False, timeout_ms=45000, overwrite=False,
                        limit=None, delay_ms=1000):
-    key = agreement_key(url)
+    key = major_list_scope(url)
     from playwright.sync_api import sync_playwright
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=not headed)
@@ -239,7 +279,7 @@ def collect_all_majors(url, output_folder=RAW_FOLDER, headed=False, timeout_ms=4
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Capture public ASSIST major agreements and automatically name their raw JSON files.")
-    parser.add_argument("url", help="Public ASSIST agreement URL containing viewByKey")
+    parser.add_argument("url", help="Public ASSIST agreement URL, or results-list URL with --all-majors")
     parser.add_argument("--output-dir", type=Path, default=RAW_FOLDER)
     parser.add_argument("--headed", action="store_true", help="Show the browser during capture")
     parser.add_argument("--timeout", type=int, default=45, help="Navigation/response timeout in seconds")

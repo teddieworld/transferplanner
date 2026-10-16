@@ -1,0 +1,1958 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Linguistics Language Program",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "LIAB 1A AND LIAB 1AX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIAB 1B AND LIAB 1BX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIAB 1C AND LIAB 1CX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIAB 1D AND LIAB 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LISL 1A AND LISL 1AX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LISL 1B AND LISL 1BX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LISL 1C AND LISL 1CX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LISL 1D AND LISL 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIFR 1A AND LIFR 1AX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIFR 1B AND LIFR 1BX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIFR 1C AND LIFR 1CX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIFR 1D AND LIFR 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIGM 1A AND LIGM 1AX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIGM 1B AND LIGM 1BX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIGM 1C AND LIGM 1CX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIGM 1D AND LIGM 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIIT 1A AND LIIT 1AX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIIT 1B AND LIIT 1BX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIIT 1C AND LIIT 1CX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIIT 1D AND LIIT 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIPO 1A AND LIPO 1AX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIPO 1B AND LIPO 1BX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIPO 1C AND LIPO 1CX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LIPO 1D AND LIPO 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LISP 1A AND LISP 1AX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LISP 1B AND LISP 1BX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LISP 1C AND LISP 1CX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LISP 1D AND LISP 1DX",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    }
+  ],
+  "receiving_course_titles": {
+    "LIAB 1A": "Arabic Conversation",
+    "LIAB 1AX": "Analysis of Arabic",
+    "LIAB 1B": "Arabic Conversation",
+    "LIAB 1BX": "Analysis of Arabic",
+    "LIAB 1C": "Arabic Conversation",
+    "LIAB 1CX": "Analysis of Arabic",
+    "LIAB 1D": "Arabic Conversation",
+    "LIAB 1DX": "Analysis of Arabic",
+    "LISL 1A": "American Sign Language Conversation",
+    "LISL 1AX": "Analysis of American Sign Language",
+    "LISL 1B": "American Sign Language Conversation",
+    "LISL 1BX": "Analysis of American Sign Language",
+    "LISL 1C": "American Sign Language Conversation",
+    "LISL 1CX": "Analysis of American Sign Language",
+    "LISL 1D": "American Sign Language Conversation",
+    "LISL 1DX": "Analysis of American Sign Language",
+    "LIFR 1A": "French Conversation",
+    "LIFR 1AX": "Analysis of French",
+    "LIFR 1B": "French Conversation",
+    "LIFR 1BX": "Analysis of French",
+    "LIFR 1C": "French Conversation",
+    "LIFR 1CX": "Analysis of French",
+    "LIFR 1D": "French Conversation",
+    "LIFR 1DX": "Analysis of French",
+    "LIGM 1A": "German Conversation",
+    "LIGM 1AX": "Analysis of German",
+    "LIGM 1B": "German Conversation",
+    "LIGM 1BX": "Analysis of German",
+    "LIGM 1C": "German Conversation",
+    "LIGM 1CX": "Analysis of German",
+    "LIGM 1D": "German Conversation",
+    "LIGM 1DX": "Analysis of German",
+    "LIIT 1A": "Italian Conversation",
+    "LIIT 1AX": "Analysis of Italian",
+    "LIIT 1B": "Italian Conversation",
+    "LIIT 1BX": "Analysis of Italian",
+    "LIIT 1C": "Italian Conversation",
+    "LIIT 1CX": "Analysis of Italian",
+    "LIIT 1D": "Italian Conversation",
+    "LIIT 1DX": "Analysis of Italian",
+    "LIPO 1A": "Portuguese Conversation",
+    "LIPO 1AX": "Analysis of Portuguese",
+    "LIPO 1B": "Portuguese Conversation",
+    "LIPO 1BX": "Analysis of Portuguese",
+    "LIPO 1C": "Portuguese Conversation",
+    "LIPO 1CX": "Analysis of Portuguese",
+    "LIPO 1D": "Portuguese Conversation",
+    "LIPO 1DX": "Analysis of Portuguese",
+    "LISP 1A": "Spanish Conversation",
+    "LISP 1AX": "Analysis of Spanish",
+    "LISP 1B": "Spanish Conversation",
+    "LISP 1BX": "Analysis of Spanish",
+    "LISP 1C": "Spanish Conversation",
+    "LISP 1CX": "Analysis of Spanish",
+    "LISP 1D": "Spanish Conversation",
+    "LISP 1DX": "Analysis of Spanish"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T17:43:59.7162459",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "a8b06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p>These are course equivalencies for first year language courses at UC San Diego. Each college has its own language requirement or option. Certain academic departments also have language requirements for majors. Please refer to the UC San Diego General Catalog for specific information. </p><p><br></p><p>The abbreviation ASL stands for American Sign Language. </p><p><br></p><p>For more information please visit <a href=\"https://linguistics.ucsd.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://linguistics.ucsd.edu/</a></p>",
+        "groupId": "a9b06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 24,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISP 1A, LISP 1AX",
+                      "courses": [
+                        {
+                          "id": "fb29156d-decc-4924-8a29-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 327989,
+                          "courseTitle": "Spanish Conversation",
+                          "courseNumber": "1A",
+                          "prefix": "LISP",
+                          "prefixParentId": 3096,
+                          "prefixDescription": "Linguistics/Spanish",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "f2dfc064-52ee-4e16-8a2a-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 327986,
+                          "courseTitle": "Analysis of Spanish",
+                          "courseNumber": "1AX",
+                          "prefix": "LISP",
+                          "prefixParentId": 3096,
+                          "prefixDescription": "Linguistics/Spanish",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "aa152c53-f3f8-493f-c2be-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISL 1B, LISL 1BX",
+                      "courses": [
+                        {
+                          "id": "d776a53b-2920-4655-8a12-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 126670,
+                          "courseTitle": "American Sign Language Conversation",
+                          "courseNumber": "1B",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "55890e2c-c689-418a-8a13-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 146542,
+                          "courseTitle": "Analysis of American Sign Language",
+                          "courseNumber": "1BX",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "301834ff-7b0e-4cdb-c2bf-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIFR 1B, LIFR 1BX",
+                      "courses": [
+                        {
+                          "id": "447fb1d0-d836-4c85-8a18-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 145151,
+                          "courseTitle": "French Conversation",
+                          "courseNumber": "1B",
+                          "prefix": "LIFR",
+                          "prefixParentId": 6718,
+                          "prefixDescription": "Linguistics/French",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "20af6966-5fa3-43a7-8a19-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 146552,
+                          "courseTitle": "Analysis of French",
+                          "courseNumber": "1BX",
+                          "prefix": "LIFR",
+                          "prefixParentId": 6718,
+                          "prefixDescription": "Linguistics/French",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "670df59a-5e61-4cbc-c2c0-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 11,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIFR 1D, LIFR 1DX",
+                      "courses": [
+                        {
+                          "id": "2de54093-b516-424c-89fc-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 146556,
+                          "courseTitle": "French Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LIFR",
+                          "prefixParentId": 6718,
+                          "prefixDescription": "Linguistics/French",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "f612a00f-a679-43ee-89fd-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 126679,
+                          "courseTitle": "Analysis of French",
+                          "courseNumber": "1DX",
+                          "prefix": "LIFR",
+                          "prefixParentId": 6718,
+                          "prefixDescription": "Linguistics/French",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "661b7ebc-71db-4421-c2c1-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIAB 1A, LIAB 1AX",
+                      "courses": [
+                        {
+                          "id": "8b59a91a-db9f-4d17-8a39-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 147018,
+                          "courseTitle": "Arabic Conversation",
+                          "courseNumber": "1A",
+                          "prefix": "LIAB",
+                          "prefixParentId": 14247,
+                          "prefixDescription": "Linguistics/Arabic",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "2cc6abd8-52e5-4921-8a3a-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 145602,
+                          "courseTitle": "Analysis of Arabic",
+                          "courseNumber": "1AX",
+                          "prefix": "LIAB",
+                          "prefixParentId": 14247,
+                          "prefixDescription": "Linguistics/Arabic",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "cdaa3fd9-698d-435f-c2c2-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 25,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISP 1B, LISP 1BX",
+                      "courses": [
+                        {
+                          "id": "4f111abb-779b-4cdf-8a0a-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 146549,
+                          "courseTitle": "Spanish Conversation",
+                          "courseNumber": "1B",
+                          "prefix": "LISP",
+                          "prefixParentId": 3096,
+                          "prefixDescription": "Linguistics/Spanish",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "e111640e-2b27-4b6f-8a0b-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 145157,
+                          "courseTitle": "Analysis of Spanish",
+                          "courseNumber": "1BX",
+                          "prefix": "LISP",
+                          "prefixParentId": 3096,
+                          "prefixDescription": "Linguistics/Spanish",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "ff0580dd-3f3f-47fb-c2c3-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIAB 1B, LIAB 1BX",
+                      "courses": [
+                        {
+                          "id": "db235f1f-e80d-455b-8a0e-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 126972,
+                          "courseTitle": "Arabic Conversation",
+                          "courseNumber": "1B",
+                          "prefix": "LIAB",
+                          "prefixParentId": 14247,
+                          "prefixDescription": "Linguistics/Arabic",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "dff076e7-d6d8-4bda-8a0f-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 147019,
+                          "courseTitle": "Analysis of Arabic",
+                          "courseNumber": "1BX",
+                          "prefix": "LIAB",
+                          "prefixParentId": 14247,
+                          "prefixDescription": "Linguistics/Arabic",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "c3e51da6-b97d-40a5-c2c4-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISL 1C, LISL 1CX",
+                      "courses": [
+                        {
+                          "id": "5fe03edc-d51a-4d3b-8a37-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 146544,
+                          "courseTitle": "American Sign Language Conversation",
+                          "courseNumber": "1C",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "ff4cb2b5-bfb5-4f2c-8a38-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 327990,
+                          "courseTitle": "Analysis of American Sign Language",
+                          "courseNumber": "1CX",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "b69924d5-b378-4999-c2c5-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 16,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIIT 1A, LIIT 1AX",
+                      "courses": [
+                        {
+                          "id": "81e9386e-6cc8-4e64-8a2f-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 126677,
+                          "courseTitle": "Italian Conversation",
+                          "courseNumber": "1A",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "e0ec4a27-71dc-4690-8a31-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 327988,
+                          "courseTitle": "Analysis of Italian",
+                          "courseNumber": "1AX",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "fe595a4f-80d9-4d7b-c2c6-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 27,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISP 1D, LISP 1DX",
+                      "courses": [
+                        {
+                          "id": "f8347f77-bc29-42ab-8a00-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 146555,
+                          "courseTitle": "Spanish Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LISP",
+                          "prefixParentId": 3096,
+                          "prefixDescription": "Linguistics/Spanish",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "62c15494-2599-4678-8a01-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 145154,
+                          "courseTitle": "Analysis of Spanish",
+                          "courseNumber": "1DX",
+                          "prefix": "LISP",
+                          "prefixParentId": 3096,
+                          "prefixDescription": "Linguistics/Spanish",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "232e4052-d588-4f1b-c2c7-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIAB 1C, LIAB 1CX",
+                      "courses": [
+                        {
+                          "id": "672f0d6f-1634-4e6e-8a1a-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 126973,
+                          "courseTitle": "Arabic Conversation",
+                          "courseNumber": "1C",
+                          "prefix": "LIAB",
+                          "prefixParentId": 14247,
+                          "prefixDescription": "Linguistics/Arabic",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "811fd9c8-0963-4093-8a1b-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 328046,
+                          "courseTitle": "Analysis of Arabic",
+                          "courseNumber": "1CX",
+                          "prefix": "LIAB",
+                          "prefixParentId": 14247,
+                          "prefixDescription": "Linguistics/Arabic",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "b70edea6-f7db-4b42-c2c8-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 17,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIIT 1B, LIIT 1BX",
+                      "courses": [
+                        {
+                          "id": "81fa6d9e-b34b-4194-8a1f-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 327987,
+                          "courseTitle": "Italian Conversation",
+                          "courseNumber": "1B",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "77d7e98f-fbf5-4087-8a21-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 146540,
+                          "courseTitle": "Analysis of Italian",
+                          "courseNumber": "1BX",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "0cf04489-eb55-4599-c2c9-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 10,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIFR 1C, LIFR 1CX",
+                      "courses": [
+                        {
+                          "id": "c40c27e9-23a4-4889-8a2b-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 146551,
+                          "courseTitle": "French Conversation",
+                          "courseNumber": "1C",
+                          "prefix": "LIFR",
+                          "prefixParentId": 6718,
+                          "prefixDescription": "Linguistics/French",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "418d46a8-7430-40b1-8a2c-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 145155,
+                          "courseTitle": "Analysis of French",
+                          "courseNumber": "1CX",
+                          "prefix": "LIFR",
+                          "prefixParentId": 6718,
+                          "prefixDescription": "Linguistics/French",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "ca33abde-163f-4868-c2ca-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISL 1D, LISL 1DX",
+                      "courses": [
+                        {
+                          "id": "e74c4530-394a-45b5-8a08-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 126674,
+                          "courseTitle": "American Sign Language Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "d815c26b-7007-41a1-8a09-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 146546,
+                          "courseTitle": "Analysis of American Sign Language",
+                          "courseNumber": "1DX",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "c8890916-7e86-4556-c2cb-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISL 1A, LISL 1AX",
+                      "courses": [
+                        {
+                          "id": "bbb52bde-12fc-475b-8a06-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 126672,
+                          "courseTitle": "American Sign Language Conversation",
+                          "courseNumber": "1A",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "392c127a-2988-431b-8a07-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 327983,
+                          "courseTitle": "Analysis of American Sign Language",
+                          "courseNumber": "1AX",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "1bce2aa9-585d-413c-c2cc-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 23,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIPO 1D, LIPO 1DX",
+                      "courses": [
+                        {
+                          "id": "25cdc4b9-4c53-495b-8a14-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 328049,
+                          "courseTitle": "Portuguese Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LIPO",
+                          "prefixParentId": 14248,
+                          "prefixDescription": "Linguistics/Portuguese",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "ba1ff372-efea-4ead-8a15-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 147022,
+                          "courseTitle": "Analysis of Portuguese",
+                          "courseNumber": "1DX",
+                          "prefix": "LIPO",
+                          "prefixParentId": 14248,
+                          "prefixDescription": "Linguistics/Portuguese",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "773e4296-fb27-42d5-c2cd-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIFR 1A, LIFR 1AX",
+                      "courses": [
+                        {
+                          "id": "ecf75f87-fbda-4fc9-8a3b-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 146539,
+                          "courseTitle": "French Conversation",
+                          "courseNumber": "1A",
+                          "prefix": "LIFR",
+                          "prefixParentId": 6718,
+                          "prefixDescription": "Linguistics/French",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "c3a8b489-28f0-4a61-8a3c-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 146541,
+                          "courseTitle": "Analysis of French",
+                          "courseNumber": "1AX",
+                          "prefix": "LIFR",
+                          "prefixParentId": 6718,
+                          "prefixDescription": "Linguistics/French",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "b54344b8-8588-40f0-c2ce-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 18,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIIT 1C, LIIT 1CX",
+                      "courses": [
+                        {
+                          "id": "78968639-dadf-4137-8a34-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 327992,
+                          "courseTitle": "Italian Conversation",
+                          "courseNumber": "1C",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "9814995e-abb3-41ee-8a35-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 145153,
+                          "courseTitle": "Analysis of Italian",
+                          "courseNumber": "1CX",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "175e817c-1483-47f1-c2cf-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 12,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIGM 1A, LIGM 1AX",
+                      "courses": [
+                        {
+                          "id": "1779aea5-383e-4158-8a30-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 146553,
+                          "courseTitle": "German Conversation",
+                          "courseNumber": "1A",
+                          "prefix": "LIGM",
+                          "prefixParentId": 7771,
+                          "prefixDescription": "Linguistics/German",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "c383035b-29f4-4971-8a32-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 126678,
+                          "courseTitle": "Analysis of German",
+                          "courseNumber": "1AX",
+                          "prefix": "LIGM",
+                          "prefixParentId": 7771,
+                          "prefixDescription": "Linguistics/German",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "36a8cd90-d2b2-46ff-c2d0-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 22,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIPO 1C, LIPO 1CX",
+                      "courses": [
+                        {
+                          "id": "2fd05b9e-a22e-4c99-8a23-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 147021,
+                          "courseTitle": "Portuguese Conversation",
+                          "courseNumber": "1C",
+                          "prefix": "LIPO",
+                          "prefixParentId": 14248,
+                          "prefixDescription": "Linguistics/Portuguese",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "acc37185-a0f8-4f97-8a24-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 145604,
+                          "courseTitle": "Analysis of Portuguese",
+                          "courseNumber": "1CX",
+                          "prefix": "LIPO",
+                          "prefixParentId": 14248,
+                          "prefixDescription": "Linguistics/Portuguese",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "3558518f-fadc-45f6-c2d1-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 14,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIGM 1C, LIGM 1CX",
+                      "courses": [
+                        {
+                          "id": "76b55ab7-8b93-4f83-8a2d-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 146550,
+                          "courseTitle": "German Conversation",
+                          "courseNumber": "1C",
+                          "prefix": "LIGM",
+                          "prefixParentId": 7771,
+                          "prefixDescription": "Linguistics/German",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "64bcebdf-a457-4325-8a2e-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 146557,
+                          "courseTitle": "Analysis of German",
+                          "courseNumber": "1CX",
+                          "prefix": "LIGM",
+                          "prefixParentId": 7771,
+                          "prefixDescription": "Linguistics/German",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "1638949e-4483-47fe-c2d2-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 13,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIGM 1B, LIGM 1BX",
+                      "courses": [
+                        {
+                          "id": "9b7a1f9f-d1f7-4fc5-8a16-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 126676,
+                          "courseTitle": "German Conversation",
+                          "courseNumber": "1B",
+                          "prefix": "LIGM",
+                          "prefixParentId": 7771,
+                          "prefixDescription": "Linguistics/German",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "4479f50a-ee3f-46aa-8a17-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 145152,
+                          "courseTitle": "Analysis of German",
+                          "courseNumber": "1BX",
+                          "prefix": "LIGM",
+                          "prefixParentId": 7771,
+                          "prefixDescription": "Linguistics/German",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "6574eded-2ff2-46ad-c2d3-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 19,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIIT 1D, LIIT 1DX",
+                      "courses": [
+                        {
+                          "id": "e6de13d1-f125-42a1-89fe-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 127094,
+                          "courseTitle": "Italian Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2010",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "aef85508-19ca-43dd-89ff-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 127095,
+                          "courseTitle": "Analysis of Italian",
+                          "courseNumber": "1DX",
+                          "prefix": "LIIT",
+                          "prefixParentId": 1682,
+                          "prefixDescription": "Linguistics/Italian",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2010",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "0ab8afc3-3533-427e-c2d4-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 21,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIPO 1B, LIPO 1BX",
+                      "courses": [
+                        {
+                          "id": "ce78c50e-3899-497b-8a04-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 126975,
+                          "courseTitle": "Portuguese Conversation",
+                          "courseNumber": "1B",
+                          "prefix": "LIPO",
+                          "prefixParentId": 14248,
+                          "prefixDescription": "Linguistics/Portuguese",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "080e47c2-5ef0-4773-8a05-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 328048,
+                          "courseTitle": "Analysis of Portuguese",
+                          "courseNumber": "1BX",
+                          "prefix": "LIPO",
+                          "prefixParentId": 14248,
+                          "prefixDescription": "Linguistics/Portuguese",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "04bebf36-e449-4c2a-c2d5-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 26,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISP 1C, LISP 1CX",
+                      "courses": [
+                        {
+                          "id": "69dc99f9-78ab-457a-8a10-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 327985,
+                          "courseTitle": "Spanish Conversation",
+                          "courseNumber": "1C",
+                          "prefix": "LISP",
+                          "prefixParentId": 3096,
+                          "prefixDescription": "Linguistics/Spanish",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "74f2b58c-636c-43b8-8a11-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 145156,
+                          "courseTitle": "Analysis of Spanish",
+                          "courseNumber": "1CX",
+                          "prefix": "LISP",
+                          "prefixParentId": 3096,
+                          "prefixDescription": "Linguistics/Spanish",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "baa8dfa1-d4b2-45b7-c2d6-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIAB 1D, LIAB 1DX",
+                      "courses": [
+                        {
+                          "id": "9e13738c-7a88-44b1-8a25-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 145603,
+                          "courseTitle": "Arabic Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LIAB",
+                          "prefixParentId": 14247,
+                          "prefixDescription": "Linguistics/Arabic",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "adbf9ef1-47a8-42ff-8a26-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 126974,
+                          "courseTitle": "Analysis of Arabic",
+                          "courseNumber": "1DX",
+                          "prefix": "LIAB",
+                          "prefixParentId": 14247,
+                          "prefixDescription": "Linguistics/Arabic",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "684811d4-14f0-45ca-c2d7-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 20,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIPO 1A, LIPO 1AX",
+                      "courses": [
+                        {
+                          "id": "df2d1af5-28b4-4431-8a0c-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 328047,
+                          "courseTitle": "Portuguese Conversation",
+                          "courseNumber": "1A",
+                          "prefix": "LIPO",
+                          "prefixParentId": 14248,
+                          "prefixDescription": "Linguistics/Portuguese",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "450b9de4-f938-4260-8a0d-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 147020,
+                          "courseTitle": "Analysis of Portuguese",
+                          "courseNumber": "1AX",
+                          "prefix": "LIPO",
+                          "prefixParentId": 14248,
+                          "prefixDescription": "Linguistics/Portuguese",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F2007",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "4169bed8-956b-4713-c2d8-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 15,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LIGM 1D, LIGM 1DX",
+                      "courses": [
+                        {
+                          "id": "f0bab4b7-23b8-4fbc-8a20-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 146554,
+                          "courseTitle": "German Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LIGM",
+                          "prefixParentId": 7771,
+                          "prefixDescription": "Linguistics/German",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "cbbeacaf-ebf9-4477-8a22-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 146548,
+                          "courseTitle": "Analysis of German",
+                          "courseNumber": "1DX",
+                          "prefix": "LIGM",
+                          "prefixParentId": 7771,
+                          "prefixDescription": "Linguistics/German",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1998",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "b162efae-546b-485a-c2d9-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "a6b06f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": []
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+  ],
+  "calculation_review_required": true
+}

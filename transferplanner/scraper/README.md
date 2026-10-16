@@ -273,3 +273,69 @@ Preparation options affect major/group preparation results; the original
 `options` still determine full course equivalence. Exam-credit instructions and
 other general notes remain preserved for review and are not automatically
 interpreted.
+
+## UCLA and UC San Diego
+
+The Mt. SAC dataset now also includes the following ASSIST major/program reports,
+checked on October 15, 2026:
+
+| Campus | Agreement year | Agreements | Agreements containing non-evaluable groups |
+| --- | --- | ---: | ---: |
+| UCLA | 2025–2026 | 134 | 46 |
+| UC San Diego | 2026–2027 | 158 | 127 |
+
+[UCLA's 2026–2027 results](https://assist.org/transfer/results?year=77&institution=62&agreement=117&agreementType=to&viewBy=major)
+were empty, so its published 2025–2026 agreements are retained under their actual
+year. Seven UCSD reports explicitly named as minors are excluded from the major
+planner. The existing 95 Berkeley agreements are unchanged.
+
+Captures live in `data/raw/ucla` and `data/raw/ucsd`; normalized agreements and
+conversion reports live in the corresponding `data/generated` subfolders.
+The collector can start from a results-list URL, without a particular major's
+`viewByKey`. From the repository root:
+
+```sh
+.venv/bin/python transferplanner/scraper/assist_collector.py --all-majors --delay 4 --output-dir transferplanner/data/raw/ucla "https://assist.org/transfer/results?year=76&institution=62&agreement=117&agreementType=to&view=agreement&viewBy=major&viewSendingAgreements=false"
+.venv/bin/python transferplanner/scraper/assist_collector.py --all-majors --delay 4 --output-dir transferplanner/data/raw/ucsd "https://assist.org/transfer/results?year=77&institution=62&agreement=7&agreementType=to&view=agreement&viewBy=major&viewSendingAgreements=false"
+```
+
+Existing validated files are skipped. HTTP 429 pauses collection for at least
+60 seconds (or the server's longer numeric Retry-After), then retries once. A
+second rate limit stops the batch; rerun later to resume.
+
+Convert each campus separately, since batch conversion reads one folder:
+
+```sh
+.venv/bin/python transferplanner/scraper/articulation_parser.py --batch --exclude-minors --include-review transferplanner/data/raw/ucla transferplanner/data/generated/ucla
+.venv/bin/python transferplanner/scraper/articulation_parser.py --batch --exclude-minors --include-review transferplanner/data/raw/ucsd transferplanner/data/generated/ucsd
+```
+
+Review `batch_report.json` and import only files listed as `converted` in that
+run. Old generated files can remain after a failed or skipped conversion. These
+snapshots converted with zero failures and zero blocked major agreements.
+
+The converter supports counted AND/OR sections and AND combinations of sending
+course alternatives. Source-bound profiles classify campus headings and retain
+unmodeled sequence, area, language-placement and other conditions for review.
+Flagged groups cannot be calculated as complete. Their original requirements
+and mappings remain in the generated JSON. Changed publications or source hashes
+require another profile review; do not copy Berkeley-specific exceptions to
+another campus.
+
+`data/mtsac_agreement_course_supplement.json` adds 18 missing course codes without
+renaming them into current courses. Titles and units come from the captured
+agreements; UC transferability comes from the saved ASSIST eligibility snapshot,
+or [Mt. SAC's computer science course descriptions](https://www.mtsac.edu/math/all_cs_descriptions.html)
+for CSCI 220. Per-course source references are retained. CSU transferability is
+not inferred from a UC approval. Supply this supplemental catalog with `--courses`
+when importing these agreements into another database.
+
+The importer uses `DATABASE_URL` when explicitly set in the terminal environment;
+otherwise it keeps the local `transferplanner` database default. It does not load
+the app's dotenv files automatically. The local and production databases contain
+all 292 added agreements and 1,688 catalog courses. Imports were checked on an
+isolated Neon branch first, with existing rows preserved and foreign keys checked.
+
+The website's campus selectors and agreement-year dropdowns read these records
+automatically. AP units and the UC seven-course pattern remain available, but
+UCLA/UCSD AP-to-major preparation policies have not yet been implemented.

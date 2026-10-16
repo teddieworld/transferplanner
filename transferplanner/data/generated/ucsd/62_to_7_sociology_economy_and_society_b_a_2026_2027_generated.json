@@ -1,0 +1,865 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Sociology/Economy and Society B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 1,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nSource instruction: Select 1 Course\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "SOCI 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SOC 1"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "SOC 1H"
+          ]
+        }
+      ],
+      "department": "Sociology"
+    },
+    {
+      "text": "SOCI 2",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "SOC 2"
+          ]
+        },
+        {
+          "option_number": 2,
+          "courses": [
+            "SOC 2H"
+          ]
+        }
+      ],
+      "department": "Sociology"
+    },
+    {
+      "text": "SOCI 60",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "PSYC 3"
+          ]
+        }
+      ],
+      "department": "Sociology"
+    },
+    {
+      "text": "SOCI 10",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Sociology"
+    },
+    {
+      "text": "SOCI 20",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Sociology"
+    },
+    {
+      "text": "SOCI 30",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Sociology"
+    },
+    {
+      "text": "SOCI 40",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Sociology"
+    },
+    {
+      "text": "SOCI 50",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Sociology"
+    }
+  ],
+  "receiving_course_titles": {
+    "SOCI 1": "Introduction to Sociology",
+    "SOCI 2": "The Study of Society",
+    "SOCI 60": "Practice of Social Research",
+    "SOCI 10": "American Society: Social Structure and Culture in the United States",
+    "SOCI 20": "Social Change in the Modern World",
+    "SOCI 30": "Science, Technology, and Society",
+    "SOCI 40": "Sociology of Health Care Issues",
+    "SOCI 50": "Introduction to Law and Society"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T20:36:55.442453",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "eac36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p><strong>Special Advising Note: </strong></p><p><strong>Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation.</strong> </p><p><br></p><p>We offer a comprehensive and unique program in sociology. Our course offerings include sociology of the family, education, business and work, science, law, medicine and society, protest movements, race and ethnic relations, politics, and more. In addition, our faculty has an unusual breadth of expertise in international affairs and in many foreign societies. In our vision, sociology should serve as a key field for addressing problems arising from social inequality in the United States and around the world, the spread of information technology, economic and cultural globalization, the strengthening of nationalist and ethnic identities, the consolidation of new democracies, and the formulation of social policies. We aim to prepare students for graduate study in law, education, sociology, and in other professional and liberal arts programs. We also offer many courses of immediate use in employment, such as statistical analysis, classroom interaction, and social policy. Our department coordinates offerings with related programs on campus, including the Teacher Education Program, Law and Society, Urban Studies, and Ethnic Studies. </p><p><br></p><p>A total of four lower division courses (SOCI 1, 2, 60 and one lower division elective) are required for the General Sociology major and the seven concentrations. If your community college does not offer a comparable course for the lower division elective requirement we will accept ANY UC transferable Sociology course from the community college. </p><p><br></p><p>More information regarding the Sociology department, requirements, and major concentrations is available in the UCSD Sociology Department Web page at <a href=\"http://www.sociology.ucsd.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://www.sociology.ucsd.edu</a>.</p><p><br></p><p><span style=\"color: rgb(169, 62, 58);\">NOTE: If your Community College does not offer an articulated course for SOCI 10, 20, 30, 40, or 50, we will accept ANY UC transferable community college Sociology course.</span></p>",
+        "groupId": "e6c36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294653,
+                      "courseTitle": "Introduction to Sociology",
+                      "courseNumber": "1",
+                      "prefix": "SOCI",
+                      "prefixParentId": 8981,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12169,
+                      "department": "Sociology",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 7,
+                          "pathwayName": "Communication",
+                          "pathwayCode": "Communication",
+                          "expectationId": 33,
+                          "expectationName": "C4-Choose 3 Courses From List",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 20,
+                          "pathwayName": "Psychology",
+                          "pathwayCode": "Psychology",
+                          "expectationId": 135,
+                          "expectationName": "D-Intro Sociology",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        },
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 21,
+                          "pathwayName": "Sociology",
+                          "pathwayCode": "Sociology",
+                          "expectationId": 106,
+                          "expectationName": "C1-Intro Soc.",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b9577fe5-4673-4c3b-c7c6-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355147,
+                      "courseTitle": "The Study of Society",
+                      "courseNumber": "2",
+                      "prefix": "SOCI",
+                      "prefixParentId": 8981,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12169,
+                      "department": "Sociology",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 21,
+                          "pathwayName": "Sociology",
+                          "pathwayCode": "Sociology",
+                          "expectationId": 107,
+                          "expectationName": "C2-Social Probs",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "28ed45f1-5b88-4d18-c7c7-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355278,
+                      "courseTitle": "Practice of Social Research",
+                      "courseNumber": "60",
+                      "prefix": "SOCI",
+                      "prefixParentId": 8981,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12169,
+                      "department": "Sociology",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f298d5b1-d05a-42e6-c7c8-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289373,
+                      "courseTitle": "Social Change in the Modern World",
+                      "courseNumber": "20",
+                      "prefix": "SOCI",
+                      "prefixParentId": 8981,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12169,
+                      "department": "Sociology",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b90008a2-f7c8-4fad-c7c9-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301528,
+                      "courseTitle": "Science, Technology, and Society",
+                      "courseNumber": "30",
+                      "prefix": "SOCI",
+                      "prefixParentId": 8981,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12169,
+                      "department": "Sociology",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f2ab5936-565d-43a6-c7ca-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357075,
+                      "courseTitle": "American Society: Social Structure and Culture in the United States",
+                      "courseNumber": "10",
+                      "prefix": "SOCI",
+                      "prefixParentId": 8981,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12169,
+                      "department": "Sociology",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0d9254c6-67d1-4ac8-c7cb-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 301483,
+                      "courseTitle": "Introduction to Law and Society",
+                      "courseNumber": "50",
+                      "prefix": "SOCI",
+                      "prefixParentId": 8981,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12169,
+                      "department": "Sociology",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f2d257ba-8712-40af-c7cc-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357076,
+                      "courseTitle": "Sociology of Health Care Issues",
+                      "courseNumber": "40",
+                      "prefix": "SOCI",
+                      "prefixParentId": 8981,
+                      "prefixDescription": "Sociology",
+                      "departmentParentId": 12169,
+                      "department": "Sociology",
+                      "begin": "F2009",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e55d6a27-e933-4d2f-c7cd-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "dec36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "b9577fe5-4673-4c3b-c7c6-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 294653,
+            "courseTitle": "Introduction to Sociology",
+            "courseNumber": "1",
+            "prefix": "SOCI",
+            "prefixParentId": 8981,
+            "prefixDescription": "Sociology",
+            "departmentParentId": 12169,
+            "department": "Sociology",
+            "begin": "F2009",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 7,
+                "pathwayName": "Communication",
+                "pathwayCode": "Communication",
+                "expectationId": 33,
+                "expectationName": "C4-Choose 3 Courses From List",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 20,
+                "pathwayName": "Psychology",
+                "pathwayCode": "Psychology",
+                "expectationId": 135,
+                "expectationName": "D-Intro Sociology",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              },
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 21,
+                "pathwayName": "Sociology",
+                "pathwayCode": "Sociology",
+                "expectationId": 106,
+                "expectationName": "C1-Intro Soc.",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 337399,
+                    "courseTitle": "Introduction to Sociology",
+                    "courseNumber": "1",
+                    "prefix": "SOC",
+                    "prefixParentId": 9036,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12176,
+                    "department": "Sociology (SOC)",
+                    "begin": "Su2018",
+                    "end": "F2027",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 234766,
+                    "courseTitle": "Introduction to Sociology - Honors",
+                    "courseNumber": "1H",
+                    "prefix": "SOC",
+                    "prefixParentId": 9036,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12176,
+                    "department": "Sociology (SOC)",
+                    "begin": "Su2018",
+                    "end": "F2027",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "6830456b-56f5-4504-7517-08def177bf47",
+                "sendingArticulationId": "842ad822-f6e4-4de2-65b0-08def177b236",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "28ed45f1-5b88-4d18-c7c7-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355147,
+            "courseTitle": "The Study of Society",
+            "courseNumber": "2",
+            "prefix": "SOCI",
+            "prefixParentId": 8981,
+            "prefixDescription": "Sociology",
+            "departmentParentId": 12169,
+            "department": "Sociology",
+            "begin": "F2009",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 21,
+                "pathwayName": "Sociology",
+                "pathwayCode": "Sociology",
+                "expectationId": 107,
+                "expectationName": "C2-Social Probs",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 227242,
+                    "courseTitle": "Contemporary Social Problems - Honors",
+                    "courseNumber": "2H",
+                    "prefix": "SOC",
+                    "prefixParentId": 9036,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12176,
+                    "department": "Sociology (SOC)",
+                    "begin": "Su2013",
+                    "end": "F2027",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 1,
+                "type": "CourseGroup"
+              },
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 196444,
+                    "courseTitle": "Contemporary Social Problems",
+                    "courseNumber": "2",
+                    "prefix": "SOC",
+                    "prefixParentId": 9036,
+                    "prefixDescription": "Sociology",
+                    "departmentParentId": 12176,
+                    "department": "Sociology (SOC)",
+                    "begin": "Su2013",
+                    "end": "F2027",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [
+              {
+                "id": "5a8f01fc-5893-48c7-7525-08def177bf47",
+                "sendingArticulationId": "20639ffb-fa5a-4035-6636-08def177b236",
+                "groupConjunction": "Or",
+                "sendingCourseGroupBeginPosition": 0,
+                "sendingCourseGroupEndPosition": 1
+              }
+            ],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "f298d5b1-d05a-42e6-c7c8-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355278,
+            "courseTitle": "Practice of Social Research",
+            "courseNumber": "60",
+            "prefix": "SOCI",
+            "prefixParentId": 8981,
+            "prefixDescription": "Sociology",
+            "departmentParentId": 12169,
+            "department": "Sociology",
+            "begin": "F2009",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 282974,
+                    "courseTitle": "Introduction to Research Methods in Psychology",
+                    "courseNumber": "3",
+                    "prefix": "PSYC",
+                    "prefixParentId": 4651,
+                    "prefixDescription": "Psychology",
+                    "departmentParentId": 11326,
+                    "department": "Psychology (PSYC)",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.",
+    "Confirm how the listed sections fit together before using this group as a checklist."
+  ],
+  "calculation_review_required": true
+}

@@ -201,7 +201,7 @@ export default function Home() {
         </div>
       </section>
       <p className="session-note">Refreshing clears your entries.</p>
-      <details id="planning-guide" className="planning-guide"><summary><strong>How to use this planner</strong><Icon name="chevron" size={17} /></summary><div className="guide-content"><p>1. Choose campuses, majors and your transfer term.</p><p>2. Add AP exam scores.</p><p>3. Add courses, status and final grades.</p><p>4. Generate your plan. Regenerate after editing.</p><p>Planning estimate only. Confirm requirements and deadlines with a counselor and <a className="inline-link" href="https://assist.org" target="_blank" rel="noreferrer">ASSIST ↗</a>. Major checklists currently cover Berkeley.</p></div></details>
+      <details id="planning-guide" className="planning-guide"><summary><strong>How to use this planner</strong><Icon name="chevron" size={17} /></summary><div className="guide-content"><p>1. Choose campuses, majors and your transfer term.</p><p>2. Add AP exam scores.</p><p>3. Add courses, status and final grades.</p><p>4. Generate your plan. Regenerate after editing.</p><p>Planning estimate only. Confirm requirements and deadlines with a counselor and <a className="inline-link" href="https://assist.org" target="_blank" rel="noreferrer">ASSIST ↗</a>. Major checklists cover Berkeley, UCLA and UC San Diego.</p></div></details>
       <footer className="site-footer"><span>Mt. SAC course catalog · ASSIST articulation agreements</span><span>Transfer Planner</span></footer>
     </main>
   </div>;

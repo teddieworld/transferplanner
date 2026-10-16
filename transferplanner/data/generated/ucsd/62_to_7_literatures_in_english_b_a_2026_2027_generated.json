@@ -1,0 +1,3330 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Literatures in English B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "D",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "E",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "F",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "G",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "H",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "I",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "J",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "K",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "L",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    },
+    {
+      "name": "M",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.\nConfirm how the listed sections fit together before using this group as a checklist."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "LTEN 21",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 6A"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTEN 22",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTEN 23",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 6B"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTEN 25",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 1"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTEN 26",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 2"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTEN 27",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 20"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTEN 28",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTEN 29",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LIT 25"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTEN 31",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTLA 1",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LATN 1",
+            "LATN 2"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTLA 2",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LATN 1",
+            "LATN 2"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTLA 3",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "LATN 1",
+            "LATN 2"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTGK 1",
+      "group": "E",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTGK 2",
+      "group": "E",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTGK 3",
+      "group": "E",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTFR 2A",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTFR 2B",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTFR 2C",
+      "group": "F",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTGM 2A",
+      "group": "G",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTGM 2B",
+      "group": "G",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTGM 2C",
+      "group": "G",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTIT 2A",
+      "group": "H",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ITAL 3"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTIT 2B",
+      "group": "H",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "ITAL 4"
+          ]
+        }
+      ],
+      "department": "Literature"
+    },
+    {
+      "text": "LTIT 50",
+      "group": "H",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTSP 2A",
+      "group": "I",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTSP 2B",
+      "group": "I",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTSP 2C",
+      "group": "I",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTSP 1F",
+      "group": "I",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTSP 2F",
+      "group": "I",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTSP 3F",
+      "group": "I",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "JWSP 1",
+      "group": "J",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Jewish Studies Program"
+    },
+    {
+      "text": "JWSP 2",
+      "group": "J",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Jewish Studies Program"
+    },
+    {
+      "text": "JWSP 3",
+      "group": "J",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Jewish Studies Program"
+    },
+    {
+      "text": "LTRU 1A",
+      "group": "K",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTRU 1B",
+      "group": "K",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTRU 1C",
+      "group": "K",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTRU 2A",
+      "group": "K",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTRU 2B",
+      "group": "K",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LISL 1A AND LISL 1AX",
+      "group": "L",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LISL 1B AND LISL 1BX",
+      "group": "L",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LISL 1C AND LISL 1CX",
+      "group": "L",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LISL 1D AND LISL 1DX",
+      "group": "L",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": []
+    },
+    {
+      "text": "LISL 1E",
+      "group": "L",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Linguistics"
+    },
+    {
+      "text": "LTKO 1A",
+      "group": "M",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTKO 1B",
+      "group": "M",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTKO 1C",
+      "group": "M",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTKO 2A",
+      "group": "M",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTKO 2B",
+      "group": "M",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    },
+    {
+      "text": "LTKO 2C",
+      "group": "M",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Literature"
+    }
+  ],
+  "receiving_course_titles": {
+    "LTEN 21": "Introduction to the Literature of the British Isles: Pre 1660",
+    "LTEN 22": "Introduction to the Literature of the British Isles: 1660-1832",
+    "LTEN 23": "Introduction to the Literature of the British Isles: 1832-Present",
+    "LTEN 25": "Introduction to the Literature of the United States, Beginnings to 1865",
+    "LTEN 26": "Introduction to the Literature of the United States, 1865 to the Present",
+    "LTEN 27": "Introduction to African American Literature",
+    "LTEN 28": "Introduction to Asian-American Literature",
+    "LTEN 29": "Introduction to Chicano Literature",
+    "LTEN 31": "Indigenous Literature",
+    "LTLA 1": "Beginning Latin",
+    "LTLA 2": "Intermediate Latin I",
+    "LTLA 3": "Intermediate Latin II",
+    "LTGK 1": "Beginning Greek",
+    "LTGK 2": "Intermediate Greek I",
+    "LTGK 3": "Intermediate Greek II",
+    "LTFR 2A": "Intermediate French I",
+    "LTFR 2B": "Intermediate French II",
+    "LTFR 2C": "Intermediate French III: Composition and Cultural Topics",
+    "LTGM 2A": "Intermediate German I",
+    "LTGM 2B": "Intermediate German II",
+    "LTGM 2C": "Intermediate German III",
+    "LTIT 2A": "Intermediate Italian I",
+    "LTIT 2B": "Intermediate Italian II",
+    "LTIT 50": "Advanced Italian",
+    "LTSP 2A": "Intermediate Spanish I",
+    "LTSP 2B": "Intermediate Spanish II",
+    "LTSP 2C": "Intermediate Spanish III",
+    "LTSP 1F": "Spanish for Heritage Learners I",
+    "LTSP 2F": "Spanish for Heritage Learners II",
+    "LTSP 3F": "Spanish for Heritage Learners III",
+    "JWSP 1": "Beginning Hebrew",
+    "JWSP 2": "Intermediate Hebrew",
+    "JWSP 3": "Intermediate Hebrew, Continued",
+    "LTRU 1A": "First-Year Russian",
+    "LTRU 1B": "First-Year Russian",
+    "LTRU 1C": "First-Year Russian",
+    "LTRU 2A": "Second-Year Russian",
+    "LTRU 2B": "Second-Year Russian",
+    "LISL 1A": "American Sign Language Conversation",
+    "LISL 1AX": "Analysis of American Sign Language",
+    "LISL 1B": "American Sign Language Conversation",
+    "LISL 1BX": "Analysis of American Sign Language",
+    "LISL 1C": "American Sign Language Conversation",
+    "LISL 1CX": "Analysis of American Sign Language",
+    "LISL 1D": "American Sign Language Conversation",
+    "LISL 1DX": "Analysis of American Sign Language",
+    "LISL 1E": "Intermediate American Sign Language Conversation",
+    "LTKO 1A": "Beginning Korean: First Year I",
+    "LTKO 1B": "Beginning Korean: First Year II",
+    "LTKO 1C": "Beginning Korean: First Year III",
+    "LTKO 2A": "Intermediate Korean: Second Year I",
+    "LTKO 2B": "Intermediate Korean: Second Year II",
+    "LTKO 2C": "Intermediate Korean: Second Year III"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T19:15:23.7884839",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "26c16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p><strong>Special Advising Note: </strong></p><p><strong>Transfer students are strongly advised to complete as many preparatory courses for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. </strong></p><p><br></p><p>For information about the Department of Literature, including checklists of lower-division and upper-division requirements for all of our majors, descriptions of current courses and current class schedules, please go to: <a href=\"http://literature.ucsd.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">http://literature.ucsd.edu/</a>.</p><p><br></p><p>Students electing the Literatures in English major can complete the majority of the lower-division requirements at most community colleges in California.</p><p><br></p><p>As with all of the literature majors offered at UCSD, there is a secondary language and literature requirement (see choices of languages below). This entails required study in a language other than English and the attainment of proficiency in that language through the terminal course in that particular language sequence. For details on the secondary language &amp; literature requirement, please go to: <a href=\"http://literature.ucsd.edu\" rel=\"noopener noreferrer\" target=\"_blank\">http://literature.ucsd.edu</a><a href=\"http://literature.ucsd.edu/\" rel=\"noopener noreferrer\" target=\"_blank\">/</a>. Students can prepare for this requirement by taking lower-division courses (enough to reach fluency level, usually one to two years) in American Sign Language, Chinese, French, German, Greek, Hebrew, Italian, Korean, Latin, Russian, or Spanish.</p><p><br></p><p><strong>Literatures in English majors are required to complete: </strong></p><p><br></p><p><strong>1) Six lower-division courses: LTEN 21, 22, 23, 25 and 26, plus one of the following: LTEN 27, 28, or 29, or 31</strong></p><p><strong>2) The secondary language and literature requirement in the chosen language. </strong></p><p><br></p><p><strong>﻿See appropriate lower-division articulated community college courses below.</strong></p>",
+        "groupId": "28c16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289393,
+                      "courseTitle": "Intermediate Spanish III",
+                      "courseNumber": "2C",
+                      "prefix": "LTSP",
+                      "prefixParentId": 5374,
+                      "prefixDescription": "Literatures in Spanish",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "eb4d4285-ade3-4ba7-c600-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359466,
+                      "courseTitle": "Intermediate Spanish I",
+                      "courseNumber": "2A",
+                      "prefix": "LTSP",
+                      "prefixParentId": 5374,
+                      "prefixDescription": "Literatures in Spanish",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7d387a8f-b503-4dd7-c601-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 282875,
+                      "courseTitle": "Intermediate Spanish II",
+                      "courseNumber": "2B",
+                      "prefix": "LTSP",
+                      "prefixParentId": 5374,
+                      "prefixDescription": "Literatures in Spanish",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "89ebdc21-b639-41e0-c602-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418345,
+                      "courseTitle": "Spanish for Heritage Learners I",
+                      "courseNumber": "1F",
+                      "prefix": "LTSP",
+                      "prefixParentId": 5374,
+                      "prefixDescription": "Literatures in Spanish",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "208fd995-f7d3-4394-c605-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418346,
+                      "courseTitle": "Spanish for Heritage Learners II",
+                      "courseNumber": "2F",
+                      "prefix": "LTSP",
+                      "prefixParentId": 5374,
+                      "prefixDescription": "Literatures in Spanish",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d115ea66-137c-41f2-c606-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 418347,
+                      "courseTitle": "Spanish for Heritage Learners III",
+                      "courseNumber": "3F",
+                      "prefix": "LTSP",
+                      "prefixParentId": 5374,
+                      "prefixDescription": "Literatures in Spanish",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "02341718-f1b2-4f88-c607-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 8,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360016,
+                      "courseTitle": "Beginning Korean: First Year I",
+                      "courseNumber": "1A",
+                      "prefix": "LTKO",
+                      "prefixParentId": 15512,
+                      "prefixDescription": "Literatures in Korean",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2013",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7804bcb5-ecb1-49a8-c608-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 287828,
+                      "courseTitle": "Intermediate Korean: Second Year II",
+                      "courseNumber": "2B",
+                      "prefix": "LTKO",
+                      "prefixParentId": 15512,
+                      "prefixDescription": "Literatures in Korean",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2013",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b83eef87-8260-42db-c609-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305133,
+                      "courseTitle": "Intermediate Korean: Second Year I",
+                      "courseNumber": "2A",
+                      "prefix": "LTKO",
+                      "prefixParentId": 15512,
+                      "prefixDescription": "Literatures in Korean",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2013",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d333fcb9-a3a7-4a3a-c60a-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305132,
+                      "courseTitle": "Beginning Korean: First Year III",
+                      "courseNumber": "1C",
+                      "prefix": "LTKO",
+                      "prefixParentId": 15512,
+                      "prefixDescription": "Literatures in Korean",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2013",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d55a0e8f-a494-4f14-c60b-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 360017,
+                      "courseTitle": "Intermediate Korean: Second Year III",
+                      "courseNumber": "2C",
+                      "prefix": "LTKO",
+                      "prefixParentId": 15512,
+                      "prefixDescription": "Literatures in Korean",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2013",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5ee41a31-64d8-48f0-c60c-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309411,
+                      "courseTitle": "Beginning Korean: First Year II",
+                      "courseNumber": "1B",
+                      "prefix": "LTKO",
+                      "prefixParentId": 15512,
+                      "prefixDescription": "Literatures in Korean",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2013",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "71cc66aa-7243-4960-c60d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 12,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308526,
+                      "courseTitle": "Intermediate Italian I",
+                      "courseNumber": "2A",
+                      "prefix": "LTIT",
+                      "prefixParentId": 4091,
+                      "prefixDescription": "Literatures in Italian",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8752f6fa-ba97-4cca-c60e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355290,
+                      "courseTitle": "Advanced Italian",
+                      "courseNumber": "50",
+                      "prefix": "LTIT",
+                      "prefixParentId": 4091,
+                      "prefixDescription": "Literatures in Italian",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2018",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9939ac6d-d34c-4332-c60f-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359468,
+                      "courseTitle": "Intermediate Italian II",
+                      "courseNumber": "2B",
+                      "prefix": "LTIT",
+                      "prefixParentId": 4091,
+                      "prefixDescription": "Literatures in Italian",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4a53219e-d431-4a21-c610-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 7,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355049,
+                      "courseTitle": "Introduction to African American Literature",
+                      "courseNumber": "27",
+                      "prefix": "LTEN",
+                      "prefixParentId": 4815,
+                      "prefixDescription": "Literatures in English",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "c05fcdc7-9d72-4c9e-c611-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294493,
+                      "courseTitle": "Introduction to Asian-American Literature",
+                      "courseNumber": "28",
+                      "prefix": "LTEN",
+                      "prefixParentId": 4815,
+                      "prefixDescription": "Literatures in English",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2105fdc5-d161-4aea-c612-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294496,
+                      "courseTitle": "Introduction to Chicano Literature",
+                      "courseNumber": "29",
+                      "prefix": "LTEN",
+                      "prefixParentId": 4815,
+                      "prefixDescription": "Literatures in English",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2002",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "50829237-2db3-48fc-c613-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 376836,
+                      "courseTitle": "Indigenous Literature",
+                      "courseNumber": "31",
+                      "prefix": "LTEN",
+                      "prefixParentId": 4815,
+                      "prefixDescription": "Literatures in English",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2020",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a8b6b142-4aa1-4968-c614-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 2,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 282869,
+                      "courseTitle": "Intermediate German II",
+                      "courseNumber": "2B",
+                      "prefix": "LTGM",
+                      "prefixParentId": 9376,
+                      "prefixDescription": "Literatures in German",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "d65793c4-1aa6-40ce-c615-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308532,
+                      "courseTitle": "Intermediate German I",
+                      "courseNumber": "2A",
+                      "prefix": "LTGM",
+                      "prefixParentId": 9376,
+                      "prefixDescription": "Literatures in German",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a8a6a415-edc6-4e17-c616-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259945,
+                      "courseTitle": "Intermediate German III",
+                      "courseNumber": "2C",
+                      "prefix": "LTGM",
+                      "prefixParentId": 9376,
+                      "prefixDescription": "Literatures in German",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2001",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "48270fff-f265-48ec-c617-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 6,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 303445,
+                      "courseTitle": "First-Year Russian",
+                      "courseNumber": "1C",
+                      "prefix": "LTRU",
+                      "prefixParentId": 3462,
+                      "prefixDescription": "Russian Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b0faa43a-b01f-4677-c618-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308524,
+                      "courseTitle": "Second-Year Russian",
+                      "courseNumber": "2A",
+                      "prefix": "LTRU",
+                      "prefixParentId": 3462,
+                      "prefixDescription": "Russian Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bd01a991-6831-40e4-c619-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 282868,
+                      "courseTitle": "First-Year Russian",
+                      "courseNumber": "1B",
+                      "prefix": "LTRU",
+                      "prefixParentId": 3462,
+                      "prefixDescription": "Russian Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e613b4bd-a699-46f9-c61a-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359470,
+                      "courseTitle": "First-Year Russian",
+                      "courseNumber": "1A",
+                      "prefix": "LTRU",
+                      "prefixParentId": 3462,
+                      "prefixDescription": "Russian Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8b2f76f5-845e-4a06-c61b-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 308535,
+                      "courseTitle": "Second-Year Russian",
+                      "courseNumber": "2B",
+                      "prefix": "LTRU",
+                      "prefixParentId": 3462,
+                      "prefixDescription": "Russian Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f10bd723-3a89-4224-c61c-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 10,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 297992,
+                      "courseTitle": "Introduction to the Literature of the United States, Beginnings to 1865",
+                      "courseNumber": "25",
+                      "prefix": "LTEN",
+                      "prefixParentId": 4815,
+                      "prefixDescription": "Literatures in English",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "6916ba8b-2c2a-4fa9-c61d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 356216,
+                      "courseTitle": "Introduction to the Literature of the United States, 1865 to the Present",
+                      "courseNumber": "26",
+                      "prefix": "LTEN",
+                      "prefixParentId": 4815,
+                      "prefixDescription": "Literatures in English",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2010",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 11,
+                          "pathwayName": "English",
+                          "pathwayCode": "English",
+                          "expectationId": 55,
+                          "expectationName": "C2-Survey of Brit and/or Am. Lit (1860-present)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9881c685-cc42-448b-c61e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 282872,
+                      "courseTitle": "Intermediate French I",
+                      "courseNumber": "2A",
+                      "prefix": "LTFR",
+                      "prefixParentId": 345,
+                      "prefixDescription": "Literatures in French",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "eaf9b5c4-2416-4518-c61f-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294907,
+                      "courseTitle": "Intermediate French III: Composition and Cultural Topics",
+                      "courseNumber": "2C",
+                      "prefix": "LTFR",
+                      "prefixParentId": 345,
+                      "prefixDescription": "Literatures in French",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2001",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0b83ef10-31fa-40dc-c620-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 359463,
+                      "courseTitle": "Intermediate French II",
+                      "courseNumber": "2B",
+                      "prefix": "LTFR",
+                      "prefixParentId": 345,
+                      "prefixDescription": "Literatures in French",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9bdd0fb4-9e0d-4aac-c621-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 5,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355247,
+                      "courseTitle": "Intermediate Hebrew, Continued",
+                      "courseNumber": "3",
+                      "prefix": "JWSP",
+                      "prefixParentId": 3480,
+                      "prefixDescription": "Jewish Studies Program",
+                      "departmentParentId": 7919,
+                      "department": "Jewish Studies Program",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "66dde73b-980b-49a1-c622-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259927,
+                      "courseTitle": "Intermediate Hebrew",
+                      "courseNumber": "2",
+                      "prefix": "JWSP",
+                      "prefixParentId": 3480,
+                      "prefixDescription": "Jewish Studies Program",
+                      "departmentParentId": 7919,
+                      "department": "Jewish Studies Program",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a15ccd90-7fb7-4406-c623-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355273,
+                      "courseTitle": "Beginning Hebrew",
+                      "courseNumber": "1",
+                      "prefix": "JWSP",
+                      "prefixParentId": 3480,
+                      "prefixDescription": "Jewish Studies Program",
+                      "departmentParentId": 7919,
+                      "department": "Jewish Studies Program",
+                      "begin": "F2019",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "17dd6f84-4e4b-4ead-c624-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 9,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294919,
+                      "courseTitle": "Introduction to the Literature of the British Isles: 1832-Present",
+                      "courseNumber": "23",
+                      "prefix": "LTEN",
+                      "prefixParentId": 4815,
+                      "prefixDescription": "Literatures in English",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 11,
+                          "pathwayName": "English",
+                          "pathwayCode": "English",
+                          "expectationId": 55,
+                          "expectationName": "C2-Survey of Brit and/or Am. Lit (1860-present)",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "eef858d1-3a3e-4f6a-c625-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355283,
+                      "courseTitle": "Introduction to the Literature of the British Isles: Pre 1660",
+                      "courseNumber": "21",
+                      "prefix": "LTEN",
+                      "prefixParentId": 4815,
+                      "prefixDescription": "Literatures in English",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": [
+                        {
+                          "begin": null,
+                          "beginDate": null,
+                          "beginTermId": null,
+                          "end": null,
+                          "endDate": null,
+                          "endTermId": null,
+                          "pathwayId": 11,
+                          "pathwayName": "English",
+                          "pathwayCode": "English",
+                          "expectationId": 54,
+                          "expectationName": "C1-Survey of British Lit to 1850",
+                          "subexpectationId": 0,
+                          "subexpectationName": null
+                        }
+                      ]
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "90bb7c75-4246-40e2-c626-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259939,
+                      "courseTitle": "Introduction to the Literature of the British Isles: 1660-1832",
+                      "courseNumber": "22",
+                      "prefix": "LTEN",
+                      "prefixParentId": 4815,
+                      "prefixDescription": "Literatures in English",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1fd8e6a1-b138-4cab-c627-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355270,
+                      "courseTitle": "Beginning Latin",
+                      "courseNumber": "1",
+                      "prefix": "LTLA",
+                      "prefixParentId": 8956,
+                      "prefixDescription": "Latin Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "fca0c25d-557c-46a1-c628-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355244,
+                      "courseTitle": "Intermediate Latin II",
+                      "courseNumber": "3",
+                      "prefix": "LTLA",
+                      "prefixParentId": 8956,
+                      "prefixDescription": "Latin Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "cdac93ff-3434-4f8a-c629-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355289,
+                      "courseTitle": "Intermediate Latin I",
+                      "courseNumber": "2",
+                      "prefix": "LTLA",
+                      "prefixParentId": 8956,
+                      "prefixDescription": "Latin Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2f1901bc-4dd4-42eb-c62a-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 3,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259930,
+                      "courseTitle": "Intermediate Greek II",
+                      "courseNumber": "3",
+                      "prefix": "LTGK",
+                      "prefixParentId": 11450,
+                      "prefixDescription": "Greek Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "e7c05af1-1ea6-4373-c62b-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259928,
+                      "courseTitle": "Intermediate Greek I",
+                      "courseNumber": "2",
+                      "prefix": "LTGK",
+                      "prefixParentId": 11450,
+                      "prefixDescription": "Greek Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9ac8e9bf-359b-4ca4-c62c-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 355288,
+                      "courseTitle": "Beginning Greek",
+                      "courseNumber": "1",
+                      "prefix": "LTGK",
+                      "prefixParentId": 11450,
+                      "prefixDescription": "Greek Literature",
+                      "departmentParentId": 8657,
+                      "department": "Literature",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f8313a97-dff4-415e-c62d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 4,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISL 1C, LISL 1CX",
+                      "courses": [
+                        {
+                          "id": "5fe03edc-d51a-4d3b-8a37-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 146544,
+                          "courseTitle": "American Sign Language Conversation",
+                          "courseNumber": "1C",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "ff4cb2b5-bfb5-4f2c-8a38-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 327990,
+                          "courseTitle": "Analysis of American Sign Language",
+                          "courseNumber": "1CX",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "ede08d5d-be62-4755-c62e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISL 1B, LISL 1BX",
+                      "courses": [
+                        {
+                          "id": "d776a53b-2920-4655-8a12-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 126670,
+                          "courseTitle": "American Sign Language Conversation",
+                          "courseNumber": "1B",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "55890e2c-c689-418a-8a13-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 146542,
+                          "courseTitle": "Analysis of American Sign Language",
+                          "courseNumber": "1BX",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "d153178c-f2ba-4881-c62f-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296875,
+                      "courseTitle": "Intermediate American Sign Language Conversation",
+                      "courseNumber": "1E",
+                      "prefix": "LISL",
+                      "prefixParentId": 9,
+                      "prefixDescription": "Linguistics/American Sign Language",
+                      "departmentParentId": 8616,
+                      "department": "Linguistics",
+                      "begin": "F2007",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "301c99d6-ab7f-4e09-c630-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISL 1A, LISL 1AX",
+                      "courses": [
+                        {
+                          "id": "bbb52bde-12fc-475b-8a06-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 126672,
+                          "courseTitle": "American Sign Language Conversation",
+                          "courseNumber": "1A",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "392c127a-2988-431b-8a07-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 327983,
+                          "courseTitle": "Analysis of American Sign Language",
+                          "courseNumber": "1AX",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "f51b455d-4dff-4b1b-c631-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Series",
+                    "series": {
+                      "conjunction": "And",
+                      "name": "LISL 1D, LISL 1DX",
+                      "courses": [
+                        {
+                          "id": "e74c4530-394a-45b5-8a08-08def1775d64",
+                          "position": 0,
+                          "courseIdentifierParentId": 126674,
+                          "courseTitle": "American Sign Language Conversation",
+                          "courseNumber": "1D",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        },
+                        {
+                          "id": "d815c26b-7007-41a1-8a09-08def1775d64",
+                          "position": 1,
+                          "courseIdentifierParentId": 146546,
+                          "courseTitle": "Analysis of American Sign Language",
+                          "courseNumber": "1DX",
+                          "prefix": "LISL",
+                          "prefixParentId": 9,
+                          "prefixDescription": "Linguistics/American Sign Language",
+                          "departmentParentId": 8616,
+                          "department": "Linguistics",
+                          "begin": "F1999",
+                          "end": "",
+                          "minUnits": 2.5,
+                          "maxUnits": 2.5,
+                          "pathways": []
+                        }
+                      ],
+                      "seriesPathways": []
+                    },
+                    "requisites": [],
+                    "visibleCrossListedCourses": [],
+                    "seriesAttributes": [],
+                    "courseAttributes": [],
+                    "id": "775a6357-34a4-4cc9-c632-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 11,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "29c16f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "8752f6fa-ba97-4cca-c60e-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 308526,
+            "courseTitle": "Intermediate Italian I",
+            "courseNumber": "2A",
+            "prefix": "LTIT",
+            "prefixParentId": 4091,
+            "prefixDescription": "Literatures in Italian",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F2026",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 253830,
+                    "courseTitle": "Intermediate Italian",
+                    "courseNumber": "3",
+                    "prefix": "ITAL",
+                    "prefixParentId": 1720,
+                    "prefixDescription": "Italian",
+                    "departmentParentId": 7821,
+                    "department": "Italian (ITAL)",
+                    "begin": "F1998",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "4a53219e-d431-4a21-c610-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 359468,
+            "courseTitle": "Intermediate Italian II",
+            "courseNumber": "2B",
+            "prefix": "LTIT",
+            "prefixParentId": 4091,
+            "prefixDescription": "Literatures in Italian",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F2026",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 353062,
+                    "courseTitle": "Continuing Intermediate Italian",
+                    "courseNumber": "4",
+                    "prefix": "ITAL",
+                    "prefixParentId": 1720,
+                    "prefixDescription": "Italian",
+                    "departmentParentId": 7821,
+                    "department": "Italian (ITAL)",
+                    "begin": "F2006",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "c05fcdc7-9d72-4c9e-c611-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355049,
+            "courseTitle": "Introduction to African American Literature",
+            "courseNumber": "27",
+            "prefix": "LTEN",
+            "prefixParentId": 4815,
+            "prefixDescription": "Literatures in English",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F2002",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 161461,
+                    "courseTitle": "African American Literature",
+                    "courseNumber": "20",
+                    "prefix": "LIT",
+                    "prefixParentId": 4569,
+                    "prefixDescription": "Literature",
+                    "departmentParentId": 8664,
+                    "department": "Literature (LIT)",
+                    "begin": "F2001",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "50829237-2db3-48fc-c613-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 294496,
+            "courseTitle": "Introduction to Chicano Literature",
+            "courseNumber": "29",
+            "prefix": "LTEN",
+            "prefixParentId": 4815,
+            "prefixDescription": "Literatures in English",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F2002",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 163408,
+                    "courseTitle": "Contemporary Mexican American Literature",
+                    "courseNumber": "25",
+                    "prefix": "LIT",
+                    "prefixParentId": 4569,
+                    "prefixDescription": "Literature",
+                    "departmentParentId": 8664,
+                    "department": "Literature (LIT)",
+                    "begin": "F2001",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "6916ba8b-2c2a-4fa9-c61d-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 297992,
+            "courseTitle": "Introduction to the Literature of the United States, Beginnings to 1865",
+            "courseNumber": "25",
+            "prefix": "LTEN",
+            "prefixParentId": 4815,
+            "prefixDescription": "Literatures in English",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F2010",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 161263,
+                    "courseTitle": "Early American Literature",
+                    "courseNumber": "1",
+                    "prefix": "LIT",
+                    "prefixParentId": 4569,
+                    "prefixDescription": "Literature",
+                    "departmentParentId": 8664,
+                    "department": "Literature (LIT)",
+                    "begin": "F2001",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "9881c685-cc42-448b-c61e-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 356216,
+            "courseTitle": "Introduction to the Literature of the United States, 1865 to the Present",
+            "courseNumber": "26",
+            "prefix": "LTEN",
+            "prefixParentId": 4815,
+            "prefixDescription": "Literatures in English",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F2010",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 11,
+                "pathwayName": "English",
+                "pathwayCode": "English",
+                "expectationId": 55,
+                "expectationName": "C2-Survey of Brit and/or Am. Lit (1860-present)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 216114,
+                    "courseTitle": "Modern American Literature",
+                    "courseNumber": "2",
+                    "prefix": "LIT",
+                    "prefixParentId": 4569,
+                    "prefixDescription": "Literature",
+                    "departmentParentId": 8664,
+                    "department": "Literature (LIT)",
+                    "begin": "F2001",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "eef858d1-3a3e-4f6a-c625-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 294919,
+            "courseTitle": "Introduction to the Literature of the British Isles: 1832-Present",
+            "courseNumber": "23",
+            "prefix": "LTEN",
+            "prefixParentId": 4815,
+            "prefixDescription": "Literatures in English",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F1999",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 11,
+                "pathwayName": "English",
+                "pathwayCode": "English",
+                "expectationId": 55,
+                "expectationName": "C2-Survey of Brit and/or Am. Lit (1860-present)",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 164995,
+                    "courseTitle": "Survey of English Literature Since 1800",
+                    "courseNumber": "6B",
+                    "prefix": "LIT",
+                    "prefixParentId": 4569,
+                    "prefixDescription": "Literature",
+                    "departmentParentId": 8664,
+                    "department": "Literature (LIT)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "90bb7c75-4246-40e2-c626-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355283,
+            "courseTitle": "Introduction to the Literature of the British Isles: Pre 1660",
+            "courseNumber": "21",
+            "prefix": "LTEN",
+            "prefixParentId": 4815,
+            "prefixDescription": "Literatures in English",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F1999",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": [
+              {
+                "begin": null,
+                "beginDate": null,
+                "beginTermId": null,
+                "end": null,
+                "endDate": null,
+                "endTermId": null,
+                "pathwayId": 11,
+                "pathwayName": "English",
+                "pathwayCode": "English",
+                "expectationId": 54,
+                "expectationName": "C1-Survey of British Lit to 1850",
+                "subexpectationId": 0,
+                "subexpectationName": null
+              }
+            ]
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 337506,
+                    "courseTitle": "Survey of English Literature up to 1800",
+                    "courseNumber": "6A",
+                    "prefix": "LIT",
+                    "prefixParentId": 4569,
+                    "prefixDescription": "Literature",
+                    "departmentParentId": 8664,
+                    "department": "Literature (LIT)",
+                    "begin": "F2025",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "fca0c25d-557c-46a1-c628-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355270,
+            "courseTitle": "Beginning Latin",
+            "courseNumber": "1",
+            "prefix": "LTLA",
+            "prefixParentId": 8956,
+            "prefixDescription": "Latin Literature",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F1998",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 356895,
+                    "courseTitle": "Continuing Elementary Latin",
+                    "courseNumber": "2",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 270272,
+                    "courseTitle": "Elementary Latin",
+                    "courseNumber": "1",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "cdac93ff-3434-4f8a-c629-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355244,
+            "courseTitle": "Intermediate Latin II",
+            "courseNumber": "3",
+            "prefix": "LTLA",
+            "prefixParentId": 8956,
+            "prefixDescription": "Latin Literature",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F1998",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 356895,
+                    "courseTitle": "Continuing Elementary Latin",
+                    "courseNumber": "2",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 270272,
+                    "courseTitle": "Elementary Latin",
+                    "courseNumber": "1",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "2f1901bc-4dd4-42eb-c62a-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 355289,
+            "courseTitle": "Intermediate Latin I",
+            "courseNumber": "2",
+            "prefix": "LTLA",
+            "prefixParentId": 8956,
+            "prefixDescription": "Latin Literature",
+            "departmentParentId": 8657,
+            "department": "Literature",
+            "begin": "F1998",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 356895,
+                    "courseTitle": "Continuing Elementary Latin",
+                    "courseNumber": "2",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 1,
+                    "type": "Course"
+                  },
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 270272,
+                    "courseTitle": "Elementary Latin",
+                    "courseNumber": "1",
+                    "prefix": "LATN",
+                    "prefixParentId": 14321,
+                    "prefixDescription": "Latin",
+                    "departmentParentId": 8319,
+                    "department": "Latin (LATN)",
+                    "begin": "F2007",
+                    "end": "",
+                    "minUnits": 4.0,
+                    "maxUnits": 4.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer.",
+    "Confirm how the listed sections fit together before using this group as a checklist."
+  ],
+  "calculation_review_required": true
+}

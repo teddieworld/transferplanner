@@ -2,11 +2,12 @@ import argparse
 import json
 import html
 import re
+import os
 
 #parse functions SQL
 def connect_to_database():
     import psycopg
-    connection = psycopg.connect("dbname = transferplanner")
+    connection = psycopg.connect(os.environ.get("DATABASE_URL") or "dbname = transferplanner")
     return connection
 def insert_course(cursor, course, college_id):
     query = """

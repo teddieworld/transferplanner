@@ -1,0 +1,359 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Theatre and Dance B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "TDAC 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "articulated",
+      "note": null,
+      "options": [
+        {
+          "option_number": 1,
+          "courses": [
+            "THTR 11"
+          ]
+        }
+      ],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDDM 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDDE 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDPR 6",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    },
+    {
+      "text": "TDPW 1",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Theatre and Dance"
+    }
+  ],
+  "receiving_course_titles": {
+    "TDAC 1": "Introduction to Acting",
+    "TDDM 1": "Introduction to Dance Making",
+    "TDDE 1": "Introduction to Design for the Theatre",
+    "TDPR 6": "Theatre Practicum",
+    "TDPW 1": "Introduction to Playwriting"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T18:47:07.2800516",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "7cc76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p><strong><span class=\"ql-cursor\">﻿</span>The double major in Theatre and Dance provides students with a solid academic base and an artistic base in both theatre and dance disciplines. Furthermore, requirements for this double major will create stronger and more experienced directors (for their exposure to choreography), choreographers (for their exposure to directing), actors (for the poise and strength they will attain from dance, and dancers (for having confronted text and character). Students should meet with the department's undergraduate coordinator as soon as practical (but no later than the quarter in which they declare the major) in order to plan an appropriate individual course of study. Double majors should complete the Petition for Double Major form obtained from their college and submit it to the department for review and approval. For more information please visit </strong><a href=\"https://theatre.ucsd.edu/admissions/undergraduate/double-major.html\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>https://theatre.ucsd.edu/admissions/undergraduate/double-major.html</strong></a></p>",
+        "groupId": "7ec76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300552,
+                      "courseTitle": "Theatre Practicum",
+                      "courseNumber": "6",
+                      "prefix": "TDPR",
+                      "prefixParentId": 12,
+                      "prefixDescription": "Theatre & Dance/Practicum",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2011",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 6.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9d3c1381-8c48-4ec7-c9cd-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289375,
+                      "courseTitle": "Introduction to Design for the Theatre",
+                      "courseNumber": "1",
+                      "prefix": "TDDE",
+                      "prefixParentId": 597,
+                      "prefixDescription": "Theatre & Dance/Theatre Design",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bf3257eb-2544-423e-c9ce-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 269449,
+                      "courseTitle": "Introduction to Dance Making",
+                      "courseNumber": "1",
+                      "prefix": "TDDM",
+                      "prefixParentId": 16173,
+                      "prefixDescription": "Theatre & Dance/Dance Making",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2017",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "716f8d51-4bd6-42df-c9cf-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259931,
+                      "courseTitle": "Introduction to Playwriting",
+                      "courseNumber": "1",
+                      "prefix": "TDPW",
+                      "prefixParentId": 8775,
+                      "prefixDescription": "Theatre & Dance/Theatre Playwriting",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "9d6bee91-9809-45ae-c9d0-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289365,
+                      "courseTitle": "Introduction to Acting",
+                      "courseNumber": "1",
+                      "prefix": "TDAC",
+                      "prefixParentId": 10957,
+                      "prefixDescription": "Theatre & Dance/Theatre Acting",
+                      "departmentParentId": 12844,
+                      "department": "Theatre and Dance",
+                      "begin": "F2005",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "eca9aafa-7eb1-46eb-c9d1-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "74c76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "eca9aafa-7eb1-46eb-c9d1-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 289365,
+            "courseTitle": "Introduction to Acting",
+            "courseNumber": "1",
+            "prefix": "TDAC",
+            "prefixParentId": 10957,
+            "prefixDescription": "Theatre & Dance/Theatre Acting",
+            "departmentParentId": 12844,
+            "department": "Theatre and Dance",
+            "begin": "F2005",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": null,
+            "deniedCourses": [],
+            "items": [
+              {
+                "courseConjunction": "And",
+                "items": [
+                  {
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "attributes": [],
+                    "courseIdentifierParentId": 157779,
+                    "courseTitle": "Principles of Acting I",
+                    "courseNumber": "11",
+                    "prefix": "THTR",
+                    "prefixParentId": 8811,
+                    "prefixDescription": "Theater Arts",
+                    "departmentParentId": 12824,
+                    "department": "Theater Arts (THTR)",
+                    "begin": "Su2003",
+                    "end": "",
+                    "minUnits": 3.0,
+                    "maxUnits": 3.0,
+                    "pathways": [],
+                    "publishedCourseIdentifierYearTermId": null,
+                    "position": 0,
+                    "type": "Course"
+                  }
+                ],
+                "attributes": [],
+                "position": 0,
+                "type": "CourseGroup"
+              }
+            ],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+  ],
+  "calculation_review_required": true
+}

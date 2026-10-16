@@ -1,0 +1,638 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Greek and Latin/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: LOWER DIVISION MAJOR REQUIREMENTS\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by OR\nChoose one complete alternative section; do not combine incomplete alternatives."
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": null,
+      "review_required": true,
+      "note": "Source heading: LOWER DIVISION MAJOR REQUIREMENTS\nAdviser review needed. This group cannot be marked complete automatically.\nSource instruction: Sections joined by OR\nChoose one complete alternative section; do not combine incomplete alternatives."
+    },
+    {
+      "name": "D",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "E",
+      "category": "major_required",
+      "required_count": null
+    }
+  ],
+  "requirements": [
+    {
+      "text": "CLASSIC 10",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Classic"
+    },
+    {
+      "text": "CLASSIC 20",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Classic"
+    },
+    {
+      "text": "GREEK 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Greek"
+    },
+    {
+      "text": "GREEK 2",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Greek"
+    },
+    {
+      "text": "GREEK 3",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Greek"
+    },
+    {
+      "text": "GREEK 16",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Greek"
+    },
+    {
+      "text": "GREEK 20",
+      "group": "D",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Greek"
+    },
+    {
+      "text": "LATIN 1",
+      "group": "E",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Latin"
+    },
+    {
+      "text": "LATIN 2",
+      "group": "E",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Latin"
+    },
+    {
+      "text": "LATIN 3",
+      "group": "E",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Latin"
+    },
+    {
+      "text": "LATIN 20",
+      "group": "E",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Latin"
+    }
+  ],
+  "receiving_course_titles": {
+    "CLASSIC 10": "Discovering Greeks",
+    "CLASSIC 20": "Discovering Romans",
+    "GREEK 1": "Elementary Greek",
+    "GREEK 2": "Elementary Greek",
+    "GREEK 3": "Elementary Greek",
+    "GREEK 16": "Intensive First-Year Greek",
+    "GREEK 20": "Intermediate Greek I",
+    "LATIN 1": "Elementary Latin",
+    "LATIN 2": "Elementary Latin",
+    "LATIN 3": "Elementary Latin",
+    "LATIN 20": "Intermediate Latin I"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-01-16T20:45:01.3880363",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "6fc36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The Greek and Latin major is designed to identify and analyze ancient classical documents, material evidence, or other forms of primary sources and demonstrate their critical skills by engaging in presentations and weekly discourse with their peers.  </p><p><br></p><p>Listed below are the lower division preparation courses for the major.</p><p><br></p><p>To be considered for this major, you must complete the following courses by the end of spring before transfer:</p><ul><li>One year of college level coursework in the declared language OR</li><li>At least one year of high school in which the primary language of instruction was the declared language.</li></ul><p>Completion of two college level foreign language courses are <strong>STRONGLY RECOMMENDED</strong>. A placement exam is required for all language majors regardless of lower division credits earned in language courses.</p><p>All courses must be taken for a letter grade.</p><p><br></p><p>For information regarding preparation for this major and UCLA's transfer selection process, visit <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.classics.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">classics.ucla.edu</a> and <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.admission.ucla.edu\" rel=\"noopener noreferrer\" target=\"_blank\">admission.ucla.edu</a>.</p><p><br></p><p>PLEASE NOTE: The community college courses listed below have been approved to satisfy the preparation requirements for this major at UCLA, but they may not be exact equivalents of the UCLA courses listed.</p>",
+        "groupId": "6bc36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 305057,
+                      "courseTitle": "Discovering Greeks",
+                      "courseNumber": "10",
+                      "prefix": "CLASSIC",
+                      "prefixParentId": 15300,
+                      "prefixDescription": "Classics",
+                      "departmentParentId": 2691,
+                      "department": "Classic",
+                      "begin": "S2018",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "794639c7-7167-466f-e335-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 287045,
+                      "courseTitle": "Discovering Romans",
+                      "courseNumber": "20",
+                      "prefix": "CLASSIC",
+                      "prefixParentId": 15300,
+                      "prefixDescription": "Classics",
+                      "departmentParentId": 2691,
+                      "department": "Classic",
+                      "begin": "S2018",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3f9480ff-3ea0-47b8-e336-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "4d721d5e-86c0-42dc-677b-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "65c36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383919,
+                      "courseTitle": "Elementary Greek",
+                      "courseNumber": "1",
+                      "prefix": "GREEK",
+                      "prefixParentId": 15299,
+                      "prefixDescription": "Greek",
+                      "departmentParentId": 6628,
+                      "department": "Greek",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "30b3f7e2-7dab-421e-e337-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383920,
+                      "courseTitle": "Elementary Greek",
+                      "courseNumber": "2",
+                      "prefix": "GREEK",
+                      "prefixParentId": 15299,
+                      "prefixDescription": "Greek",
+                      "departmentParentId": 6628,
+                      "department": "Greek",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "74a01aa2-0319-42e0-e338-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 309356,
+                      "courseTitle": "Elementary Greek",
+                      "courseNumber": "3",
+                      "prefix": "GREEK",
+                      "prefixParentId": 15299,
+                      "prefixDescription": "Greek",
+                      "departmentParentId": 6628,
+                      "department": "Greek",
+                      "begin": "F2012",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "eae0ce57-8c4d-44ae-e339-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          },
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 387579,
+                      "courseTitle": "Intensive First-Year Greek",
+                      "courseNumber": "16",
+                      "prefix": "GREEK",
+                      "prefixParentId": 15299,
+                      "prefixDescription": "Greek",
+                      "departmentParentId": 6628,
+                      "department": "Greek",
+                      "begin": "F2023",
+                      "end": "",
+                      "minUnits": 12.0,
+                      "maxUnits": 12.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "5ff5b466-8a75-4223-e33a-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 1,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": true,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Conjunction",
+          "conjunction": "Or",
+          "id": "a0826f07-052f-4e67-677c-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "67c36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383921,
+                      "courseTitle": "Intermediate Greek I",
+                      "courseNumber": "20",
+                      "prefix": "GREEK",
+                      "prefixParentId": 15299,
+                      "prefixDescription": "Greek",
+                      "departmentParentId": 6628,
+                      "department": "Greek",
+                      "begin": "S2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "b75fc15e-75a6-421f-e33b-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "fcccafe5-0f0f-436a-677d-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "69c36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383924,
+                      "courseTitle": "Intermediate Latin I",
+                      "courseNumber": "20",
+                      "prefix": "LATIN",
+                      "prefixParentId": 15302,
+                      "prefixDescription": "Latin",
+                      "departmentParentId": 8310,
+                      "department": "Latin",
+                      "begin": "S2024",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "954c3f1c-58da-4a9e-e33c-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383922,
+                      "courseTitle": "Elementary Latin",
+                      "courseNumber": "1",
+                      "prefix": "LATIN",
+                      "prefixParentId": 15302,
+                      "prefixDescription": "Latin",
+                      "departmentParentId": 8310,
+                      "department": "Latin",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0cf3d485-a49c-41f6-e33d-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 383923,
+                      "courseTitle": "Elementary Latin",
+                      "courseNumber": "2",
+                      "prefix": "LATIN",
+                      "prefixParentId": 15302,
+                      "prefixDescription": "Latin",
+                      "departmentParentId": 8310,
+                      "department": "Latin",
+                      "begin": "S2022",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2cc0d73d-fb8c-4de1-e33e-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 287047,
+                      "courseTitle": "Elementary Latin",
+                      "courseNumber": "3",
+                      "prefix": "LATIN",
+                      "prefixParentId": 15302,
+                      "prefixDescription": "Latin",
+                      "departmentParentId": 8310,
+                      "department": "Latin",
+                      "begin": "F2012",
+                      "end": "",
+                      "minUnits": 5.0,
+                      "maxUnits": 5.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "a9d5bff5-22fe-4da4-e33f-08ddcb96dfae",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": {
+          "type": "Following",
+          "id": "7ed0cf12-cbb3-4aa3-677e-08ddcb96dfa1",
+          "selectionType": "Complete"
+        },
+        "advisements": [],
+        "groupId": "6cc36f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "LOWER DIVISION MAJOR REQUIREMENTS",
+        "groupId": "1ef47845-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": []
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "Choose one complete alternative section; do not combine incomplete alternatives."
+  ],
+  "calculation_review_required": true
+}

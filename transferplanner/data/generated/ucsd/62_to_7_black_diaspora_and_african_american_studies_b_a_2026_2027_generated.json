@@ -1,0 +1,243 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Black Diaspora and African American Studies B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": 3,
+      "review_required": true,
+      "note": "Adviser review needed. This group cannot be marked complete automatically.\nSource instruction: Select 3 Course\nThe source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+    }
+  ],
+  "requirements": [
+    {
+      "text": "AAS 10",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Black Diaspora and African American Studies"
+    },
+    {
+      "text": "AAS 11",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Black Diaspora and African American Studies"
+    },
+    {
+      "text": "AAS 14",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Black Diaspora and African American Studies"
+    },
+    {
+      "text": "AAS 15",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Black Diaspora and African American Studies"
+    }
+  ],
+  "receiving_course_titles": {
+    "AAS 10": "Introduction to African American Studies",
+    "AAS 11": "Introduction to Black Diasporic Studies",
+    "AAS 14": "Introduction to African Studies",
+    "AAS 15": "Racism and Global Imperialism"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T17:29:12.6878529",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION.</strong></p><p><br></p><p><strong>For more details, please visit our main website: </strong><a href=\"https://bdaas.ucsd.edu/\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>http://bdaas.ucsd.edu</strong></a><a href=\"http://bdaas.ucsd.edu/?\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>/ </strong></a><strong> and specific information for </strong><a href=\"https://catalog.ucsd.edu/curric/BDAAS.html\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>New and Prospective Students</strong></a><strong>.</strong></p><p><br></p><p><strong>The Black Diaspora and African American Studies Program Students will be able to design their individual programs under the guidelines of three different program concentrations:</strong></p><p><br></p><p><strong>Concentration A: Black diaspora studies,</strong></p><p><br></p><p><strong>Concentration B: African American studies, </strong></p><p><br></p><p><strong>or </strong></p><p><br></p><p><strong>Concentration C: interdisciplinary study. </strong></p><p><br></p><p><strong>Concentration A: focuses on Africa and the Black diaspora. </strong></p><p><br></p><p><strong>Concentration B focuses on African American experiences.</strong></p><p><br></p><p><strong>Concentration C allows students to design a major focus across a selected intersectional topic or issue that is covered across multiple departments.</strong></p><p><br></p><p><strong>Concentration A: Africa and the Black Diaspora</strong></p><p><br></p><p><strong>AAS 11. Introduction to Black Diasporic Studies (4)</strong></p><p><strong>AAS 14. Introduction to African Studies (4)</strong></p><p><strong>AAS 15. Racism and Global Imperialism (4) </strong></p><p><br></p><p><strong>Concentration B: African American Studies</strong></p><p><br></p><p><strong>AAS 10. Introduction to African American Studies (4)</strong></p><p><strong>AAS 11. Introduction to Black Diasporic Studies (4)</strong></p><p><strong>AAS 15. Racism and Global Imperialism (4) </strong></p><p><br></p><p><strong>Concentration C: Interdisciplinary Study</strong></p><p><br></p><p><strong>Students may choose a lower-division course from Concentration A and B. </strong></p><p><br></p><p><strong>﻿Any Student interested in majoring in Black Diaspora and African American Studies must take 1 lower division course under their desired concentration.</strong></p>",
+        "groupId": "23af6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 384570,
+                      "courseTitle": "Racism and Global Imperialism",
+                      "courseNumber": "15",
+                      "prefix": "AAS",
+                      "prefixParentId": 17151,
+                      "prefixDescription": "Black Diaspora and African American Studies",
+                      "departmentParentId": 14255,
+                      "department": "Black Diaspora and African American Studies",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "1ebb3fd6-8473-476e-c17c-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 384569,
+                      "courseTitle": "Introduction to African Studies",
+                      "courseNumber": "14",
+                      "prefix": "AAS",
+                      "prefixParentId": 17151,
+                      "prefixDescription": "Black Diaspora and African American Studies",
+                      "departmentParentId": 14255,
+                      "department": "Black Diaspora and African American Studies",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "0867ba15-174a-461a-c17d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 384567,
+                      "courseTitle": "Introduction to Black Diasporic Studies",
+                      "courseNumber": "11",
+                      "prefix": "AAS",
+                      "prefixParentId": 17151,
+                      "prefixDescription": "Black Diaspora and African American Studies",
+                      "departmentParentId": 14255,
+                      "department": "Black Diaspora and African American Studies",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "639a4ba3-f328-43e4-c17e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 384566,
+                      "courseTitle": "Introduction to African American Studies",
+                      "courseNumber": "10",
+                      "prefix": "AAS",
+                      "prefixParentId": 17151,
+                      "prefixDescription": "Black Diaspora and African American Studies",
+                      "departmentParentId": 14255,
+                      "department": "Black Diaspora and African American Studies",
+                      "begin": "F2025",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "ea2bc941-f53c-4677-c17f-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 3.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "24af6f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": []
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules.",
+    "Groups marked for adviser review cannot be calculated as complete. Their source rules, alternatives, and mappings are retained for review.",
+    "The source does not label this course list as admission or degree preparation. Confirm which courses must be completed before transfer."
+  ],
+  "calculation_review_required": true
+}

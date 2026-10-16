@@ -1,0 +1,38 @@
+{
+  "university": "University of California, Los Angeles",
+  "major": "Architectural Studies/B.A.",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2025–2026",
+  "groups": [],
+  "requirements": [],
+  "kind": "informational",
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2025-10-31T03:20:45.8032413",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 117,
+    "academic_year_id": 76,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "IMPORTANT MAJOR INFORMATION",
+        "groupId": "46c26f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>The focus of the Architectural Studies major is on the built environment. The curriculum conceives of architecture as a cultural, creative, and technical practice and a discipline with direct social impact. Within the context of a liberal arts education, a finely balanced set of architecture and urban design courses ranging from the history and theory of design to contemporary building technologies will provide students with a diverse foundation of knowledge in the field of architecture and prepare them for graduate school and /or careers in a wide range of fields.</p><p><br></p><p>Admission to Architectural Studies is highly selective: we receive many applications for limited spots. The most important admission criteria are the supplemental application which involves additional essays, a portfolio, strong academic performance, and evidence of community engagement relative to interest in the major.</p><p><br></p><p>The availability of arts coursework at community colleges can differ, so you may not find exact equivalents for all classes. However, this will not negatively affect your admission. Look for the closest matches in your curriculum, and if a course wasn't completed at your current institution, you can take it at UCLA. Substitutions for lower-division requirements will be determined by the department in the summer following admission. Syllabi or other descriptive course documentation may be required for consideration.&nbsp;</p><p><br></p><p>Recommended (not required) preparation for the major*:</p><ul><li>Two courses in the history of architecture {Pre-history-Mannerism and 1600-present} and</li><li>One Introduction to Architecture course.</li></ul><p>*It is common for transfers to complete these courses at UCLA.&nbsp;</p><p><br></p><p>Supplemental Requirements:</p><p>In addition to the general UC Application, applicants must submit a supplement that consists of additional essays and a portfolio. Additional fees may apply.</p><p><br></p><p>All students must have a cumulative 3.0 GPA at the time of application.</p><p><strong>Students MUST complete the requisite two English courses and one Math course by the end of Spring prior to transfer.</strong> Students are encouraged to take their required English and Math courses as early as possible with at least one English course completed by the end of Fall.</p><p><br></p><p>Completion of IGETC is not required, but strongly recommended. More information may be found at <u style=\"color: rgb(41, 98, 255);\">https://</u><a href=\"http://www.arts.ucla.edu/apply\" rel=\"noopener noreferrer\" target=\"_blank\">arts.ucla.edu/apply</a>. Architectural Studies considers sophomore transfers.</p><p><br></p><p>For more information about sophomore transfer admission criteria, please visit: <a href=\"http://www.arts.ucla.edu/apply\" rel=\"noopener noreferrer\" target=\"_blank\">https://arts.ucla.edu/apply</a>.</p>",
+        "groupId": "4fc26f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [],
+    "native_articulations": []
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}

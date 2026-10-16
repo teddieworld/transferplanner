@@ -10,7 +10,7 @@ from unittest.mock import Mock, patch
 
 from transferplanner.scraper.assist_collector import (
     agreement_key, agreement_url, matches_agreement_response, matches_major_list,
-    parse_major_list, save_response, capture_major_batch
+    parse_major_list, save_response, capture_major_batch, major_list_scope, RateLimitError
 )
 
 
@@ -20,6 +20,30 @@ DATA = Path(__file__).resolve().parents[2] / "data"
 
 
 class AssistCollectorTests(unittest.TestCase):
+    def test_rate_limit_waits_retries_once_and_stops_if_still_limited(self):
+        majors = [{"label": self.response['result']['name'], "key": KEY},
+                  {"label": "Next major", "key": KEY.replace('a0def9ce', 'b0def9ce')}]
+        page = Mock()
+        with patch('transferplanner.scraper.assist_collector.capture_on_page',
+                   side_effect=[RateLimitError(90), RateLimitError(90)]) as capture:
+            with contextlib.redirect_stdout(io.StringIO()):
+                report = capture_major_batch(page, majors, self.output)
+        self.assertEqual(capture.call_count, 2)
+        page.wait_for_timeout.assert_called_once_with(90000)
+        self.assertEqual((report['saved'], report['failed'], report['not_attempted']), (0, 1, 1))
+        self.assertFalse(self.output.exists())
+
+    def test_bulk_results_url_needs_no_major_uuid_but_validates_institution_scope(self):
+        url = "https://assist.org/transfer/results?year=76&institution=62&agreement=117&agreementType=to&viewBy=major"
+        self.assertEqual(major_list_scope(url), "76/62/to/117/Major")
+        self.assertEqual(major_list_scope(URL), "77/62/to/79/Major")
+        for invalid in [url.replace("assist.org", "example.com"), url + "&year=77",
+                        url.replace("agreement=117", "agreement=no"),
+                        url.replace("agreementType=to", "agreementType=from"),
+                        url.replace("viewBy=major", "viewBy=dept")]:
+            with self.subTest(url=invalid), self.assertRaises(ValueError):
+                major_list_scope(invalid)
+
     def setUp(self):
         self.response = json.loads((DATA / "raw/berkeley_cs_2026_2027.json").read_text())
         directory = tempfile.TemporaryDirectory()

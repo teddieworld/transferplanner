@@ -1,0 +1,425 @@
+[
+  {
+    "code": "AHIS 11",
+    "title": "History of African, Oceanic, and Native American Art",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_african_and_middle_eastern_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_art_history_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "AHIS 12",
+    "title": "History of Precolumbian Art and Architecture",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_art_history_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "AHIS 12H",
+    "title": "History of Precolumbian Art and Architecture - Honors",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_art_history_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "AHIS 4",
+    "title": "History of Western Art: Prehistoric Through Gothic",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_art_history_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "AHIS 4H",
+    "title": "History of Western Art: Prehistoric Through Gothic - Honors",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_art_history_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "AHIS 5",
+    "title": "History of Western Art: Renaissance Through Modern",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_art_history_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "AHIS 5H",
+    "title": "History of Western Art: Renaissance Through Modern - Honors",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_art_history_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "AHIS 6",
+    "title": "History of Modern Art",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_art_history_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "AHIS 6H",
+    "title": "History of Modern Art - Honors",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_art_history_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "AHIS 9",
+    "title": "History of Asian Art and Architecture",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_art_history_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_asian_studies_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "BUSC 17",
+    "title": "Applied Business Statistics",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_communication_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_global_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_psychology_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_sociology_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "BUSC 1A",
+    "title": "Principles of Macroeconomics",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_african_and_middle_eastern_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_asian_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_business_economics_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_economics_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_european_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_financial_actuarial_mathematics_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_global_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_international_development_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_latin_american_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_mathematics_economics_b_s_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "BUSC 1AH",
+    "title": "Principles of Macroeconomics - Honors",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_african_and_middle_eastern_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_asian_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_business_economics_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_economics_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_european_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_financial_actuarial_mathematics_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_global_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_international_development_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_latin_american_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_mathematics_economics_b_s_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "BUSC 1B",
+    "title": "Principles of Microeconomics",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_african_and_middle_eastern_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_asian_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_business_economics_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_communication_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_economics_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_european_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_financial_actuarial_mathematics_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_global_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_international_development_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_latin_american_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_mathematics_economics_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_public_affairs_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "BUSC 1BH",
+    "title": "Principles of Microeconomics - Honors",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_african_and_middle_eastern_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_asian_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_business_economics_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_communication_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_economics_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_european_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_financial_actuarial_mathematics_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_global_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_international_development_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_latin_american_studies_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_mathematics_economics_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_public_affairs_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "CSCI 220",
+    "title": "Data Structures I",
+    "minimum_units": 3.5,
+    "maximum_units": 3.5,
+    "uc_transferable": true,
+    "csu_transferable": true,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://www.mtsac.edu/math/all_cs_descriptions.html",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_cognitive_science_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_computational_biology_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_financial_actuarial_mathematics_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_mathematics_for_teaching_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_mathematics_of_computation_b_s_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": true
+    }
+  },
+  {
+    "code": "ENGL 1B",
+    "title": "English - Introduction to Literary Types",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_aerospace_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_american_literature_and_culture_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_bioengineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_chemical_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_civil_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_comparative_literature_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_computer_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_computer_science_and_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_computer_science_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_electrical_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_english_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_linguistics_and_english_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_materials_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_mathematics_economics_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_mechanical_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_nursing_generic_prelicensure_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_public_health_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  },
+  {
+    "code": "ENGL 1BH",
+    "title": "English - Introduction to Literary Types - Honors",
+    "minimum_units": 3.0,
+    "maximum_units": 3.0,
+    "uc_transferable": true,
+    "csu_transferable": false,
+    "description": "Listed under this code in an ASSIST agreement. Check current course availability with Mt. SAC.",
+    "requirements": [],
+    "source": {
+      "system": "ASSIST",
+      "transferability_url": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+      "checked_on": "2026-10-15",
+      "agreements": [
+        "transferplanner/data/raw/ucla/62_to_117_aerospace_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_american_literature_and_culture_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_bioengineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_chemical_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_civil_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_comparative_literature_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_computer_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_computer_science_and_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_computer_science_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_electrical_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_english_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_linguistics_and_english_b_a_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_materials_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_mathematics_economics_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_mechanical_engineering_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_nursing_generic_prelicensure_b_s_2025_2026.json",
+        "transferplanner/data/raw/ucla/62_to_117_public_health_b_a_2025_2026.json"
+      ],
+      "csu_transferability_reviewed": false
+    }
+  }
+]

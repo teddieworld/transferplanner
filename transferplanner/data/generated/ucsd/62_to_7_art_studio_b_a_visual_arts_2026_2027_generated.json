@@ -1,0 +1,1088 @@
+{
+  "university": "University of California, San Diego",
+  "major": "Art: Studio B.A. (Visual Arts)",
+  "college": "Mt. San Antonio College",
+  "academic_year": "2026–2027",
+  "groups": [
+    {
+      "name": "A",
+      "category": "major_required",
+      "required_count": null
+    },
+    {
+      "name": "B",
+      "category": "major_required",
+      "required_count": 2
+    },
+    {
+      "name": "C",
+      "category": "major_required",
+      "required_count": 1
+    }
+  ],
+  "requirements": [
+    {
+      "text": "VIS 11",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 22",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 80",
+      "group": "A",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 1",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 2",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 3",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 41",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 42",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 60",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 70N",
+      "group": "B",
+      "category": "major_required",
+      "articulation_status": "university_only",
+      "note": "This course must be taken at the university after transfer",
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 12R",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 20",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 21A",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 21B",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 21C",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 83",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 84",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 84B",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 85A",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    },
+    {
+      "text": "VIS 85B",
+      "group": "C",
+      "category": "major_required",
+      "articulation_status": "no_course_articulated",
+      "note": null,
+      "options": [],
+      "department": "Visual Arts"
+    }
+  ],
+  "receiving_course_titles": {
+    "VIS 11": "Introduction to Visual Culture",
+    "VIS 22": "Formations of Modern Art",
+    "VIS 80": "Intro to the Studio Major",
+    "VIS 1": "Introduction to Art-Making: Two-Dimensional Practices",
+    "VIS 2": "Introduction to Art-Making: Motion and Time Based Art",
+    "VIS 3": "Introduction to Art-Making: Three-Dimensional Practices",
+    "VIS 41": "Design Communication",
+    "VIS 42": "Intro to Creative Coding",
+    "VIS 60": "Introduction to Digital Photography",
+    "VIS 70N": "Introduction to Media",
+    "VIS 12R": "Race and Class in Visual Culture",
+    "VIS 20": "Introduction to Art of Europe and America",
+    "VIS 21A": "Introduction to the Art of the Americas or Africa and Oceania",
+    "VIS 21B": "Introduction to Asian Art",
+    "VIS 21C": "Introduction to African Art",
+    "VIS 83": "Photographic History",
+    "VIS 84": "Film History",
+    "VIS 84B": "Film Aesthetics",
+    "VIS 85A": "Media History",
+    "VIS 85B": "Media Aesthetics"
+  },
+  "source": {
+    "system": "ASSIST",
+    "publish_date": "2026-09-14T19:18:55.5683856",
+    "sending_institution_id": 62,
+    "receiving_institution_id": 7,
+    "academic_year_id": 77,
+    "general_information": [
+      {
+        "type": "GeneralTitle",
+        "content": "General Information",
+        "groupId": "1ec76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p><strong>DATED MATERIAL, SUBJECT TO CHANGE. PLEASE CONSULT CURRENT UCSD GENERAL CATALOG FOR ANY ADDITIONAL INFORMATION. </strong></p><p><br></p><p><strong>Special Advising Note: Transfer students are strongly advised to complete as many preparatory courses as soon as possible for their major before enrolling at UC San Diego. Preparing well for the major helps students move efficiently toward graduation. </strong></p><p><br></p><p>The Studio Art major includes courses in painting, drawing, sculpture, performance, installation and cross-disciplinary art practices. Studio Art classes provide the technical and conceptual skills of contemporary art production in the context of art history, criticism and theory.For more information please visit <a href=\"http://visarts.ucsd.edu\" rel=\"noopener noreferrer\" target=\"_blank\">visarts.ucsd.edu</a>.</p>",
+        "groupId": "24c76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "General"
+      },
+      {
+        "type": "GeneralText",
+        "content": "<p>UC&nbsp;San&nbsp;Diego&nbsp;Advanced&nbsp;Placement&nbsp;(AP)&nbsp;and&nbsp;International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;credit&nbsp;policies&nbsp;are&nbsp;detailed&nbsp;in&nbsp;the&nbsp;links&nbsp;below:</p><p></p><p>Advanced&nbsp;Placement&nbsp;(AP)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/advanced-placement-credit-chart-2026.pdf</a></p><p></p><p>International&nbsp;Baccalaureate&nbsp;(IB)&nbsp;<a href=\"https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://catalog.ucsd.edu/_files/international-baccalaureate-credits-chart-2026.pdf</a></p>",
+        "groupId": "d2c66f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "General"
+      }
+    ],
+    "native_requirements": [
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259913,
+                      "courseTitle": "Introduction to Art-Making: Three-Dimensional Practices",
+                      "courseNumber": "3",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "855e0d25-e396-4887-c96d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 357817,
+                      "courseTitle": "Design Communication",
+                      "courseNumber": "41",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2015",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "2805f9a8-beee-44a2-c96e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289359,
+                      "courseTitle": "Introduction to Digital Photography",
+                      "courseNumber": "60",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2022",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f10dea0b-a92c-4c6c-c96f-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 289351,
+                      "courseTitle": "Introduction to Art-Making: Two-Dimensional Practices",
+                      "courseNumber": "1",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3abf26a0-da0c-4e21-c970-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294913,
+                      "courseTitle": "Introduction to Art-Making: Motion and Time Based Art",
+                      "courseNumber": "2",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f41284c0-8748-4a7a-c971-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 290255,
+                      "courseTitle": "Introduction to Media",
+                      "courseNumber": "70N",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F1998",
+                      "end": "",
+                      "minUnits": 6.0,
+                      "maxUnits": 6.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "bf40d424-6958-414f-c972-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 422215,
+                      "courseTitle": "Intro to Creative Coding",
+                      "courseNumber": "42",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "725fac90-64b8-4b5f-45a1-08df01fad6f1",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 2.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "1dc76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 3,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "FOUNDATION LEVEL - REQUIRED COURSEWORK",
+        "groupId": "9ece7645-6887-ef11-8474-000d3a37e3b6",
+        "position": 0,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 8,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 381250,
+                      "courseTitle": "Media History",
+                      "courseNumber": "85A",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "81d0e534-72e3-48b8-c973-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 9,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 381251,
+                      "courseTitle": "Media Aesthetics",
+                      "courseNumber": "85B",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8e0bb37e-f063-4eff-c974-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 270232,
+                      "courseTitle": "Introduction to the Art of the Americas or Africa and Oceania",
+                      "courseNumber": "21A",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2007",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "edccd706-80a5-4212-c975-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 5,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 381248,
+                      "courseTitle": "Photographic History",
+                      "courseNumber": "83",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "7953385e-f42b-4dd5-c976-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 259917,
+                      "courseTitle": "Introduction to Art of Europe and America",
+                      "courseNumber": "20",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "4851a286-f295-4fe7-c977-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 6,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 294895,
+                      "courseTitle": "Film History",
+                      "courseNumber": "84",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3cdf9a18-2b19-4303-c978-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 3,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 296803,
+                      "courseTitle": "Introduction to Asian Art",
+                      "courseNumber": "21B",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2007",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "da8c4346-405e-488a-c979-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 4,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 381245,
+                      "courseTitle": "Introduction to African Art",
+                      "courseNumber": "21C",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "8ea1bd93-8c6e-45ef-c97a-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 7,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 381249,
+                      "courseTitle": "Film Aesthetics",
+                      "courseNumber": "84B",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f50c8b65-b377-47ff-c97b-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 422214,
+                      "courseTitle": "Race and Class in Visual Culture",
+                      "courseNumber": "12R",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2026",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "f438793f-2a2c-4701-45a2-08df01fad6f1",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [
+              {
+                "type": "NFollowing",
+                "amount": 1.0,
+                "amountUnitType": "Course",
+                "position": 0,
+                "selectionType": "Select"
+              }
+            ],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "21c76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 5,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "ART MAKING",
+        "groupId": "3c767445-6887-ef11-8474-000d3a37e3b6",
+        "position": 2,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementGroup",
+        "hideSectionLetters": false,
+        "sections": [
+          {
+            "type": "Section",
+            "rows": [
+              {
+                "position": 2,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 304943,
+                      "courseTitle": "Intro to the Studio Major",
+                      "courseNumber": "80",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2016",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "81999fc0-fb10-4d41-c97c-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 0,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 300360,
+                      "courseTitle": "Introduction to Visual Culture",
+                      "courseNumber": "11",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F2021",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "45c73b93-841d-476d-c97d-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              },
+              {
+                "position": 1,
+                "cells": [
+                  {
+                    "type": "Course",
+                    "course": {
+                      "courseIdentifierParentId": 287207,
+                      "courseTitle": "Formations of Modern Art",
+                      "courseNumber": "22",
+                      "prefix": "VIS",
+                      "prefixParentId": 5352,
+                      "prefixDescription": "Visual Arts",
+                      "departmentParentId": 13008,
+                      "department": "Visual Arts",
+                      "begin": "F1999",
+                      "end": "",
+                      "minUnits": 4.0,
+                      "maxUnits": 4.0,
+                      "pathways": []
+                    },
+                    "visibleCrossListedCourses": [],
+                    "requisites": [],
+                    "courseAttributes": [],
+                    "id": "3bb5c465-69f3-4325-c97e-08def1776a70",
+                    "position": 0,
+                    "attributes": []
+                  }
+                ],
+                "attributes": []
+              }
+            ],
+            "advisements": [],
+            "position": 0,
+            "attributes": []
+          }
+        ],
+        "attributes": [],
+        "showConjunctionBetweenSections": false,
+        "academicYearId": 0,
+        "institutionParentId": 0,
+        "instruction": null,
+        "advisements": [],
+        "groupId": "28c76f45-6887-ef11-8474-000d3a37e3b6",
+        "position": 1,
+        "area": "Requirements"
+      },
+      {
+        "type": "RequirementTitle",
+        "content": "ART HISTORY",
+        "groupId": "b3757445-6887-ef11-8474-000d3a37e3b6",
+        "position": 4,
+        "area": "Requirements"
+      }
+    ],
+    "native_articulations": [
+      {
+        "templateCellId": "bf40d424-6958-414f-c972-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 290255,
+            "courseTitle": "Introduction to Media",
+            "courseNumber": "70N",
+            "prefix": "VIS",
+            "prefixParentId": 5352,
+            "prefixDescription": "Visual Arts",
+            "departmentParentId": 13008,
+            "department": "Visual Arts",
+            "begin": "F1998",
+            "end": "",
+            "minUnits": 6.0,
+            "maxUnits": 6.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "81999fc0-fb10-4d41-c97c-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 304943,
+            "courseTitle": "Intro to the Studio Major",
+            "courseNumber": "80",
+            "prefix": "VIS",
+            "prefixParentId": 5352,
+            "prefixDescription": "Visual Arts",
+            "departmentParentId": 13008,
+            "department": "Visual Arts",
+            "begin": "F2016",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      },
+      {
+        "templateCellId": "45c73b93-841d-476d-c97d-08def1776a70",
+        "articulation": {
+          "type": "Course",
+          "course": {
+            "courseIdentifierParentId": 300360,
+            "courseTitle": "Introduction to Visual Culture",
+            "courseNumber": "11",
+            "prefix": "VIS",
+            "prefixParentId": 5352,
+            "prefixDescription": "Visual Arts",
+            "departmentParentId": 13008,
+            "department": "Visual Arts",
+            "begin": "F2021",
+            "end": "",
+            "minUnits": 4.0,
+            "maxUnits": 4.0,
+            "pathways": []
+          },
+          "visibleCrossListedCourses": [],
+          "courseAttributes": [],
+          "sendingArticulation": {
+            "noArticulationReason": "This course must be taken at the university after transfer",
+            "deniedCourses": [],
+            "items": [],
+            "courseGroupConjunctions": [],
+            "type": "SendingArticulation",
+            "attributes": []
+          },
+          "templateOverrides": [],
+          "attributes": [],
+          "receivingAttributes": []
+        },
+        "receivingAttributes": {
+          "type": "Course",
+          "courseAttributes": [],
+          "attributes": []
+        }
+      }
+    ]
+  },
+  "review_required": true,
+  "review_notes": [
+    "Review preserved general instructions before importing. They may contain major-specific exceptions or exam-credit rules."
+  ]
+}
