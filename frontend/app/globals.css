@@ -472,3 +472,22 @@ summary::-webkit-details-marker { display: none; }
   .campus-checkboxes { grid-template-columns: 1fr; }
   .campus-plan { padding: 13px; }
 }
+
+.ap-overlap-message { font-size: 12px; margin-top: 10px; padding: 10px 12px; border-left: 2px solid #cfdcbc; color: var(--muted); }
+.ap-overlap-excluded { background: #f2f6ec; color: var(--accent); }
+.ap-overlap-review { border-left-color: #c8ad6d; background: #fffbf0; color: #806631; }
+.ap-overlap-summary { font-size: 12px; margin-top: 14px; padding: 14px; background: #f7f9f3; border: 1px solid var(--line); border-radius: 4px; }
+.ap-overlap-summary h4 { font-weight: 550; font-size: 13px; }
+.ap-overlap-summary ul { padding-left: 18px; margin: 8px 0; }
+.ap-overlap-summary li { margin-top: 7px; }
+.ap-overlap-summary p { color: var(--muted); }
+
+.course-approval { margin-top: 12px; padding: 11px 13px; border-left: 2px solid #cfdcbc; background: #f7f9f3; font-size: 12px; }
+.course-approval > strong { font-weight: 550; }
+.course-approval ul { margin: 5px 0 0; padding-left: 17px; color: var(--muted); }
+.course-approval li + li { margin-top: 4px; }
+.course-approval-eligible > strong { color: var(--accent); }
+.course-approval-pending, .course-approval-review { border-left-color: #c8ad6d; background: #fffbf0; }
+.course-approval-pending > strong, .course-approval-review > strong { color: #806631; }
+.course-approval-not_approved { border-left-color: #bf8177; background: #fff7f4; }
+.course-approval-not_approved > strong { color: #984d40; }

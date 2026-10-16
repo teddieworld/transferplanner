@@ -4,6 +4,7 @@ import { getRemainingGroup } from "@/lib/transfer-plan";
 import type { getPatternSuggestions } from "@/lib/transfer-plan";
 import RequirementDisplay from "./RequirementDisplay";
 import MajorPlan from "./MajorPlan";
+import { EXAMPLE_COURSE_TERM, formatTerm } from "@/lib/course-approval";
 
 export type AgreementResult = { campus: string; major: string; agreement: MajorAgreement | null; message?: string };
 
@@ -36,7 +37,7 @@ export default function GeneratedChecklist({ agreements, completed, suggestions,
 }) {
   return <div className="generated-checklist">
     <section className="checklist-section" aria-labelledby="remaining-pattern-heading"><h3 id="remaining-pattern-heading">Finish the UC seven-course pattern</h3>
-      <p className="checklist-note">These are example alternatives for remaining slots, using the current ASSIST snapshot. Choose courses alongside your major preparation. A course may also support your major and units, but fills only one pattern slot. Confirm approval dates, credit conditions, prerequisites and availability before enrolling.</p>
+      <p className="checklist-note">These are example alternatives for remaining slots, using the saved ASSIST snapshot and {formatTerm(EXAMPLE_COURSE_TERM)} approval ranges. Choose courses alongside your major preparation. A course may also support your major and units, but fills only one pattern slot. Recheck for your actual enrollment term, prerequisites and availability; no semester schedule is calculated.</p>
       {suggestions.every(item => item.remaining === 0) ? <p className="checklist-complete">All seven slots and the subject-area distribution are matched in your estimate.</p> : suggestions.filter(item => item.remaining > 0).map(item => <div className="pattern-next-step" key={item.name}>
         <h4>{item.name}</h4><p>{item.remaining} more {item.remaining === 1 ? "slot" : "slots"}{item.areas[0] === "UC-H" ? " · four courses across at least two of UC-H, UC-B and UC-S; a full single-area set needs a replacement" : ""}.</p>
         {item.courses.length ? <details><summary>View {item.courses.length} example Mt. SAC courses</summary><p className="checklist-note">Alternatives for one slot at a time. Do not take this entire list. These options assume a qualifying grade and at least 3 earned semester units; combinations and equivalent courses need another check. A previously attempted course may appear as a retake option when its grade is below C.</p><SuggestedCourses courses={item.courses} /></details> : <p className="checklist-note">Review pending grades and approvals in College courses, then consult ASSIST or an adviser for applicable options.</p>}

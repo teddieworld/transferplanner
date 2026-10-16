@@ -132,8 +132,9 @@ source agreement years are selected independently for each campus with imported
 agreements. Campuses without imported agreements accept a free-text major goal
 and explicitly report that major preparation is not evaluated.
 
-College courses holds transcript grades, variable units and manual ASSIST
-approval confirmations. Generation captures a snapshot of all entries, fetches
+College courses holds transcript grades, completion terms/years and variable
+units. `lib/course-approval.ts` automatically checks recorded ASSIST approval
+ranges and supported credit conditions; the former confirmation checkbox is gone. Generation captures a snapshot of all entries, fetches
 each selected agreement, and builds a remaining-course checklist. Later edits
 mark that result as outdated until regeneration. There is no semester scheduling,
 admission-term availability check, prerequisite scheduling, or automatic deadline
@@ -169,11 +170,44 @@ and Physics exam caps are applied. AB exam and BC AB-subscore credit are not
 counted twice. Precalculus earns no UC unit credit; Research and Seminar have
 no unit credit listed in the source table.
 
-The total separates coursework and AP units. Users can exclude an AP exam's
-credit when its content duplicates college credit. AP/course duplication is
-not inferred from course titles. AP scores do not automatically satisfy major
-requirements. Clear AP exams resets only
-AP entries; the course list's Clear all resets only courses and earned units.
+The total separates coursework and AP units. AP/course overlap is now checked
+automatically by `lib/ap-overlap.ts`; students no longer toggle an exclusion
+checkbox. The AP entry screen explains each exclusion and updates when courses,
+grades, earned units or scores change. Generated plans capture the same automatic
+check in their snapshot; regenerate after changing entries.
+
+The resolver uses the [Mt. SAC 2026–27 AP course-equivalence table](https://catalog.mtsac.edu/registration-policies/academic-policies-requirements/)
+(checked October 15, 2026), documented renamed-course aliases linked in the module,
+and honors equivalents already verified in the ASSIST snapshot. This is a
+**conservative planning inference from Mt. SAC equivalence**, not a UC campus
+credit ruling. [UC awards duplicate exam/course content only once](https://admission.universityofcalifornia.edu/admission-requirements/ap-exam-credits/ap-credits/),
+but the public policy does not supply a universal AP-to-Mt. SAC course crosswalk.
+The estimate keeps college units and removes an entire AP award only if every
+listed equivalent has a known C-or-better/P grade, valid positive earned units,
+and UC-transferable catalog status. Keeping college credit may undercount the
+award UC ultimately grants. The source's minimum equivalence scores are respected:
+AB (including a fallback BC AB subscore) requires 4 for automatic matching;
+full BC requires 4 and both MATH 180 and 181. Lower qualifying scores still earn
+the published UC AP award but any mapped overlap is flagged for review.
+
+Multi-course mappings preserve AND, including English Literature, Art History and
+two-course language sequences. Partial coverage, missing grades/units and unmapped
+exams retain **provisional** AP credit with an explicit review message; no partial
+unit deduction is invented. A provisional total can therefore overstate credit
+until unresolved overlaps are reviewed. Failed/withdrawn and non-UC courses never
+replace an AP award. Removing a matched course restores AP credit automatically.
+No department/title guessing is used. Physics prerequisite clearance is not course
+equivalence; portfolio-dependent art and other unmapped exams are flagged instead
+of assigning an invented equivalent. The CS Principles table has an ambiguous
+historical footnote, so that exam is also left for review.
+
+`lib/course-credit.ts` shares grade and earned-unit rules between the resolver,
+unit calculator and plan generator. Automatic full exclusions apply to both units
+and the seven-course pattern, and the suggested-course checker also uses them.
+Course-area approval dates and supported conditions are checked automatically
+from completion terms; unresolved course checks do not count toward the pattern. AP scores do not automatically satisfy major requirements.
+Clear AP exams resets only AP entries; Clear all in the course list resets courses,
+earned units and course reviews.
 
 These entries last only while the page is open. Campus-specific grade requirements, repeats, equivalent or
 honors unit-credit limits, and other UC restrictions are not evaluated;
@@ -193,22 +227,45 @@ Its 277 verified mappings, source URL, footnotes and academic year are preserved
 Courses missing from this snapshot remain unverified, including renamed courses
 whose exact current codes are absent; they are not inferred from department names.
 
-In College courses, enter each selected course's grade and
-confirm that the source approval applies to its completion term and that its
-listed credit conditions are met. C or better (including P/CR equivalent to C)
-and at least 3 earned semester units are required for a college course to count.
-Unknown grades, unconfirmed approvals and missing variable units do not count.
-Common regular/honors equivalents and explicit one/two-course family caps are
-limited automatically. Unit-based family caps conservatively bound course counts
-at one pattern course per 3 units. Ordering and other conditions in footnotes
-still require the user's review; completion dates are not evaluated.
+In College courses, enter each selected course's transcript grade, completion
+term and year. The normalizer now preserves course-version dates and per-area
+approval ranges from ASSIST. The automatic checker follows [ASSIST's effective
+term definitions](https://resource.assist.org/Portals/0/PDFs/begin_and_end_terms_in_ASSIST.pdf?ver=2020-06-10-125429-350):
+begin terms are included; end terms are excluded; explicitly blank ends are
+open-ended. Missing metadata is distinct from a deliberate blank. Dates before
+the saved course version require historical source data rather than an inferred
+approval for a renamed course. Only area approvals active for the entered term
+can contribute to the pattern.
+
+Supported conditions are evaluated from **entered** course history: BIOL, CHEM
+and PHYS lower/higher-course ordering; GEOL 8/8H restrictions after college-level
+astronomy, geology, meteorology or oceanography; shared regular/honors families;
+one/two-course and unit-based family caps; algebra/precalculus's single-course
+limit; and the single UC-M slot across alternative math preparation paths.
+A single physics series is supported; mixing the two listed physics series needs
+topic-specific credit review. Same-term ordering cannot be established without
+session dates. Missing terms, historical versions, unknown conditions and mixed
+physics series are explained and stay pending/review rather than auto-approved.
+Changing a course term or removing a related course recomputes these checks.
+These checks do not verify unreported coursework, multiple attempts of the same
+code, or replace the separate unit-total and major-rule limitations above.
+
+C or better (including P/CR equivalent to C) and at least 3 earned semester units
+are still required for a college course to fill a pattern slot. Unknown grades,
+missing variable units and unresolved automatic checks do not count. The matched
+subset respects shared-family limits even when several courses individually pass
+the date/condition check. Unit-based family caps conservatively bound course counts
+at one pattern course per 3 units. Generated course examples use approval ranges
+at the snapshot's check term (Fall 2026), assume a future qualifying grade and
+sufficient units, and must be rechecked for the actual future enrollment term.
+No hypothetical course is marked as completed.
 
 Qualifying AP scores use only the UC AP table's explicit E/M/H/B/S designations.
 One exam fills one slot, at most one English slot uses AP, and overlapping AP
 families count once. The calculator searches possible area assignments so an
-H/B course can supply either area, but cannot occupy both. Excluding an AP exam
-removes it from both units and this pattern. AP/course duplication still needs
-manual review. Selections, grades and confirmations last only while the page is
+H/B course can supply either area, but cannot occupy both. Automatically excluding a fully matched AP exam
+removes it from both units and this pattern. Partial or unmapped AP/course
+duplication retains provisional credit and is flagged for UC review. Selections, grades and completion terms last only while the page is
 open; clearing courses also clears their pattern reviews.
 
 To refresh the source, capture the official UCTEL response, then normalize it

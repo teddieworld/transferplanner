@@ -4,6 +4,7 @@ import type { RequirementGroup } from "./planner";
 import { getCourseEligibility, getSevenCourseProgress } from "./seven-course-pattern";
 import type { CoursePatternReviews, UCArea } from "./seven-course-pattern";
 import type { APResults } from "./ap-credit";
+import { EXAMPLE_COURSE_TERM } from "./course-approval";
 
 // Campus choices can be saved even before their agreements are in our database.
 export const UC_CAMPUSES = [
@@ -21,17 +22,8 @@ export type Campus = typeof UC_CAMPUSES[number];
 export type CampusChoice = { major: string; academicYear: string };
 export type StudentProfile = { collegeYear: string; entrySeason: string; entryYear: string };
 
-const preparationGrades = new Set(["A+", "A", "A-", "B+", "B", "B-", "C+", "C", "P"]);
-// Unit credit and subject preparation have different grade rules. D grades can
-// earn UC units; they cannot complete the seven-course pattern. Missing grades
-// remain provisional. Campus-specific higher major grade minimums need review.
-export function getCreditCourses(completed: string[], reviews: CoursePatternReviews) {
-  const unitGrades = new Set([...preparationGrades, "C-", "D+", "D", "D-"]);
-  return [...new Set(completed)].filter(code => !reviews[code]?.grade || unitGrades.has(reviews[code].grade));
-}
-export function getMajorCourses(completed: string[], reviews: CoursePatternReviews) {
-  return [...new Set(completed)].filter(code => !reviews[code]?.grade || preparationGrades.has(reviews[code].grade));
-}
+import { PREPARATION_GRADES as preparationGrades } from "./course-credit";
+export { getCreditCourses, getMajorCourses } from "./course-credit";
 
 export function getRemainingGroup(group: RequirementGroup, completed: string[]) {
   const satisfied = group.requirements.filter(req => getPreparationStatus(req, completed) === "satisfied");
@@ -77,7 +69,7 @@ export function getPatternSuggestions(
     if (!choices.some(choice => choice.remaining > 0 && choice.courses.length < 8 && mapping.areas.some(area => choice.areas.includes(area as UCArea)))) continue;
     const after = getSevenCourseProgress(courses, [...completed, course.code],
       { ...earnedUnits, [course.code]: String(Math.max(3, course.minUnits)) },
-      { ...reviews, [course.code]: { grade: "C", approvalConfirmed: true } }, apResults);
+      { ...reviews, [course.code]: { grade: "C", term: EXAMPLE_COURSE_TERM.replace(/\d/g, ""), year: EXAMPLE_COURSE_TERM.slice(-4) } }, apResults);
     for (const choice of choices) {
       if (choice.remaining === 0 || choice.courses.length >= 8 || !mapping.areas.some(area => choice.areas.includes(area as UCArea))) continue;
       const improves = choice.areas[0] === "UC-E" ? after.english > progress.english

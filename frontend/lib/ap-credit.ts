@@ -1,7 +1,7 @@
 // UC systemwide unit credit, checked 2026-10-15. Subject/major credit is campus-specific.
 export const AP_CREDIT_SOURCE = "https://admission.universityofcalifornia.edu/admission-requirements/ap-exam-credits/ap-credits/";
 export type APExam = { id: string; name: string; units: number; bucket?: string; note?: string };
-export type APResult = { score: string; abSubscore?: string; excludeFromUnits?: boolean };
+export type APResult = { score: string; abSubscore?: string };
 export type APResults = Record<string, APResult>;
 
 export const AP_EXAMS: APExam[] = [
@@ -58,7 +58,7 @@ export function getAPExamUnits(exam: APExam, result: APResult): number {
   return 0;
 }
 
-export function getAPCredit(results: APResults) {
+export function getAPCredit(results: APResults, excludedExamIds: readonly string[] = []) {
   // Integer tenths avoid totals such as 7.899999999999999 from published decimal awards.
   const buckets = new Map<string, number>();
   let pendingCount = 0;
@@ -66,7 +66,7 @@ export function getAPCredit(results: APResults) {
   for (const exam of AP_EXAMS) {
     const result = results[exam.id];
     if (!result) continue;
-    if (result.excludeFromUnits) { excludedCount++; continue; }
+    if (excludedExamIds.includes(exam.id)) { excludedCount++; continue; }
     if (!validScore(result.score)) { pendingCount++; continue; }
     const units = getAPExamUnits(exam, result);
     // A qualifying AB subscore duplicates an AB exam; it is not additional BC credit.

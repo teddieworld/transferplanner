@@ -22,6 +22,14 @@ def normalize(payload):
             raise ValueError(f"Missing, unsupported, or duplicate eligibility mapping: {code}")
         courses[code] = {
             "areas": areas, "title": row["courseTitle"],
+            # Keep ASSIST's actual term codes. Missing fields (None) must not be
+            # confused with explicit blanks, which mean open-ended applicability.
+            "courseBeginTerm": row.get("beginTermCode"),
+            "courseEndTerm": row.get("endTermCode"),
+            "approvals": [{
+                "area": a["code"], "beginTerm": a.get("beginTermCode"),
+                "endTerm": a.get("endTermCode")
+            } for a in row["transferAreas"] if a["areaType"] == 2],
             "notes": [notes[str(i)] for i in row["footnoteParentIds"]],
             "footnoteIds": [str(i) for i in row["footnoteParentIds"]]
         }
@@ -51,7 +59,7 @@ def normalize(payload):
         if code.endswith("H") and "honors" in course["title"].lower() and code[:-1] in courses:
             join([code[:-1], code])
     for note_id, note in notes.items():
-        if re.search(r"maximum credit,\s*1 course", note, re.I):
+        if re.search(r"maximum credit,\s*1 course|limited to a single course", note, re.I):
             join(note_courses(note_id, note))
     for code, course in courses.items():
         course["creditGroup"] = find(code)
@@ -60,6 +68,11 @@ def normalize(payload):
     limits = []
     for note_id, note in notes.items():
         match = re.search(r"maximum credit,?\s*(\d+)\s*(course|unit)s?", note, re.I)
+        if re.search(r"limited to a single course", note, re.I):
+            limit = {"codes": note_courses(note_id, note), "maxCourses": 1}
+            if limit["codes"] and limit not in limits:
+                limits.append(limit)
+            continue
         if not match:
             continue
         codes = note_courses(note_id, note)

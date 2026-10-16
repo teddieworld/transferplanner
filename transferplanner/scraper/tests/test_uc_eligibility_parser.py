@@ -36,10 +36,30 @@ class EligibilityParserTests(unittest.TestCase):
         invalid["courseInformationList"][0]["transferAreas"][0]["code"] = "IGETC-5"
         with self.assertRaises(ValueError):
             normalize(invalid)
+
         invalid = copy.deepcopy(self.payload)
         invalid["courseInformationList"].append(invalid["courseInformationList"][0])
         with self.assertRaises(ValueError):
             normalize(invalid)
+
+    def test_approval_ranges_keep_blank_and_missing_terms_distinct(self):
+        row = self.payload["courseInformationList"][0]
+        row["beginTermCode"] = "F2025"
+        row["endTermCode"] = ""
+        row["transferAreas"][0].update(beginTermCode="", endTermCode="F2026")
+        result = normalize(self.payload)["courses"]
+        self.assertEqual(result["BIOL 1"]["courseBeginTerm"], "F2025")
+        self.assertEqual(result["BIOL 1"]["courseEndTerm"], "")
+        self.assertEqual(result["BIOL 1"]["approvals"], [{"area": "UC-S", "beginTerm": "", "endTerm": "F2026"}])
+        self.assertIsNone(result["BIOL 2"]["approvals"][0]["beginTerm"])
+        self.assertIsNone(result["BIOL 2"]["approvals"][0]["endTerm"])
+
+    def test_single_course_algebra_limit_is_preserved(self):
+        self.payload["courseInformationList"] = [course("MATH 130", "UC-M", 3), course("MATH 160", "UC-M", 3)]
+        self.payload["footnotes"] = [{"footnoteParentId": 3, "footnoteText": "All College Algebra and Pre-Calculus courses limited to a single course with a maximum of 5 semester / 7.5 quarter units"}]
+        result = normalize(self.payload)
+        self.assertEqual(result["limits"], [{"codes": ["MATH 130", "MATH 160"], "maxCourses": 1}])
+        self.assertEqual(result["courses"]["MATH 130"]["creditGroup"], result["courses"]["MATH 160"]["creditGroup"])
 
 
 if __name__ == "__main__":

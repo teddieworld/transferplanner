@@ -1,20 +1,18 @@
-import snapshot from "../data/uc-eligibility-mtsac-2025-2026.json";
+import { UC_ELIGIBILITY as snapshot, getCourseEligibility, getCourseApproval } from "./course-approval";
+export { UC_ELIGIBILITY, getCourseEligibility } from "./course-approval";
 import { AP_EXAMS, getAPExamUnits } from "./ap-credit";
 import type { APResults } from "./ap-credit";
 import type { CourseCatalogEntry } from "./catalog-types";
-import { getEarnedUnits } from "./transfer-units";
+import { getEarnedUnits } from "./course-credit";
+import { getAPOverlap } from "./ap-overlap";
 
 export type UCArea = "UC-E" | "UC-M" | "UC-H" | "UC-B" | "UC-S";
-export type CoursePatternReview = { grade: string; approvalConfirmed: boolean };
+export type CoursePatternReview = { grade: string; term?: string; year?: string };
 export type CoursePatternReviews = Record<string, CoursePatternReview>;
-type Mapping = { areas: string[]; title: string; notes: string[]; creditGroup: string };
-export const UC_ELIGIBILITY = snapshot;
-const mappings: Record<string, Mapping> = snapshot.courses;
 export const UC_AREA_LABELS: Record<UCArea, string> = {
   "UC-E": "English composition", "UC-M": "Math and quantitative reasoning",
   "UC-H": "Arts and humanities", "UC-B": "Social and behavioral sciences", "UC-S": "Physical and biological sciences"
 };
-export function getCourseEligibility(code: string) { return mappings[code]; }
 
 // Only the UC admissions AP table's explicit subject designations are included.
 const apAreas: Record<string, UCArea[]> = {
@@ -41,6 +39,7 @@ export function getSevenCourseProgress(
   const candidates: Candidate[] = [];
   const reviewCourses: CourseCatalogEntry[] = [];
   const unlisted: string[] = [];
+  const approvals = [...new Set(completed)].map(code => getCourseApproval(code, courses, completed, reviews));
   let pendingCount = 0;
   for (const code of new Set(completed)) {
     const course = catalog.get(code);
@@ -49,16 +48,18 @@ export function getSevenCourseProgress(
     reviewCourses.push(course);
     const review = reviews[code];
     if (review?.grade && !passingGrades.has(review.grade)) continue;
-    if (!review?.grade || !review.approvalConfirmed) { pendingCount++; continue; }
+    const approval = approvals.find(item => item.code === code)!;
+    if (!review?.grade || approval.status !== "eligible") { pendingCount++; continue; }
     const units = getEarnedUnits(course, earnedUnits[code]);
     if (units === null) { pendingCount++; continue; }
     if (!course.ucTransferable || units < 3 || !passingGrades.has(review.grade)) continue;
     candidates.push({ id: `course:${code}`, label: code, courseCode: code,
-      areas: mapping.areas as UCArea[], group: `course:${mapping.creditGroup}` });
+      areas: approval.areas, group: `course:${mapping.creditGroup}` });
   }
+  const overlap = getAPOverlap(apResults, courses, completed, earnedUnits, reviews);
   for (const exam of AP_EXAMS) {
     const result = apResults[exam.id];
-    if (!result || result.excludeFromUnits || getAPExamUnits(exam, result) === 0 || !apAreas[exam.id]) continue;
+    if (!result || overlap.excludedExamIds.includes(exam.id) || getAPExamUnits(exam, result) === 0 || !apAreas[exam.id]) continue;
     const family = exam.id.startsWith("calculus-") ? "calculus" : exam.bucket ?? exam.id;
     candidates.push({ id: `ap:${exam.id}`, label: `AP ${exam.name}`, areas: apAreas[exam.id], group: `ap:${family}` });
   }
@@ -98,5 +99,5 @@ export function getSevenCourseProgress(
   const areaCount = breadthAreas(matches);
   return { matches, english, math, breadth, areaCount, matchedCount: matches.length,
     complete: english === 2 && math === 1 && breadth === 4 && areaCount >= 2,
-    reviewCourses, unlisted, pendingCount };
+    reviewCourses, unlisted, pendingCount, overlap, approvals };
 }

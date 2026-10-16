@@ -10,6 +10,15 @@
         "UC-B"
       ],
       "title": "Introduction to Black Studies",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2022",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AABS 1"
     },
@@ -18,6 +27,15 @@
         "UC-H"
       ],
       "title": "Introduction to the Visual Arts and Art History",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 1"
     },
@@ -26,6 +44,15 @@
         "UC-H"
       ],
       "title": "A History of Greek and Roman Art and Architecture",
+      "courseBeginTerm": "F2007",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2007",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 10"
     },
@@ -35,6 +62,20 @@
         "UC-H"
       ],
       "title": "History of African, Oceanic, and Native American Art",
+      "courseBeginTerm": "F2006",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1999",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 11"
     },
@@ -44,6 +85,20 @@
         "UC-H"
       ],
       "title": "History of African, Oceanic, and Native American Art - Honors",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2018",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 11"
     },
@@ -53,6 +108,20 @@
         "UC-H"
       ],
       "title": "History of Precolumbian Art and Architecture",
+      "courseBeginTerm": "Su2013",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1998",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 12"
     },
@@ -62,6 +131,20 @@
         "UC-H"
       ],
       "title": "History of Precolumbian Art and Architecture - Honors",
+      "courseBeginTerm": "Su2013",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 12"
     },
@@ -71,6 +154,20 @@
         "UC-H"
       ],
       "title": "World Art and Visual Culture",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2018",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 13"
     },
@@ -80,6 +177,20 @@
         "UC-H"
       ],
       "title": "Rome: The Ancient City",
+      "courseBeginTerm": "F2012",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2012",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 14"
     },
@@ -89,6 +200,20 @@
         "UC-H"
       ],
       "title": "Culture and Art of Pompeii",
+      "courseBeginTerm": "F2012",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2012",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 15"
     },
@@ -97,6 +222,15 @@
         "UC-H"
       ],
       "title": "History of Latin American Art and Visual Culture",
+      "courseBeginTerm": "F2024",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2024",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 16"
     },
@@ -105,6 +239,15 @@
         "UC-H"
       ],
       "title": "History of Latin American Art and Visual Culture - Honors",
+      "courseBeginTerm": "F2024",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2024",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 16"
     },
@@ -114,6 +257,20 @@
         "UC-H"
       ],
       "title": "History of Women and Gender in Art",
+      "courseBeginTerm": "F2006",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 3"
     },
@@ -123,6 +280,20 @@
         "UC-H"
       ],
       "title": "History of Women and Gender in Art - Honors",
+      "courseBeginTerm": "F2006",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 3"
     },
@@ -131,6 +302,15 @@
         "UC-H"
       ],
       "title": "History of Western Art: Prehistoric Through Gothic",
+      "courseBeginTerm": "F2017",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 4"
     },
@@ -139,6 +319,15 @@
         "UC-H"
       ],
       "title": "History of Western Art: Prehistoric Through Gothic - Honors",
+      "courseBeginTerm": "Su2007",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1998",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 4"
     },
@@ -147,6 +336,15 @@
         "UC-H"
       ],
       "title": "History of Western Art: Renaissance Through Modern",
+      "courseBeginTerm": "F2017",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 5"
     },
@@ -155,6 +353,15 @@
         "UC-H"
       ],
       "title": "History of Western Art: Renaissance Through Modern - Honors",
+      "courseBeginTerm": "Su2007",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1998",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 5"
     },
@@ -163,6 +370,15 @@
         "UC-H"
       ],
       "title": "History of Modern Art",
+      "courseBeginTerm": "F2006",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 6"
     },
@@ -171,6 +387,15 @@
         "UC-H"
       ],
       "title": "History of Modern Art - Honors",
+      "courseBeginTerm": "F2006",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 6"
     },
@@ -179,6 +404,15 @@
         "UC-H"
       ],
       "title": "Global Contemporary Visual Culture",
+      "courseBeginTerm": "F2021",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2021",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 7"
     },
@@ -187,6 +421,15 @@
         "UC-H"
       ],
       "title": "History of Medieval Art and Architecture",
+      "courseBeginTerm": "F2012",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2012",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 8"
     },
@@ -196,6 +439,20 @@
         "UC-H"
       ],
       "title": "History of Asian Art and Architecture",
+      "courseBeginTerm": "Su2012",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2000",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "AHIS 9"
     },
@@ -204,6 +461,15 @@
         "UC-E"
       ],
       "title": "College Composition for Non-Native English Speakers",
+      "courseBeginTerm": "Su2020",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-E",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "AMLA 1A, ENGL C1000 and ENGL C1000H combined: maximum credit,  1 course"
       ],
@@ -214,6 +480,15 @@
         "UC-S"
       ],
       "title": "Introductory Human Anatomy",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "ANAT 10A and ANAT 35 combined: maximum credit,  1 course"
       ],
@@ -224,6 +499,15 @@
         "UC-S"
       ],
       "title": "Introductory Human Physiology",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "ANAT 10B and ANAT 36 combined: maximum credit,  1 course"
       ],
@@ -234,6 +518,15 @@
         "UC-S"
       ],
       "title": "Human Anatomy",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "ANAT 10A and ANAT 35 combined: maximum credit,  1 course"
       ],
@@ -244,6 +537,15 @@
         "UC-S"
       ],
       "title": "Human Physiology",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "ANAT 10B and ANAT 36 combined: maximum credit,  1 course"
       ],
@@ -254,6 +556,15 @@
         "UC-S"
       ],
       "title": "Biological Anthropology",
+      "courseBeginTerm": "F1999",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ANTH 1"
     },
@@ -262,6 +573,15 @@
         "UC-B"
       ],
       "title": "Peoples and Cultures of Latin America and the Caribbean",
+      "courseBeginTerm": "Su2020",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ANTH 15"
     },
@@ -270,6 +590,15 @@
         "UC-B"
       ],
       "title": "Peoples and Cultures of South Asia",
+      "courseBeginTerm": "Su2020",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ANTH 16"
     },
@@ -278,6 +607,15 @@
         "UC-B"
       ],
       "title": "Peoples and Cultures of the Middle East",
+      "courseBeginTerm": "Su2020",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ANTH 17"
     },
@@ -286,6 +624,15 @@
         "UC-S"
       ],
       "title": "Biological Anthropology - Honors",
+      "courseBeginTerm": "F1999",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1997",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ANTH 1"
     },
@@ -294,6 +641,15 @@
         "UC-B"
       ],
       "title": "The Native American",
+      "courseBeginTerm": "F2000",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2000",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ANTH 30"
     },
@@ -302,6 +658,15 @@
         "UC-B"
       ],
       "title": "Archaeology",
+      "courseBeginTerm": "F2016",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ANTH 4"
     },
@@ -310,6 +675,15 @@
         "UC-B"
       ],
       "title": "Cultural Anthropology",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ANTH 5"
     },
@@ -318,6 +692,15 @@
         "UC-B"
       ],
       "title": "Cultural Anthropology - Honors",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2018",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ANTH 5"
     },
@@ -326,6 +709,15 @@
         "UC-B"
       ],
       "title": "Language and Culture: An Introduction to Linguistic Anthropology",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ANTH 6"
     },
@@ -334,6 +726,15 @@
         "UC-B"
       ],
       "title": "Introduction to Asian American Studies",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2022",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "APIS 1"
     },
@@ -342,6 +743,15 @@
         "UC-H"
       ],
       "title": "World Architecture: Prehistory to the Middle Ages",
+      "courseBeginTerm": "Su2019",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2006",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ARCH 250"
     },
@@ -350,6 +760,15 @@
         "UC-H"
       ],
       "title": "World Architecture: Renaissance Through the Contemporary Era",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2006",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ARCH 251"
     },
@@ -358,6 +777,15 @@
         "UC-H"
       ],
       "title": "Introduction to the Visual Arts and Art History",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ARTB 1"
     },
@@ -366,6 +794,15 @@
         "UC-S"
       ],
       "title": "Introduction to Astronomy",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ASTR 5"
     },
@@ -374,6 +811,15 @@
         "UC-S"
       ],
       "title": "Introduction to Astronomy - Honors",
+      "courseBeginTerm": "W2010",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2009",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ASTR 5"
     },
@@ -382,6 +828,15 @@
         "UC-S"
       ],
       "title": "Geology of the Solar System",
+      "courseBeginTerm": "F2006",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2006",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ASTR 7"
     },
@@ -390,6 +845,15 @@
         "UC-S"
       ],
       "title": "Introduction to Stars, Galaxies, and the Universe",
+      "courseBeginTerm": "W2010",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2006",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ASTR 8"
     },
@@ -398,6 +862,15 @@
         "UC-S"
       ],
       "title": "General Biology",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "BIOL 1, BIOL 2 and BTNY 3 combined: maximum credit,  8 units",
         "No credit for BIOL 1 if taken after  BIOL 4, BIOL 4H"
@@ -409,6 +882,15 @@
         "UC-S"
       ],
       "title": "Plant and Animal Biology",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "BIOL 1, BIOL 2 and BTNY 3 combined: maximum credit,  8 units"
       ],
@@ -419,6 +901,15 @@
         "UC-S"
       ],
       "title": "Marine Biology",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BIOL 20"
     },
@@ -427,6 +918,15 @@
         "UC-S"
       ],
       "title": "Conservation Biology",
+      "courseBeginTerm": "F2014",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2014",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BIOL 25"
     },
@@ -435,6 +935,15 @@
         "UC-S"
       ],
       "title": "Ecology and Field Biology",
+      "courseBeginTerm": "F1997",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BIOL 3"
     },
@@ -443,6 +952,15 @@
         "UC-S"
       ],
       "title": "Fundamentals of Genetics",
+      "courseBeginTerm": "F2009",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2009",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BIOL 34"
     },
@@ -451,6 +969,15 @@
         "UC-S"
       ],
       "title": "Biology for Majors",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BIOL 4"
     },
@@ -459,6 +986,15 @@
         "UC-S"
       ],
       "title": "Biology for Majors - Honors",
+      "courseBeginTerm": "F1998",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1998",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BIOL 4"
     },
@@ -467,6 +1003,15 @@
         "UC-B"
       ],
       "title": "Contemporary Health Issues",
+      "courseBeginTerm": "F1999",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1998",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BIOL 5"
     },
@@ -475,6 +1020,15 @@
         "UC-S"
       ],
       "title": "Humans and the Environment",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BIOL 6"
     },
@@ -483,6 +1037,15 @@
         "UC-S"
       ],
       "title": "Cell and Molecular Biology",
+      "courseBeginTerm": "F2000",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2000",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BIOL 8"
     },
@@ -491,6 +1054,15 @@
         "UC-S"
       ],
       "title": "Plant Structures, Functions, and Diversity",
+      "courseBeginTerm": "Su2000",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1997",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "BTNY 3, BIOL 1 and BIOL 2 combined: maximum credit,  8 units"
       ],
@@ -501,6 +1073,15 @@
         "UC-M"
       ],
       "title": "Applied Business Statistics",
+      "courseBeginTerm": "F1999",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "BUSC 17, PSYC 10, SOC 23, STAT C1000 and STAT C1000H combined: maximum credit,  1 course"
       ],
@@ -511,6 +1092,15 @@
         "UC-B"
       ],
       "title": "Principles of Macroeconomics",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BUSC 1A"
     },
@@ -519,6 +1109,15 @@
         "UC-B"
       ],
       "title": "Principles of Macroeconomics - Honors",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BUSC 1A"
     },
@@ -527,6 +1126,15 @@
         "UC-B"
       ],
       "title": "Principles of Microeconomics",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BUSC 1B"
     },
@@ -535,6 +1143,15 @@
         "UC-B"
       ],
       "title": "Principles of Microeconomics - Honors",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BUSC 1B"
     },
@@ -543,6 +1160,15 @@
         "UC-B"
       ],
       "title": "American Law and Democracy",
+      "courseBeginTerm": "Su2019",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "BUSL 100"
     },
@@ -551,6 +1177,15 @@
         "UC-S"
       ],
       "title": "Chemistry for Allied Health Majors",
+      "courseBeginTerm": "Su2013",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "No credit for CHEM 9, CHEM 10 or CHEM 40 if taken after  CHEM 50"
       ],
@@ -561,6 +1196,15 @@
         "UC-S"
       ],
       "title": "Introductory Organic and Biochemistry",
+      "courseBeginTerm": "Su2005",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "No credit for CHEM 20 if taken after  CHEM 80"
       ],
@@ -571,6 +1215,15 @@
         "UC-S"
       ],
       "title": "Introduction to General Chemistry",
+      "courseBeginTerm": "Su2013",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2006",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "No credit for CHEM 9, CHEM 10 or CHEM 40 if taken after  CHEM 50"
       ],
@@ -581,6 +1234,15 @@
         "UC-S"
       ],
       "title": "General Chemistry I",
+      "courseBeginTerm": "Su2005",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "CHEM 50"
     },
@@ -589,6 +1251,15 @@
         "UC-S"
       ],
       "title": "General Chemistry I - Honors",
+      "courseBeginTerm": "Su2005",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "CHEM 50"
     },
@@ -597,6 +1268,15 @@
         "UC-S"
       ],
       "title": "General Chemistry II",
+      "courseBeginTerm": "Su2005",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "CHEM 51"
     },
@@ -605,6 +1285,15 @@
         "UC-S"
       ],
       "title": "General Chemistry II - Honors",
+      "courseBeginTerm": "F2016",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2016",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "CHEM 51"
     },
@@ -613,6 +1302,15 @@
         "UC-S"
       ],
       "title": "Chemistry for Engineers",
+      "courseBeginTerm": "F2021",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2021",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "CHEM 55"
     },
@@ -621,6 +1319,15 @@
         "UC-S"
       ],
       "title": "Organic Chemistry I",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "CHEM 80"
     },
@@ -629,6 +1336,15 @@
         "UC-S"
       ],
       "title": "Organic Chemistry II",
+      "courseBeginTerm": "Su2013",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "CHEM 81"
     },
@@ -637,6 +1353,15 @@
         "UC-S"
       ],
       "title": "Chemistry of Everyday Life",
+      "courseBeginTerm": "Su2017",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2018",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "No credit for CHEM 9, CHEM 10 or CHEM 40 if taken after  CHEM 50"
       ],
@@ -647,6 +1372,15 @@
         "UC-H"
       ],
       "title": "Intermediate Chinese",
+      "courseBeginTerm": "F2003",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1998",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "CHIN 3"
     },
@@ -655,6 +1389,15 @@
         "UC-H"
       ],
       "title": "Continuing Intermediate Chinese",
+      "courseBeginTerm": "Su2006",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2003",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "CHIN 4"
     },
@@ -663,6 +1406,15 @@
         "UC-B"
       ],
       "title": "Interpersonal Communication - Honors",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2010",
+          "endTerm": "F2028"
+        }
+      ],
       "notes": [],
       "creditGroup": "COMM 26H"
     },
@@ -671,6 +1423,15 @@
         "UC-B"
       ],
       "title": "Intercultural Communication",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2006",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "COMM 7"
     },
@@ -679,6 +1440,15 @@
         "UC-B"
       ],
       "title": "Intercultural Communication - Honors",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2009",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "COMM 7"
     },
@@ -687,6 +1457,15 @@
         "UC-H"
       ],
       "title": "History and Appreciation of Dance",
+      "courseBeginTerm": "F1998",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1998",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "DN-T 20"
     },
@@ -695,6 +1474,15 @@
         "UC-E"
       ],
       "title": "English - Introduction to Literary Types",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-E",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ENGL 1B"
     },
@@ -703,6 +1491,15 @@
         "UC-E"
       ],
       "title": "English - Introduction to Literary Types - Honors",
+      "courseBeginTerm": "Su2007",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-E",
+          "beginTerm": "F1996",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ENGL 1B"
     },
@@ -711,6 +1508,15 @@
         "UC-E"
       ],
       "title": "Academic Reading and Writing",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-E",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "AMLA 1A, ENGL C1000 and ENGL C1000H combined: maximum credit,  1 course"
       ],
@@ -721,6 +1527,15 @@
         "UC-E"
       ],
       "title": "Academic Reading and Writing - Honors",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-E",
+          "beginTerm": "F1998",
+          "endTerm": "F2027"
+        }
+      ],
       "notes": [
         "AMLA 1A, ENGL C1000 and ENGL C1000H combined: maximum credit,  1 course"
       ],
@@ -731,6 +1546,15 @@
         "UC-E"
       ],
       "title": "Critical Thinking and Writing",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-E",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ENGL C1001"
     },
@@ -739,6 +1563,15 @@
         "UC-E"
       ],
       "title": "Critical Thinking and Writing - Honors",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-E",
+          "beginTerm": "F1996",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ENGL C1001"
     },
@@ -747,6 +1580,15 @@
         "UC-M"
       ],
       "title": "Differential Equations and Linear Algebra for Engineers",
+      "courseBeginTerm": "Su2020",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F2021",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "Credit for either  ENGR 285 or MATH 285 or MATH 260 and MATH 290"
       ],
@@ -757,6 +1599,15 @@
         "UC-B"
       ],
       "title": "Introduction to Ethnic Studies",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2022",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ETHS 1"
     },
@@ -765,6 +1616,15 @@
         "UC-B"
       ],
       "title": "Race and Racism in Education",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2022",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ETHS 2"
     },
@@ -773,6 +1633,15 @@
         "UC-H"
       ],
       "title": "Dress, Culture, and Identity",
+      "courseBeginTerm": "Su2014",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2024",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "FASH 14"
     },
@@ -781,6 +1650,15 @@
         "UC-H"
       ],
       "title": "History of Fashion",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2024",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "FASH 9"
     },
@@ -789,6 +1667,15 @@
         "UC-H"
       ],
       "title": "Intermediate French",
+      "courseBeginTerm": "F1998",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "FRCH 3"
     },
@@ -797,6 +1684,15 @@
         "UC-H"
       ],
       "title": "Continuing Intermediate French",
+      "courseBeginTerm": "F2006",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "FRCH 4"
     },
@@ -805,6 +1701,15 @@
         "UC-H"
       ],
       "title": "French Culture Through Cinema",
+      "courseBeginTerm": "Su2003",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2005",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "FRCH 60"
     },
@@ -813,6 +1718,15 @@
         "UC-S"
       ],
       "title": "Physical Geography",
+      "courseBeginTerm": "Su2017",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GEOG 1"
     },
@@ -821,6 +1735,15 @@
         "UC-S"
       ],
       "title": "Physical Geography  - Honors",
+      "courseBeginTerm": "Su2017",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "Su2006",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GEOG 1"
     },
@@ -829,6 +1752,15 @@
         "UC-B"
       ],
       "title": "Human Geography",
+      "courseBeginTerm": "F1999",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GEOG 2"
     },
@@ -837,6 +1769,15 @@
         "UC-B"
       ],
       "title": "Human Geography - Honors",
+      "courseBeginTerm": "Su2006",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "Su2006",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GEOG 2"
     },
@@ -845,6 +1786,15 @@
         "UC-B"
       ],
       "title": "Geography of California",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GEOG 30"
     },
@@ -853,6 +1803,15 @@
         "UC-B"
       ],
       "title": "World Regional Geography",
+      "courseBeginTerm": "F1997",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1997",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GEOG 5"
     },
@@ -861,6 +1820,15 @@
         "UC-B"
       ],
       "title": "Urban Geography",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "Su2006",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GEOG 8"
     },
@@ -869,6 +1837,15 @@
         "UC-S"
       ],
       "title": "Physical Geology",
+      "courseBeginTerm": "Su2009",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GEOL 1"
     },
@@ -877,6 +1854,15 @@
         "UC-S"
       ],
       "title": "Natural Disasters",
+      "courseBeginTerm": "Su2000",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "Su2000",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GEOL 10"
     },
@@ -885,6 +1871,15 @@
         "UC-S"
       ],
       "title": "Historical Geology",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GEOL 2"
     },
@@ -893,6 +1888,15 @@
         "UC-S"
       ],
       "title": "Global Climate Change",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2018",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GEOL 30"
     },
@@ -901,6 +1905,15 @@
         "UC-S"
       ],
       "title": "Geology of California",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GEOL 7"
     },
@@ -909,6 +1922,15 @@
         "UC-S"
       ],
       "title": "Earth Science",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "No credit if taken after a college level course in Astronomy, Geology, Meteorology or Oceanography"
       ],
@@ -919,6 +1941,15 @@
         "UC-S"
       ],
       "title": "Earth Science - Honors",
+      "courseBeginTerm": "F1998",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "No credit if taken after a college level course in Astronomy, Geology, Meteorology or Oceanography"
       ],
@@ -929,6 +1960,15 @@
         "UC-S"
       ],
       "title": "Environmental Geology",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GEOL 9"
     },
@@ -937,6 +1977,15 @@
         "UC-H"
       ],
       "title": "Intermediate German",
+      "courseBeginTerm": "F1998",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GERM 3"
     },
@@ -945,6 +1994,15 @@
         "UC-H"
       ],
       "title": "German Culture Through Cinema",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "GERM 60"
     },
@@ -954,6 +2012,20 @@
         "UC-H"
       ],
       "title": "History of the United States",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "HIST 1, HIST 7, HIST 7H, HIST 8 and HIST 8H combined: maximum credit,  2 courses"
       ],
@@ -965,6 +2037,20 @@
         "UC-H"
       ],
       "title": "History of Asia from Pre-History to Early Modern",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 10"
     },
@@ -974,6 +2060,20 @@
         "UC-H"
       ],
       "title": "History of Asia from Pre-History to Early Modern - Honors",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 10"
     },
@@ -983,6 +2083,20 @@
         "UC-H"
       ],
       "title": "History of Early Modern to Modern Asia",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 11"
     },
@@ -992,6 +2106,20 @@
         "UC-H"
       ],
       "title": "History of Early Modern to Modern Asia - Honors",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 11"
     },
@@ -1001,6 +2129,20 @@
         "UC-H"
       ],
       "title": "The Wild West - A History, 1800-1890",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-H",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 16"
     },
@@ -1010,6 +2152,20 @@
         "UC-H"
       ],
       "title": "History of Latin America",
+      "courseBeginTerm": "Su2020",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 18"
     },
@@ -1019,6 +2175,20 @@
         "UC-H"
       ],
       "title": "History of Mexico",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 19"
     },
@@ -1028,6 +2198,20 @@
         "UC-H"
       ],
       "title": "World History: Prehistoric to Early Modern",
+      "courseBeginTerm": "Su2011",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-H",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 3"
     },
@@ -1037,6 +2221,20 @@
         "UC-H"
       ],
       "title": "History of African Americans, 1619-1877",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 30"
     },
@@ -1046,6 +2244,20 @@
         "UC-H"
       ],
       "title": "History of African Americans, 1877-Present",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 31"
     },
@@ -1055,6 +2267,20 @@
         "UC-H"
       ],
       "title": "History of Africa",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 35"
     },
@@ -1064,6 +2290,20 @@
         "UC-H"
       ],
       "title": "Women in American History",
+      "courseBeginTerm": "Su2011",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 36"
     },
@@ -1073,6 +2313,20 @@
         "UC-H"
       ],
       "title": "California History",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 39"
     },
@@ -1082,6 +2336,20 @@
         "UC-H"
       ],
       "title": "World History: Prehistoric to Early Modern - Honors",
+      "courseBeginTerm": "Su2011",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-H",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 3"
     },
@@ -1091,6 +2359,20 @@
         "UC-H"
       ],
       "title": "World History: Early Modern to the Present",
+      "courseBeginTerm": "Su2011",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 4"
     },
@@ -1100,6 +2382,20 @@
         "UC-H"
       ],
       "title": "History of Mexican Americans",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 40"
     },
@@ -1109,6 +2405,20 @@
         "UC-H"
       ],
       "title": "History of Native Americans",
+      "courseBeginTerm": "F2007",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2007",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-H",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 44"
     },
@@ -1118,6 +2428,20 @@
         "UC-H"
       ],
       "title": "World History: Early Modern to the Present - Honors",
+      "courseBeginTerm": "Su2011",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 4"
     },
@@ -1127,6 +2451,20 @@
         "UC-H"
       ],
       "title": "History of the United States to 1877",
+      "courseBeginTerm": "Su2012",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "HIST 1, HIST 7, HIST 7H, HIST 8 and HIST 8H combined: maximum credit,  2 courses"
       ],
@@ -1138,6 +2476,20 @@
         "UC-H"
       ],
       "title": "History of the United States to 1877 - Honors",
+      "courseBeginTerm": "Su2012",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-H",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "HIST 1, HIST 7, HIST 7H, HIST 8 and HIST 8H combined: maximum credit,  2 courses"
       ],
@@ -1149,6 +2501,20 @@
         "UC-H"
       ],
       "title": "History of the United States from 1865",
+      "courseBeginTerm": "Su2012",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "HIST 1, HIST 7, HIST 7H, HIST 8 and HIST 8H combined: maximum credit,  2 courses"
       ],
@@ -1160,6 +2526,20 @@
         "UC-H"
       ],
       "title": "History of the United States from 1865 - Honors",
+      "courseBeginTerm": "Su2012",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "HIST 1, HIST 7, HIST 7H, HIST 8 and HIST 8H combined: maximum credit,  2 courses"
       ],
@@ -1171,6 +2551,20 @@
         "UC-H"
       ],
       "title": "History of Asian Americans and Pacific Islanders",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HIST 9"
     },
@@ -1179,6 +2573,15 @@
         "UC-H"
       ],
       "title": "Humanities and the Human Experience",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2003",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HUMA 1"
     },
@@ -1187,6 +2590,15 @@
         "UC-H"
       ],
       "title": "Humanities and the Human Experience - Honors",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2018",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "HUMA 1"
     },
@@ -1195,6 +2607,15 @@
         "UC-H"
       ],
       "title": "Intermediate Italian",
+      "courseBeginTerm": "F1998",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ITAL 3"
     },
@@ -1203,6 +2624,15 @@
         "UC-H"
       ],
       "title": "Continuing Intermediate Italian",
+      "courseBeginTerm": "F2006",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ITAL 4"
     },
@@ -1211,6 +2641,15 @@
         "UC-H"
       ],
       "title": "Italian Culture Through Cinema",
+      "courseBeginTerm": "F2017",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ITAL 60"
     },
@@ -1219,6 +2658,15 @@
         "UC-H"
       ],
       "title": "Italian Culture Through Food",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ITAL 61"
     },
@@ -1227,6 +2675,15 @@
         "UC-H"
       ],
       "title": "Intermediate Japanese",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "JAPN 3"
     },
@@ -1235,6 +2692,15 @@
         "UC-H"
       ],
       "title": "Continuing Intermediate Japanese",
+      "courseBeginTerm": "F2006",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "JAPN 4"
     },
@@ -1243,6 +2709,15 @@
         "UC-H"
       ],
       "title": "Advanced Japanese",
+      "courseBeginTerm": "F1999",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1999",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "JAPN 5"
     },
@@ -1251,6 +2726,15 @@
         "UC-H"
       ],
       "title": "Japanese Culture Through Anime and Manga",
+      "courseBeginTerm": "Su2020",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "JAPN 62"
     },
@@ -1259,6 +2743,15 @@
         "UC-H"
       ],
       "title": "Continuing Intermediate Korean",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2022",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "KORE 4"
     },
@@ -1267,6 +2760,15 @@
         "UC-H"
       ],
       "title": "Korean Culture Through Cinema",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2022",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "KORE 60"
     },
@@ -1275,6 +2777,15 @@
         "UC-B"
       ],
       "title": "Introduction to Chicanx Studies",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2022",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LCAS 1"
     },
@@ -1283,6 +2794,15 @@
         "UC-H"
       ],
       "title": "Languages, Gender, and Power",
+      "courseBeginTerm": "Su2020",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2021",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LING 2"
     },
@@ -1291,6 +2811,15 @@
         "UC-H"
       ],
       "title": "Languages, Cultures, and Writing in East Asia",
+      "courseBeginTerm": "Su2020",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LING 3"
     },
@@ -1299,6 +2828,15 @@
         "UC-H"
       ],
       "title": "Early American Literature",
+      "courseBeginTerm": "F2001",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 1"
     },
@@ -1307,6 +2845,15 @@
         "UC-H"
       ],
       "title": "Survey of Shakespeare",
+      "courseBeginTerm": "F2001",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 10"
     },
@@ -1315,6 +2862,15 @@
         "UC-H"
       ],
       "title": "World Literature to 1650",
+      "courseBeginTerm": "Su2011",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 11A"
     },
@@ -1323,6 +2879,15 @@
         "UC-H"
       ],
       "title": "World Literature from 1650",
+      "courseBeginTerm": "Su2011",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 11B"
     },
@@ -1331,6 +2896,15 @@
         "UC-H"
       ],
       "title": "Introduction to Modern Poetry",
+      "courseBeginTerm": "F2001",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 14"
     },
@@ -1339,6 +2913,15 @@
         "UC-H"
       ],
       "title": "Introduction to Cinema",
+      "courseBeginTerm": "F2001",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 15"
     },
@@ -1347,6 +2930,15 @@
         "UC-H"
       ],
       "title": "Modern American Literature",
+      "courseBeginTerm": "F2001",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 2"
     },
@@ -1355,6 +2947,15 @@
         "UC-H"
       ],
       "title": "African American Literature",
+      "courseBeginTerm": "F2001",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 20"
     },
@@ -1363,6 +2964,15 @@
         "UC-H"
       ],
       "title": "Contemporary Mexican American Literature",
+      "courseBeginTerm": "F2001",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 25"
     },
@@ -1371,6 +2981,15 @@
         "UC-H"
       ],
       "title": "Multicultural American Literature",
+      "courseBeginTerm": "F2008",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "S2008",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 3"
     },
@@ -1379,6 +2998,15 @@
         "UC-H"
       ],
       "title": "Introduction to Mythology",
+      "courseBeginTerm": "F2001",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 36"
     },
@@ -1387,6 +3015,15 @@
         "UC-H"
       ],
       "title": "The Bible as Literature: Old Testament",
+      "courseBeginTerm": "F2001",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 46"
     },
@@ -1395,6 +3032,15 @@
         "UC-H"
       ],
       "title": "The Bible as Literature: New Testament",
+      "courseBeginTerm": "F2001",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 47"
     },
@@ -1403,6 +3049,15 @@
         "UC-H"
       ],
       "title": "Survey of English Literature up to 1800",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 6A"
     },
@@ -1411,6 +3066,15 @@
         "UC-H"
       ],
       "title": "Survey of English Literature Since 1800",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "LIT 6B"
     },
@@ -1419,6 +3083,15 @@
         "UC-M"
       ],
       "title": "Survey of College Mathematics",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MATH 100"
     },
@@ -1427,6 +3100,15 @@
         "UC-M"
       ],
       "title": "Finite Mathematics",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MATH 120"
     },
@@ -1435,6 +3117,15 @@
         "UC-M"
       ],
       "title": "College Algebra",
+      "courseBeginTerm": "Su2009",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "All College Algebra and Pre-Calculus courses limited to a single course with a maximum of 5 semester / 7.5 quarter units"
       ],
@@ -1445,16 +3136,34 @@
         "UC-M"
       ],
       "title": "Precalculus Algebra",
+      "courseBeginTerm": "F2023",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F2023",
+          "endTerm": "F2026"
+        }
+      ],
       "notes": [
         "All College Algebra and Pre-Calculus courses limited to a single course with a maximum of 5 semester / 7.5 quarter units"
       ],
-      "creditGroup": "MATH 135"
+      "creditGroup": "MATH 130"
     },
     "MATH 140": {
       "areas": [
         "UC-M"
       ],
       "title": "Calculus for Business",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "MATH 140 and MATH 180 combined: maximum credit,  1 course"
       ],
@@ -1465,26 +3174,53 @@
         "UC-M"
       ],
       "title": "Precalculus Mathematics",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "All College Algebra and Pre-Calculus courses limited to a single course with a maximum of 5 semester / 7.5 quarter units"
       ],
-      "creditGroup": "MATH 160"
+      "creditGroup": "MATH 130"
     },
     "MATH 175": {
       "areas": [
         "UC-M"
       ],
       "title": "Precalculus and Trigonometry",
+      "courseBeginTerm": "F2023",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F2023",
+          "endTerm": "F2026"
+        }
+      ],
       "notes": [
         "All College Algebra and Pre-Calculus courses limited to a single course with a maximum of 5 semester / 7.5 quarter units"
       ],
-      "creditGroup": "MATH 175"
+      "creditGroup": "MATH 130"
     },
     "MATH 180": {
       "areas": [
         "UC-M"
       ],
       "title": "Calculus and Analytic Geometry I",
+      "courseBeginTerm": "F2023",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "MATH 140 and MATH 180 combined: maximum credit,  1 course"
       ],
@@ -1495,6 +3231,15 @@
         "UC-M"
       ],
       "title": "Calculus and Analytic Geometry II",
+      "courseBeginTerm": "F2023",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MATH 181"
     },
@@ -1503,6 +3248,15 @@
         "UC-M"
       ],
       "title": "Linear Algebra",
+      "courseBeginTerm": "F2016",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F2016",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "Credit for either  ENGR 285 or MATH 285 or MATH 260 and MATH 290"
       ],
@@ -1513,6 +3267,15 @@
         "UC-M"
       ],
       "title": "Calculus and Analytic Geometry III",
+      "courseBeginTerm": "F2023",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MATH 280"
     },
@@ -1521,6 +3284,15 @@
         "UC-M"
       ],
       "title": "Linear Algebra and Differential Equations",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "Credit for either  ENGR 285 or MATH 285 or MATH 260 and MATH 290"
       ],
@@ -1531,6 +3303,15 @@
         "UC-M"
       ],
       "title": "Differential Equations",
+      "courseBeginTerm": "F2016",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F2016",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "Credit for either  ENGR 285 or MATH 285 or MATH 260 and MATH 290"
       ],
@@ -1541,6 +3322,15 @@
         "UC-S"
       ],
       "title": "Weather and the Atmospheric Environment",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "METO 3"
     },
@@ -1549,6 +3339,15 @@
         "UC-S"
       ],
       "title": "Principles of Microbiology",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "F2026",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "MICR 1 and MICR 22 combined: maximum credit,  5 units"
       ],
@@ -1559,6 +3358,15 @@
         "UC-S"
       ],
       "title": "Microbiology",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "MICR 1 and MICR 22 combined: maximum credit,  5 units"
       ],
@@ -1569,6 +3377,15 @@
         "UC-S"
       ],
       "title": "Introduction to Immunology",
+      "courseBeginTerm": "F2021",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2021",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MICR 26"
     },
@@ -1577,6 +3394,15 @@
         "UC-H"
       ],
       "title": "Introduction to Western Classical Music",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 100"
     },
@@ -1585,6 +3411,15 @@
         "UC-H"
       ],
       "title": "Introduction to Western Classical Music - Honors",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1997",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 100"
     },
@@ -1593,6 +3428,15 @@
         "UC-H"
       ],
       "title": "Women in Music",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2022",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 101"
     },
@@ -1601,6 +3445,15 @@
         "UC-H"
       ],
       "title": "Film Music Appreciation",
+      "courseBeginTerm": "F2023",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2023",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 102"
     },
@@ -1609,6 +3462,15 @@
         "UC-H"
       ],
       "title": "Music and Culture of Hip Hop",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2022",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 103"
     },
@@ -1617,6 +3479,15 @@
         "UC-H"
       ],
       "title": "Music and Culture of Hip-Hop - Honors",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2024",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 103"
     },
@@ -1625,6 +3496,15 @@
         "UC-H"
       ],
       "title": "Western Music History I: Antiquity to 1750",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 105"
     },
@@ -1633,6 +3513,15 @@
         "UC-H"
       ],
       "title": "Western Music History II: 1750 to Present",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 106"
     },
@@ -1641,6 +3530,15 @@
         "UC-H"
       ],
       "title": "History of Jazz",
+      "courseBeginTerm": "F1999",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1999",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 12"
     },
@@ -1649,6 +3547,15 @@
         "UC-H"
       ],
       "title": "World Music",
+      "courseBeginTerm": "Su2006",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 14A"
     },
@@ -1657,6 +3564,15 @@
         "UC-H"
       ],
       "title": "American Folk Music",
+      "courseBeginTerm": "F2006",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "S2007",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 14B"
     },
@@ -1665,6 +3581,15 @@
         "UC-H"
       ],
       "title": "American Folk Music - Honors",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2022",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 14B"
     },
@@ -1673,6 +3598,15 @@
         "UC-H"
       ],
       "title": "Rock Music History and Appreciation",
+      "courseBeginTerm": "S2000",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "S2000",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 15"
     },
@@ -1681,6 +3615,15 @@
         "UC-H"
       ],
       "title": "Rock Music History and Appreciation - Honors",
+      "courseBeginTerm": "Su2016",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "MUS 15"
     },
@@ -1689,6 +3632,15 @@
         "UC-B"
       ],
       "title": "Introduction to Native American Studies",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2022",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "NAIS 1"
     },
@@ -1697,6 +3649,15 @@
         "UC-S"
       ],
       "title": "Introduction to Oceanography",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "OCEA 10"
     },
@@ -1705,6 +3666,15 @@
         "UC-S"
       ],
       "title": "Introduction to Oceanography - Honors",
+      "courseBeginTerm": "S2001",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "OCEA 10"
     },
@@ -1713,6 +3683,15 @@
         "UC-H"
       ],
       "title": "Introduction to Ethics",
+      "courseBeginTerm": "Su2015",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 12"
     },
@@ -1721,6 +3700,15 @@
         "UC-H"
       ],
       "title": "Introduction to Ethics - Honors",
+      "courseBeginTerm": "Su2015",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1998",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 12"
     },
@@ -1729,6 +3717,15 @@
         "UC-H"
       ],
       "title": "Major World Religions",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 15"
     },
@@ -1737,6 +3734,15 @@
         "UC-H"
       ],
       "title": "Major World Religions - Honors",
+      "courseBeginTerm": "F1997",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1997",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 15"
     },
@@ -1745,6 +3751,15 @@
         "UC-H"
       ],
       "title": "Introduction to the Philosophy of Religion",
+      "courseBeginTerm": "F2024",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2024",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 16"
     },
@@ -1753,6 +3768,15 @@
         "UC-H"
       ],
       "title": "Introduction to Philosophy of Religion - Honors",
+      "courseBeginTerm": "F2024",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2024",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 16"
     },
@@ -1761,6 +3785,15 @@
         "UC-H"
       ],
       "title": "Introduction to Ancient Philosophy",
+      "courseBeginTerm": "F2021",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 20A"
     },
@@ -1769,6 +3802,15 @@
         "UC-H"
       ],
       "title": "Introduction to Ancient Philosophy - Honors ",
+      "courseBeginTerm": "F2021",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2011",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 20A"
     },
@@ -1777,6 +3819,15 @@
         "UC-H"
       ],
       "title": "Introduction to Modern Philosophy",
+      "courseBeginTerm": "F2021",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 20B"
     },
@@ -1785,6 +3836,15 @@
         "UC-H"
       ],
       "title": "Introduction to Modern Philosophy - Honors ",
+      "courseBeginTerm": "F2021",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2011",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 20B"
     },
@@ -1793,6 +3853,15 @@
         "UC-H"
       ],
       "title": "Introduction to Logic",
+      "courseBeginTerm": "Su2015",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 3"
     },
@@ -1801,6 +3870,15 @@
         "UC-H"
       ],
       "title": "Introduction to Philosophy",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 5"
     },
@@ -1809,6 +3887,15 @@
         "UC-H"
       ],
       "title": "Introduction to Philosophy - Honors",
+      "courseBeginTerm": "F1996",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1996",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 5"
     },
@@ -1817,6 +3904,15 @@
         "UC-E"
       ],
       "title": "Critical Thinking and Writing",
+      "courseBeginTerm": "Su2016",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-E",
+          "beginTerm": "F2002",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 9"
     },
@@ -1825,6 +3921,15 @@
         "UC-E"
       ],
       "title": "Critical Thinking and Writing - Honors",
+      "courseBeginTerm": "Su2016",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-E",
+          "beginTerm": "F2013",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHIL 9"
     },
@@ -1833,6 +3938,15 @@
         "UC-H"
       ],
       "title": "History of Photography",
+      "courseBeginTerm": "F1999",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHOT 15"
     },
@@ -1841,6 +3955,15 @@
         "UC-S"
       ],
       "title": "Energy Science",
+      "courseBeginTerm": "F2008",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2008",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PHSC 3"
     },
@@ -1849,6 +3972,15 @@
         "UC-S"
       ],
       "title": "Physics",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "No credit for PHYS 1 if taken after  PHYS 4A"
       ],
@@ -1859,6 +3991,15 @@
         "UC-S"
       ],
       "title": "General Physics",
+      "courseBeginTerm": "Su2000",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "PHYS 2AG, PHYS 2BG or PHYS 4A, PHYS 4B, PHYS 4C combined: maximum credit, 1 series -  deduct credit for duplication of topics"
       ],
@@ -1869,6 +4010,15 @@
         "UC-S"
       ],
       "title": "General Physics",
+      "courseBeginTerm": "Su2000",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "PHYS 2AG, PHYS 2BG or PHYS 4A, PHYS 4B, PHYS 4C combined: maximum credit, 1 series -  deduct credit for duplication of topics"
       ],
@@ -1879,6 +4029,15 @@
         "UC-S"
       ],
       "title": "Engineering Physics",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "PHYS 2AG, PHYS 2BG or PHYS 4A, PHYS 4B, PHYS 4C combined: maximum credit, 1 series -  deduct credit for duplication of topics"
       ],
@@ -1889,6 +4048,15 @@
         "UC-S"
       ],
       "title": "Engineering Physics",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "PHYS 2AG, PHYS 2BG or PHYS 4A, PHYS 4B, PHYS 4C combined: maximum credit, 1 series -  deduct credit for duplication of topics"
       ],
@@ -1899,6 +4067,15 @@
         "UC-S"
       ],
       "title": "Engineering Physics",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "PHYS 2AG, PHYS 2BG or PHYS 4A, PHYS 4B, PHYS 4C combined: maximum credit, 1 series -  deduct credit for duplication of topics"
       ],
@@ -1909,6 +4086,15 @@
         "UC-B"
       ],
       "title": "Environmental Politics",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2010",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "POLS 10"
     },
@@ -1917,6 +4103,15 @@
         "UC-B"
       ],
       "title": "Comparative Politics",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "POLS 2"
     },
@@ -1925,6 +4120,15 @@
         "UC-B"
       ],
       "title": "Latino Politics in the United States",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "POLS 25"
     },
@@ -1933,6 +4137,15 @@
         "UC-B"
       ],
       "title": "African American/Black Politics",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "POLS 35"
     },
@@ -1942,6 +4155,20 @@
         "UC-H"
       ],
       "title": "Political Theory I - Ancient to Contemporary",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-H",
+          "beginTerm": "F2009",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "POLS 5"
     },
@@ -1951,6 +4178,20 @@
         "UC-H"
       ],
       "title": "Political Theory II - Early Modern to Contemporary",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2010",
+          "endTerm": ""
+        },
+        {
+          "area": "UC-B",
+          "beginTerm": "F2010",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "POLS 7"
     },
@@ -1959,6 +4200,15 @@
         "UC-B"
       ],
       "title": "International Relations",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "POLS 9"
     },
@@ -1967,6 +4217,15 @@
         "UC-B"
       ],
       "title": "American Government and Politics",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "POLS C1000"
     },
@@ -1975,6 +4234,15 @@
         "UC-B"
       ],
       "title": "American Government and Politics - Honors",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "POLS C1000"
     },
@@ -1983,6 +4251,15 @@
         "UC-M"
       ],
       "title": "Statistics for the Behavioral Sciences",
+      "courseBeginTerm": "F2003",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F2003",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "BUSC 17, PSYC 10, SOC 23, STAT C1000 and STAT C1000H combined: maximum credit,  1 course"
       ],
@@ -1993,6 +4270,15 @@
         "UC-B"
       ],
       "title": "Developmental Psychology",
+      "courseBeginTerm": "F2002",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2010",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "CHLD 10, CHLD 10H, CHLD 11, PSYC 14, PSYC 14H and SOC 15 combined: maximum credit,  1 course"
       ],
@@ -2003,6 +4289,15 @@
         "UC-B"
       ],
       "title": "Developmental Psychology - Honors",
+      "courseBeginTerm": "Su2017",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2017",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "CHLD 10, CHLD 10H, CHLD 11, PSYC 14, PSYC 14H and SOC 15 combined: maximum credit,  1 course"
       ],
@@ -2013,6 +4308,15 @@
         "UC-B"
       ],
       "title": "Introduction to Child Psychology",
+      "courseBeginTerm": "F2011",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2011",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PSYC 15"
     },
@@ -2021,6 +4325,15 @@
         "UC-B"
       ],
       "title": "Abnormal Psychology",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PSYC 19"
     },
@@ -2029,6 +4342,15 @@
         "UC-S"
       ],
       "title": "Biological Psychology",
+      "courseBeginTerm": "F2000",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PSYC 1B"
     },
@@ -2037,6 +4359,15 @@
         "UC-S"
       ],
       "title": "Biological Psychology - Honors",
+      "courseBeginTerm": "F2024",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2024",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PSYC 1B"
     },
@@ -2045,6 +4376,15 @@
         "UC-B"
       ],
       "title": "Introduction to Social Psychology",
+      "courseBeginTerm": "Su2017",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2017",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PSYC 20"
     },
@@ -2053,6 +4393,15 @@
         "UC-B"
       ],
       "title": "The Psychology of Women",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PSYC 25"
     },
@@ -2061,6 +4410,15 @@
         "UC-B"
       ],
       "title": "Psychology of Sexuality",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PSYC 26"
     },
@@ -2069,6 +4427,15 @@
         "UC-B"
       ],
       "title": "Introduction to Research Methods in Psychology",
+      "courseBeginTerm": "F1998",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PSYC 3"
     },
@@ -2077,6 +4444,15 @@
         "UC-B"
       ],
       "title": "Introduction to Research Methods in Psychology - Honors",
+      "courseBeginTerm": "Su2017",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2017",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PSYC 3"
     },
@@ -2085,6 +4461,15 @@
         "UC-B"
       ],
       "title": "Introduction to Psychology",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PSYC C1000"
     },
@@ -2093,6 +4478,15 @@
         "UC-B"
       ],
       "title": "Introduction to Psychology - Honors",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2000",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PSYC C1000"
     },
@@ -2101,6 +4495,15 @@
         "UC-H"
       ],
       "title": "History of Western Medicine",
+      "courseBeginTerm": "Su2019",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PUBH 20"
     },
@@ -2109,6 +4512,15 @@
         "UC-S"
       ],
       "title": "Introduction to Epidemiology",
+      "courseBeginTerm": "Su2017",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2017",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PUBH 22"
     },
@@ -2117,6 +4529,15 @@
         "UC-B"
       ],
       "title": "Public Health and Social Justice",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2025",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PUBH 25"
     },
@@ -2125,6 +4546,15 @@
         "UC-B"
       ],
       "title": "Introduction to Global Public Health",
+      "courseBeginTerm": "Su2017",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2017",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PUBH 26"
     },
@@ -2133,6 +4563,15 @@
         "UC-B"
       ],
       "title": "Public Health and the Environment",
+      "courseBeginTerm": "Su2017",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2017",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PUBH 27"
     },
@@ -2141,6 +4580,15 @@
         "UC-B"
       ],
       "title": "Public Health and Bioethics",
+      "courseBeginTerm": "Su2017",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2017",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "PUBH 28"
     },
@@ -2149,6 +4597,15 @@
         "UC-H"
       ],
       "title": "American Sign Language 4",
+      "courseBeginTerm": "F2006",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2007",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SIGN 104"
     },
@@ -2157,6 +4614,15 @@
         "UC-H"
       ],
       "title": "Cultures in the Deaf Community",
+      "courseBeginTerm": "F2023",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SIGN 202"
     },
@@ -2165,6 +4631,15 @@
         "UC-B"
       ],
       "title": "Introduction to Sociology",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 1"
     },
@@ -2173,6 +4648,15 @@
         "UC-B"
       ],
       "title": "Introduction to Social Justice",
+      "courseBeginTerm": "Su2019",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 110"
     },
@@ -2181,6 +4665,15 @@
         "UC-B"
       ],
       "title": "Introduction to LGBTQ Studies",
+      "courseBeginTerm": "Su2019",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2019",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 130"
     },
@@ -2189,6 +4682,15 @@
         "UC-B"
       ],
       "title": "Marriage and the Family",
+      "courseBeginTerm": "F1995",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 14"
     },
@@ -2197,6 +4699,15 @@
         "UC-B"
       ],
       "title": "Marriage and the Family - Honors",
+      "courseBeginTerm": "F2011",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2021",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 14"
     },
@@ -2205,6 +4716,15 @@
         "UC-B"
       ],
       "title": "Public Health and Social Justice",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2025",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 160"
     },
@@ -2213,6 +4733,15 @@
         "UC-B"
       ],
       "title": "Introduction to Sociology - Honors",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2000",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 1"
     },
@@ -2221,6 +4750,15 @@
         "UC-B"
       ],
       "title": "Contemporary Social Problems",
+      "courseBeginTerm": "Su2013",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 2"
     },
@@ -2229,6 +4767,15 @@
         "UC-B"
       ],
       "title": "Introduction to Race and Ethnicity",
+      "courseBeginTerm": "Su2019",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 20"
     },
@@ -2237,6 +4784,15 @@
         "UC-B"
       ],
       "title": "Introduction to Race and Ethnicity - Honors",
+      "courseBeginTerm": "Su2019",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2000",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 20"
     },
@@ -2245,6 +4801,15 @@
         "UC-M"
       ],
       "title": "Introduction to Statistics in Sociology and Social Sciences",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F2018",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "BUSC 17, PSYC 10, SOC 23, STAT C1000 and STAT C1000H combined: maximum credit,  1 course"
       ],
@@ -2255,6 +4820,15 @@
         "UC-B"
       ],
       "title": "Contemporary Social Problems - Honors",
+      "courseBeginTerm": "Su2013",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2000",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 2"
     },
@@ -2263,6 +4837,15 @@
         "UC-B"
       ],
       "title": "Introduction to Sex and Gender Roles",
+      "courseBeginTerm": "Su2018",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2018",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 40"
     },
@@ -2271,6 +4854,15 @@
         "UC-B"
       ],
       "title": "Introduction to Criminology",
+      "courseBeginTerm": "S2001",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "F2004",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 5"
     },
@@ -2279,6 +4871,15 @@
         "UC-B"
       ],
       "title": "Introduction to Criminology - Honors",
+      "courseBeginTerm": "F2008",
+      "courseEndTerm": "F2027",
+      "approvals": [
+        {
+          "area": "UC-B",
+          "beginTerm": "Su2008",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SOC 5"
     },
@@ -2287,6 +4888,15 @@
         "UC-H"
       ],
       "title": "Intermediate Spanish",
+      "courseBeginTerm": "F2000",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SPAN 3"
     },
@@ -2295,6 +4905,15 @@
         "UC-H"
       ],
       "title": "Continuing Intermediate Spanish",
+      "courseBeginTerm": "Su2006",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SPAN 4"
     },
@@ -2303,6 +4922,15 @@
         "UC-H"
       ],
       "title": "Latin American Culture Through Cinema",
+      "courseBeginTerm": "F2022",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F2022",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "SPAN 60"
     },
@@ -2311,6 +4939,15 @@
         "UC-M"
       ],
       "title": "Introduction to Statistics",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "BUSC 17, PSYC 10, SOC 23, STAT C1000 and STAT C1000H combined: maximum credit,  1 course"
       ],
@@ -2321,6 +4958,15 @@
         "UC-M"
       ],
       "title": "Introduction to Statistics -  Honors",
+      "courseBeginTerm": "F2025",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-M",
+          "beginTerm": "F1996",
+          "endTerm": ""
+        }
+      ],
       "notes": [
         "BUSC 17, PSYC 10, SOC 23, STAT C1000 and STAT C1000H combined: maximum credit,  1 course"
       ],
@@ -2331,6 +4977,15 @@
         "UC-H"
       ],
       "title": "History of Theater Arts",
+      "courseBeginTerm": "Su2003",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "THTR 10"
     },
@@ -2339,6 +4994,15 @@
         "UC-H"
       ],
       "title": "Introduction to Theater Arts",
+      "courseBeginTerm": "Su2003",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-H",
+          "beginTerm": "F1995",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "THTR 9"
     },
@@ -2347,11 +5011,29 @@
         "UC-S"
       ],
       "title": "Fundamentals of Zoology",
+      "courseBeginTerm": "S2020",
+      "courseEndTerm": "",
+      "approvals": [
+        {
+          "area": "UC-S",
+          "beginTerm": "F2020",
+          "endTerm": ""
+        }
+      ],
       "notes": [],
       "creditGroup": "ZOOL 3"
     }
   },
   "limits": [
+    {
+      "codes": [
+        "MATH 130",
+        "MATH 135",
+        "MATH 160",
+        "MATH 175"
+      ],
+      "maxCourses": 1
+    },
     {
       "codes": [
         "AMLA 1A",

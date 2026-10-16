@@ -11,18 +11,18 @@ import { getSevenCourseProgress } from "../lib/seven-course-pattern";
 import type { CoursePatternReviews } from "../lib/seven-course-pattern";
 
 function patternReviews(codes: string[]): CoursePatternReviews {
-  return Object.fromEntries(codes.map(code => [code, { grade: "C", approvalConfirmed: true }]));
+  return Object.fromEntries(codes.map(code => [code, { grade: "C", term: "F", year: "2025" }]));
 }
 
-test("seven-course pattern requires grades, approval confirmation, and at least 3 earned course units", () => {
+test("seven-course pattern requires grades, completion terms, and at least 3 earned course units", () => {
   const courses = [unitCourse("MATH 180", 2, 5)];
   assert.equal(getSevenCourseProgress(courses, ["MATH 180"], {}, {}, {}).math, 0);
   for (const grade of ["C-", "D", "F", "NP", "W"]) {
-    assert.equal(getSevenCourseProgress(courses, ["MATH 180"], { "MATH 180": "4" }, { "MATH 180": { grade, approvalConfirmed: true } }, {}).math, 0);
+    assert.equal(getSevenCourseProgress(courses, ["MATH 180"], { "MATH 180": "4" }, { "MATH 180": { grade, term: "F", year: "2025" } }, {}).math, 0);
   }
   assert.equal(getSevenCourseProgress(courses, ["MATH 180"], { "MATH 180": "2.5" }, patternReviews(["MATH 180"]), {}).math, 0);
-  assert.equal(getSevenCourseProgress(courses, ["MATH 180"], { "MATH 180": "3" }, { "MATH 180": { grade: "P", approvalConfirmed: true } }, {}).math, 1);
-  assert.equal(getSevenCourseProgress(courses, ["MATH 180"], { "MATH 180": "4" }, { "MATH 180": { grade: "A", approvalConfirmed: false } }, {}).pendingCount, 1);
+  assert.equal(getSevenCourseProgress(courses, ["MATH 180"], { "MATH 180": "3" }, { "MATH 180": { grade: "P", term: "F", year: "2025" } }, {}).math, 1);
+  assert.equal(getSevenCourseProgress(courses, ["MATH 180"], { "MATH 180": "4" }, { "MATH 180": { grade: "A", term: "", year: "" } }, {}).pendingCount, 1);
 });
 
 test("a complete pattern uses seven distinct approved courses and handles flexible H/B assignments", () => {
@@ -64,14 +64,14 @@ test("source two-course and unit-based family limits constrain breadth matches",
   }
 });
 
-test("AP pattern credit respects subject designations, English cap and manual exclusions", () => {
+test("AP pattern credit respects subject designations, English cap and automatic course exclusions", () => {
   const ap = { "english-language": { score: "3" }, "english-literature": { score: "5" }, "calculus-bc": { score: "2", abSubscore: "3" }, "computer-science-a": { score: "5" } };
   const result = getSevenCourseProgress([], [], {}, {}, ap);
   assert.equal(result.english, 1);
   assert.equal(result.math, 1);
   assert.equal(result.matchedCount, 2);
   assert.equal(result.complete, false);
-  assert.equal(getSevenCourseProgress([], [], {}, {}, { "english-language": { score: "5", excludeFromUnits: true } }).english, 0);
+  assert.equal(getSevenCourseProgress([unitCourse("ENGL C1000", 3)], ["ENGL C1000"], {}, patternReviews(["ENGL C1000"]), { "english-language": { score: "5" } }).matches.filter(match => match.id.startsWith("ap:")).length, 0);
   assert.equal(getSevenCourseProgress([], [], {}, {}, { biology: { score: "2" } }).breadth, 0);
 });
 
@@ -122,11 +122,11 @@ test("Calculus BC AB subscore earns fallback credit without duplicating an AB ex
 });
 
 test("AP overlaps can be excluded, and removing results releases shared caps", () => {
-  const result = getAPCredit({ "english-language": { score: "4", excludeFromUnits: true }, "english-literature": { score: "3" } });
+  const result = getAPCredit({ "english-language": { score: "4" }, "english-literature": { score: "3" } }, ["english-language"]);
   assert.equal(result.units, 5.3);
   assert.equal(result.excludedCount, 1);
   assert.equal(result.capNotes.length, 0);
-  assert.equal(getAPCredit({ biology: { score: "5", excludeFromUnits: true } }).units, 0);
+  assert.equal(getAPCredit({ biology: { score: "5" } }, ["biology"]).units, 0);
   assert.equal(getAPCredit({}).units, 0);
 });
 
@@ -138,10 +138,10 @@ test("AP and coursework combine toward 60 units without decimal display artifact
   assert.equal(result.apCredit.units, 5.3);
   assert.equal(result.targetReached, true);
   assert.equal(result.remainingUnits, 0);
-  const excluded = getTransferUnitProgress(catalog, ["BASE"], {}, { biology: { score: "3", excludeFromUnits: true } });
-  assert.equal(excluded.totalUnits, 54.7);
+  const excluded = getTransferUnitProgress([unitCourse("BIOL 1", 4)], ["BIOL 1"], {}, { biology: { score: "3" } }, patternReviews(["BIOL 1"]));
+  assert.equal(excluded.totalUnits, 4);
   assert.equal(excluded.targetReached, false);
-  assert.equal(excluded.remainingUnits, 5.3);
+  assert.equal(excluded.remainingUnits, 56);
   const apOnly = getTransferUnitProgress([], [], {}, { biology: { score: "5" }, statistics: { score: "4" } });
   assert.equal(apOnly.totalUnits, 7.9);
   assert.equal(apOnly.remainingUnits, 52.1);
@@ -426,14 +426,14 @@ test("remaining requirements respect department caps and retain unmatched altern
 
 test("unit-credit grades differ from preparation grades and missing grades remain provisional", () => {
   const codes = ["A", "C-", "D+", "D", "D-", "F", "NP", "W", "P", "Missing"];
-  const reviews = Object.fromEntries(codes.filter(code => code !== "Missing").map(grade => [grade, { grade, approvalConfirmed: true }]));
+  const reviews = Object.fromEntries(codes.filter(code => code !== "Missing").map(grade => [grade, { grade, term: "F", year: "2025" }]));
   assert.deepEqual(getCreditCourses([...codes, "A"], reviews), ["A", "C-", "D+", "D", "D-", "P", "Missing"]);
   assert.deepEqual(getMajorCourses(codes, reviews), ["A", "P", "Missing"]);
 });
 
 test("pattern suggestions respect AP credit, equivalent courses and low-grade retakes", () => {
   const courses = [unitCourse("ENGL C1000", 3), unitCourse("ENGL C1000H", 3), unitCourse("ENGL C1001", 3), unitCourse("MATH 180", 4), unitCourse("BIOL 1", 4)];
-  const reviews = { ...patternReviews(["ENGL C1000"]), "MATH 180": { grade: "F", approvalConfirmed: true } };
+  const reviews = { ...patternReviews(["ENGL C1000"]), "MATH 180": { grade: "F", term: "F", year: "2025" } };
   const suggestions = getPatternSuggestions(courses, ["ENGL C1000", "MATH 180"], {}, reviews, { biology: { score: "3" } });
   assert.equal(suggestions[0].remaining, 1);
   assert.deepEqual(suggestions[0].courses.map(course => course.code), ["ENGL C1001"]);
@@ -461,4 +461,182 @@ test("a short set of pattern examples prioritizes a major course over unrelated 
   const suggestions = getPatternSuggestions(courses, [], {}, {}, {}, ["MATH 260"]);
   assert.equal(suggestions[1].courses[0].code, "MATH 260");
   assert.ok(suggestions[1].courses.length <= 8);
+});
+
+import { getAPOverlap } from "../lib/ap-overlap";
+
+test("AP/course duplicates are excluded from units and pattern and restored when removed", () => {
+  const catalog = [unitCourse("BIOL 1", 4), unitCourse("MATH 180", 4)];
+  const ap = { biology: { score: "3" } };
+  const reviews = patternReviews(["BIOL 1"]);
+  const result = getTransferUnitProgress(catalog, ["BIOL 1"], {}, ap, reviews);
+  assert.equal(result.apCredit.units, 0);
+  assert.equal(result.courseUnits, 4);
+  assert.equal(result.apCredit.excludedCount, 1);
+  assert.deepEqual(result.apCredit.overlap.excludedExamIds, ["biology"]);
+  const pattern = getSevenCourseProgress(catalog, ["BIOL 1"], {}, reviews, ap);
+  assert.equal(pattern.breadth, 1);
+  assert.deepEqual(pattern.matches.map(match => match.id), ["course:BIOL 1"]);
+  assert.deepEqual(pattern.overlap.excludedExamIds, result.apCredit.overlap.excludedExamIds);
+  assert.equal(getTransferUnitProgress(catalog, [], {}, ap, reviews).apCredit.units, 5.3);
+  assert.equal(getSevenCourseProgress(catalog, [], {}, reviews, ap).matches[0].id, "ap:biology");
+  assert.equal(getAPOverlap(ap, catalog, ["MATH 180"], {}, patternReviews(["MATH 180"])).excludedExamIds.length, 0);
+});
+
+test("failed courses, non-UC courses, missing grades and variable units cannot silently replace AP", () => {
+  const ap = { biology: { score: "5" } };
+  const catalog = [unitCourse("BIOL 1", 1, 5)];
+  for (const grade of ["", "C-", "D", "F", "NP", "W"]) {
+    const reviews = { "BIOL 1": { grade, term: "F", year: "2025" } };
+    assert.equal(getAPOverlap(ap, catalog, ["BIOL 1"], { "BIOL 1": "4" }, reviews).excludedExamIds.length, 0);
+  }
+  const reviews = patternReviews(["BIOL 1"]);
+  for (const units of ["", "0", "6", "NaN"]) {
+    assert.equal(getAPOverlap(ap, catalog, ["BIOL 1"], { "BIOL 1": units }, reviews).checks[0].status, "review");
+  }
+  assert.equal(getAPOverlap(ap, catalog, ["BIOL 1"], { "BIOL 1": "4" }, reviews).checks[0].status, "excluded");
+  assert.equal(getAPOverlap(ap, [unitCourse("BIOL 1", 4, 4, false)], ["BIOL 1"], {}, reviews).excludedExamIds.length, 0);
+  const failed = getTransferUnitProgress([unitCourse("BIOL 1", 4)], ["BIOL 1"], {}, ap, { "BIOL 1": { grade: "F", term: "F", year: "2025" } });
+  assert.equal(failed.courseUnits, 0);
+  assert.equal(failed.apCredit.units, 5.3);
+});
+
+test("BC credit needs the full sequence; AB fallback and score-specific equivalence stay distinct", () => {
+  const catalog = [unitCourse("MATH 180", 4), unitCourse("MATH 181", 4)];
+  const reviews = patternReviews(["MATH 180", "MATH 181"]);
+  const bc = { "calculus-bc": { score: "4" } };
+  assert.equal(getAPOverlap(bc, catalog, ["MATH 180"], {}, reviews).checks[0].status, "review");
+  assert.equal(getTransferUnitProgress(catalog, ["MATH 180"], {}, bc, reviews).apCredit.units, 5.3);
+  assert.deepEqual(getAPOverlap(bc, catalog, ["MATH 180", "MATH 181"], {}, reviews).excludedExamIds, ["calculus-bc"]);
+  assert.equal(getAPOverlap({ "calculus-ab": { score: "3" } }, catalog, ["MATH 180"], {}, reviews).checks[0].status, "review");
+  assert.equal(getAPOverlap({ "calculus-ab": { score: "4" } }, catalog, ["MATH 180"], {}, reviews).checks[0].status, "excluded");
+  assert.equal(getAPOverlap({ "calculus-bc": { score: "3" } }, catalog, ["MATH 180", "MATH 181"], {}, reviews).checks[0].status, "review");
+  assert.equal(getAPOverlap({ "calculus-bc": { score: "2", abSubscore: "4" } }, catalog, ["MATH 180"], {}, reviews).checks[0].status, "excluded");
+  assert.equal(getAPOverlap({ "calculus-bc": { score: "2", abSubscore: "3" } }, catalog, ["MATH 180"], {}, reviews).checks[0].status, "review");
+  assert.equal(getAPOverlap({ "calculus-bc": { score: "2", abSubscore: "2" } }, catalog, ["MATH 180"], {}, reviews).checks.length, 0);
+});
+
+test("English sequences, renamed courses and verified honors equivalents are not title guesses", () => {
+  const codes = ["ENGL C1000H", "ENGL C1002", "MATH 110H", "BUSC 1B", "BIOL 4"];
+  const catalog = codes.map(code => unitCourse(code, 3));
+  const reviews = patternReviews(codes);
+  const ap = { "english-language": { score: "4" }, "english-literature": { score: "5" }, statistics: { score: "3" }, microeconomics: { score: "4" }, biology: { score: "5" } };
+  const partial = getAPOverlap(ap, catalog, ["ENGL C1000H"], {}, reviews);
+  assert.equal(partial.checks.find(check => check.examId === "english-language")?.status, "excluded");
+  assert.equal(partial.checks.find(check => check.examId === "english-literature")?.status, "review");
+  const result = getAPOverlap(ap, catalog, codes, {}, reviews);
+  assert.deepEqual(result.excludedExamIds, ["english-language", "english-literature", "microeconomics", "statistics"]);
+  assert.equal(result.checks.find(check => check.examId === "biology")?.status, "clear");
+  const misleading = [{ ...unitCourse("NOT VERIFIED", 3), title: "Introduction to Psychology" }];
+  assert.equal(getAPOverlap({ psychology: { score: "4" } }, misleading, ["NOT VERIFIED"], {}, patternReviews(["NOT VERIFIED"])).excludedExamIds.length, 0);
+});
+
+test("unmapped and partial matches remain provisional, never remove AP by a shared UC area", () => {
+  const codes = ["PHYS 4A", "CHIN 1"];
+  const catalog = codes.map(code => unitCourse(code, 4));
+  const ap = { "physics-c-mechanics": { score: "5" }, chinese: { score: "4" } };
+  const result = getTransferUnitProgress(catalog, codes, {}, ap, patternReviews(codes));
+  assert.equal(result.apCredit.units, 7.9);
+  assert.equal(result.apCredit.excludedCount, 0);
+  assert.ok(result.apCredit.overlap.checks.every(check => check.status === "review"));
+  assert.equal(getAPOverlap({ biology: { score: "2" } }, [unitCourse("BIOL 1", 4)], ["BIOL 1"], {}, patternReviews(["BIOL 1"])).checks.length, 0);
+});
+
+test("pattern suggestions do not recommend duplicate equivalents as additional pattern credit", () => {
+  const courses = [unitCourse("ENGL C1000", 3), unitCourse("ENGL C1001", 3)];
+  const suggestions = getPatternSuggestions(courses, [], {}, {}, { "english-language": { score: "4" } });
+  assert.equal(suggestions[0].remaining, 1);
+  assert.deepEqual(suggestions[0].courses.map(course => course.code), ["ENGL C1001"]);
+});
+
+import { getCourseApproval, getCourseEligibility, completionTerm, termIndex } from "../lib/course-approval";
+
+test("automatic approvals require completion dates and use inclusive starts/exclusive ends", () => {
+  const catalog = [unitCourse("MATH 135", 3), unitCourse("ENGL C1000", 4), unitCourse("MATH 260", 3)];
+  const check = (code: string, term: string, year: string) => getCourseApproval(code, catalog, [code], { [code]: { grade: "C", term, year } });
+  assert.equal(check("MATH 135", "F", "2023").status, "eligible");
+  assert.equal(check("MATH 135", "Su", "2026").status, "eligible");
+  assert.equal(check("MATH 135", "F", "2026").status, "not_approved");
+  assert.equal(check("MATH 135", "S", "2027").status, "not_approved");
+  assert.equal(check("ENGL C1000", "F", "2024").status, "review");
+  assert.equal(check("ENGL C1000", "F", "2025").status, "eligible");
+  assert.equal(check("MATH 260", "F", "2026").status, "eligible");
+  assert.equal(check("MATH 260", "", "2025").status, "pending");
+  assert.equal(check("MATH 260", "F", "NaN").status, "pending");
+  assert.ok(termIndex("W2025")! < termIndex("S2025")!);
+  assert.ok(termIndex("S2025")! < termIndex("Su2025")!);
+  assert.ok(termIndex("Su2025")! < termIndex("F2025")!);
+  assert.equal(completionTerm({ grade: "A", term: "Fall", year: "2025" }), null);
+});
+
+test("recorded course-version ends do not silently stay approved under an open area range", () => {
+  const catalog = [unitCourse("MATH 180", 4)];
+  const result = getCourseApproval("MATH 180", catalog, ["MATH 180"], { "MATH 180": { grade: "A", term: "F", year: "2027" } });
+  assert.equal(result.status, "not_approved");
+  assert.match(result.messages.join(" "), /course version ends/);
+});
+
+test("course ordering checks block later lower-level credit and recompute when dates change", () => {
+  for (const [lower, upper] of [["BIOL 1", "BIOL 4"], ["CHEM 20", "CHEM 80"], ["CHEM 40", "CHEM 50"], ["PHYS 1", "PHYS 4A"]]) {
+    const catalog = [unitCourse(lower, 4), unitCourse(upper, 4)];
+    const completed = [lower, upper];
+    const reviews: CoursePatternReviews = { [lower]: { grade: "A", term: "F", year: "2025" }, [upper]: { grade: "C", term: "S", year: "2025" } };
+    assert.equal(getCourseApproval(lower, catalog, completed, reviews).status, "not_approved", lower);
+    assert.ok(!getSevenCourseProgress(catalog, completed, {}, reviews, {}).matches.some(match => match.courseCode === lower));
+    assert.equal(getCourseApproval(lower, catalog, [lower], reviews).status, "eligible", lower);
+    reviews[upper] = { grade: "A", term: "S", year: "2026" };
+    assert.equal(getCourseApproval(lower, catalog, completed, reviews).status, "eligible", lower);
+    reviews[upper] = { grade: "A" };
+    assert.equal(getCourseApproval(lower, catalog, completed, reviews).status, "pending", lower);
+    reviews[upper] = { grade: "A", term: "F", year: "2025" };
+    assert.equal(getCourseApproval(lower, catalog, completed, reviews).status, "review", lower);
+  }
+});
+
+test("earth-science conditions check all named disciplines rather than just GEOL courses", () => {
+  for (const upper of ["ASTR 5", "GEOL 1", "METO 3", "OCEA 10"]) {
+    const codes = ["GEOL 8", upper];
+    const catalog = codes.map(code => unitCourse(code, 3));
+    const reviews: CoursePatternReviews = { "GEOL 8": { grade: "C", term: "F", year: "2025" }, [upper]: { grade: "C", term: "S", year: "2025" } };
+    assert.equal(getCourseApproval("GEOL 8", catalog, codes, reviews).status, "not_approved", upper);
+    assert.equal(getCourseApproval("GEOL 8", catalog, ["GEOL 8"], reviews).status, "eligible");
+  }
+});
+
+test("mixed physics series require review while a single series can match automatically", () => {
+  const codes = ["PHYS 2AG", "PHYS 2BG", "PHYS 4A", "PHYS 4B", "PHYS 4C"];
+  const catalog = codes.map(code => unitCourse(code, 4));
+  const reviews = patternReviews(codes);
+  assert.equal(getCourseApproval("PHYS 2AG", catalog, ["PHYS 2AG", "PHYS 4A"], reviews).status, "review");
+  assert.equal(getSevenCourseProgress(catalog, ["PHYS 2AG", "PHYS 4A"], {}, reviews, {}).breadth, 0);
+  assert.equal(getCourseApproval("PHYS 4A", catalog, ["PHYS 4A", "PHYS 4B", "PHYS 4C"], reviews).status, "eligible");
+  assert.equal(getSevenCourseProgress(catalog, ["PHYS 4A", "PHYS 4B", "PHYS 4C"], {}, reviews, {}).breadth, 3);
+});
+
+test("algebra and precalculus share one pattern slot and duplicate families stay automatic", () => {
+  const codes = ["MATH 130", "MATH 160", "ENGL C1000", "ENGL C1000H"];
+  const courses = codes.map(code => unitCourse(code, 3));
+  const progress = getSevenCourseProgress(courses, codes, {}, patternReviews(codes), {});
+  assert.equal(progress.math, 1);
+  assert.equal(progress.english, 1);
+  assert.ok(progress.approvals.every(approval => approval.status === "eligible"));
+});
+
+test("missing source dates and new unsupported conditions never silently auto-approve", () => {
+  const mapping = getCourseEligibility("MATH 100");
+  const originalNotes = mapping.notes;
+  const originalApprovals = mapping.approvals;
+  const catalog = [unitCourse("MATH 100", 3)];
+  const reviews = patternReviews(["MATH 100"]);
+  try {
+    mapping.notes = [...originalNotes, "Additional institution-specific approval condition"];
+    assert.equal(getCourseApproval("MATH 100", catalog, ["MATH 100"], reviews).status, "review");
+    mapping.notes = originalNotes;
+    mapping.approvals = originalApprovals.map(approval => ({ ...approval, endTerm: null }));
+    assert.equal(getCourseApproval("MATH 100", catalog, ["MATH 100"], reviews).status, "review");
+    assert.equal(getSevenCourseProgress(catalog, ["MATH 100"], {}, reviews, {}).math, 0);
+  } finally {
+    mapping.notes = originalNotes;
+    mapping.approvals = originalApprovals;
+  }
 });

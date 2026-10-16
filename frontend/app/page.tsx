@@ -19,6 +19,7 @@ import type { MajorAgreement } from "@/lib/planner";
 import { UC_CAMPUSES, getCreditCourses, getMajorCourses, getPatternSuggestions } from "@/lib/transfer-plan";
 import type { CampusChoice, StudentProfile } from "@/lib/transfer-plan";
 import { getTransferUnitProgress } from "@/lib/transfer-units";
+import { getAPOverlap } from "@/lib/ap-overlap";
 
 type PlannerTab = "colleges" | "ap" | "courses" | "plan";
 const tabs = [
@@ -52,6 +53,7 @@ export default function Home() {
   const selectedCampuses = UC_CAMPUSES.filter(campus => choices[campus.id]);
   const inputKey = JSON.stringify([profile, choices, completedCourses, earnedUnits, apResults, patternReviews]);
   const stale = generated !== null && generated.key !== inputKey;
+  const apOverlap = courses && !catalogError ? getAPOverlap(apResults, courses, completedCourses, earnedUnits, patternReviews) : null;
 
   function goToTab(tab: PlannerTab, focusPanel = true) {
     setActiveTab(tab);
@@ -127,7 +129,7 @@ export default function Home() {
       setGenerated({ key: inputKey, profile, agreements, catalog: courses, completed: completedCourses,
         creditCourses, majorCourses: getMajorCourses(completedCourses, patternReviews), earnedUnits, apResults, reviews: patternReviews,
         suggestions: getPatternSuggestions(courses, completedCourses, earnedUnits, patternReviews, apResults, priorityCodes),
-        remainingUnits: getTransferUnitProgress(courses, creditCourses, earnedUnits, apResults).remainingUnits });
+        remainingUnits: getTransferUnitProgress(courses, creditCourses, earnedUnits, apResults, patternReviews).remainingUnits });
     } catch {
       setGenerationError("The plan could not be generated. Please try again.");
     } finally {
@@ -161,7 +163,7 @@ export default function Home() {
           </section>
           <section hidden={activeTab !== "ap"} role="tabpanel" id="planner-panel-ap" aria-labelledby="planner-tab-ap" tabIndex={0} className="wizard-card ap-card">
             <div className="wizard-card-heading"><h2>AP credit you&apos;ve earned</h2><p>Add completed AP exams and scores. If you haven&apos;t taken any, continue to college courses.</p></div>
-            <APExamSelector results={apResults} onChange={setAPResults} showHeading={false} />
+            <APExamSelector results={apResults} onChange={setAPResults} showHeading={false} overlap={apOverlap} catalogError={catalogError} />
             <div className="wizard-actions"><button type="button" className="button button-back" onClick={() => goToTab("colleges")}>← Colleges & timing</button><button type="button" className="button button-primary" onClick={() => goToTab("courses")}>Continue to college courses <Icon name="arrow" size={17} /></button></div>
           </section>
           <section hidden={activeTab !== "courses"} role="tabpanel" id="planner-panel-courses" aria-labelledby="planner-tab-courses" tabIndex={0} className="wizard-card coursework-card">
@@ -182,8 +184,8 @@ export default function Home() {
               <div className="transfer-progress-content">
                 {generated.completed.length !== generated.creditCourses.length && <p className="checklist-note">{generated.completed.length - generated.creditCourses.length} entered courses with F, NP or W grades are excluded from the unit estimate. Grades below C do not count as completed major preparation in this checklist.</p>}
                 {generated.creditCourses.some(code => !generated.reviews[code]?.grade) && <p className="checklist-note">Some entered courses have no grade. Unit and major course matches are provisional until you enter grades in College courses.</p>}
-                <TransferUnitSummary courses={generated.catalog} isLoading={false} error={null} completedCourses={generated.creditCourses} earnedUnits={generated.earnedUnits} apResults={generated.apResults} onEarnedUnitsChange={() => {}} showInputs={false} />
-                <SevenCoursePattern courses={generated.catalog} isLoading={false} error={null} completedCourses={generated.completed} earnedUnits={generated.earnedUnits} apResults={generated.apResults} reviews={generated.reviews} onReviewsChange={() => {}} showReview={false} />
+                <TransferUnitSummary courses={generated.catalog} isLoading={false} error={null} completedCourses={generated.creditCourses} earnedUnits={generated.earnedUnits} apResults={generated.apResults} reviews={generated.reviews} onEarnedUnitsChange={() => {}} showInputs={false} />
+                <SevenCoursePattern courses={generated.catalog} isLoading={false} error={null} completedCourses={generated.completed} earnedUnits={generated.earnedUnits} apResults={generated.apResults} reviews={generated.reviews} />
               </div>
               <GeneratedChecklist agreements={generated.agreements} completed={generated.majorCourses} suggestions={generated.suggestions} remainingUnits={generated.remainingUnits} />
             </>}
@@ -194,7 +196,7 @@ export default function Home() {
         </div>
       </section>
       <p className="session-note">Entries and your generated plan are kept while this page is open. Refreshing clears them.</p>
-      <details id="planning-guide" className="planning-guide"><summary><strong>How to use this planner</strong><Icon name="chevron" size={17} /></summary><div className="guide-content"><p><strong>1. Colleges & timing.</strong> Select target campuses and a major per campus. Enter your current year in college and intended UC entry term. Select an applicable source agreement year where available.</p><p><strong>2. AP credit.</strong> Enter exams and earned scores. Exclude credit that duplicates college coursework.</p><p><strong>3. College courses.</strong> Add completed Mt. SAC courses, transcript grades and variable units. Review approval dates and credit conditions before confirming seven-course-pattern credit.</p><p><strong>4. Your plan.</strong> Generate a remaining-course checklist with course names, UC units and pattern progress. Alternatives and choose-N groups remain choices. Admission requirements, additional degree preparation and recommendations are shown separately. Regenerate after editing entries.</p><p>Use official <a className="inline-link" href="https://assist.org" target="_blank" rel="noreferrer">ASSIST agreements</a> and your college adviser to confirm applicable years, prerequisites, credit limits and deadlines. The planner does not determine admission eligibility.</p></div></details>
+      <details id="planning-guide" className="planning-guide"><summary><strong>How to use this planner</strong><Icon name="chevron" size={17} /></summary><div className="guide-content"><p><strong>1. Colleges & timing.</strong> Select target campuses and a major per campus. Enter your current year in college and intended UC entry term. Select an applicable source agreement year where available.</p><p><strong>2. AP credit.</strong> Enter exams and earned scores. Documented full duplicates with completed college courses are excluded automatically; partial and unmapped overlaps are flagged for review.</p><p><strong>3. College courses.</strong> Add completed Mt. SAC courses, transcript grades, completion terms and variable units. ASSIST approval dates and supported credit conditions are checked automatically. Missing dates or unresolved source conditions stay flagged.</p><p><strong>4. Your plan.</strong> Generate a remaining-course checklist with course names, UC units and pattern progress. Alternatives and choose-N groups remain choices. Admission requirements, additional degree preparation and recommendations are shown separately. Regenerate after editing entries.</p><p>Use official <a className="inline-link" href="https://assist.org" target="_blank" rel="noreferrer">ASSIST agreements</a> and your college adviser to confirm applicable years, prerequisites, credit limits and deadlines. The planner does not determine admission eligibility.</p></div></details>
       <footer className="site-footer"><span>Mt. SAC course catalog · ASSIST articulation agreements</span><span>Transfer Planner</span></footer>
     </main>
   </div>;

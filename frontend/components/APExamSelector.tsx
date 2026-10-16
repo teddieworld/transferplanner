@@ -1,9 +1,11 @@
 import { AP_CREDIT_SOURCE, AP_EXAMS, getAPExamUnits } from "@/lib/ap-credit";
 import type { APResults } from "@/lib/ap-credit";
+import { AP_OVERLAP_SOURCE } from "@/lib/ap-overlap";
+import type { APOverlapReport } from "@/lib/ap-overlap";
 
-type APExamSelectorProps = { results: APResults; onChange: (results: APResults) => void; showHeading?: boolean };
+type APExamSelectorProps = { results: APResults; onChange: (results: APResults) => void; showHeading?: boolean; overlap: APOverlapReport | null; catalogError?: string | null };
 
-export default function APExamSelector({ results, onChange, showHeading = true }: APExamSelectorProps) {
+export default function APExamSelector({ results, onChange, showHeading = true, overlap, catalogError }: APExamSelectorProps) {
   const selected = AP_EXAMS.filter(exam => results[exam.id]);
   return (
     <section className="ap-panel" aria-labelledby={showHeading ? "ap-heading" : undefined} aria-label={showHeading ? undefined : "AP exams"}>
@@ -15,6 +17,7 @@ export default function APExamSelector({ results, onChange, showHeading = true }
       {selected.map(exam => {
         const result = results[exam.id];
         const units = getAPExamUnits(exam, result);
+        const check = overlap?.checks.find(item => item.examId === exam.id);
         return <div className="ap-exam" key={exam.id}>
           <div className="ap-exam-heading"><strong>AP {exam.name}</strong><button type="button" className="text-button" aria-label={`Remove AP ${exam.name}`} onClick={() => {
             const next = { ...results };
@@ -24,13 +27,14 @@ export default function APExamSelector({ results, onChange, showHeading = true }
           <div className="ap-score-fields">
             <div className="form-field"><label htmlFor={`ap-score-${exam.id}`}>Exam score</label><select id={`ap-score-${exam.id}`} value={result.score} onChange={event => onChange({ ...results, [exam.id]: { ...result, score: event.target.value } })}><option value="">Select score...</option>{[1, 2, 3, 4, 5].map(score => <option key={score} value={score}>{score}</option>)}</select></div>
             {exam.id === "calculus-bc" && <div className="form-field"><label htmlFor="ap-ab-subscore">AB subscore (optional)</label><select id="ap-ab-subscore" value={result.abSubscore ?? ""} onChange={event => onChange({ ...results, [exam.id]: { ...result, abSubscore: event.target.value } })}><option value="">Not entered</option>{[1, 2, 3, 4, 5].map(score => <option key={score} value={score}>{score}</option>)}</select></div>}
-            <p className="ap-exam-units" aria-live="polite">{result.excludeFromUnits ? "Excluded from unit total" : !result.score ? "Enter a score to calculate credit" : `${units} semester units before shared exam caps`}</p>
+            <p className="ap-exam-units" aria-live="polite">{check?.status === "excluded" ? "Automatically excluded from units and pattern" : !result.score ? "Enter a score to calculate credit" : `${units} semester units before shared exam caps${check?.status === "review" ? " · provisional" : ""}`}</p>
           </div>
           {exam.note && <p className="ap-exam-note">{exam.note}</p>}
-          <label className="ap-overlap-option"><input type="checkbox" checked={result.excludeFromUnits ?? false} onChange={event => onChange({ ...results, [exam.id]: { ...result, excludeFromUnits: event.target.checked } })} />Exclude this exam&apos;s credit from units and the seven-course pattern (for example, credit already counted through a college course)</label>
+          {check && <p className={`ap-overlap-message ap-overlap-${check.status}`} role="status">{check.message}</p>}
         </div>;
       })}
-      <p className="ap-panel-note">AP and college coursework with the same content earn credit only once. Review any overlap and exclude duplicate AP credit above. Shared AP exam caps are applied automatically. Qualifying exams with UC subject designations contribute to the seven-course pattern estimate; major requirements use their existing course rules.</p>
+      {!overlap && <p className="ap-panel-note" role={catalogError ? "alert" : "status"}>{catalogError ? "The catalog could not load, so AP/course overlap has not been checked. Refresh to retry." : "Loading the course catalog before checking AP/course overlap…"}</p>}
+      <p className="ap-panel-note">Duplicate checks run automatically when you enter or change college courses, grades and earned units. The estimate keeps college credit and excludes an AP award when all documented equivalents have qualifying grades and valid units. Partial matches and unmapped exams retain provisional AP credit and are flagged for review. This uses <a className="inline-link" href={AP_OVERLAP_SOURCE} target="_blank" rel="noreferrer">Mt. SAC&apos;s course-equivalence table ↗</a> as an overlap estimate; UC&apos;s final award can differ. Shared AP caps remain automatic. AP scores do not automatically satisfy major requirements.</p>
       {selected.length > 0 && <button type="button" className="text-button" onClick={() => onChange({})}>Clear AP exams</button>}
     </section>
   );
