@@ -131,10 +131,24 @@ Only selected courses marked UC transferable contribute. Fixed-unit courses use
 their catalog units; variable-unit courses require an earned-unit entry within
 the catalog range and are excluded until a valid value is supplied. Removing a
 course removes its units; Clear all also resets the earned-unit entries.
+AP exams and scores can be added below the course catalog. `lib/ap-credit.ts`
+records the UC systemwide semester-unit table (checked October 15, 2026), linked
+in the UI. Scores 3–5 earn the listed units; scores 1–2 earn none except a
+qualifying Calculus BC AB subscore. Shared Art and Design, English, Calculus,
+and Physics exam caps are applied. AB exam and BC AB-subscore credit are not
+counted twice. Precalculus earns no UC unit credit; Research and Seminar have
+no unit credit listed in the source table.
+
+The total separates coursework and AP units. Users can exclude an AP exam's
+units when its content duplicates college credit. AP/course duplication is
+not inferred from course titles. AP scores do not automatically satisfy major
+requirements or the seven-course transfer pattern. Clear AP exams resets only
+AP entries; the course list's Clear all resets only courses and earned units.
+
 These entries last only while the page is open. Grades, repeats, equivalent or
-honors course credit limits, and other UC restrictions are not evaluated; exam
-credit and other colleges' coursework are not included. This is a planning
-estimate, not a determination of admission eligibility.
+honors course credit limits, and other UC restrictions are not evaluated;
+IB/A-level credit and other colleges' coursework are not included. This is a
+planning estimate, not a determination of admission eligibility.
 
 Run `npm test` for planner and SQL-row conversion checks, `npm run lint`, and
 `npx tsc --noEmit` for static checks. All endpoints use parameterized SQL and

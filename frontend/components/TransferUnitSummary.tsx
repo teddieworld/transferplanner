@@ -1,4 +1,5 @@
 import type { CourseCatalogEntry } from "@/lib/catalog-types";
+import type { APResults } from "@/lib/ap-credit";
 import { getEarnedUnits, getTransferUnitProgress, UC_TRANSFER_UNIT_TARGET } from "@/lib/transfer-units";
 
 type TransferUnitSummaryProps = {
@@ -7,16 +8,17 @@ type TransferUnitSummaryProps = {
   error: string | null;
   completedCourses: string[];
   earnedUnits: Record<string, string>;
+  apResults: APResults;
   onEarnedUnitsChange: (code: string, value: string) => void;
 };
 
 export default function TransferUnitSummary({
-  courses, isLoading, error, completedCourses, earnedUnits, onEarnedUnitsChange
+  courses, isLoading, error, completedCourses, earnedUnits, apResults, onEarnedUnitsChange
 }: TransferUnitSummaryProps) {
   if (isLoading) return <section className="unit-summary" aria-label="UC-transferable units"><p role="status">Loading unit totals...</p></section>;
   if (error || !courses) return <section className="unit-summary" aria-label="UC-transferable units"><p role="alert">Unit totals are unavailable until the course catalog loads.</p></section>;
 
-  const progress = getTransferUnitProgress(courses, completedCourses, earnedUnits);
+  const progress = getTransferUnitProgress(courses, completedCourses, earnedUnits, apResults);
   return (
     <section className="unit-summary" aria-labelledby="unit-summary-heading">
       <div className="unit-summary-heading">
@@ -31,6 +33,10 @@ export default function TransferUnitSummary({
       <div className="unit-progress-track" role="progressbar" aria-label="Estimated UC-transferable semester units" aria-valuemin={0} aria-valuemax={UC_TRANSFER_UNIT_TARGET} aria-valuenow={Math.min(progress.totalUnits, UC_TRANSFER_UNIT_TARGET)} aria-valuetext={`${progress.totalUnits} of ${UC_TRANSFER_UNIT_TARGET} semester units, estimated`}>
         <span style={{ width: `${Math.min(progress.totalUnits / UC_TRANSFER_UNIT_TARGET, 1) * 100}%` }} />
       </div>
+      <p className="unit-breakdown">Mt. SAC coursework: {progress.courseUnits} units <span aria-hidden="true">·</span> AP exams: {progress.apCredit.units} units</p>
+      {progress.apCredit.pendingCount > 0 && <p className="unit-exclusion">{progress.apCredit.pendingCount} AP {progress.apCredit.pendingCount === 1 ? "exam needs a score" : "exams need scores"} before being counted.</p>}
+      {progress.apCredit.excludedCount > 0 && <p className="unit-exclusion">{progress.apCredit.excludedCount} AP {progress.apCredit.excludedCount === 1 ? "exam is" : "exams are"} manually excluded from the unit total.</p>}
+      {progress.apCredit.capNotes.length > 0 && <ul className="ap-cap-notes">{progress.apCredit.capNotes.map(note => <li key={note}>{note}</li>)}</ul>}
       {progress.variableCourses.length > 0 && <div className="earned-unit-fields">
         <p>For variable-unit courses, enter the units earned on your transcript. Unfilled or out-of-range entries are not counted.</p>
         {progress.variableCourses.map(course => {
@@ -46,7 +52,7 @@ export default function TransferUnitSummary({
       </div>}
       {progress.nonUCCount > 0 && <p className="unit-exclusion">{progress.nonUCCount} selected {progress.nonUCCount === 1 ? "course is" : "courses are"} not marked UC transferable and excluded from this total.</p>}
       {progress.unknownCount > 0 && <p className="unit-exclusion">{progress.unknownCount} selected {progress.unknownCount === 1 ? "course could" : "courses could"} not be found in the catalog and {progress.unknownCount === 1 ? "is" : "are"} excluded.</p>}
-      <p className="unit-summary-note">Based on selected Mt. SAC courses. Grades, repeats, equivalent/honors course limits, and other UC credit restrictions are not evaluated. Exam credit and coursework from other colleges are not included. Reaching 60 units alone does not establish transfer eligibility.</p>
+      <p className="unit-summary-note">Based on selected Mt. SAC courses and entered AP scores. AP/course overlap must be reviewed manually. Grades, repeats, equivalent/honors course limits, and other UC credit restrictions are not evaluated. IB/A-level credit and coursework from other colleges are not included. Reaching 60 units alone does not establish transfer eligibility.</p>
     </section>
   );
 }

@@ -6,6 +6,71 @@ import { getRequirementStatus, getPreparationStatus, isCategorySatisfied, isGrou
 import type { Requirement } from "../lib/planner";
 import type { CourseCatalogEntry } from "../lib/catalog-types";
 import { getTransferUnitProgress } from "../lib/transfer-units";
+import { AP_EXAMS, getAPCredit, getAPExamUnits } from "../lib/ap-credit";
+
+test("AP unit credit depends on valid scores, not just exam selection", () => {
+  for (const score of ["", "0", "1", "2", "3.5", "6", "NaN"]) {
+    assert.equal(getAPCredit({ statistics: { score } }).units, 0);
+  }
+  assert.equal(getAPCredit({ statistics: { score: "" } }).pendingCount, 1);
+  for (const score of ["3", "4", "5"]) {
+    assert.equal(getAPCredit({ statistics: { score }, biology: { score } }).units, 7.9);
+  }
+  assert.equal(new Set(AP_EXAMS.map(exam => exam.id)).size, AP_EXAMS.length);
+  assert.equal(getAPCredit({ precalculus: { score: "5" }, research: { score: "5" }, seminar: { score: "5" } }).units, 0);
+});
+
+test("UC shared AP caps prevent English, Art, Calculus and Physics overcounting", () => {
+  const cases = [
+    ["english-language", "english-literature"],
+    ["art-2d", "art-3d", "art-drawing"],
+    ["calculus-ab", "calculus-bc"],
+    ["physics-1", "physics-2", "physics-c-mechanics", "physics-c-electricity"]
+  ];
+  for (const ids of cases) {
+    const result = getAPCredit(Object.fromEntries(ids.map(id => [id, { score: "5" }])));
+    assert.equal(result.units, 5.3, ids.join(", "));
+    assert.equal(result.capNotes.length, 1);
+  }
+  assert.equal(getAPCredit({ "physics-c-mechanics": { score: "3" }, "physics-c-electricity": { score: "4" } }).units, 5.2);
+});
+
+test("Calculus BC AB subscore earns fallback credit without duplicating an AB exam", () => {
+  const result = { score: "2", abSubscore: "3" };
+  assert.equal(getAPCredit({ "calculus-bc": result }).units, 2.6);
+  assert.equal(getAPCredit({ "calculus-bc": result, "calculus-ab": { score: "4" } }).units, 2.6);
+  assert.equal(getAPCredit({ "calculus-bc": { ...result, score: "3" }, "calculus-ab": { score: "4" } }).units, 5.3);
+  assert.equal(getAPCredit({ "calculus-bc": { score: "1", abSubscore: "2" } }).units, 0);
+  assert.equal(getAPCredit({ "calculus-bc": { score: "", abSubscore: "5" } }).pendingCount, 1);
+  const music = AP_EXAMS.find(exam => exam.id === "music-theory")!;
+  assert.equal(getAPExamUnits(music, { score: "2", abSubscore: "5" }), 0);
+});
+
+test("AP overlaps can be excluded, and removing results releases shared caps", () => {
+  const result = getAPCredit({ "english-language": { score: "4", excludeFromUnits: true }, "english-literature": { score: "3" } });
+  assert.equal(result.units, 5.3);
+  assert.equal(result.excludedCount, 1);
+  assert.equal(result.capNotes.length, 0);
+  assert.equal(getAPCredit({ biology: { score: "5", excludeFromUnits: true } }).units, 0);
+  assert.equal(getAPCredit({}).units, 0);
+});
+
+test("AP and coursework combine toward 60 units without decimal display artifacts", () => {
+  const catalog = [unitCourse("BASE", 54.7)];
+  const result = getTransferUnitProgress(catalog, ["BASE"], {}, { biology: { score: "3" } });
+  assert.equal(result.totalUnits, 60);
+  assert.equal(result.courseUnits, 54.7);
+  assert.equal(result.apCredit.units, 5.3);
+  assert.equal(result.targetReached, true);
+  assert.equal(result.remainingUnits, 0);
+  const excluded = getTransferUnitProgress(catalog, ["BASE"], {}, { biology: { score: "3", excludeFromUnits: true } });
+  assert.equal(excluded.totalUnits, 54.7);
+  assert.equal(excluded.targetReached, false);
+  assert.equal(excluded.remainingUnits, 5.3);
+  const apOnly = getTransferUnitProgress([], [], {}, { biology: { score: "5" }, statistics: { score: "4" } });
+  assert.equal(apOnly.totalUnits, 7.9);
+  assert.equal(apOnly.remainingUnits, 52.1);
+});
 
 function unitCourse(code: string, minUnits: number, maxUnits = minUnits, ucTransferable = true): CourseCatalogEntry {
   return { id: 1, code, title: code, minUnits, maxUnits, ucTransferable,

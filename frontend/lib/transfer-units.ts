@@ -1,4 +1,6 @@
 import type { CourseCatalogEntry } from "./catalog-types";
+import { getAPCredit } from "./ap-credit";
+import type { APResults } from "./ap-credit";
 
 export const UC_TRANSFER_UNIT_TARGET = 60;
 
@@ -14,7 +16,8 @@ export function getEarnedUnits(course: CourseCatalogEntry, enteredUnits?: string
 export function getTransferUnitProgress(
   courses: CourseCatalogEntry[],
   completedCourses: string[],
-  earnedUnits: Record<string, string> = {}
+  earnedUnits: Record<string, string> = {},
+  apResults: APResults = {}
 ) {
   const catalog = new Map(courses.map(course => [course.code, course]));
   const variableCourses: CourseCatalogEntry[] = [];
@@ -40,10 +43,15 @@ export function getTransferUnitProgress(
     else totalUnits += units;
   }
 
+  const apCredit = getAPCredit(apResults);
+  // Remove floating-point noise when combining catalog and published AP decimals.
+  const combinedUnits = Number((totalUnits + apCredit.units).toFixed(6));
   return {
-    totalUnits,
-    remainingUnits: Math.max(0, UC_TRANSFER_UNIT_TARGET - totalUnits),
-    targetReached: totalUnits >= UC_TRANSFER_UNIT_TARGET,
+    totalUnits: combinedUnits,
+    courseUnits: totalUnits,
+    apCredit,
+    remainingUnits: Number(Math.max(0, UC_TRANSFER_UNIT_TARGET - combinedUnits).toFixed(6)),
+    targetReached: combinedUnits >= UC_TRANSFER_UNIT_TARGET,
     variableCourses,
     pendingCount,
     nonUCCount,

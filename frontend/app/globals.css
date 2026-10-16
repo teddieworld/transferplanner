@@ -126,6 +126,28 @@ summary::-webkit-details-marker { display: none; }
 .earned-unit-row input { width: 100px; max-width: 100%; border: 1px solid #ccd5c5; border-radius: 4px; padding: 7px 9px; background: white; }
 .earned-unit-row input[aria-invalid="true"] { border-color: #a34136; }
 .unit-input-error { font-size: 12px; color: #a34136; }
+.unit-breakdown { margin-top: 10px; font-size: 12px; color: var(--muted); }
+.unit-breakdown > span { margin: 0 6px; }
+.ap-cap-notes { margin: 10px 0 0; padding-left: 18px; font-size: 12px; color: var(--muted); }
+
+/* AP exam inputs share the course step but use UC exam credit rules. */
+.ap-panel { border-top: 1px solid var(--line); padding: 24px 32px; }
+.ap-panel-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 20px; margin-bottom: 18px; }
+.ap-panel-heading h3 { font-size: 17px; font-weight: 550; }
+.ap-panel-heading p, .ap-panel-heading a, .ap-panel-note, .ap-exam-note { font-size: 12px; color: var(--muted); }
+.ap-panel-heading a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.ap-add-field { max-width: 480px; }
+.ap-exam { border-top: 1px solid var(--line); padding: 16px 0; margin-top: 16px; }
+.ap-exam-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.ap-exam-heading strong { font-weight: 550; overflow-wrap: anywhere; }
+.ap-score-fields { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: end; margin: 12px 0; }
+.ap-score-fields .form-field { flex: 0 1 190px; width: 100%; }
+.ap-exam-units { font-size: 12px; color: var(--accent); padding-bottom: 12px; }
+.ap-overlap-option { display: flex; align-items: flex-start; gap: 8px; font-size: 12px; color: var(--muted); margin-top: 12px; }
+.ap-overlap-option input { accent-color: var(--accent); margin-top: 4px; flex-shrink: 0; }
+.ap-panel-note { margin: 14px 0 8px; }
+@media (max-width: 700px) { .ap-panel { padding: 22px; } }
+@media (max-width: 380px) { .ap-panel { padding: 18px; } }
 
 /* Searchable course catalog. */
 .course-toolbar { padding: 0 32px 20px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px; align-items: center; }

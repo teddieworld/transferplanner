@@ -6,12 +6,14 @@ import UniversitySelector from "@/components/UniversitySelector";
 import MajorSelector from "@/components/MajorSelector";
 import AcademicYearSelector from "@/components/AcademicYearSelector";
 import CourseSelector from "@/components/CourseSelector";
+import APExamSelector from "@/components/APExamSelector";
 import TransferUnitSummary from "@/components/TransferUnitSummary";
 import MajorPlan from "@/components/MajorPlan";
 import Icon from "@/components/Icon";
 import { useRemoteData } from "@/lib/use-remote-data";
 import { STARTING_COLLEGE } from "@/lib/catalog-types";
 import type { CourseCatalogEntry } from "@/lib/catalog-types";
+import type { APResults } from "@/lib/ap-credit";
 import { isGroupSatisfied } from "@/lib/planner";
 import type { MajorAgreement } from "@/lib/planner";
 
@@ -29,6 +31,7 @@ export default function Home() {
   const [selectedAcademicYear, setSelectedAcademicYear] = useState("");
   const [completedCourses, setCompletedCourses] = useState<string[]>([]);
   const [earnedUnits, setEarnedUnits] = useState<Record<string, string>>({});
+  const [apResults, setAPResults] = useState<APResults>({});
   const workspace = useRef<HTMLElement>(null);
   const { data: courses, isLoading: isCatalogLoading, error: catalogError } = useRemoteData<CourseCatalogEntry[]>("/api/courses");
 
@@ -97,7 +100,7 @@ export default function Home() {
         <nav className="step-navigation" aria-label="Planner steps">
           {steps.map(step => {
             const active = activeStep === step.number;
-            const done = step.number === 1 ? planReady : step.number === 2 && completedCourses.length > 0;
+            const done = step.number === 1 ? planReady : step.number === 2 && (completedCourses.length > 0 || Object.keys(apResults).length > 0);
             return <button key={step.number} type="button" className={`step-tab ${active ? "step-active" : ""} ${done ? "step-done" : ""}`} aria-current={active ? "step" : undefined} disabled={step.number === 3 && !planReady} onClick={() => goToStep(step.number)}>
               <span className="step-circle">{done && !active ? <Icon name="check" size={16} /> : step.number}</span><span className="step-tab-text"><strong className="step-full-title">{step.title}</strong><strong className="step-short-title">{step.short}</strong></span>
             </button>;
@@ -119,6 +122,7 @@ export default function Home() {
               <section hidden={activeStep !== 2} aria-labelledby="courses-heading" className="wizard-card coursework-card">
                 <div className="wizard-card-heading"><h2 id="courses-heading">Completed courses</h2><p>Search the Mt. SAC catalog and select the courses you&apos;ve completed.</p></div>
                 <CourseSelector courses={courses ?? []} isLoading={isCatalogLoading} error={catalogError} completedCourses={completedCourses} onCourseChange={handleCourseChange} onClearCourses={handleClearCourses} showHeading={false} />
+                <APExamSelector results={apResults} onChange={setAPResults} />
                 <div className="wizard-actions"><button type="button" className="button button-back" onClick={() => goToStep(1)}><span aria-hidden="true">←</span> University & major</button><button type="button" className="button button-primary" disabled={!planReady} onClick={() => goToStep(3)}>Review requirements <Icon name="arrow" size={17} /></button></div>
                 {!planReady && <p className="form-feedback">Choose a university, major, and year in step 1 to review requirements.</p>}
               </section>
@@ -134,14 +138,14 @@ export default function Home() {
 
             {activeStep !== 1 && <div className="plan-context" aria-label="Plan summary">
               {planReady && <div className="context-route"><div><span className="context-colleges">Mt. SAC <span aria-hidden="true">→</span> {campusName}</span><strong>{selectedMajor}</strong></div><span className="context-year">{selectedAcademicYear}</span><span className="context-course-count">{completedCourses.length} {completedCourses.length === 1 ? "course" : "courses"} selected</span></div>}
-              <TransferUnitSummary courses={courses} isLoading={isCatalogLoading} error={catalogError} completedCourses={completedCourses} earnedUnits={earnedUnits} onEarnedUnitsChange={(code, value) => setEarnedUnits(previous => ({ ...previous, [code]: value }))} />
+              <TransferUnitSummary courses={courses} isLoading={isCatalogLoading} error={catalogError} completedCourses={completedCourses} earnedUnits={earnedUnits} apResults={apResults} onEarnedUnitsChange={(code, value) => setEarnedUnits(previous => ({ ...previous, [code]: value }))} />
               {activeStep === 3 && selectedAgreement && <div className="progress-card"><h3>{progressTitle}</h3>{checkableGroups.length > 0 && <div className="progress-track" role="progressbar" aria-label="Checkable preparation groups completed" aria-valuenow={completedGroups} aria-valuemin={0} aria-valuemax={checkableGroups.length}><span style={{ width: `${completedGroups / checkableGroups.length * 100}%` }} /></div>}<p>{selectedAgreement.kind === "informational" ? "This agreement contains program guidance." : "Based on groups with calculable completion rules."}</p></div>}
             </div>}
           </div>
         </section>
 
         <p className="session-note">Selections are kept while this page is open.</p>
-        <details id="planning-guide" className="planning-guide"><summary><strong>How to use this planner</strong><Icon name="chevron" size={17} /></summary><div className="guide-content"><p><strong>Choose a university and major.</strong> Your university, major, and agreement year determine the course requirements shown.</p><p><strong>Select completed courses.</strong> Search the Mt. SAC catalog. You can move back and forth between steps to change your selections.</p><p><strong>Review requirements.</strong> Course matches update from your selections. Groups marked for adviser review won&apos;t automatically count as complete.</p><p>Use the planner alongside the official ASSIST agreement and your college adviser. Grades, deadlines, and other admission conditions still apply.</p></div></details>
+        <details id="planning-guide" className="planning-guide"><summary><strong>How to use this planner</strong><Icon name="chevron" size={17} /></summary><div className="guide-content"><p><strong>Choose a university and major.</strong> Your university, major, and agreement year determine the course requirements shown.</p><p><strong>Select completed courses and AP exams.</strong> Search the Mt. SAC catalog, then add AP exams and scores below it. Review any duplicate AP and college credit. You can move back and forth between steps to change your selections.</p><p><strong>Review requirements.</strong> Course matches update from your selections. AP scores contribute to estimated units but do not automatically complete major requirements. Groups marked for adviser review won&apos;t automatically count as complete.</p><p>Use the planner alongside the official ASSIST agreement and your college adviser. Grades, deadlines, and other admission conditions still apply.</p></div></details>
         <footer className="site-footer"><span>Mt. SAC course catalog <span aria-hidden="true">·</span> ASSIST articulation agreements</span><span>Transfer Planner</span></footer>
       </main>
     </div>
