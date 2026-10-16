@@ -3,11 +3,11 @@ export { UC_ELIGIBILITY, getCourseEligibility } from "./course-approval";
 import { AP_EXAMS, getAPExamUnits } from "./ap-credit";
 import type { APResults } from "./ap-credit";
 import type { CourseCatalogEntry } from "./catalog-types";
-import { getEarnedUnits } from "./course-credit";
+import { getEarnedUnits, getEnrolledCourses } from "./course-credit";
 import { getAPOverlap } from "./ap-overlap";
 
 export type UCArea = "UC-E" | "UC-M" | "UC-H" | "UC-B" | "UC-S";
-export type CoursePatternReview = { grade: string; term?: string; year?: string };
+export type CoursePatternReview = { status?: "completed" | "enrolled"; grade: string; term?: string; year?: string };
 export type CoursePatternReviews = Record<string, CoursePatternReview>;
 export const UC_AREA_LABELS: Record<UCArea, string> = {
   "UC-E": "English composition", "UC-M": "Math and quantitative reasoning",
@@ -27,8 +27,10 @@ export function getSevenCourseProgress(
   const reviewCourses: CourseCatalogEntry[] = [];
   const unlisted: string[] = [];
   const approvals = [...new Set(completed)].map(code => getCourseApproval(code, courses, completed, reviews));
+  const enrolledCourses = getEnrolledCourses(completed, reviews);
   let pendingCount = 0;
   for (const code of new Set(completed)) {
+    if (reviews[code]?.status === "enrolled") continue;
     const course = catalog.get(code);
     const mapping = getCourseEligibility(code);
     if (!course || !mapping) { unlisted.push(code); continue; }
@@ -87,5 +89,5 @@ export function getSevenCourseProgress(
   const areaCount = breadthAreas(matches);
   return { matches, english, math, breadth, areaCount, matchedCount: matches.length,
     complete: english === 2 && math === 1 && breadth === 4 && areaCount >= 2,
-    reviewCourses, unlisted, pendingCount, overlap, approvals };
+    reviewCourses, unlisted, pendingCount, overlap, approvals, enrolledCourses };
 }

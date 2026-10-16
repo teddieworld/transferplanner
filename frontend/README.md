@@ -132,7 +132,17 @@ source agreement years are selected independently for each campus with imported
 agreements. Campuses without imported agreements accept a free-text major goal
 and explicitly report that major preparation is not evaluated.
 
-College courses holds transcript grades, completion terms/years and variable
+College courses supports Completed and Currently enrolled statuses. Enrolled
+courses hide grade and earned-unit inputs, use enrollment term/year labels, and
+are listed separately in the generated plan. Their course options carry an
+In progress label in the remaining checklist and full agreement. They do not
+earn units, complete major/pattern requirements, suppress AP units, or trigger
+completed-course ordering restrictions. They are not recommended again as retakes.
+Switching status clears the prior grade and entered earned units; completion
+uses the normal final-grade/credit rules. Status and term persist between tabs
+and are captured in the generated snapshot; regenerate after changes.
+
+Completed courses hold transcript grades, completion terms/years and variable
 units. `lib/course-approval.ts` automatically checks recorded ASSIST approval
 ranges and supported credit conditions; the former confirmation checkbox is gone. Generation captures a snapshot of all entries, fetches
 each selected agreement, and builds a remaining-course checklist. Later edits
@@ -182,20 +192,24 @@ and honors equivalents already verified in the ASSIST snapshot. This is a
 **conservative planning inference from Mt. SAC equivalence**, not a UC campus
 credit ruling. [UC awards duplicate exam/course content only once](https://admission.universityofcalifornia.edu/admission-requirements/ap-exam-credits/ap-credits/),
 but the public policy does not supply a universal AP-to-Mt. SAC course crosswalk.
-The estimate keeps college units and removes an entire AP award only if every
-listed equivalent has a known C-or-better/P grade, valid positive earned units,
-and UC-transferable catalog status. Keeping college credit may undercount the
-award UC ultimately grants. The source's minimum equivalence scores are respected:
+The estimate keeps college units and excludes an entire AP award for a documented
+full duplicate or an unresolved overlap check. A full match requires every listed
+equivalent to have a known C-or-better/P grade, valid positive earned units, and
+UC-transferable catalog status. Uncertain credit is withheld as a planning choice,
+not classified as a confirmed duplicate. This may undercount the award UC ultimately
+grants. The source's minimum equivalence scores are respected:
 AB (including a fallback BC AB subscore) requires 4 for automatic matching;
-full BC requires 4 and both MATH 180 and 181. Lower qualifying scores still earn
-the published UC AP award but any mapped overlap is flagged for review.
+full BC requires 4 and both MATH 180 and 181. Lower qualifying scores with a mapped
+overlap are flagged for review and excluded from the estimated unit total.
 
 Multi-course mappings preserve AND, including English Literature, Art History and
 two-course language sequences. Partial coverage, missing grades/units and unmapped
-exams retain **provisional** AP credit with an explicit review message; no partial
-unit deduction is invented. A provisional total can therefore overstate credit
-until unresolved overlaps are reviewed. Failed/withdrawn and non-UC courses never
-replace an AP award. Removing a matched course restores AP credit automatically.
+exams with potentially credit-bearing coursework have their AP units **withheld**
+with an alert to confirm credit with a counselor or UC admissions. No partial unit
+deduction is invented. Failed/withdrawn and non-UC courses do not cause an AP unit
+exclusion. Removing the coursework causing review restores AP units automatically
+when no overlap/review remains; with no coursework to compare, qualifying AP
+units count normally.
 No department/title guessing is used. Physics prerequisite clearance is not course
 equivalence; portfolio-dependent art and other unmapped exams are flagged instead
 of assigning an invented equivalent. The CS Principles table has an ambiguous
@@ -291,7 +305,8 @@ One exam fills one slot, at most one English slot uses AP, and overlapping AP
 families count once. The calculator searches possible area assignments so an
 H/B course can supply either area, but cannot occupy both. Excluding duplicate AP units does not remove valid AP subject credit when its
 college counterpart is still pending or unapproved for the pattern. Partial or unmapped AP/course
-duplication retains provisional credit and is flagged for UC review. Selections, grades and completion terms last only while the page is
+overlap withholds units pending counselor/UC admissions review; subject credit is
+evaluated separately. Selections, grades and completion terms last only while the page is
 open; clearing courses also clears their pattern reviews.
 
 To refresh the source, capture the official UCTEL response, then normalize it

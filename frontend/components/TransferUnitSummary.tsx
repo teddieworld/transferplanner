@@ -1,7 +1,7 @@
 import type { CourseCatalogEntry } from "@/lib/catalog-types";
 import type { APResults } from "@/lib/ap-credit";
 import type { CoursePatternReviews } from "@/lib/seven-course-pattern";
-import { AP_OVERLAP_SOURCE } from "@/lib/ap-overlap";
+import { AP_OVERLAP_SOURCE, AP_OVERLAP_REVIEW_NOTICE } from "@/lib/ap-overlap";
 import { getEarnedUnits, getTransferUnitProgress, UC_TRANSFER_UNIT_TARGET } from "@/lib/transfer-units";
 
 type TransferUnitSummaryProps = {
@@ -39,7 +39,8 @@ export default function TransferUnitSummary({
       </div>
       <p className="unit-breakdown">Mt. SAC coursework: {progress.courseUnits} units <span aria-hidden="true">·</span> AP exams: {progress.apCredit.units} units</p>
       {progress.apCredit.pendingCount > 0 && <p className="unit-exclusion">{progress.apCredit.pendingCount} AP {progress.apCredit.pendingCount === 1 ? "exam needs a score" : "exams need scores"} before being counted.</p>}
-      {progress.apCredit.overlap.checks.some(check => check.status !== "clear") && <div className="ap-overlap-summary"><h4>Automatic AP overlap check</h4><ul>{progress.apCredit.overlap.checks.filter(check => check.status !== "clear").map(check => <li key={check.examId}><strong>AP {check.examName}:</strong> {check.message}</li>)}</ul><p>Uses <a className="inline-link" href={AP_OVERLAP_SOURCE} target="_blank" rel="noreferrer">Mt. SAC course equivalencies</a> for a conservative estimate. UC makes the final credit determination. Unresolved overlap may overstate the provisional total.</p></div>}
+      {progress.apCredit.overlap.checks.some(check => check.status === "review") && <p className="unit-exclusion" role="alert">{AP_OVERLAP_REVIEW_NOTICE}</p>}
+      {progress.apCredit.overlap.checks.some(check => check.status !== "clear") && <div className="ap-overlap-summary"><h4>Automatic AP overlap check</h4><ul>{progress.apCredit.overlap.checks.filter(check => check.status !== "clear").map(check => <li key={check.examId}><strong>AP {check.examName}:</strong> {check.message}</li>)}</ul><p>Uses <a className="inline-link" href={AP_OVERLAP_SOURCE} target="_blank" rel="noreferrer">Mt. SAC course equivalencies</a> for a conservative estimate. Withholding uncertain AP units may understate your eventual award. UC makes the final credit determination.</p></div>}
       {progress.apCredit.capNotes.length > 0 && <ul className="ap-cap-notes">{progress.apCredit.capNotes.map(note => <li key={note}>{note}</li>)}</ul>}
       {showInputs && progress.variableCourses.length > 0 && <div className="earned-unit-fields">
         <p>For variable-unit courses, enter the units earned on your transcript. Unfilled or out-of-range entries are not counted.</p>
@@ -56,7 +57,7 @@ export default function TransferUnitSummary({
       </div>}
       {progress.nonUCCount > 0 && <p className="unit-exclusion">{progress.nonUCCount} selected {progress.nonUCCount === 1 ? "course is" : "courses are"} not marked UC transferable and excluded from this total.</p>}
       {progress.unknownCount > 0 && <p className="unit-exclusion">{progress.unknownCount} selected {progress.unknownCount === 1 ? "course could" : "courses could"} not be found in the catalog and {progress.unknownCount === 1 ? "is" : "are"} excluded.</p>}
-      <p className="unit-summary-note">Based on selected Mt. SAC courses and entered AP scores. Documented full AP/course matches are excluded automatically; partial matches and unmapped exams need UC review. Review transcript grades, repeats, equivalent/honors course limits, and other UC credit restrictions before relying on this estimate. IB/A-level credit and coursework from other colleges are not included. Reaching 60 units alone does not establish transfer eligibility.</p>
+      <p className="unit-summary-note">Based on selected Mt. SAC courses and entered AP scores. AP units for documented duplicates and unresolved overlap checks are excluded automatically. Confirm uncertain AP credit with a counselor or UC admissions. Review transcript grades, repeats, equivalent/honors course limits, and other UC credit restrictions before relying on this estimate. IB/A-level credit and coursework from other colleges are not included. Reaching 60 units alone does not establish transfer eligibility.</p>
     </section>
   );
 }

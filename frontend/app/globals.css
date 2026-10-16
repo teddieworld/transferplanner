@@ -487,6 +487,14 @@ summary::-webkit-details-marker { display: none; }
 .course-approval ul { margin: 5px 0 0; padding-left: 17px; color: var(--muted); }
 .course-approval li + li { margin-top: 4px; }
 .course-approval-eligible > strong { color: var(--accent); }
+.course-approval-in_progress > strong, .course-progress-label { color: var(--accent); }
+.course-progress-label { font-size: 11px; }
+.enrolled-course-summary { padding-bottom: 22px; border-bottom: 1px solid var(--line); margin-bottom: 22px; }
+.enrolled-course-summary h3 { font-size: 15px; font-weight: 550; }
+.enrolled-course-summary > p { font-size: 12px; line-height: 1.7; color: var(--muted); margin-top: 8px; }
+.enrolled-course-summary ul { list-style: none; padding: 0; margin: 12px 0 0; }
+.enrolled-course-summary li { border-top: 1px solid var(--line); padding: 10px 0; font-size: 13px; overflow-wrap: anywhere; }
+.enrolled-course-summary li > span { display: block; color: var(--muted); font-size: 12px; margin-top: 4px; }
 .course-approval-pending, .course-approval-review { border-left-color: #c8ad6d; background: #fffbf0; }
 .course-approval-pending > strong, .course-approval-review > strong { color: #806631; }
 .course-approval-not_approved { border-left-color: #bf8177; background: #fff7f4; }

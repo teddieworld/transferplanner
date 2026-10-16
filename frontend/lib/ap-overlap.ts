@@ -8,6 +8,7 @@ import eligibility from "../data/uc-eligibility-mtsac-2025-2026.json";
 
 export const AP_OVERLAP_SOURCE = "https://catalog.mtsac.edu/registration-policies/academic-policies-requirements/";
 export const AP_OVERLAP_CHECKED_ON = "2026-10-15";
+export const AP_OVERLAP_REVIEW_NOTICE = "AP units awaiting overlap review are excluded from this estimate. Confirm the credit with a counselor or UC admissions before counting it toward the 60-unit requirement.";
 export const AP_OVERLAP_ALIAS_SOURCES = [
   "https://catalog.mtsac.edu/programs/coursesaz/engl/",
   "https://www.mtsac.edu/art-history/courses.html",
@@ -19,7 +20,8 @@ export const AP_OVERLAP_ALIAS_SOURCES = [
 
 // Mt. SAC's 2026–27 AP course-equivalence table supplies content matches, not a
 // UC campus award ruling. We keep college units and conservatively exclude the
-// entire AP award only when every listed equivalent has earned course credit.
+// entire AP award for a full match or while any overlap check needs review.
+// Withholding uncertain units is a planning choice, not a denial of UC credit.
 // Outer arrays mean AND; inner arrays are documented renamed-course alternatives.
 // No department/title matching, inferred physics equivalence, or guessed partial-unit deductions.
 const rules: Record<string, { groups: string[][]; minScore?: number }> = {
@@ -66,8 +68,10 @@ export function getAPOverlap(
 ): APOverlapReport {
   const selected = new Set(completed);
   // Failed/withdrawn and non-UC courses cannot replace an AP award. Missing or
-  // low grades and unresolved variable units produce a review, not an exclusion.
+  // low grades and unresolved variable units produce a review. Review holds AP
+  // units out of the total without declaring the college course equivalent.
   const potential = courses.filter(course => selected.has(course.code) && course.ucTransferable
+    && reviews[course.code]?.status !== "enrolled"
     && !["F", "NP", "W"].includes(reviews[course.code]?.grade));
   const earned = potential.filter(course => PREPARATION_GRADES.has(reviews[course.code]?.grade)
     && (getEarnedUnits(course, earnedUnits[course.code]) ?? 0) > 0);
@@ -85,7 +89,7 @@ export function getAPOverlap(
     const base = { examId: exam.id, examName: exam.name, patternAreas: AP_SUBJECT_AREAS[exam.id] ?? [] };
     if (!rule) {
       checks.push({ ...base, status: potential.length ? "review" : "clear", courseCodes: [], message: potential.length
-        ? "No reviewed course-equivalence rule is available for this exam. AP credit is retained provisionally; UC overlap review is needed."
+        ? `No reviewed course-equivalence rule is available for this exam, so overlap with your coursework cannot be checked. ${AP_OVERLAP_REVIEW_NOTICE}`
         : "No completed college coursework to compare yet." });
       continue;
     }
@@ -105,11 +109,11 @@ export function getAPOverlap(
       checks.push({ ...base, patternAreas, status: "excluded", courseCodes,
         message: `Automatically excluded from the unit total in this estimate: ${courseCodes.join(" + ")} covers the documented course equivalency. College-course units are kept.${patternAreas.length ? ` AP subject credit remains available for ${patternAreas.join(" / ")} in the seven-course pattern; no qualifying college counterpart replaces it there yet.` : base.patternAreas.length ? " Eligible college coursework represents its subject credit in the seven-course pattern." : ""}` });
     } else if (matches.length) {
-      checks.push({ ...base, status: "review", courseCodes, message: `Possible overlap with ${courseCodes.join(" + ")}. AP credit is retained provisionally: partial course coverage, missing earned units/qualifying grades, or score-specific equivalence needs review. The entire exam award has not been removed.` });
+      checks.push({ ...base, status: "review", courseCodes, message: `Possible overlap with ${courseCodes.join(" + ")}: partial course coverage, missing earned units/qualifying grades, or score-specific equivalence needs review. ${AP_OVERLAP_REVIEW_NOTICE}` });
     } else {
       checks.push({ ...base, status: "clear", courseCodes: [], message: "No matching completed course found in the reviewed equivalency rules." });
     }
   }
-  return { checks, excludedExamIds: checks.filter(check => check.status === "excluded").map(check => check.examId),
+  return { checks, excludedExamIds: checks.filter(check => check.status !== "clear").map(check => check.examId),
     patternExcludedExamIds: checks.filter(check => check.status === "excluded" && check.patternAreas.length === 0).map(check => check.examId) };
 }

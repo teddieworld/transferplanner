@@ -7,6 +7,7 @@ import TransferUnitSummary from "@/components/TransferUnitSummary";
 import SevenCoursePattern from "@/components/SevenCoursePattern";
 import TargetCollege from "@/components/TargetCollege";
 import CompletedCourseDetails from "@/components/CompletedCourseDetails";
+import EnrolledCourses from "@/components/EnrolledCourses";
 import GeneratedChecklist from "@/components/GeneratedChecklist";
 import type { AgreementResult } from "@/components/GeneratedChecklist";
 import Icon from "@/components/Icon";
@@ -22,6 +23,7 @@ import { getTransferUnitProgress } from "@/lib/transfer-units";
 import { getAPOverlap } from "@/lib/ap-overlap";
 import { applyAPMajorCredit } from "@/lib/ap-major-credit";
 import { getPreparationStatus } from "@/lib/planner";
+import { getEnrolledCourses } from "@/lib/course-credit";
 
 type PlannerTab = "colleges" | "ap" | "courses" | "plan";
 const tabs = [
@@ -55,6 +57,8 @@ export default function Home() {
   const selectedCampuses = UC_CAMPUSES.filter(campus => choices[campus.id]);
   const inputKey = JSON.stringify([profile, choices, completedCourses, earnedUnits, apResults, patternReviews]);
   const stale = generated !== null && generated.key !== inputKey;
+  const generatedEnrolled = generated ? getEnrolledCourses(generated.completed, generated.reviews) : [];
+  const generatedFailedCount = generated?.completed.filter(code => generated.reviews[code]?.status !== "enrolled" && ["F", "NP", "W"].includes(generated.reviews[code]?.grade)).length ?? 0;
   const apOverlap = courses && !catalogError ? getAPOverlap(apResults, courses, completedCourses, earnedUnits, patternReviews) : null;
 
   function goToTab(tab: PlannerTab, focusPanel = true) {
@@ -169,7 +173,7 @@ export default function Home() {
             <div className="wizard-actions"><button type="button" className="button button-back" onClick={() => goToTab("colleges")}>← Colleges & timing</button><button type="button" className="button button-primary" onClick={() => goToTab("courses")}>Continue to college courses <Icon name="arrow" size={17} /></button></div>
           </section>
           <section hidden={activeTab !== "courses"} role="tabpanel" id="planner-panel-courses" aria-labelledby="planner-tab-courses" tabIndex={0} className="wizard-card coursework-card">
-            <div className="wizard-card-heading"><h2>College courses you&apos;ve taken</h2><p>Select completed Mt. SAC courses, then enter grades and any credit details below. Leave future coursework for your generated checklist.</p></div>
+            <div className="wizard-card-heading"><h2>Your college courses</h2><p>Select completed Mt. SAC courses and classes you&apos;re currently enrolled in. Set each course&apos;s status below; only completed courses need grades. Leave courses you haven&apos;t enrolled in for your generated checklist.</p></div>
             <CourseSelector courses={courses ?? []} isLoading={isCatalogLoading} error={catalogError} completedCourses={completedCourses} onCourseChange={handleCourseChange} onClearCourses={() => { setCompletedCourses([]); setEarnedUnits({}); setPatternReviews({}); }} showHeading={false} />
             {!isCatalogLoading && !catalogError && <CompletedCourseDetails courses={courses ?? []} completed={completedCourses} earnedUnits={earnedUnits} reviews={patternReviews} onUnitsChange={(code, value) => setEarnedUnits(previous => ({ ...previous, [code]: value }))} onReviewsChange={setPatternReviews} />}
             <div className="wizard-actions"><button type="button" className="button button-back" onClick={() => goToTab("ap")}>← AP credit</button><button type="button" className="button button-primary" disabled={isGenerating} onClick={() => void generatePlan()}>{isGenerating ? "Generating…" : "Generate my plan"}<Icon name="arrow" size={17} /></button></div>
@@ -184,12 +188,13 @@ export default function Home() {
             {generated && <>
               <div className="generated-plan-intro"><h3>Planning for {generated.profile.entrySeason} {generated.profile.entryYear}</h3><p>{generated.profile.collegeYear} · {generated.agreements.map(item => item.campus).join(" · ")}</p><p>This checklist is a planning estimate, not an admission or deadline determination. Your current college year and entry term provide context; confirm course-completion deadlines for each campus and major. No semester schedule or course availability is calculated.</p></div>
               <div className="transfer-progress-content">
-                {generated.completed.length !== generated.creditCourses.length && <p className="checklist-note">{generated.completed.length - generated.creditCourses.length} entered courses with F, NP or W grades are excluded from the unit estimate. Grades below C do not count as completed major preparation in this checklist.</p>}
+                <EnrolledCourses codes={generatedEnrolled} catalog={generated.catalog} reviews={generated.reviews} />
+                {generatedFailedCount > 0 && <p className="checklist-note">{generatedFailedCount} entered courses with F, NP or W grades are excluded from the unit estimate. Grades below C do not count as completed major preparation in this checklist.</p>}
                 {generated.creditCourses.some(code => !generated.reviews[code]?.grade) && <p className="checklist-note">Some entered courses have no grade. Unit and major course matches are provisional until you enter grades in College courses.</p>}
                 <TransferUnitSummary courses={generated.catalog} isLoading={false} error={null} completedCourses={generated.creditCourses} earnedUnits={generated.earnedUnits} apResults={generated.apResults} reviews={generated.reviews} onEarnedUnitsChange={() => {}} showInputs={false} />
                 <SevenCoursePattern courses={generated.catalog} isLoading={false} error={null} completedCourses={generated.completed} earnedUnits={generated.earnedUnits} apResults={generated.apResults} reviews={generated.reviews} />
               </div>
-              <GeneratedChecklist agreements={generated.agreements} completed={generated.majorCourses} suggestions={generated.suggestions} remainingUnits={generated.remainingUnits} />
+              <GeneratedChecklist agreements={generated.agreements} completed={generated.majorCourses} enrolledCourses={generatedEnrolled} suggestions={generated.suggestions} remainingUnits={generated.remainingUnits} />
             </>}
             <div className="wizard-actions"><button type="button" className="button button-back" onClick={() => goToTab("courses")}>← Edit college courses</button><button type="button" className="text-button" onClick={() => goToTab("colleges")}>Edit colleges & timing</button></div>
           </section>
@@ -198,7 +203,7 @@ export default function Home() {
         </div>
       </section>
       <p className="session-note">Entries and your generated plan are kept while this page is open. Refreshing clears them.</p>
-      <details id="planning-guide" className="planning-guide"><summary><strong>How to use this planner</strong><Icon name="chevron" size={17} /></summary><div className="guide-content"><p><strong>1. Colleges & timing.</strong> Select target campuses and a major per campus. Enter your current year in college and intended UC entry term. Select an applicable source agreement year where available.</p><p><strong>2. AP credit.</strong> Enter exams and earned scores. Documented full duplicates with completed college courses are excluded automatically; partial and unmapped overlaps are flagged for review.</p><p><strong>3. College courses.</strong> Add completed Mt. SAC courses, transcript grades, completion terms and variable units. ASSIST approval dates and supported credit conditions are checked automatically. Missing dates or unresolved source conditions stay flagged.</p><p><strong>4. Your plan.</strong> Generate a remaining-course checklist with course names, UC units and pattern progress. Alternatives and choose-N groups remain choices. Admission requirements, additional degree preparation and recommendations are shown separately. Regenerate after editing entries.</p><p>Use official <a className="inline-link" href="https://assist.org" target="_blank" rel="noreferrer">ASSIST agreements</a> and your college adviser to confirm applicable years, prerequisites, credit limits and deadlines. The planner does not determine admission eligibility.</p></div></details>
+      <details id="planning-guide" className="planning-guide"><summary><strong>How to use this planner</strong><Icon name="chevron" size={17} /></summary><div className="guide-content"><p><strong>1. Colleges & timing.</strong> Select target campuses and a major per campus. Enter your current year in college and intended UC entry term. Select an applicable source agreement year where available.</p><p><strong>2. AP credit.</strong> Enter exams and earned scores. Documented full duplicates with completed college courses are excluded automatically; partial and unmapped overlaps are flagged for review.</p><p><strong>3. College courses.</strong> Add completed or currently enrolled Mt. SAC courses. Enrolled courses need no grade and are shown as in progress. For completed courses, enter transcript grades, completion terms and variable units. ASSIST approval dates and supported credit conditions are checked automatically. Missing dates or unresolved source conditions stay flagged.</p><p><strong>4. Your plan.</strong> Generate a remaining-course checklist with course names, UC units and pattern progress. Alternatives and choose-N groups remain choices. Admission requirements, additional degree preparation and recommendations are shown separately. Regenerate after editing entries.</p><p>Use official <a className="inline-link" href="https://assist.org" target="_blank" rel="noreferrer">ASSIST agreements</a> and your college adviser to confirm applicable years, prerequisites, credit limits and deadlines. The planner does not determine admission eligibility.</p></div></details>
       <footer className="site-footer"><span>Mt. SAC course catalog · ASSIST articulation agreements</span><span>Transfer Planner</span></footer>
     </main>
   </div>;

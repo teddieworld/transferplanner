@@ -32,7 +32,7 @@ const checkedMonth = Number(snapshot.checkedOn.slice(5, 7));
 export const EXAMPLE_COURSE_TERM = `${checkedMonth === 1 ? "W" : checkedMonth <= 5 ? "S" : checkedMonth <= 8 ? "Su" : "F"}${snapshot.checkedOn.slice(0, 4)}`;
 
 export type CourseApproval = {
-  code: string; status: "eligible" | "pending" | "not_approved" | "review";
+  code: string; status: "eligible" | "pending" | "not_approved" | "review" | "in_progress";
   areas: UCArea[]; messages: string[];
 };
 const codesIn = (text: string): string[] => text.match(/\b[A-Z]{2,5}\s+[A-Z]?\d+[A-Z0-9]*\b/g) ?? [];
@@ -44,6 +44,7 @@ export function getCourseApproval(
   const course = catalog.find(item => item.code === code);
   const mapping = getCourseEligibility(code);
   const result = (status: CourseApproval["status"], messages: string[], areas: UCArea[] = []): CourseApproval => ({ code, status, messages, areas });
+  if (reviews[code]?.status === "enrolled") return result("in_progress", ["Currently enrolled. Mark this course completed and enter its final grade before it can count toward completed preparation."]);
   if (!course || !mapping) return result("review", ["No verified course-area approval is available for this code in our ASSIST snapshot."]);
   if (!course.ucTransferable) return result("not_approved", ["The catalog does not mark this course UC transferable."]);
   const term = completionTerm(reviews[code]);
@@ -73,7 +74,7 @@ export function getCourseApproval(
   const pending: string[] = [];
   const reviewMessages: string[] = [];
   const checked: string[] = [];
-  const selected = [...new Set(completed)];
+  const selected = [...new Set(completed)].filter(other => reviews[other]?.status !== "enrolled");
   function checkOrder(blockers: string[]) {
     for (const blocker of blockers.filter(other => selected.includes(other) && other !== code)) {
       const otherTerm = completionTerm(reviews[blocker]);

@@ -27,7 +27,7 @@ export default function CourseSelector({ courses, isLoading, error, completedCou
 
   return (
     <>
-      {showHeading && <div className="section-heading"><div className="heading-with-icon"><span className="step-number">02</span><div><h2 id="courses-heading">Your coursework</h2><p>Add the courses you&apos;ve already completed.</p></div></div></div>}
+      {showHeading && <div className="section-heading"><div className="heading-with-icon"><span className="step-number">02</span><div><h2 id="courses-heading">Your coursework</h2><p>Add completed courses and classes you&apos;re currently enrolled in.</p></div></div></div>}
       <div className="course-toolbar">
         <label htmlFor="course-search" className="sr-only">Search by course code or title</label>
         <div className="search-field"><Icon name="search" size={18} /><input id="course-search" type="search" placeholder="Search code or course title..." value={search} onChange={event => { setSearch(event.target.value); setVisibleCount(30); }} disabled={isLoading || error !== null} /></div>
@@ -47,7 +47,7 @@ export default function CourseSelector({ courses, isLoading, error, completedCou
             </div>
           );
         })}
-        {!isLoading && !error && matchingCourses.length === 0 && <div className="course-empty"><Icon name={selectedOnly ? "book" : "search"} size={26} /><strong>{selectedOnly && !query ? "Your courses will go here" : "No matching courses"}</strong><p>{selectedOnly && !query ? "Switch to All courses and check the classes you’ve completed." : "Try a different course code or title."}</p></div>}
+        {!isLoading && !error && matchingCourses.length === 0 && <div className="course-empty"><Icon name={selectedOnly ? "book" : "search"} size={26} /><strong>{selectedOnly && !query ? "Your courses will go here" : "No matching courses"}</strong><p>{selectedOnly && !query ? "Switch to All courses and check completed or currently enrolled classes." : "Try a different course code or title."}</p></div>}
         {visibleCount < matchingCourses.length && <button type="button" className="show-more" onClick={() => setVisibleCount(count => count + 30)}>Show more courses <Icon name="plus" size={15} /></button>}
       </div>
       <div className="course-panel-footer"><span aria-live="polite">{completedCourses.length} {completedCourses.length === 1 ? "course" : "courses"} selected</span><button type="button" className="text-button" onClick={onClearCourses} disabled={completedCourses.length === 0}>Clear all</button></div>

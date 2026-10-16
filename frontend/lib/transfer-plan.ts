@@ -58,13 +58,13 @@ export function getPatternSuggestions(
   if (progress.complete) return choices;
   const priority = new Set(priorityCodes);
   const score = (course: CourseCatalogEntry) => (priority.has(course.code) ? 1 : 0)
-    + (completed.includes(course.code) && reviews[course.code]?.grade && !preparationGrades.has(reviews[course.code].grade) ? 2 : 0);
+    + (completed.includes(course.code) && reviews[course.code]?.status !== "enrolled" && reviews[course.code]?.grade && !preparationGrades.has(reviews[course.code].grade) ? 2 : 0);
   for (const course of [...courses].sort((a, b) => score(b) - score(a))) {
     // Offer a short set of checked examples rather than evaluating hundreds of
     // near-identical alternatives on the browser's main thread.
     if (choices.every(choice => choice.remaining === 0 || choice.courses.length >= 8)) break;
     const mapping = getCourseEligibility(course.code);
-    const attemptedWithLowGrade = completed.includes(course.code) && Boolean(reviews[course.code]?.grade) && !preparationGrades.has(reviews[course.code].grade);
+    const attemptedWithLowGrade = completed.includes(course.code) && reviews[course.code]?.status !== "enrolled" && Boolean(reviews[course.code]?.grade) && !preparationGrades.has(reviews[course.code].grade);
     if ((completed.includes(course.code) && !attemptedWithLowGrade) || !course.ucTransferable || course.maxUnits < 3 || !mapping) continue;
     if (!choices.some(choice => choice.remaining > 0 && choice.courses.length < 8 && mapping.areas.some(area => choice.areas.includes(area as UCArea)))) continue;
     const after = getSevenCourseProgress(courses, [...completed, course.code],

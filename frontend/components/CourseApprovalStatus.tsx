@@ -1,6 +1,6 @@
 import type { CourseApproval } from "@/lib/course-approval";
 
-const labels = { eligible: "Approval checked automatically", pending: "More course details needed", not_approved: "Not counted toward the pattern", review: "Source review needed" };
+const labels = { eligible: "Approval checked automatically", pending: "More course details needed", not_approved: "Not counted toward the pattern", review: "Source review needed", in_progress: "Currently enrolled · in progress" };
 export default function CourseApprovalStatus({ approval }: { approval: CourseApproval }) {
   return <div className={`course-approval course-approval-${approval.status}`} role="status">
     <strong>{labels[approval.status]}</strong>

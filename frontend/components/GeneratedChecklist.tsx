@@ -9,7 +9,7 @@ import { EXAMPLE_COURSE_TERM, formatTerm } from "@/lib/course-approval";
 
 export type AgreementResult = { campus: string; major: string; agreement: MajorAgreement | null; message?: string };
 
-function RemainingGroups({ groups, completed }: { groups: RequirementGroup[]; completed: string[] }) {
+function RemainingGroups({ groups, completed, enrolledCourses }: { groups: RequirementGroup[]; completed: string[]; enrolledCourses: string[] }) {
   if (!groups.length) return <p className="checklist-note">No separate checklist was supplied in this agreement. Read the agreement guidance.</p>;
   return groups.map((group, index) => {
     const remaining = getRemainingGroup(group, completed);
@@ -21,7 +21,7 @@ function RemainingGroups({ groups, completed }: { groups: RequirementGroup[]; co
       {group.maxPerDepartment !== undefined && <p className="checklist-note">No more than {group.maxPerDepartment} matched requirements per department count. {remaining.matchedRequirements.length} requirements currently have course matches; department limits still apply.</p>}
       {group.note && <details className="group-notes"><summary>Group conditions</summary><p>{group.note}</p></details>}
       {!group.reviewRequired && remaining.matchedRequirements.filter(requirement => requirement.apPreparation).map((requirement, i) => <APPreparationCredit key={`${requirement.name}-${i}`} requirement={requirement} />)}
-      {(!remaining.complete || group.reviewRequired) && (group.reviewRequired ? group.requirements : remaining.requirements).map((requirement, i) => <RequirementDisplay key={`${requirement.name}-${i}`} requirement={requirement} completedCourses={completed} />)}
+      {(!remaining.complete || group.reviewRequired) && (group.reviewRequired ? group.requirements : remaining.requirements).map((requirement, i) => <RequirementDisplay key={`${requirement.name}-${i}`} requirement={requirement} completedCourses={completed} enrolledCourses={enrolledCourses} />)}
       {!remaining.complete && !group.reviewRequired && remaining.requirements.length === 0 && <p className="checklist-note">Review the full agreement to resolve group limits and available choices.</p>}
     </section>;
   });
@@ -33,9 +33,10 @@ function SuggestedCourses({ courses }: { courses: CourseCatalogEntry[] }) {
   </li>)}</ul>;
 }
 
-export default function GeneratedChecklist({ agreements, completed, suggestions, remainingUnits }: {
+export default function GeneratedChecklist({ agreements, completed, enrolledCourses = [], suggestions, remainingUnits }: {
   agreements: AgreementResult[]; completed: string[];
   suggestions: ReturnType<typeof getPatternSuggestions>; remainingUnits: number;
+  enrolledCourses?: string[];
 }) {
   return <div className="generated-checklist">
     <section className="checklist-section" aria-labelledby="remaining-pattern-heading"><h3 id="remaining-pattern-heading">Finish the UC seven-course pattern</h3>
@@ -53,11 +54,11 @@ export default function GeneratedChecklist({ agreements, completed, suggestions,
           <p className="checklist-note">ASSIST agreement: <strong>{result.agreement.academicYear}</strong>. This is the course-mapping source year, not your intended entry term. Confirm it applies to the courses you plan to take.</p>
           {result.agreement.apPreparationReview && <div className="group-guidance"><p>{result.agreement.apPreparationReview.message}</p>{result.agreement.apPreparationReview.unmatchedExams.length > 0 && <p>No automatic major match: {result.agreement.apPreparationReview.unmatchedExams.join("; ")}. Unit credit and seven-course pattern credit are evaluated separately.</p>}</div>}
           {result.agreement.kind === "informational" ? <p className="unavailable-plan">This agreement contains program guidance rather than a calculable checklist. Review the full agreement and consult an adviser.</p> : <>
-            <h4 className="checklist-category-title">Required for admission</h4><RemainingGroups groups={result.agreement.requiredGroups} completed={completed} />
-            {(result.agreement.majorRequiredGroups?.length ?? 0) > 0 && <details className="preparation-extras"><summary>Additional lower-division major preparation</summary><p className="checklist-note">Some degree requirements can be completed after transfer. Check the agreement before treating them as admission requirements.</p><RemainingGroups groups={result.agreement.majorRequiredGroups!} completed={completed} /></details>}
-            {result.agreement.highlyRecommendedGroups.length > 0 && <details className="preparation-extras"><summary>Highly recommended preparation</summary><RemainingGroups groups={result.agreement.highlyRecommendedGroups} completed={completed} /></details>}
+            <h4 className="checklist-category-title">Required for admission</h4><RemainingGroups groups={result.agreement.requiredGroups} completed={completed} enrolledCourses={enrolledCourses} />
+            {(result.agreement.majorRequiredGroups?.length ?? 0) > 0 && <details className="preparation-extras"><summary>Additional lower-division major preparation</summary><p className="checklist-note">Some degree requirements can be completed after transfer. Check the agreement before treating them as admission requirements.</p><RemainingGroups groups={result.agreement.majorRequiredGroups!} completed={completed} enrolledCourses={enrolledCourses} /></details>}
+            {result.agreement.highlyRecommendedGroups.length > 0 && <details className="preparation-extras"><summary>Highly recommended preparation</summary><RemainingGroups groups={result.agreement.highlyRecommendedGroups} completed={completed} enrolledCourses={enrolledCourses} /></details>}
           </>}
-          <details className="full-agreement"><summary>View full agreement, completed matches and source notes</summary><MajorPlan agreement={result.agreement} completedCourses={completed} /></details>
+          <details className="full-agreement"><summary>View full agreement, completed matches and source notes</summary><MajorPlan agreement={result.agreement} completedCourses={completed} enrolledCourses={enrolledCourses} /></details>
         </>}
       </article>)}
     </section>

@@ -12,9 +12,13 @@ export function getEarnedUnits(course: CourseCatalogEntry, enteredUnits?: string
 }
 
 // Missing grades remain provisional. Unit credit and preparation have different rules.
+// Enrollment is independent of grade; even a stale grade cannot earn credit.
+export function getEnrolledCourses(selected: string[], reviews: CoursePatternReviews) {
+  return [...new Set(selected)].filter(code => reviews[code]?.status === "enrolled");
+}
 export function getCreditCourses(completed: string[], reviews: CoursePatternReviews) {
-  return [...new Set(completed)].filter(code => !reviews[code]?.grade || UNIT_GRADES.has(reviews[code].grade));
+  return [...new Set(completed)].filter(code => reviews[code]?.status !== "enrolled" && (!reviews[code]?.grade || UNIT_GRADES.has(reviews[code].grade)));
 }
 export function getMajorCourses(completed: string[], reviews: CoursePatternReviews) {
-  return [...new Set(completed)].filter(code => !reviews[code]?.grade || PREPARATION_GRADES.has(reviews[code].grade));
+  return [...new Set(completed)].filter(code => reviews[code]?.status !== "enrolled" && (!reviews[code]?.grade || PREPARATION_GRADES.has(reviews[code].grade)));
 }

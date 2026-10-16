@@ -5,12 +5,13 @@ import { getRequirementStatus, getPreparationStatus, isOptionSatisfied, requirem
 import Icon from "./Icon";
 import APPreparationCredit from "./APPreparationCredit";
 
-type RequirementDisplayProps = { requirement: Requirement; completedCourses: string[] };
+type RequirementDisplayProps = { requirement: Requirement; completedCourses: string[]; enrolledCourses?: string[] };
 
-function CourseOption({ courses, titles, completedCourses }: {
+function CourseOption({ courses, titles, completedCourses, enrolledCourses }: {
   courses: string[];
   titles?: Record<string, string>;
   completedCourses: string[];
+  enrolledCourses: string[];
 }) {
   return <span className="option-courses">{courses.map((code, index) => (
     <span className="option-course-wrap" key={code}>
@@ -19,11 +20,12 @@ function CourseOption({ courses, titles, completedCourses }: {
         {completedCourses.includes(code) && <Icon name="check" size={11} />}{code}
       </span>
       {titles?.[code] && <span className="option-course-title">{titles[code]}</span>}
+      {enrolledCourses.includes(code) && <span className="course-progress-label">In progress</span>}
     </span>
   ))}</span>;
 }
 
-export default function RequirementDisplay({ requirement, completedCourses }: RequirementDisplayProps) {
+export default function RequirementDisplay({ requirement, completedCourses, enrolledCourses = [] }: RequirementDisplayProps) {
   const status = getRequirementStatus(requirement, completedCourses);
   const preparationStatus = getPreparationStatus(requirement, completedCourses);
   const complete = preparationStatus === "satisfied";
@@ -46,7 +48,7 @@ export default function RequirementDisplay({ requirement, completedCourses }: Re
       <div className="requirement-options">{requirement.options.map((option, index) => (
         <div className={`requirement-option ${isOptionSatisfied(option, completedCourses) ? "option-complete" : ""}`} key={index}>
           {index > 0 && <span className="option-or">OR</span>}
-          <CourseOption courses={option} titles={requirement.optionCourseTitles} completedCourses={completedCourses} />
+          <CourseOption courses={option} titles={requirement.optionCourseTitles} completedCourses={completedCourses} enrolledCourses={enrolledCourses} />
           {isOptionSatisfied(option, completedCourses) && <span className="option-completed-label">Completed</span>}
         </div>
       ))}</div>
@@ -54,7 +56,7 @@ export default function RequirementDisplay({ requirement, completedCourses }: Re
         <p>Major preparation <span className={`status-badge status-${preparationStatus}`}>{requirementStatusLabels[preparationStatus]}</span></p>
         {requirement.preparationOptions.map((option, index) => <div key={index} className="preparation-option">
           {index > 0 && <span className="option-or">OR</span>}
-          <CourseOption courses={option} titles={requirement.optionCourseTitles} completedCourses={completedCourses} />
+          <CourseOption courses={option} titles={requirement.optionCourseTitles} completedCourses={completedCourses} enrolledCourses={enrolledCourses} />
           {isOptionSatisfied(option, completedCourses) && <Icon name="check" size={13} />}
         </div>)}
         {requirement.preparationNote && <p className="requirement-note">{requirement.preparationNote}</p>}
