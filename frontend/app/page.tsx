@@ -8,8 +8,8 @@ import SevenCoursePattern from "@/components/SevenCoursePattern";
 import TargetCollege from "@/components/TargetCollege";
 import CompletedCourseDetails from "@/components/CompletedCourseDetails";
 import EnrolledCourses from "@/components/EnrolledCourses";
-import GeneratedChecklist from "@/components/GeneratedChecklist";
-import type { AgreementResult } from "@/components/GeneratedChecklist";
+import ArticulationAgreements from "@/components/ArticulationAgreements";
+import type { AgreementResult } from "@/components/ArticulationAgreements";
 import Icon from "@/components/Icon";
 import { useRemoteData } from "@/lib/use-remote-data";
 import { STARTING_COLLEGE } from "@/lib/catalog-types";
@@ -17,12 +17,10 @@ import type { CourseCatalogEntry, Major } from "@/lib/catalog-types";
 import type { APResults } from "@/lib/ap-credit";
 import type { CoursePatternReviews } from "@/lib/seven-course-pattern";
 import type { MajorAgreement } from "@/lib/planner";
-import { UC_CAMPUSES, getCreditCourses, getMajorCourses, getPatternSuggestions } from "@/lib/transfer-plan";
+import { UC_CAMPUSES, getCreditCourses, getMajorCourses } from "@/lib/transfer-plan";
 import type { CampusChoice, StudentProfile } from "@/lib/transfer-plan";
-import { getTransferUnitProgress } from "@/lib/transfer-units";
 import { getAPOverlap } from "@/lib/ap-overlap";
 import { applyAPMajorCredit } from "@/lib/ap-major-credit";
-import { getPreparationStatus } from "@/lib/planner";
 import { getEnrolledCourses } from "@/lib/course-credit";
 
 type PlannerTab = "colleges" | "ap" | "courses" | "plan";
@@ -37,7 +35,6 @@ type GeneratedPlan = {
   key: string; profile: StudentProfile; agreements: AgreementResult[];
   catalog: CourseCatalogEntry[]; completed: string[]; creditCourses: string[]; majorCourses: string[];
   earnedUnits: Record<string, string>; apResults: APResults; reviews: CoursePatternReviews;
-  suggestions: ReturnType<typeof getPatternSuggestions>; remainingUnits: number;
 };
 
 export default function Home() {
@@ -116,6 +113,7 @@ export default function Home() {
     // Capture the exact inputs used. Changes during/after this request mark it stale.
     setIsGenerating(true);
     try {
+      const majorCourses = getMajorCourses(completedCourses, patternReviews);
       const agreements = await Promise.all(selectedCampuses.map(async campus => {
         const choice = choices[campus.id];
         const base = { campus: campus.label, major: choice.major.trim(), agreement: null };
@@ -129,20 +127,14 @@ export default function Home() {
           const response = await fetch(`/api/agreement?${new URLSearchParams({ university: campus.name, major: choice.major, year: choice.academicYear })}`);
           if (!response.ok) throw new Error("Agreement unavailable");
           const agreement: MajorAgreement = await response.json();
-          return { campus: campus.label, major: choice.major, agreement: applyAPMajorCredit(agreement, apResults, getMajorCourses(completedCourses, patternReviews)) };
+          return { campus: campus.label, major: choice.major, agreement: applyAPMajorCredit(agreement, apResults, majorCourses) };
         } catch {
           return { ...base, message: "Agreement unavailable. Regenerate to retry." };
         }
       }));
       const creditCourses = getCreditCourses(completedCourses, patternReviews);
-      const priorityCodes = agreements.flatMap(result => result.agreement?.requiredGroups
-        .filter(group => !group.reviewRequired).flatMap(group => group.requirements
-          .filter(requirement => requirement.articulationStatus !== "review_required" && getPreparationStatus(requirement, getMajorCourses(completedCourses, patternReviews)) !== "satisfied")
-          .flatMap(requirement => (requirement.preparationOptions ?? requirement.options).flat())) ?? []);
       setGenerated({ key: inputKey, profile, agreements, catalog: courses, completed: completedCourses,
-        creditCourses, majorCourses: getMajorCourses(completedCourses, patternReviews), earnedUnits, apResults, reviews: patternReviews,
-        suggestions: getPatternSuggestions(courses, completedCourses, earnedUnits, patternReviews, apResults, priorityCodes),
-        remainingUnits: getTransferUnitProgress(courses, creditCourses, earnedUnits, apResults, patternReviews).remainingUnits });
+        creditCourses, majorCourses, earnedUnits, apResults, reviews: patternReviews });
     } catch {
       setGenerationError("Plan could not load. Try again.");
     } finally {
@@ -200,7 +192,7 @@ export default function Home() {
                 <TransferUnitSummary courses={generated.catalog} isLoading={false} error={null} completedCourses={generated.creditCourses} earnedUnits={generated.earnedUnits} apResults={generated.apResults} reviews={generated.reviews} onEarnedUnitsChange={() => {}} showInputs={false} />
                 <SevenCoursePattern courses={generated.catalog} isLoading={false} error={null} completedCourses={generated.completed} earnedUnits={generated.earnedUnits} apResults={generated.apResults} reviews={generated.reviews} />
               </div>
-              <GeneratedChecklist agreements={generated.agreements} completed={generated.majorCourses} enrolledCourses={generatedEnrolled} suggestions={generated.suggestions} remainingUnits={generated.remainingUnits} />
+              <ArticulationAgreements agreements={generated.agreements} completed={generated.majorCourses} enrolledCourses={generatedEnrolled} />
             </>}
             <div className="wizard-actions"><button type="button" className="button button-back" onClick={() => goToTab("courses")}>← Edit college courses</button><button type="button" className="text-button" onClick={() => goToTab("colleges")}>Edit colleges & timing</button></div>
           </section>

@@ -142,9 +142,9 @@ unchanged; no flag is dismissed by hiding its source explanation.
 College courses supports Completed and Currently enrolled statuses. Enrolled
 courses hide grade and earned-unit inputs, use enrollment term/year labels, and
 are listed separately in the generated plan. Their course options carry an
-In progress label in the remaining checklist and full agreement. They do not
+In progress label in the articulation agreement. They do not
 earn units, complete major/pattern requirements, suppress AP units, or trigger
-completed-course ordering restrictions. They are not recommended again as retakes.
+completed-course ordering restrictions.
 Switching status clears the prior grade and entered earned units; completion
 uses the normal final-grade/credit rules. Status and term persist between tabs
 and are captured in the generated snapshot; regenerate after changes.
@@ -152,18 +152,22 @@ and are captured in the generated snapshot; regenerate after changes.
 Completed courses hold transcript grades, completion terms/years and variable
 units. `lib/course-approval.ts` automatically checks recorded ASSIST approval
 ranges and supported credit conditions; the former confirmation checkbox is gone. Generation captures a snapshot of all entries, fetches
-each selected agreement, and builds a remaining-course checklist. Later edits
+each selected agreement, and shows the complete articulation with Satisfied / Not
+satisfied badges on every requirement and group. All groups start expanded, so
+matched courses, unmatched courses and recommendations stay visible together.
+The separate remaining-course checklist, example-course suggestions and repeated
+remaining-unit section have been removed. Unit and seven-course-pattern summaries
+remain above the articulation. AP/major-preparation exceptions contribute to the
+preparation status; the original course equivalence options and source conditions
+are preserved. Unverified combinations retain a short confirmation warning and
+cannot automatically satisfy a group. Later edits
 mark that result as outdated until regeneration. There is no semester scheduling,
 admission-term availability check, prerequisite scheduling, or automatic deadline
 calculation. Current year and entry term are planning context.
 
-`lib/transfer-plan.ts` preserves AND/OR options, choose-N rules, department caps,
+`lib/planner.ts` preserves AND/OR options, choose-N rules, department caps,
 review flags and reviewed preparation exceptions. Additional degree preparation
-and recommendations stay separate from admission requirements. Seven-course
-suggestions show up to eight example alternatives per category for individual
-remaining slots, prioritizing admission-preparation courses and low-grade
-retakes. Options are verified against the existing pattern matcher (assuming a future C grade, sufficient earned units and
-applicable approval). They are not a single prescribed set of courses. No future
+and recommendations stay separate from admission requirements. No future
 course is added to earned credit. D/C- grades can contribute units but not subject
 preparation; F/NP/W do not contribute units. Missing grades leave unit/major
 matches provisional. Higher major grade requirements still need source review.
@@ -238,7 +242,7 @@ major, and the 2026–27 agreement year. Sources are the imported ASSIST exam-cr
 notes and the linked Math, Data Science and Engineering policies, checked
 2026-10-15. Different majors deliberately have different thresholds (for example,
 BC 4 for Engineering/Analytics calculus II versus BC 5 for CS/Data Science).
-The generated checklist and full agreement show the exam, score, receiving
+The articulation shows the exam, score, receiving
 requirement and policy link. Unsupported exams/majors/years remain explicitly
 unmatched rather than borrowing Mt. SAC AP equivalencies or general UC credit.
 
