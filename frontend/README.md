@@ -125,13 +125,19 @@ The browser cancels obsolete requests when selections change. Changing a
 university clears the major and year; changing the major clears the year.
 Completed Mt. SAC courses stay selected when switching destination agreements.
 
-The Courses and Requirements steps show estimated UC-transferable semester
-units toward a 60-unit target, independently of the selected major's matches.
+The planner has Destination, Courses, AP credit, Transfer progress, and Major
+requirements tabs. Course/AP entry and transfer progress work without a
+destination; major requirements become available after choosing a university,
+major and year. Entries stay in `Home` state while tabs switch. Arrow keys,
+Home and End navigate the tabs; the tab bar scrolls horizontally on small screens.
+
+The Transfer progress tab shows estimated UC-transferable semester units toward
+a 60-unit target, independently of the selected major's matches.
 Only selected courses marked UC transferable contribute. Fixed-unit courses use
 their catalog units; variable-unit courses require an earned-unit entry within
 the catalog range and are excluded until a valid value is supplied. Removing a
 course removes its units; Clear all also resets the earned-unit entries.
-AP exams and scores can be added below the course catalog. `lib/ap-credit.ts`
+AP exams and scores can be added in the AP credit tab. `lib/ap-credit.ts`
 records the UC systemwide semester-unit table (checked October 15, 2026), linked
 in the UI. Scores 3–5 earn the listed units; scores 1–2 earn none except a
 qualifying Calculus BC AB subscore. Shared Art and Design, English, Calculus,
@@ -152,7 +158,7 @@ planning estimate, not a determination of admission eligibility.
 
 ### UC seven-course pattern estimate
 
-The Courses and Requirements steps also calculate the UC admission pattern:
+The Transfer progress tab also calculates the UC admission pattern:
 two UC-E courses, one UC-M course, and four UC-H/B/S courses across at least two
 of those three subject areas. This is separate from Berkeley's degree breadth
 and major requirements. The course-area snapshot is

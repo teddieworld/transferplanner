@@ -44,18 +44,12 @@ summary::-webkit-details-marker { display: none; }
 .welcome { padding: 37px 0 30px; }
 .welcome h1 { font-family: Georgia, 'Times New Roman', serif; font-size: 36px; font-weight: 400; letter-spacing: -.8px; line-height: 1.2; }
 .welcome-description { font-size: 14px; color: var(--muted); margin-top: 11px; }
-.step-navigation { position: sticky; top: 0; z-index: 5; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); background: var(--background); border-bottom: 1px solid #cfd9c6; margin-bottom: 28px; }
-.step-tab { border: 0; border-bottom: 3px solid transparent; margin-bottom: -1px; background: transparent; display: flex; gap: 11px; align-items: center; text-align: left; padding: 18px 20px; min-width: 0; color: var(--muted); }
-.step-tab:focus-visible { outline-offset: -4px; }
-.step-tab:not(:disabled):hover { background: #eff3e8; }
-.step-tab.step-active { border-bottom-color: var(--accent); background: var(--pistachio); color: #354b29; }
-.step-tab:disabled { color: #90978a; }
-.step-circle { height: 24px; width: 24px; border: 1px solid #cfd8c6; border-radius: 4px; display: grid; place-items: center; font-size: 12px; flex-shrink: 0; }
-.step-active .step-circle { background: var(--accent); color: white; border-color: var(--accent); }
-.step-done:not(.step-active) .step-circle { color: var(--accent); }
-.step-tab-text { min-width: 0; }
-.step-tab-text strong { font-size: 13px; font-weight: 550; display: block; }
-.step-tab-text .step-short-title { display: none; }
+.planner-tabs { position: sticky; top: 0; z-index: 5; display: flex; overflow-x: auto; scrollbar-width: thin; background: var(--background); border-bottom: 1px solid #cfd9c6; margin-bottom: 28px; }
+.planner-tab { flex: 1 0 auto; border: 0; border-bottom: 3px solid transparent; background: transparent; padding: 18px 20px; color: var(--muted); font-size: 13px; font-weight: 500; white-space: nowrap; }
+.planner-tab:focus-visible { outline-offset: -4px; }
+.planner-tab:not(:disabled):hover { background: #eff3e8; }
+.planner-tab.planner-tab-active { border-bottom-color: var(--accent); background: var(--pistachio); color: #354b29; }
+.planner-tab:disabled { color: #90978a; }
 .wizard-workspace { scroll-margin-top: 90px; }
 .wizard-workspace:focus { outline: none; }
 .wizard-grid { display: flex; flex-direction: column; gap: 20px; }
@@ -103,6 +97,12 @@ summary::-webkit-details-marker { display: none; }
 .progress-card > p { font-size: 12px; color: #596a4b; }
 .progress-track { min-width: 100px; max-width: 180px; flex: 1; height: 5px; background: #cfdcbc; overflow: hidden; }
 .progress-track > span { display: block; height: 100%; background: #66824d; transition: width .2s; }
+.major-progress { padding: 0 32px 24px; }
+.major-progress .progress-card { margin-top: 0; }
+.transfer-progress-content { padding: 0 32px 28px; display: grid; gap: 26px; }
+.transfer-progress-content > .unit-summary { margin: 0; padding: 0; border: 0; border-radius: 0; background: transparent; }
+.transfer-progress-content > .unit-summary + .unit-summary { padding-top: 26px; border-top: 1px solid var(--line); }
+.ap-card .ap-panel { border-top: 0; padding-top: 0; }
 
 /* Course units are independent of major preparation matches. */
 .unit-summary { margin-top: 20px; padding: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 4px; }
@@ -304,7 +304,7 @@ summary::-webkit-details-marker { display: none; }
 .site-footer > span > span { padding: 0 7px; }
 
 @media (max-width: 960px) {
-  .step-tab { padding-left: 16px; padding-right: 16px; }
+  .planner-tab { padding-left: 16px; padding-right: 16px; }
   .destination-fields { grid-template-columns: 1fr 1fr; }
   .destination-fields .form-field:last-child { grid-column: 1 / -1; max-width: 280px; }
   .course-toolbar { gap: 12px; }
@@ -319,15 +319,15 @@ summary::-webkit-details-marker { display: none; }
   .welcome { padding: 28px 0 23px; }
   .welcome h1 { font-size: 31px; }
   .welcome-description { font-size: 13px; max-width: 430px; }
-  .step-navigation { margin-bottom: 23px; }
-  .step-tab { flex-direction: column; align-items: flex-start; padding: 13px 10px; gap: 8px; }
-  .step-tab-text .step-full-title { display: none; }
-  .step-tab-text .step-short-title { display: block; font-size: 12px; }
-  .step-circle { height: 22px; width: 22px; font-size: 11px; }
+  .planner-tabs { margin-bottom: 23px; }
+  .planner-tab { padding: 15px 16px; font-size: 12px; }
   .wizard-grid { gap: 18px; }
-  .wizard-workspace { scroll-margin-top: 110px; }
+  .wizard-workspace { scroll-margin-top: 85px; }
   .wizard-card-heading { padding: 23px 22px 21px; }
   .wizard-card-heading h2 { font-size: 21px; }
+  .major-progress { padding: 0 22px 23px; }
+  .transfer-progress-content { padding: 0 22px 24px; }
+  .wizard-actions { flex-wrap: wrap; }
   .starting-point { margin: 0 22px 23px; padding-bottom: 18px; }
   .starting-point > span { width: 100%; }
   .destination-fields { grid-template-columns: 1fr; padding: 0 22px 26px; gap: 20px; }
@@ -380,9 +380,9 @@ summary::-webkit-details-marker { display: none; }
   .header-links a { max-width: 90px; text-align: right; line-height: 1.4; }
   .guided-main { padding-left: 16px; padding-right: 16px; }
   .welcome h1 { font-size: 29px; }
-  .step-tab-text .step-short-title { font-size: 11px; }
-  .step-tab { padding-left: 7px; padding-right: 7px; }
+  .planner-tab { padding-left: 13px; padding-right: 13px; }
   .wizard-card-heading, .wizard-actions { padding-left: 18px; padding-right: 18px; }
+  .major-progress, .transfer-progress-content { padding-left: 18px; padding-right: 18px; }
   .starting-point { margin-left: 18px; margin-right: 18px; }
   .destination-fields, .course-toolbar { padding-left: 18px; padding-right: 18px; }
   .coursework-card .wizard-actions { flex-wrap: wrap; }

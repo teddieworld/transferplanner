@@ -1,13 +1,13 @@
 import { AP_CREDIT_SOURCE, AP_EXAMS, getAPExamUnits } from "@/lib/ap-credit";
 import type { APResults } from "@/lib/ap-credit";
 
-type APExamSelectorProps = { results: APResults; onChange: (results: APResults) => void };
+type APExamSelectorProps = { results: APResults; onChange: (results: APResults) => void; showHeading?: boolean };
 
-export default function APExamSelector({ results, onChange }: APExamSelectorProps) {
+export default function APExamSelector({ results, onChange, showHeading = true }: APExamSelectorProps) {
   const selected = AP_EXAMS.filter(exam => results[exam.id]);
   return (
-    <section className="ap-panel" aria-labelledby="ap-heading">
-      <div className="ap-panel-heading"><div><h3 id="ap-heading">AP exams</h3><p>Add exams and the scores you received. Scores of 3–5 generally earn UC unit credit.</p></div><a href={AP_CREDIT_SOURCE} target="_blank" rel="noreferrer">UC AP credit table ↗</a></div>
+    <section className="ap-panel" aria-labelledby={showHeading ? "ap-heading" : undefined} aria-label={showHeading ? undefined : "AP exams"}>
+      <div className="ap-panel-heading">{showHeading && <div><h3 id="ap-heading">AP exams</h3><p>Add exams and the scores you received. Scores of 3–5 generally earn UC unit credit.</p></div>}<a href={AP_CREDIT_SOURCE} target="_blank" rel="noreferrer">UC AP credit table ↗</a></div>
       <div className="form-field ap-add-field"><label htmlFor="add-ap-exam">Add an AP exam</label><select id="add-ap-exam" value="" onChange={event => {
         const id = event.target.value;
         if (id) onChange({ ...results, [id]: { score: "" } });
