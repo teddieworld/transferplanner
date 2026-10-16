@@ -8,12 +8,14 @@ import AcademicYearSelector from "@/components/AcademicYearSelector";
 import CourseSelector from "@/components/CourseSelector";
 import APExamSelector from "@/components/APExamSelector";
 import TransferUnitSummary from "@/components/TransferUnitSummary";
+import SevenCoursePattern from "@/components/SevenCoursePattern";
 import MajorPlan from "@/components/MajorPlan";
 import Icon from "@/components/Icon";
 import { useRemoteData } from "@/lib/use-remote-data";
 import { STARTING_COLLEGE } from "@/lib/catalog-types";
 import type { CourseCatalogEntry } from "@/lib/catalog-types";
 import type { APResults } from "@/lib/ap-credit";
+import type { CoursePatternReviews } from "@/lib/seven-course-pattern";
 import { isGroupSatisfied } from "@/lib/planner";
 import type { MajorAgreement } from "@/lib/planner";
 
@@ -32,6 +34,7 @@ export default function Home() {
   const [completedCourses, setCompletedCourses] = useState<string[]>([]);
   const [earnedUnits, setEarnedUnits] = useState<Record<string, string>>({});
   const [apResults, setAPResults] = useState<APResults>({});
+  const [patternReviews, setPatternReviews] = useState<CoursePatternReviews>({});
   const workspace = useRef<HTMLElement>(null);
   const { data: courses, isLoading: isCatalogLoading, error: catalogError } = useRemoteData<CourseCatalogEntry[]>("/api/courses");
 
@@ -68,6 +71,7 @@ export default function Home() {
   function handleClearCourses() {
     setCompletedCourses([]);
     setEarnedUnits({});
+    setPatternReviews({});
   }
 
   const groups = selectedAgreement ? [...selectedAgreement.requiredGroups, ...(selectedAgreement.majorRequiredGroups ?? [])] : [];
@@ -139,6 +143,7 @@ export default function Home() {
             {activeStep !== 1 && <div className="plan-context" aria-label="Plan summary">
               {planReady && <div className="context-route"><div><span className="context-colleges">Mt. SAC <span aria-hidden="true">→</span> {campusName}</span><strong>{selectedMajor}</strong></div><span className="context-year">{selectedAcademicYear}</span><span className="context-course-count">{completedCourses.length} {completedCourses.length === 1 ? "course" : "courses"} selected</span></div>}
               <TransferUnitSummary courses={courses} isLoading={isCatalogLoading} error={catalogError} completedCourses={completedCourses} earnedUnits={earnedUnits} apResults={apResults} onEarnedUnitsChange={(code, value) => setEarnedUnits(previous => ({ ...previous, [code]: value }))} />
+              <SevenCoursePattern courses={courses} isLoading={isCatalogLoading} error={catalogError} completedCourses={completedCourses} earnedUnits={earnedUnits} apResults={apResults} reviews={patternReviews} onReviewsChange={setPatternReviews} />
               {activeStep === 3 && selectedAgreement && <div className="progress-card"><h3>{progressTitle}</h3>{checkableGroups.length > 0 && <div className="progress-track" role="progressbar" aria-label="Checkable preparation groups completed" aria-valuenow={completedGroups} aria-valuemin={0} aria-valuemax={checkableGroups.length}><span style={{ width: `${completedGroups / checkableGroups.length * 100}%` }} /></div>}<p>{selectedAgreement.kind === "informational" ? "This agreement contains program guidance." : "Based on groups with calculable completion rules."}</p></div>}
             </div>}
           </div>

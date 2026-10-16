@@ -140,15 +140,53 @@ counted twice. Precalculus earns no UC unit credit; Research and Seminar have
 no unit credit listed in the source table.
 
 The total separates coursework and AP units. Users can exclude an AP exam's
-units when its content duplicates college credit. AP/course duplication is
+credit when its content duplicates college credit. AP/course duplication is
 not inferred from course titles. AP scores do not automatically satisfy major
-requirements or the seven-course transfer pattern. Clear AP exams resets only
+requirements. Clear AP exams resets only
 AP entries; the course list's Clear all resets only courses and earned units.
 
 These entries last only while the page is open. Grades, repeats, equivalent or
 honors course credit limits, and other UC restrictions are not evaluated;
 IB/A-level credit and other colleges' coursework are not included. This is a
 planning estimate, not a determination of admission eligibility.
+
+### UC seven-course pattern estimate
+
+The Courses and Requirements steps also calculate the UC admission pattern:
+two UC-E courses, one UC-M course, and four UC-H/B/S courses across at least two
+of those three subject areas. This is separate from Berkeley's degree breadth
+and major requirements. The course-area snapshot is
+`data/uc-eligibility-mtsac-2025-2026.json`, captured from ASSIST's public UCTEL
+response for institution 62 and academic year 76 on October 15, 2026. ASSIST
+reported the 2026-2027 eligibility list unavailable and displayed 2025-2026.
+Its 277 verified mappings, source URL, footnotes and academic year are preserved.
+Courses missing from this snapshot remain unverified, including renamed courses
+whose exact current codes are absent; they are not inferred from department names.
+
+Expand the pattern's review section to enter each selected course's grade and
+confirm that the source approval applies to its completion term and that its
+listed credit conditions are met. C or better (including P/CR equivalent to C)
+and at least 3 earned semester units are required for a college course to count.
+Unknown grades, unconfirmed approvals and missing variable units do not count.
+Common regular/honors equivalents and explicit one/two-course family caps are
+limited automatically. Unit-based family caps conservatively bound course counts
+at one pattern course per 3 units. Ordering and other conditions in footnotes
+still require the user's review; completion dates are not evaluated.
+
+Qualifying AP scores use only the UC AP table's explicit E/M/H/B/S designations.
+One exam fills one slot, at most one English slot uses AP, and overlapping AP
+families count once. The calculator searches possible area assignments so an
+H/B course can supply either area, but cannot occupy both. Excluding an AP exam
+removes it from both units and this pattern. AP/course duplication still needs
+manual review. Selections, grades and confirmations last only while the page is
+open; clearing courses also clears their pattern reviews.
+
+To refresh the source, capture the official UCTEL response, then normalize it
+from the repository root (the parser currently validates the known college/year):
+
+```sh
+.venv/bin/python transferplanner/scraper/uc_eligibility_parser.py saved_uctel_response.json frontend/data/uc-eligibility-mtsac-2025-2026.json
+```
 
 Run `npm test` for planner and SQL-row conversion checks, `npm run lint`, and
 `npx tsc --noEmit` for static checks. All endpoints use parameterized SQL and

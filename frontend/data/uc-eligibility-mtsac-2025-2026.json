@@ -1,0 +1,2427 @@
+{
+  "institution": "Mount San Antonio College",
+  "academicYear": "2025-2026",
+  "sourceUrl": "https://assist.org/api/transferability/courses?institutionId=62&academicYearId=76&listType=UCTEL",
+  "checkedOn": "2026-10-15",
+  "availabilityNote": "ASSIST reported the 2026-2027 UCTEL list unavailable and displayed 2025-2026 instead.",
+  "courses": {
+    "AABS 1": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Black Studies",
+      "notes": [],
+      "creditGroup": "AABS 1"
+    },
+    "AHIS 1": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to the Visual Arts and Art History",
+      "notes": [],
+      "creditGroup": "AHIS 1"
+    },
+    "AHIS 10": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "A History of Greek and Roman Art and Architecture",
+      "notes": [],
+      "creditGroup": "AHIS 10"
+    },
+    "AHIS 11": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of African, Oceanic, and Native American Art",
+      "notes": [],
+      "creditGroup": "AHIS 11"
+    },
+    "AHIS 11H": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of African, Oceanic, and Native American Art - Honors",
+      "notes": [],
+      "creditGroup": "AHIS 11"
+    },
+    "AHIS 12": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Precolumbian Art and Architecture",
+      "notes": [],
+      "creditGroup": "AHIS 12"
+    },
+    "AHIS 12H": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Precolumbian Art and Architecture - Honors",
+      "notes": [],
+      "creditGroup": "AHIS 12"
+    },
+    "AHIS 13": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "World Art and Visual Culture",
+      "notes": [],
+      "creditGroup": "AHIS 13"
+    },
+    "AHIS 14": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "Rome: The Ancient City",
+      "notes": [],
+      "creditGroup": "AHIS 14"
+    },
+    "AHIS 15": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "Culture and Art of Pompeii",
+      "notes": [],
+      "creditGroup": "AHIS 15"
+    },
+    "AHIS 16": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Latin American Art and Visual Culture",
+      "notes": [],
+      "creditGroup": "AHIS 16"
+    },
+    "AHIS 16H": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Latin American Art and Visual Culture - Honors",
+      "notes": [],
+      "creditGroup": "AHIS 16"
+    },
+    "AHIS 3": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Women and Gender in Art",
+      "notes": [],
+      "creditGroup": "AHIS 3"
+    },
+    "AHIS 3H": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Women and Gender in Art - Honors",
+      "notes": [],
+      "creditGroup": "AHIS 3"
+    },
+    "AHIS 4": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Western Art: Prehistoric Through Gothic",
+      "notes": [],
+      "creditGroup": "AHIS 4"
+    },
+    "AHIS 4H": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Western Art: Prehistoric Through Gothic - Honors",
+      "notes": [],
+      "creditGroup": "AHIS 4"
+    },
+    "AHIS 5": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Western Art: Renaissance Through Modern",
+      "notes": [],
+      "creditGroup": "AHIS 5"
+    },
+    "AHIS 5H": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Western Art: Renaissance Through Modern - Honors",
+      "notes": [],
+      "creditGroup": "AHIS 5"
+    },
+    "AHIS 6": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Modern Art",
+      "notes": [],
+      "creditGroup": "AHIS 6"
+    },
+    "AHIS 6H": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Modern Art - Honors",
+      "notes": [],
+      "creditGroup": "AHIS 6"
+    },
+    "AHIS 7": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Global Contemporary Visual Culture",
+      "notes": [],
+      "creditGroup": "AHIS 7"
+    },
+    "AHIS 8": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Medieval Art and Architecture",
+      "notes": [],
+      "creditGroup": "AHIS 8"
+    },
+    "AHIS 9": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Asian Art and Architecture",
+      "notes": [],
+      "creditGroup": "AHIS 9"
+    },
+    "AMLA 1A": {
+      "areas": [
+        "UC-E"
+      ],
+      "title": "College Composition for Non-Native English Speakers",
+      "notes": [
+        "AMLA 1A, ENGL C1000 and ENGL C1000H combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "AMLA 1A"
+    },
+    "ANAT 10A": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Introductory Human Anatomy",
+      "notes": [
+        "ANAT 10A and ANAT 35 combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "ANAT 10A"
+    },
+    "ANAT 10B": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Introductory Human Physiology",
+      "notes": [
+        "ANAT 10B and ANAT 36 combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "ANAT 10B"
+    },
+    "ANAT 35": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Human Anatomy",
+      "notes": [
+        "ANAT 10A and ANAT 35 combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "ANAT 10A"
+    },
+    "ANAT 36": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Human Physiology",
+      "notes": [
+        "ANAT 10B and ANAT 36 combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "ANAT 10B"
+    },
+    "ANTH 1": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Biological Anthropology",
+      "notes": [],
+      "creditGroup": "ANTH 1"
+    },
+    "ANTH 15": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Peoples and Cultures of Latin America and the Caribbean",
+      "notes": [],
+      "creditGroup": "ANTH 15"
+    },
+    "ANTH 16": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Peoples and Cultures of South Asia",
+      "notes": [],
+      "creditGroup": "ANTH 16"
+    },
+    "ANTH 17": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Peoples and Cultures of the Middle East",
+      "notes": [],
+      "creditGroup": "ANTH 17"
+    },
+    "ANTH 1H": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Biological Anthropology - Honors",
+      "notes": [],
+      "creditGroup": "ANTH 1"
+    },
+    "ANTH 30": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "The Native American",
+      "notes": [],
+      "creditGroup": "ANTH 30"
+    },
+    "ANTH 4": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Archaeology",
+      "notes": [],
+      "creditGroup": "ANTH 4"
+    },
+    "ANTH 5": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Cultural Anthropology",
+      "notes": [],
+      "creditGroup": "ANTH 5"
+    },
+    "ANTH 5H": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Cultural Anthropology - Honors",
+      "notes": [],
+      "creditGroup": "ANTH 5"
+    },
+    "ANTH 6": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Language and Culture: An Introduction to Linguistic Anthropology",
+      "notes": [],
+      "creditGroup": "ANTH 6"
+    },
+    "APIS 1": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Asian American Studies",
+      "notes": [],
+      "creditGroup": "APIS 1"
+    },
+    "ARCH 250": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "World Architecture: Prehistory to the Middle Ages",
+      "notes": [],
+      "creditGroup": "ARCH 250"
+    },
+    "ARCH 251": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "World Architecture: Renaissance Through the Contemporary Era",
+      "notes": [],
+      "creditGroup": "ARCH 251"
+    },
+    "ARTB 1": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to the Visual Arts and Art History",
+      "notes": [],
+      "creditGroup": "ARTB 1"
+    },
+    "ASTR 5": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Introduction to Astronomy",
+      "notes": [],
+      "creditGroup": "ASTR 5"
+    },
+    "ASTR 5H": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Introduction to Astronomy - Honors",
+      "notes": [],
+      "creditGroup": "ASTR 5"
+    },
+    "ASTR 7": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Geology of the Solar System",
+      "notes": [],
+      "creditGroup": "ASTR 7"
+    },
+    "ASTR 8": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Introduction to Stars, Galaxies, and the Universe",
+      "notes": [],
+      "creditGroup": "ASTR 8"
+    },
+    "BIOL 1": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "General Biology",
+      "notes": [
+        "BIOL 1, BIOL 2 and BTNY 3 combined: maximum credit,  8 units",
+        "No credit for BIOL 1 if taken after  BIOL 4, BIOL 4H"
+      ],
+      "creditGroup": "BIOL 1"
+    },
+    "BIOL 2": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Plant and Animal Biology",
+      "notes": [
+        "BIOL 1, BIOL 2 and BTNY 3 combined: maximum credit,  8 units"
+      ],
+      "creditGroup": "BIOL 2"
+    },
+    "BIOL 20": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Marine Biology",
+      "notes": [],
+      "creditGroup": "BIOL 20"
+    },
+    "BIOL 25": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Conservation Biology",
+      "notes": [],
+      "creditGroup": "BIOL 25"
+    },
+    "BIOL 3": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Ecology and Field Biology",
+      "notes": [],
+      "creditGroup": "BIOL 3"
+    },
+    "BIOL 34": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Fundamentals of Genetics",
+      "notes": [],
+      "creditGroup": "BIOL 34"
+    },
+    "BIOL 4": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Biology for Majors",
+      "notes": [],
+      "creditGroup": "BIOL 4"
+    },
+    "BIOL 4H": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Biology for Majors - Honors",
+      "notes": [],
+      "creditGroup": "BIOL 4"
+    },
+    "BIOL 5": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Contemporary Health Issues",
+      "notes": [],
+      "creditGroup": "BIOL 5"
+    },
+    "BIOL 6": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Humans and the Environment",
+      "notes": [],
+      "creditGroup": "BIOL 6"
+    },
+    "BIOL 8": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Cell and Molecular Biology",
+      "notes": [],
+      "creditGroup": "BIOL 8"
+    },
+    "BTNY 3": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Plant Structures, Functions, and Diversity",
+      "notes": [
+        "BTNY 3, BIOL 1 and BIOL 2 combined: maximum credit,  8 units"
+      ],
+      "creditGroup": "BTNY 3"
+    },
+    "BUSC 17": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Applied Business Statistics",
+      "notes": [
+        "BUSC 17, PSYC 10, SOC 23, STAT C1000 and STAT C1000H combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "BUSC 17"
+    },
+    "BUSC 1A": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Principles of Macroeconomics",
+      "notes": [],
+      "creditGroup": "BUSC 1A"
+    },
+    "BUSC 1AH": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Principles of Macroeconomics - Honors",
+      "notes": [],
+      "creditGroup": "BUSC 1A"
+    },
+    "BUSC 1B": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Principles of Microeconomics",
+      "notes": [],
+      "creditGroup": "BUSC 1B"
+    },
+    "BUSC 1BH": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Principles of Microeconomics - Honors",
+      "notes": [],
+      "creditGroup": "BUSC 1B"
+    },
+    "BUSL 100": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "American Law and Democracy",
+      "notes": [],
+      "creditGroup": "BUSL 100"
+    },
+    "CHEM 10": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Chemistry for Allied Health Majors",
+      "notes": [
+        "No credit for CHEM 9, CHEM 10 or CHEM 40 if taken after  CHEM 50"
+      ],
+      "creditGroup": "CHEM 10"
+    },
+    "CHEM 20": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Introductory Organic and Biochemistry",
+      "notes": [
+        "No credit for CHEM 20 if taken after  CHEM 80"
+      ],
+      "creditGroup": "CHEM 20"
+    },
+    "CHEM 40": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Introduction to General Chemistry",
+      "notes": [
+        "No credit for CHEM 9, CHEM 10 or CHEM 40 if taken after  CHEM 50"
+      ],
+      "creditGroup": "CHEM 40"
+    },
+    "CHEM 50": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "General Chemistry I",
+      "notes": [],
+      "creditGroup": "CHEM 50"
+    },
+    "CHEM 50H": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "General Chemistry I - Honors",
+      "notes": [],
+      "creditGroup": "CHEM 50"
+    },
+    "CHEM 51": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "General Chemistry II",
+      "notes": [],
+      "creditGroup": "CHEM 51"
+    },
+    "CHEM 51H": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "General Chemistry II - Honors",
+      "notes": [],
+      "creditGroup": "CHEM 51"
+    },
+    "CHEM 55": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Chemistry for Engineers",
+      "notes": [],
+      "creditGroup": "CHEM 55"
+    },
+    "CHEM 80": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Organic Chemistry I",
+      "notes": [],
+      "creditGroup": "CHEM 80"
+    },
+    "CHEM 81": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Organic Chemistry II",
+      "notes": [],
+      "creditGroup": "CHEM 81"
+    },
+    "CHEM 9": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Chemistry of Everyday Life",
+      "notes": [
+        "No credit for CHEM 9, CHEM 10 or CHEM 40 if taken after  CHEM 50"
+      ],
+      "creditGroup": "CHEM 9"
+    },
+    "CHIN 3": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Intermediate Chinese",
+      "notes": [],
+      "creditGroup": "CHIN 3"
+    },
+    "CHIN 4": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Continuing Intermediate Chinese",
+      "notes": [],
+      "creditGroup": "CHIN 4"
+    },
+    "COMM 26H": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Interpersonal Communication - Honors",
+      "notes": [],
+      "creditGroup": "COMM 26H"
+    },
+    "COMM 7": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Intercultural Communication",
+      "notes": [],
+      "creditGroup": "COMM 7"
+    },
+    "COMM 7H": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Intercultural Communication - Honors",
+      "notes": [],
+      "creditGroup": "COMM 7"
+    },
+    "DN-T 20": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History and Appreciation of Dance",
+      "notes": [],
+      "creditGroup": "DN-T 20"
+    },
+    "ENGL 1B": {
+      "areas": [
+        "UC-E"
+      ],
+      "title": "English - Introduction to Literary Types",
+      "notes": [],
+      "creditGroup": "ENGL 1B"
+    },
+    "ENGL 1BH": {
+      "areas": [
+        "UC-E"
+      ],
+      "title": "English - Introduction to Literary Types - Honors",
+      "notes": [],
+      "creditGroup": "ENGL 1B"
+    },
+    "ENGL C1000": {
+      "areas": [
+        "UC-E"
+      ],
+      "title": "Academic Reading and Writing",
+      "notes": [
+        "AMLA 1A, ENGL C1000 and ENGL C1000H combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "AMLA 1A"
+    },
+    "ENGL C1000H": {
+      "areas": [
+        "UC-E"
+      ],
+      "title": "Academic Reading and Writing - Honors",
+      "notes": [
+        "AMLA 1A, ENGL C1000 and ENGL C1000H combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "AMLA 1A"
+    },
+    "ENGL C1001": {
+      "areas": [
+        "UC-E"
+      ],
+      "title": "Critical Thinking and Writing",
+      "notes": [],
+      "creditGroup": "ENGL C1001"
+    },
+    "ENGL C1001H": {
+      "areas": [
+        "UC-E"
+      ],
+      "title": "Critical Thinking and Writing - Honors",
+      "notes": [],
+      "creditGroup": "ENGL C1001"
+    },
+    "ENGR 285": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Differential Equations and Linear Algebra for Engineers",
+      "notes": [
+        "Credit for either  ENGR 285 or MATH 285 or MATH 260 and MATH 290"
+      ],
+      "creditGroup": "ENGR 285"
+    },
+    "ETHS 1": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Ethnic Studies",
+      "notes": [],
+      "creditGroup": "ETHS 1"
+    },
+    "ETHS 2": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Race and Racism in Education",
+      "notes": [],
+      "creditGroup": "ETHS 2"
+    },
+    "FASH 14": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Dress, Culture, and Identity",
+      "notes": [],
+      "creditGroup": "FASH 14"
+    },
+    "FASH 9": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Fashion",
+      "notes": [],
+      "creditGroup": "FASH 9"
+    },
+    "FRCH 3": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Intermediate French",
+      "notes": [],
+      "creditGroup": "FRCH 3"
+    },
+    "FRCH 4": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Continuing Intermediate French",
+      "notes": [],
+      "creditGroup": "FRCH 4"
+    },
+    "FRCH 60": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "French Culture Through Cinema",
+      "notes": [],
+      "creditGroup": "FRCH 60"
+    },
+    "GEOG 1": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Physical Geography",
+      "notes": [],
+      "creditGroup": "GEOG 1"
+    },
+    "GEOG 1H": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Physical Geography  - Honors",
+      "notes": [],
+      "creditGroup": "GEOG 1"
+    },
+    "GEOG 2": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Human Geography",
+      "notes": [],
+      "creditGroup": "GEOG 2"
+    },
+    "GEOG 2H": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Human Geography - Honors",
+      "notes": [],
+      "creditGroup": "GEOG 2"
+    },
+    "GEOG 30": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Geography of California",
+      "notes": [],
+      "creditGroup": "GEOG 30"
+    },
+    "GEOG 5": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "World Regional Geography",
+      "notes": [],
+      "creditGroup": "GEOG 5"
+    },
+    "GEOG 8": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Urban Geography",
+      "notes": [],
+      "creditGroup": "GEOG 8"
+    },
+    "GEOL 1": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Physical Geology",
+      "notes": [],
+      "creditGroup": "GEOL 1"
+    },
+    "GEOL 10": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Natural Disasters",
+      "notes": [],
+      "creditGroup": "GEOL 10"
+    },
+    "GEOL 2": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Historical Geology",
+      "notes": [],
+      "creditGroup": "GEOL 2"
+    },
+    "GEOL 30": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Global Climate Change",
+      "notes": [],
+      "creditGroup": "GEOL 30"
+    },
+    "GEOL 7": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Geology of California",
+      "notes": [],
+      "creditGroup": "GEOL 7"
+    },
+    "GEOL 8": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Earth Science",
+      "notes": [
+        "No credit if taken after a college level course in Astronomy, Geology, Meteorology or Oceanography"
+      ],
+      "creditGroup": "GEOL 8"
+    },
+    "GEOL 8H": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Earth Science - Honors",
+      "notes": [
+        "No credit if taken after a college level course in Astronomy, Geology, Meteorology or Oceanography"
+      ],
+      "creditGroup": "GEOL 8"
+    },
+    "GEOL 9": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Environmental Geology",
+      "notes": [],
+      "creditGroup": "GEOL 9"
+    },
+    "GERM 3": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Intermediate German",
+      "notes": [],
+      "creditGroup": "GERM 3"
+    },
+    "GERM 60": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "German Culture Through Cinema",
+      "notes": [],
+      "creditGroup": "GERM 60"
+    },
+    "HIST 1": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of the United States",
+      "notes": [
+        "HIST 1, HIST 7, HIST 7H, HIST 8 and HIST 8H combined: maximum credit,  2 courses"
+      ],
+      "creditGroup": "HIST 1"
+    },
+    "HIST 10": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Asia from Pre-History to Early Modern",
+      "notes": [],
+      "creditGroup": "HIST 10"
+    },
+    "HIST 10H": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Asia from Pre-History to Early Modern - Honors",
+      "notes": [],
+      "creditGroup": "HIST 10"
+    },
+    "HIST 11": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Early Modern to Modern Asia",
+      "notes": [],
+      "creditGroup": "HIST 11"
+    },
+    "HIST 11H": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Early Modern to Modern Asia - Honors",
+      "notes": [],
+      "creditGroup": "HIST 11"
+    },
+    "HIST 16": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "The Wild West - A History, 1800-1890",
+      "notes": [],
+      "creditGroup": "HIST 16"
+    },
+    "HIST 18": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Latin America",
+      "notes": [],
+      "creditGroup": "HIST 18"
+    },
+    "HIST 19": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Mexico",
+      "notes": [],
+      "creditGroup": "HIST 19"
+    },
+    "HIST 3": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "World History: Prehistoric to Early Modern",
+      "notes": [],
+      "creditGroup": "HIST 3"
+    },
+    "HIST 30": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of African Americans, 1619-1877",
+      "notes": [],
+      "creditGroup": "HIST 30"
+    },
+    "HIST 31": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of African Americans, 1877-Present",
+      "notes": [],
+      "creditGroup": "HIST 31"
+    },
+    "HIST 35": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Africa",
+      "notes": [],
+      "creditGroup": "HIST 35"
+    },
+    "HIST 36": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "Women in American History",
+      "notes": [],
+      "creditGroup": "HIST 36"
+    },
+    "HIST 39": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "California History",
+      "notes": [],
+      "creditGroup": "HIST 39"
+    },
+    "HIST 3H": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "World History: Prehistoric to Early Modern - Honors",
+      "notes": [],
+      "creditGroup": "HIST 3"
+    },
+    "HIST 4": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "World History: Early Modern to the Present",
+      "notes": [],
+      "creditGroup": "HIST 4"
+    },
+    "HIST 40": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Mexican Americans",
+      "notes": [],
+      "creditGroup": "HIST 40"
+    },
+    "HIST 44": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Native Americans",
+      "notes": [],
+      "creditGroup": "HIST 44"
+    },
+    "HIST 4H": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "World History: Early Modern to the Present - Honors",
+      "notes": [],
+      "creditGroup": "HIST 4"
+    },
+    "HIST 7": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of the United States to 1877",
+      "notes": [
+        "HIST 1, HIST 7, HIST 7H, HIST 8 and HIST 8H combined: maximum credit,  2 courses"
+      ],
+      "creditGroup": "HIST 7"
+    },
+    "HIST 7H": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of the United States to 1877 - Honors",
+      "notes": [
+        "HIST 1, HIST 7, HIST 7H, HIST 8 and HIST 8H combined: maximum credit,  2 courses"
+      ],
+      "creditGroup": "HIST 7"
+    },
+    "HIST 8": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of the United States from 1865",
+      "notes": [
+        "HIST 1, HIST 7, HIST 7H, HIST 8 and HIST 8H combined: maximum credit,  2 courses"
+      ],
+      "creditGroup": "HIST 8"
+    },
+    "HIST 8H": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of the United States from 1865 - Honors",
+      "notes": [
+        "HIST 1, HIST 7, HIST 7H, HIST 8 and HIST 8H combined: maximum credit,  2 courses"
+      ],
+      "creditGroup": "HIST 8"
+    },
+    "HIST 9": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "History of Asian Americans and Pacific Islanders",
+      "notes": [],
+      "creditGroup": "HIST 9"
+    },
+    "HUMA 1": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Humanities and the Human Experience",
+      "notes": [],
+      "creditGroup": "HUMA 1"
+    },
+    "HUMA 1H": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Humanities and the Human Experience - Honors",
+      "notes": [],
+      "creditGroup": "HUMA 1"
+    },
+    "ITAL 3": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Intermediate Italian",
+      "notes": [],
+      "creditGroup": "ITAL 3"
+    },
+    "ITAL 4": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Continuing Intermediate Italian",
+      "notes": [],
+      "creditGroup": "ITAL 4"
+    },
+    "ITAL 60": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Italian Culture Through Cinema",
+      "notes": [],
+      "creditGroup": "ITAL 60"
+    },
+    "ITAL 61": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Italian Culture Through Food",
+      "notes": [],
+      "creditGroup": "ITAL 61"
+    },
+    "JAPN 3": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Intermediate Japanese",
+      "notes": [],
+      "creditGroup": "JAPN 3"
+    },
+    "JAPN 4": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Continuing Intermediate Japanese",
+      "notes": [],
+      "creditGroup": "JAPN 4"
+    },
+    "JAPN 5": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Advanced Japanese",
+      "notes": [],
+      "creditGroup": "JAPN 5"
+    },
+    "JAPN 62": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Japanese Culture Through Anime and Manga",
+      "notes": [],
+      "creditGroup": "JAPN 62"
+    },
+    "KORE 4": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Continuing Intermediate Korean",
+      "notes": [],
+      "creditGroup": "KORE 4"
+    },
+    "KORE 60": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Korean Culture Through Cinema",
+      "notes": [],
+      "creditGroup": "KORE 60"
+    },
+    "LCAS 1": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Chicanx Studies",
+      "notes": [],
+      "creditGroup": "LCAS 1"
+    },
+    "LING 2": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Languages, Gender, and Power",
+      "notes": [],
+      "creditGroup": "LING 2"
+    },
+    "LING 3": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Languages, Cultures, and Writing in East Asia",
+      "notes": [],
+      "creditGroup": "LING 3"
+    },
+    "LIT 1": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Early American Literature",
+      "notes": [],
+      "creditGroup": "LIT 1"
+    },
+    "LIT 10": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Survey of Shakespeare",
+      "notes": [],
+      "creditGroup": "LIT 10"
+    },
+    "LIT 11A": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "World Literature to 1650",
+      "notes": [],
+      "creditGroup": "LIT 11A"
+    },
+    "LIT 11B": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "World Literature from 1650",
+      "notes": [],
+      "creditGroup": "LIT 11B"
+    },
+    "LIT 14": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Modern Poetry",
+      "notes": [],
+      "creditGroup": "LIT 14"
+    },
+    "LIT 15": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Cinema",
+      "notes": [],
+      "creditGroup": "LIT 15"
+    },
+    "LIT 2": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Modern American Literature",
+      "notes": [],
+      "creditGroup": "LIT 2"
+    },
+    "LIT 20": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "African American Literature",
+      "notes": [],
+      "creditGroup": "LIT 20"
+    },
+    "LIT 25": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Contemporary Mexican American Literature",
+      "notes": [],
+      "creditGroup": "LIT 25"
+    },
+    "LIT 3": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Multicultural American Literature",
+      "notes": [],
+      "creditGroup": "LIT 3"
+    },
+    "LIT 36": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Mythology",
+      "notes": [],
+      "creditGroup": "LIT 36"
+    },
+    "LIT 46": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "The Bible as Literature: Old Testament",
+      "notes": [],
+      "creditGroup": "LIT 46"
+    },
+    "LIT 47": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "The Bible as Literature: New Testament",
+      "notes": [],
+      "creditGroup": "LIT 47"
+    },
+    "LIT 6A": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Survey of English Literature up to 1800",
+      "notes": [],
+      "creditGroup": "LIT 6A"
+    },
+    "LIT 6B": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Survey of English Literature Since 1800",
+      "notes": [],
+      "creditGroup": "LIT 6B"
+    },
+    "MATH 100": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Survey of College Mathematics",
+      "notes": [],
+      "creditGroup": "MATH 100"
+    },
+    "MATH 120": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Finite Mathematics",
+      "notes": [],
+      "creditGroup": "MATH 120"
+    },
+    "MATH 130": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "College Algebra",
+      "notes": [
+        "All College Algebra and Pre-Calculus courses limited to a single course with a maximum of 5 semester / 7.5 quarter units"
+      ],
+      "creditGroup": "MATH 130"
+    },
+    "MATH 135": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Precalculus Algebra",
+      "notes": [
+        "All College Algebra and Pre-Calculus courses limited to a single course with a maximum of 5 semester / 7.5 quarter units"
+      ],
+      "creditGroup": "MATH 135"
+    },
+    "MATH 140": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Calculus for Business",
+      "notes": [
+        "MATH 140 and MATH 180 combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "MATH 140"
+    },
+    "MATH 160": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Precalculus Mathematics",
+      "notes": [
+        "All College Algebra and Pre-Calculus courses limited to a single course with a maximum of 5 semester / 7.5 quarter units"
+      ],
+      "creditGroup": "MATH 160"
+    },
+    "MATH 175": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Precalculus and Trigonometry",
+      "notes": [
+        "All College Algebra and Pre-Calculus courses limited to a single course with a maximum of 5 semester / 7.5 quarter units"
+      ],
+      "creditGroup": "MATH 175"
+    },
+    "MATH 180": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Calculus and Analytic Geometry I",
+      "notes": [
+        "MATH 140 and MATH 180 combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "MATH 140"
+    },
+    "MATH 181": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Calculus and Analytic Geometry II",
+      "notes": [],
+      "creditGroup": "MATH 181"
+    },
+    "MATH 260": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Linear Algebra",
+      "notes": [
+        "Credit for either  ENGR 285 or MATH 285 or MATH 260 and MATH 290"
+      ],
+      "creditGroup": "MATH 260"
+    },
+    "MATH 280": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Calculus and Analytic Geometry III",
+      "notes": [],
+      "creditGroup": "MATH 280"
+    },
+    "MATH 285": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Linear Algebra and Differential Equations",
+      "notes": [
+        "Credit for either  ENGR 285 or MATH 285 or MATH 260 and MATH 290"
+      ],
+      "creditGroup": "MATH 285"
+    },
+    "MATH 290": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Differential Equations",
+      "notes": [
+        "Credit for either  ENGR 285 or MATH 285 or MATH 260 and MATH 290"
+      ],
+      "creditGroup": "MATH 290"
+    },
+    "METO 3": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Weather and the Atmospheric Environment",
+      "notes": [],
+      "creditGroup": "METO 3"
+    },
+    "MICR 1": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Principles of Microbiology",
+      "notes": [
+        "MICR 1 and MICR 22 combined: maximum credit,  5 units"
+      ],
+      "creditGroup": "MICR 1"
+    },
+    "MICR 22": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Microbiology",
+      "notes": [
+        "MICR 1 and MICR 22 combined: maximum credit,  5 units"
+      ],
+      "creditGroup": "MICR 22"
+    },
+    "MICR 26": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Introduction to Immunology",
+      "notes": [],
+      "creditGroup": "MICR 26"
+    },
+    "MUS 100": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Western Classical Music",
+      "notes": [],
+      "creditGroup": "MUS 100"
+    },
+    "MUS 100H": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Western Classical Music - Honors",
+      "notes": [],
+      "creditGroup": "MUS 100"
+    },
+    "MUS 101": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Women in Music",
+      "notes": [],
+      "creditGroup": "MUS 101"
+    },
+    "MUS 102": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Film Music Appreciation",
+      "notes": [],
+      "creditGroup": "MUS 102"
+    },
+    "MUS 103": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Music and Culture of Hip Hop",
+      "notes": [],
+      "creditGroup": "MUS 103"
+    },
+    "MUS 103H": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Music and Culture of Hip-Hop - Honors",
+      "notes": [],
+      "creditGroup": "MUS 103"
+    },
+    "MUS 105": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Western Music History I: Antiquity to 1750",
+      "notes": [],
+      "creditGroup": "MUS 105"
+    },
+    "MUS 106": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Western Music History II: 1750 to Present",
+      "notes": [],
+      "creditGroup": "MUS 106"
+    },
+    "MUS 12": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Jazz",
+      "notes": [],
+      "creditGroup": "MUS 12"
+    },
+    "MUS 14A": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "World Music",
+      "notes": [],
+      "creditGroup": "MUS 14A"
+    },
+    "MUS 14B": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "American Folk Music",
+      "notes": [],
+      "creditGroup": "MUS 14B"
+    },
+    "MUS 14BH": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "American Folk Music - Honors",
+      "notes": [],
+      "creditGroup": "MUS 14B"
+    },
+    "MUS 15": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Rock Music History and Appreciation",
+      "notes": [],
+      "creditGroup": "MUS 15"
+    },
+    "MUS 15H": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Rock Music History and Appreciation - Honors",
+      "notes": [],
+      "creditGroup": "MUS 15"
+    },
+    "NAIS 1": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Native American Studies",
+      "notes": [],
+      "creditGroup": "NAIS 1"
+    },
+    "OCEA 10": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Introduction to Oceanography",
+      "notes": [],
+      "creditGroup": "OCEA 10"
+    },
+    "OCEA 10H": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Introduction to Oceanography - Honors",
+      "notes": [],
+      "creditGroup": "OCEA 10"
+    },
+    "PHIL 12": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Ethics",
+      "notes": [],
+      "creditGroup": "PHIL 12"
+    },
+    "PHIL 12H": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Ethics - Honors",
+      "notes": [],
+      "creditGroup": "PHIL 12"
+    },
+    "PHIL 15": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Major World Religions",
+      "notes": [],
+      "creditGroup": "PHIL 15"
+    },
+    "PHIL 15H": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Major World Religions - Honors",
+      "notes": [],
+      "creditGroup": "PHIL 15"
+    },
+    "PHIL 16": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to the Philosophy of Religion",
+      "notes": [],
+      "creditGroup": "PHIL 16"
+    },
+    "PHIL 16H": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Philosophy of Religion - Honors",
+      "notes": [],
+      "creditGroup": "PHIL 16"
+    },
+    "PHIL 20A": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Ancient Philosophy",
+      "notes": [],
+      "creditGroup": "PHIL 20A"
+    },
+    "PHIL 20AH": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Ancient Philosophy - Honors ",
+      "notes": [],
+      "creditGroup": "PHIL 20A"
+    },
+    "PHIL 20B": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Modern Philosophy",
+      "notes": [],
+      "creditGroup": "PHIL 20B"
+    },
+    "PHIL 20BH": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Modern Philosophy - Honors ",
+      "notes": [],
+      "creditGroup": "PHIL 20B"
+    },
+    "PHIL 3": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Logic",
+      "notes": [],
+      "creditGroup": "PHIL 3"
+    },
+    "PHIL 5": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Philosophy",
+      "notes": [],
+      "creditGroup": "PHIL 5"
+    },
+    "PHIL 5H": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Philosophy - Honors",
+      "notes": [],
+      "creditGroup": "PHIL 5"
+    },
+    "PHIL 9": {
+      "areas": [
+        "UC-E"
+      ],
+      "title": "Critical Thinking and Writing",
+      "notes": [],
+      "creditGroup": "PHIL 9"
+    },
+    "PHIL 9H": {
+      "areas": [
+        "UC-E"
+      ],
+      "title": "Critical Thinking and Writing - Honors",
+      "notes": [],
+      "creditGroup": "PHIL 9"
+    },
+    "PHOT 15": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Photography",
+      "notes": [],
+      "creditGroup": "PHOT 15"
+    },
+    "PHSC 3": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Energy Science",
+      "notes": [],
+      "creditGroup": "PHSC 3"
+    },
+    "PHYS 1": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Physics",
+      "notes": [
+        "No credit for PHYS 1 if taken after  PHYS 4A"
+      ],
+      "creditGroup": "PHYS 1"
+    },
+    "PHYS 2AG": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "General Physics",
+      "notes": [
+        "PHYS 2AG, PHYS 2BG or PHYS 4A, PHYS 4B, PHYS 4C combined: maximum credit, 1 series -  deduct credit for duplication of topics"
+      ],
+      "creditGroup": "PHYS 2AG"
+    },
+    "PHYS 2BG": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "General Physics",
+      "notes": [
+        "PHYS 2AG, PHYS 2BG or PHYS 4A, PHYS 4B, PHYS 4C combined: maximum credit, 1 series -  deduct credit for duplication of topics"
+      ],
+      "creditGroup": "PHYS 2BG"
+    },
+    "PHYS 4A": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Engineering Physics",
+      "notes": [
+        "PHYS 2AG, PHYS 2BG or PHYS 4A, PHYS 4B, PHYS 4C combined: maximum credit, 1 series -  deduct credit for duplication of topics"
+      ],
+      "creditGroup": "PHYS 4A"
+    },
+    "PHYS 4B": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Engineering Physics",
+      "notes": [
+        "PHYS 2AG, PHYS 2BG or PHYS 4A, PHYS 4B, PHYS 4C combined: maximum credit, 1 series -  deduct credit for duplication of topics"
+      ],
+      "creditGroup": "PHYS 4B"
+    },
+    "PHYS 4C": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Engineering Physics",
+      "notes": [
+        "PHYS 2AG, PHYS 2BG or PHYS 4A, PHYS 4B, PHYS 4C combined: maximum credit, 1 series -  deduct credit for duplication of topics"
+      ],
+      "creditGroup": "PHYS 4C"
+    },
+    "POLS 10": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Environmental Politics",
+      "notes": [],
+      "creditGroup": "POLS 10"
+    },
+    "POLS 2": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Comparative Politics",
+      "notes": [],
+      "creditGroup": "POLS 2"
+    },
+    "POLS 25": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Latino Politics in the United States",
+      "notes": [],
+      "creditGroup": "POLS 25"
+    },
+    "POLS 35": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "African American/Black Politics",
+      "notes": [],
+      "creditGroup": "POLS 35"
+    },
+    "POLS 5": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "Political Theory I - Ancient to Contemporary",
+      "notes": [],
+      "creditGroup": "POLS 5"
+    },
+    "POLS 7": {
+      "areas": [
+        "UC-B",
+        "UC-H"
+      ],
+      "title": "Political Theory II - Early Modern to Contemporary",
+      "notes": [],
+      "creditGroup": "POLS 7"
+    },
+    "POLS 9": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "International Relations",
+      "notes": [],
+      "creditGroup": "POLS 9"
+    },
+    "POLS C1000": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "American Government and Politics",
+      "notes": [],
+      "creditGroup": "POLS C1000"
+    },
+    "POLS C1000H": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "American Government and Politics - Honors",
+      "notes": [],
+      "creditGroup": "POLS C1000"
+    },
+    "PSYC 10": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Statistics for the Behavioral Sciences",
+      "notes": [
+        "BUSC 17, PSYC 10, SOC 23, STAT C1000 and STAT C1000H combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "BUSC 17"
+    },
+    "PSYC 14": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Developmental Psychology",
+      "notes": [
+        "CHLD 10, CHLD 10H, CHLD 11, PSYC 14, PSYC 14H and SOC 15 combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "PSYC 14"
+    },
+    "PSYC 14H": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Developmental Psychology - Honors",
+      "notes": [
+        "CHLD 10, CHLD 10H, CHLD 11, PSYC 14, PSYC 14H and SOC 15 combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "PSYC 14"
+    },
+    "PSYC 15": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Child Psychology",
+      "notes": [],
+      "creditGroup": "PSYC 15"
+    },
+    "PSYC 19": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Abnormal Psychology",
+      "notes": [],
+      "creditGroup": "PSYC 19"
+    },
+    "PSYC 1B": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Biological Psychology",
+      "notes": [],
+      "creditGroup": "PSYC 1B"
+    },
+    "PSYC 1BH": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Biological Psychology - Honors",
+      "notes": [],
+      "creditGroup": "PSYC 1B"
+    },
+    "PSYC 20": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Social Psychology",
+      "notes": [],
+      "creditGroup": "PSYC 20"
+    },
+    "PSYC 25": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "The Psychology of Women",
+      "notes": [],
+      "creditGroup": "PSYC 25"
+    },
+    "PSYC 26": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Psychology of Sexuality",
+      "notes": [],
+      "creditGroup": "PSYC 26"
+    },
+    "PSYC 3": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Research Methods in Psychology",
+      "notes": [],
+      "creditGroup": "PSYC 3"
+    },
+    "PSYC 3H": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Research Methods in Psychology - Honors",
+      "notes": [],
+      "creditGroup": "PSYC 3"
+    },
+    "PSYC C1000": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Psychology",
+      "notes": [],
+      "creditGroup": "PSYC C1000"
+    },
+    "PSYC C1000H": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Psychology - Honors",
+      "notes": [],
+      "creditGroup": "PSYC C1000"
+    },
+    "PUBH 20": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Western Medicine",
+      "notes": [],
+      "creditGroup": "PUBH 20"
+    },
+    "PUBH 22": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Introduction to Epidemiology",
+      "notes": [],
+      "creditGroup": "PUBH 22"
+    },
+    "PUBH 25": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Public Health and Social Justice",
+      "notes": [],
+      "creditGroup": "PUBH 25"
+    },
+    "PUBH 26": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Global Public Health",
+      "notes": [],
+      "creditGroup": "PUBH 26"
+    },
+    "PUBH 27": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Public Health and the Environment",
+      "notes": [],
+      "creditGroup": "PUBH 27"
+    },
+    "PUBH 28": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Public Health and Bioethics",
+      "notes": [],
+      "creditGroup": "PUBH 28"
+    },
+    "SIGN 104": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "American Sign Language 4",
+      "notes": [],
+      "creditGroup": "SIGN 104"
+    },
+    "SIGN 202": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Cultures in the Deaf Community",
+      "notes": [],
+      "creditGroup": "SIGN 202"
+    },
+    "SOC 1": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Sociology",
+      "notes": [],
+      "creditGroup": "SOC 1"
+    },
+    "SOC 110": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Social Justice",
+      "notes": [],
+      "creditGroup": "SOC 110"
+    },
+    "SOC 130": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to LGBTQ Studies",
+      "notes": [],
+      "creditGroup": "SOC 130"
+    },
+    "SOC 14": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Marriage and the Family",
+      "notes": [],
+      "creditGroup": "SOC 14"
+    },
+    "SOC 14H": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Marriage and the Family - Honors",
+      "notes": [],
+      "creditGroup": "SOC 14"
+    },
+    "SOC 160": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Public Health and Social Justice",
+      "notes": [],
+      "creditGroup": "SOC 160"
+    },
+    "SOC 1H": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Sociology - Honors",
+      "notes": [],
+      "creditGroup": "SOC 1"
+    },
+    "SOC 2": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Contemporary Social Problems",
+      "notes": [],
+      "creditGroup": "SOC 2"
+    },
+    "SOC 20": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Race and Ethnicity",
+      "notes": [],
+      "creditGroup": "SOC 20"
+    },
+    "SOC 20H": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Race and Ethnicity - Honors",
+      "notes": [],
+      "creditGroup": "SOC 20"
+    },
+    "SOC 23": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Introduction to Statistics in Sociology and Social Sciences",
+      "notes": [
+        "BUSC 17, PSYC 10, SOC 23, STAT C1000 and STAT C1000H combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "BUSC 17"
+    },
+    "SOC 2H": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Contemporary Social Problems - Honors",
+      "notes": [],
+      "creditGroup": "SOC 2"
+    },
+    "SOC 40": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Sex and Gender Roles",
+      "notes": [],
+      "creditGroup": "SOC 40"
+    },
+    "SOC 5": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Criminology",
+      "notes": [],
+      "creditGroup": "SOC 5"
+    },
+    "SOC 5H": {
+      "areas": [
+        "UC-B"
+      ],
+      "title": "Introduction to Criminology - Honors",
+      "notes": [],
+      "creditGroup": "SOC 5"
+    },
+    "SPAN 3": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Intermediate Spanish",
+      "notes": [],
+      "creditGroup": "SPAN 3"
+    },
+    "SPAN 4": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Continuing Intermediate Spanish",
+      "notes": [],
+      "creditGroup": "SPAN 4"
+    },
+    "SPAN 60": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Latin American Culture Through Cinema",
+      "notes": [],
+      "creditGroup": "SPAN 60"
+    },
+    "STAT C1000": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Introduction to Statistics",
+      "notes": [
+        "BUSC 17, PSYC 10, SOC 23, STAT C1000 and STAT C1000H combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "BUSC 17"
+    },
+    "STAT C1000H": {
+      "areas": [
+        "UC-M"
+      ],
+      "title": "Introduction to Statistics -  Honors",
+      "notes": [
+        "BUSC 17, PSYC 10, SOC 23, STAT C1000 and STAT C1000H combined: maximum credit,  1 course"
+      ],
+      "creditGroup": "BUSC 17"
+    },
+    "THTR 10": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "History of Theater Arts",
+      "notes": [],
+      "creditGroup": "THTR 10"
+    },
+    "THTR 9": {
+      "areas": [
+        "UC-H"
+      ],
+      "title": "Introduction to Theater Arts",
+      "notes": [],
+      "creditGroup": "THTR 9"
+    },
+    "ZOOL 3": {
+      "areas": [
+        "UC-S"
+      ],
+      "title": "Fundamentals of Zoology",
+      "notes": [],
+      "creditGroup": "ZOOL 3"
+    }
+  },
+  "limits": [
+    {
+      "codes": [
+        "AMLA 1A",
+        "ENGL C1000",
+        "ENGL C1000H"
+      ],
+      "maxCourses": 1
+    },
+    {
+      "codes": [
+        "ANAT 10A",
+        "ANAT 35"
+      ],
+      "maxCourses": 1
+    },
+    {
+      "codes": [
+        "ANAT 10B",
+        "ANAT 36"
+      ],
+      "maxCourses": 1
+    },
+    {
+      "codes": [
+        "BIOL 1",
+        "BIOL 2",
+        "BTNY 3"
+      ],
+      "maxCourses": 2
+    },
+    {
+      "codes": [
+        "BUSC 17",
+        "PSYC 10",
+        "SOC 23",
+        "STAT C1000",
+        "STAT C1000H"
+      ],
+      "maxCourses": 1
+    },
+    {
+      "codes": [
+        "PSYC 14",
+        "PSYC 14H"
+      ],
+      "maxCourses": 1
+    },
+    {
+      "codes": [
+        "HIST 1",
+        "HIST 7",
+        "HIST 7H",
+        "HIST 8",
+        "HIST 8H"
+      ],
+      "maxCourses": 2
+    },
+    {
+      "codes": [
+        "MATH 140",
+        "MATH 180"
+      ],
+      "maxCourses": 1
+    },
+    {
+      "codes": [
+        "MICR 1",
+        "MICR 22"
+      ],
+      "maxCourses": 1
+    }
+  ]
+}

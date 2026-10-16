@@ -7,6 +7,81 @@ import type { Requirement } from "../lib/planner";
 import type { CourseCatalogEntry } from "../lib/catalog-types";
 import { getTransferUnitProgress } from "../lib/transfer-units";
 import { AP_EXAMS, getAPCredit, getAPExamUnits } from "../lib/ap-credit";
+import { getSevenCourseProgress } from "../lib/seven-course-pattern";
+import type { CoursePatternReviews } from "../lib/seven-course-pattern";
+
+function patternReviews(codes: string[]): CoursePatternReviews {
+  return Object.fromEntries(codes.map(code => [code, { grade: "C", approvalConfirmed: true }]));
+}
+
+test("seven-course pattern requires grades, approval confirmation, and at least 3 earned course units", () => {
+  const courses = [unitCourse("MATH 180", 2, 5)];
+  assert.equal(getSevenCourseProgress(courses, ["MATH 180"], {}, {}, {}).math, 0);
+  for (const grade of ["C-", "D", "F", "NP", "W"]) {
+    assert.equal(getSevenCourseProgress(courses, ["MATH 180"], { "MATH 180": "4" }, { "MATH 180": { grade, approvalConfirmed: true } }, {}).math, 0);
+  }
+  assert.equal(getSevenCourseProgress(courses, ["MATH 180"], { "MATH 180": "2.5" }, patternReviews(["MATH 180"]), {}).math, 0);
+  assert.equal(getSevenCourseProgress(courses, ["MATH 180"], { "MATH 180": "3" }, { "MATH 180": { grade: "P", approvalConfirmed: true } }, {}).math, 1);
+  assert.equal(getSevenCourseProgress(courses, ["MATH 180"], { "MATH 180": "4" }, { "MATH 180": { grade: "A", approvalConfirmed: false } }, {}).pendingCount, 1);
+});
+
+test("a complete pattern uses seven distinct approved courses and handles flexible H/B assignments", () => {
+  const codes = ["ENGL C1000", "ENGL C1001", "MATH 180", "HIST 3", "HIST 4", "SOC 1", "BIOL 1"];
+  const courses = codes.map(code => unitCourse(code, 3));
+  const result = getSevenCourseProgress(courses, [...codes, "HIST 3"], {}, patternReviews(codes), {});
+  assert.equal(result.complete, true);
+  assert.equal(result.english, 2);
+  assert.equal(result.math, 1);
+  assert.equal(result.breadth, 4);
+  assert.ok(result.areaCount >= 2);
+  assert.equal(new Set(result.matches.map(m => m.id)).size, 7);
+});
+
+test("four breadth courses in one area do not complete the seven-course pattern", () => {
+  const codes = ["ENGL C1000", "ENGL C1001", "MATH 180"];
+  const courses = codes.map(code => unitCourse(code, 3));
+  const ap = { chinese: { score: "3" }, french: { score: "4" }, german: { score: "5" }, italian: { score: "3" } };
+  const oneArea = getSevenCourseProgress(courses, codes, {}, patternReviews(codes), ap);
+  assert.equal(oneArea.matchedCount, 7);
+  assert.equal(oneArea.areaCount, 1);
+  assert.equal(oneArea.complete, false);
+  const flexible = getSevenCourseProgress(courses, codes, {}, patternReviews(codes), { ...ap, "us-history": { score: "3" } });
+  assert.equal(flexible.complete, true);
+  assert.equal(flexible.matches.find(m => m.id === "ap:us-history")?.area, "UC-B");
+});
+
+test("equivalent English courses and honors versions cannot fill both English slots", () => {
+  for (const codes of [["AMLA 1A", "ENGL C1000", "ENGL C1000H"], ["ENGL C1001", "ENGL C1001H"]]) {
+    const result = getSevenCourseProgress(codes.map(code => unitCourse(code, 3)), codes, {}, patternReviews(codes), {});
+    assert.equal(result.english, 1);
+  }
+});
+
+test("source two-course and unit-based family limits constrain breadth matches", () => {
+  for (const codes of [["HIST 1", "HIST 7", "HIST 8", "PHIL 5"], ["BIOL 1", "BIOL 2", "BTNY 3", "PHIL 5"]]) {
+    const result = getSevenCourseProgress(codes.map(code => unitCourse(code, 3)), codes, {}, patternReviews(codes), {});
+    assert.equal(result.breadth, 3);
+  }
+});
+
+test("AP pattern credit respects subject designations, English cap and manual exclusions", () => {
+  const ap = { "english-language": { score: "3" }, "english-literature": { score: "5" }, "calculus-bc": { score: "2", abSubscore: "3" }, "computer-science-a": { score: "5" } };
+  const result = getSevenCourseProgress([], [], {}, {}, ap);
+  assert.equal(result.english, 1);
+  assert.equal(result.math, 1);
+  assert.equal(result.matchedCount, 2);
+  assert.equal(result.complete, false);
+  assert.equal(getSevenCourseProgress([], [], {}, {}, { "english-language": { score: "5", excludeFromUnits: true } }).english, 0);
+  assert.equal(getSevenCourseProgress([], [], {}, {}, { biology: { score: "2" } }).breadth, 0);
+});
+
+test("unknown courses and cleared selections cannot reuse stale pattern reviews", () => {
+  const courses = [unitCourse("UNKNOWN", 3), unitCourse("MATH 180", 4, 4, false)];
+  const result = getSevenCourseProgress(courses, courses.map(c => c.code), {}, patternReviews(courses.map(c => c.code)), {});
+  assert.deepEqual(result.unlisted, ["UNKNOWN"]);
+  assert.equal(result.matchedCount, 0);
+  assert.equal(getSevenCourseProgress(courses, [], {}, patternReviews(["MATH 180"]), {}).matchedCount, 0);
+});
 
 test("AP unit credit depends on valid scores, not just exam selection", () => {
   for (const score of ["", "0", "1", "2", "3.5", "6", "NaN"]) {

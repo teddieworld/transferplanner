@@ -27,10 +27,10 @@ export default function APExamSelector({ results, onChange }: APExamSelectorProp
             <p className="ap-exam-units" aria-live="polite">{result.excludeFromUnits ? "Excluded from unit total" : !result.score ? "Enter a score to calculate credit" : `${units} semester units before shared exam caps`}</p>
           </div>
           {exam.note && <p className="ap-exam-note">{exam.note}</p>}
-          <label className="ap-overlap-option"><input type="checkbox" checked={result.excludeFromUnits ?? false} onChange={event => onChange({ ...results, [exam.id]: { ...result, excludeFromUnits: event.target.checked } })} />Exclude this exam&apos;s units (for example, credit already counted through a college course)</label>
+          <label className="ap-overlap-option"><input type="checkbox" checked={result.excludeFromUnits ?? false} onChange={event => onChange({ ...results, [exam.id]: { ...result, excludeFromUnits: event.target.checked } })} />Exclude this exam&apos;s credit from units and the seven-course pattern (for example, credit already counted through a college course)</label>
         </div>;
       })}
-      <p className="ap-panel-note">AP and college coursework with the same content earn credit only once. Review any overlap and exclude duplicate AP credit above. Shared AP exam caps are applied automatically. AP scores affect this unit estimate; major course requirements and the seven-course transfer pattern are not automatically satisfied.</p>
+      <p className="ap-panel-note">AP and college coursework with the same content earn credit only once. Review any overlap and exclude duplicate AP credit above. Shared AP exam caps are applied automatically. Qualifying exams with UC subject designations contribute to the seven-course pattern estimate; major requirements use their existing course rules.</p>
       {selected.length > 0 && <button type="button" className="text-button" onClick={() => onChange({})}>Clear AP exams</button>}
     </section>
   );
