@@ -14,19 +14,6 @@ export const UC_AREA_LABELS: Record<UCArea, string> = {
   "UC-H": "Arts and humanities", "UC-B": "Social and behavioral sciences", "UC-S": "Physical and biological sciences"
 };
 
-// Only the UC admissions AP table's explicit subject designations are included.
-const apAreas: Record<string, UCArea[]> = {
-  "art-history": ["UC-H"], biology: ["UC-S"], chemistry: ["UC-S"],
-  microeconomics: ["UC-B"], macroeconomics: ["UC-B"],
-  "english-language": ["UC-E"], "english-literature": ["UC-E", "UC-H"],
-  "environmental-science": ["UC-S"], "government-us": ["UC-B"], "government-comparative": ["UC-B"],
-  "us-history": ["UC-B", "UC-H"], "european-history": ["UC-B", "UC-H"], "world-history": ["UC-B", "UC-H"],
-  "human-geography": ["UC-B"], chinese: ["UC-H"], french: ["UC-H"], german: ["UC-H"], italian: ["UC-H"],
-  latin: ["UC-H"], japanese: ["UC-H"], "spanish-language": ["UC-H"], "spanish-literature": ["UC-H"],
-  "calculus-ab": ["UC-M"], "calculus-bc": ["UC-M"], "music-theory": ["UC-H"],
-  "physics-1": ["UC-S"], "physics-2": ["UC-S"], "physics-c-mechanics": ["UC-S"], "physics-c-electricity": ["UC-S"],
-  psychology: ["UC-B"], statistics: ["UC-M"]
-};
 const passingGrades = new Set(["A+", "A", "A-", "B+", "B", "B-", "C+", "C", "P"]);
 export type PatternMatch = { id: string; label: string; area: UCArea; courseCode?: string };
 type Candidate = Omit<PatternMatch, "area"> & { areas: UCArea[]; group: string };
@@ -59,9 +46,10 @@ export function getSevenCourseProgress(
   const overlap = getAPOverlap(apResults, courses, completed, earnedUnits, reviews);
   for (const exam of AP_EXAMS) {
     const result = apResults[exam.id];
-    if (!result || overlap.excludedExamIds.includes(exam.id) || getAPExamUnits(exam, result) === 0 || !apAreas[exam.id]) continue;
+    const areas = overlap.checks.find(check => check.examId === exam.id)?.patternAreas ?? [];
+    if (!result || getAPExamUnits(exam, result) === 0 || areas.length === 0) continue;
     const family = exam.id.startsWith("calculus-") ? "calculus" : exam.bucket ?? exam.id;
-    candidates.push({ id: `ap:${exam.id}`, label: `AP ${exam.name}`, areas: apAreas[exam.id], group: `ap:${family}` });
+    candidates.push({ id: `ap:${exam.id}`, label: `AP ${exam.name}`, areas, group: `ap:${family}` });
   }
 
   // A course/exam gets one slot. Search all area assignments instead of greedily

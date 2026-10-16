@@ -3,6 +3,7 @@
 import type { Requirement } from "@/lib/planner";
 import { getRequirementStatus, getPreparationStatus, isOptionSatisfied, requirementStatusLabels } from "@/lib/planner";
 import Icon from "./Icon";
+import APPreparationCredit from "./APPreparationCredit";
 
 type RequirementDisplayProps = { requirement: Requirement; completedCourses: string[] };
 
@@ -36,9 +37,11 @@ export default function RequirementDisplay({ requirement, completedCourses }: Re
             {course.code}{course.title && <span className="receiving-course-title"> — {course.title}</span>}
           </span>
         )) : requirement.name}</strong>
-        <span className={`status-badge status-${status}`}>{requirementStatusLabels[status]}</span>
+        <span className={`status-badge status-${complete && requirement.apPreparation?.satisfied ? "satisfied" : status}`}>{requirement.apPreparation?.satisfied && complete ? "AP preparation match" : requirementStatusLabels[status]}</span>
       </div>
       {requirement.department && <p className="requirement-meta">Berkeley department: {requirement.department}</p>}
+      <APPreparationCredit requirement={requirement} />
+      {requirement.apPreparation?.satisfied && <p className="requirement-meta">College course equivalence: {requirementStatusLabels[status]}. AP preparation credit does not mark the Mt. SAC courses below as completed.</p>}
       {requirement.preparationOptions && <p className="requirement-meta">Course equivalence options</p>}
       <div className="requirement-options">{requirement.options.map((option, index) => (
         <div className={`requirement-option ${isOptionSatisfied(option, completedCourses) ? "option-complete" : ""}`} key={index}>

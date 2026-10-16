@@ -1,3 +1,5 @@
+import type { UCArea } from "./seven-course-pattern";
+
 // UC systemwide unit credit, checked 2026-10-15. Subject/major credit is campus-specific.
 export const AP_CREDIT_SOURCE = "https://admission.universityofcalifornia.edu/admission-requirements/ap-exam-credits/ap-credits/";
 export type APExam = { id: string; name: string; units: number; bucket?: string; note?: string };
@@ -46,6 +48,20 @@ export const AP_EXAMS: APExam[] = [
   { id: "us-history", name: "United States History", units: 5.3 },
   { id: "world-history", name: "World History: Modern", units: 5.3 }
 ];
+
+// Only the UC admissions AP table's explicit subject designations are included.
+export const AP_SUBJECT_AREAS: Record<string, UCArea[]> = {
+  "art-history": ["UC-H"], biology: ["UC-S"], chemistry: ["UC-S"],
+  microeconomics: ["UC-B"], macroeconomics: ["UC-B"],
+  "english-language": ["UC-E"], "english-literature": ["UC-E", "UC-H"],
+  "environmental-science": ["UC-S"], "government-us": ["UC-B"], "government-comparative": ["UC-B"],
+  "us-history": ["UC-B", "UC-H"], "european-history": ["UC-B", "UC-H"], "world-history": ["UC-B", "UC-H"],
+  "human-geography": ["UC-B"], chinese: ["UC-H"], french: ["UC-H"], german: ["UC-H"], italian: ["UC-H"],
+  latin: ["UC-H"], japanese: ["UC-H"], "spanish-language": ["UC-H"], "spanish-literature": ["UC-H"],
+  "calculus-ab": ["UC-M"], "calculus-bc": ["UC-M"], "music-theory": ["UC-H"],
+  "physics-1": ["UC-S"], "physics-2": ["UC-S"], "physics-c-mechanics": ["UC-S"], "physics-c-electricity": ["UC-S"],
+  psychology: ["UC-B"], statistics: ["UC-M"]
+};
 
 function validScore(score: string | undefined) {
   return score !== undefined && /^[1-5]$/.test(score);

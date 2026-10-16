@@ -1,5 +1,10 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
+import { readFileSync, readdirSync } from "node:fs";
+import { resolve } from "node:path";
+import { applyAPMajorCredit } from "../lib/ap-major-credit";
+import { BERKELEY_AP_POLICIES } from "../lib/ap-major-policies";
+import type { MajorAgreement, RequirementGroup } from "../lib/planner";
 import { buildAgreement } from "../lib/agreement-builder";
 import type { AgreementRow } from "../lib/agreement-builder";
 import { getRequirementStatus, getPreparationStatus, isCategorySatisfied, isGroupSatisfied, isOptionSatisfied } from "../lib/planner";
@@ -9,6 +14,152 @@ import { getTransferUnitProgress } from "../lib/transfer-units";
 import { AP_EXAMS, getAPCredit, getAPExamUnits } from "../lib/ap-credit";
 import { getSevenCourseProgress } from "../lib/seven-course-pattern";
 import type { CoursePatternReviews } from "../lib/seven-course-pattern";
+
+// Use the imported ASSIST shapes rather than inventing simpler course bundles.
+type GeneratedAgreement = {
+  university: string; major: string; academic_year: string;
+  groups: { name: string; category: string; required_count: number | null; review_required?: boolean; max_per_department?: number }[];
+  requirements: { text: string; group: string; category: string; articulation_status: Requirement["articulationStatus"]; options: { courses: string[] }[]; preparation_options?: string[][]; department?: string }[];
+};
+const agreementDirectory = resolve(process.cwd(), "../transferplanner/data/generated");
+const agreementFixtures = readdirSync(agreementDirectory).filter(name => name.endsWith(".json"))
+  .map(name => JSON.parse(readFileSync(resolve(agreementDirectory, name), "utf8")) as GeneratedAgreement).filter(data => data.major);
+function majorFixture(major: string): MajorAgreement {
+  const data = agreementFixtures.find(data => data.major.trim() === major)!;
+  assert.ok(data, `Missing source agreement: ${major}`);
+  const groups = (category: string): RequirementGroup[] => data.groups.filter(group => group.category === category).map(group => ({
+    name: group.name, requiredCount: group.required_count, reviewRequired: group.review_required, maxPerDepartment: group.max_per_department,
+    requirements: data.requirements.filter(req => req.group === group.name && req.category === category).map(req => ({
+      name: req.text, articulationStatus: req.articulation_status, options: req.options.map(option => option.courses),
+      preparationOptions: req.preparation_options, department: req.department,
+    })),
+  }));
+  return { university: data.university, major: data.major, academicYear: data.academic_year, requiredGroups: groups("required"), majorRequiredGroups: groups("major_required"), highlyRecommendedGroups: groups("highly_recommended") };
+}
+function allMajorRequirements(plan: MajorAgreement) {
+  return [...plan.requiredGroups, ...plan.majorRequiredGroups ?? [], ...plan.highlyRecommendedGroups].flatMap(group => group.requirements);
+}
+function majorRequirement(plan: MajorAgreement, name: string) {
+  const req = allMajorRequirements(plan).find(req => req.name === name);
+  assert.ok(req, `Missing requirement: ${name}`);
+  return req;
+}
+
+test("Berkeley CS AP scores reduce remaining preparation without marking college courses completed", () => {
+  const original = majorFixture("Computer Science, B.A.");
+  const ab = applyAPMajorCredit(original, { "calculus-ab": { score: "3" } }, []);
+  assert.equal(getPreparationStatus(majorRequirement(ab, "MATH 51"), []), "satisfied");
+  assert.equal(getRequirementStatus(majorRequirement(ab, "MATH 51"), []), "not_satisfied");
+  assert.equal(getPreparationStatus(majorRequirement(ab, "MATH 52"), []), "not_satisfied");
+  assert.equal(getRemainingGroup(ab.requiredGroups[0], []).remainingCount, 1);
+  const bc = applyAPMajorCredit(original, { "calculus-bc": { score: "5" } }, []);
+  assert.equal(isGroupSatisfied(bc.requiredGroups[0], []), true);
+  assert.equal(majorRequirement(original, "MATH 51").apPreparation, undefined);
+  assert.equal(getAPCredit({ "calculus-bc": { score: "5" } }).units, 5.3);
+});
+
+test("AP policies are scoped to campus, major, agreement year and valid exam scores", () => {
+  const original = majorFixture("Computer Science, B.A.");
+  for (const score of ["", "2", "6", "3.5", "03"]) {
+    const plan = applyAPMajorCredit(original, { "calculus-ab": { score } }, []);
+    assert.equal(majorRequirement(plan, "MATH 51").apPreparation, undefined);
+  }
+  for (const changes of [{ university: "University of California, Los Angeles" }, { academicYear: "2025–2026" }, { major: "Unknown major" }]) {
+    const plan = applyAPMajorCredit({ ...original, ...changes }, { "calculus-bc": { score: "5" } }, []);
+    assert.equal(majorRequirement(plan, "MATH 51").apPreparation, undefined);
+    assert.match(plan.apPreparationReview!.message, /not been reviewed/);
+  }
+  const cleared = applyAPMajorCredit(applyAPMajorCredit(original, { "calculus-ab": { score: "5" } }, []), {}, []);
+  assert.equal(majorRequirement(cleared, "MATH 51").apPreparation, undefined);
+});
+
+test("Engineering and Analytics accept BC 4 for calculus II; CS and Data Science require 5", () => {
+  for (const [major, minimum] of [["Mechanical Engineering, B.S.", 4], ["Analytics, B.A.", 4], ["Computer Science, B.A.", 5], ["Data Science, B.A.", 5]] as const) {
+    for (const score of [3, 4, 5]) {
+      const plan = applyAPMajorCredit(majorFixture(major), { "calculus-bc": { score: String(score) } }, []);
+      assert.equal(getPreparationStatus(majorRequirement(plan, "MATH 52"), []) === "satisfied", score >= minimum, `${major}: BC ${score}`);
+    }
+  }
+  const ap = { "calculus-bc": { score: "2", abSubscore: "3" } };
+  const engineeringPlan = applyAPMajorCredit(majorFixture("Mechanical Engineering, B.S."), ap, []);
+  assert.equal(getPreparationStatus(majorRequirement(engineeringPlan, "MATH 51"), []), "satisfied");
+  const cs = applyAPMajorCredit(majorFixture("Computer Science, B.A."), ap, []);
+  assert.equal(majorRequirement(cs, "MATH 51").apPreparation, undefined);
+});
+
+test("AP never completes only part of an AND sequence or a source review group", () => {
+  const plan = applyAPMajorCredit(majorFixture("Neuroscience, B.A."), { chemistry: { score: "5" }, biology: { score: "5" } }, []);
+  const chem = majorRequirement(plan, "CHEM 1A AND CHEM 1AL AND CHEM 1B");
+  assert.equal(chem.apPreparation?.satisfied, false);
+  assert.match(chem.apPreparation!.reviewNote!, /only part/);
+  assert.equal(getPreparationStatus(chem, []), "not_satisfied");
+  assert.equal(getPreparationStatus(majorRequirement(plan, "BIOLOGY 1A AND BIOLOGY 1AL"), []), "satisfied");
+  const original = majorFixture("Computer Science, B.A.");
+  original.requiredGroups[0].reviewRequired = true;
+  const reviewed = applyAPMajorCredit(original, { "calculus-bc": { score: "5" } }, []);
+  assert.equal(isGroupSatisfied(reviewed.requiredGroups[0], []), false);
+  original.requiredGroups[0].requirements[0].articulationStatus = "review_required";
+  const flagged = applyAPMajorCredit(original, { "calculus-bc": { score: "5" } }, []);
+  assert.equal(getPreparationStatus(flagged.requiredGroups[0].requirements[0], []), "review_required");
+});
+
+test("Economics supports both AP exams and reviewed AP plus college combinations", () => {
+  const original = majorFixture("Economics, B.A.");
+  const run = (ap: Parameters<typeof applyAPMajorCredit>[1], courses: string[] = []) => applyAPMajorCredit(original, ap, courses);
+  const micro = { microeconomics: { score: "4" } };
+  assert.equal(getPreparationStatus(majorRequirement(run(micro), "ECON 1"), []), "not_satisfied");
+  assert.equal(getPreparationStatus(majorRequirement(run(micro, ["ECON C2001"]), "ECON 1"), ["ECON C2001"]), "not_satisfied");
+  assert.equal(getPreparationStatus(majorRequirement(run(micro, ["ECON C2002H"]), "ECON 1"), ["ECON C2002H"]), "satisfied");
+  const both = run({ ...micro, macroeconomics: { score: "5" }, "calculus-bc": { score: "5" } });
+  assert.equal(isCategorySatisfied(both.requiredGroups, []), true);
+  const partialCalc = run({ "calculus-ab": { score: "5" } });
+  assert.equal(isGroupSatisfied(partialCalc.requiredGroups[1], []), false);
+  const hybridCalc = run({ "calculus-ab": { score: "3" } }, ["MATH 181"]);
+  assert.equal(isGroupSatisfied(hybridCalc.requiredGroups[1], ["MATH 181"]), true);
+  assert.deepEqual(hybridCalc.requiredGroups[1].requirements[0].apPreparation?.matches.find(match => match.collegeCourses)?.collegeCourses, ["MATH 181"]);
+});
+
+test("Psychology permits one AP prerequisite total and reallocates when college work covers it", () => {
+  const original = majorFixture("Psychology, B.A.");
+  const ap = { psychology: { score: "4" }, biology: { score: "5" }, "government-us": { score: "4" }, statistics: { score: "5" } };
+  const first = applyAPMajorCredit(original, ap, []);
+  const groups = first.majorRequiredGroups!;
+  assert.equal(isGroupSatisfied(groups[0], []), true);
+  assert.equal(isGroupSatisfied(groups[1], []), false);
+  assert.equal(isGroupSatisfied(groups[2], []), false);
+  assert.equal(isGroupSatisfied(groups[3], []), false);
+  const courses = ["PSYC C1000"];
+  const next = applyAPMajorCredit(original, ap, courses);
+  assert.equal(isGroupSatisfied(next.majorRequiredGroups![0], courses), true);
+  assert.equal(isGroupSatisfied(next.majorRequiredGroups![1], courses), true);
+  assert.equal(isGroupSatisfied(next.majorRequiredGroups![2], courses), false);
+});
+
+test("major-specific restrictions prevent generic AP course substitutions", () => {
+  const data = applyAPMajorCredit(majorFixture("Data Science, B.A."), { statistics: { score: "5" }, "computer-science-a": { score: "5" } }, []);
+  assert.ok(allMajorRequirements(data).every(req => !req.apPreparation));
+  const stats = applyAPMajorCredit(majorFixture("Statistics, B.A."), { statistics: { score: "5" } }, []);
+  assert.equal(getPreparationStatus(majorRequirement(stats, "STAT 2"), []), "satisfied");
+  assert.notEqual(getPreparationStatus(majorRequirement(stats, "STAT 20"), []), "satisfied");
+  const legal = applyAPMajorCredit(majorFixture("Legal Studies, B.A."), { statistics: { score: "3" }, "us-history": { score: "3" } }, []);
+  assert.equal(isGroupSatisfied(legal.majorRequiredGroups![0], []), true);
+  assert.equal(isGroupSatisfied(legal.majorRequiredGroups![3], []), true);
+  assert.equal(isGroupSatisfied(legal.majorRequiredGroups![2], []), false);
+  const rejected = applyAPMajorCredit(majorFixture("Political Science, B.A."), { "government-us": { score: "5" } }, []);
+  assert.ok(allMajorRequirements(rejected).every(req => !req.apPreparation));
+  assert.match(rejected.apPreparationReview!.message, /does not accept AP/);
+});
+
+test("every reviewed major policy has an imported agreement and evidence links", () => {
+  for (const [major, policy] of Object.entries(BERKELEY_AP_POLICIES)) {
+    const agreement = majorFixture(major);
+    assert.equal(agreement.academicYear, "2026–2027");
+    for (const rule of policy.rules) {
+      assert.ok(rule.source.startsWith("https://"));
+      assert.ok(rule.exams.every(exam => AP_EXAMS.some(item => item.id === exam.id)));
+    }
+  }
+});
 
 function patternReviews(codes: string[]): CoursePatternReviews {
   return Object.fromEntries(codes.map(code => [code, { grade: "C", term: "F", year: "2025" }]));
@@ -398,7 +549,6 @@ test("SQL rows retain distinct categories, empty mappings, notes, and paired cou
 
 // Generated plans retain source choices instead of prescribing every alternative.
 import { getCreditCourses, getMajorCourses, getRemainingGroup, getPatternSuggestions } from "../lib/transfer-plan";
-import type { RequirementGroup } from "../lib/planner";
 
 test("generated remaining groups preserve choose-N, AND/OR, review flags and preparation exceptions", () => {
   const first: Requirement = { name: "First", articulationStatus: "articulated", options: [["A", "B"], ["C"]] };
@@ -639,4 +789,44 @@ test("missing source dates and new unsupported conditions never silently auto-ap
     mapping.notes = originalNotes;
     mapping.approvals = originalApprovals;
   }
+});
+
+test("AP Lang score 3 fills one English slot even when a duplicate college course is pending", () => {
+  const courses = [unitCourse("ENGL C1000", 4), unitCourse("ENGL C1001", 4)];
+  const ap = { "english-language": { score: "3" } };
+  assert.equal(getSevenCourseProgress([], [], {}, {}, ap).english, 1);
+  for (const review of [{ grade: "A" }, { grade: "A", term: "F", year: "2024" }]) {
+    const reviews = { "ENGL C1000": review };
+    const pattern = getSevenCourseProgress(courses, ["ENGL C1000"], {}, reviews, ap);
+    assert.equal(pattern.english, 1);
+    assert.deepEqual(pattern.matches.map(match => match.id), ["ap:english-language"]);
+    assert.deepEqual(pattern.overlap.excludedExamIds, ["english-language"]);
+    assert.deepEqual(pattern.overlap.patternExcludedExamIds, []);
+    assert.equal(getTransferUnitProgress(courses, ["ENGL C1000"], {}, ap, reviews).totalUnits, 4);
+  }
+  for (const score of ["1", "2", ""]) {
+    assert.equal(getSevenCourseProgress([], [], {}, {}, { "english-language": { score } }).english, 0);
+  }
+});
+
+test("approved college English replaces AP Lang without adding a duplicate English slot", () => {
+  const codes = ["ENGL C1000", "ENGL C1001"];
+  const courses = codes.map(code => unitCourse(code, 4));
+  const ap = { "english-language": { score: "3" } };
+  const reviews = patternReviews(codes);
+  const first = getSevenCourseProgress(courses, ["ENGL C1000"], {}, reviews, ap);
+  assert.equal(first.english, 1);
+  assert.deepEqual(first.matches.map(match => match.id), ["course:ENGL C1000"]);
+  assert.deepEqual(first.overlap.patternExcludedExamIds, ["english-language"]);
+  assert.equal(getSevenCourseProgress(courses, codes, {}, reviews, ap).english, 2);
+  assert.equal(getSevenCourseProgress(courses, ["ENGL C1001"], {}, reviews, ap).english, 2);
+});
+
+test("AP subject credit survives missing replacement units and keeps its one-exam English cap", () => {
+  const courses = [unitCourse("ENGL C1000", 2, 4)];
+  const ap = { "english-language": { score: "3" }, "english-literature": { score: "4" } };
+  const result = getSevenCourseProgress(courses, ["ENGL C1000"], { "ENGL C1000": "2.5" }, patternReviews(["ENGL C1000"]), ap);
+  assert.equal(result.english, 1);
+  assert.equal(new Set(result.matches.map(match => match.id)).size, result.matches.length);
+  assert.equal(getSevenCourseProgress(courses, [], {}, {}, ap).english, 1);
 });

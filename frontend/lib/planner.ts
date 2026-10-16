@@ -28,6 +28,11 @@ export type Requirement = {
     options: string[][];
     preparationOptions?: string[][];
     preparationNote?: string;
+    apPreparation?: {
+      satisfied: boolean;
+      matches: { exams: string[]; collegeCourses?: string[]; covers: string[]; source: string; note?: string }[];
+      reviewNote?: string;
+    };
     department?: string;
     articulationStatus:
         | "articulated"
@@ -71,6 +76,7 @@ export function getPreparationStatus(
   completedCourses: string[]
 ): RequirementStatus {
   if (requirement.articulationStatus === "review_required") return "review_required";
+  if (requirement.apPreparation?.satisfied) return "satisfied";
   if (requirement.preparationOptions === undefined) {
     return getRequirementStatus(requirement, completedCourses);
   }
@@ -140,4 +146,5 @@ export type MajorAgreement = {
   kind?: "structured" | "informational";
   notes?: string[];
   reviewNotes?: string[];
+  apPreparationReview?: { message: string; unmatchedExams: string[] };
 };

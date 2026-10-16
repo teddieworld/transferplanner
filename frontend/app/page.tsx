@@ -20,6 +20,8 @@ import { UC_CAMPUSES, getCreditCourses, getMajorCourses, getPatternSuggestions }
 import type { CampusChoice, StudentProfile } from "@/lib/transfer-plan";
 import { getTransferUnitProgress } from "@/lib/transfer-units";
 import { getAPOverlap } from "@/lib/ap-overlap";
+import { applyAPMajorCredit } from "@/lib/ap-major-credit";
+import { getPreparationStatus } from "@/lib/planner";
 
 type PlannerTab = "colleges" | "ap" | "courses" | "plan";
 const tabs = [
@@ -116,7 +118,7 @@ export default function Home() {
           const response = await fetch(`/api/agreement?${new URLSearchParams({ university: campus.name, major: choice.major, year: choice.academicYear })}`);
           if (!response.ok) throw new Error("Agreement unavailable");
           const agreement: MajorAgreement = await response.json();
-          return { campus: campus.label, major: choice.major, agreement };
+          return { campus: campus.label, major: choice.major, agreement: applyAPMajorCredit(agreement, apResults, getMajorCourses(completedCourses, patternReviews)) };
         } catch {
           return { ...base, message: "We couldn’t load this campus’s agreement. Regenerate to retry; do not treat this as an evaluated major plan." };
         }
@@ -124,7 +126,7 @@ export default function Home() {
       const creditCourses = getCreditCourses(completedCourses, patternReviews);
       const priorityCodes = agreements.flatMap(result => result.agreement?.requiredGroups
         .filter(group => !group.reviewRequired).flatMap(group => group.requirements
-          .filter(requirement => requirement.articulationStatus !== "review_required")
+          .filter(requirement => requirement.articulationStatus !== "review_required" && getPreparationStatus(requirement, getMajorCourses(completedCourses, patternReviews)) !== "satisfied")
           .flatMap(requirement => (requirement.preparationOptions ?? requirement.options).flat())) ?? []);
       setGenerated({ key: inputKey, profile, agreements, catalog: courses, completed: completedCourses,
         creditCourses, majorCourses: getMajorCourses(completedCourses, patternReviews), earnedUnits, apResults, reviews: patternReviews,

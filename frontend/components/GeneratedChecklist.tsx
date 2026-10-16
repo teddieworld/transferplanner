@@ -4,6 +4,7 @@ import { getRemainingGroup } from "@/lib/transfer-plan";
 import type { getPatternSuggestions } from "@/lib/transfer-plan";
 import RequirementDisplay from "./RequirementDisplay";
 import MajorPlan from "./MajorPlan";
+import APPreparationCredit from "./APPreparationCredit";
 import { EXAMPLE_COURSE_TERM, formatTerm } from "@/lib/course-approval";
 
 export type AgreementResult = { campus: string; major: string; agreement: MajorAgreement | null; message?: string };
@@ -15,10 +16,11 @@ function RemainingGroups({ groups, completed }: { groups: RequirementGroup[]; co
     return <section className="remaining-group" key={`${group.name}-${index}`}>
       <div className="remaining-heading"><h4>Group {group.name}</h4><span className={`status-badge status-${group.reviewRequired ? "review_required" : remaining.complete ? "satisfied" : "not_satisfied"}`}>{group.reviewRequired ? "Needs adviser review" : remaining.complete ? "Matched" : "Remaining"}</span></div>
       {group.reviewRequired ? <p className="checklist-note">Completion rules need adviser review. The options below are source information, not an automatically generated course prescription.</p>
-        : remaining.complete ? <p className="checklist-note">Your entered college coursework matches this group&apos;s course rules.</p>
+        : remaining.complete ? <p className="checklist-note">Your entered coursework and supported AP credit match this group&apos;s preparation rules.</p>
           : <p className="checklist-note">{group.requiredCount === null ? `Complete the ${remaining.remainingCount} remaining requirement${remaining.remainingCount === 1 ? "" : "s"} below.` : `Choose ${remaining.remainingCount} more requirement${remaining.remainingCount === 1 ? "" : "s"} from the alternatives below; not every listed alternative is required.`}</p>}
       {group.maxPerDepartment !== undefined && <p className="checklist-note">No more than {group.maxPerDepartment} matched requirements per department count. {remaining.matchedRequirements.length} requirements currently have course matches; department limits still apply.</p>}
       {group.note && <details className="group-notes"><summary>Group conditions</summary><p>{group.note}</p></details>}
+      {!group.reviewRequired && remaining.matchedRequirements.filter(requirement => requirement.apPreparation).map((requirement, i) => <APPreparationCredit key={`${requirement.name}-${i}`} requirement={requirement} />)}
       {(!remaining.complete || group.reviewRequired) && (group.reviewRequired ? group.requirements : remaining.requirements).map((requirement, i) => <RequirementDisplay key={`${requirement.name}-${i}`} requirement={requirement} completedCourses={completed} />)}
       {!remaining.complete && !group.reviewRequired && remaining.requirements.length === 0 && <p className="checklist-note">Review the full agreement to resolve group limits and available choices.</p>}
     </section>;
@@ -44,11 +46,12 @@ export default function GeneratedChecklist({ agreements, completed, suggestions,
       </div>)}
     </section>
     <section className="checklist-section" aria-labelledby="major-checklist-heading"><h3 id="major-checklist-heading">Major preparation by campus</h3>
-      <p className="checklist-note">Complete admission preparation by the campus and major&apos;s applicable deadline. “OR” separates alternatives; “AND” means courses belong together. AP exams are not automatically applied to major requirements. Course matches still need a review of grades and agreement conditions.</p>
+      <p className="checklist-note">Complete admission preparation by the campus and major&apos;s applicable deadline. “OR” separates alternatives; “AND” means courses belong together. Supported AP scores are checked against each major&apos;s reviewed policy. Matches still need a review of grades and agreement conditions.</p>
       {agreements.map(result => <article className="campus-plan" key={result.campus}>
         <h3>{result.campus}</h3><p className="campus-major">{result.major}</p>
         {!result.agreement ? <p className="unavailable-plan">{result.message} General UC units and pattern progress are included; major preparation has not been evaluated.</p> : <>
           <p className="checklist-note">ASSIST agreement: <strong>{result.agreement.academicYear}</strong>. This is the course-mapping source year, not your intended entry term. Confirm it applies to the courses you plan to take.</p>
+          {result.agreement.apPreparationReview && <div className="group-guidance"><p>{result.agreement.apPreparationReview.message}</p>{result.agreement.apPreparationReview.unmatchedExams.length > 0 && <p>No automatic major match: {result.agreement.apPreparationReview.unmatchedExams.join("; ")}. Unit credit and seven-course pattern credit are evaluated separately.</p>}</div>}
           {result.agreement.kind === "informational" ? <p className="unavailable-plan">This agreement contains program guidance rather than a calculable checklist. Review the full agreement and consult an adviser.</p> : <>
             <h4 className="checklist-category-title">Required for admission</h4><RemainingGroups groups={result.agreement.requiredGroups} completed={completed} />
             {(result.agreement.majorRequiredGroups?.length ?? 0) > 0 && <details className="preparation-extras"><summary>Additional lower-division major preparation</summary><p className="checklist-note">Some degree requirements can be completed after transfer. Check the agreement before treating them as admission requirements.</p><RemainingGroups groups={result.agreement.majorRequiredGroups!} completed={completed} /></details>}

@@ -202,10 +202,36 @@ of assigning an invented equivalent. The CS Principles table has an ambiguous
 historical footnote, so that exam is also left for review.
 
 `lib/course-credit.ts` shares grade and earned-unit rules between the resolver,
-unit calculator and plan generator. Automatic full exclusions apply to both units
-and the seven-course pattern, and the suggested-course checker also uses them.
+unit calculator and plan generator. Unit exclusions are separate from pattern subject credit. A qualifying AP exam
+retains its UC-designated subject areas until eligible equivalent college courses
+(with a qualifying grade, at least 3 units and an applicable approval) cover those
+areas. This prevents AP Lang from disappearing when ENGL C1000 is entered without
+a valid completion term, while preventing both from adding duplicate English
+slots once the college course qualifies. The suggested-course checker also uses
+these rules.
 Course-area approval dates and supported conditions are checked automatically
-from completion terms; unresolved course checks do not count toward the pattern. AP scores do not automatically satisfy major requirements.
+from completion terms; unresolved course checks do not count toward the pattern. Supported AP scores are applied separately to major preparation using reviewed campus/major/year policies.
+Major preparation also checks `lib/ap-major-policies.ts` through
+`applyAPMajorCredit`. These reviewed exceptions are scoped to Berkeley, the exact
+major, and the 2026–27 agreement year. Sources are the imported ASSIST exam-credit
+notes and the linked Math, Data Science and Engineering policies, checked
+2026-10-15. Different majors deliberately have different thresholds (for example,
+BC 4 for Engineering/Analytics calculus II versus BC 5 for CS/Data Science).
+The generated checklist and full agreement show the exam, score, receiving
+requirement and policy link. Unsupported exams/majors/years remain explicitly
+unmatched rather than borrowing Mt. SAC AP equivalencies or general UC credit.
+
+AP preparation does not create completed college courses or add units. It updates
+preparation matching only; full course equivalence remains separate. AND/OR
+requirements, department limits and source review flags still apply. Partial AP
+coverage of a bundled science sequence is displayed for review and cannot clear
+the sequence. Reviewed Economics rules support both AP exams, or one exam plus
+the complementary completed Mt. SAC economics course. Psychology uses at most
+one exam-based prerequisite across all groups and reallocates it when college
+coursework already fulfills a group. Placement tests, language waivers, ambiguous
+source instructions and unreviewed policies still require department review.
+Regenerate the plan after changing scores or courses to update these matches.
+
 Clear AP exams resets only AP entries; Clear all in the course list resets courses,
 earned units and course reviews.
 
@@ -263,8 +289,8 @@ No hypothetical course is marked as completed.
 Qualifying AP scores use only the UC AP table's explicit E/M/H/B/S designations.
 One exam fills one slot, at most one English slot uses AP, and overlapping AP
 families count once. The calculator searches possible area assignments so an
-H/B course can supply either area, but cannot occupy both. Automatically excluding a fully matched AP exam
-removes it from both units and this pattern. Partial or unmapped AP/course
+H/B course can supply either area, but cannot occupy both. Excluding duplicate AP units does not remove valid AP subject credit when its
+college counterpart is still pending or unapproved for the pattern. Partial or unmapped AP/course
 duplication retains provisional credit and is flagged for UC review. Selections, grades and completion terms last only while the page is
 open; clearing courses also clears their pattern reviews.
 
