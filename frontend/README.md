@@ -122,16 +122,40 @@ Read-only endpoints:
 - `/api/agreement?university=...&major=...&year=...`
 
 The browser cancels obsolete requests when selections change. Changing a
-university clears the major and year; changing the major clears the year.
-Completed Mt. SAC courses stay selected when switching destination agreements.
+campus major clears that campus’s agreement year. Unchecking a campus removes
+its goal; course and AP entries remain in place.
 
-The planner has Destination, Courses, AP credit, Transfer progress, and Major
-requirements tabs. Course/AP entry and transfer progress work without a
-destination; major requirements become available after choosing a university,
-major and year. Entries stay in `Home` state while tabs switch. Arrow keys,
-Home and End navigate the tabs; the tab bar scrolls horizontally on small screens.
+The planner has four tabs: Colleges & timing, AP credit, College courses, and
+Your plan. Students select multiple UC campus goals, an intended major per
+campus, their current college year and an intended entry term/year. Major and
+source agreement years are selected independently for each campus with imported
+agreements. Campuses without imported agreements accept a free-text major goal
+and explicitly report that major preparation is not evaluated.
 
-The Transfer progress tab shows estimated UC-transferable semester units toward
+College courses holds transcript grades, variable units and manual ASSIST
+approval confirmations. Generation captures a snapshot of all entries, fetches
+each selected agreement, and builds a remaining-course checklist. Later edits
+mark that result as outdated until regeneration. There is no semester scheduling,
+admission-term availability check, prerequisite scheduling, or automatic deadline
+calculation. Current year and entry term are planning context.
+
+`lib/transfer-plan.ts` preserves AND/OR options, choose-N rules, department caps,
+review flags and reviewed preparation exceptions. Additional degree preparation
+and recommendations stay separate from admission requirements. Seven-course
+suggestions show up to eight example alternatives per category for individual
+remaining slots, prioritizing admission-preparation courses and low-grade
+retakes. Options are verified against the existing pattern matcher (assuming a future C grade, sufficient earned units and
+applicable approval). They are not a single prescribed set of courses. No future
+course is added to earned credit. D/C- grades can contribute units but not subject
+preparation; F/NP/W do not contribute units. Missing grades leave unit/major
+matches provisional. Higher major grade requirements still need source review.
+See [UC transfer GPA and unit rules](https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/transfer-gpa.html).
+
+Entries and the generated snapshot stay in `Home` state while tabs switch and
+clear on refresh. Arrow keys, Home and End navigate the tabs; the tab bar scrolls
+horizontally on small screens.
+
+The generated plan shows estimated UC-transferable semester units toward
 a 60-unit target, independently of the selected major's matches.
 Only selected courses marked UC transferable contribute. Fixed-unit courses use
 their catalog units; variable-unit courses require an earned-unit entry within
@@ -151,14 +175,14 @@ not inferred from course titles. AP scores do not automatically satisfy major
 requirements. Clear AP exams resets only
 AP entries; the course list's Clear all resets only courses and earned units.
 
-These entries last only while the page is open. Grades, repeats, equivalent or
-honors course credit limits, and other UC restrictions are not evaluated;
+These entries last only while the page is open. Campus-specific grade requirements, repeats, equivalent or
+honors unit-credit limits, and other UC restrictions are not evaluated;
 IB/A-level credit and other colleges' coursework are not included. This is a
 planning estimate, not a determination of admission eligibility.
 
 ### UC seven-course pattern estimate
 
-The Transfer progress tab also calculates the UC admission pattern:
+The generated plan also calculates the UC admission pattern:
 two UC-E courses, one UC-M course, and four UC-H/B/S courses across at least two
 of those three subject areas. This is separate from Berkeley's degree breadth
 and major requirements. The course-area snapshot is
@@ -169,7 +193,7 @@ Its 277 verified mappings, source URL, footnotes and academic year are preserved
 Courses missing from this snapshot remain unverified, including renamed courses
 whose exact current codes are absent; they are not inferred from department names.
 
-Expand the pattern's review section to enter each selected course's grade and
+In College courses, enter each selected course's grade and
 confirm that the source approval applies to its completion term and that its
 listed credit conditions are met. C or better (including P/CR equivalent to C)
 and at least 3 earned semester units are required for a college course to count.

@@ -395,3 +395,70 @@ test("SQL rows retain distinct categories, empty mappings, notes, and paired cou
   assert.throws(() => buildAgreement(metadata, [{ ...row, courseCode: null }]), /no courses/);
   assert.throws(() => buildAgreement(metadata, [{ ...row, articulationStatus: "invalid" }]), /Invalid articulation/);
 });
+
+// Generated plans retain source choices instead of prescribing every alternative.
+import { getCreditCourses, getMajorCourses, getRemainingGroup, getPatternSuggestions } from "../lib/transfer-plan";
+import type { RequirementGroup } from "../lib/planner";
+
+test("generated remaining groups preserve choose-N, AND/OR, review flags and preparation exceptions", () => {
+  const first: Requirement = { name: "First", articulationStatus: "articulated", options: [["A", "B"], ["C"]] };
+  const second: Requirement = { name: "Second", articulationStatus: "articulated", options: [["D", "E"]], preparationOptions: [["D"]] };
+  const third: Requirement = { name: "Third", articulationStatus: "partial", options: [["F"]] };
+  const group: RequirementGroup = { name: "Choose two", requiredCount: 2, requirements: [first, second, third] };
+  const result = getRemainingGroup(group, ["A", "D", "F"]);
+  assert.equal(result.remainingCount, 1);
+  assert.equal(result.complete, false);
+  assert.deepEqual(result.requirements, [first, third]);
+  assert.deepEqual(result.requirements[0].options, [["A", "B"], ["C"]]);
+  assert.equal(getRemainingGroup(group, ["C", "D"]).complete, true);
+  assert.equal(getRemainingGroup({ ...group, reviewRequired: true }, ["C", "D"]).complete, false);
+});
+
+test("remaining requirements respect department caps and retain unmatched alternatives", () => {
+  const requirements: Requirement[] = ["A", "B", "C", "D"].map((code, index) => ({ name: code, options: [[code]], articulationStatus: "articulated", department: index < 3 ? "History" : "Philosophy" }));
+  const group: RequirementGroup = { name: "Breadth", requiredCount: 3, maxPerDepartment: 2, requirements };
+  const result = getRemainingGroup(group, ["A", "B", "C"]);
+  assert.equal(result.complete, false);
+  assert.equal(result.remainingCount, 1);
+  assert.deepEqual(result.requirements.map(req => req.name), ["D"]);
+  assert.equal(getRemainingGroup(group, ["A", "B", "D"]).complete, true);
+});
+
+test("unit-credit grades differ from preparation grades and missing grades remain provisional", () => {
+  const codes = ["A", "C-", "D+", "D", "D-", "F", "NP", "W", "P", "Missing"];
+  const reviews = Object.fromEntries(codes.filter(code => code !== "Missing").map(grade => [grade, { grade, approvalConfirmed: true }]));
+  assert.deepEqual(getCreditCourses([...codes, "A"], reviews), ["A", "C-", "D+", "D", "D-", "P", "Missing"]);
+  assert.deepEqual(getMajorCourses(codes, reviews), ["A", "P", "Missing"]);
+});
+
+test("pattern suggestions respect AP credit, equivalent courses and low-grade retakes", () => {
+  const courses = [unitCourse("ENGL C1000", 3), unitCourse("ENGL C1000H", 3), unitCourse("ENGL C1001", 3), unitCourse("MATH 180", 4), unitCourse("BIOL 1", 4)];
+  const reviews = { ...patternReviews(["ENGL C1000"]), "MATH 180": { grade: "F", approvalConfirmed: true } };
+  const suggestions = getPatternSuggestions(courses, ["ENGL C1000", "MATH 180"], {}, reviews, { biology: { score: "3" } });
+  assert.equal(suggestions[0].remaining, 1);
+  assert.deepEqual(suggestions[0].courses.map(course => course.code), ["ENGL C1001"]);
+  assert.deepEqual(suggestions[1].courses.map(course => course.code), ["MATH 180"]);
+  assert.equal(suggestions[2].remaining, 3);
+  const afterAPMath = getPatternSuggestions(courses, [], {}, {}, { statistics: { score: "3" } });
+  assert.equal(afterAPMath[1].remaining, 0);
+  assert.equal(afterAPMath[1].courses.length, 0);
+});
+
+test("a full single-area breadth set gets replacement choices and completed patterns get none", () => {
+  const codes = ["ENGL C1000", "ENGL C1001", "MATH 180"];
+  const courses = [...codes.map(code => unitCourse(code, 3)), unitCourse("SOC 1", 3)];
+  const ap = { chinese: { score: "3" }, french: { score: "3" }, german: { score: "3" }, italian: { score: "3" } };
+  const replacement = getPatternSuggestions(courses, codes, {}, patternReviews(codes), ap);
+  assert.equal(replacement[2].remaining, 1);
+  assert.deepEqual(replacement[2].courses.map(course => course.code), ["SOC 1"]);
+  const completed = getPatternSuggestions(courses, [...codes, "SOC 1"], {}, patternReviews([...codes, "SOC 1"]), ap);
+  assert.ok(completed.every(item => item.remaining === 0 && item.courses.length === 0));
+});
+
+test("a short set of pattern examples prioritizes a major course over unrelated alternatives", () => {
+  const codes = ["MATH 100", "MATH 110", "MATH 120", "MATH 130", "MATH 140", "MATH 150", "MATH 160", "MATH 180", "MATH 181", "MATH 260", "MATH 290"];
+  const courses = codes.map(code => unitCourse(code, 4));
+  const suggestions = getPatternSuggestions(courses, [], {}, {}, {}, ["MATH 260"]);
+  assert.equal(suggestions[1].courses[0].code, "MATH 260");
+  assert.ok(suggestions[1].courses.length <= 8);
+});

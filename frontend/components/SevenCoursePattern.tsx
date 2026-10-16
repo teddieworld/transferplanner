@@ -7,9 +7,10 @@ type Props = {
   courses: CourseCatalogEntry[] | null; isLoading: boolean; error: string | null;
   completedCourses: string[]; earnedUnits: Record<string, string>; apResults: APResults;
   reviews: CoursePatternReviews; onReviewsChange: (reviews: CoursePatternReviews) => void;
+  showReview?: boolean;
 };
 
-export default function SevenCoursePattern({ courses, isLoading, error, completedCourses, earnedUnits, apResults, reviews, onReviewsChange }: Props) {
+export default function SevenCoursePattern({ courses, isLoading, error, completedCourses, earnedUnits, apResults, reviews, onReviewsChange, showReview = true }: Props) {
   if (isLoading) return <section className="unit-summary" aria-label="UC seven-course pattern"><p role="status">Loading seven-course pattern...</p></section>;
   if (error || !courses) return <section className="unit-summary" aria-label="UC seven-course pattern"><p role="alert">The seven-course pattern is unavailable until the catalog loads.</p></section>;
   const progress = getSevenCourseProgress(courses, completedCourses, earnedUnits, reviews, apResults);
@@ -29,7 +30,7 @@ export default function SevenCoursePattern({ courses, isLoading, error, complete
       </div>)}</div>
       {progress.pendingCount > 0 && <p className="unit-exclusion">{progress.pendingCount} selected {progress.pendingCount === 1 ? "course needs" : "courses need"} a grade, valid earned units, or approval confirmation before counting here.</p>}
       <p className="unit-summary-note">Course areas: ASSIST Mt. SAC {UC_ELIGIBILITY.academicYear}. At our {UC_ELIGIBILITY.checkedOn} check, ASSIST displayed this list because 2026–2027 was unavailable. Confirm the approval dates and restrictions apply to each course you took; listings can change by year.</p>
-      {progress.reviewCourses.length > 0 && <details className="pattern-review"><summary>Review selected course grades and approvals ({progress.reviewCourses.length})</summary>
+      {showReview && progress.reviewCourses.length > 0 && <details className="pattern-review"><summary>Review selected course grades and approvals ({progress.reviewCourses.length})</summary>
         <p>Only grades C or better, or P/CR equivalent to C or better, count. Each college course needs at least 3 semester units. Enter variable units in the unit tracker above.</p>
         {progress.reviewCourses.map(course => {
           const mapping = getCourseEligibility(course.code)!;
